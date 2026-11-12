@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>FP Cuenta: calculadora de faltas de asistencia para FP</title>
+  <meta name="description" content="Calcula cuántas horas puedes faltar en cada módulo de tu ciclo de FP, de grado medio o superior, sin perder la evaluación continua. Gratis y sin registro.">
+  <link rel="canonical" href="https://www.tudominio.es/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <meta name="theme-color" content="#f2f5fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1530" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="FP Cuenta">
+  <meta property="og:title" content="FP Cuenta: calculadora de faltas de asistencia para FP">
+  <meta property="og:description" content="Calcula cuántas horas puedes faltar en cada módulo de tu ciclo de FP y cuántas te quedan por trimestre.">
+  <meta property="og:url" content="https://www.tudominio.es/">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c3faa'/%3E%3Cg fill='none' stroke-linecap='round' stroke-width='3'%3E%3Cpath stroke='white' d='M8 8v16M13.5 8v16M19 8v16M24.5 8v16'/%3E%3Cpath stroke='%23ff8a9a' d='M4.5 22.5 28 9.5'/%3E%3C/g%3E%3C/svg%3E">
+
+  <!--
+    ADSENSE
+    No pegues el código de AdSense aquí. Escribe tu ID en CONFIG.adsenseClient (script.js):
+    el script de Google se carga solo si la persona acepta las cookies.
+    Si Google te pide verificar el sitio con metaetiqueta, descomenta y completa esta línea:
+    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+  -->
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FP Cuenta",
+    "url": "https://www.tudominio.es/",
+    "inLanguage": "es-ES",
+    "description": "Herramientas gratuitas para el alumnado de Formación Profesional: calculadora de faltas de asistencia por módulo y, próximamente, calculadora de notas por resultados de aprendizaje."
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="FP Cuenta, ir al inicio">
+        <svg class="brand-mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false">
+          <g fill="none" stroke-linecap="round" stroke-width="3">
+            <path stroke="currentColor" d="M8 8v16M13.5 8v16M19 8v16M24.5 8v16"/>
+            <path stroke="var(--red)" d="M4.5 22.5 28 9.5"/>
+          </g>
+        </svg>
+        <span class="brand-name">FP Cuenta</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="sr-only">Menú</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Principal">
+        <ul>
+          <li><a href="calculadora-faltas.html">Calculadora de faltas</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#preguntas">Preguntas frecuentes</a></li>
+          <li><a href="#sugerencias">Sugerencias</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- ============ PORTADA ============ -->
+    <section class="hero" aria-labelledby="titulo-hero">
+      <div class="wrap hero-grid">
+
+        <div class="hero-copy">
+          <h1 id="titulo-hero">Calcula cuántas horas puedes faltar en tu ciclo de FP</h1>
+          <p class="lead">
+            Elige tu comunidad autónoma, tu ciclo y tu curso. Apunta las horas que llevas faltadas
+            en cada módulo y te decimos cuántas te quedan, en total y por trimestre.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="calculadora-faltas.html">Calcular mis faltas</a>
+            <a class="btn btn-secondary" href="#sugerencias">Dejar una sugerencia</a>
+          </div>
+          <p class="fineprint">Gratis y sin registro. Los cálculos se hacen en tu navegador.</p>
+        </div>
+
+        <!-- Demo interactiva: hoja de asistencia con palotes -->
+        <div class="register" id="demo" data-total-hours="160" data-limit-pct="15" data-terms="3">
+          <h2 class="register-title" id="demo-titulo">Pruébalo con un ejemplo</h2>
+          <p class="register-intro">Módulo de 160 horas con un límite del 15 %: puedes faltar hasta 24 horas.</p>
+
+          <div class="tally" id="demo-tally" role="img" aria-label="9 horas faltadas de un límite de 24"></div>
+
+          <div class="register-control">
+            <label for="demo-range">Horas faltadas</label>
+            <input type="range" id="demo-range" min="0" max="30" step="1" value="9" aria-describedby="demo-resultado">
+            <output id="demo-value" for="demo-range">9 h</output>
+          </div>
+
+          <p class="register-result" id="demo-resultado" data-state="ok" aria-live="polite">
+            Llevas 9 horas de 24. Te quedan 15 horas, unas 5 por trimestre si las repartes entre 3.
+          </p>
+          <p class="register-note">Ejemplo ilustrativo. El límite real depende de tu comunidad y de tu centro.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ OPCIONES ============ -->
+    <section class="section" id="opciones" aria-labelledby="t-opciones">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="t-opciones">Qué puedes hacer aquí</h2>
+          <p>Empieza por la calculadora de faltas. La de notas está en preparación y el buzón de sugerencias ya está abierto.</p>
+        </div>
+
+        <ul class="options">
+          <li class="option option-live">
+            <a class="option-link" href="calculadora-faltas.html">
+              <span class="option-status">Disponible</span>
+              <div class="option-body">
+                <h3>Calculadora de faltas</h3>
+                <p>Para cada módulo de tu ciclo: cuántas horas puedes faltar en total, cuántas te quedan y un reparto aproximado por trimestre.</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="option option-soon">
+            <div class="option-link">
+              <span class="option-status">Próximamente</span>
+              <div class="option-body">
+                <h3>Calculadora de notas por resultados de aprendizaje</h3>
+                <p>Introduce la nota de cada resultado de aprendizaje o márcalo como «sin cursar» y calcula tu nota final del módulo.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="option option-open">
+            <a class="option-link" href="#sugerencias">
+              <span class="option-status">Abierto</span>
+              <div class="option-body">
+                <h3>Buzón de sugerencias</h3>
+                <p>¿Falta tu ciclo o tu módulo? ¿Has visto un dato incorrecto? Cuéntanoslo y lo revisamos.</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO FUNCIONA ============ -->
+    <section class="section section-ruled" id="como-funciona" aria-labelledby="t-como">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="t-como">Cómo funciona la calculadora de faltas</h2>
+          <p>Cinco pasos y sin crear cuenta.</p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <h3>Elige tu comunidad</h3>
+            <p>Cada comunidad autónoma tiene su propia normativa de evaluación.</p>
+          </li>
+          <li>
+            <h3>Escoge tu ciclo</h3>
+            <p>Grado medio o grado superior, con la lista de ciclos para elegir.</p>
+          </li>
+          <li>
+            <h3>Indica el curso</h3>
+            <p>Primero o segundo, para ver los módulos que te corresponden.</p>
+          </li>
+          <li>
+            <h3>Apunta tus faltas</h3>
+            <p>Escribe las horas que llevas faltadas en cada módulo.</p>
+          </li>
+          <li>
+            <h3>Mira lo que te queda</h3>
+            <p>Horas restantes por módulo y un reparto aproximado por trimestre.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTENIDO INFORMATIVO ============ -->
+    <section class="section section-ruled" id="faltas-en-fp" aria-labelledby="t-faltas">
+      <div class="wrap info-grid">
+        <h2 id="t-faltas" class="info-title">Cómo se cuentan las faltas en FP</h2>
+
+        <div class="prose">
+          <p>
+            En los ciclos formativos presenciales, la evaluación continua depende de que vayas a clase con regularidad.
+            La normativa estatal (Real Decreto 659/2023) establece que el número de faltas que hace perder ese derecho
+            no puede superar el 15 % de la duración total del módulo, y deja que cada centro concrete el porcentaje
+            en su proyecto curricular.
+          </p>
+          <p>
+            El límite se calcula módulo a módulo. Si un módulo dura 160 horas, el 15 % son 24 horas. Si tu centro
+            aplica un 10 %, el límite baja a 16. La calculadora parte del porcentaje habitual de tu comunidad
+            y te deja cambiarlo si tu centro usa otro.
+          </p>
+
+          <h3>Faltas justificadas y sin justificar</h3>
+          <p>
+            No todos los centros cuentan igual. Algunos suman todas las faltas, justificadas o no, y otros solo
+            las injustificadas. La programación didáctica del módulo o las normas de tu centro dicen cuál es tu caso,
+            y tu tutor o tutora puede confirmártelo.
+          </p>
+
+          <h3>Qué pasa si superas el límite</h3>
+          <p>
+            Lo habitual es que pierdas la evaluación continua en ese módulo, no el curso entero. El módulo se evalúa
+            entonces con una prueba final o con los trabajos que fije la programación. Algunos centros añaden otro límite,
+            como un número de días seguidos sin justificar, que puede acabar en baja de matrícula.
+          </p>
+
+          <p class="prose-note">
+            Esta web es informativa e independiente. Las cifras son orientativas y no sustituyen a la normativa
+            de tu comunidad ni a las normas de tu centro.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PREGUNTAS FRECUENTES ============ -->
+    <section class="section section-ruled" id="preguntas" aria-labelledby="t-preguntas">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="t-preguntas">Preguntas frecuentes</h2>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>¿Es un cálculo oficial?</summary>
+            <p>No. Es una ayuda para llevar la cuenta. Las normas que valen son las de tu comunidad autónoma y las de tu centro, que encontrarás en la programación del módulo o en el reglamento del centro.</p>
+          </details>
+          <details>
+            <summary>¿Cómo se calcula el máximo de horas?</summary>
+            <p>Se multiplica la duración total del módulo, en horas, por el porcentaje de faltas permitido, y se restan las horas que ya has faltado. Con 160 horas, un 15 % y 9 horas faltadas: 160 × 0,15 = 24, y 24 − 9 = 15 horas.</p>
+          </details>
+          <details>
+            <summary>¿Guardáis las horas que escribo?</summary>
+            <p>No. Los cálculos se hacen en tu navegador y las horas que escribes no se envían a ningún servidor.</p>
+          </details>
+          <details>
+            <summary>¿Mi ciclo o mi comunidad no aparece?</summary>
+            <p>Cuéntanoslo en el buzón de sugerencias, con la comunidad, el ciclo y el módulo, y lo revisaremos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BUZÓN DE SUGERENCIAS ============ -->
+    <section class="section section-tint" id="sugerencias" aria-labelledby="t-sugerencias">
+      <div class="wrap suggest-grid">
+        <div class="suggest-intro">
+          <h2 id="t-sugerencias">Buzón de sugerencias</h2>
+          <p>
+            ¿Falta un ciclo, un módulo o una función? ¿Has visto un dato incorrecto? Escríbenos.
+            Revisamos los mensajes y los usamos para decidir qué mejorar primero.
+          </p>
+        </div>
+
+        <form class="form" id="form-sugerencias" novalidate>
+          <div class="field">
+            <label for="sug-tipo">Tipo de mensaje</label>
+            <select id="sug-tipo" name="tipo" required aria-describedby="sug-tipo-error">
+              <option value="">Elige una opción</option>
+              <option>Falta mi ciclo o mi módulo</option>
+              <option>Hay un dato incorrecto</option>
+              <option>Idea para una función nueva</option>
+              <option>Otra cosa</option>
+            </select>
+            <p class="field-error" id="sug-tipo-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="sug-mensaje">Mensaje</label>
+            <textarea id="sug-mensaje" name="mensaje" rows="5" maxlength="1000" required aria-describedby="sug-mensaje-error sug-count"></textarea>
+            <div class="field-meta">
+              <p class="field-error" id="sug-mensaje-error" hidden></p>
+              <p class="field-count" id="sug-count">0 / 1000</p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="sug-email">Correo electrónico <span class="optional">(opcional)</span></label>
+            <input type="email" id="sug-email" name="email" autocomplete="email" aria-describedby="sug-email-hint sug-email-error">
+            <p class="field-hint" id="sug-email-hint">Solo si quieres que te respondamos.</p>
+            <p class="field-error" id="sug-email-error" hidden></p>
+          </div>
+
+          <!-- Campo trampa contra bots: las personas no lo ven -->
+          <div class="hp" aria-hidden="true">
+            <label>No rellenes este campo <input type="text" name="web" tabindex="-1" autocomplete="off"></label>
+          </div>
+
+          <div class="field field-check">
+            <input type="checkbox" id="sug-privacidad" name="privacidad" required aria-describedby="sug-privacidad-error">
+            <label for="sug-privacidad">
+              He leído la <a href="politica-de-privacidad.html">política de privacidad</a> y acepto que uséis estos datos para responder a mi mensaje.
+            </label>
+            <p class="field-error" id="sug-privacidad-error" hidden></p>
+          </div>
+
+          <button class="btn btn-primary" type="submit" id="sug-enviar">Enviar sugerencia</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ PIE ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" aria-label="FP Cuenta, ir al inicio">
+          <svg class="brand-mark" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" focusable="false">
+            <g fill="none" stroke-linecap="round" stroke-width="3">
+              <path stroke="currentColor" d="M8 8v16M13.5 8v16M19 8v16M24.5 8v16"/>
+              <path stroke="var(--red)" d="M4.5 22.5 28 9.5"/>
+            </g>
+          </svg>
+          <span class="brand-name">FP Cuenta</span>
+        </a>
+        <p>
+          Proyecto independiente para el alumnado de Formación Profesional. No está vinculado al Ministerio de Educación,
+          a ninguna consejería ni a ningún centro educativo.
+        </p>
+      </div>
+
+      <nav aria-labelledby="pie-herramientas">
+        <h2 class="footer-title" id="pie-herramientas">Herramientas</h2>
+        <ul>
+          <li><a href="calculadora-faltas.html">Calculadora de faltas</a></li>
+          <li><a href="#sugerencias">Buzón de sugerencias</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-labelledby="pie-info">
+        <h2 class="footer-title" id="pie-info">Información</h2>
+        <ul>
+          <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="politica-de-privacidad.html">Política de privacidad</a></li>
+          <li><a href="politica-de-cookies.html">Política de cookies</a></li>
+          <li><button type="button" class="link-button" data-open-cookies>Configurar cookies</button></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="wrap">
+      <p class="copyright">© <span id="year">2026</span> FP Cuenta. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ============ AVISO DE COOKIES ============ -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-text" hidden>
+    <h2 id="cookie-title">Tu decisión sobre las cookies</h2>
+    <p id="cookie-text">
+      Guardamos tu elección en tu navegador. Con tu permiso, Google AdSense usará cookies para mostrar anuncios.
+      Puedes cambiarla cuando quieras desde el pie de página.
+      <a href="politica-de-cookies.html">Más información</a>
+    </p>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-secondary" data-consent="reject">Rechazar</button>
+      <button type="button" class="btn btn-secondary" data-consent="accept">Aceptar</button>
+    </div>
+  </div>
+</body>
+</html>
