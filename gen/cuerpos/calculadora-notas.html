@@ -1,0 +1,208 @@
+
+    <!-- ============ CABECERA DE PÁGINA ============ -->
+    <section class="page-head" aria-labelledby="titulo-pagina">
+      <div class="wrap">
+        <h1 id="titulo-pagina">Calculadora de notas por resultados de aprendizaje</h1>
+        <p class="lead">
+          Apunta la nota de cada resultado de aprendizaje (RA) de un módulo y marca los que todavía no has cursado.
+          Te decimos qué nota llevas y qué media necesitas sacar en el resto para llegar a tu objetivo.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CALCULADORA ============ -->
+    <section class="calc" aria-labelledby="t-calc">
+      <div class="wrap">
+        <noscript>
+          <p class="notice">Esta calculadora necesita JavaScript. Actívalo en tu navegador para poder usarla.</p>
+        </noscript>
+
+        <form class="calc-form" id="notas-form" novalidate autocomplete="off">
+          <h2 class="sr-only" id="t-calc">Tu módulo</h2>
+
+          <div class="calc-fields calc-fields-notas">
+
+            <!-- 1. Ciclo (opcional) -->
+            <div class="combo combo-wide" id="combo-ciclo">
+              <label class="field-label" for="in-ciclo"><span class="step" aria-hidden="true">1</span>Ciclo formativo <span class="optional">(opcional)</span></label>
+              <div class="combo-field">
+                <input class="combo-input" id="in-ciclo" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                       autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Nombre o siglas. Ej.: DAW">
+                <button class="combo-clear" type="button" tabindex="-1" aria-label="Borrar el ciclo elegido" hidden>
+                  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </button>
+                <button class="combo-toggle" type="button" tabindex="-1" aria-label="Mostrar todos los ciclos">
+                  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+              <ul class="combo-list" id="lista-ciclo" role="listbox" aria-label="Ciclos formativos de grado medio y superior" hidden></ul>
+              <p class="combo-status sr-only" role="status"></p>
+            </div>
+
+            <!-- 2. Curso -->
+            <fieldset class="field-set">
+              <legend class="field-label"><span class="step" aria-hidden="true">2</span>Curso</legend>
+              <div class="segmented">
+                <label class="seg"><input type="radio" name="curso" value="1" checked><span>1º</span></label>
+                <label class="seg"><input type="radio" name="curso" value="2"><span>2º</span></label>
+              </div>
+            </fieldset>
+
+            <!-- 3. Módulo -->
+            <div class="modulo-field">
+              <label class="field-label" for="in-modulo"><span class="step" aria-hidden="true">3</span>Módulo</label>
+              <input class="text-input" id="in-modulo" name="modulo" type="text" list="lista-modulos" maxlength="100"
+                     autocomplete="off" spellcheck="false" placeholder="Escribe o elige el módulo" aria-describedby="modulo-pista">
+              <datalist id="lista-modulos"></datalist>
+              <p class="field-hint" id="modulo-pista">Elige un ciclo y un curso para ver sus módulos, o escribe el nombre del tuyo.</p>
+            </div>
+          </div>
+
+          <!-- Ajustes -->
+          <div class="calc-settings">
+            <div class="setting">
+              <label for="objetivo">Nota que quieres sacar en el módulo</label>
+              <div class="num-field">
+                <input id="objetivo" type="number" inputmode="decimal" min="1" max="10" step="0.1" value="5" aria-describedby="objetivo-pista">
+              </div>
+              <p class="field-hint" id="objetivo-pista">Un 5 es el aprobado. Puedes poner un 7, un 9 o la nota que busques.</p>
+            </div>
+
+            <fieldset class="setting field-set">
+              <legend>¿Hay que aprobar cada RA?</legend>
+              <div class="segmented segmented-wide">
+                <label class="seg"><input type="radio" name="minra" value="no" checked><span>No, cuenta la media</span></label>
+                <label class="seg"><input type="radio" name="minra" value="si"><span>Sí, mínimo un 5 en cada uno</span></label>
+              </div>
+              <p class="field-hint">Algunas programaciones exigen un 5 en cada RA además de la media. Está en la programación de tu módulo.</p>
+            </fieldset>
+          </div>
+        </form>
+
+        <!-- ============ RESULTADOS ============ -->
+        <section class="results" id="resultados" aria-labelledby="res-titulo">
+          <div class="results-head">
+            <h2 id="res-titulo">Resultados de aprendizaje del módulo</h2>
+            <p class="print-meta" id="print-meta"></p>
+            <p class="results-source" id="res-fuente"></p>
+          </div>
+
+          <p class="notice" id="res-aviso" hidden></p>
+
+          <div class="table-wrap">
+            <table class="modules ras" id="tabla-ra">
+              <caption class="sr-only">Resultados de aprendizaje del módulo, con su peso, su nota y lo que aporta cada uno a la nota final</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Resultado de aprendizaje</th>
+                  <th scope="col">Peso (%)</th>
+                  <th scope="col">Nota (0 a 10)</th>
+                  <th scope="col">Todavía no cursado</th>
+                  <th scope="col">Aporta</th>
+                  <th scope="col">Estado</th>
+                  <th scope="col"><span class="sr-only">Quitar resultado de aprendizaje</span></th>
+                </tr>
+              </thead>
+              <tbody id="filas"></tbody>
+            </table>
+          </div>
+
+          <p class="field-hint results-hint">
+            El peso de cada RA es el porcentaje que vale en la nota del módulo. Lo encontrarás en la programación del módulo;
+            si no lo sabes, deja el reparto por igual.
+          </p>
+
+          <div class="results-actions" id="res-acciones">
+            <button type="button" class="btn btn-secondary" id="btn-anadir">Añadir RA</button>
+            <button type="button" class="btn btn-secondary" id="btn-igual">Repartir los pesos por igual</button>
+            <button type="button" class="btn btn-secondary" id="btn-cargar-ra" hidden>Cargar los RA de este módulo</button>
+            <button type="button" class="btn btn-secondary" id="btn-copiar">Copiar resumen</button>
+            <button type="button" class="btn btn-secondary" id="btn-imprimir">Imprimir</button>
+          </div>
+          <p class="copy-status" id="copiar-estado" role="status"></p>
+
+          <div class="summary notas-resumen" id="resumen" aria-live="polite"></div>
+
+          <p class="privacy-note">
+            Lo que escribes se guarda solo en este navegador y no se envía a ningún servidor.
+            <button type="button" class="link-button" id="btn-borrar">Borrar mis datos guardados</button>
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO SE CALCULA ============ -->
+    <section class="section section-ruled" id="como-se-calcula" aria-labelledby="t-calculo">
+      <div class="wrap info-grid">
+        <h2 id="t-calculo" class="info-title">Cómo se calcula la nota</h2>
+
+        <div class="prose">
+          <p>
+            En la Formación Profesional, cada módulo se organiza en resultados de aprendizaje: lo que tienes que ser capaz de
+            hacer al terminarlo. La nota del módulo sale de las notas de sus RA, cada uno con su peso. La calculadora hace
+            la media ponderada: multiplica la nota de cada RA por su peso, suma y divide entre la suma de los pesos.
+          </p>
+
+          <h3>Los RA que no has cursado</h3>
+          <p>
+            Los RA que marcas como «todavía no cursado», o que dejas sin nota, no entran en la media de lo que llevas.
+            La calculadora los usa para decirte qué media necesitas en ellos. Con un objetivo de 5, un 60 % del módulo
+            ya hecho con una media de 4 te deja 2,4 puntos asegurados, y necesitas una media de 6,5 en el 40 % restante
+            para llegar a 5.
+          </p>
+
+          <h3>Un ejemplo</h3>
+          <p>
+            Un módulo con cuatro RA de un 25 % cada uno. Llevas un 6 y un 8 en los dos primeros, así que aportan 3,5 puntos
+            de los 10 posibles. Para aprobar con un 5 necesitas sumar 1,5 puntos más entre los otros dos, que pesan un 50 %:
+            una media de 3 en ellos.
+          </p>
+
+          <h3>Cada centro puede calcularlo distinto</h3>
+          <p>
+            La programación didáctica del módulo fija los pesos, si hay que aprobar cada RA y cómo se redondea la nota final.
+            Algunos centros ponderan por criterios de evaluación o por instrumentos de evaluación, no solo por RA. Usa esta
+            calculadora para hacerte una idea y confirma el cálculo con tu profesorado.
+          </p>
+
+          <p class="prose-note">
+            Los resultados son orientativos. Mandan la programación del módulo y las normas de tu centro.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hueco de publicidad (oculto hasta configurar AdSense; mira compartido/configuracion.js) -->
+    {{ANUNCIO:notas}}
+
+    <!-- ============ PREGUNTAS FRECUENTES ============ -->
+    <section class="section section-ruled" id="preguntas" aria-labelledby="t-preguntas">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="t-preguntas">Preguntas sobre la calculadora de notas</h2>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>¿Dónde encuentro los RA de mi módulo y sus pesos?</summary>
+            <p>En la programación didáctica del módulo, que tu profesorado te puede dar o que suele estar en la web del centro. También figuran los resultados de aprendizaje en el currículo oficial de tu comunidad. Los pesos los fija el departamento, así que pueden cambiar de un centro a otro.</p>
+          </details>
+          <details>
+            <summary>¿Por qué no aparecen los RA de mi módulo ya escritos?</summary>
+            <p>Todavía no tenemos cargados los RA de los módulos. Por ahora los apuntas tú con el nombre que quieras (por ejemplo «RA 1»), su peso y tu nota. Cuando los tengamos, aparecerá aquí un botón para cargarlos. Si te interesa un módulo en concreto, dínoslo en el buzón de sugerencias.</p>
+          </details>
+          <details>
+            <summary>¿Qué significa «todavía no cursado»?</summary>
+            <p>Que ese RA aún no se ha trabajado o evaluado. No cuenta en la media de lo que llevas y se tiene en cuenta para calcular qué necesitas sacar en lo que queda.</p>
+          </details>
+          <details>
+            <summary>¿Y si los pesos no suman 100?</summary>
+            <p>La calculadora lo calcula igualmente en proporción y te avisa de que no suman 100, por si es un despiste. Puedes pulsar «Repartir los pesos por igual» para empezar de nuevo.</p>
+          </details>
+          <details>
+            <summary>¿Se guardan mis notas?</summary>
+            <p>Solo en tu navegador, para que no tengas que escribirlas de nuevo. No se envían a ningún servidor y puedes borrarlas con el botón «Borrar mis datos guardados».</p>
+          </details>
+        </div>
+      </div>
+    </section>

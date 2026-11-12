@@ -1,73 +1,20 @@
 /* =========================================================
-   FP Cuenta · script.js
-   Portada: menú móvil, demo de la hoja de asistencia,
-   buzón de sugerencias y aviso de cookies.
+   FP Cuenta · portada/portada.js
+   Portada: demo de la hoja de asistencia y buzón de sugerencias.
    ========================================================= */
 (function () {
   'use strict';
 
-  /* ---------- Configuración: rellena estos valores ---------- */
-  var CONFIG = {
-    // ID de editor de AdSense, p. ej. 'ca-pub-1234567890123456'.
-    // Déjalo vacío hasta que Google apruebe el sitio.
-    adsenseClient: '',
-
-    // URL que recibe las sugerencias (p. ej. Formspree: 'https://formspree.io/f/xxxxxxx').
-    // Si está vacío, el formulario abre el programa de correo de la persona.
-    suggestionsEndpoint: '',
-
-    // Correo al que llegan las sugerencias cuando no hay endpoint.
-    contactEmail: 'contacto@tudominio.es',
-
-    consentKey: 'fpcuenta-consent-v1',
-    minSecondsBetweenMessages: 30
-  };
+  var COMUN = window.FPComun || {};
+  var CONFIG = COMUN.config || window.FP_CONFIG || {};
+  var storageGet = COMUN.storageGet || function () { return null; };
+  var storageSet = COMUN.storageSet || function () {};
 
   /* ---------- Utilidades ---------- */
   var nf = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1 });
 
   function hours(n) {
     return nf.format(n) + (n === 1 ? ' hora' : ' horas');
-  }
-
-  function storageGet(key) {
-    try { return window.localStorage.getItem(key); } catch (e) { return null; }
-  }
-
-  function storageSet(key, value) {
-    try { window.localStorage.setItem(key, value); } catch (e) { /* modo privado: se ignora */ }
-  }
-
-  /* ---------- Menú móvil ---------- */
-  function initNav() {
-    var button = document.querySelector('.nav-toggle');
-    var nav = document.getElementById('menu-principal');
-    if (!button || !nav) return;
-
-    function setOpen(open) {
-      button.setAttribute('aria-expanded', String(open));
-      nav.classList.toggle('is-open', open);
-    }
-
-    button.addEventListener('click', function () {
-      setOpen(button.getAttribute('aria-expanded') !== 'true');
-    });
-
-    nav.addEventListener('click', function (event) {
-      if (event.target.closest('a')) setOpen(false);
-    });
-
-    document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
-        setOpen(false);
-        button.focus();
-      }
-    });
-
-    var desktop = window.matchMedia('(min-width: 52em)');
-    var onChange = function (e) { if (e.matches) setOpen(false); };
-    if (desktop.addEventListener) desktop.addEventListener('change', onChange);
-    else if (desktop.addListener) desktop.addListener(onChange);
   }
 
   /* ---------- Demo: hoja de asistencia con palotes ---------- */
@@ -191,6 +138,7 @@
       });
     }
   }
+
 
   /* ---------- Buzón de sugerencias ---------- */
   function initForm() {
@@ -338,80 +286,11 @@
     });
   }
 
-  /* ---------- Cookies y AdSense ---------- */
-  function initCookies() {
-    var banner = document.getElementById('cookie-banner');
-    if (!banner) return;
-
-    function readConsent() {
-      var raw = storageGet(CONFIG.consentKey);
-      if (!raw) return null;
-      try {
-        var data = JSON.parse(raw);
-        return data && typeof data.ads === 'boolean' ? data : null;
-      } catch (e) { return null; }
-    }
-
-    function loadAdSense() {
-      if (!CONFIG.adsenseClient || document.querySelector('script[data-adsense]')) return;
-      var s = document.createElement('script');
-      s.async = true;
-      s.crossOrigin = 'anonymous';
-      s.setAttribute('data-adsense', '1');
-      s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' +
-              encodeURIComponent(CONFIG.adsenseClient);
-      document.head.appendChild(s);
-    }
-
-    function showBanner() {
-      banner.hidden = false;
-      var first = banner.querySelector('button');
-      if (first) first.focus();
-    }
-
-    function decide(ads) {
-      var previous = readConsent();
-      storageSet(CONFIG.consentKey, JSON.stringify({ ads: ads, date: new Date().toISOString() }));
-      banner.hidden = true;
-      if (ads) {
-        loadAdSense();
-      } else if (previous && previous.ads) {
-        // Un script ya cargado no se puede descargar: se recarga la página sin él
-        window.location.reload();
-      }
-    }
-
-    banner.addEventListener('click', function (event) {
-      var btn = event.target.closest('[data-consent]');
-      if (!btn) return;
-      decide(btn.getAttribute('data-consent') === 'accept');
-    });
-
-    Array.prototype.forEach.call(document.querySelectorAll('[data-open-cookies]'), function (el) {
-      el.addEventListener('click', showBanner);
-    });
-
-    var consent = readConsent();
-    if (!consent) {
-      banner.hidden = false; // primera visita: se muestra sin robar el foco
-    } else if (consent.ads) {
-      loadAdSense();
-    }
-  }
-
-  /* ---------- Año del pie ---------- */
-  function initYear() {
-    var el = document.getElementById('year');
-    if (el) el.textContent = String(new Date().getFullYear());
-  }
 
   /* ---------- Arranque ---------- */
   function init() {
-    initNav();
     initDemo();
     initForm();
-    initCookies();
-    initYear();
   }
 
   if (document.readyState === 'loading') {

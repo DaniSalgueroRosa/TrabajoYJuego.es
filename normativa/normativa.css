@@ -1,0 +1,28 @@
+/* =========================================================
+   FP Cuenta · normativa/normativa.css
+   Página de normativa por comunidad.
+   ========================================================= */
+
+.legend { margin: 1.25rem 0 0; }
+.legend dt { margin-top: 1rem; }
+.legend dd { margin: 0.35rem 0 0; color: var(--muted); }
+
+.table-wrap-flat { overflow-x: visible; }
+.table-note { max-width: 46rem; margin-top: 1rem; }
+
+.com-details { display: grid; gap: 1.25rem; margin-top: 1.5rem; max-width: 52rem; }
+.com-detail {
+  padding: 1.1rem 1.4rem 1.2rem;
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-left: 5px solid var(--origin, var(--muted));
+  border-radius: 0 var(--radius) var(--radius) 0;
+  scroll-margin-top: 5.5rem;
+}
+.com-detail:target { outline: 3px solid var(--focus); outline-offset: 3px; }
+.com-detail h3 { font-size: 1.25rem; }
+.com-detail p { max-width: 46rem; margin: 0.6rem 0 0; line-height: 1.55; }
+.com-detail .com-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.7rem; }
+.com-detail .com-matricula { color: var(--muted); font-size: 0.95rem; }
+.com-source-list { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.com-source-list li { margin: 0.25rem 0; overflow-wrap: anywhere; }

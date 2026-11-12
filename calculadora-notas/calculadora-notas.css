@@ -1,0 +1,104 @@
+/* =========================================================
+   FP Cuenta · calculadora-notas/calculadora-notas.css
+   Calculadora de notas: campos, tabla de RA, resumen con cifras e impresión.
+   La tabla (.modules), los ajustes y los botones vienen de compartido/calculadoras.css.
+   ========================================================= */
+
+/* ---------- Campos ---------- */
+@media (min-width: 52em) {
+  .calc-fields-notas { grid-template-columns: minmax(0, 1.3fr) auto minmax(0, 1.2fr); }
+}
+.optional { color: var(--muted); font-weight: 400; }
+
+.text-input,
+.num-field input {
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 2px solid var(--grid-strong);
+  border-radius: var(--radius-sm);
+  font: inherit;
+}
+.text-input { width: 100%; }
+.num-field input { width: 6rem; font-variant-numeric: tabular-nums; font-weight: 700; }
+.text-input:hover, .num-field input:hover { border-color: var(--muted); }
+.modulo-field .field-hint { margin-top: 0.45rem; }
+
+/* ---------- Tabla de RA ---------- */
+.ras .col-num { white-space: nowrap; }
+.ras .col-check { white-space: nowrap; }
+.ras .col-name { min-width: 11rem; }
+.ras input[type="number"] { width: 5rem; }
+.ras input:disabled { opacity: 0.45; cursor: not-allowed; }
+.ras .col-left { min-width: 9rem; }
+
+.check { display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; font-weight: 500; }
+.check input { width: 1.3rem; height: 1.3rem; margin: 0; accent-color: var(--accent); }
+
+@media screen and (max-width: 69.99em) {
+  .ras .col-left { grid-column: auto; order: 0; }
+  .ras .col-check { align-self: end; }
+  .ras input[type="number"] { width: 100%; }
+}
+
+/* ---------- Resumen ---------- */
+.notas-resumen { margin-top: 1.5rem; }
+.notas-resumen:empty { display: none; }
+
+.verdict {
+  --tone: var(--muted);
+  margin: 0.4rem 0 0;
+  padding: 0.85rem 1rem;
+  background: var(--paper);
+  border-left: 5px solid var(--tone);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.5;
+  max-width: 46rem;
+}
+.verdict[data-tone="good"] { --tone: var(--ok); }
+.verdict[data-tone="warn"] { --tone: var(--warn); }
+.verdict[data-tone="bad"] { --tone: var(--over); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.9rem;
+  margin: 1.1rem 0 0;
+}
+.stat {
+  padding: 0.8rem 0.95rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+}
+.stat dt { margin: 0; color: var(--muted); font-size: 0.9rem; font-weight: 600; }
+.stat dd { margin: 0.2rem 0 0; }
+.stat-value { display: block; font-family: var(--font-display); font-size: 1.9rem; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1.15; }
+.stat-note { display: block; margin-top: 0.15rem; color: var(--muted); font-size: 0.88rem; line-height: 1.4; }
+.stat-final { border-color: var(--accent); }
+
+/* ---------- Impresión ---------- */
+@media print {
+  :root:root { --paper: #fff; --sheet: #fff; --ink: #000; --muted: #333; --rule: #999; --grid: #ddd; --grid-strong: #888; }
+  body { background: #fff; font-size: 11pt; }
+  .skip-link, .site-header, .site-footer, .cookie-banner, .page-head .lead, .calc-form,
+  .results-source, .results-hint, .results-actions, .copy-status, .privacy-note, .notice, .section,
+  .btn-icon, .col-act, noscript { display: none !important; }
+  .page-head { padding: 0 0 0.5rem; }
+  .page-head h1 { font-size: 18pt; }
+  .calc { padding: 0; }
+  .wrap { width: 100%; }
+  .results { margin-top: 0.5rem; }
+  .print-meta { display: block; font-size: 10pt; }
+  .modules { font-size: 9.5pt; }
+  .modules th, .modules td { padding: 0.3rem 0.35rem; }
+  .modules tr { break-inside: avoid; }
+  .modules input { border: 0 !important; background: transparent !important; padding: 0 !important; min-height: 0 !important; width: 3rem !important; font-size: inherit; }
+  .modules .in-name { width: 100% !important; }
+  .out-left { color: #000; }
+  .notas-resumen { border: 1px solid #999; background: #fff; break-inside: avoid; }
+  .stat { border: 1px solid #999; }
+}

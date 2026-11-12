@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>FP Cuenta: calculadora de faltas de asistencia para FP</title>
-  <meta name="description" content="Calcula cuántas horas puedes faltar en cada módulo de tu ciclo de FP, de grado medio o superior, sin perder la evaluación continua. Gratis y sin registro.">
+  <title>Calculadora de faltas y notas para FP | FP Cuenta</title>
+  <meta name="description" content="Calcula cuántas horas puedes faltar en tu ciclo de FP, por módulo y por trimestre, y tu nota por resultados de aprendizaje. Gratis y sin registro.">
   <link rel="canonical" href="https://www.tudominio.es/">
   <meta name="robots" content="index, follow, max-image-preview:large">
 
@@ -15,33 +15,45 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="FP Cuenta">
-  <meta property="og:title" content="FP Cuenta: calculadora de faltas de asistencia para FP">
-  <meta property="og:description" content="Calcula cuántas horas puedes faltar en cada módulo de tu ciclo de FP y cuántas te quedan por trimestre.">
+  <meta property="og:title" content="Calculadora de faltas y notas para FP">
+  <meta property="og:description" content="Calcula cuántas horas puedes faltar en tu ciclo de FP, por módulo y por trimestre, y tu nota por resultados de aprendizaje. Gratis y sin registro.">
   <meta property="og:url" content="https://www.tudominio.es/">
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c3faa'/%3E%3Cg fill='none' stroke-linecap='round' stroke-width='3'%3E%3Cpath stroke='white' d='M8 8v16M13.5 8v16M19 8v16M24.5 8v16'/%3E%3Cpath stroke='%23ff8a9a' d='M4.5 22.5 28 9.5'/%3E%3C/g%3E%3C/svg%3E">
-
   <!--
-    ADSENSE
-    No pegues el código de AdSense aquí. Escribe tu ID en CONFIG.adsenseClient (script.js):
-    el script de Google se carga solo si la persona acepta las cookies.
-    Si Google te pide verificar el sitio con metaetiqueta, descomenta y completa esta línea:
-    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+    ADSENSE: escribe tu ID en compartido/configuracion.js (adsenseClient) y ejecuta de nuevo gen/construir.py:
+    aquí aparecerá solo la metaetiqueta  <meta name="google-adsense-account" content="ca-pub-...">
   -->
 
-  <script>document.documentElement.classList.add('js');</script>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <script>
+    /* Aplica el modo oscuro o claro guardado antes de pintar la página, para que no parpadee. Lo gestiona después comun.js. */
+    (function (d) {
+      try {
+        var t = localStorage.getItem('fpcuenta-tema-v1');
+        if (t === 'dark' || t === 'light') {
+          d.setAttribute('data-theme', t);
+          var m = d.querySelectorAll('meta[name="theme-color"]');
+          for (var i = 0; i < m.length; i++) m[i].setAttribute('content', t === 'dark' ? '#0d1530' : '#f2f5fa');
+        }
+      } catch (e) { /* sin almacenamiento: se sigue el modo del sistema */ }
+      d.classList.add('js');
+    })(document.documentElement);
+  </script>
+  <link rel="stylesheet" href="compartido/base.css">
+  <link rel="stylesheet" href="portada/portada.css">
+  <script src="compartido/configuracion.js" defer></script>
+  <script src="compartido/comun.js" defer></script>
+  <script src="portada/portada.js" defer></script>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "FP Cuenta",
-    "url": "https://www.tudominio.es/",
-    "inLanguage": "es-ES",
-    "description": "Herramientas gratuitas para el alumnado de Formación Profesional: calculadora de faltas de asistencia por módulo y, próximamente, calculadora de notas por resultados de aprendizaje."
-  }
+{
+  "@context": "https://schema.org",
+  "url": "https://www.tudominio.es/",
+  "inLanguage": "es-ES",
+  "@type": "WebSite",
+  "name": "FP Cuenta",
+  "description": "Herramientas gratuitas para el alumnado de Formación Profesional: calculadora de faltas de asistencia por módulo y calculadora de notas por resultados de aprendizaje."
+}
   </script>
 </head>
 
@@ -51,12 +63,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="index.html" aria-label="FP Cuenta, ir al inicio">
-        <svg class="brand-mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false">
-          <g fill="none" stroke-linecap="round" stroke-width="3">
-            <path stroke="currentColor" d="M8 8v16M13.5 8v16M19 8v16M24.5 8v16"/>
-            <path stroke="var(--red)" d="M4.5 22.5 28 9.5"/>
-          </g>
-        </svg>
+        <svg class="brand-mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false"><g fill="none" stroke-linecap="round" stroke-width="3"><path stroke="currentColor" d="M8 8v16M13.5 8v16M19 8v16M24.5 8v16"/><path stroke="var(--red)" d="M4.5 22.5 28 9.5"/></g></svg>
         <span class="brand-name">FP Cuenta</span>
       </a>
 
@@ -67,17 +74,22 @@
 
       <nav class="site-nav" id="menu-principal" aria-label="Principal">
         <ul>
-          <li><a href="calculadora-faltas.html">Calculadora de faltas</a></li>
-          <li><a href="#como-funciona">Cómo funciona</a></li>
-          <li><a href="#preguntas">Preguntas frecuentes</a></li>
-          <li><a href="#sugerencias">Sugerencias</a></li>
+          <li><a href="calculadora-faltas/calculadora-faltas.html">Faltas</a></li>
+          <li><a href="calculadora-notas/calculadora-notas.html">Notas</a></li>
+          <li><a href="normativa/normativa-faltas.html">Normativa</a></li>
+          <li><a href="index.html#preguntas">Preguntas</a></li>
+          <li><a href="index.html#sugerencias">Sugerencias</a></li>
         </ul>
       </nav>
+
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Modo oscuro" title="Cambiar entre modo claro y oscuro">
+        <svg class="icon-luna" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sol" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
     </div>
   </header>
 
   <main id="contenido" tabindex="-1">
-
     <!-- ============ PORTADA ============ -->
     <section class="hero" aria-labelledby="titulo-hero">
       <div class="wrap hero-grid">
@@ -89,8 +101,8 @@
             en cada módulo y te decimos cuántas te quedan, en total y por trimestre.
           </p>
           <div class="actions">
-            <a class="btn btn-primary" href="calculadora-faltas.html">Calcular mis faltas</a>
-            <a class="btn btn-secondary" href="#sugerencias">Dejar una sugerencia</a>
+            <a class="btn btn-primary" href="calculadora-faltas/calculadora-faltas.html">Calcular mis faltas</a>
+            <a class="btn btn-secondary" href="calculadora-notas/calculadora-notas.html">Calcular mis notas</a>
           </div>
           <p class="fineprint">Gratis y sin registro. Los cálculos se hacen en tu navegador.</p>
         </div>
@@ -122,12 +134,12 @@
       <div class="wrap">
         <div class="section-head">
           <h2 id="t-opciones">Qué puedes hacer aquí</h2>
-          <p>Empieza por la calculadora de faltas. La de notas está en preparación y el buzón de sugerencias ya está abierto.</p>
+          <p>Dos calculadoras gratuitas para llevar el curso al día y un buzón para decirnos qué falta.</p>
         </div>
 
         <ul class="options">
           <li class="option option-live">
-            <a class="option-link" href="calculadora-faltas.html">
+            <a class="option-link" href="calculadora-faltas/calculadora-faltas.html">
               <span class="option-status">Disponible</span>
               <div class="option-body">
                 <h3>Calculadora de faltas</h3>
@@ -136,14 +148,14 @@
             </a>
           </li>
 
-          <li class="option option-soon">
-            <div class="option-link">
-              <span class="option-status">Próximamente</span>
+          <li class="option option-live">
+            <a class="option-link" href="calculadora-notas/calculadora-notas.html">
+              <span class="option-status">Nueva</span>
               <div class="option-body">
                 <h3>Calculadora de notas por resultados de aprendizaje</h3>
-                <p>Introduce la nota de cada resultado de aprendizaje o márcalo como «sin cursar» y calcula tu nota final del módulo.</p>
+                <p>Apunta la nota de cada resultado de aprendizaje o márcalo como «sin cursar» y calcula tu nota del módulo y lo que necesitas sacar en el resto.</p>
               </div>
-            </div>
+            </a>
           </li>
 
           <li class="option option-open">
@@ -200,14 +212,16 @@
         <div class="prose">
           <p>
             En los ciclos formativos presenciales, la evaluación continua depende de que vayas a clase con regularidad.
-            La normativa estatal (Real Decreto 659/2023) establece que el número de faltas que hace perder ese derecho
-            no puede superar el 15 % de la duración total del módulo, y deja que cada centro concrete el porcentaje
-            en su proyecto curricular.
+            El porcentaje de faltas que hace perder ese derecho no es el mismo en toda España: lo regula cada comunidad
+            autónoma, y en varias lo concreta cada centro en sus normas de organización y funcionamiento. En Andalucía,
+            por ejemplo, la normativa exige asistir al menos al 80 % de las horas del módulo, así que puedes faltar hasta el 20 %.
           </p>
           <p>
             El límite se calcula módulo a módulo. Si un módulo dura 160 horas, el 15 % son 24 horas. Si tu centro
-            aplica un 10 %, el límite baja a 16. La calculadora parte del porcentaje habitual de tu comunidad
-            y te deja cambiarlo si tu centro usa otro.
+            aplica un 10 %, el límite baja a 16. La calculadora parte del porcentaje de tu comunidad, te dice de dónde sale
+            el dato (normativa, documentos de centros o un valor prudente cuando no lo hemos podido verificar)
+            y te deja cambiarlo si tu centro usa otro. Tienes el detalle y las fuentes en la
+            <a href="normativa/normativa-faltas.html">página de normativa por comunidad</a>.
           </p>
 
           <h3>Faltas justificadas y sin justificar</h3>
@@ -232,6 +246,14 @@
       </div>
     </section>
 
+    <!-- Hueco de publicidad (oculto hasta configurar AdSense; mira compartido/configuracion.js) -->
+        <div class="wrap">
+      <aside class="anuncio" data-anuncio="portada" aria-label="Publicidad" hidden>
+        <p class="anuncio-etiqueta">Publicidad</p>
+        <div class="anuncio-hueco"></div>
+      </aside>
+    </div>
+
     <!-- ============ PREGUNTAS FRECUENTES ============ -->
     <section class="section section-ruled" id="preguntas" aria-labelledby="t-preguntas">
       <div class="wrap">
@@ -250,7 +272,11 @@
           </details>
           <details>
             <summary>¿Guardáis las horas que escribo?</summary>
-            <p>No. Los cálculos se hacen en tu navegador y las horas que escribes no se envían a ningún servidor.</p>
+            <p>Solo en tu navegador, para que no tengas que escribirlas de nuevo. Los cálculos se hacen en tu dispositivo, las horas no se envían a ningún servidor y puedes borrarlas cuando quieras desde la calculadora.</p>
+          </details>
+          <details>
+            <summary>¿Las horas de los módulos son las de mi comunidad?</summary>
+            <p>Sí, si tu comunidad es una de las que tenemos (por ahora, Andalucía, Cataluña y Comunidad de Madrid): la calculadora te dice de dónde salen las horas justo encima de la tabla, y puedes corregirlas con las de tu horario. No mostramos horas de una comunidad como si fueran de otra.</p>
           </details>
           <details>
             <summary>¿Mi ciclo o mi comunidad no aparece?</summary>
@@ -308,7 +334,7 @@
           <div class="field field-check">
             <input type="checkbox" id="sug-privacidad" name="privacidad" required aria-describedby="sug-privacidad-error">
             <label for="sug-privacidad">
-              He leído la <a href="politica-de-privacidad.html">política de privacidad</a> y acepto que uséis estos datos para responder a mi mensaje.
+              He leído la <a href="informacion/politica-de-privacidad.html">política de privacidad</a> y acepto que uséis estos datos para responder a mi mensaje.
             </label>
             <p class="field-error" id="sug-privacidad-error" hidden></p>
           </div>
@@ -319,19 +345,14 @@
       </div>
     </section>
 
+  
   </main>
 
-  <!-- ============ PIE ============ -->
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div class="footer-about">
         <a class="brand" href="index.html" aria-label="FP Cuenta, ir al inicio">
-          <svg class="brand-mark" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" focusable="false">
-            <g fill="none" stroke-linecap="round" stroke-width="3">
-              <path stroke="currentColor" d="M8 8v16M13.5 8v16M19 8v16M24.5 8v16"/>
-              <path stroke="var(--red)" d="M4.5 22.5 28 9.5"/>
-            </g>
-          </svg>
+          <svg class="brand-mark" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" focusable="false"><g fill="none" stroke-linecap="round" stroke-width="3"><path stroke="currentColor" d="M8 8v16M13.5 8v16M19 8v16M24.5 8v16"/><path stroke="var(--red)" d="M4.5 22.5 28 9.5"/></g></svg>
           <span class="brand-name">FP Cuenta</span>
         </a>
         <p>
@@ -343,19 +364,21 @@
       <nav aria-labelledby="pie-herramientas">
         <h2 class="footer-title" id="pie-herramientas">Herramientas</h2>
         <ul>
-          <li><a href="calculadora-faltas.html">Calculadora de faltas</a></li>
-          <li><a href="#sugerencias">Buzón de sugerencias</a></li>
+          <li><a href="calculadora-faltas/calculadora-faltas.html">Calculadora de faltas</a></li>
+          <li><a href="calculadora-notas/calculadora-notas.html">Calculadora de notas</a></li>
+          <li><a href="normativa/normativa-faltas.html">Normativa por comunidad</a></li>
+          <li><a href="index.html#sugerencias">Buzón de sugerencias</a></li>
         </ul>
       </nav>
 
       <nav aria-labelledby="pie-info">
         <h2 class="footer-title" id="pie-info">Información</h2>
         <ul>
-          <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="aviso-legal.html">Aviso legal</a></li>
-          <li><a href="politica-de-privacidad.html">Política de privacidad</a></li>
-          <li><a href="politica-de-cookies.html">Política de cookies</a></li>
+          <li><a href="informacion/sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="informacion/contacto.html">Contacto</a></li>
+          <li><a href="informacion/aviso-legal.html">Aviso legal</a></li>
+          <li><a href="informacion/politica-de-privacidad.html">Política de privacidad</a></li>
+          <li><a href="informacion/politica-de-cookies.html">Política de cookies</a></li>
           <li><button type="button" class="link-button" data-open-cookies>Configurar cookies</button></li>
         </ul>
       </nav>
@@ -366,13 +389,12 @@
     </div>
   </footer>
 
-  <!-- ============ AVISO DE COOKIES ============ -->
   <div class="cookie-banner" id="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-text" hidden>
     <h2 id="cookie-title">Tu decisión sobre las cookies</h2>
     <p id="cookie-text">
       Guardamos tu elección en tu navegador. Con tu permiso, Google AdSense usará cookies para mostrar anuncios.
       Puedes cambiarla cuando quieras desde el pie de página.
-      <a href="politica-de-cookies.html">Más información</a>
+      <a href="informacion/politica-de-cookies.html">Más información</a>
     </p>
     <div class="cookie-actions">
       <button type="button" class="btn btn-secondary" data-consent="reject">Rechazar</button>

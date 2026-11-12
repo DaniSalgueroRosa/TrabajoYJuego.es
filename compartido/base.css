@@ -1,9 +1,10 @@
 /* =========================================================
-   FP Cuenta · styles.css
-   Idea visual: cuaderno cuadriculado, bolígrafo azul y
-   bolígrafo rojo del profesor para apuntar faltas.
-   Sin fuentes externas (nada de peticiones a terceros).
+   FP Cuenta · compartido/base.css
+   Colores, tipografía, cabecera, pie, aviso de cookies, botones, textos, preguntas frecuentes, tablas y etiquetas. Lo usan todas las páginas.
    ========================================================= */
+
+/* Idea visual: cuaderno cuadriculado, bolígrafo azul y bolígrafo rojo del profesor para apuntar faltas.
+   Sin fuentes externas (nada de peticiones a terceros). */
 
 /* ---------- Tipografía ----------
    Para usar una fuente propia, descarga el .woff2 (autoalojado, sin Google Fonts),
@@ -52,20 +53,25 @@
   --font-display: "Segoe UI Variable Display", "SF Pro Display", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Modo oscuro. Con el atributo data-theme en <html> manda la elección de la persona (botón de la cabecera);
+   sin él, se sigue el modo del sistema. Los dos bloques de colores oscuros deben ser iguales: si cambias uno, cambia el otro. */
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --paper: #0d1530;
     --paper-deep: #121c3b;
     --sheet: #16213f;
     --ink: #e9eefb;
     --muted: #a6b3d1;
     --accent: #3f63d6;
-    --accent-strong: #5576e0;
+    --accent-strong: #4768d9;
     --on-accent: #ffffff;
     --on-accent-soft: #e3eaff;
     --link: #9db6ff;
     --red: #ff8b99;
-    --over: #ff3355;
+    --over: #ff4d68;
     --ok: #5fd6a3;
     --warn: #ffc15c;
     --grid: #1b2850;
@@ -74,6 +80,28 @@
     --focus: #9db6ff;
     --shadow: rgba(0, 0, 0, 0.6);
   }
+}
+
+:root[data-theme="dark"] {
+  --paper: #0d1530;
+  --paper-deep: #121c3b;
+  --sheet: #16213f;
+  --ink: #e9eefb;
+  --muted: #a6b3d1;
+  --accent: #3f63d6;
+  --accent-strong: #4768d9;
+  --on-accent: #ffffff;
+  --on-accent-soft: #e3eaff;
+  --link: #9db6ff;
+  --red: #ff8b99;
+  --over: #ff4d68;
+  --ok: #5fd6a3;
+  --warn: #ffc15c;
+  --grid: #1b2850;
+  --grid-strong: #3a4a7a;
+  --rule: #2b3a66;
+  --focus: #9db6ff;
+  --shadow: rgba(0, 0, 0, 0.6);
 }
 
 /* ---------- Base ---------- */
@@ -130,6 +158,9 @@ main:focus { outline: none; }
   width: min(100% - 2.5rem, var(--wrap));
   margin-inline: auto;
 }
+
+/* Un elemento con el atributo hidden nunca se ve, aunque su clase le dé otro display */
+[hidden] { display: none !important; }
 
 .sr-only {
   position: absolute;
@@ -202,7 +233,6 @@ main:focus { outline: none; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 0.5rem 1.5rem;
   min-height: 4rem;
   padding-block: 0.4rem;
@@ -223,6 +253,8 @@ main:focus { outline: none; }
   letter-spacing: -0.03em;
 }
 
+.site-nav { order: 2; margin-left: auto; }
+
 .site-nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -241,8 +273,9 @@ main:focus { outline: none; }
 }
 .site-nav a:hover { border-bottom-color: var(--red); }
 
-.nav-toggle {
-  display: none;
+/* Botones de la cabecera: modo oscuro y menú. Solo se ven si hay JavaScript. */
+.nav-toggle,
+.theme-toggle {
   width: 2.75rem; height: 2.75rem;
   align-items: center;
   justify-content: center;
@@ -253,6 +286,15 @@ main:focus { outline: none; }
   border-radius: var(--radius-sm);
   cursor: pointer;
 }
+.nav-toggle { display: none; order: 1; }
+.theme-toggle { display: none; order: 3; }
+.js .theme-toggle { display: inline-flex; }
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.theme-toggle svg { width: 1.3rem; height: 1.3rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+/* Se muestra el icono del modo al que cambias: la luna en modo claro, el sol en modo oscuro */
+.theme-toggle .icon-sol { display: none; }
+.theme-toggle[aria-pressed="true"] .icon-sol { display: block; }
+.theme-toggle[aria-pressed="true"] .icon-luna { display: none; }
 .nav-toggle-bars,
 .nav-toggle-bars::before,
 .nav-toggle-bars::after {
@@ -273,160 +315,13 @@ main:focus { outline: none; }
 
 /* El menú se pliega solo si hay JavaScript; sin él, queda visible */
 @media (max-width: 51.99em) {
-  .js .nav-toggle { display: inline-flex; }
-  .js .site-nav { display: none; width: 100%; padding-bottom: 0.75rem; }
+  .js .nav-toggle { display: inline-flex; margin-left: auto; }
+  .theme-toggle { order: 2; }
+  .js .site-nav { display: none; order: 3; width: 100%; padding-bottom: 0.75rem; }
   .js .site-nav.is-open { display: block; }
   .js .site-nav ul { flex-direction: column; gap: 0; }
   .js .site-nav a { display: block; padding: 0.75rem 0; border-bottom: 1px solid var(--rule); }
 }
-
-/* ---------- Portada ---------- */
-.hero {
-  position: relative;
-  isolation: isolate;
-  padding-block: clamp(2.5rem, 6vw, 5rem) clamp(3rem, 7vw, 6rem);
-  border-bottom: 1px solid var(--rule);
-}
-
-/* Cuadrícula de cuaderno, que se difumina hacia abajo */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-image:
-    linear-gradient(var(--grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-  background-size: 28px 28px;
-  -webkit-mask-image: linear-gradient(to bottom, #000 35%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 35%, transparent 100%);
-}
-
-.hero-grid {
-  display: grid;
-  gap: clamp(2rem, 5vw, 4rem);
-  align-items: center;
-}
-
-@media (min-width: 60em) {
-  .hero-grid { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
-}
-
-.lead {
-  max-width: 38rem;
-  margin: 1.25rem 0 0;
-  font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem);
-  line-height: 1.55;
-}
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.75rem;
-}
-
-.fineprint {
-  margin: 1.1rem 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-/* ---------- Hoja de asistencia (demo) ---------- */
-.register {
-  --margin: 2.1rem;
-  position: relative;
-  padding: 1.5rem 1.5rem 1.25rem calc(var(--margin) + 1.25rem);
-  background: var(--sheet);
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-  box-shadow: 0 1px 0 var(--rule), 0 22px 44px -26px var(--shadow);
-}
-
-/* Margen rojo, como en un cuaderno */
-.register::before {
-  content: "";
-  position: absolute;
-  top: 0; bottom: 0;
-  left: var(--margin);
-  width: 2px;
-  background: var(--red);
-  opacity: 0.55;
-}
-
-.register-title { font-size: 1.35rem; }
-.register-intro { margin: 0.4rem 0 0; color: var(--muted); }
-
-.tally {
-  display: none;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 0.15rem;
-  margin: 1.1rem 0 0.9rem;
-}
-.js .tally { display: grid; }
-
-.tally-group { display: block; width: 100%; height: auto; overflow: visible; }
-
-.tally-ghost {
-  fill: none;
-  stroke: var(--grid-strong);
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-dasharray: 0.1 6.5;
-}
-.tally-ghost.is-over-slot { stroke: var(--red); opacity: 0.4; }
-
-.tally-ink {
-  fill: none;
-  stroke: var(--red);
-  stroke-width: 4.5;
-  stroke-linecap: round;
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  opacity: 0;
-  transition: stroke-dashoffset 0.2s ease-out, opacity 0s;
-}
-.tally-ink.is-over { stroke: var(--over); }
-.tally-ink.is-on { stroke-dashoffset: 0; opacity: 1; }
-
-/* Momento de entrada: los palotes se dibujan uno a uno */
-.register.is-intro .tally-ink { transition-delay: calc(var(--i) * 70ms); transition-duration: 0.28s; }
-
-.register-control {
-  display: none;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: 0.75rem;
-  align-items: center;
-}
-.js .register-control { display: grid; }
-.register-control label { font-weight: 700; }
-.register-control output {
-  min-width: 3.4ch;
-  text-align: right;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-}
-.register-control input[type="range"] {
-  width: 100%;
-  height: 2rem;
-  margin: 0;
-  accent-color: var(--accent);
-}
-
-.register-result {
-  margin: 1rem 0 0;
-  padding: 0.7rem 1rem;
-  background: var(--paper);
-  border-left: 4px solid var(--ok);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  font-weight: 600;
-  line-height: 1.45;
-}
-.register-result[data-state="warn"] { border-left-color: var(--warn); }
-.register-result[data-state="limit"],
-.register-result[data-state="over"] { border-left-color: var(--red); }
-
-.register-note { margin: 0.75rem 0 0; color: var(--muted); font-size: 0.9rem; }
 
 /* ---------- Secciones ---------- */
 .section { padding-block: clamp(3rem, 6vw, 5.5rem); }
@@ -435,86 +330,6 @@ main:focus { outline: none; }
 
 .section-head { max-width: 40rem; }
 .section-head p { margin: 0.75rem 0 0; color: var(--muted); }
-
-/* ---------- Opciones ---------- */
-.options {
-  margin: 2rem 0 0;
-  padding: 0;
-  list-style: none;
-  border-top: 2px solid var(--ink);
-}
-
-.option { border-bottom: 1px solid var(--rule); }
-.option-soon { border-bottom-style: dashed; }
-
-.option-link {
-  display: grid;
-  gap: 0.5rem 2rem;
-  padding: 1.5rem 1rem;
-  color: inherit;
-  text-decoration: none;
-}
-@media (min-width: 48em) {
-  .option-link { grid-template-columns: 9.5rem minmax(0, 1fr); align-items: baseline; }
-}
-
-.option-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-.option-status::before {
-  content: "";
-  width: 0.7rem; height: 0.7rem;
-  border: 2px solid currentColor;
-  background: currentColor;
-  border-radius: 2px;
-}
-
-.option-body h3 { font-size: 1.3rem; }
-.option-body p { max-width: 46rem; margin: 0.4rem 0 0; }
-
-/* Disponible: relleno azul */
-.option-live .option-link { background: var(--accent); color: var(--on-accent); }
-.option-live .option-link:hover { background: var(--accent-strong); }
-.option-live .option-link:focus-visible { outline-color: var(--ink); }
-.option-live .option-body h3 { font-size: clamp(1.5rem, 1.2rem + 1.2vw, 1.95rem); }
-.option-live .option-body p { color: var(--on-accent-soft); }
-
-/* Próximamente: apagado, cuadro hueco, sin enlace */
-.option-soon .option-link { color: var(--muted); }
-.option-soon .option-status::before { background: transparent; }
-
-/* Abierto: texto normal, subrayado al pasar */
-.option-open .option-link:hover h3 { text-decoration: underline; text-underline-offset: 0.2em; text-decoration-thickness: 2px; }
-
-/* ---------- Pasos ---------- */
-.steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-  gap: 2rem 1.5rem;
-  margin: 2.25rem 0 0;
-  padding: 0;
-  list-style: none;
-  counter-reset: paso;
-}
-.steps li { counter-increment: paso; }
-.steps li::before {
-  content: counter(paso);
-  display: grid;
-  place-items: center;
-  width: 2.4rem; height: 2.4rem;
-  margin-bottom: 0.9rem;
-  border: 2px solid var(--accent);
-  border-radius: 50%;
-  color: var(--link);
-  font-family: var(--font-display);
-  font-weight: 800;
-}
-.steps h3 { font-size: 1.1rem; }
-.steps p { margin: 0.4rem 0 0; color: var(--muted); font-size: 0.98rem; }
 
 /* ---------- Contenido informativo ---------- */
 .info-grid { display: grid; gap: 1.5rem 4rem; }
@@ -562,57 +377,8 @@ main:focus { outline: none; }
 .faq details[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
 .faq details p { max-width: 42rem; margin: 0 0 1.25rem; }
 
-/* ---------- Sugerencias ---------- */
-.suggest-grid { display: grid; gap: 2rem 4rem; }
-@media (min-width: 56em) {
-  .suggest-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: start; }
-}
-.suggest-intro p { max-width: 30rem; margin: 0.9rem 0 0; }
-
-.form { display: grid; gap: 1.25rem; }
-.field { display: grid; gap: 0.4rem; }
-.field label { font-weight: 700; }
-.optional { color: var(--muted); font-weight: 400; }
-
-.field input[type="email"],
-.field input[type="text"],
-.field select,
-.field textarea {
-  width: 100%;
-  padding: 0.7rem 0.85rem;
-  background: var(--sheet);
-  color: var(--ink);
-  border: 2px solid var(--grid-strong);
-  border-radius: var(--radius-sm);
-  font: inherit;
-}
-.field textarea { resize: vertical; min-height: 8rem; }
-.field input:hover, .field select:hover, .field textarea:hover { border-color: var(--muted); }
-.field [aria-invalid="true"] { border-color: var(--red); }
-
-.field-hint, .field-count { margin: 0; color: var(--muted); font-size: 0.9rem; }
-.field-error { margin: 0; color: var(--red); font-size: 0.95rem; font-weight: 600; }
-.field-error[hidden] { display: none; }
-.field-meta { display: flex; justify-content: space-between; gap: 1rem; }
-.field-count { margin-left: auto; font-variant-numeric: tabular-nums; }
-
-.field-check {
-  grid-template-columns: auto minmax(0, 1fr);
-  column-gap: 0.75rem;
-  align-items: start;
-}
-.field-check input { width: 1.35rem; height: 1.35rem; margin: 0.2rem 0 0; accent-color: var(--accent); }
-.field-check label { font-weight: 400; }
-.field-check .field-error { grid-column: 2; }
-
-/* Campo trampa: fuera de la vista, pero no con display:none (los bots lo rellenan) */
-.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
-
-.form .btn { justify-self: start; }
-
-.form-status { min-height: 1.5em; margin: 0; font-weight: 600; }
-.form-status.is-success { color: var(--ok); }
-.form-status.is-error { color: var(--red); }
+/* Texto de ayuda bajo un campo (formularios y calculadoras) */
+.field-hint { margin: 0; color: var(--muted); font-size: 0.9rem; }
 
 /* ---------- Pie ---------- */
 .site-footer {
@@ -662,6 +428,83 @@ main:focus { outline: none; }
   .cookie-banner { inset: auto 0.75rem 0.75rem 0.75rem; padding: 1rem; }
 }
 
+.site-nav a[aria-current="page"] { border-bottom-color: var(--red); }
+
+.page-head { padding-block: clamp(2rem, 5vw, 3.5rem) 1.25rem; }
+.page-head h1 { font-size: clamp(2rem, 1.2rem + 3.2vw, 3.3rem); }
+.page-head .lead { margin-top: 1rem; }
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.badge-origen { border-color: var(--origin, var(--muted)); color: var(--origin, var(--muted)); }
+.badge-plain { border-color: var(--grid-strong); color: var(--muted); }
+
+.prose-wide { max-width: 52rem; }
+.prose h2 { margin: 2.4rem 0 0.7rem; font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.75rem); }
+.prose h2:first-child { margin-top: 0; }
+.prose ul { margin: 0 0 1em; padding-left: 1.3rem; }
+.prose li { margin: 0.35rem 0; }
+.prose code { padding: 0.1rem 0.35rem; background: var(--paper-deep); border-radius: 4px; font-size: 0.92em; overflow-wrap: anywhere; }
+
+/* Marcador de datos que hay que rellenar antes de publicar */
+mark.placeholder {
+  padding: 0.05rem 0.35rem;
+  background: #ffe58a;
+  color: #3a2a00;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+[data-origen="norma"] { --origin: var(--ok); }
+[data-origen="indicio"] { --origin: var(--link); }
+[data-origen="centro"] { --origin: var(--warn); }
+[data-origen="sin-datos"] { --origin: var(--muted); }
+
+.data-table { width: 100%; margin-top: 1.25rem; border-collapse: collapse; }
+.data-table th,
+.data-table td {
+  padding: 0.75rem 0.75rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  vertical-align: top;
+}
+.data-table thead th { border-bottom: 2px solid var(--ink); color: var(--muted); font-size: 0.9rem; font-weight: 700; }
+.data-table tbody th { font-weight: 700; }
+.data-table .badge { font-size: 0.8rem; }
+.data-table code { overflow-wrap: anywhere; }
+
+@media (max-width: 47.99em) {
+  .data-table, .data-table tbody, .data-table tr, .data-table th, .data-table td { display: block; }
+  .data-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .data-table tr {
+    margin-bottom: 0.9rem;
+    padding: 0.8rem 1rem;
+    background: var(--sheet);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--origin, var(--grid-strong));
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .data-table th,
+  .data-table td { padding: 0.25rem 0; border: 0; }
+  .data-table td::before,
+  .data-table tbody th::before {
+    content: attr(data-label);
+    display: block;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+  .data-table tbody th { font-size: 1.1rem; }
+  .data-table tbody th::before { content: none; }
+}
+
 /* ---------- Movimiento reducido ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -671,4 +514,23 @@ main:focus { outline: none; }
     transition-delay: 0ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ---------- Anuncios ----------
+   Los huecos <aside class="anuncio" hidden> no se ven hasta que hay ID de AdSense, el hueco tiene su bloque configurado
+   y se ha dado el permiso (ver compartido/configuracion.js). Si Google no rellena el hueco, se vuelve a ocultar. */
+.anuncio { padding-block: 0 clamp(2rem, 4vw, 3.5rem); }
+.anuncio[hidden] { display: none; }
+.anuncio-etiqueta { margin: 0 0 0.4rem; color: var(--muted); font-size: 0.8rem; line-height: 1.2; }
+.anuncio-hueco { min-width: 0; overflow: hidden; }
+.anuncio:has(ins[data-ad-status="unfilled"]) { display: none; }
+
+/* ---------- Impresión: siempre colores claros, sin cabecera, anuncios ni avisos ---------- */
+@media print {
+  :root:root {
+    --paper: #fff; --paper-deep: #fff; --sheet: #fff; --ink: #000; --muted: #333;
+    --accent: #1c3faa; --accent-strong: #142f85; --link: #1c3faa; --red: #d0213a; --over: #7d0f22;
+    --ok: #17724f; --warn: #9a5a00; --grid: #ddd; --grid-strong: #888; --rule: #999;
+  }
+  .anuncio, .theme-toggle, .nav-toggle, .cookie-banner { display: none !important; }
 }
