@@ -1,3 +1,0 @@
-# ads.txt de AdSense. Se rellena solo: escribe tu ID en compartido/configuracion.js (adsenseClient)
-# y ejecuta de nuevo gen/construir.py. Aparecerá aquí una línea como esta:
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
