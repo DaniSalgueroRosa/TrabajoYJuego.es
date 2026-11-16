@@ -1,0 +1,21 @@
+{
+  "titulo": "Click de Kohi: CPS en 10 segundos",
+  "descripcion": "Haz el click test de Kohi: diez segundos de clics, CPS en vivo de los últimos 2 segundos y un rango que va de Aprendiz a General.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "kohi click test",
+    "click de kohi",
+    "cps 10 segundos",
+    "minecraft",
+    "test de clics"
+  ],
+  "categoria": "velocidad-clics",
+  "duracion": "10 s",
+  "orden": 3,
+  "tema": {
+    "fondo": "#101A17",
+    "texto": "#EAF2EE",
+    "acento": "#E6F14A"
+  }
+}

@@ -1,0 +1,390 @@
+{
+"_nota": "Cada conjunto: t (tema) y e (hechos con n=nombre y a=año; negativo = antes de Cristo). Años distintos dentro del conjunto. Para ampliar, añade conjuntos con el mismo formato.",
+"conjuntos": [
+{
+"t": "Historia de España",
+"e": [
+{
+"n": "Colón llega a América",
+"a": 1492
+},
+{
+"n": "Derrota de la Armada Invencible",
+"a": 1588
+},
+{
+"n": "Comienza la guerra de la Independencia",
+"a": 1808
+},
+{
+"n": "Se aprueba la Constitución de Cádiz",
+"a": 1812
+},
+{
+"n": "Empieza la Guerra Civil",
+"a": 1936
+},
+{
+"n": "Se aprueba la Constitución Española",
+"a": 1978
+},
+{
+"n": "España entra en la CEE",
+"a": 1986
+},
+{
+"n": "Juegos Olímpicos de Barcelona",
+"a": 1992
+}
+]
+},
+{
+"t": "Inventos",
+"e": [
+{
+"n": "Imprenta de Gutenberg (hacia)",
+"a": 1450
+},
+{
+"n": "Telescopio de Galileo",
+"a": 1609
+},
+{
+"n": "Máquina de vapor de Watt",
+"a": 1769
+},
+{
+"n": "Bombilla de Edison",
+"a": 1879
+},
+{
+"n": "Primer vuelo de los hermanos Wright",
+"a": 1903
+},
+{
+"n": "Primera página web",
+"a": 1991
+},
+{
+"n": "Primer iPhone",
+"a": 2007
+}
+]
+},
+{
+"t": "Carrera espacial",
+"e": [
+{
+"n": "Sputnik 1, primer satélite",
+"a": 1957
+},
+{
+"n": "Gagarin, primer humano en el espacio",
+"a": 1961
+},
+{
+"n": "Apolo 11 llega a la Luna",
+"a": 1969
+},
+{
+"n": "Lanzamiento del telescopio Hubble",
+"a": 1990
+},
+{
+"n": "Primer módulo de la Estación Espacial",
+"a": 1998
+},
+{
+"n": "El rover Curiosity llega a Marte",
+"a": 2012
+}
+]
+},
+{
+"t": "Antigüedad",
+"e": [
+{
+"n": "Se construye la Gran Pirámide de Guiza (hacia)",
+"a": -2560
+},
+{
+"n": "Primeros Juegos Olímpicos de la Antigüedad",
+"a": -776
+},
+{
+"n": "Batalla de Maratón",
+"a": -490
+},
+{
+"n": "Muerte de Alejandro Magno",
+"a": -323
+},
+{
+"n": "Caída del Imperio romano de Occidente",
+"a": 476
+}
+]
+},
+{
+"t": "Siglo XX",
+"e": [
+{
+"n": "Empieza la Primera Guerra Mundial",
+"a": 1914
+},
+{
+"n": "Revolución rusa",
+"a": 1917
+},
+{
+"n": "Crack de la Bolsa de Nueva York",
+"a": 1929
+},
+{
+"n": "Empieza la Segunda Guerra Mundial",
+"a": 1939
+},
+{
+"n": "Cae el Muro de Berlín",
+"a": 1989
+},
+{
+"n": "Circulan las monedas y billetes en euros",
+"a": 2002
+}
+]
+},
+{
+"t": "Cine",
+"e": [
+{
+"n": "Primera proyección pública de los Lumière",
+"a": 1895
+},
+{
+"n": "«El cantor de jazz», primera película sonora comercial",
+"a": 1927
+},
+{
+"n": "Estreno de «Blancanieves» de Disney",
+"a": 1937
+},
+{
+"n": "Estreno de «La guerra de las galaxias»",
+"a": 1977
+},
+{
+"n": "Estreno de «Toy Story»",
+"a": 1995
+},
+{
+"n": "Estreno de «Avatar»",
+"a": 2009
+}
+]
+},
+{
+"t": "Literatura",
+"e": [
+{
+"n": "Se publica «La Celestina»",
+"a": 1499
+},
+{
+"n": "Se publica «El Lazarillo de Tormes»",
+"a": 1554
+},
+{
+"n": "Primera parte de «Don Quijote»",
+"a": 1605
+},
+{
+"n": "Se publica «Frankenstein»",
+"a": 1818
+},
+{
+"n": "Se publica «Cien años de soledad»",
+"a": 1967
+},
+{
+"n": "Se publica «Harry Potter y la piedra filosofal»",
+"a": 1997
+}
+]
+},
+{
+"t": "Deporte",
+"e": [
+{
+"n": "Primeros Juegos Olímpicos modernos, en Atenas",
+"a": 1896
+},
+{
+"n": "Primer Tour de Francia",
+"a": 1903
+},
+{
+"n": "Primer Mundial de fútbol, en Uruguay",
+"a": 1930
+},
+{
+"n": "Primeros Juegos Paralímpicos, en Roma",
+"a": 1960
+},
+{
+"n": "Juegos Olímpicos de Barcelona",
+"a": 1992
+},
+{
+"n": "España gana el Mundial de fútbol",
+"a": 2010
+}
+]
+},
+{
+"t": "Internet y tecnología",
+"e": [
+{
+"n": "Primer correo electrónico",
+"a": 1971
+},
+{
+"n": "Sale el IBM PC",
+"a": 1981
+},
+{
+"n": "Se funda Google",
+"a": 1998
+},
+{
+"n": "Nace Wikipedia",
+"a": 2001
+},
+{
+"n": "Se abre YouTube",
+"a": 2005
+},
+{
+"n": "Se publica ChatGPT",
+"a": 2022
+}
+]
+},
+{
+"t": "Ciencia",
+"e": [
+{
+"n": "Newton publica los «Principia»",
+"a": 1687
+},
+{
+"n": "Darwin publica «El origen de las especies»",
+"a": 1859
+},
+{
+"n": "Mendeléyev publica su tabla periódica",
+"a": 1869
+},
+{
+"n": "Einstein presenta la relatividad especial",
+"a": 1905
+},
+{
+"n": "Fleming descubre la penicilina",
+"a": 1928
+},
+{
+"n": "Watson y Crick describen la estructura del ADN",
+"a": 1953
+},
+{
+"n": "Nace la oveja Dolly",
+"a": 1996
+}
+]
+},
+{
+"t": "Exploración",
+"e": [
+{
+"n": "Colón llega a América",
+"a": 1492
+},
+{
+"n": "Vasco de Gama llega a la India",
+"a": 1498
+},
+{
+"n": "Elcano completa la primera vuelta al mundo",
+"a": 1522
+},
+{
+"n": "Amundsen llega al Polo Sur",
+"a": 1911
+},
+{
+"n": "Hillary y Tenzing llegan a la cima del Everest",
+"a": 1953
+}
+]
+},
+{
+"t": "España en el siglo XX",
+"e": [
+{
+"n": "Desastre del 98: España pierde Cuba",
+"a": 1898
+},
+{
+"n": "Se proclama la Segunda República",
+"a": 1931
+},
+{
+"n": "Termina la Guerra Civil",
+"a": 1939
+},
+{
+"n": "Muere Franco",
+"a": 1975
+},
+{
+"n": "Intento de golpe de Estado del 23-F",
+"a": 1981
+},
+{
+"n": "Exposición Universal de Sevilla",
+"a": 1992
+}
+]
+},
+{
+"t": "Música",
+"e": [
+{
+"n": "Beethoven estrena su Novena sinfonía",
+"a": 1824
+},
+{
+"n": "Sale el primer disco LP comercial",
+"a": 1948
+},
+{
+"n": "Los Beatles publican «Please Please Me»",
+"a": 1963
+},
+{
+"n": "Se lanza el disco compacto comercial",
+"a": 1982
+},
+{
+"n": "Se presenta el iPod",
+"a": 2001
+},
+{
+"n": "Se lanza Spotify",
+"a": 2008
+}
+]
+}
+]
+}

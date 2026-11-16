@@ -1,0 +1,12 @@
+/* RECUERDA EL NÚMERO: caja oscura con las cifras en tipografía de píxeles y una barra que se vacía mientras dura la lectura. */
+.rn-caja { width: min(100%, 26rem); margin: var(--e2) auto; padding: var(--e4) var(--e3) var(--e3); background: var(--tinta); border: 4px solid var(--noche-linea); border-radius: 10px; text-align: center; }
+.rn-cifras { margin: 0 0 var(--e3); font-family: var(--f-pixel); font-size: clamp(1.6rem, 7vw, 2.6rem); letter-spacing: 0.12em; color: var(--limon); overflow-wrap: anywhere; line-height: 1.2; }
+.rn-oculto { color: var(--tiza-suave); }
+.rn-barra { height: 10px; background: var(--noche-2); border-radius: 5px; overflow: hidden; }
+.rn-barra > span { display: block; height: 100%; width: 100%; background: var(--sandia); transform-origin: left center; }
+.rn-corre > span { animation: rn-vaciar var(--dur, 3s) linear forwards; }
+@keyframes rn-vaciar { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+.rn-entrada { width: min(100%, 14rem); padding: var(--e2); font-family: var(--f-pixel); font-size: var(--t1); text-align: center; letter-spacing: 0.1em; color: var(--tinta); background: var(--papel); border: 3px solid var(--tinta); border-radius: 6px; }
+.rn-entrada:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.rn-entrada:disabled { background: var(--linea); }
+@media (prefers-reduced-motion: reduce) { .rn-corre > span { animation: none; transform: scaleX(0.5); } }

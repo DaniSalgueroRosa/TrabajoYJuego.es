@@ -1,0 +1,22 @@
+{
+  "titulo": "Test de velocidad de internet",
+  "descripcion": "Mide la velocidad de descarga y la latencia de tu conexión en segundos, sin instalar nada. La prueba mide hasta este sitio y no guarda datos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "velocidad de internet",
+    "speed test",
+    "Mbps",
+    "latencia",
+    "ping",
+    "velocidad de descarga"
+  ],
+  "categoria": "utilidades",
+  "duracion": "30 s",
+  "orden": 31,
+  "tema": {
+    "fondo": "#0E2630",
+    "texto": "#E6F5F8",
+    "acento": "#5CE1F2"
+  }
+}

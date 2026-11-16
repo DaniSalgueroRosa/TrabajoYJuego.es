@@ -1,0 +1,8 @@
+{
+  "titulo": "Contador de caracteres",
+  "descripcion": "Cuenta los caracteres de un texto con y sin espacios, letras, cifras y bytes, y comprueba si cabe en un límite: X, SMS, meta descripción o título SEO.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 52
+}

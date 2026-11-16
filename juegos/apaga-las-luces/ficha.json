@@ -1,0 +1,17 @@
+{
+  "titulo": "Apaga las luces: puzle lógico online",
+  "descripcion": "Puzle de lógica: cada pulsación cambia una luz y sus vecinas, y tienes que dejarlas todas apagadas. Tres tamaños y pista calculada.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "luces",
+    "lógica",
+    "rompecabezas",
+    "matrices",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "dificil",
+  "duracion": "3-12 min",
+  "orden": 38
+}

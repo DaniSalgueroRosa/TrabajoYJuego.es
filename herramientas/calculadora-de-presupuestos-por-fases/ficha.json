@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de presupuestos por fases",
+  "descripcion": "Prepara el presupuesto de un proyecto dividido en fases con horas, tarifa y costes directos, con imprevistos, descuento, IVA, retención de IRPF y anticipo.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "negocio",
+  "orden": 156
+}

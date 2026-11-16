@@ -1,0 +1,8 @@
+/* PORTADA · SOBRE: qué es el sitio, en dos frases. Lo más tranquilo de la portada, a propósito. */
+.sobre { border-top: 2px solid var(--tinta); background: var(--papel); }
+.sobre-interior { display: grid; gap: var(--e5); padding-block: var(--e7); }
+.sobre-titulo { font-size: var(--t4); letter-spacing: -0.03em; }
+.sobre-texto { display: grid; gap: var(--e4); max-width: 36rem; font-size: var(--t1); line-height: 1.45; }
+@media (min-width: 52rem) {
+  .sobre-interior { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: var(--e7); align-items: start; }
+}

@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de intereses de demora",
+  "descripcion": "Calcula los intereses de demora de una factura impagada entre empresas en España, con el tipo legal del semestre, la indemnización de 40 € y el total reclamable.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "negocio",
+  "orden": 159
+}

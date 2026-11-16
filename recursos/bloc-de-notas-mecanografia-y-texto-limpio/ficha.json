@@ -1,0 +1,14 @@
+{
+  "titulo": "Notas, mecanografía y texto limpio",
+  "descripcion": "Un bloc de notas que no guarda nada, un test para medir y mejorar cuánto escribes, un limpiador de espacios y un generador de texto de relleno.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "notas",
+    "mecanografía",
+    "espacios",
+    "lorem ipsum"
+  ],
+  "categoria": "texto",
+  "orden": 32
+}

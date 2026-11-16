@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de gastos de envío",
+  "descripcion": "Calcula el peso volumétrico de un paquete, la tarifa según tus tramos de peso, el coste total con IVA y el pedido mínimo para ofrecer envío gratis.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "comercio",
+  "orden": 150
+}

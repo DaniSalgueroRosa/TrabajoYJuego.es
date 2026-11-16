@@ -1,0 +1,37 @@
+/* PORTADA · EXPLORAR: índice de cada sección que tiene categorías, con todos sus elementos publicados enlazados.
+   Es una lista de enlaces (no de tarjetas): sirve para llegar a cualquier juego o herramienta en un clic desde la portada.
+   Cada bloque toma el aspecto de su mundo: «juego» de pantalla de arcade, «trabajo» de papel de cuaderno. */
+.explorar { padding-block: var(--e7); border-top: 2px solid var(--tinta); }
+.explorar-cabeza { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--e2) var(--e5); margin-bottom: var(--e5); }
+.explorar-titulo { font-size: var(--t4); letter-spacing: -0.03em; }
+.explorar-todos { margin: 0; font-weight: 700; }
+.explorar-todos a { color: inherit; text-underline-offset: 0.25em; }
+
+.explorar-rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15.5rem), 1fr)); gap: var(--e4); margin: 0; padding: 0; list-style: none; }
+.explorar-grupo { display: flex; flex-direction: column; gap: var(--e2); min-width: 0; padding: var(--e4) var(--e4) var(--e5); border: 2px solid currentColor; }
+.explorar-grupo-titulo { margin: 0; font-size: var(--t1); line-height: 1.15; }
+.explorar-grupo-titulo a { color: inherit; text-decoration: none; }
+.explorar-grupo-titulo a::after { content: " →" / ""; font-weight: 400; }
+.explorar-grupo-titulo a:hover, .explorar-grupo-titulo a:focus-visible { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.2em; }
+.explorar-cuenta { margin: 0 0 var(--e2); font-size: var(--t-1); font-weight: 700; }
+.explorar-items { display: grid; gap: var(--e1); margin: 0; padding: 0; list-style: none; border-top: 1px solid currentColor; }
+.explorar-items li { border-bottom: 1px solid var(--linea-fina, currentColor); }
+.explorar-items a { display: block; padding: var(--e2) 0; color: inherit; text-underline-offset: 0.25em; overflow-wrap: anywhere; }
+.explorar-items a:hover, .explorar-items a:focus-visible { background-color: var(--tinte); }
+
+/* ---------- Trabajo */
+.explorar[data-mundo="trabajo"] { background: var(--papel-trabajo); color: var(--pizarra); --foco: var(--pizarra); --tinte: rgba(29, 58, 52, 0.1); --linea-fina: rgba(29, 58, 52, 0.25); }
+.explorar[data-mundo="trabajo"] .explorar-titulo { font-family: var(--f-trabajo); }
+.explorar[data-mundo="trabajo"] .explorar-grupo { background: var(--papel); border-radius: var(--radio-trabajo); }
+.explorar[data-mundo="trabajo"] .explorar-grupo-titulo { font-family: var(--f-trabajo); font-weight: 700; }
+
+/* ---------- Juego */
+.explorar[data-mundo="juego"] { background: var(--tinta); color: var(--tiza); --foco: var(--limon); --tinte: rgba(234, 242, 238, 0.1); --linea-fina: var(--noche-linea); }
+.explorar[data-mundo="juego"] .explorar-titulo { font: 400 var(--t3) / 1.15 var(--f-pixel); font-size: 2.2rem; font-size: round(down, 2.2rem, 10px); letter-spacing: 0; color: var(--sandia); }
+.explorar[data-mundo="juego"] .explorar-todos a { color: var(--limon); }
+.explorar[data-mundo="juego"] .explorar-grupo { background: var(--noche-2); border-color: var(--noche-linea); }
+.explorar[data-mundo="juego"] .explorar-grupo-titulo { font: 400 var(--t1) / 1.2 var(--f-pixel); font-size: 1.3rem; font-size: round(down, 1.3rem, 10px); -webkit-text-stroke: 0.5px currentColor; }
+.explorar[data-mundo="juego"] .explorar-grupo-titulo a:is(:hover, :focus-visible) { color: var(--limon); }
+.explorar[data-mundo="juego"] .explorar-cuenta { color: var(--limon); }
+.explorar[data-mundo="juego"] .explorar-items { border-top-color: var(--noche-linea); }
+.explorar[data-mundo="juego"] .explorar-items a { padding-inline: var(--e2); margin-inline: calc(var(--e2) * -1); }

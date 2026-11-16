@@ -1,0 +1,8 @@
+{
+  "titulo": "PDF a JPG/PNG",
+  "descripcion": "Convierte las páginas de un PDF en imágenes JPG o PNG. Elige la calidad y las páginas que quieres.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 6
+}

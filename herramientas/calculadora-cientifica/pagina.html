@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="calculadora-cientifica">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Escribe la operación entera y recibe el resultado</h2>
+  <p>A diferencia de una calculadora de teclas, aquí escribes la operación completa en una sola línea, como en el papel, y el resultado aparece mientras tecleas. Respeta la jerarquía de las operaciones: primero paréntesis, después potencias, luego multiplicaciones y divisiones, y al final sumas y restas. Por eso <code>2 + 3 * 4</code> da 14 y <code>(2 + 3) * 4</code> da 20.</p>
+  <h2>Funciones que reconoce</h2>
+  <ul><li><strong>Trigonometría:</strong> sin, cos, tan, asin, acos, atan, sinh, cosh y tanh, en grados o en radianes según elijas.</li><li><strong>Logaritmos y exponenciales:</strong> ln (neperiano), log (base 10), log2 y exp.</li><li><strong>Raíces y potencias:</strong> sqrt o √, cbrt para la raíz cúbica y ^ para elevar, como en <code>2^10</code>.</li><li><strong>Otras:</strong> abs, floor, ceil, round, el factorial con ! y el porcentaje con %. Las constantes son pi (π) y e.</li></ul><p>También admite la multiplicación implícita: <code>2(3+4)</code> equivale a <code>2*(3+4)</code>.</p>
+  <h2>Errores y precisión</h2>
+  <p>Si la operación no tiene sentido, no verás un resultado extraño sino un mensaje: paréntesis sin cerrar, división entre cero, un nombre de función que no existe. El resultado se redondea a doce cifras significativas para que cosas como el seno de 30 grados salgan como 0,5 y no como 0,49999999999999994.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Cómo calculo una raíz cuadrada o cúbica?</summary>
+    <p>Escribe sqrt(25) o √(25) para la cuadrada y cbrt(27) para la cúbica. Para otras raíces, usa una potencia fraccionaria: 32^(1/5).</p>
+  </details>
+  <details>
+    <summary>¿Grados o radianes?</summary>
+    <p>Elige el modo en el selector. En grados, sin(30) vale 0,5; en radianes, sin(pi/6) vale 0,5.</p>
+  </details>
+  <details>
+    <summary>¿Se pueden usar comas como separador decimal?</summary>
+    <p>Sí: 2,5 y 2.5 son lo mismo. Por eso no se pueden usar para separar miles.</p>
+  </details>
+  <details>
+    <summary>¿Qué significa un resultado muy largo con ×10^?</summary>
+    <p>Es notación científica: 1,5 × 10^20 equivale a 1,5 seguido de veinte ceros.</p>
+  </details>
+</div>

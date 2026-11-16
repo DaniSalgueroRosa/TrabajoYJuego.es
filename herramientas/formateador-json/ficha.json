@@ -1,0 +1,8 @@
+{
+  "titulo": "Formateador JSON",
+  "descripcion": "Formatea y embellece JSON con sangría de 2 o 4 espacios o tabuladores, minifícalo u ordena las claves, sin perder cifras. Indica dónde falla.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 81
+}

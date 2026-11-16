@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de vencimientos de facturas",
+  "descripcion": "Calcula la fecha de vencimiento de una factura según el plazo pactado, a fecha de factura o fin de mes, con días de pago fijos y pagos fraccionados, y si ha vencido.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "negocio",
+  "orden": 157
+}

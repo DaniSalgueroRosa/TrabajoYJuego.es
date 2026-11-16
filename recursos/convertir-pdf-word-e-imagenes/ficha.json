@@ -1,0 +1,14 @@
+{
+  "titulo": "Convertir entre PDF, Word e imágenes",
+  "descripcion": "Cuándo funciona bien pasar de PDF a Word, a JPG o PNG y de vuelta, qué se pierde en cada conversión y cómo evitar sorpresas.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "PDF",
+    "Word",
+    "imágenes",
+    "conversión"
+  ],
+  "categoria": "pdf-documentos",
+  "orden": 2
+}

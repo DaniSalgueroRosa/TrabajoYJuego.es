@@ -1,0 +1,785 @@
+{
+"_nota": "Preguntas de ciencia: en «o» la respuesta correcta va siempre primero (el juego baraja las opciones al mostrarlas). «t» es el tema.",
+"preguntas": [
+{
+"p": "¿Cuál es el planeta más grande del sistema solar?",
+"o": [
+"Júpiter",
+"Saturno",
+"Neptuno",
+"Urano"
+],
+"c": 0,
+"e": "Júpiter mide unos 140.000 km de diámetro, más de once veces el de la Tierra.",
+"t": "Astronomía"
+},
+{
+"p": "¿Qué planeta se conoce como «el planeta rojo»?",
+"o": [
+"Marte",
+"Venus",
+"Mercurio",
+"Júpiter"
+],
+"c": 0,
+"e": "El óxido de hierro que cubre su superficie le da el color rojizo.",
+"t": "Astronomía"
+},
+{
+"p": "¿Cuánto tarda la luz del Sol en llegar a la Tierra?",
+"o": [
+"Unos 8 minutos",
+"Unos 8 segundos",
+"Una hora",
+"Un día"
+],
+"c": 0,
+"e": "La luz recorre unos 300.000 km por segundo y el Sol está a unos 150 millones de kilómetros: tarda algo más de ocho minutos.",
+"t": "Astronomía"
+},
+{
+"p": "¿Cómo se llama la galaxia en la que está el sistema solar?",
+"o": [
+"Vía Láctea",
+"Andrómeda",
+"Triángulo",
+"Remolino"
+],
+"c": 0,
+"e": "Nuestro sistema solar está en un brazo de la Vía Láctea, una galaxia espiral con cientos de miles de millones de estrellas.",
+"t": "Astronomía"
+},
+{
+"p": "¿Qué planeta es famoso por sus anillos visibles con un telescopio pequeño?",
+"o": [
+"Saturno",
+"Marte",
+"Venus",
+"Mercurio"
+],
+"c": 0,
+"e": "Otros planetas gigantes tienen anillos, pero los de Saturno son los más grandes y brillantes.",
+"t": "Astronomía"
+},
+{
+"p": "¿Cuál es el planeta más cercano al Sol?",
+"o": [
+"Mercurio",
+"Venus",
+"Marte",
+"La Tierra"
+],
+"c": 0,
+"e": "Mercurio orbita a unos 58 millones de kilómetros del Sol y tarda 88 días terrestres en darle una vuelta.",
+"t": "Astronomía"
+},
+{
+"p": "¿Cuántos planetas tiene el sistema solar?",
+"o": [
+"8",
+"9",
+"7",
+"10"
+],
+"c": 0,
+"e": "Desde 2006 Plutón se clasifica como planeta enano, así que los planetas son ocho.",
+"t": "Astronomía"
+},
+{
+"p": "¿Qué provoca principalmente las mareas en la Tierra?",
+"o": [
+"La atracción de la Luna y del Sol",
+"El viento",
+"Los terremotos submarinos",
+"El giro del núcleo terrestre"
+],
+"c": 0,
+"e": "La gravedad de la Luna (y, en menor medida, la del Sol) estira los océanos y produce dos mareas altas al día en la mayoría de las costas.",
+"t": "Astronomía"
+},
+{
+"p": "¿Cuál es la unidad de fuerza en el Sistema Internacional?",
+"o": [
+"Newton",
+"Julio",
+"Vatio",
+"Pascal"
+],
+"c": 0,
+"e": "Un newton es la fuerza que acelera un kilogramo a un metro por segundo cada segundo.",
+"t": "Física"
+},
+{
+"p": "¿Quién formuló la ley de la gravitación universal?",
+"o": [
+"Isaac Newton",
+"Galileo Galilei",
+"Albert Einstein",
+"Johannes Kepler"
+],
+"c": 0,
+"e": "Newton la publicó en 1687 en sus «Principia».",
+"t": "Física"
+},
+{
+"p": "¿A qué velocidad viaja la luz en el vacío?",
+"o": [
+"Unos 300.000 km/s",
+"Unos 30.000 km/s",
+"Unos 3.000 km/s",
+"Unos 3 millones de km/s"
+],
+"c": 0,
+"e": "Son casi 300.000 kilómetros por segundo, el límite de velocidad del universo.",
+"t": "Física"
+},
+{
+"p": "¿Cómo se llama la energía que tiene un cuerpo por estar en movimiento?",
+"o": [
+"Cinética",
+"Potencial",
+"Térmica",
+"Química"
+],
+"c": 0,
+"e": "La energía cinética depende de la masa y del cuadrado de la velocidad.",
+"t": "Física"
+},
+{
+"p": "¿Qué instrumento mide la presión atmosférica?",
+"o": [
+"Barómetro",
+"Termómetro",
+"Higrómetro",
+"Anemómetro"
+],
+"c": 0,
+"e": "El barómetro mide la presión del aire; el higrómetro, la humedad; y el anemómetro, la velocidad del viento.",
+"t": "Física"
+},
+{
+"p": "¿Cómo se llama el paso de un gas a líquido?",
+"o": [
+"Condensación",
+"Evaporación",
+"Fusión",
+"Sublimación"
+],
+"c": 0,
+"e": "Es lo que ocurre cuando el vapor de agua se enfría y forma gotas, como en un espejo empañado.",
+"t": "Física"
+},
+{
+"p": "¿Cuál es la unidad de energía en el Sistema Internacional?",
+"o": [
+"Julio",
+"Newton",
+"Vatio",
+"Pascal"
+],
+"c": 0,
+"e": "El julio es el trabajo que hace una fuerza de un newton al mover un cuerpo un metro.",
+"t": "Física"
+},
+{
+"p": "¿Qué fenómeno explica que veamos el arcoíris?",
+"o": [
+"La refracción y dispersión de la luz en gotas de agua",
+"La reflexión de la luz en la Luna",
+"La polarización del aire",
+"El efecto Doppler"
+],
+"c": 0,
+"e": "Las gotas de lluvia desvían y separan la luz blanca del Sol en sus colores.",
+"t": "Física"
+},
+{
+"p": "¿Cuál de estos materiales es mejor conductor de la electricidad?",
+"o": [
+"Cobre",
+"Madera",
+"Goma",
+"Vidrio"
+],
+"c": 0,
+"e": "El cobre se usa en los cables porque conduce muy bien la corriente.",
+"t": "Física"
+},
+{
+"p": "¿A qué temperatura hierve el agua pura al nivel del mar?",
+"o": [
+"100 °C",
+"80 °C",
+"120 °C",
+"0 °C"
+],
+"c": 0,
+"e": "A mayor altitud, la presión baja y el agua hierve a menos de 100 °C.",
+"t": "Física"
+},
+{
+"p": "¿Quién propuso la teoría de la relatividad?",
+"o": [
+"Albert Einstein",
+"Max Planck",
+"Niels Bohr",
+"Stephen Hawking"
+],
+"c": 0,
+"e": "La relatividad especial es de 1905 y la general, de 1915.",
+"t": "Física"
+},
+{
+"p": "¿En cuál de estos medios no se propaga el sonido?",
+"o": [
+"En el vacío",
+"En el agua",
+"En el aire",
+"En un metal"
+],
+"c": 0,
+"e": "El sonido necesita un medio material para propagarse; en el vacío del espacio no hay nada que vibre.",
+"t": "Física"
+},
+{
+"p": "¿Cómo se llama la unidad de resistencia eléctrica?",
+"o": [
+"Ohmio",
+"Voltio",
+"Amperio",
+"Vatio"
+],
+"c": 0,
+"e": "Su símbolo es la letra griega omega mayúscula (Ω).",
+"t": "Física"
+},
+{
+"p": "¿Qué magnitud mide el amperio?",
+"o": [
+"La intensidad de la corriente eléctrica",
+"El voltaje",
+"La resistencia",
+"La potencia"
+],
+"c": 0,
+"e": "Un amperio equivale a un culombio de carga por segundo.",
+"t": "Física"
+},
+{
+"p": "¿Qué ley de Newton dice que a toda acción corresponde una reacción igual y de sentido contrario?",
+"o": [
+"La tercera ley",
+"La primera ley",
+"La ley de Ohm",
+"La ley de Boyle"
+],
+"c": 0,
+"e": "Por eso un cohete avanza al expulsar gases hacia atrás.",
+"t": "Física"
+},
+{
+"p": "¿Cuál es el símbolo químico del oro?",
+"o": [
+"Au",
+"Ag",
+"Or",
+"Go"
+],
+"c": 0,
+"e": "Viene del latín «aurum». Ag, la plata, viene de «argentum».",
+"t": "Química"
+},
+{
+"p": "¿Cuál es el símbolo químico del hierro?",
+"o": [
+"Fe",
+"Hi",
+"Ir",
+"Fr"
+],
+"c": 0,
+"e": "Viene del latín «ferrum».",
+"t": "Química"
+},
+{
+"p": "¿Cuál es el símbolo químico del sodio?",
+"o": [
+"Na",
+"So",
+"Sd",
+"S"
+],
+"c": 0,
+"e": "Viene del latín «natrium». La S es el azufre.",
+"t": "Química"
+},
+{
+"p": "¿Qué gas necesitamos para respirar?",
+"o": [
+"Oxígeno",
+"Nitrógeno",
+"Dióxido de carbono",
+"Hidrógeno"
+],
+"c": 0,
+"e": "Usamos el oxígeno para obtener energía de los alimentos en las células.",
+"t": "Química"
+},
+{
+"p": "¿Cuál es la fórmula química del agua?",
+"o": [
+"H₂O",
+"CO₂",
+"O₂",
+"NaCl"
+],
+"c": 0,
+"e": "Cada molécula tiene dos átomos de hidrógeno y uno de oxígeno.",
+"t": "Química"
+},
+{
+"p": "¿Cuál es el elemento más abundante del universo?",
+"o": [
+"Hidrógeno",
+"Helio",
+"Oxígeno",
+"Carbono"
+],
+"c": 0,
+"e": "El hidrógeno constituye aproximadamente tres cuartas partes de la materia ordinaria del universo.",
+"t": "Química"
+},
+{
+"p": "¿Qué gas forma la mayor parte de la atmósfera terrestre?",
+"o": [
+"Nitrógeno",
+"Oxígeno",
+"Dióxido de carbono",
+"Argón"
+],
+"c": 0,
+"e": "El nitrógeno supone cerca del 78 % del aire; el oxígeno, el 21 %.",
+"t": "Química"
+},
+{
+"p": "¿Cuál es el pH de una disolución neutra a 25 °C?",
+"o": [
+"7",
+"0",
+"14",
+"1"
+],
+"c": 0,
+"e": "Por debajo de 7 las disoluciones son ácidas y por encima, básicas.",
+"t": "Química"
+},
+{
+"p": "¿Qué elemento tiene número atómico 1?",
+"o": [
+"Hidrógeno",
+"Helio",
+"Litio",
+"Oxígeno"
+],
+"c": 0,
+"e": "El número atómico es la cantidad de protones del núcleo, y el hidrógeno tiene uno.",
+"t": "Química"
+},
+{
+"p": "¿Cómo se llama el proceso con el que las plantas fabrican su alimento usando la luz?",
+"o": [
+"Fotosíntesis",
+"Respiración",
+"Digestión",
+"Fermentación"
+],
+"c": 0,
+"e": "Con luz, agua y dióxido de carbono producen glucosa y liberan oxígeno.",
+"t": "Química"
+},
+{
+"p": "¿Qué metal es líquido a temperatura ambiente?",
+"o": [
+"Mercurio",
+"Plomo",
+"Aluminio",
+"Estaño"
+],
+"c": 0,
+"e": "El mercurio se funde a −39 °C. Es tóxico y por eso se ha dejado de usar en muchos termómetros.",
+"t": "Química"
+},
+{
+"p": "¿Cómo se llama químicamente la sal común de mesa?",
+"o": [
+"Cloruro de sodio",
+"Cloruro de potasio",
+"Carbonato de calcio",
+"Sulfato de cobre"
+],
+"c": 0,
+"e": "Su fórmula es NaCl.",
+"t": "Química"
+},
+{
+"p": "¿Qué gas se desprende al mezclar bicarbonato con vinagre?",
+"o": [
+"Dióxido de carbono",
+"Oxígeno",
+"Hidrógeno",
+"Metano"
+],
+"c": 0,
+"e": "Las burbujas de la mezcla son dióxido de carbono, el mismo gas de las bebidas con gas.",
+"t": "Química"
+},
+{
+"p": "¿Cuál es el órgano más grande del cuerpo humano?",
+"o": [
+"La piel",
+"El hígado",
+"El intestino",
+"Los pulmones"
+],
+"c": 0,
+"e": "En un adulto la piel cubre cerca de dos metros cuadrados.",
+"t": "Biología"
+},
+{
+"p": "¿Cuántos huesos tiene un adulto?",
+"o": [
+"206",
+"150",
+"306",
+"256"
+],
+"c": 0,
+"e": "Los bebés nacen con más, pero algunos se fusionan durante el crecimiento.",
+"t": "Biología"
+},
+{
+"p": "¿Qué molécula contiene la información genética de los seres vivos?",
+"o": [
+"ADN",
+"Glucosa",
+"Hemoglobina",
+"Insulina"
+],
+"c": 0,
+"e": "El ADN, ácido desoxirribonucleico, tiene la forma de una doble hélice.",
+"t": "Biología"
+},
+{
+"p": "¿Dónde está el material genético de una célula humana?",
+"o": [
+"En el núcleo",
+"En la mitocondria",
+"En el ribosoma",
+"En la membrana"
+],
+"c": 0,
+"e": "Una pequeña parte del ADN está también en las mitocondrias, pero casi todo está en el núcleo.",
+"t": "Biología"
+},
+{
+"p": "¿Qué orgánulo produce la mayor parte de la energía de la célula?",
+"o": [
+"La mitocondria",
+"El ribosoma",
+"El lisosoma",
+"El aparato de Golgi"
+],
+"c": 0,
+"e": "Se la llama «central energética» de la célula.",
+"t": "Biología"
+},
+{
+"p": "¿Qué vitamina fabrica la piel con la luz del sol?",
+"o": [
+"Vitamina D",
+"Vitamina C",
+"Vitamina A",
+"Vitamina B12"
+],
+"c": 0,
+"e": "Ayuda a fijar el calcio en los huesos.",
+"t": "Biología"
+},
+{
+"p": "¿Cuál es el mamífero más grande que existe?",
+"o": [
+"La ballena azul",
+"El elefante africano",
+"El cachalote",
+"La jirafa"
+],
+"c": 0,
+"e": "La ballena azul puede superar los 25 metros de largo y las 100 toneladas.",
+"t": "Biología"
+},
+{
+"p": "¿Cuántas cavidades tiene el corazón humano?",
+"o": [
+"Cuatro",
+"Dos",
+"Tres",
+"Cinco"
+],
+"c": 0,
+"e": "Dos aurículas arriba y dos ventrículos abajo.",
+"t": "Biología"
+},
+{
+"p": "¿Qué grupo sanguíneo puede donar glóbulos rojos a cualquier persona?",
+"o": [
+"O negativo",
+"AB positivo",
+"A positivo",
+"B negativo"
+],
+"c": 0,
+"e": "Los glóbulos rojos O negativo no tienen antígenos A, B ni Rh, por eso se llaman «donante universal».",
+"t": "Biología"
+},
+{
+"p": "¿Qué gas toman las plantas del aire para hacer la fotosíntesis?",
+"o": [
+"Dióxido de carbono",
+"Oxígeno",
+"Nitrógeno",
+"Metano"
+],
+"c": 0,
+"e": "Lo absorben por unos poros de las hojas llamados estomas.",
+"t": "Biología"
+},
+{
+"p": "¿Qué células de la sangre transportan el oxígeno?",
+"o": [
+"Los glóbulos rojos",
+"Los glóbulos blancos",
+"Las plaquetas",
+"Los linfocitos"
+],
+"c": 0,
+"e": "Contienen hemoglobina, que se une al oxígeno.",
+"t": "Biología"
+},
+{
+"p": "¿Cuál es el hueso más largo del cuerpo humano?",
+"o": [
+"El fémur",
+"La tibia",
+"El húmero",
+"El peroné"
+],
+"c": 0,
+"e": "Está en el muslo y mide en torno a una cuarta parte de la altura de la persona.",
+"t": "Biología"
+},
+{
+"p": "¿Quién descubrió las leyes de la herencia estudiando guisantes?",
+"o": [
+"Gregor Mendel",
+"Charles Darwin",
+"Louis Pasteur",
+"Alexander Fleming"
+],
+"c": 0,
+"e": "Mendel, un monje austríaco, publicó sus resultados en 1866.",
+"t": "Biología"
+},
+{
+"p": "¿Quién descubrió la penicilina?",
+"o": [
+"Alexander Fleming",
+"Louis Pasteur",
+"Robert Koch",
+"Marie Curie"
+],
+"c": 0,
+"e": "Fleming observó en 1928 que un moho mataba las bacterias de su cultivo.",
+"t": "Biología"
+},
+{
+"p": "¿Quién propuso la teoría de la evolución por selección natural?",
+"o": [
+"Charles Darwin",
+"Gregor Mendel",
+"Louis Pasteur",
+"Isaac Newton"
+],
+"c": 0,
+"e": "La publicó en «El origen de las especies» en 1859. Alfred Russel Wallace llegó a ideas parecidas por su cuenta.",
+"t": "Biología"
+},
+{
+"p": "¿Cuántos pares de cromosomas tiene una célula humana normal?",
+"o": [
+"23",
+"22",
+"46",
+"24"
+],
+"c": 0,
+"e": "Son 46 cromosomas en total, agrupados en 23 pares.",
+"t": "Biología"
+},
+{
+"p": "¿Qué tipo de animal es una ballena?",
+"o": [
+"Un mamífero",
+"Un pez",
+"Un reptil",
+"Un anfibio"
+],
+"c": 0,
+"e": "Respira aire con pulmones, amamanta a sus crías y tiene sangre caliente.",
+"t": "Biología"
+},
+{
+"p": "¿Cómo se llama el proceso por el que una oruga se convierte en mariposa?",
+"o": [
+"Metamorfosis",
+"Mitosis",
+"Migración",
+"Hibernación"
+],
+"c": 0,
+"e": "Pasa por las fases de huevo, larva (oruga), pupa (crisálida) y adulto.",
+"t": "Biología"
+},
+{
+"p": "¿Qué parte de la planta absorbe el agua y las sales minerales del suelo?",
+"o": [
+"La raíz",
+"La hoja",
+"La flor",
+"El fruto"
+],
+"c": 0,
+"e": "Además de absorber, la raíz sujeta la planta al suelo.",
+"t": "Biología"
+},
+{
+"p": "¿Cuál es la capa más externa y fina de la Tierra?",
+"o": [
+"La corteza",
+"El manto",
+"El núcleo externo",
+"El núcleo interno"
+],
+"c": 0,
+"e": "Su grosor va de unos 5 km bajo los océanos a unos 70 km bajo las montañas más altas.",
+"t": "Tierra"
+},
+{
+"p": "¿Qué escala sirve para medir la dureza de los minerales?",
+"o": [
+"La escala de Mohs",
+"La escala de Richter",
+"La escala de Beaufort",
+"La escala Kelvin"
+],
+"c": 0,
+"e": "Va del 1 (talco) al 10 (diamante).",
+"t": "Tierra"
+},
+{
+"p": "¿Qué escala se ha usado tradicionalmente para medir la magnitud de los terremotos?",
+"o": [
+"La escala de Richter",
+"La escala de Mohs",
+"La escala de Beaufort",
+"La escala Celsius"
+],
+"c": 0,
+"e": "Hoy se usa más la magnitud de momento, pero la de Richter sigue siendo la más conocida.",
+"t": "Tierra"
+},
+{
+"p": "¿Cuál es el océano más grande?",
+"o": [
+"El Pacífico",
+"El Atlántico",
+"El Índico",
+"El Ártico"
+],
+"c": 0,
+"e": "Ocupa cerca de un tercio de la superficie del planeta.",
+"t": "Tierra"
+},
+{
+"p": "¿Cuál es el mineral más duro de la escala de Mohs?",
+"o": [
+"El diamante",
+"El cuarzo",
+"El topacio",
+"El corindón"
+],
+"c": 0,
+"e": "Tiene dureza 10, la máxima de la escala.",
+"t": "Tierra"
+},
+{
+"p": "¿Qué gas emitido al quemar combustibles fósiles es el principal responsable del cambio climático actual?",
+"o": [
+"Dióxido de carbono",
+"Oxígeno",
+"Nitrógeno",
+"Helio"
+],
+"c": 0,
+"e": "El dióxido de carbono retiene calor en la atmósfera y su concentración ha aumentado mucho desde la Revolución Industrial.",
+"t": "Tierra"
+},
+{
+"p": "¿Cómo se llamaba el supercontinente que reunía casi todas las tierras emergidas hace más de 200 millones de años?",
+"o": [
+"Pangea",
+"Gondwana",
+"Laurasia",
+"Atlántida"
+],
+"c": 0,
+"e": "Pangea se fue fragmentando hasta formar los continentes actuales.",
+"t": "Tierra"
+},
+{
+"p": "¿Cuál es el desierto cálido más grande del mundo?",
+"o": [
+"El Sáhara",
+"El Gobi",
+"El Kalahari",
+"El de Arabia"
+],
+"c": 0,
+"e": "Ocupa buena parte del norte de África. El desierto más grande de todos, contando los de hielo, es la Antártida.",
+"t": "Tierra"
+},
+{
+"p": "¿Qué instrumento mide la velocidad del viento?",
+"o": [
+"Anemómetro",
+"Barómetro",
+"Pluviómetro",
+"Higrómetro"
+],
+"c": 0,
+"e": "El pluviómetro mide la lluvia caída.",
+"t": "Tierra"
+},
+{
+"p": "¿A qué se debe el cambio de estaciones en la Tierra?",
+"o": [
+"A la inclinación del eje de giro de la Tierra",
+"A que la Tierra se acerca y se aleja del Sol",
+"A la actividad del Sol",
+"A la fase de la Luna"
+],
+"c": 0,
+"e": "Como el eje está inclinado unos 23,5°, cada hemisferio recibe más o menos luz directa según la época del año.",
+"t": "Tierra"
+}
+]
+}

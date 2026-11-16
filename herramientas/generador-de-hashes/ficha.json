@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de hashes",
+  "descripcion": "Calcula el hash MD5, SHA-1, SHA-256, SHA-384 y SHA-512 de cualquier texto al instante, en hexadecimal o Base64, y comprueba si coincide con otro hash.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 87
+}

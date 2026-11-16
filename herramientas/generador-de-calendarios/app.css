@@ -1,0 +1,18 @@
+.cal-previa { display: grid; gap: var(--e3); min-width: 0; }
+.cal-titulo { margin: 0; font-size: var(--t2); font-weight: 800; color: var(--pizarra); overflow-wrap: anywhere; }
+.cal-anio { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15.5rem), 1fr)); gap: var(--e4); }
+.cal-mes { width: 100%; border-collapse: collapse; table-layout: fixed; font-variant-numeric: tabular-nums; background: var(--papel); border: 1px solid var(--linea); }
+.cal-mes caption { text-align: left; padding: 0.5rem var(--e3); font-weight: 800; background: var(--pizarra); color: var(--tiza); }
+.cal-mes thead th { font-size: var(--t-1); padding: 0.3rem 0.2rem; color: var(--tinta-suave); font-weight: 700; text-align: right; }
+.cal-mes td { text-align: right; padding: 0.3rem 0.4rem; font-size: 0.95rem; border-top: 1px solid #EEF2F0; }
+.cal-mes .cal-fin { background: #E9F0EC; }
+.cal-mes .cal-fest { background: #FBEF8E; font-weight: 800; }
+.cal-mes .cal-sem { width: 2.4rem; color: var(--tinta-suave); font-size: 0.75rem; font-weight: 400; text-align: right; }
+.cal-mes--grande { min-width: 36rem; }
+.cal-mes--grande thead th { text-align: left; padding: 0.5rem 0.5rem; }
+.cal-mes--grande td { height: 5rem; vertical-align: top; text-align: left; border: 1px solid var(--linea); padding: 0.35rem 0.5rem; overflow-wrap: anywhere; }
+.cal-nombre { display: block; font-size: 0.72rem; font-weight: 400; line-height: 1.25; margin-top: 0.2rem; }
+.cal-leyenda { margin: 0; font-size: var(--t-1); display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.6rem; }
+.cal-muestra { display: inline-block; width: 1rem; height: 0.8rem; border: 1px solid var(--linea); vertical-align: middle; }
+.cal-muestra--fin { background: #E9F0EC; }
+.cal-muestra--fest { background: #FBEF8E; }

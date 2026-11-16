@@ -1,0 +1,7 @@
+.ac-modo { font: 400 1rem / 1 var(--f-pixel); font-size: round(down, 1rem, 10px); color: var(--limon); margin: 0; }
+.ac-enunciado { font-size: var(--t2, 1.25rem); line-height: 1.5; margin: 0; max-width: 40rem; }
+.ac-form { display: flex; flex-wrap: wrap; gap: var(--e3); align-items: stretch; width: 100%; }
+.ac-form .campo-retro { flex: 1 1 14rem; min-width: 0; }
+.ac-pista { padding: var(--e3) var(--e4); border-left: 4px solid var(--limon); background: var(--noche-2); margin: 0; }
+.ac-solucion { text-align: left; max-width: 40rem; }
+.ac-solucion p { margin: 0 0 var(--e2); }

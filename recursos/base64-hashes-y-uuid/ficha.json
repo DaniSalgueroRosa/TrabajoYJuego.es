@@ -1,0 +1,14 @@
+{
+  "titulo": "Base64, hashes y UUID",
+  "descripcion": "Para qué sirven la codificación Base64, las huellas hash y los identificadores UUID, qué algoritmo elegir y qué no hacen en seguridad.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "Base64",
+    "hash",
+    "UUID",
+    "programación"
+  ],
+  "categoria": "informatica",
+  "orden": 26
+}

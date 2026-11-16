@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="generador-uuid">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Identificadores únicos al instante</h2>
+  <p>Un UUID, o identificador único universal, es un número de 128 bits que se escribe como 32 cifras hexadecimales agrupadas con guiones, por ejemplo 3f2b8c1e-9a4d-4e7b-b1c5-6d0e2f8a7c13. Se usa para dar nombre a registros en bases de datos, ficheros, sesiones o peticiones sin necesidad de que un servidor central reparta los números y sin miedo a que dos se repitan. Esta herramienta crea uno o hasta mil de golpe, con el formato que necesites, y los puedes copiar o descargar.</p>
+  <h2>Versión 4 o versión 7</h2>
+  <ul><li><strong>Versión 4:</strong> casi todos sus bits son aleatorios, salvo seis que indican la versión y la variante. Es la más extendida y la que debes elegir si no tienes motivos para otra. La probabilidad de que se repita un UUID v4 es tan pequeña que se considera nula para cualquier uso práctico.</li><li><strong>Versión 7:</strong> empieza por la fecha y la hora en milisegundos y después añade un contador y datos aleatorios. Así, los UUID creados más tarde son siempre mayores y se ordenan por fecha. Es la mejor opción para las claves de una base de datos, porque insertar valores en orden evita que los índices se fragmenten. En un mismo lote, esta herramienta garantiza que cada uno sea estrictamente mayor que el anterior.</li></ul>
+  <h2>Aleatoriedad y formatos</h2>
+  <p>Los números aleatorios salen del generador criptográfico de tu navegador, el mismo que se usa para claves y tokens, y no de una función de azar simple. Puedes obtener los UUID con guiones, que es el formato estándar de 36 caracteres, sin guiones, de 32, o entre llaves, como los representa .NET, y en minúsculas o mayúsculas. Cambiar el formato o las mayúsculas reescribe los mismos UUID; para obtener otros, pulsa «Generar otros» o cambia la versión o la cantidad. Nada se envía a ningún servidor ni queda guardado: al cerrar la página, los UUID desaparecen.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Pueden repetirse dos UUID?</summary>
+    <p>En teoría sí, pero con los 122 bits aleatorios de la versión 4, la probabilidad es despreciable: tendrías que generar miles de millones de UUID por segundo durante décadas para que el riesgo fuera apreciable.</p>
+  </details>
+  <details>
+    <summary>¿Qué diferencia hay entre UUID y GUID?</summary>
+    <p>Ninguna en la práctica. GUID es el nombre que usa Microsoft para el mismo formato, que suele escribirse en mayúsculas y entre llaves.</p>
+  </details>
+  <details>
+    <summary>¿Sirve un UUID como contraseña o token secreto?</summary>
+    <p>Un UUID v4 tiene suficiente aleatoriedad, pero no está pensado para ser secreto. Para claves o tokens de acceso es mejor usar un generador de contraseñas con más longitud y símbolos.</p>
+  </details>
+  <details>
+    <summary>¿Por qué la versión 7 es mejor para bases de datos?</summary>
+    <p>Porque al empezar por la hora, los valores nuevos se insertan al final del índice en lugar de en posiciones al azar, lo que reduce el trabajo de la base de datos.</p>
+  </details>
+</div>

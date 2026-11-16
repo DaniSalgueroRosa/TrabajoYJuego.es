@@ -1,0 +1,17 @@
+{
+  "titulo": "Verdadero o falso: mitos y curiosidades",
+  "descripcion": "Juego de verdadero o falso con mitos y curiosidades de ciencia, animales, geografía, historia y lengua. Quince afirmaciones por partida con tiempo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "verdadero o falso",
+    "mitos",
+    "curiosidades",
+    "quiz",
+    "un jugador"
+  ],
+  "categoria": "cultura-general",
+  "dificultad": "facil",
+  "duracion": "3-5 min",
+  "orden": 45
+}

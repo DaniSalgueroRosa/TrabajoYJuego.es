@@ -1,0 +1,21 @@
+{
+  "titulo": "Entrenador de puntería",
+  "descripcion": "Practica tu puntería en sesiones de 30 o 60 s: elige el tamaño de los círculos y entre un objetivo o varios que se encogen. Mide aciertos y precisión.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "entrenador de puntería",
+    "aim trainer",
+    "práctica de puntería",
+    "minijuego de puntería",
+    "clics precisos"
+  ],
+  "categoria": "reaccion-punteria",
+  "duracion": "30 s",
+  "orden": 15,
+  "tema": {
+    "fondo": "#2A1018",
+    "texto": "#FFEFF2",
+    "acento": "#FF5A7D"
+  }
+}

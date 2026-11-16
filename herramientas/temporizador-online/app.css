@@ -1,0 +1,8 @@
+.tm { display: grid; gap: var(--e4); min-width: 0; }
+.tm-reloj { display: grid; gap: var(--e3); padding: var(--e5); background: var(--pizarra); color: var(--tiza); min-width: 0; }
+.tm-tiempo { margin: 0; font-size: clamp(3.4rem, 1.6rem + 10vw, 7rem); font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.tm-estado { margin: 0; font-size: var(--t1); font-weight: 700; color: var(--limon); }
+.tm-barra { width: 100%; max-width: 30rem; }
+.tm-reloj .boton--secundario { background: transparent; color: var(--tiza); border-color: var(--tiza); }
+.tm-reloj .boton--secundario:hover { color: var(--tinta); }
+.tm-reloj .boton[disabled] { opacity: 0.55; }

@@ -1,0 +1,14 @@
+{
+  "titulo": "Fechas: edad, plazos y días laborables",
+  "descripcion": "Cómo calcular una edad exacta, los días entre dos fechas, los días laborables de un plazo y el número de semana ISO sin equivocarte.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "fechas",
+    "plazos",
+    "días laborables",
+    "calendario"
+  ],
+  "categoria": "fechas",
+  "orden": 19
+}

@@ -1,0 +1,37 @@
+<section class="informacion" aria-labelledby="informacion-titulo">
+  <div class="contenedor informacion-interior">
+    <div class="informacion-cabeza">
+      <h2 id="informacion-titulo" class="informacion-titulo">Información y transparencia</h2>
+      <p class="informacion-intro">Lo que conviene saber antes de usar {{sitio.nombre}}.</p>
+    </div>
+    <dl class="informacion-puntos">
+      <div class="informacion-punto">
+        <dt>Sin registro</dt>
+        <dd>No hay cuentas ni formularios: todo se usa directamente, sin dar ningún dato.</dd>
+      </div>
+      <div class="informacion-punto">
+        <dt>Tus partidas no se guardan</dt>
+        <dd>Lo que haces en un juego, una herramienta o un test se queda en tu navegador y desaparece al recargar la página.</dd>
+      </div>
+      <div class="informacion-punto">
+        <dt>Publicidad</dt>
+        {{#publicidad.activa}}
+        <dd>El sitio se financia con publicidad de Google AdSense. Cada anuncio lleva la etiqueta «Publicidad»{{#cookies_href}} y puedes cambiar tu elección en <a href="{{cookies_href}}">Configurar cookies</a>{{/cookies_href}}.</dd>
+        {{/publicidad.activa}}
+        {{^publicidad.activa}}
+        <dd>Ahora mismo no muestra anuncios ni carga elementos de terceros.</dd>
+        {{/publicidad.activa}}
+      </div>
+    </dl>
+    {{#hay_legales}}
+    <nav class="informacion-legales" aria-labelledby="informacion-legales-titulo">
+      <h3 id="informacion-legales-titulo" class="informacion-legales-titulo">Páginas legales</h3>
+      <ul>
+        {{#legales}}
+        <li><a href="{{href}}">{{titulo}}</a></li>
+        {{/legales}}
+      </ul>
+    </nav>
+    {{/hay_legales}}
+  </div>
+</section>

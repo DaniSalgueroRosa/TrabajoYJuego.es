@@ -1,0 +1,15 @@
+{
+  "titulo": "Ordena la historia",
+  "descripcion": "Pon en orden cronológico cinco hechos de la historia, la ciencia, el cine o el deporte. Suma puntos por cada acierto y descubre los años al comprobar.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "historia",
+    "cronología",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-6 min",
+  "orden": 17
+}

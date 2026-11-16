@@ -1,0 +1,7 @@
+/* ¿DÓNDE ESTÁ?: el mapa se desplaza en horizontal en pantallas estrechas para que el toque sea preciso. */
+.de-pregunta { margin: 0; font-size: 1.2rem; line-height: 1.4; }
+.de-tipo { color: var(--limon); font-size: var(--t-1); }
+.de-mapa { width: 100%; overflow-x: auto; padding: 4px; }
+.de-canvas { display: block; width: max(100%, 40rem); height: auto; aspect-ratio: 720 / 288; image-rendering: pixelated; cursor: crosshair; touch-action: pan-x pan-y;
+  box-shadow: 0 -3px 0 0 var(--noche-linea), 0 3px 0 0 var(--noche-linea), -3px 0 0 0 var(--noche-linea), 3px 0 0 0 var(--noche-linea); margin: 3px; }
+.de-canvas:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }

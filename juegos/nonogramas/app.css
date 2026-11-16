@@ -1,0 +1,19 @@
+/* NONOGRAMAS: rejilla con pistas a la izquierda y arriba; cada 5 casillas hay una línea más gruesa */
+.ng-controles { display: grid; gap: var(--e2); }
+.ng-zona { overflow-x: auto; padding-bottom: var(--e2); }
+.ng-cuadricula { --celda: clamp(1.5rem, calc((100vw - 9.5rem) / var(--n)), 2.4rem); display: grid; grid-template-columns: auto repeat(var(--n), var(--celda)); gap: 2px; width: max-content; margin: 0 auto; padding: 3px; background: var(--noche-linea); }
+.ng-esquina { background: var(--tinta); }
+.ng-pista { display: flex; gap: 4px; padding: 2px 4px; background: var(--tinta); color: var(--tiza); font: 400 0.8rem / 1.2 var(--f-pixel); }
+.ng-pista--col { flex-direction: column; justify-content: flex-end; align-items: center; }
+.ng-pista--fila { justify-content: flex-end; align-items: center; padding-right: 8px; }
+.ng-pista--hecha { color: var(--tiza-suave); opacity: 0.55; }
+.ng-celda { width: var(--celda); height: var(--celda); min-width: 0; padding: 0; border: 0; border-radius: 0; background: var(--tiza); color: var(--tinta); font: 400 1rem / 1 var(--f-pixel); cursor: pointer; display: grid; place-items: center; touch-action: manipulation; }
+.ng-celda:hover:not(:disabled) { background: var(--limon-claro); }
+.ng-celda:focus-visible { outline: 3px solid var(--sandia); outline-offset: -3px; z-index: 1; }
+.ng-celda--llena { background: var(--pizarra); }
+.ng-celda--llena:hover:not(:disabled) { background: var(--pizarra-media); }
+.ng-celda--cruz { background: var(--tiza); color: var(--tinta-suave); }
+.ng-celda--error { background: var(--sandia); color: var(--tinta); }
+.ng-borde-d { box-shadow: 3px 0 0 0 var(--noche-linea); }
+.ng-borde-b { box-shadow: 0 3px 0 0 var(--noche-linea); }
+.ng-borde-d.ng-borde-b { box-shadow: 3px 0 0 0 var(--noche-linea), 0 3px 0 0 var(--noche-linea); }

@@ -1,0 +1,11 @@
+<section class="contenedor no-encontrada" aria-labelledby="no-encontrada-titulo">
+  <p class="no-encontrada-codigo" aria-hidden="true">404</p>
+  <h1 id="no-encontrada-titulo">No encontramos esa página</h1>
+  <p class="no-encontrada-texto">Puede que la dirección esté mal escrita o que la página haya cambiado de sitio. Estas son las secciones:</p>
+  <ul class="no-encontrada-enlaces">
+    <li><a href="{{inicio}}">Portada</a></li>
+    {{#nav}}
+    <li><a href="{{href}}">{{titulo}}</a></li>
+    {{/nav}}
+  </ul>
+</section>

@@ -1,0 +1,16 @@
+{
+  "titulo": "Buscaminas clásico en tu navegador",
+  "descripcion": "Despeja el campo sin pisar ninguna mina. Tres tamaños, banderas, primera casilla siempre segura y juego con teclado, ratón o dedo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "buscaminas",
+    "minas",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-10 min",
+  "orden": 22
+}

@@ -1,0 +1,10 @@
+/* EL SUPERVIVIENTE: lienzo de 320×480 escalado con píxeles nítidos. */
+.sv-zona { position: relative; width: min(100%, 22rem); margin: 4px auto; box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea); }
+.sv-canvas { display: block; width: 100%; height: auto; aspect-ratio: 320 / 480; image-rendering: pixelated; touch-action: none; user-select: none; -webkit-user-select: none; background: var(--tinta); }
+.sv-canvas:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
+.sv-velo { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: var(--e3); padding: var(--e4); text-align: center; background: rgba(20, 32, 28, 0.88); }
+.sv-velo[hidden] { display: none; }
+.sv-velo-titulo { margin: 0; font: 400 1.6rem / 1.2 var(--f-pixel); font-size: round(down, 1.6rem, 10px); color: var(--limon); }
+.sv-velo-texto { margin: 0; max-width: 18rem; }
+.sv-mandos { display: flex; justify-content: center; gap: var(--e3); flex-wrap: wrap; margin-top: var(--e3); }
+.sv-mando { min-width: 4.5rem; font-size: 1.1rem; touch-action: none; user-select: none; -webkit-user-select: none; }

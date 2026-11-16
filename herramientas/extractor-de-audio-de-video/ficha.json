@@ -1,0 +1,13 @@
+{
+  "titulo": "Extractor de audio de vídeo",
+  "descripcion": "Saca la pista de sonido de un vídeo MP4, MOV o WebM y guárdala como MP3, WAV, FLAC u Ogg Opus sin subir el vídeo a ningún servidor.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "video",
+    "extraer"
+  ],
+  "categoria": "audio",
+  "orden": 105
+}

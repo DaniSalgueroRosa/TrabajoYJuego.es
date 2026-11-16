@@ -1,0 +1,352 @@
+/* ===== comun/tokens.css ===== */
+/* TOKENS: todos los colores, tipografías, tamaños y movimientos del sitio.
+   Para cambiar el estilo del conjunto, empieza aquí; el resto de CSS solo usa estas variables.
+   (Si cambias un color de marca, cámbialo también en motor/identidad.py y vuelve a ejecutarlo para rehacer el logo.) */
+:root {
+  /* Color de marca */
+  --pizarra: #1D3A34;        /* verde pizarra: tinta del mundo «Trabajo» */
+  --pizarra-media: #2F6B5C;
+  --papel-trabajo: #E4EDE8;  /* papel de cuaderno */
+  --tiza: #EAF2EE;
+  --sandia: #FF5A7D;         /* rosa sandía: neón del mundo «Juego» */
+  --sandia-texto: #C21E4A;   /* la misma sandía, oscurecida para leerse sobre fondo claro */
+  --limon: #E6F14A;          /* subrayador y cursor: el color que une los dos mundos */
+  --limon-claro: #F4F8C0;
+  --tinta: #14201C;          /* negro con un punto verde: pantalla apagada */
+
+  /* Superficies y texto */
+  --lienzo: #F3F5F2;
+  --papel: #FFFFFF;
+  --tinta-suave: #46564F;
+  --linea: #C5D1CB;
+  --noche-2: #1E2E29;        /* panel sobre fondo oscuro */
+  --noche-linea: #3A5249;
+  --tiza-suave: #AFC4BB;
+
+  /* Tipografía */
+  --f-trabajo: "Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --f-pixel: "Cuadritos", "Courier New", ui-monospace, monospace;
+  --f-texto: var(--f-trabajo);
+
+  /* Escala de tamaños */
+  --t-1: 0.875rem;
+  --t0: 1.0625rem;
+  --t1: 1.3rem;
+  --t2: 1.65rem;
+  --t3: 2.2rem;
+  --t4: clamp(2.2rem, 1.3rem + 3vw, 3.6rem);
+  --t-seccion: clamp(3.2rem, 1.4rem + 8vw, 6.5rem);
+  --t-ficha: clamp(2.4rem, 1.2rem + 5vw, 4.25rem);
+
+  /* Espacios */
+  --e1: 0.25rem;
+  --e2: 0.5rem;
+  --e3: 0.75rem;
+  --e4: 1rem;
+  --e5: 1.5rem;
+  --e6: 2.5rem;
+  --e7: 4rem;
+  --e8: 6rem;
+
+  /* Forma: «Trabajo» es recto, «Juego» es de píxeles (esquinas cortadas, sin redondeo) */
+  --radio-trabajo: 2px;
+  --radio-libre: 14px;
+  --ancho-contenido: 72rem;
+  --ancho-texto: 40rem;
+
+  /* Movimiento: «Trabajo» se mueve suave; «Juego» se mueve a saltos, fotograma a fotograma */
+  --suave: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ===== comun/base.css ===== */
+/* BASE: reinicio, texto, enlaces, foco, los dos mundos y utilidades. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--lienzo);
+  color: var(--tinta);
+  font: 400 var(--t0) / 1.6 var(--f-texto);
+}
+main { flex: 1 0 auto; outline: none; }
+img, svg, video, canvas { max-width: 100%; }
+img, video { height: auto; }
+p, ul, ol, figure { margin: 0; }
+a { color: inherit; }
+
+/* Los dos mundos definen cómo se ven los títulos, las esquinas y el color de énfasis de lo que contienen.
+   «libre» e «inicio» son neutros: lo usan la portada y la zona de Tests, donde cada test pone su propio aspecto. */
+:is(main, .tarjeta, .vacio)[data-mundo="trabajo"] {
+  --m-fondo: var(--pizarra);
+  --m-texto: var(--tiza);
+  --m-acento: var(--pizarra);
+  --m-radio: var(--radio-trabajo);
+  --f-titulo: var(--f-trabajo);
+  --foco: var(--tinta);
+}
+:is(main, .tarjeta, .vacio)[data-mundo="juego"] {
+  --m-fondo: var(--tinta);
+  --m-texto: var(--tiza);
+  --m-acento: var(--sandia);
+  --m-radio: 0;
+  --f-titulo: var(--f-pixel);
+  --foco: var(--limon);
+}
+:is(main, .tarjeta, .vacio)[data-mundo="libre"],
+:is(main, .tarjeta, .vacio)[data-mundo="inicio"] {
+  --m-fondo: var(--lienzo);
+  --m-texto: var(--tinta);
+  --m-acento: var(--pizarra);
+  --m-radio: var(--radio-libre);
+  --f-titulo: var(--f-trabajo);
+  --foco: var(--tinta);
+}
+main[data-mundo="juego"] { background: var(--tinta); color: var(--tiza); }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--f-titulo, var(--f-trabajo));
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+/* La letra de píxeles solo tiene un peso y se ve mejor suelta de interlineado y espaciado */
+:is(main, .tarjeta, .vacio)[data-mundo="juego"] :is(h1, h2, h3, h4) { font-weight: 400; letter-spacing: 0; line-height: 1.25; }
+
+:focus-visible { outline: 3px solid var(--foco, var(--tinta)); outline-offset: 3px; }
+::selection { background: var(--limon); color: var(--tinta); }
+
+.contenedor {
+  width: 100%;
+  max-width: var(--ancho-contenido);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+}
+
+.solo-lectores {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+.salto {
+  position: absolute; left: 1rem; top: -5rem; z-index: 100; padding: 0.75rem 1rem;
+  background: var(--limon); color: var(--tinta); font-weight: 700; text-decoration: none; border: 3px solid var(--tinta);
+}
+.salto:focus { top: 1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Marca de dato pendiente de completar por el titular (config/titular.json). El comprobador impide publicar en producción mientras quede alguna. */
+mark.pendiente { padding: 0 0.25em; background: #FFE9A8; color: #14201C; outline: 2px dashed #8A5A00; outline-offset: 1px; font-weight: 700; }
+
+/* ===== comun/fuentes/fuentes.css ===== */
+/* Tipografías propias, sin pedir nada a servidores de terceros. Los archivos están en esta misma carpeta
+   (al construir se copian a assets/fonts/). Licencias en LICENCIA.txt. */
+@font-face { font-family: "Heros"; src: url("../fonts/heros-400.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Heros"; src: url("../fonts/heros-400-cursiva.woff") format("woff"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Heros"; src: url("../fonts/heros-700.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cuadritos"; src: url("../fonts/cuadritos-400.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* ===== comun/anuncio/anuncio.css ===== */
+/* ANUNCIO: hueco de publicidad (solo existe en la página cuando hay publicidad activa y un bloque con número).
+   Siempre va rotulado «Publicidad», con aire alrededor y lejos de botones, tableros y menús, para que no se confunda con ningún control
+   (política de colocación de AdSense). Nunca se coloca encima ni al lado del área de juego. */
+.anuncio { max-width: 46rem; margin: var(--e7) auto 0; padding-top: var(--e4); border-top: 1px dashed var(--linea); }
+.anuncio-rotulo { margin-bottom: var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
+.anuncio .adsbygoogle { min-height: 90px; }
+main[data-mundo="juego"] .anuncio { border-top-color: var(--noche-linea); }
+main[data-mundo="juego"] .anuncio-rotulo { color: var(--tiza-suave); }
+
+/* ===== comun/cabecera/cabecera.css ===== */
+/* CABECERA: logo y menú. Los enlaces de «Trabajo» usan la letra formal y subrayan con un barrido suave;
+   los de «Juego» usan la de píxeles y subrayan a saltos, de cinco en cinco. */
+.cabecera { background: var(--lienzo); color: var(--tinta); border-bottom: 2px solid var(--tinta); --foco: var(--tinta); }
+.cabecera-interior { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e3) var(--e6); padding-block: var(--e4); }
+.cabecera-marca { display: block; flex: none; line-height: 0; }
+.cabecera-marca img { display: block; height: 2.1rem; width: auto; }
+
+.cabecera-nav ul { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e1) var(--e5); margin: 0; padding: 0; list-style: none; }
+.cabecera-nav li.cabecera-cambio { padding-left: var(--e5); border-left: 2px solid var(--tinta); }
+.cabecera-nav a {
+  --foco: var(--tinta);
+  position: relative; display: block; padding-block: 0.4rem;
+  color: var(--tinta); text-decoration: none; font: 700 1rem / 1.2 var(--f-trabajo);
+}
+.cabecera-nav li[data-grupo="juego"] a { font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px); -webkit-text-stroke: 0.7px currentColor; }
+
+.cabecera-nav a::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 3px;
+  background: var(--pizarra); transform: scaleX(0); transform-origin: left; transition: transform 0.4s var(--suave);
+}
+.cabecera-nav li[data-grupo="juego"] a::after { height: 4px; background: var(--sandia-texto); transition: transform 0.35s steps(5, end); }
+.cabecera-nav a:hover::after,
+.cabecera-nav a:focus-visible::after,
+.cabecera-nav a[aria-current="page"]::after { transform: scaleX(1); }
+
+@media (max-width: 40rem) {
+  .cabecera-nav { width: 100%; }
+  .cabecera-nav ul { flex-wrap: nowrap; justify-content: space-between; gap: var(--e2); }
+  .cabecera-nav li.cabecera-cambio { padding-left: var(--e2); }
+  .cabecera-nav a { font-size: 0.95rem; }
+  .cabecera-nav li[data-grupo="juego"] a { font-size: 1.25rem; font-size: round(down, 1.25rem, 10px); }
+}
+
+/* ===== comun/ficha/ficha.css ===== */
+/* ESTRUCTURA COMÚN DE LA PÁGINA DE UN ELEMENTO (herramienta, guía, juego, test): franja de título + cuerpo.
+   El cuerpo es el contenido de su pagina.html. */
+.ficha-cabecera { background: var(--m-fondo); color: var(--m-texto); --foco: var(--m-texto); padding-block: var(--e5) var(--e6); }
+.ficha-titulo { margin-top: var(--e5); font-size: var(--t-ficha); line-height: 1; letter-spacing: -0.03em; }
+.ficha-lead { max-width: 40rem; margin-top: var(--e4); font-size: var(--t1); line-height: 1.4; }
+.ficha-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e2) var(--e4); margin-top: var(--e4); font-size: var(--t-1); }
+.ficha-etiquetas { display: flex; flex-wrap: wrap; gap: var(--e2); margin: 0; padding: 0; list-style: none; }
+.ficha-etiquetas li { padding: 0.1rem 0.7rem; border: 2px solid currentColor; border-radius: min(var(--m-radio, 0px), 999px); }
+.ficha-cuerpo { padding-block: var(--e6) var(--e8); }
+
+/* Elementos con «tema» propio (sobre todo Tests): toda la zona de contenido toma sus colores */
+main.con-tema { background: var(--t-fondo); color: var(--t-texto); --foco: var(--t-texto); }
+
+/* ===== comun/filtro/filtro.css ===== */
+/* FILTRO: buscador y filtros de un listado (los pone el generador cuando la sección tiene «buscador»). Cada sección le da su aspecto. */
+.filtros { display: grid; gap: var(--e4); margin-bottom: var(--e6); }
+.filtros[hidden] { display: none; }
+.filtros fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+.filtros legend { padding: 0; margin-bottom: var(--e2); font-weight: 700; }
+.filtro-chips { display: flex; flex-wrap: wrap; gap: var(--e2); }
+.filtro-fila { display: grid; gap: var(--e4); }
+.filtro-estado { min-height: 1.6em; }
+@media (min-width: 40rem) { .filtro-fila { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); } }
+
+/* ===== comun/migas/migas.css ===== */
+/* MIGAS: «Inicio / Juegos / Nombre». Heredan el color de la franja donde estén. */
+.migas ol { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e2); margin: 0; padding: 0; list-style: none; font-size: var(--t-1); }
+/* El separador va al final de cada miga (menos la última): si la ruta se parte en dos líneas, la barra no queda huérfana al principio de la siguiente. */
+.migas li:not(:last-child)::after { content: "/"; content: "/" / ""; margin-left: var(--e2); }
+.migas a { color: inherit; text-underline-offset: 0.2em; }
+.migas a:hover { text-decoration-thickness: 3px; }
+.migas [aria-current="page"] { font-weight: 700; }
+
+/* ===== comun/no-encontrada/no-encontrada.css ===== */
+/* PÁGINA 404: sobria, con el número en letra de píxeles como único guiño. */
+.no-encontrada { padding-block: var(--e8); }
+.no-encontrada-codigo { font: 400 1rem / 1 var(--f-pixel); font-size: round(down, clamp(5rem, 22vw, 12rem), 10px); color: var(--sandia-texto); }
+.no-encontrada h1 { margin-top: var(--e4); font-size: var(--t4); }
+.no-encontrada-texto { max-width: var(--ancho-texto); margin-top: var(--e4); }
+.no-encontrada-enlaces { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e5); margin: var(--e5) 0 0; padding: 0; list-style: none; font-weight: 700; }
+.no-encontrada-enlaces a { text-underline-offset: 0.2em; }
+.no-encontrada-enlaces a:hover { text-decoration-thickness: 3px; }
+
+/* ===== comun/pie/pie.css ===== */
+/* PIE: fondo de pantalla apagada con los dos mundos en columnas. */
+.pie { background: var(--tinta); color: var(--tiza); --foco: var(--limon); }
+.pie-interior { display: grid; gap: var(--e6); padding-block: var(--e7) var(--e6); }
+.pie-logo { display: inline-block; line-height: 0; }
+.pie-logo img { display: block; height: 2.1rem; width: auto; }
+.pie-lema { max-width: 24rem; margin-top: var(--e4); color: var(--tiza-suave); }
+.pie-nav { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--e6) var(--e7); }
+
+.pie-grupo-titulo { margin-bottom: var(--e3); font-size: var(--t2); line-height: 1; letter-spacing: -0.02em; }
+.pie-grupo[data-grupo="juego"] .pie-grupo-titulo { color: var(--sandia); font: 400 var(--t2) / 1 var(--f-pixel); font-size: round(down, 1.65rem, 10px); letter-spacing: 0; }
+.pie-grupo ul { display: grid; gap: var(--e1); margin: 0; padding: 0; list-style: none; }
+.pie-grupo a { display: inline-block; padding-block: 0.2rem; color: var(--tiza); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.pie-grupo a:hover { text-decoration-thickness: 3px; text-decoration-color: var(--limon); }
+
+.pie-legales { padding-block: var(--e5); border-top: 1px solid var(--noche-linea); }
+.pie-legales ul { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e5); margin: 0; padding: 0; list-style: none; font-size: var(--t-1); }
+.pie-legales a { display: inline-block; padding-block: 0.3rem; color: var(--tiza); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+.pie-legales a:hover { text-decoration-thickness: 3px; text-decoration-color: var(--limon); }
+.pie-legal { padding-block: var(--e5); border-top: 1px solid var(--noche-linea); color: var(--tiza-suave); font-size: var(--t-1); }
+.pie-legales + .pie-legal { padding-top: var(--e4); }
+
+@media (min-width: 52rem) {
+  .pie-interior { grid-template-columns: 1fr auto; align-items: start; }
+}
+
+/* ===== comun/seccion/seccion.css ===== */
+/* ESTRUCTURA COMÚN DE LOS LISTADOS: franja de título, cuerpo y rejilla. Cada sección (herramientas.css,
+   recursos.css, juegos.css, tests.css) pone encima su propio aspecto. */
+.seccion-cabecera { background: var(--m-fondo); color: var(--m-texto); --foco: var(--m-texto); padding-block: var(--e5) var(--e7); }
+.seccion-titulo { margin-top: var(--e5); font-size: var(--t-seccion); line-height: 0.95; letter-spacing: -0.04em; }
+.seccion-lead { max-width: 36rem; margin-top: var(--e4); font-size: var(--t1); line-height: 1.4; }
+.seccion-cuerpo { padding-block: var(--e7) var(--e8); }
+
+.rejilla { display: grid; gap: var(--e5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); margin: 0; padding: 0; list-style: none; }
+.rejilla > li { min-width: 0; }
+
+/* ===== comun/tarjeta/tarjeta.css ===== */
+/* TARJETA: la ficha de un elemento en listados y en «Lo último».
+   · Trabajo  → papel blanco, borde recto y una barra pizarra arriba que el limón recorre al pasar el ratón.
+   · Juego    → panel oscuro con borde de píxeles (esquinas cortadas) que cambia de color a saltos.
+   · Libre    → neutra; si el elemento trae «tema» (Tests), usa sus propios colores.
+   Toda la tarjeta es clicable gracias al ::after del enlace del título; «Próximamente» no tiene enlace. */
+.tarjeta { position: relative; display: flex; flex-direction: column; gap: var(--e3); height: 100%; padding: var(--e5); }
+.tarjeta-seccion { font-size: var(--t-1); font-weight: 700; }
+.tarjeta-titulo { font-size: var(--t2); line-height: 1.1; }
+.tarjeta-enlace { color: inherit; text-decoration: none; }
+.tarjeta-enlace::after { content: ""; position: absolute; inset: 0; }
+.tarjeta-enlace:focus-visible { outline: none; }
+.tarjeta-enlace:focus-visible::after { outline: 3px solid var(--foco, var(--tinta)); outline-offset: 3px; }
+.tarjeta-texto { flex: 1 1 auto; }
+.tarjeta-pie { font-size: var(--t-1); }
+
+/* ---- Trabajo */
+.tarjeta[data-mundo="trabajo"] { background: var(--papel); color: var(--tinta); border: 1px solid var(--linea); border-top: 6px solid var(--pizarra); border-radius: var(--radio-trabajo); }
+.tarjeta[data-mundo="trabajo"]::before {
+  content: ""; position: absolute; left: -1px; right: -1px; top: -6px; height: 6px; background: var(--limon);
+  transform: scaleX(0); transform-origin: left; transition: transform 0.55s var(--suave);
+}
+.tarjeta[data-mundo="trabajo"]:hover::before,
+.tarjeta[data-mundo="trabajo"]:has(.tarjeta-enlace:focus-visible)::before { transform: scaleX(1); }
+.tarjeta[data-mundo="trabajo"] .tarjeta-seccion { color: var(--pizarra-media); }
+.tarjeta[data-mundo="trabajo"] .tarjeta-pie { color: var(--tinta-suave); }
+.tarjeta[data-mundo="trabajo"]:hover .tarjeta-enlace { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.18em; text-decoration-color: var(--pizarra); }
+
+/* ---- Juego: el borde son 4 sombras duras; así las esquinas quedan «mordidas» como en un sprite */
+.tarjeta[data-mundo="juego"] {
+  --borde: var(--noche-linea);
+  margin: 4px; background: var(--noche-2); color: var(--tiza);
+  box-shadow: 0 -4px 0 0 var(--borde), 0 4px 0 0 var(--borde), -4px 0 0 0 var(--borde), 4px 0 0 0 var(--borde);
+}
+.tarjeta[data-mundo="juego"] .tarjeta-titulo { font: 400 var(--t2) / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.tarjeta[data-mundo="juego"] .tarjeta-seccion { color: var(--sandia); font: 400 1.25rem / 1 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+.tarjeta[data-mundo="juego"] .tarjeta-texto { color: var(--tiza-suave); }
+.tarjeta[data-mundo="juego"] .tarjeta-pie { color: var(--limon); }
+.tarjeta[data-mundo="juego"]:hover,
+.tarjeta[data-mundo="juego"]:has(.tarjeta-enlace:focus-visible) { --borde: var(--sandia); }
+.tarjeta[data-mundo="juego"]:hover .tarjeta-titulo,
+.tarjeta[data-mundo="juego"]:has(.tarjeta-enlace:focus-visible) .tarjeta-titulo { color: var(--limon); }
+@media (prefers-reduced-motion: no-preference) {
+  .tarjeta[data-mundo="juego"] { transition: box-shadow 0.18s steps(2, end); }
+}
+
+/* ---- Libre (Tests): neutra, o con los colores del propio test */
+.tarjeta[data-mundo="libre"] { background: var(--papel); color: var(--tinta); border: 2px solid var(--tinta); border-radius: var(--radio-libre); }
+.tarjeta[data-mundo="libre"]:hover .tarjeta-enlace { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.18em; }
+.tarjeta.tarjeta--tema[data-mundo] { background: var(--t-fondo); color: var(--t-texto); border: 3px solid var(--t-acento); box-shadow: none; --foco: var(--t-texto); }
+.tarjeta--tema .tarjeta-seccion, .tarjeta--tema .tarjeta-pie { color: inherit; }
+.tarjeta--tema::before { display: none; }
+.tarjeta.tarjeta--tema[data-mundo]:hover { box-shadow: 0 0 0 4px var(--t-acento); }
+
+/* ---- Próximamente: hueco con borde discontinuo, sin enlace */
+.tarjeta.tarjeta--pronto[data-mundo] { background: transparent; box-shadow: none; border: 2px dashed var(--tinta-suave); border-radius: var(--m-radio, 0); color: var(--tinta-suave); }
+.tarjeta--pronto::before { display: none; }
+.tarjeta.tarjeta--pronto[data-mundo="juego"] { border-color: var(--noche-linea); color: var(--tiza-suave); }
+.tarjeta--pronto[data-mundo="juego"] .tarjeta-pie { color: var(--limon); }
+
+/* ===== comun/vacio/vacio.css ===== */
+/* ESTADO VACÍO: lo que se ve cuando todavía no hay nada publicado. Un hueco con borde discontinuo (aquí irá algo);
+   en «Juego» el título parpadea como un cursor a la espera. */
+.vacio { max-width: 40rem; padding: var(--e6) var(--e5); border: 2px dashed var(--tinta-suave); border-radius: var(--m-radio, var(--radio-libre)); }
+.vacio-titulo { font: 700 var(--t2) / 1.2 var(--f-titulo, var(--f-trabajo)); }
+.vacio-texto { margin-top: var(--e2); color: var(--tinta-suave); }
+.vacio[data-mundo="juego"] { border-color: var(--noche-linea); border-radius: 0; }
+.vacio[data-mundo="juego"] .vacio-titulo { font: 400 var(--t2) / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); color: var(--sandia); }
+.vacio[data-mundo="juego"] .vacio-titulo::after { content: "█" / ""; margin-left: 0.3em; color: var(--limon); animation: vacio-parpadeo 1.1s steps(1, end) infinite; }
+.vacio[data-mundo="juego"] .vacio-texto { color: var(--tiza-suave); }
+@keyframes vacio-parpadeo { 50% { opacity: 0; } }

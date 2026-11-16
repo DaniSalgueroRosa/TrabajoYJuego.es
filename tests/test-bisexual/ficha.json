@@ -1,0 +1,21 @@
+{
+  "titulo": "Test bisexual",
+  "descripcion": "Doce frases para quien se pregunta si le atraen personas de más de un género. Con espectro de uno a varios géneros y un radar de tres áreas.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test bisexual",
+    "soy bisexual",
+    "atracción hacia varios géneros",
+    "test pansexual",
+    "orientación sexual"
+  ],
+  "categoria": "relaciones",
+  "duracion": "3 min",
+  "orden": 60,
+  "tema": {
+    "fondo": "#F6EEFF",
+    "texto": "#2B1250",
+    "acento": "#8227BA"
+  }
+}

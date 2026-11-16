@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de longitud",
+  "descripcion": "Convierte metros, kilómetros, centímetros, pulgadas, pies, yardas, millas y millas náuticas, hasta el año luz, con tabla de todas las equivalencias.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 32
+}

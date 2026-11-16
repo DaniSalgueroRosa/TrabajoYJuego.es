@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de velocidad de cliqueo (CPS)",
+  "descripcion": "Mide cuántos clics por segundo haces en 1, 2, 5, 10, 15, 30 o 60 segundos. Resultado con rango, mejor segundo y gráfico por tramos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "cps",
+    "clics por segundo",
+    "test de clics",
+    "velocidad de clic",
+    "click speed test"
+  ],
+  "categoria": "velocidad-clics",
+  "duracion": "5 s",
+  "orden": 1,
+  "tema": {
+    "fondo": "#101A17",
+    "texto": "#EAF2EE",
+    "acento": "#E6F14A"
+  }
+}

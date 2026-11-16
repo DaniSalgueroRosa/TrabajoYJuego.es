@@ -1,0 +1,20 @@
+/* LAS CIFRAS: marcador de objetivo oscuro con cifras de píxeles y fichas numeradas que se pueden tocar con el dedo. */
+.lc-objetivo { display: flex; align-items: baseline; justify-content: center; gap: var(--e3); width: min(100%, 22rem); margin: var(--e3) auto; padding: var(--e3) var(--e4); background: var(--tinta); border: 4px solid var(--noche-linea); border-radius: 10px; }
+.lc-objetivo-etiqueta { font-size: var(--t-1); color: var(--tiza-suave); }
+.lc-objetivo strong { font-family: var(--f-pixel); font-size: clamp(2rem, 9vw, 3.2rem); letter-spacing: 0.1em; color: var(--limon); line-height: 1.1; }
+.lc-fichas { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--e2); margin: var(--e3) 0; }
+.lc-ficha { min-width: 4.2rem; min-height: 3.4rem; padding: var(--e2) var(--e3); font-family: var(--f-pixel); font-size: var(--t1); color: var(--tiza); background: var(--noche-2); border: 3px solid var(--noche-linea); border-radius: 8px; cursor: pointer; touch-action: manipulation; }
+.lc-ficha:hover:not(:disabled) { border-color: var(--tiza-suave); }
+.lc-ficha:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.lc-ficha--sel { border-color: var(--limon); background: var(--tinta); box-shadow: 0 0 0 3px var(--limon) inset; }
+.lc-ficha--nueva { border-color: var(--sandia); }
+.lc-ficha--meta { background: var(--sandia); color: var(--tinta); border-color: var(--sandia); }
+.lc-ficha:disabled { cursor: default; opacity: 0.85; }
+.lc-ops { display: flex; justify-content: center; gap: var(--e2); margin: var(--e3) 0; }
+.lc-op { min-width: 3.4rem; min-height: 3.2rem; font-size: var(--t2); }
+.lc-pasos { max-width: 22rem; margin: var(--e3) auto; padding-left: 2.2rem; font-family: var(--f-pixel); font-size: var(--t-1); line-height: 1.9; }
+.lc-pasos:empty { display: none; }
+.lc-solucion { max-width: 24rem; margin: var(--e3) auto; padding: var(--e3); border: 3px dashed var(--noche-linea); border-radius: 8px; }
+.lc-subtitulo { margin: 0 0 var(--e2); font-size: var(--t0); }
+@media (max-width: 420px) { .lc-ficha { min-width: 3.6rem; padding-inline: var(--e2); } }
+.lc-ops[hidden], .lc-solucion[hidden], .fila[hidden] { display: none; }

@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de redondeo",
+  "descripcion": "Redondea un número a los decimales o al múltiplo que quieras: normal, hacia arriba, hacia abajo, truncado o al par.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "calculadoras",
+  "orden": 20
+}

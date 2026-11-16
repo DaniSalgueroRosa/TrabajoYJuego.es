@@ -1,0 +1,15 @@
+{
+  "titulo": "El impostor",
+  "descripcion": "Tres afirmaciones son ciertas y una es mentira. Descubre al impostor antes de que se acabe el tiempo, y aprende algo en cada ronda.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "verdadero o falso",
+    "cultura",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-6 min",
+  "orden": 16
+}

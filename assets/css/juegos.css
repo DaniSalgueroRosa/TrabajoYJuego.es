@@ -1,0 +1,236 @@
+/* ===== juegos/catalogo.css ===== */
+/* CATÁLOGO DE JUEGOS: presentación, buscador, filtros y la información extra de cada tarjeta (categoría, dificultad, botón). */
+.juegos-intro { max-width: 46rem; margin-bottom: var(--e6); color: var(--tiza-suave); font-size: var(--t1); line-height: 1.45; }
+
+/* ---- Buscador y filtros (los muestra filtro.js; sin JavaScript se ve la lista entera) */
+.filtros label, .filtros legend { margin-bottom: var(--e2); color: var(--tiza); font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+.filtros label { display: block; }
+.filtro-campo { display: grid; }
+.filtros input[type="search"], .filtros select {
+  width: calc(100% - 8px); margin: 4px; padding: 0.7rem 0.9rem; border: 0; border-radius: 0; background: var(--noche-2); color: var(--tiza);
+  font: 400 var(--t0) / 1.2 var(--f-trabajo); appearance: none;
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea);
+}
+.filtros select { background-image: linear-gradient(45deg, transparent 50%, var(--limon) 50%), linear-gradient(135deg, var(--limon) 50%, transparent 50%); background-position: calc(100% - 20px) 55%, calc(100% - 14px) 55%; background-size: 6px 6px; background-repeat: no-repeat; padding-right: 2.4rem; }
+.filtros input[type="search"]::placeholder { color: var(--tiza-suave); opacity: 1; }
+.filtros input:focus-visible, .filtros select:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.chip {
+  margin: 4px; padding: 0.4rem 0.8rem; cursor: pointer; border: 0; background: var(--noche-2); color: var(--tiza);
+  font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px);
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea);
+}
+.chip:hover { box-shadow: 0 -4px 0 0 var(--sandia), 0 4px 0 0 var(--sandia), -4px 0 0 0 var(--sandia), 4px 0 0 0 var(--sandia); }
+.chip[aria-pressed="true"] { background: var(--limon); color: var(--tinta); box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta); }
+.chip:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.filtro-estado { color: var(--tiza); }
+
+/* ---- Tarjetas de juego: categoría, dificultad y botón */
+.tarjeta-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e1) var(--e4); font-size: var(--t-1); }
+.tarjeta[data-mundo="juego"] .tarjeta-categoria { color: var(--sandia); font: 400 1.25rem / 1 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+.dificultad { display: inline-flex; align-items: center; gap: var(--e2); margin: 0; color: var(--limon); }
+.dificultad-texto { color: var(--tiza-suave); font-size: var(--t-1); }
+.dificultad-pips { display: inline-flex; gap: 3px; }
+.dificultad-pips i { display: block; width: 10px; height: 10px; border: 2px solid currentColor; }
+.dificultad[data-nivel="1"] i:nth-child(-n+1), .dificultad[data-nivel="2"] i:nth-child(-n+2), .dificultad[data-nivel="3"] i { background: currentColor; }
+.tarjeta-pie--accion { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e2) var(--e4); }
+.tarjeta[data-mundo="juego"] .tarjeta-boton {
+  display: inline-block; margin: 4px; padding: 0.3rem 0.8rem; background: var(--limon); color: var(--tinta);
+  font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px);
+  box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta);
+}
+.tarjeta[data-mundo="juego"]:hover .tarjeta-boton, .tarjeta[data-mundo="juego"]:has(.tarjeta-enlace:focus-visible) .tarjeta-boton { background: var(--sandia); }
+.tarjeta[data-mundo="juego"] .tarjeta-duracion { color: var(--tiza-suave); }
+.tarjeta[data-mundo="juego"] .tarjeta-pie--accion { color: var(--tiza-suave); }
+
+/* ===== juegos/componentes.css ===== */
+/* COMPONENTES COMUNES DE LOS JUEGOS
+   Piezas que usan todos los juegos para parecer del mismo sitio: marco de la partida, marcadores, barra de tiempo, botones y
+   respuestas, campos de texto, pantalla final y los textos que acompañan a cada juego.
+   Cada juego pone el resto en su app.css. Todo está pensado para «mundo Juego»: fondo oscuro, bordes de píxeles, movimiento a saltos. */
+
+/* ---- Marco de la partida */
+.juego { margin-top: var(--e6); }
+.pantalla { display: grid; gap: var(--e4); min-width: 0; }
+@media (max-width: 30rem) { .pantalla { padding: var(--e4) var(--e3); } }
+.pantalla[hidden], .juego [hidden] { display: none; }
+.juego-aviso { padding: var(--e4); border: 2px dashed var(--noche-linea); color: var(--tiza); }
+.pantalla .fila { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e3) var(--e4); }
+.pantalla .fila--centro { justify-content: center; }
+.pantalla .texto { max-width: 38rem; color: var(--tiza); }
+.pantalla .texto-suave { color: var(--tiza-suave); font-size: var(--t-1); }
+.pantalla h2, .pantalla h3 { color: var(--sandia); font: 400 1.65rem / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.pantalla a { color: var(--limon); }
+.mensaje { min-height: 1.6em; color: var(--tiza); }
+.mensaje--ok { color: var(--limon); }
+.mensaje--mal { color: #FF9DB0; }
+
+/* ---- Marcadores: puntos, tiempo, intentos… */
+.hud { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--e3) var(--e5); }
+.hud-dato { display: flex; flex-direction: column; min-width: 4.5rem; }
+.hud-etiqueta { font-size: var(--t-1); color: var(--tiza-suave); }
+.hud-valor { color: var(--limon); font: 400 1.65rem / 1.1 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.hud-valor--alerta { color: var(--sandia); }
+
+/* ---- Barra de tiempo: se vacía a saltos */
+.barra { height: 14px; background: var(--tinta); box-shadow: 0 0 0 3px var(--noche-linea); }
+.barra-relleno { height: 100%; width: 100%; background: var(--limon); transform-origin: left; }
+.barra-relleno--alerta { background: var(--sandia); }
+
+/* ---- Botones (los modificadores llevan dos clases para ganar siempre a .boton-retro, que está en juegos.css) */
+.boton-retro { font-family: var(--f-pixel); }
+.boton-retro:disabled { cursor: not-allowed; background: var(--noche-linea); color: var(--tiza); box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta); }
+.boton-retro.boton-retro--sec { background: var(--noche-2); color: var(--tiza); box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea), 4px 8px 0 0 var(--tinta); }
+.boton-retro.boton-retro--sec:hover:not(:disabled) { background: var(--noche-linea); color: var(--tiza); }
+.boton-retro.boton-retro--sec[aria-pressed="true"] { background: var(--limon); color: var(--tinta); box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta), 4px 8px 0 0 var(--sandia); }
+.boton-retro.boton-retro--chico { padding: 0.45rem 0.8rem; font-size: 1rem; font-size: round(down, 1.25rem, 10px); }
+a.boton-retro { display: inline-block; text-decoration: none; }
+
+/* ---- Respuestas para elegir */
+.opciones { display: grid; gap: 12px; margin: 4px; }
+.opciones--2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
+.opcion {
+  display: block; width: 100%; padding: 0.8rem 1rem; text-align: left; cursor: pointer; border: 0;
+  background: var(--tinta); color: var(--tiza); font: 400 var(--t0) / 1.35 var(--f-trabajo);
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea);
+}
+.opcion:hover:not(:disabled) { box-shadow: 0 -4px 0 0 var(--sandia), 0 4px 0 0 var(--sandia), -4px 0 0 0 var(--sandia), 4px 0 0 0 var(--sandia); }
+.opcion:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.opcion:disabled { cursor: default; }
+.opcion.ok { background: var(--pizarra-media); }
+.opcion.mal { background: var(--sandia-texto); color: #FFFFFF; }
+.opcion[aria-pressed="true"] { background: var(--limon); color: var(--tinta); }
+
+/* ---- Campos de texto */
+.campo-retro { display: grid; gap: var(--e2); }
+.campo-retro label { color: var(--tiza); font-weight: 700; }
+.campo-retro input, .campo-retro select {
+  width: calc(100% - 8px); margin: 4px; padding: 0.7rem 0.9rem; border: 0; background: var(--tinta); color: var(--tiza);
+  font: 400 var(--t1) / 1.2 var(--f-trabajo); border-radius: 0;
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea);
+}
+.campo-retro input:focus-visible, .campo-retro select:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.campo-retro input::placeholder { color: var(--tiza-suave); opacity: 1; }
+
+/* ---- Pantalla final */
+.final { display: grid; gap: var(--e4); justify-items: center; padding: var(--e5) var(--e3); text-align: center; }
+.final-titulo { color: var(--sandia); }
+.final-puntos { color: var(--limon); font: 400 3rem / 1 var(--f-pixel); font-size: round(down, 4rem, 10px); }
+.final-puntos small { display: block; margin-top: var(--e2); color: var(--tiza); font: 400 var(--t0) / 1.3 var(--f-trabajo); }
+.final-nivel { font: 400 1.65rem / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); color: var(--tiza); }
+.final-detalles { display: grid; gap: var(--e1); margin: 0; padding: 0; list-style: none; color: var(--tiza); }
+.final-botones { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--e3) var(--e4); }
+.final-estado { min-height: 1.5em; color: var(--tiza-suave); font-size: var(--t-1); }
+.final pre { margin: 0; padding: var(--e3); background: var(--tinta); color: var(--tiza); font: 400 var(--t-1) / 1.3 var(--f-pixel); white-space: pre-wrap; text-align: left; }
+
+/* ---- Estadísticas de la sesión (viven solo mientras la pestaña está abierta) */
+.sesion { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e5); padding-top: var(--e3); border-top: 2px solid var(--noche-linea); color: var(--tiza-suave); font-size: var(--t-1); }
+.sesion b { color: var(--limon); font-weight: 400; font-family: var(--f-pixel); }
+.sesion-nota { flex-basis: 100%; }
+
+/* ---- Textos que acompañan a cada juego */
+.juego-texto { max-width: 46rem; margin-top: var(--e8); }
+.juego-texto h2 { margin: var(--e7) 0 var(--e3); color: var(--sandia); font: 400 1.65rem / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.juego-texto h2:first-child { margin-top: 0; }
+.juego-texto p, .juego-texto li { max-width: 40rem; }
+.juego-texto p + p { margin-top: var(--e3); }
+.juego-texto ul, .juego-texto ol { margin: var(--e3) 0 0; padding-left: 1.3em; }
+.juego-texto li + li { margin-top: var(--e2); }
+.juego-texto a { color: var(--limon); }
+.juego-texto kbd { padding: 0.05rem 0.4rem; border: 2px solid var(--noche-linea); background: var(--noche-2); font: 400 0.85em var(--f-pixel); }
+.juego-texto details { border-top: 2px solid var(--noche-linea); padding-block: var(--e3); }
+.juego-texto details:last-of-type { border-bottom: 2px solid var(--noche-linea); }
+.juego-texto summary { cursor: pointer; font-weight: 700; }
+.juego-texto details p { margin-top: var(--e2); }
+
+body[data-seccion="juegos"] :is(.ficha-categoria, .ficha-duracion) { color: var(--sandia); font: 400 1.25rem / 1 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+body[data-seccion="juegos"] .ficha-duracion { color: var(--tiza-suave); }
+.ficha-volver { margin-top: var(--e5); }
+.ficha-volver--pie { margin-top: var(--e7); }
+.compartir-texto { display: block; width: 100%; margin-top: var(--e2); padding: var(--e2); border: 2px solid var(--noche-linea); background: var(--tinta); color: var(--tiza); font: 400 var(--t-1) / 1.4 var(--f-trabajo); }
+
+/* ---- Motor de rondas (preguntas y respuestas) */
+.rondas-enunciado { margin: 0; color: var(--tiza); font: 700 var(--t1) / 1.3 var(--f-trabajo); }
+.rondas-tiempo { display: flex; align-items: center; gap: var(--e3); }
+.rondas-tiempo .barra { flex: 1; }
+.rondas-segundos { min-width: 3.2rem; text-align: right; color: var(--limon); font: 400 1.65rem / 1 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.rondas-segundos--alerta { color: var(--sandia); }
+.rondas-cuerpo { display: grid; gap: var(--e3); }
+.rondas-form .campo-retro { flex: 1 1 14rem; }
+.rondas-form .fila { align-items: stretch; }
+.rondas-aviso { display: grid; gap: var(--e3); padding: var(--e4); background: var(--tinta); box-shadow: 0 0 0 3px var(--noche-linea); }
+.rondas-aviso--ok { box-shadow: 0 0 0 3px var(--pizarra-media); }
+.rondas-aviso p { margin: 0; }
+.rondas-repaso { width: 100%; max-width: 40rem; text-align: left; }
+.rondas-repaso summary { cursor: pointer; color: var(--limon); }
+.rondas-repaso ul { display: grid; gap: var(--e2); margin: var(--e3) 0 0; padding-left: 1.2rem; }
+.opcion-tecla { color: var(--tiza-suave); font-family: var(--f-pixel); }
+.opcion.ok .opcion-tecla, .opcion.mal .opcion-tecla { color: inherit; }
+.opciones--n { grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); }
+
+/* ---- Interfaz de progreso: pista de carrera (TYJ.carrera) y ruta de rondas (TYJ.etapas) */
+.pista { --p: 0; --coche: 3.4rem; --bandera: 1.75rem; display: grid; gap: var(--e2); min-width: 0; }
+.pista-carril { position: relative; height: 4rem; background: var(--tinta); box-shadow: 0 0 0 3px var(--noche-linea); overflow: hidden;
+  background-image: repeating-linear-gradient(90deg, var(--noche-linea) 0 14px, transparent 14px 28px); background-size: 100% 4px; background-position: 0 50%; background-repeat: no-repeat; }
+.pista-meta { position: absolute; top: 0; right: 0; bottom: 0; width: var(--bandera); background: repeating-conic-gradient(var(--tiza) 0 25%, var(--tinta) 0 50%) 0 0 / 14px 14px; }
+.pista-hito { position: absolute; top: 0; bottom: 0; width: 4px; left: calc(var(--coche) + (100% - var(--coche) - var(--bandera)) * var(--h)); background: var(--noche-linea); }
+.pista-hito--hecho { background: var(--limon); }
+.pista-coche { position: absolute; top: 50%; width: var(--coche); transform: translateY(-50%); left: calc((100% - var(--coche) - var(--bandera)) * var(--p)); transition: left 0.9s steps(9, end); }
+.pista-coche-dibujo { display: block; width: 100%; height: auto; }
+.pc-cuerpo { fill: var(--sandia); }
+.pc-cristal { fill: var(--tiza); }
+.pc-faro { fill: var(--limon); }
+.pc-rueda { fill: var(--tiza-suave); }
+.pista--rapida .pista-coche { transition-duration: 0.15s; transition-timing-function: linear; }
+.pista--sin-viaje .pista-coche { transition: none; }
+.pista--meta .pista-coche-dibujo { animation: pista-salto 0.5s steps(2, end) 3; }
+@keyframes pista-salto { 50% { transform: translateY(-4px); } }
+.pista-pie { display: flex; justify-content: space-between; align-items: baseline; gap: var(--e3); color: var(--tiza-suave); font-size: var(--t-1); }
+.pista-lectura { margin: 0; color: var(--limon); font: 400 1.25rem / 1.1 var(--f-pixel); font-size: round(down, 1.25rem, 10px); text-align: center; }
+@media (prefers-reduced-motion: reduce) { .pista-coche { transition: none; } .pista--meta .pista-coche-dibujo { animation: none; } }
+.etapas { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.etapa { display: grid; place-items: center; min-width: 2.2rem; height: 2.2rem; padding: 0 4px; background: var(--noche-2); color: var(--tiza-suave); box-shadow: 0 0 0 2px var(--noche-linea);
+  font: 400 1.25rem / 1 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+.etapa--ok { background: var(--limon); color: var(--tinta); box-shadow: 0 0 0 2px var(--tinta); }
+.etapa--mal { background: var(--sandia); color: var(--tinta); box-shadow: 0 0 0 2px var(--tinta); text-decoration: line-through; }
+.etapa--actual { color: var(--tiza); box-shadow: 0 0 0 3px var(--limon); }
+
+/* ===== juegos/juegos.css ===== */
+/* JUEGOS · mundo «Juego»: pantalla de arcade.
+   Fondo oscuro, títulos en letra de píxeles con cursor que parpadea, líneas de barrido en las franjas, una cenefa de píxeles
+   rosa bajo cada título y tarjetas de borde «mordido». Todo se mueve a saltos (steps), nunca suave.
+   Trae piezas para construir juegos: .pantalla (marco con borde de píxeles para el área de juego) y .boton-retro. */
+body[data-seccion="juegos"] :is(.seccion-cabecera, .ficha-cabecera) {
+  position: relative; isolation: isolate;
+  background-color: var(--tinta);
+  background-image: linear-gradient(90deg, var(--sandia) 50%, transparent 50%);   /* cenefa de píxeles */
+  background-size: 16px 8px; background-repeat: repeat-x; background-position: 0 100%;
+}
+body[data-seccion="juegos"] :is(.seccion-cabecera, .ficha-cabecera)::after {   /* líneas de barrido, por detrás del texto */
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.28) 0 2px, transparent 2px 4px);
+}
+body[data-seccion="juegos"] .seccion-titulo { color: var(--sandia); line-height: 1.1; letter-spacing: 0; font-size: 3rem; font-size: round(down, clamp(3rem, 1rem + 9vw, 6.5rem), 10px); }
+body[data-seccion="juegos"] .ficha-titulo { color: var(--sandia); line-height: 1.15; letter-spacing: 0; font-size: 2rem; font-size: round(down, clamp(2rem, 1rem + 5vw, 4rem), 10px); }
+body[data-seccion="juegos"] :is(.seccion-titulo, .ficha-titulo)::after { content: "█" / ""; margin-left: 0.1em; color: var(--limon); animation: juegos-parpadeo 1.1s steps(1, end) infinite; }
+body[data-seccion="juegos"] .seccion-lead { color: var(--tiza); }
+body[data-seccion="juegos"] .ficha-meta { color: var(--tiza-suave); }
+body[data-seccion="juegos"] .ficha-etiquetas li { border-color: var(--limon); border-radius: 0; color: var(--limon); }
+body[data-seccion="juegos"] .pie { border-top: 4px solid var(--noche-linea); }
+body[data-seccion="juegos"] .rejilla { gap: var(--e6) var(--e5); }
+body[data-seccion="juegos"] .ficha-cuerpo { padding-bottom: var(--e8); }
+@keyframes juegos-parpadeo { 50% { opacity: 0; } }
+
+/* ---- Piezas para los juegos */
+.pantalla {
+  position: relative; margin: 4px; padding: var(--e5); background: var(--noche-2); color: var(--tiza);
+  box-shadow: 0 -4px 0 0 var(--sandia), 0 4px 0 0 var(--sandia), -4px 0 0 0 var(--sandia), 4px 0 0 0 var(--sandia);
+}
+.pantalla canvas { display: block; max-width: 100%; image-rendering: pixelated; }
+.boton-retro {
+  margin: 4px; padding: 0.7rem 1.1rem; cursor: pointer; border: 0; background: var(--limon); color: var(--tinta);
+  font: 400 1.25rem / 1 var(--f-pixel); font-size: round(down, 1.25rem, 10px);
+  box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta), 4px 8px 0 0 var(--sandia);
+}
+.boton-retro:hover { background: var(--sandia); }
+.boton-retro:active { transform: translate(4px, 4px); box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta); }
+.boton-retro:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }

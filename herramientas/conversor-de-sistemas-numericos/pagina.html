@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="conversor-de-sistemas-numericos">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Pasa números de una base a otra</h2>
+  <p>Los sistemas de numeración posicionales, como el decimal que usamos a diario, escriben cada número con unas pocas cifras cuyo valor depende de su posición. En informática se usan sobre todo el binario, de base 2, que es el lenguaje de los circuitos; el octal, de base 8; y el hexadecimal, de base 16, que resume cada cuatro bits en una sola cifra. Esta herramienta convierte un número de una base a las otras cuatro habituales y, si quieres, a cualquier otra entre 2 y 36.</p>
+  <h2>Cómo escribir el número</h2>
+  <ul><li><strong>Cifras y letras:</strong> en las bases mayores que 10 se usan letras: A vale 10, B vale 11 y así hasta la Z, que vale 35 en base 36. Da igual escribirlas en mayúsculas o en minúsculas.</li><li><strong>Prefijos:</strong> puedes poner 0x delante de un número hexadecimal, 0b delante de uno binario o 0o delante de uno octal, como en los lenguajes de programación.</li><li><strong>Separadores:</strong> los espacios y los guiones bajos se ignoran, así que puedes pegar 1010 1010 o 1_000_000 tal cual.</li><li><strong>Signo:</strong> un menos delante indica un número negativo, que se muestra con su signo y no en complemento a dos.</li></ul>
+  <h2>Sin límite de tamaño</h2>
+  <p>La conversión usa aritmética de precisión arbitraria, así que no pierde cifras con números enormes, como ocurre con las calculadoras que trabajan con decimales de coma flotante a partir de 2 elevado a 53. Se admiten hasta mil cifras. También se indica cuántos bits ocupa el número, un dato útil para saber si cabe en un entero de 8, 16, 32 o 64 bits. Marca la opción de separar en grupos para ver el binario en bloques de cuatro cifras, el octal y el decimal en tres y el hexadecimal en cuatro. La herramienta convierte números enteros; para fracciones y decimales hay que convertir la parte entera y la fraccionaria por separado. Todo se calcula en tu navegador.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Por qué se usa el hexadecimal en informática?</summary>
+    <p>Porque cada cifra hexadecimal equivale exactamente a cuatro bits, de modo que un byte son dos cifras. Es mucho más compacto y fácil de leer que el binario.</p>
+  </details>
+  <details>
+    <summary>¿Cómo se convierte de binario a decimal a mano?</summary>
+    <p>Se suma cada cifra multiplicada por la potencia de 2 que corresponde a su posición, empezando por 1 en la cifra de la derecha. Por ejemplo, 1011 es 8 más 2 más 1, es decir, 11.</p>
+  </details>
+  <details>
+    <summary>¿Se pueden convertir números con decimales?</summary>
+    <p>No, esta herramienta trabaja solo con números enteros.</p>
+  </details>
+  <details>
+    <summary>¿Qué significa «bits que ocupa»?</summary>
+    <p>Es la cantidad mínima de cifras binarias necesarias para escribir el número, sin contar el signo. El cero ocupa un bit.</p>
+  </details>
+</div>

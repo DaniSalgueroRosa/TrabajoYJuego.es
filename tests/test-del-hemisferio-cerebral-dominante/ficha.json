@@ -1,0 +1,21 @@
+{
+  "titulo": "Test del hemisferio cerebral dominante",
+  "descripcion": "Quince preguntas para saber si tu estilo de pensar es más analítico o más intuitivo. Con gráfica y la verdad sobre el mito del hemisferio dominante.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "hemisferio cerebral dominante",
+    "hemisferio izquierdo o derecho",
+    "estilo de pensamiento",
+    "analítico o intuitivo",
+    "mito del cerebro"
+  ],
+  "categoria": "personalidad",
+  "duracion": "3 min",
+  "orden": 49,
+  "tema": {
+    "fondo": "#EAF6F7",
+    "texto": "#0F2B30",
+    "acento": "#0A6E7C"
+  }
+}

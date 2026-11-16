@@ -1,0 +1,8 @@
+{
+  "titulo": "Humanizador de texto",
+  "descripcion": "Pule un texto que suena a plantilla: quita aperturas vacías, conectores repetidos y fórmulas largas, y señala las frases difíciles de leer.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 109
+}

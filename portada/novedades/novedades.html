@@ -1,0 +1,15 @@
+<section class="novedades" aria-labelledby="novedades-titulo">
+  <div class="contenedor">
+    <h2 id="novedades-titulo" class="novedades-titulo">Lo último</h2>
+    {{#hay_novedades}}
+    <ul class="rejilla">
+      {{#novedades}}
+      <li>{{> comun/tarjeta/tarjeta}}</li>
+      {{/novedades}}
+    </ul>
+    {{/hay_novedades}}
+    {{^hay_novedades}}
+    {{> comun/vacio/vacio}}
+    {{/hay_novedades}}
+  </div>
+</section>

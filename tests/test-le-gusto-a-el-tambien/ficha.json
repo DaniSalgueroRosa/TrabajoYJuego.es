@@ -1,0 +1,21 @@
+{
+  "titulo": "Test ¿Le gusto a él también?",
+  "descripcion": "Dieciséis frases sobre cuánto te implicas tú y cuánto parece implicarse él. Un plano te dice si lo vuestro parece mutuo o si uno da más pasos que el otro.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "le gusto a él también",
+    "me gusta y le gusto",
+    "amor correspondido",
+    "test de reciprocidad",
+    "señales de interés"
+  ],
+  "categoria": "relaciones",
+  "duracion": "4 min",
+  "orden": 53,
+  "tema": {
+    "fondo": "#FFF4EC",
+    "texto": "#3A1A08",
+    "acento": "#B03F00"
+  }
+}

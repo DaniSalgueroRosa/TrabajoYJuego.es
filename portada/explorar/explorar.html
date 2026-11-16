@@ -1,0 +1,25 @@
+{{#hay_explorar}}
+{{#explorar}}
+<section class="explorar" data-mundo="{{mundo}}" aria-labelledby="explorar-{{id}}">
+  <div class="contenedor">
+    <div class="explorar-cabeza">
+      <h2 id="explorar-{{id}}" class="explorar-titulo">{{titulo}} por categoría</h2>
+      <p class="explorar-todos"><a href="{{href}}">Ver {{total}}</a></p>
+    </div>
+    <ul class="explorar-rejilla">
+      {{#grupos}}
+      <li class="explorar-grupo">
+        <h3 class="explorar-grupo-titulo"><a href="{{href}}">{{nombre}}</a></h3>
+        <p class="explorar-cuenta">{{cuenta}}</p>
+        <ul class="explorar-items">
+          {{#items}}
+          <li><a href="{{href}}">{{titulo}}</a></li>
+          {{/items}}
+        </ul>
+      </li>
+      {{/grupos}}
+    </ul>
+  </div>
+</section>
+{{/explorar}}
+{{/hay_explorar}}

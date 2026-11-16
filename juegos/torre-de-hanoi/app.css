@@ -1,0 +1,15 @@
+/* TORRE DE HANOI: tres columnas con una varilla central; los discos llevan su número dentro, así no dependen del color. */
+.hn-tablero { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--e2); width: min(100%, 34rem); margin: var(--e2) auto; }
+.hn-torre { display: flex; flex-direction: column; align-items: stretch; justify-content: flex-end; gap: var(--e1); min-width: 0; padding: var(--e2) var(--e1) var(--e1); color: var(--tiza); background: var(--tinta); border: 3px solid var(--noche-linea); border-radius: 10px; cursor: pointer; touch-action: manipulation; font-family: var(--f-pixel); }
+.hn-torre:hover { border-color: var(--tiza-suave); }
+.hn-torre:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
+.hn-sel { border-color: var(--limon); box-shadow: 0 0 0 3px var(--limon); }
+.hn-pista-de { border-color: var(--sandia); border-style: dashed; }
+.hn-pista-a { border-color: var(--sandia); box-shadow: 0 0 0 3px var(--sandia); }
+.hn-meta { border-color: var(--limon); }
+.hn-pila { position: relative; display: flex; flex-direction: column-reverse; align-items: center; gap: 3px; height: calc(var(--discos) * 1.7rem + 1.2rem); }
+.hn-pila::before { content: ''; position: absolute; left: 50%; bottom: 0; width: 8px; height: 100%; margin-left: -4px; background: var(--noche-linea); border-radius: 4px 4px 0 0; }
+.hn-disco { position: relative; display: flex; align-items: center; justify-content: center; height: 1.5rem; max-width: 100%; color: var(--tinta); font-size: var(--t-1); border: 2px solid var(--tinta); border-radius: 6px; }
+.hn-alto { transform: translateY(-0.5rem); box-shadow: 0 0 0 2px var(--limon); }
+.hn-nombre { font-size: var(--t-1); color: var(--tiza-suave); text-align: center; }
+@media (prefers-reduced-motion: reduce) { .hn-alto { transform: none; } }

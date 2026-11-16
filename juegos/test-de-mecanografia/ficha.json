@@ -1,0 +1,18 @@
+{
+  "titulo": "Test de mecanografía: ppm y precisión",
+  "descripcion": "Test de mecanografía en español: copia textos de 30, 60 o 120 segundos y mide tus palabras por minuto y tu precisión. Con o sin tildes. Sin registro.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "mecanografía",
+    "teclado",
+    "velocidad",
+    "palabras por minuto",
+    "ppm",
+    "un jugador"
+  ],
+  "categoria": "habilidad",
+  "dificultad": "media",
+  "duracion": "1-3 min",
+  "orden": 42
+}

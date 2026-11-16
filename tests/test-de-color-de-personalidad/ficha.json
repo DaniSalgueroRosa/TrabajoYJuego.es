@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de color de personalidad",
+  "descripcion": "Dieciséis preguntas para saber si eres rojo, amarillo, verde o azul, con un plano de ritmo y foco que muestra cómo trabajas. Un juego de colores.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "color de personalidad",
+    "test de colores",
+    "rojo amarillo verde azul",
+    "estilo de trabajo",
+    "test de personalidad"
+  ],
+  "categoria": "personalidad",
+  "duracion": "5 min",
+  "orden": 48,
+  "tema": {
+    "fondo": "#FFFDF2",
+    "texto": "#2B2400",
+    "acento": "#B34700"
+  }
+}

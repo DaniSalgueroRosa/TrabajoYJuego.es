@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de temperatura",
+  "descripcion": "Convierte grados Celsius, Fahrenheit, Kelvin y Rankine al instante, con aviso si introduces un valor por debajo del cero absoluto.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 35
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de pureza de Rice",
+  "descripcion": "Cien experiencias de la vida, desde travesuras hasta aventuras. Marca las que hayas vivido y calcula tu pureza sobre 100. Versión apta para todos los públicos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "pureza de Rice",
+    "rice purity test",
+    "test de pureza",
+    "test de experiencias",
+    "test divertido"
+  ],
+  "categoria": "personalidad",
+  "duracion": "6 min",
+  "orden": 44,
+  "tema": {
+    "fondo": "#FFF6EA",
+    "texto": "#33200F",
+    "acento": "#B8470B"
+  }
+}

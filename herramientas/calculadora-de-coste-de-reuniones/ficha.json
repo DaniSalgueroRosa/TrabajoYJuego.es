@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de coste de reuniones",
+  "descripcion": "Calcula cuánto cuesta una reunión según quién asiste y cuánto dura, y qué suponen sus repeticiones al mes y al año, para decidir si compensa celebrarla.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "negocio",
+  "orden": 155
+}

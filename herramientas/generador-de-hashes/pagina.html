@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="generador-de-hashes">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Calcula el hash de un texto</h2>
+  <p>Un hash es una huella de tamaño fijo que se obtiene a partir de unos datos: si cambia un solo carácter, la huella cambia por completo, y a partir de ella es imposible recuperar el texto original. Se usa para comprobar que un dato no se ha alterado, para identificar contenidos y como pieza de muchos sistemas de seguridad. Escribe o pega un texto y esta herramienta calcula a la vez los cinco algoritmos más habituales: MD5, SHA-1, SHA-256, SHA-384 y SHA-512.</p>
+  <h2>Qué algoritmo usar</h2>
+  <ul><li><strong>SHA-256:</strong> es la opción por defecto para la mayoría de usos actuales, como comprobar la integridad de descargas o firmar datos.</li><li><strong>SHA-384 y SHA-512:</strong> dan huellas más largas, útiles cuando una norma las exige y a veces más rápidas en equipos de 64 bits.</li><li><strong>MD5 y SHA-1:</strong> se pueden falsificar a propósito, por lo que no valen para firmas ni para proteger contraseñas. Se siguen usando para comprobar que un archivo no se ha dañado y en sistemas antiguos.</li></ul><p>Para guardar contraseñas no basta ninguno de ellos: hacen falta algoritmos lentos y con sal, como bcrypt, scrypt o Argon2.</p>
+  <h2>Comparar y formatos</h2>
+  <p>Si pegas en «Hash con el que comparar» el valor que esperabas, la herramienta te dice si coincide con alguno de los calculados, aunque lo pegues en mayúsculas, con espacios o con dos puntos entre bytes, y detecta también si está escrito en Base64. Si no coincide pero tiene la longitud de uno de los algoritmos, te avisa de cuál: suele significar que el texto no es exactamente el mismo, por ejemplo por un salto de línea final o un espacio de más. El texto se convierte antes a bytes en UTF-8, como hacen la mayoría de los programas. Esta herramienta calcula hashes de texto escrito; el cálculo se hace en tu navegador y lo que escribes no se envía a ningún servidor.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Puedo recuperar el texto a partir del hash?</summary>
+    <p>No. Un hash es una función de un solo sentido. Solo se puede intentar adivinar el texto probando muchas posibilidades, por eso los hashes de contraseñas sencillas son poco seguros.</p>
+  </details>
+  <details>
+    <summary>¿Por qué mi hash no coincide con el de otro programa?</summary>
+    <p>Lo más habitual es que haya un espacio, un salto de línea final o una codificación distinta. Esta herramienta usa UTF-8 y cuenta un salto de línea como un solo carácter.</p>
+  </details>
+  <details>
+    <summary>¿Qué longitud tiene cada hash?</summary>
+    <p>MD5 tiene 32 cifras hexadecimales, SHA-1 tiene 40, SHA-256 tiene 64, SHA-384 tiene 96 y SHA-512 tiene 128.</p>
+  </details>
+  <details>
+    <summary>¿Se puede calcular el hash de un archivo?</summary>
+    <p>Esta herramienta trabaja con texto. Para archivos, usa el comando sha256sum en Linux y macOS o Get-FileHash en Windows PowerShell.</p>
+  </details>
+</div>

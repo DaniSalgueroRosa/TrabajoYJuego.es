@@ -1,0 +1,15 @@
+{
+  "titulo": "Patrimonio, deudas y jubilación",
+  "descripcion": "Calcula tu patrimonio neto, tu nivel de endeudamiento, cuánto necesitas para jubilarte, el coste real de un coche y si te compensa alquilar o comprar.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "patrimonio",
+    "endeudamiento",
+    "jubilación",
+    "alquiler",
+    "coche"
+  ],
+  "categoria": "finanzas",
+  "orden": 36
+}

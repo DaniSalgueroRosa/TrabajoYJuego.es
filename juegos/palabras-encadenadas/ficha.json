@@ -1,0 +1,15 @@
+{
+  "titulo": "Palabras encadenadas",
+  "descripcion": "Juega contra el ordenador: cada palabra debe empezar por la última letra de la anterior. No repitas y no te quedes sin tiempo. ¿Cuánto dura tu cadena?",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "palabras",
+    "vocabulario",
+    "un jugador"
+  ],
+  "categoria": "palabras",
+  "dificultad": "media",
+  "duracion": "2-6 min",
+  "orden": 13
+}

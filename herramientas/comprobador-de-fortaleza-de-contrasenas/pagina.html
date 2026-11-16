@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="comprobador-de-fortaleza-de-contrasenas">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Qué te dice esta comprobación</h2>
+  <p>Escribe una contraseña y la herramienta estima cuántos bits de entropía tiene, es decir, cuántas combinaciones tendría que probar alguien para dar con ella. Calcula el tamaño del conjunto de caracteres que usas, resta valor a las partes predecibles y te enseña cuánto tiempo aguantaría ante dos tipos de ataque: uno contra un servicio web, que bloquea tras unos cuantos fallos, y otro contra una base de datos robada, donde el atacante prueba miles de millones de combinaciones por segundo.</p>
+  <h2>Qué se considera débil</h2>
+  <ul><li><strong>Contraseñas muy usadas:</strong> «123456», «password» o «contraseña» están en cualquier diccionario de ataque. Las variantes con una @ en lugar de la a o un número al final tampoco engañan a esos programas.</li><li><strong>Repeticiones:</strong> «aaaaaa» aporta casi lo mismo que una sola letra.</li><li><strong>Secuencias:</strong> «abcdef», «54321» o una fila del teclado como «asdfgh».</li><li><strong>Años:</strong> acabar en 1990 o 2024 añade muy poco, porque hay pocas fechas posibles.</li></ul>
+  <h2>Cómo leer el resultado</h2>
+  <p>Por debajo de 28 bits la contraseña es muy débil; entre 28 y 40, débil; hasta 60, aceptable; hasta 80, fuerte, y por encima, muy fuerte. Son cifras orientativas: el cálculo no conoce tus datos personales ni los diccionarios que use un atacante concreto, así que una contraseña puede salir mejor de lo que merece si contiene tu nombre o el de tu mascota. Lo más seguro es dejar que un generador cree contraseñas largas y aleatorias y guardarlas en un gestor.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Es seguro escribir aquí mi contraseña?</summary>
+    <p>La herramienta funciona en tu navegador y no envía ni guarda lo que escribes. Aun así, es buena costumbre no teclear contraseñas reales en ninguna web: prueba con una parecida en longitud y estructura.</p>
+  </details>
+  <details>
+    <summary>¿Por qué mi contraseña larga sale débil?</summary>
+    <p>Si contiene una palabra muy común, una secuencia o muchas repeticiones, el cálculo las trata como un solo bloque predecible y le quita casi todo el valor que daba su longitud.</p>
+  </details>
+  <details>
+    <summary>¿Los tiempos son exactos?</summary>
+    <p>No, son estimaciones medias que suponen que el atacante no tiene más información que la contraseña misma. Sirven para comparar unas contraseñas con otras, no como garantía.</p>
+  </details>
+  <details>
+    <summary>¿Una frase de varias palabras es buena contraseña?</summary>
+    <p>Sí, si las palabras no tienen relación entre sí y no es una cita famosa. Cuatro o cinco palabras elegidas al azar son largas, fáciles de recordar y muy difíciles de adivinar.</p>
+  </details>
+</div>

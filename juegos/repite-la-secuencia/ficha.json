@@ -1,0 +1,17 @@
+{
+  "titulo": "Repite la secuencia: juego de memoria con colores",
+  "descripcion": "Entrena la memoria repitiendo secuencias de colores que crecen en cada ronda. Con sonido opcional, tres velocidades y juego con teclado.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "memoria",
+    "secuencia",
+    "colores",
+    "tipo Simon",
+    "un jugador"
+  ],
+  "categoria": "memoria",
+  "dificultad": "media",
+  "duracion": "3-8 min",
+  "orden": 33
+}

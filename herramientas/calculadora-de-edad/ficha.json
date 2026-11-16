@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de edad",
+  "descripcion": "Calcula tu edad exacta en años, meses y días a partir de la fecha de nacimiento, y mira cuándo es tu próximo cumpleaños y cuántos días has vivido.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "fechas",
+  "orden": 71
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Prueba de la barra espaciadora",
+  "descripcion": "Cuenta cuántas veces por segundo pulsas la barra espaciadora en 5, 10, 15 o 30 segundos. Ignora la repetición automática de la tecla.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "barra espaciadora",
+    "spacebar test",
+    "pulsaciones por segundo",
+    "teclado",
+    "test de velocidad"
+  ],
+  "categoria": "velocidad-clics",
+  "duracion": "10 s",
+  "orden": 5,
+  "tema": {
+    "fondo": "#101A17",
+    "texto": "#EAF2EE",
+    "acento": "#E6F14A"
+  }
+}

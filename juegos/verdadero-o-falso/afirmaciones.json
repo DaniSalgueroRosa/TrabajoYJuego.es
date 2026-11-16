@@ -1,0 +1,443 @@
+{
+"_nota": "Afirmaciones de verdadero o falso: «v» indica si la afirmación es cierta; «e» explica por qué; «t» es el tema.",
+"afirmaciones": [
+{
+"p": "Los delfines son mamíferos.",
+"v": true,
+"e": "Respiran aire con pulmones, tienen sangre caliente y amamantan a sus crías.",
+"t": "Animales"
+},
+{
+"p": "Los murciélagos son ciegos.",
+"v": false,
+"e": "Todos los murciélagos ven; muchos, además, se orientan con ecolocalización.",
+"t": "Animales"
+},
+{
+"p": "Los pulpos tienen tres corazones.",
+"v": true,
+"e": "Dos bombean sangre a las branquias y uno al resto del cuerpo.",
+"t": "Animales"
+},
+{
+"p": "Las arañas son insectos.",
+"v": false,
+"e": "Son arácnidos: tienen ocho patas y el cuerpo dividido en dos partes, no en tres como los insectos.",
+"t": "Animales"
+},
+{
+"p": "Los koalas son un tipo de oso.",
+"v": false,
+"e": "Son marsupiales, parientes de los canguros, y no tienen relación con los osos.",
+"t": "Animales"
+},
+{
+"p": "Los pingüinos viven de forma natural en el polo Norte.",
+"v": false,
+"e": "Viven en el hemisferio sur; en el Ártico no hay pingüinos silvestres.",
+"t": "Animales"
+},
+{
+"p": "Las jirafas tienen siete vértebras en el cuello, igual que las personas.",
+"v": true,
+"e": "Las de la jirafa son enormes, pero el número es el mismo que el de la mayoría de los mamíferos.",
+"t": "Animales"
+},
+{
+"p": "Los tiburones son mamíferos.",
+"v": false,
+"e": "Son peces cartilaginosos: respiran por branquias y no amamantan.",
+"t": "Animales"
+},
+{
+"p": "La sangre del pulpo es azul.",
+"v": true,
+"e": "Transporta oxígeno con hemocianina, una proteína con cobre, en lugar de hemoglobina.",
+"t": "Animales"
+},
+{
+"p": "Los camellos guardan agua en sus jorobas.",
+"v": false,
+"e": "Las jorobas almacenan grasa, que sirve de reserva de energía.",
+"t": "Animales"
+},
+{
+"p": "Los camaleones cambian de color solo para esconderse.",
+"v": false,
+"e": "También lo hacen para comunicarse y para regular la temperatura.",
+"t": "Animales"
+},
+{
+"p": "Los gatos siempre caen de pie.",
+"v": false,
+"e": "Tienen un reflejo muy bueno para enderezarse, pero no siempre les da tiempo y pueden hacerse daño.",
+"t": "Animales"
+},
+{
+"p": "Las ballenas son peces.",
+"v": false,
+"e": "Son mamíferos marinos: tienen pulmones y amamantan a sus crías.",
+"t": "Animales"
+},
+{
+"p": "El corazón humano tiene cuatro cavidades.",
+"v": true,
+"e": "Dos aurículas y dos ventrículos.",
+"t": "Cuerpo humano"
+},
+{
+"p": "Los humanos usamos solo el 10 % del cerebro.",
+"v": false,
+"e": "Es un mito: usamos todas las zonas del cerebro, aunque no todas a la vez.",
+"t": "Cuerpo humano"
+},
+{
+"p": "Un bebé tiene más huesos que un adulto.",
+"v": true,
+"e": "Al nacer tiene en torno a 300 y algunos se van fusionando hasta los 206 del adulto.",
+"t": "Cuerpo humano"
+},
+{
+"p": "Los dientes son huesos.",
+"v": false,
+"e": "Parecen huesos, pero están hechos de otros tejidos, como el esmalte y la dentina.",
+"t": "Cuerpo humano"
+},
+{
+"p": "El pelo y las uñas siguen creciendo después de la muerte.",
+"v": false,
+"e": "Es una ilusión: la piel se deshidrata y se retrae, y por eso parecen más largos.",
+"t": "Cuerpo humano"
+},
+{
+"p": "La piel es el órgano más grande del cuerpo humano.",
+"v": true,
+"e": "Cubre todo el cuerpo y pesa en un adulto en torno a cuatro o cinco kilos.",
+"t": "Cuerpo humano"
+},
+{
+"p": "Los seres humanos tenemos solo cinco sentidos.",
+"v": false,
+"e": "Además de vista, oído, olfato, gusto y tacto, tenemos otros, como el equilibrio o la percepción del propio cuerpo.",
+"t": "Cuerpo humano"
+},
+{
+"p": "El agua hierve a 100 °C al nivel del mar.",
+"v": true,
+"e": "En la cima de una montaña, con menos presión, hierve a una temperatura más baja.",
+"t": "Ciencia"
+},
+{
+"p": "La luz viaja más rápido que el sonido.",
+"v": true,
+"e": "Por eso en una tormenta se ve el rayo antes de oír el trueno.",
+"t": "Ciencia"
+},
+{
+"p": "El sonido se propaga en el vacío.",
+"v": false,
+"e": "Necesita un medio, como el aire, el agua o un sólido, para propagarse.",
+"t": "Ciencia"
+},
+{
+"p": "El sonido viaja más rápido en el agua que en el aire.",
+"v": true,
+"e": "En el agua va a unos 1.500 m/s; en el aire, a unos 340 m/s.",
+"t": "Ciencia"
+},
+{
+"p": "Todos los metales son sólidos a temperatura ambiente.",
+"v": false,
+"e": "El mercurio es líquido a temperatura ambiente.",
+"t": "Ciencia"
+},
+{
+"p": "El hielo flota porque es menos denso que el agua líquida.",
+"v": true,
+"e": "Al congelarse, el agua aumenta de volumen y su densidad baja.",
+"t": "Ciencia"
+},
+{
+"p": "El diamante está hecho de carbono.",
+"v": true,
+"e": "Es la misma sustancia que el grafito de un lápiz, pero con sus átomos ordenados de otra manera.",
+"t": "Ciencia"
+},
+{
+"p": "Un rayo nunca cae dos veces en el mismo lugar.",
+"v": false,
+"e": "Los rayos caen con frecuencia en los mismos sitios, sobre todo en los puntos altos.",
+"t": "Ciencia"
+},
+{
+"p": "Un rayo puede alcanzar una temperatura mayor que la de la superficie del Sol.",
+"v": true,
+"e": "En el canal del rayo el aire llega a decenas de miles de grados.",
+"t": "Ciencia"
+},
+{
+"p": "Los tomates son, botánicamente, un fruto.",
+"v": true,
+"e": "Se desarrollan a partir de la flor y contienen las semillas, aunque en la cocina los tratemos como verdura.",
+"t": "Ciencia"
+},
+{
+"p": "El hierro se oxida en presencia de oxígeno y humedad.",
+"v": true,
+"e": "La herrumbre es óxido de hierro.",
+"t": "Ciencia"
+},
+{
+"p": "Los diamantes se forman a partir del carbón.",
+"v": false,
+"e": "Se forman a partir de carbono, pero a gran profundidad y desde antes de que existieran las plantas que dieron el carbón.",
+"t": "Ciencia"
+},
+{
+"p": "La Luna tiene luz propia.",
+"v": false,
+"e": "Brilla porque refleja la luz del Sol.",
+"t": "Astronomía"
+},
+{
+"p": "La Luna siempre nos muestra la misma cara.",
+"v": true,
+"e": "Tarda lo mismo en girar sobre sí misma que en dar una vuelta a la Tierra.",
+"t": "Astronomía"
+},
+{
+"p": "En el espacio no hay gravedad.",
+"v": false,
+"e": "La gravedad actúa en todas partes; los astronautas flotan porque están en caída libre alrededor de la Tierra.",
+"t": "Astronomía"
+},
+{
+"p": "El Sol es una estrella.",
+"v": true,
+"e": "Es la estrella más cercana a la Tierra.",
+"t": "Astronomía"
+},
+{
+"p": "Venus es el planeta más cercano al Sol.",
+"v": false,
+"e": "El más cercano es Mercurio.",
+"t": "Astronomía"
+},
+{
+"p": "Plutón es un planeta según la clasificación actual.",
+"v": false,
+"e": "Desde 2006 se considera un planeta enano.",
+"t": "Astronomía"
+},
+{
+"p": "Júpiter es más pequeño que la Tierra.",
+"v": false,
+"e": "Es el planeta más grande del sistema solar.",
+"t": "Astronomía"
+},
+{
+"p": "La Gran Muralla china se ve a simple vista desde la Luna.",
+"v": false,
+"e": "Es muy larga, pero demasiado estrecha para distinguirse desde esa distancia.",
+"t": "Geografía"
+},
+{
+"p": "La capital de Australia es Sídney.",
+"v": false,
+"e": "Es Canberra.",
+"t": "Geografía"
+},
+{
+"p": "La capital de Brasil es Río de Janeiro.",
+"v": false,
+"e": "Es Brasilia, inaugurada en 1960.",
+"t": "Geografía"
+},
+{
+"p": "El Vaticano es el país más pequeño del mundo.",
+"v": true,
+"e": "Tiene menos de medio kilómetro cuadrado.",
+"t": "Geografía"
+},
+{
+"p": "Rusia es el país más extenso del mundo.",
+"v": true,
+"e": "Ocupa más de 17 millones de kilómetros cuadrados.",
+"t": "Geografía"
+},
+{
+"p": "El Sáhara es el desierto más grande del mundo, contando todos los tipos de desierto.",
+"v": false,
+"e": "El mayor es la Antártida; el Sáhara es el mayor desierto cálido.",
+"t": "Geografía"
+},
+{
+"p": "Groenlandia es la isla más grande del mundo.",
+"v": true,
+"e": "Es una isla; Australia se considera un continente.",
+"t": "Geografía"
+},
+{
+"p": "Suiza forma parte de la Unión Europea.",
+"v": false,
+"e": "Está rodeada de países de la Unión, pero no pertenece a ella.",
+"t": "Geografía"
+},
+{
+"p": "Turquía está únicamente en el continente asiático.",
+"v": false,
+"e": "Una pequeña parte, que incluye una zona de Estambul, está en Europa.",
+"t": "Geografía"
+},
+{
+"p": "Islandia no tiene ejército propio.",
+"v": true,
+"e": "Solo cuenta con guardacostas y fuerzas de policía; su defensa depende de acuerdos con otros países.",
+"t": "Geografía"
+},
+{
+"p": "África es el continente con más países.",
+"v": true,
+"e": "Tiene 54 países reconocidos por la ONU.",
+"t": "Geografía"
+},
+{
+"p": "Japón es un archipiélago.",
+"v": true,
+"e": "Está formado por miles de islas; las cuatro principales son Honshu, Hokkaido, Kyushu y Shikoku.",
+"t": "Geografía"
+},
+{
+"p": "El Teide, en Tenerife, es el punto más alto de España.",
+"v": true,
+"e": "Mide 3.715 metros, más que el Mulhacén, que es el más alto de la península.",
+"t": "Geografía"
+},
+{
+"p": "La Alhambra está en la ciudad de Sevilla.",
+"v": false,
+"e": "Está en Granada.",
+"t": "Geografía"
+},
+{
+"p": "El euro es la moneda oficial de todos los países de la Unión Europea.",
+"v": false,
+"e": "Varios países de la Unión, como Polonia, Suecia o Dinamarca, conservan su moneda.",
+"t": "Geografía"
+},
+{
+"p": "El español es la segunda lengua del mundo por número de hablantes nativos.",
+"v": true,
+"e": "Solo la supera el chino mandarín.",
+"t": "Lengua"
+},
+{
+"p": "La letra eñe es propia del alfabeto español y de algunas otras lenguas.",
+"v": true,
+"e": "Es una letra del abecedario español, distinta de la ene.",
+"t": "Lengua"
+},
+{
+"p": "«Haber» y «a ver» significan lo mismo.",
+"v": false,
+"e": "«Haber» es un verbo; «a ver» es una preposición más un verbo, como en «a ver qué pasa».",
+"t": "Lengua"
+},
+{
+"p": "La RAE recomienda escribir «solo» sin tilde.",
+"v": true,
+"e": "Desde 2010 se recomienda no ponerla, ni siquiera cuando significa «solamente».",
+"t": "Lengua"
+},
+{
+"p": "La palabra «agua» lleva tilde.",
+"v": false,
+"e": "Es una palabra llana terminada en vocal, así que no lleva tilde.",
+"t": "Lengua"
+},
+{
+"p": "La Revolución francesa empezó en 1789.",
+"v": true,
+"e": "Se suele marcar su comienzo con la toma de la Bastilla.",
+"t": "Historia"
+},
+{
+"p": "Los vikingos llevaban cascos con cuernos.",
+"v": false,
+"e": "Es una imagen creada en el siglo XIX; no hay pruebas de que usaran cascos con cuernos.",
+"t": "Historia"
+},
+{
+"p": "Napoleón era extraordinariamente bajo.",
+"v": false,
+"e": "Medía alrededor de 1,68 m, algo más que la media de los franceses de su época.",
+"t": "Historia"
+},
+{
+"p": "Las pirámides de Egipto las construyeron principalmente esclavos.",
+"v": false,
+"e": "Los restos hallados indican que fueron trabajadores organizados, alimentados y alojados cerca de las obras.",
+"t": "Historia"
+},
+{
+"p": "Colón creyó hasta el final que había llegado a Asia.",
+"v": true,
+"e": "Nunca admitió que había llegado a un continente desconocido para los europeos.",
+"t": "Historia"
+},
+{
+"p": "Cleopatra vivió más cerca de la llegada del hombre a la Luna que de la construcción de la Gran Pirámide.",
+"v": true,
+"e": "La pirámide se levantó hace unos 4.500 años y Cleopatra vivió hace unos 2.050.",
+"t": "Historia"
+},
+{
+"p": "El acueducto de Segovia lo construyeron los romanos.",
+"v": true,
+"e": "Se levantó hace unos 1.900 años y sigue en pie sin argamasa.",
+"t": "Historia"
+},
+{
+"p": "El Quijote se publicó antes de que Colón llegara a América.",
+"v": false,
+"e": "Colón llegó en 1492 y el Quijote apareció en 1605.",
+"t": "Historia"
+},
+{
+"p": "Durante la Edad Media la gente creía en general que la Tierra era plana.",
+"v": false,
+"e": "Las personas cultas sabían desde la Antigüedad que la Tierra es esférica.",
+"t": "Historia"
+},
+{
+"p": "La vitamina C previene los resfriados.",
+"v": false,
+"e": "Los estudios no muestran que los prevenga, aunque puede acortarlos algo en ciertos casos.",
+"t": "Salud"
+},
+{
+"p": "Hay que esperar dos horas después de comer para bañarse.",
+"v": false,
+"e": "No hay pruebas de ese riesgo; lo prudente es no hacer esfuerzos intensos con el estómago muy lleno.",
+"t": "Salud"
+},
+{
+"p": "Reírse es bueno para reducir el estrés.",
+"v": true,
+"e": "Relaja los músculos y ayuda a sentirse mejor, aunque no sustituye a otros cuidados.",
+"t": "Salud"
+},
+{
+"p": "Un año bisiesto tiene 366 días.",
+"v": true,
+"e": "Se añade el 29 de febrero.",
+"t": "Cultura"
+},
+{
+"p": "Un kilómetro tiene 1.000 metros.",
+"v": true,
+"e": "«Kilo» significa mil.",
+"t": "Cultura"
+}
+]
+}

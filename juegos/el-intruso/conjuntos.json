@@ -1,0 +1,495 @@
+{
+"_nota": "Conjuntos de «El intruso». t: tema; g: tres palabras del grupo; i: la intrusa; e: explicación. Para ampliar: añade objetos con t, g (3), i y e.",
+"conjuntos": [
+{
+"t": "Frutas",
+"g": [
+"manzana",
+"pera",
+"uva"
+],
+"i": "zanahoria",
+"e": "La zanahoria es una hortaliza; las otras son frutas."
+},
+{
+"t": "Mamíferos",
+"g": [
+"delfín",
+"murciélago",
+"ballena"
+],
+"i": "tiburón",
+"e": "El tiburón es un pez; los demás son mamíferos."
+},
+{
+"t": "Planetas del sistema solar",
+"g": [
+"Marte",
+"Venus",
+"Neptuno"
+],
+"i": "Plutón",
+"e": "Plutón se clasifica como planeta enano desde 2006."
+},
+{
+"t": "Instrumentos de cuerda",
+"g": [
+"violín",
+"arpa",
+"guitarra"
+],
+"i": "flauta",
+"e": "La flauta es un instrumento de viento."
+},
+{
+"t": "No metales",
+"g": [
+"azufre",
+"oxígeno",
+"carbono"
+],
+"i": "cobre",
+"e": "El cobre es un metal; los otros son no metales."
+},
+{
+"t": "Aves",
+"g": [
+"águila",
+"pingüino",
+"avestruz"
+],
+"i": "murciélago",
+"e": "El murciélago es un mamífero que vuela; los otros son aves."
+},
+{
+"t": "Números primos",
+"g": [
+"7",
+"11",
+"13"
+],
+"i": "15",
+"e": "El 15 se puede dividir entre 3 y 5; los demás solo se dividen entre 1 y entre sí mismos."
+},
+{
+"t": "Figuras de cuatro lados",
+"g": [
+"cuadrado",
+"rombo",
+"trapecio"
+],
+"i": "triángulo",
+"e": "El triángulo tiene tres lados."
+},
+{
+"t": "Ríos de España",
+"g": [
+"Ebro",
+"Tajo",
+"Duero"
+],
+"i": "Sena",
+"e": "El Sena es un río de Francia."
+},
+{
+"t": "Capitales europeas",
+"g": [
+"Lisboa",
+"Roma",
+"Atenas"
+],
+"i": "Barcelona",
+"e": "Barcelona no es una capital de país."
+},
+{
+"t": "Deportes de raqueta",
+"g": [
+"tenis",
+"pádel",
+"bádminton"
+],
+"i": "golf",
+"e": "En el golf se usan palos, no raquetas."
+},
+{
+"t": "Instrumentos de viento",
+"g": [
+"flauta",
+"trompeta",
+"oboe"
+],
+"i": "violonchelo",
+"e": "El violonchelo es de cuerda frotada."
+},
+{
+"t": "Insectos",
+"g": [
+"hormiga",
+"mariposa",
+"abeja"
+],
+"i": "araña",
+"e": "La araña es un arácnido (tiene ocho patas)."
+},
+{
+"t": "Reptiles",
+"g": [
+"serpiente",
+"lagarto",
+"tortuga"
+],
+"i": "rana",
+"e": "La rana es un anfibio."
+},
+{
+"t": "Verduras de hoja",
+"g": [
+"lechuga",
+"espinaca",
+"acelga"
+],
+"i": "fresa",
+"e": "La fresa es una fruta."
+},
+{
+"t": "Cereales",
+"g": [
+"trigo",
+"arroz",
+"maíz"
+],
+"i": "lenteja",
+"e": "La lenteja es una legumbre."
+},
+{
+"t": "Océanos",
+"g": [
+"Atlántico",
+"Pacífico",
+"Índico"
+],
+"i": "Mediterráneo",
+"e": "El Mediterráneo es un mar, no un océano."
+},
+{
+"t": "Escritores",
+"g": [
+"Cervantes",
+"Lorca",
+"Neruda"
+],
+"i": "Picasso",
+"e": "Picasso fue pintor."
+},
+{
+"t": "Pintores",
+"g": [
+"Goya",
+"Velázquez",
+"Dalí"
+],
+"i": "Mozart",
+"e": "Mozart fue compositor."
+},
+{
+"t": "Compositores",
+"g": [
+"Bach",
+"Beethoven",
+"Mozart"
+],
+"i": "Rembrandt",
+"e": "Rembrandt fue pintor."
+},
+{
+"t": "Unidades de longitud",
+"g": [
+"metro",
+"kilómetro",
+"milla"
+],
+"i": "litro",
+"e": "El litro mide capacidad, no longitud."
+},
+{
+"t": "Instrumentos de percusión",
+"g": [
+"tambor",
+"xilófono",
+"timbal"
+],
+"i": "violín",
+"e": "El violín es de cuerda."
+},
+{
+"t": "Artes marciales",
+"g": [
+"judo",
+"kárate",
+"taekwondo"
+],
+"i": "ajedrez",
+"e": "El ajedrez es un juego de mesa."
+},
+{
+"t": "Partes del ojo",
+"g": [
+"pupila",
+"iris",
+"retina"
+],
+"i": "tímpano",
+"e": "El tímpano es parte del oído."
+},
+{
+"t": "Huesos",
+"g": [
+"fémur",
+"tibia",
+"húmero"
+],
+"i": "bíceps",
+"e": "El bíceps es un músculo."
+},
+{
+"t": "Gases nobles",
+"g": [
+"helio",
+"neón",
+"argón"
+],
+"i": "oxígeno",
+"e": "El oxígeno no es un gas noble."
+},
+{
+"t": "Energías renovables",
+"g": [
+"solar",
+"eólica",
+"hidráulica"
+],
+"i": "carbón",
+"e": "El carbón es un combustible fósil."
+},
+{
+"t": "Mamíferos marinos",
+"g": [
+"ballena",
+"delfín",
+"foca"
+],
+"i": "pulpo",
+"e": "El pulpo es un molusco."
+},
+{
+"t": "Lenguas romances",
+"g": [
+"español",
+"francés",
+"italiano"
+],
+"i": "alemán",
+"e": "El alemán es una lengua germánica."
+},
+{
+"t": "Países de Sudamérica",
+"g": [
+"Chile",
+"Perú",
+"Bolivia"
+],
+"i": "Honduras",
+"e": "Honduras está en Centroamérica."
+},
+{
+"t": "Órganos",
+"g": [
+"hígado",
+"riñón",
+"pulmón"
+],
+"i": "fémur",
+"e": "El fémur es un hueso."
+},
+{
+"t": "Partes de una planta",
+"g": [
+"raíz",
+"tallo",
+"hoja"
+],
+"i": "pluma",
+"e": "La pluma es de las aves."
+},
+{
+"t": "Herramientas",
+"g": [
+"martillo",
+"destornillador",
+"alicates"
+],
+"i": "cuchara",
+"e": "La cuchara es un cubierto."
+},
+{
+"t": "Partes de una bicicleta",
+"g": [
+"pedal",
+"manillar",
+"sillín"
+],
+"i": "volante",
+"e": "El volante es de los coches."
+},
+{
+"t": "Gigantes del sistema solar",
+"g": [
+"Júpiter",
+"Saturno",
+"Neptuno"
+],
+"i": "Mercurio",
+"e": "Mercurio es un planeta pequeño y rocoso."
+},
+{
+"t": "Triángulos",
+"g": [
+"equilátero",
+"isósceles",
+"escaleno"
+],
+"i": "trapecio",
+"e": "El trapecio tiene cuatro lados."
+},
+{
+"t": "Deportes de equipo",
+"g": [
+"fútbol",
+"balonmano",
+"rugby"
+],
+"i": "maratón",
+"e": "El maratón es una prueba individual."
+},
+{
+"t": "Mares",
+"g": [
+"Caribe",
+"Mediterráneo",
+"Báltico"
+],
+"i": "Titicaca",
+"e": "El Titicaca es un lago."
+},
+{
+"t": "Pasta italiana",
+"g": [
+"espagueti",
+"macarrón",
+"lasaña"
+],
+"i": "baguete",
+"e": "La baguete es un pan francés."
+},
+{
+"t": "Colores del arcoíris",
+"g": [
+"rojo",
+"verde",
+"violeta"
+],
+"i": "marrón",
+"e": "El marrón no aparece en el arcoíris."
+},
+{
+"t": "Formas geométricas planas",
+"g": [
+"círculo",
+"cuadrado",
+"hexágono"
+],
+"i": "esfera",
+"e": "La esfera es un cuerpo en tres dimensiones."
+},
+{
+"t": "Cuerpos geométricos",
+"g": [
+"cubo",
+"cilindro",
+"cono"
+],
+"i": "círculo",
+"e": "El círculo es una figura plana."
+},
+{
+"t": "Meses de 31 días",
+"g": [
+"enero",
+"marzo",
+"julio"
+],
+"i": "abril",
+"e": "Abril tiene 30 días."
+},
+{
+"t": "Animales nocturnos",
+"g": [
+"búho",
+"murciélago",
+"lechuza"
+],
+"i": "gallina",
+"e": "La gallina es un ave diurna."
+},
+{
+"t": "Medios de transporte aéreos",
+"g": [
+"avión",
+"helicóptero",
+"globo"
+],
+"i": "submarino",
+"e": "El submarino va bajo el agua."
+},
+{
+"t": "Cubiertos",
+"g": [
+"tenedor",
+"cuchillo",
+"cuchara"
+],
+"i": "plato",
+"e": "El plato no es un cubierto."
+},
+{
+"t": "Estaciones del año",
+"g": [
+"primavera",
+"verano",
+"otoño"
+],
+"i": "lunes",
+"e": "El lunes es un día de la semana."
+},
+{
+"t": "Frutos secos",
+"g": [
+"nuez",
+"almendra",
+"avellana"
+],
+"i": "tomate",
+"e": "El tomate es una fruta fresca."
+},
+{
+"t": "Prendas de abrigo",
+"g": [
+"abrigo",
+"bufanda",
+"guantes"
+],
+"i": "bañador",
+"e": "El bañador es de verano."
+}
+]
+}

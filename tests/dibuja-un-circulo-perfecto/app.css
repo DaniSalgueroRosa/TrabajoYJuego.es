@@ -1,0 +1,3 @@
+body[data-item="dibuja-un-circulo-perfecto"] .dp-zona { display: grid; justify-items: center; align-content: center; gap: var(--e3); }
+body[data-item="dibuja-un-circulo-perfecto"] .dc-lienzo { background: var(--t-fondo); border: 2px solid var(--tt-linea); border-radius: 12px; cursor: crosshair; touch-action: none; max-width: 100%; }
+body[data-item="dibuja-un-circulo-perfecto"] .dp-mensaje { margin: 0; max-width: 36rem; font-weight: 700; line-height: 1.45; min-height: 2.9em; }

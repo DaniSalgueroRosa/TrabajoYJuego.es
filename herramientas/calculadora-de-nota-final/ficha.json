@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de nota final",
+  "descripcion": "Calcula tu nota final combinando evaluación continua y examen, con nota mínima en el examen y la calificación resultante.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "estudiantes",
+  "orden": 25
+}

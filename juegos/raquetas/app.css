@@ -1,0 +1,5 @@
+/* RAQUETAS: campo oscuro con pala amarilla (tuya) y blanca (rival); el lienzo se escala al ancho disponible */
+.rq-zona { width: 100%; max-width: 36rem; margin: 0 auto; touch-action: none; cursor: none; }
+.rq-zona:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
+.rq-lienzo { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; background: #14201C; box-shadow: 0 0 0 3px var(--noche-linea); image-rendering: pixelated; }
+.rq-mando { min-width: 8rem; touch-action: none; user-select: none; }

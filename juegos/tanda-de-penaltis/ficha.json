@@ -1,0 +1,17 @@
+{
+  "titulo": "Tanda de penaltis: chuta y para",
+  "descripcion": "Juega una tanda de penaltis contra el ordenador: eliges la zona y la fuerza al chutar y te lanzas de portero cuando chuta el rival.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "penaltis",
+    "arcade",
+    "portero",
+    "un jugador"
+  ],
+  "categoria": "arcade",
+  "dificultad": "media",
+  "duracion": "2-3 min",
+  "orden": 62
+}

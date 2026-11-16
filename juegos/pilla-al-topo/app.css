@@ -1,0 +1,22 @@
+/* PILLA AL TOPO: tablero de 3×3 agujeros; el topo y la bomba suben desde dentro del agujero */
+.pt-campo { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--e3); width: 100%; max-width: 24rem; margin: 0 auto; padding: var(--e3); background: #2C5A22; box-shadow: 0 0 0 3px var(--noche-linea); }
+.pt-hueco { position: relative; aspect-ratio: 1; min-width: 0; padding: 0; border: 0; border-radius: 0; overflow: hidden; background: transparent; cursor: pointer; touch-action: manipulation; }
+.pt-hueco:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.pt-boca { position: absolute; left: 6%; right: 6%; bottom: 8%; height: 34%; border-radius: 50%; background: #0E1511; }
+.pt-bicho { position: absolute; left: 20%; right: 20%; bottom: 20%; height: 62%; transform: translateY(110%); transition: transform 0.12s steps(3, end); }
+.pt-hueco--topo .pt-bicho, .pt-hueco--bomba .pt-bicho { transform: translateY(0); }
+.pt-hueco--topo .pt-bicho { background: #8A5A34; border-radius: 50% 50% 8% 8%; box-shadow: inset 0 -6px 0 #6E4426; }
+.pt-hueco--topo .pt-cara::before, .pt-hueco--topo .pt-cara::after { content: ""; position: absolute; top: 28%; width: 13%; height: 13%; background: var(--tinta); }
+.pt-hueco--topo .pt-cara::before { left: 24%; }
+.pt-hueco--topo .pt-cara::after { right: 24%; }
+.pt-hueco--topo .pt-bicho::after { content: ""; position: absolute; left: 40%; top: 50%; width: 20%; height: 14%; background: var(--sandia); border-radius: 40%; }
+.pt-hueco--bomba .pt-bicho { background: #15201B; border-radius: 50%; box-shadow: inset 0 0 0 3px var(--tiza); }
+.pt-hueco--bomba .pt-cara::before { content: "!"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--limon); font: 700 1.5rem / 1 var(--f-pixel); }
+.pt-hueco--bomba .pt-cara::after { content: ""; position: absolute; left: 46%; top: -12%; width: 8%; height: 16%; background: var(--sandia); }
+.pt-cara { position: absolute; inset: 0; }
+.pt-num { position: absolute; left: 6px; top: 4px; color: rgba(234, 242, 238, 0.75); font: 400 0.8rem / 1 var(--f-pixel); }
+.pt-hueco--pillado { background: rgba(230, 241, 74, 0.45); }
+.pt-hueco--bomba-pulsada { background: rgba(255, 90, 125, 0.6); }
+.pt-hueco--fallo { background: rgba(255, 255, 255, 0.18); }
+.pt-hueco:disabled { cursor: default; }
+@media (prefers-reduced-motion: reduce) { .pt-bicho { transition: none; } }

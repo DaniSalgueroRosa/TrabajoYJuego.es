@@ -1,0 +1,34 @@
+<div class="juego" data-juego="laberinto">
+  <div class="pantalla" id="lab">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>Cómo se juega</h2>
+  <p>Empiezas en la esquina superior izquierda, marcada con un círculo, y debes llegar a la salida, el cuadrado de la esquina inferior derecha. Muévete con las flechas del teclado o con las letras W, A, S y D después de pulsar sobre el laberinto. En el móvil usa los cuatro botones que hay debajo. No puedes atravesar las paredes.</p>
+  <h2>Un laberinto distinto cada vez</h2>
+  <p>Los pasillos se generan al empezar con un algoritmo de búsqueda en profundidad. El resultado es un laberinto perfecto: existe un único camino entre dos puntos cualesquiera, sin bucles. Eso significa que la salida siempre se puede alcanzar y que, si te equivocas, basta con retroceder hasta la última bifurcación.</p>
+  <h2>Tamaños y puntuación</h2>
+  <p>Hay tres tamaños: 8×8 para un rato corto, 12×12 como punto medio y 16×16 para los que quieren pensar un poco. Al terminar se compara tu número de pasos con el camino más corto posible. Las casillas por las que ya has pasado se tiñen de un tono más claro para que veas dónde has estado.</p>
+  <h2>Cómo salir antes</h2>
+  <p>Si te pierdes, una regla clásica funciona en cualquier laberinto perfecto: avanza siempre pegado a la misma pared, la de la derecha o la de la izquierda. Aunque no sea el camino más corto, te llevará a la salida. Si lo que quieres es el mejor resultado, mira primero hacia dónde se abren los pasillos más largos desde el centro.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Hay límite de tiempo?</summary>
+    <p>No. El cronómetro empieza al dar el primer paso y solo sirve para que compares partidas.</p>
+  </details>
+  <details>
+    <summary>¿Por qué no me responden las flechas?</summary>
+    <p>Hay que dar el foco al laberinto: pulsa sobre él o llega a él con la tecla Tab. Las flechas solo se capturan allí para no impedir que la página se desplace en el resto de la pantalla.</p>
+  </details>
+  <details>
+    <summary>¿Existe siempre una solución?</summary>
+    <p>Sí. El laberinto se construye conectando todas las casillas, así que la salida está siempre unida con la entrada.</p>
+  </details>
+  <details>
+    <summary>¿Puedo retroceder?</summary>
+    <p>Sí, con las flechas contrarias. Cada paso, también hacia atrás, suma a tu contador.</p>
+  </details>
+</div>

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de Percy Jackson: tu cabaña",
+  "descripcion": "Doce situaciones para saber a qué cabaña del Campamento Mestizo perteneces, de Zeus a Hades, con radar de rasgos y ranking de afinidad. Test de fans.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de Percy Jackson",
+    "qué cabaña soy",
+    "hijo de qué dios soy",
+    "cabañas del Campamento Mestizo",
+    "test de mitología"
+  ],
+  "categoria": "series-cine",
+  "duracion": "4 min",
+  "orden": 67,
+  "tema": {
+    "fondo": "#0B2233",
+    "texto": "#EAF6FF",
+    "acento": "#5FC8FF"
+  }
+}

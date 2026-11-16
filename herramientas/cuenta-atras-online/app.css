@@ -1,0 +1,9 @@
+.ca { display: grid; gap: var(--e4); min-width: 0; }
+.ca-reloj { display: grid; gap: var(--e3); padding: var(--e5); background: var(--pizarra); color: var(--tiza); min-width: 0; }
+.ca-titulo { margin: 0; font-size: var(--t1); font-weight: 700; color: var(--limon); overflow-wrap: anywhere; }
+.ca-celdas { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--e3); }
+.ca-celda { display: grid; justify-items: center; gap: 0.4rem; min-width: 0; padding: var(--e3) var(--e2); border: 2px solid rgba(234, 242, 238, 0.4); }
+.ca-num { font-size: clamp(1.5rem, 0.7rem + 5.4vw, 4.2rem); font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; max-width: 100%; overflow-wrap: anywhere; text-align: center; }
+.ca-et { font-size: var(--t-1); }
+.ca-estado { margin: 0; }
+.ca-reloj ~ .herr-form .herr-acciones { margin-top: var(--e3); }

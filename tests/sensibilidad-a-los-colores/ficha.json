@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de sensibilidad a los colores",
+  "descripcion": "Cuatro cuadros, uno con el color algo más intenso. Tres series (rojo, verde y azul) que ajustan la diferencia a tus aciertos. Pasatiempo.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "sensibilidad al color",
+    "saturación",
+    "test de intensidad",
+    "umbral de color",
+    "percepción visual"
+  ],
+  "categoria": "vista-oido",
+  "duracion": "2 min",
+  "orden": 20,
+  "tema": {
+    "fondo": "#2B2B2B",
+    "texto": "#F2F2F2",
+    "acento": "#9BE3C8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "titulo": "Reflejos",
+  "descripcion": "Espera a que la pantalla se ponga de color lima y púlsala lo más rápido que puedas. Son cinco intentos y verás tu tiempo medio en milisegundos.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "reflejos",
+    "velocidad",
+    "un jugador"
+  ],
+  "categoria": "habilidad",
+  "dificultad": "facil",
+  "duracion": "1-2 min",
+  "orden": 18
+}

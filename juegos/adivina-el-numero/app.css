@@ -1,0 +1,19 @@
+/* ADIVINA EL NÚMERO: campo de entrada y lista de intentos. */
+.an-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; }
+.an-form label { display: grid; gap: 4px; }
+.an-campo { min-width: 0; width: 9rem; padding: 0.6rem 0.7rem; font: inherit; font-size: 1.2rem; color: var(--tinta); background: var(--tiza); border: 3px solid var(--tinta); border-radius: 0; }
+.an-campo:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.an-hist { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; max-width: 30rem; }
+.an-hist li { padding: 0.35rem 0.6rem; background: var(--noche-2); color: var(--tiza); border-left: 4px solid var(--noche-linea); }
+
+/* recta numérica: la franja clara es el margen posible; las marcas, los intentos */
+.an-recta { position: relative; height: 3.2rem; margin: var(--e2) 0 var(--e4); background: var(--tinta); box-shadow: 0 0 0 3px var(--noche-linea); }
+.an-zona { position: absolute; top: 0; bottom: 0; background: var(--pizarra-media); transition: left 0.4s steps(6, end), width 0.4s steps(6, end); }
+.an-marcas { position: absolute; inset: 0; }
+.an-marca { position: absolute; top: 0; bottom: 0; width: 4px; margin-left: -2px; background: var(--tiza-suave); }
+.an-marca--acierto { background: var(--limon); width: 8px; margin-left: -4px; }
+.an-marca--secreto { background: var(--sandia); width: 8px; margin-left: -4px; }
+.an-extremo { position: absolute; bottom: -1.5rem; color: var(--tiza-suave); font-size: var(--t-1); }
+.an-extremo--1 { left: 0; }
+.an-extremo--2 { right: 0; }
+@media (prefers-reduced-motion: reduce) { .an-zona { transition: none; } }

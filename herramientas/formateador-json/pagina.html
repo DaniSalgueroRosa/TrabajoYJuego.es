@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="formateador-json">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Pon en orden tu JSON</h2>
+  <p>Un JSON que llega en una sola línea, o con la sangría desordenada, es casi imposible de leer. Pégalo aquí y obtendrás una versión limpia, con cada clave en su línea y la sangría que prefieras: dos espacios, cuatro o tabuladores. También puedes hacer lo contrario y minificarlo, quitando todos los espacios para que ocupe lo mínimo al enviarlo o guardarlo. Es útil para programadores, analistas que reciben datos de una API y cualquiera que tenga que revisar un archivo de configuración.</p>
+  <h2>Lo que hace diferente a esta herramienta</h2>
+  <ul><li><strong>No cambia tus datos:</strong> muchos formateadores leen el JSON y lo vuelven a escribir, y en el camino un entero largo como 12345678901234567890 se convierte en 12345678901234567000 y un 1.50 pasa a 1.5. Aquí los números y los textos se copian tal como están escritos, y solo cambian los espacios.</li><li><strong>Errores comprensibles:</strong> si el JSON no es válido, ves la línea y la columna exactas y una explicación en español, como que sobra una coma final o que las claves llevan comillas simples.</li><li><strong>Orden de las claves:</strong> puedes ordenarlas alfabéticamente, a todos los niveles, para comparar dos documentos con facilidad. Por defecto se respeta el orden original.</li><li><strong>Claves repetidas:</strong> se avisa de ellas, porque casi siempre son un error.</li></ul>
+  <h2>Cuándo usar cada modo</h2>
+  <p>Embellece para leer, revisar y depurar: los editores de código y los sistemas de control de versiones trabajan mejor con una clave por línea. Minifica para reducir el tamaño de lo que se envía por red o se incrusta en una página. Ten en cuenta que el resultado es JSON estricto, el de la norma RFC 8259: no admite comentarios, comillas simples ni comas finales, que son extensiones de otros formatos como JSON5 o JSONC. Todo el proceso ocurre en tu navegador y el contenido no se envía a ningún servidor, por lo que puedes usarlo con datos privados.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Por qué no acepta mi JSON si funciona en mi programa?</summary>
+    <p>Es posible que tu programa admita extensiones, como comentarios o comas finales. Esta herramienta sigue el estándar estricto y te indica el primer punto en el que se aparta de él.</p>
+  </details>
+  <details>
+    <summary>¿Cambia el orden de las claves?</summary>
+    <p>No, salvo que marques la casilla de ordenarlas. El orden original se conserva.</p>
+  </details>
+  <details>
+    <summary>¿Hay límite de tamaño?</summary>
+    <p>No hay un límite fijo. Con documentos de varios megabytes, el navegador puede tardar unos segundos en responder.</p>
+  </details>
+  <details>
+    <summary>¿Se envía mi JSON a algún servidor?</summary>
+    <p>No. Se procesa en tu dispositivo y no se guarda ni se transmite.</p>
+  </details>
+</div>

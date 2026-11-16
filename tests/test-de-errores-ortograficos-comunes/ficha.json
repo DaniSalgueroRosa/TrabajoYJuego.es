@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de errores ortográficos comunes",
+  "descripcion": "Veinticuatro frases con un hueco para comprobar si dominas los errores más típicos: a ver / haber, hecho / echo, por qué / porque y más. Con la regla.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "ortografía",
+    "faltas de ortografía",
+    "a ver o haber",
+    "por qué porque",
+    "test de ortografía"
+  ],
+  "categoria": "espanol",
+  "duracion": "4 min",
+  "orden": 83,
+  "tema": {
+    "fondo": "#12281F",
+    "texto": "#EAF8F0",
+    "acento": "#FFD166"
+  }
+}

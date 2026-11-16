@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de descuentos",
+  "descripcion": "Calcula el precio final tras un descuento (o dos seguidos), cuánto ahorras y qué porcentaje de rebaja te han aplicado.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "calculadoras",
+  "orden": 14
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de edad mental (clásico)",
+  "descripcion": "Dieciséis preguntas para saber qué edad tiene tu mente según tus gustos, tu forma de reaccionar y tus hábitos. Con gráfica por áreas. Es un juego.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "edad mental",
+    "test de edad mental",
+    "cuántos años tiene mi mente",
+    "test de personalidad",
+    "test divertido"
+  ],
+  "categoria": "personalidad",
+  "duracion": "3 min",
+  "orden": 42,
+  "tema": {
+    "fondo": "#F6F0FF",
+    "texto": "#241A45",
+    "acento": "#6A2BD1"
+  }
+}

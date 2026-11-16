@@ -1,0 +1,15 @@
+{
+  "titulo": "Conexiones",
+  "descripcion": "Ordena 16 palabras en cuatro grupos de cuatro con algo en común. Tienes cuatro errores permitidos y, al final, la explicación de cada grupo.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "categorías",
+    "agrupar",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-8 min",
+  "orden": 3
+}

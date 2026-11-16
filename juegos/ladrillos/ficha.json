@@ -1,0 +1,17 @@
+{
+  "titulo": "Ladrillos: rompe el muro con la pala y la bola",
+  "descripcion": "Rompe el muro de ladrillos rebotando la bola con la pala. Tres vidas, niveles cada vez más rápidos y control con ratón, dedo o teclado.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "ladrillos",
+    "pala",
+    "bola",
+    "arcade",
+    "un jugador"
+  ],
+  "categoria": "arcade",
+  "dificultad": "media",
+  "duracion": "5-12 min",
+  "orden": 32
+}

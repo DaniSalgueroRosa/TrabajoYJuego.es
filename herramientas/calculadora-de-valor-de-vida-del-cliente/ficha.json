@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de valor de vida del cliente (LTV)",
+  "descripcion": "Calcula cuánto dinero te deja un cliente durante toda su relación contigo, y compáralo con lo que cuesta conseguirlo: ratio LTV/CAC y meses para recuperarlo.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "comercio",
+  "orden": 148
+}

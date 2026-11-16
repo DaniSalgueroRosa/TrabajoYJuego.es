@@ -1,0 +1,17 @@
+{
+  "titulo": "Bloques que caen: juego tipo Tetris online",
+  "descripcion": "Juego de bloques tipo Tetris, gratis y sin registro: gira y encaja piezas, completa líneas, sube de nivel y juega con teclado o con el dedo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "bloques",
+    "tetris",
+    "piezas",
+    "arcade",
+    "un jugador"
+  ],
+  "categoria": "arcade",
+  "dificultad": "media",
+  "duracion": "5-15 min",
+  "orden": 31
+}

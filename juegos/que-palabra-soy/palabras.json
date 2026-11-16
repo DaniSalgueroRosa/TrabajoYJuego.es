@@ -1,0 +1,293 @@
+{
+"_nota": "Adivinanzas de «¿Qué palabra soy?». d: descripción; r: respuestas aceptadas (sin tildes ni mayúsculas importan); e: explicación. Para ampliar: añade objetos con d, r y e.",
+"palabras": [
+{
+"d": "Tengo hojas pero no soy un árbol, y tengo lomo pero no soy un animal.",
+"r": [
+"libro",
+"libros"
+],
+"e": "El libro tiene hojas (páginas) y lomo (el borde donde se unen)."
+},
+{
+"d": "Cuanto más me usas para secarte, más mojada estoy.",
+"r": [
+"toalla",
+"toallas"
+],
+"e": "La toalla absorbe el agua y se queda húmeda."
+},
+{
+"d": "Tengo manecillas pero no te doy la mano, y tengo cara pero no sonrío.",
+"r": [
+"reloj",
+"relojes"
+],
+"e": "Las manecillas y la esfera («cara») son partes del reloj."
+},
+{
+"d": "Me rompo en cuanto dices mi nombre.",
+"r": [
+"silencio"
+],
+"e": "Al nombrarlo, hablas, y ya no hay silencio."
+},
+{
+"d": "Vuelo sin alas y lloro sin ojos.",
+"r": [
+"nube",
+"nubes"
+],
+"e": "La nube flota y «llora» cuando llueve."
+},
+{
+"d": "Tengo dientes pero nunca muerdo.",
+"r": [
+"peine",
+"peines"
+],
+"e": "El peine tiene dientes para desenredar el pelo."
+},
+{
+"d": "Tengo peldaños y todos me pisan para subir.",
+"r": [
+"escalera",
+"escaleras"
+],
+"e": "La escalera tiene peldaños."
+},
+{
+"d": "Nací alta y cuanto más vivo, más pequeña me hago.",
+"r": [
+"vela",
+"velas"
+],
+"e": "La vela se consume al arder."
+},
+{
+"d": "Te sigo a todas partes, pero desaparezco en la oscuridad.",
+"r": [
+"sombra",
+"sombras"
+],
+"e": "La sombra necesita luz para existir."
+},
+{
+"d": "Hablo sin boca y escucho sin oídos; solo respondo si me hablas.",
+"r": [
+"eco"
+],
+"e": "El eco repite los sonidos que rebotan en una superficie."
+},
+{
+"d": "Tengo ciudades sin casas, ríos sin agua y montañas sin tierra.",
+"r": [
+"mapa",
+"mapas"
+],
+"e": "El mapa representa un territorio con dibujos y símbolos."
+},
+{
+"d": "Tengo teclas, pero no abro puertas; tengo espacio, pero no cabes en mí.",
+"r": [
+"teclado",
+"teclados"
+],
+"e": "En un teclado hay teclas y una barra espaciadora."
+},
+{
+"d": "Tengo pie y cabecera, pero no camino ni pienso.",
+"r": [
+"cama",
+"camas"
+],
+"e": "La cama tiene pie y cabecero."
+},
+{
+"d": "Me abro cuando llueve y me cierro cuando sale el sol, y nunca tengo sed.",
+"r": [
+"paraguas"
+],
+"e": "El paraguas se abre para protegerte de la lluvia."
+},
+{
+"d": "Repito todo lo que haces sin decir una palabra.",
+"r": [
+"espejo",
+"espejos"
+],
+"e": "El espejo refleja tu imagen."
+},
+{
+"d": "Blanco por fuera, amarillo por dentro, y si me rompes ya no hay quien me recomponga.",
+"r": [
+"huevo",
+"huevos"
+],
+"e": "El huevo tiene cáscara blanca (o marrón), clara y yema."
+},
+{
+"d": "Cambio de forma cada noche, pero nunca me ves de espaldas.",
+"r": [
+"luna"
+],
+"e": "La luna muestra siempre la misma cara a la Tierra y cambia de fase."
+},
+{
+"d": "Cuanto más me das de comer, más grande me hago; si me das de beber, me muero.",
+"r": [
+"fuego"
+],
+"e": "El fuego crece con combustible y se apaga con agua."
+},
+{
+"d": "Abro puertas sin ser dueña de ninguna.",
+"r": [
+"llave",
+"llaves"
+],
+"e": "La llave abre cerraduras."
+},
+{
+"d": "Voy siempre de dos en dos y siempre se pierde uno en la lavadora.",
+"r": [
+"calcetín",
+"calcetines"
+],
+"e": "Los calcetines se llevan por pares."
+},
+{
+"d": "Lo tienes, pero no lo ves; te lo piden y nunca lo devuelves.",
+"r": [
+"tiempo"
+],
+"e": "El tiempo no se puede ver ni recuperar."
+},
+{
+"d": "Me respiras, no me ves y sin mí no vives.",
+"r": [
+"aire"
+],
+"e": "El aire es una mezcla de gases que necesitamos para respirar."
+},
+{
+"d": "Tengo reyes, caballos y sotas, pero no gobierno ningún país.",
+"r": [
+"baraja",
+"barajas",
+"cartas",
+"naipes"
+],
+"e": "Una baraja española tiene reyes, caballos y sotas."
+},
+{
+"d": "Tengo seis caras y ni un solo ojo, y me lanzan para decidir.",
+"r": [
+"dado",
+"dados"
+],
+"e": "Un dado tiene seis caras con puntos."
+},
+{
+"d": "Tengo reyes y reinas, pero no un reino; mis batallas se libran en 64 casillas.",
+"r": [
+"ajedrez"
+],
+"e": "El tablero de ajedrez tiene 64 casillas."
+},
+{
+"d": "Blanca y ligera, caigo del cielo sin hacer ruido y me deshago si me abrazas.",
+"r": [
+"nieve"
+],
+"e": "La nieve se derrite con el calor."
+},
+{
+"d": "Salgo cuando llueve y brilla el sol a la vez, y tengo siete colores.",
+"r": [
+"arcoíris",
+"arco iris"
+],
+"e": "El arcoíris se forma por la luz del sol en las gotas de lluvia."
+},
+{
+"d": "Tengo dos hojas y corto sin ser árbol.",
+"r": [
+"tijeras",
+"tijera"
+],
+"e": "Las tijeras tienen dos hojas que cortan."
+},
+{
+"d": "Tengo lengua pero no hablo; me golpean y canto.",
+"r": [
+"campana",
+"campanas"
+],
+"e": "La campana tiene un badajo, que algunos llaman lengua."
+},
+{
+"d": "Llego sin ser invitada, pinto de negro el cielo y me voy cuando sale el sol.",
+"r": [
+"noche"
+],
+"e": "La noche cae al ponerse el sol."
+},
+{
+"d": "Me tienes cuando cierras los ojos y me pierdes al despertar.",
+"r": [
+"sueño",
+"sueños"
+],
+"e": "Se tiene sueño al dormir y se acaba al despertar."
+},
+{
+"d": "Tengo un ojo pero no veo, y siempre estoy esperando una llave.",
+"r": [
+"cerradura",
+"cerraduras"
+],
+"e": "La cerradura tiene un hueco llamado ojo."
+},
+{
+"d": "Tengo seis cuerdas, cuerpo y cuello, pero ni un solo hueso.",
+"r": [
+"guitarra",
+"guitarras"
+],
+"e": "La guitarra tiene cuerpo, cuello y seis cuerdas."
+},
+{
+"d": "Uno las orillas sin moverme de mi sitio.",
+"r": [
+"puente",
+"puentes"
+],
+"e": "El puente permite cruzar un río o un valle."
+},
+{
+"d": "Si me quitan capas, lloran quienes me pelan, no yo.",
+"r": [
+"cebolla",
+"cebollas"
+],
+"e": "La cebolla libera un gas que irrita los ojos."
+},
+{
+"d": "Cuanto más me hinchan, más cerca estoy de reventar.",
+"r": [
+"globo",
+"globos"
+],
+"e": "El globo estalla si se infla demasiado."
+},
+{
+"d": "Tengo tres ojos que no parpadean a la vez y todos me obedecen.",
+"r": [
+"semáforo",
+"semáforos"
+],
+"e": "El semáforo tiene tres luces: roja, ámbar y verde."
+}
+]
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Reloj de la Muerte",
+  "descripcion": "Calculadora de esperanza de vida de juego con la media del INE y seis hábitos. Verás tu vida en semanas y qué suma o resta años. No es una predicción.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "reloj de la muerte",
+    "death clock",
+    "esperanza de vida",
+    "calculadora de esperanza de vida",
+    "vida en semanas"
+  ],
+  "categoria": "personalidad",
+  "duracion": "2 min",
+  "orden": 50,
+  "tema": {
+    "fondo": "#14141A",
+    "texto": "#EDEDED",
+    "acento": "#FF6B4A"
+  }
+}

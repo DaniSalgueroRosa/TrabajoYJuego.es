@@ -1,0 +1,8 @@
+{
+  "titulo": "Traductor de código Morse",
+  "descripcion": "Traduce texto a código Morse y de Morse a texto, con letras, números, Ñ y signos habituales. Detecta solo el sentido y avisa de lo que no reconoce.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 125
+}

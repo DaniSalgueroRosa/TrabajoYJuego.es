@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador UUID",
+  "descripcion": "Genera UUID versión 4 (aleatorios) o versión 7 (ordenables por fecha) de uno en uno o por lotes de hasta 1000, con o sin guiones, en mayúsculas o entre llaves.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 86
+}

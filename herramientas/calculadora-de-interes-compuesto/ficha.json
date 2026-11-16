@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de interés compuesto",
+  "descripcion": "Calcula cuánto crecerá tu dinero con interés compuesto: capital inicial, aportaciones periódicas, rentabilidad anual y años. Con tabla por año.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "finanzas",
+  "orden": 63
+}

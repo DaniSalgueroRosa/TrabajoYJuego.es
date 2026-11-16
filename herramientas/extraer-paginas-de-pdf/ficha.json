@@ -1,0 +1,8 @@
+{
+  "titulo": "Extraer páginas de PDF",
+  "descripcion": "Crea un PDF nuevo solo con las páginas que elijas de otro documento, en el orden que escribas.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 10
+}

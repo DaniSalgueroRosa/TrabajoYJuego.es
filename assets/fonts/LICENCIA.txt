@@ -1,0 +1,8 @@
+HEROS: los archivos heros-*.woff son versiones modificadas (recortadas al alfabeto latino y con los archivos
+renombrados) de TeX Gyre Heros, © 2006-2016 TeX Gyre team (GUST e-foundry), distribuida bajo la
+GUST Font License, versión 1.0:
+https://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-LICENSE.txt
+Se ha cambiado el nombre de los archivos, como exige la licencia para las versiones modificadas.
+
+CUADRITOS: tipografía de píxeles creada para TrabajoYJuego (la genera motor/identidad.py, letra a letra).
+No procede de ninguna otra fuente y no tiene restricciones de uso en este proyecto.

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de South Park: ¿qué personaje eres?",
+  "descripcion": "Diez situaciones para saber qué personaje de South Park eres, con radar de tus rasgos y los cinco más parecidos. Test de fans, con humor suave y sin imágenes.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de South Park",
+    "qué personaje de South Park soy",
+    "Stan Kyle Cartman",
+    "personajes de South Park",
+    "test de series"
+  ],
+  "categoria": "series-cine",
+  "duracion": "3 min",
+  "orden": 70,
+  "tema": {
+    "fondo": "#14263F",
+    "texto": "#F2F7FF",
+    "acento": "#FFB93B"
+  }
+}

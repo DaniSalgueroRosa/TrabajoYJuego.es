@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de la letra del DNI y NIE",
+  "descripcion": "Calcula la letra de control de un DNI o NIE y comprueba si la que tienes escrita es la correcta. Varias líneas a la vez, sin enviar nada a ningún servidor.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 114
+}

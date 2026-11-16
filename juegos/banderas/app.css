@@ -1,0 +1,3 @@
+/* ADIVINA LA BANDERA: la bandera se dibuja sobre el panel oscuro con un marco, para que se vean también las banderas blancas. */
+.bd-bandera { display: grid; place-items: center; min-height: 10.5rem; padding: var(--e2) 0; }
+.bd-bandera svg { display: block; width: min(100%, 15rem); max-height: 14rem; height: auto; box-shadow: 0 0 0 4px var(--noche-linea); }

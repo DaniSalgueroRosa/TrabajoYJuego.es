@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{sitio.idioma}}">
+<head>
+{{> comun/cabeza}}
+</head>
+<body{{#pagina.seccion}} data-seccion="{{pagina.seccion}}"{{/pagina.seccion}}{{#pagina.item}} data-item="{{pagina.item}}"{{/pagina.item}}>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+{{> comun/cabecera/cabecera}}
+<main id="contenido" tabindex="-1" data-mundo="{{pagina.mundo}}"{{#pagina.main_attrs}} {{{pagina.main_attrs}}}{{/pagina.main_attrs}}>
+{{{contenido}}}
+</main>
+{{> comun/pie/pie}}
+{{#pagina.js}}
+<script src="{{.}}" defer></script>
+{{/pagina.js}}
+</body>
+</html>

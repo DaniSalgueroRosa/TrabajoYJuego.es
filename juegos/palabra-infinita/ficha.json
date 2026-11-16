@@ -1,0 +1,17 @@
+{
+  "titulo": "Palabra Infinita: juego tipo Wordle en español",
+  "descripcion": "Juega a un juego tipo Wordle en español: adivina la palabra oculta en 6 intentos, con 4 a 7 letras y sin límite de partidas al día.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "wordle en español",
+    "juego tipo wordle",
+    "adivinar palabras",
+    "español",
+    "un jugador"
+  ],
+  "categoria": "palabras",
+  "dificultad": "media",
+  "duracion": "3-5 min",
+  "orden": 1
+}

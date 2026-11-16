@@ -1,0 +1,8 @@
+{
+  "titulo": "Comprimir PDF",
+  "descripcion": "Reduce el tamaño de un PDF: optimización ligera que conserva el texto o compresión fuerte de las páginas como imágenes.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 5
+}

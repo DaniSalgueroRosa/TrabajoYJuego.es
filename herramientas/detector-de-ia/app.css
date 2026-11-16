@@ -1,0 +1,4 @@
+.herr-senales { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--e3); }
+.herr-senales li { padding: 0.7rem var(--e4); border: 1px solid var(--linea); border-left: 6px solid var(--linea); background: var(--papel); }
+.herr-senales li.es-activa { border-left-color: #8A5A00; background: #FFF6DD; }
+.herr-senales .herr-chico { display: block; margin-top: 0.2rem; }

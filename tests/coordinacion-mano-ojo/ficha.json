@@ -1,0 +1,21 @@
+{
+  "titulo": "Coordinación mano-ojo: test de seguimiento",
+  "descripcion": "Sigue con el cursor un círculo que se mueve por la pantalla y mide qué porcentaje del tiempo lo mantienes dentro. Tres velocidades y 10, 20 o 30 s.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "coordinación mano-ojo",
+    "test de seguimiento",
+    "tracking",
+    "pulso",
+    "control del ratón"
+  ],
+  "categoria": "reaccion-punteria",
+  "duracion": "20 s",
+  "orden": 16,
+  "tema": {
+    "fondo": "#2A1018",
+    "texto": "#FFEFF2",
+    "acento": "#FF5A7D"
+  }
+}

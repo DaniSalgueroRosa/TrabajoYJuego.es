@@ -1,0 +1,9 @@
+/* TEST DE CLICS: botón enorme para pulsar muchas veces seguidas; sin zoom ni selección de texto al tocar rápido. */
+.tc-boton { display: grid; place-content: center; gap: var(--e2); width: min(100%, 26rem); min-height: 13rem; margin: 4px auto; padding: var(--e4); border: 0; border-radius: 0; cursor: pointer; text-align: center;
+  background: var(--sandia-texto); color: #FFFFFF; touch-action: manipulation; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 -6px 0 0 var(--tinta), 0 6px 0 0 var(--tinta), -6px 0 0 0 var(--tinta), 6px 0 0 0 var(--tinta), 6px 12px 0 0 var(--tinta); }
+.tc-boton:active:not(:disabled) { transform: translate(2px, 2px); }
+.tc-boton:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
+.tc-boton:disabled { cursor: default; background: var(--noche-linea); color: var(--tiza); }
+.tc-grande { font: 400 2.4rem / 1.1 var(--f-pixel); font-size: round(down, 2.8rem, 10px); }
+.tc-pequeno { font: 400 var(--t0) / 1.3 var(--f-trabajo); }

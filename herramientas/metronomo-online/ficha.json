@@ -1,0 +1,14 @@
+{
+  "titulo": "Metrónomo online",
+  "descripcion": "Metrónomo online preciso: de 30 a 300 pulsos por minuto, compases de 1 a 12 pulsos, subdivisiones, acento y toque de tempo. Sin instalar nada.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "musica",
+    "metronomo",
+    "tempo"
+  ],
+  "categoria": "audio",
+  "orden": 106
+}

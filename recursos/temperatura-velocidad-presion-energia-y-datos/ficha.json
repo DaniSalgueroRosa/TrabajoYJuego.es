@@ -1,0 +1,14 @@
+{
+  "titulo": "Temperatura, presión, energía y datos",
+  "descripcion": "Convertir grados, velocidades, presiones de neumático, calorías, kilovatios hora y gigabytes sin confundir unidades que se parecen.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "unidades",
+    "temperatura",
+    "energía",
+    "almacenamiento"
+  ],
+  "categoria": "conversores",
+  "orden": 23
+}

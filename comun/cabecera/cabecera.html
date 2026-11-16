@@ -1,0 +1,12 @@
+<header class="cabecera">
+  <div class="contenedor cabecera-interior">
+    <a class="cabecera-marca" href="{{inicio}}"><img src="{{raiz}}assets/img/logo.svg" alt="{{sitio.nombre}}, ir a la portada" width="213" height="34"></a>
+    <nav class="cabecera-nav" aria-label="Secciones">
+      <ul>
+        {{#nav}}
+        <li data-grupo="{{mundo}}"{{#cambio}} class="cabecera-cambio"{{/cambio}}><a href="{{href}}"{{#actual}} aria-current="page"{{/actual}}>{{titulo}}</a></li>
+        {{/nav}}
+      </ul>
+    </nav>
+  </div>
+</header>

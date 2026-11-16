@@ -1,0 +1,24 @@
+/* PIE: fondo de pantalla apagada con los dos mundos en columnas. */
+.pie { background: var(--tinta); color: var(--tiza); --foco: var(--limon); }
+.pie-interior { display: grid; gap: var(--e6); padding-block: var(--e7) var(--e6); }
+.pie-logo { display: inline-block; line-height: 0; }
+.pie-logo img { display: block; height: 2.1rem; width: auto; }
+.pie-lema { max-width: 24rem; margin-top: var(--e4); color: var(--tiza-suave); }
+.pie-nav { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--e6) var(--e7); }
+
+.pie-grupo-titulo { margin-bottom: var(--e3); font-size: var(--t2); line-height: 1; letter-spacing: -0.02em; }
+.pie-grupo[data-grupo="juego"] .pie-grupo-titulo { color: var(--sandia); font: 400 var(--t2) / 1 var(--f-pixel); font-size: round(down, 1.65rem, 10px); letter-spacing: 0; }
+.pie-grupo ul { display: grid; gap: var(--e1); margin: 0; padding: 0; list-style: none; }
+.pie-grupo a { display: inline-block; padding-block: 0.2rem; color: var(--tiza); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.pie-grupo a:hover { text-decoration-thickness: 3px; text-decoration-color: var(--limon); }
+
+.pie-legales { padding-block: var(--e5); border-top: 1px solid var(--noche-linea); }
+.pie-legales ul { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e5); margin: 0; padding: 0; list-style: none; font-size: var(--t-1); }
+.pie-legales a { display: inline-block; padding-block: 0.3rem; color: var(--tiza); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+.pie-legales a:hover { text-decoration-thickness: 3px; text-decoration-color: var(--limon); }
+.pie-legal { padding-block: var(--e5); border-top: 1px solid var(--noche-linea); color: var(--tiza-suave); font-size: var(--t-1); }
+.pie-legales + .pie-legal { padding-top: var(--e4); }
+
+@media (min-width: 52rem) {
+  .pie-interior { grid-template-columns: 1fr auto; align-items: start; }
+}

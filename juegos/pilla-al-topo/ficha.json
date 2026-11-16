@@ -1,0 +1,17 @@
+{
+  "titulo": "Pilla al topo: pulsa rápido, esquiva las bombas",
+  "descripcion": "Pilla al topo: pulsa los topos que asoman de sus agujeros durante 30 segundos, esquiva las bombas y consigue la máxima puntuación.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "topos",
+    "reflejos",
+    "puntería",
+    "arcade",
+    "un jugador"
+  ],
+  "categoria": "habilidad",
+  "dificultad": "facil",
+  "duracion": "1 min",
+  "orden": 68
+}

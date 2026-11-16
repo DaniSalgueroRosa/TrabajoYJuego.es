@@ -1,0 +1,30 @@
+{{#publicado}}
+<article class="tarjeta{{#tema}} tarjeta--tema{{/tema}}" data-mundo="{{mundo}}"{{#tema}} style="{{tema_css}}"{{/tema}}>
+  {{#mostrar_seccion}}
+  <p class="tarjeta-seccion">{{seccion_titulo}}</p>
+  {{/mostrar_seccion}}
+  <h3 class="tarjeta-titulo"><a class="tarjeta-enlace" href="{{href}}">{{titulo}}</a></h3>
+  {{^mostrar_seccion}}
+  {{#categoria_nombre}}
+  <p class="tarjeta-meta"><span class="tarjeta-categoria">{{categoria_nombre}}</span>{{#dificultad_texto}} <span class="dificultad" data-nivel="{{dificultad_nivel}}"><span class="dificultad-pips" aria-hidden="true"><i></i><i></i><i></i></span> <span class="dificultad-texto"><span class="solo-lectores">Dificultad: </span>{{dificultad_texto}}</span></span>{{/dificultad_texto}}</p>
+  {{/categoria_nombre}}
+  {{/mostrar_seccion}}
+  <p class="tarjeta-texto">{{descripcion}}</p>
+  {{#accion}}
+  <p class="tarjeta-pie tarjeta-pie--accion"><span class="tarjeta-boton" aria-hidden="true">{{accion}}</span>{{#duracion}} <span class="tarjeta-duracion">{{duracion}}</span>{{/duracion}}</p>
+  {{/accion}}
+  {{^accion}}
+  <p class="tarjeta-pie"><time datetime="{{fecha_iso}}">{{fecha_texto}}</time></p>
+  {{/accion}}
+</article>
+{{/publicado}}
+{{^publicado}}
+<article class="tarjeta tarjeta--pronto" data-mundo="{{mundo}}">
+  {{#mostrar_seccion}}
+  <p class="tarjeta-seccion">{{seccion_titulo}}</p>
+  {{/mostrar_seccion}}
+  <h3 class="tarjeta-titulo">{{titulo}}</h3>
+  <p class="tarjeta-texto">{{descripcion}}</p>
+  <p class="tarjeta-pie">Próximamente</p>
+</article>
+{{/publicado}}

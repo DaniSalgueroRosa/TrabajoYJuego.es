@@ -1,0 +1,38 @@
+<section class="tt tt--raton contenedor" data-test="test-de-scroll-del-mouse">
+  <header class="tt-cab">
+    <h1 class="tt-titulo">Test de scroll del mouse: rueda</h1>
+    <p class="tt-lead">Gira la rueda tan rápido como puedas dentro de la zona. Contamos cada paso y revisamos si algún giro cambia de sentido por error.</p>
+  </header>
+  <div class="tt-app" id="tt-app">
+    <noscript><p class="tt-aviso">Este test necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="tt-aviso">Cargando el test…</p>
+  </div>
+  <div class="tt-texto">
+    <h2>Cómo funciona</h2>
+    <p>Elige la duración y el sentido, y gira la rueda del ratón dentro de la zona. El primer paso pone en marcha el reloj. Mientras estés dentro del recuadro la página no se desplaza, así que puedes girar con libertad. Al terminar verás los pasos por segundo, cuántos fueron hacia arriba y hacia abajo y un gráfico por tramos.</p>
+    <h2>Rueda con pasos o rueda suave</h2>
+    <p>Muchas ruedas tienen pasos marcados: cada clic se nota en el dedo y el navegador recibe un evento de unos cien píxeles. Otras, como las de ratones con rueda libre o las de los trackpads, giran sin pasos y envían muchos eventos pequeños. El test mide el tamaño medio de cada evento y te dice de qué tipo parece la tuya.</p>
+    <p>Con una rueda suave los pasos por segundo salen mucho más altos, sin que eso signifique que gires más rápido.</p>
+    <h2>Saltos de sentido</h2>
+    <p>Un fallo típico del codificador de la rueda es que, al girar en un sentido, de vez en cuando registre un paso en el contrario. Con el modo de un solo sentido, esos pasos no suman y se muestran aparte. Con el modo libre, el test cuenta los cambios de sentido para que veas si hay más de los que has hecho a propósito.</p>
+    <h2>Cuándo es útil</h2>
+    <p>Cuando la rueda salta al hacer scroll, cuando un juego no registra bien el cambio de arma con la rueda o antes de comprar un ratón. Para comprobar también los botones, usa la <a href="../prueba-del-mouse/">prueba del mouse</a>; si quieres medir clics, tienes el <a href="../test-de-velocidad-de-cliqueo/">test de velocidad de cliqueo</a>.</p>
+    <h2>Preguntas frecuentes</h2>
+    <details>
+      <summary>¿Por qué sale una cifra tan alta con el trackpad?</summary>
+      <p>Porque un trackpad envía muchos eventos pequeños por cada gesto. Compara siempre tus resultados con el mismo dispositivo.</p>
+    </details>
+    <details>
+      <summary>¿Puedo usarlo en el móvil?</summary>
+      <p>No: una pantalla táctil no tiene rueda. Hace falta un ratón con rueda o un trackpad.</p>
+    </details>
+    <details>
+      <summary>¿Cuántos pasos por segundo son normales?</summary>
+      <p>Con una rueda de pasos marcados, entre cinco y diez al desplazarse con normalidad, y más de quince ya es muy rápido. Son cifras orientativas.</p>
+    </details>
+    <details>
+      <summary>¿Por qué mi rueda se salta pasos?</summary>
+      <p>Puede deberse a polvo en el codificador o a desgaste. Límpiala con aire a presión; si sigue igual, conviene revisar o cambiar el ratón.</p>
+    </details>
+  </div>
+</section>

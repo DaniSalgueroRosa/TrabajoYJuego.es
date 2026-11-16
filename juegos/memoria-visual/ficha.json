@@ -1,0 +1,15 @@
+{
+  "titulo": "Memoria visual",
+  "descripcion": "Memoriza las casillas que se iluminan y vuelve a marcarlas. Cada nivel añade una casilla más. Tienes tres vidas: ¿hasta qué nivel llegas?",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "memoria",
+    "patrones",
+    "un jugador"
+  ],
+  "categoria": "memoria",
+  "dificultad": "media",
+  "duracion": "2-6 min",
+  "orden": 8
+}

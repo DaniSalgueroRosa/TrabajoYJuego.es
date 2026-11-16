@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de nivel de vocabulario de ruso",
+  "descripcion": "Treinta palabras en ruso, con cirílico y transcripción, de A1 a C1, para estimar tu nivel de vocabulario. Se corrige al momento.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "vocabulario de ruso",
+    "nivel de ruso",
+    "test de ruso",
+    "cirílico",
+    "palabras en ruso"
+  ],
+  "categoria": "otros-idiomas",
+  "duracion": "5 min",
+  "orden": 86,
+  "tema": {
+    "fondo": "#241426",
+    "texto": "#FBEFFD",
+    "acento": "#FF8FA8"
+  }
+}

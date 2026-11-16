@@ -1,0 +1,21 @@
+{
+  "titulo": "Test del color del alma",
+  "descripcion": "Diez preguntas para descubrir cuál de seis colores representa mejor tu alma, con una gráfica de radar de tu mezcla. Un juego para pasar el rato.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "color del alma",
+    "test de colores",
+    "qué color soy",
+    "test de personalidad",
+    "color de mi alma"
+  ],
+  "categoria": "personalidad",
+  "duracion": "3 min",
+  "orden": 46,
+  "tema": {
+    "fondo": "#1A1433",
+    "texto": "#F1EBFF",
+    "acento": "#C7A4FF"
+  }
+}

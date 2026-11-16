@@ -1,0 +1,37 @@
+<div class="juego" data-juego="sudoku">
+  <div class="pantalla" id="sdk">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>Cómo se juega al sudoku</h2>
+  <p>El tablero tiene 81 casillas repartidas en nueve filas, nueve columnas y nueve cajas de 3×3. Algunas casillas ya traen un número; tu tarea es rellenar las demás con cifras del 1 al 9 de modo que ninguna se repita en la misma fila, en la misma columna ni en la misma caja.</p>
+  <p>Toca una casilla para seleccionarla y pulsa un número del teclado numérico de la pantalla, o escríbelo con el teclado del ordenador. Con las flechas te mueves entre casillas, con <kbd>Retroceso</kbd> o <kbd>Supr</kbd> borras, y con <kbd>N</kbd> activas o desactivas el lápiz. Los números del enunciado no se pueden cambiar.</p>
+  <h2>Tres niveles de dificultad</h2>
+  <p>En Fácil el tablero empieza con unos 40 números ya colocados, en Medio con unos 34 y en Difícil con unos 28. Cuantos menos números te dan, más tienes que deducir y menos casillas se pueden rellenar «a primera vista».</p>
+  <p>Cada vez que empiezas se genera un tablero distinto: primero se construye una solución completa al azar y después se van quitando números, comprobando en cada paso que el resultado siga teniendo una única solución. Así nunca hace falta adivinar.</p>
+  <h2>Consejos para resolverlo sin atascarte</h2>
+  <p>Empieza por las filas, columnas o cajas que ya tengan más números: es donde las casillas vacías tienen menos opciones. Si un número solo cabe en un sitio dentro de una caja, ese es su sitio, aunque la casilla admita otros candidatos.</p>
+  <p>Cuando dudes entre dos o tres cifras, activa el lápiz y anótalas en la casilla. Al colocar un número definitivo, el juego borra ese candidato de las notas de su fila, columna y caja, para que no tengas que limpiarlas a mano.</p>
+  <h2>Pista, comprobar y errores</h2>
+  <p>El botón Comprobar marca en rojo las casillas cuyo número no coincide con la solución, sin decirte cuál es la correcta. El botón Pista rellena una casilla (la seleccionada o una que esté mal) y resta puntos al terminar. Además, cualquier número repetido en su fila, columna o caja se ve en rojo en cuanto lo escribes.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Todos los sudokus tienen solución única?</summary>
+    <p>Sí. El generador descarta cualquier tablero con más de una solución. Si el equipo tarda demasiado en encontrar uno muy escaso, deja alguna casilla más rellena, pero la solución sigue siendo única.</p>
+  </details>
+  <details>
+    <summary>¿Puedo jugar solo con el teclado?</summary>
+    <p>Sí. Con las flechas eliges casilla, con las cifras del 1 al 9 escribes, con Retroceso borras y con la tecla N cambias entre escribir y anotar.</p>
+  </details>
+  <details>
+    <summary>¿Cómo se calculan los puntos?</summary>
+    <p>Cada nivel parte de una puntuación base: 2.000 en Fácil, 3.000 en Medio y 4.000 en Difícil. Se restan 3 puntos por segundo y 150 por cada pista usada, con un mínimo de 100.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda mi partida si cierro la página?</summary>
+    <p>No: el sudoku vive solo en la memoria de la pestaña y no se guarda nada en tu dispositivo, así que al recargar se empieza otro tablero.</p>
+  </details>
+</div>

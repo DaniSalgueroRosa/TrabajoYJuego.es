@@ -1,0 +1,16 @@
+{
+  "titulo": "Juego de la serpiente: el clásico Snake",
+  "descripcion": "Guía a la serpiente para comer sin chocar con los muros ni con tu propia cola. Con muros o sin ellos, controles táctiles y de teclado.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "serpiente",
+    "snake",
+    "arcade",
+    "clásico"
+  ],
+  "categoria": "arcade",
+  "dificultad": "media",
+  "duracion": "3-10 min",
+  "orden": 24
+}

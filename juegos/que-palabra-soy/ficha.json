@@ -1,0 +1,15 @@
+{
+  "titulo": "¿Qué palabra soy?",
+  "descripcion": "Adivinanzas en primera persona: una palabra se describe a sí misma y tú tienes que decir cuál es. Hay una pista para los apuros.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "adivinanzas",
+    "palabras",
+    "un jugador"
+  ],
+  "categoria": "palabras",
+  "dificultad": "media",
+  "duracion": "4-6 min",
+  "orden": 4
+}

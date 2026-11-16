@@ -1,0 +1,15 @@
+{
+  "titulo": "Acertijos",
+  "descripcion": "Resuelve un acertijo cada día o juega sin parar con acertijos de ingenio, lógica y números. Pide una pista si te atascas, aunque te costará puntos.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "ingenio",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "1-10 min",
+  "orden": 9
+}

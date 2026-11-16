@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversor CSV a JSON | TrabajoYJuego</title>
+<meta name="description" content="Convierte un CSV a JSON: detecta el separador, usa la primera fila como nombres, reconoce números y booleanos sin perder ceros ni cifras.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://trabajoyjuego.es/herramientas/conversor-csv-a-json/">
+<meta name="theme-color" content="#1D3A34">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TrabajoYJuego">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Conversor CSV a JSON | TrabajoYJuego">
+<meta property="og:description" content="Convierte un CSV a JSON: detecta el separador, usa la primera fila como nombres, reconoce números y booleanos sin perder ceros ni cifras.">
+<meta property="og:url" content="https://trabajoyjuego.es/herramientas/conversor-csv-a-json/">
+<meta property="og:image" content="https://trabajoyjuego.es/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b2ce0bfd">
+<link rel="stylesheet" href="../../assets/css/herramientas.css?v=be44dd49">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Conversor CSV a JSON","description":"Convierte un CSV a JSON: detecta el separador, usa la primera fila como nombres, reconoce números y booleanos sin perder ceros ni cifras.","url":"https://trabajoyjuego.es/herramientas/conversor-csv-a-json/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","applicationCategory":"UtilitiesApplication","datePublished":"2026-11-14"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Herramientas","item":"https://trabajoyjuego.es/herramientas/"},{"@type":"ListItem","position":3,"name":"Conversor CSV a JSON","item":"https://trabajoyjuego.es/herramientas/conversor-csv-a-json/"}]}</script>
+
+</head>
+<body data-seccion="herramientas" data-item="conversor-csv-a-json">
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera-interior">
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <nav class="cabecera-nav" aria-label="Secciones">
+      <ul>
+        <li data-grupo="trabajo"><a href="../../herramientas/" aria-current="page">Herramientas</a></li>
+        <li data-grupo="trabajo"><a href="../../recursos/">Recursos</a></li>
+        <li data-grupo="juego" class="cabecera-cambio"><a href="../../juegos/">Juegos</a></li>
+        <li data-grupo="juego"><a href="../../tests/">Tests</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1" data-mundo="trabajo">
+<article class="ficha">
+  <header class="ficha-cabecera">
+    <div class="contenedor">
+      <nav class="migas" aria-label="Ruta de navegación">
+  <ol>
+    <li><a href="../../">Inicio</a></li>
+    <li><a href="../../herramientas/">Herramientas</a></li>
+    <li><span aria-current="page">Conversor CSV a JSON</span></li>
+  </ol>
+</nav>
+
+      <h1 class="ficha-titulo">Conversor CSV a JSON</h1>
+      <p class="ficha-lead">Convierte un CSV a JSON: detecta el separador, usa la primera fila como nombres, reconoce números y booleanos sin perder ceros ni cifras.</p>
+      <div class="ficha-meta">
+        <p>Publicado el <time datetime="2026-11-14">14 de noviembre de 2026</time></p>
+      </div>
+    </div>
+  </header>
+  <div class="contenedor ficha-cuerpo">
+<div class="herr" id="herr" data-herramienta="conversor-csv-a-json">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>De CSV a JSON en un clic</h2>
+  <p>Un CSV es la forma más sencilla de guardar una tabla, y es lo que exportan Excel, Google Sheets y casi cualquier programa de gestión. El JSON, en cambio, es el formato que esperan las API y las aplicaciones web. Esta herramienta convierte uno en otro: pega el contenido del CSV y obtendrás una lista de objetos, uno por fila, con los nombres de las columnas como claves. Detecta por sí sola si el archivo usa comas, puntos y comas, tabuladores o barras verticales.</p>
+  <h2>Lo que cuida la conversión</h2>
+  <ul><li><strong>Separador automático:</strong> los CSV de Excel en español suelen llevar punto y coma. La herramienta lo detecta mirando la primera fila y te dice cuál ha elegido; también puedes fijarlo a mano.</li><li><strong>Comillas y saltos de línea:</strong> los campos entrecomillados pueden contener el separador, comillas dobles escapadas dos veces y saltos de línea, como manda el estándar RFC 4180.</li><li><strong>Números sin sorpresas:</strong> los números se reconocen y se escriben sin comillas, pero «007» se queda como texto para no perder los ceros, y un entero de más de 15 cifras, como un número de tarjeta o un identificador, también, porque JavaScript lo redondearía. Con la opción de decimales con coma, «3,14» pasa a 3.14.</li><li><strong>Booleanos y vacíos:</strong> true y false, también en mayúsculas como las exporta Excel, se convierten en verdadero y falso, y las celdas vacías pueden ser cadenas vacías o null.</li></ul>
+  <h2>Cabecera, filas irregulares y nombres repetidos</h2>
+  <p>Si desmarcas la casilla de la cabecera, el resultado es una lista de listas, sin nombres. Si una fila tiene más o menos celdas que la cabecera, la herramienta rellena las que faltan, llama «columna N» a las sobrantes y te avisa de cuántas filas eran irregulares. Los nombres de columna vacíos o repetidos se renombran para que ninguna clave pise a otra. El archivo se procesa en tu navegador y sirve para tablas de varios miles de filas, y puedes descargar el resultado como un archivo .json.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Qué pasa con las comillas dentro de un campo?</summary>
+    <p>En un CSV, un campo entre comillas puede llevar una comilla doble escrita dos veces. La herramienta la convierte en una sola comilla en el texto del JSON.</p>
+  </details>
+  <details>
+    <summary>¿Por qué «007» no se convierte en número?</summary>
+    <p>Porque al hacerlo se perderían los ceros de la izquierda. Se mantiene como texto. Lo mismo ocurre con enteros de más de 15 cifras, que se redondearían.</p>
+  </details>
+  <details>
+    <summary>Mi archivo tiene acentos rotos, ¿qué hago?</summary>
+    <p>Esta herramienta trabaja con el texto que pegas. Si al exportar desde Excel se ven mal, guarda el CSV como «CSV UTF-8» o abre el archivo con un editor de texto y copia el contenido.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda mi CSV?</summary>
+    <p>No. La conversión se hace en tu navegador y no se envía ni se almacena nada.</p>
+  </details>
+</div>
+
+    <aside class="herr-privacidad" aria-label="Privacidad">
+      <p><strong>Sin registro y sin subir nada.</strong> Esta herramienta funciona en tu navegador: lo que escribes o eliges no se envía a ningún servidor ni se guarda en tu dispositivo.</p>
+    </aside>
+  </div>
+</article>
+
+</main>
+<footer class="pie">
+  <div class="contenedor pie-interior">
+    <div class="pie-marca">
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
+    </div>
+    <nav class="pie-nav" aria-label="Secciones, en el pie de página">
+      <div class="pie-grupo" data-grupo="trabajo">
+        <h2 class="pie-grupo-titulo">Trabajo</h2>
+        <ul>
+          <li><a href="../../herramientas/">Herramientas</a></li>
+          <li><a href="../../recursos/">Recursos</a></li>
+        </ul>
+      </div>
+      <div class="pie-grupo" data-grupo="juego">
+        <h2 class="pie-grupo-titulo">Juego</h2>
+        <ul>
+          <li><a href="../../juegos/">Juegos</a></li>
+          <li><a href="../../tests/">Tests</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <nav class="contenedor pie-legales" aria-label="Información legal">
+    <ul>
+      <li><a href="../../legal/aviso-legal/">Aviso legal</a></li>
+      <li><a href="../../legal/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="../../legal/politica-de-cookies/">Política de cookies</a></li>
+      <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
+      <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
+      <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
+    </ul>
+  </nav>
+  <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
+</footer>
+
+<script src="../../assets/js/herramientas.js?v=f69adb52" defer></script>
+<script src="app.js?v=60c7fce9" defer></script>
+</body>
+</html>

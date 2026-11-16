@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{pagina.titulo}}</title>
+<meta name="description" content="{{pagina.descripcion}}">
+{{#pagina.robots}}
+<meta name="robots" content="{{pagina.robots}}">
+{{/pagina.robots}}
+{{#pagina.canonical}}
+<link rel="canonical" href="{{pagina.canonical}}">
+{{/pagina.canonical}}
+<meta name="theme-color" content="#1D3A34">
+<link rel="icon" href="{{raiz}}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{raiz}}favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="{{raiz}}assets/img/apple-touch-icon.png">
+{{#pagina.og}}
+<meta property="og:type" content="{{pagina.og_tipo}}">
+<meta property="og:site_name" content="{{sitio.nombre}}">
+<meta property="og:locale" content="{{sitio.locale}}">
+<meta property="og:title" content="{{pagina.titulo}}">
+<meta property="og:description" content="{{pagina.descripcion}}">
+<meta property="og:url" content="{{pagina.canonical}}">
+<meta property="og:image" content="{{pagina.og_imagen}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+{{/pagina.og}}
+{{#pagina.css}}
+<link rel="stylesheet" href="{{.}}">
+{{/pagina.css}}
+{{#pagina.jsonld}}
+<script type="application/ld+json">{{{.}}}</script>
+{{/pagina.jsonld}}
+{{#publicidad.activa}}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{publicidad.cliente}}" crossorigin="anonymous"></script>
+{{/publicidad.activa}}

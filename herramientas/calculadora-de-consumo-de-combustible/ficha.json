@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de consumo de combustible",
+  "descripcion": "Calcula los litros cada 100 km de tu coche y el coste de un viaje: combustible necesario, precio total y lo que toca a cada persona.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "calculadoras",
+  "orden": 121
+}

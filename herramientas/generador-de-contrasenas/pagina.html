@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="generador-de-contrasenas">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Una contraseña distinta y difícil de adivinar para cada cuenta</h2>
+  <p>Las contraseñas que se pueden recordar con facilidad son también las que primero prueba un atacante. Esta herramienta crea contraseñas de verdad aleatorias: cada carácter se elige sin relación con el anterior, de modo que no hay nombres, fechas ni palabras que se puedan deducir. Eliges la longitud, qué tipos de carácter entran y cuántas quieres, y la contraseña aparece al instante.</p>
+  <h2>Cómo se generan</h2>
+  <p>El azar sale de <code>crypto.getRandomValues</code>, el generador que el propio navegador reserva para usos criptográficos, y no de <code>Math.random</code>, que es predecible. Además se descartan los valores que darían más probabilidad a unos caracteres que a otros, de manera que cada símbolo del conjunto tiene exactamente las mismas opciones de salir. Si marcas la casilla de incluir un carácter de cada tipo, se reservan posiciones al azar para uno de cada y el resto se completa con todo el conjunto.</p><p>La entropía que ves es el número de bits de azar: la longitud multiplicada por el logaritmo en base 2 de los caracteres posibles. Cada bit duplica el esfuerzo de quien intente adivinarla. Con unos 80 bits o más la contraseña resiste ataques por fuerza bruta durante muchos años con los medios actuales.</p>
+  <h2>Buenas prácticas</h2>
+  <ul><li>Usa una contraseña distinta en cada servicio, para que una filtración no abra todas tus cuentas.</li><li>Guárdalas en un gestor de contraseñas en lugar de apuntarlas o intentar recordarlas.</li><li>Prefiere la longitud: pasar de 12 a 20 caracteres hace más que añadir un símbolo raro.</li><li>Activa la verificación en dos pasos siempre que el servicio la ofrezca.</li></ul><p>Si una web limita los símbolos que acepta, desmarca esa casilla y sube la longitud para compensar.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Se guarda o se envía la contraseña que genero?</summary>
+    <p>No. Se crea en tu dispositivo, se muestra en pantalla y desaparece al recargar o cerrar la página. No hay cuentas, registros ni servidores implicados.</p>
+  </details>
+  <details>
+    <summary>¿Por qué conviene evitar caracteres que se confunden?</summary>
+    <p>La letra I mayúscula, la l minúscula y el número 1 se parecen mucho en algunas tipografías, igual que la O, la o y el 0. Si vas a leer o dictar la contraseña, esta opción evita equivocaciones.</p>
+  </details>
+  <details>
+    <summary>¿Qué longitud es suficiente?</summary>
+    <p>Para una cuenta importante, 16 caracteres con letras, números y símbolos ya dan más de 100 bits. Si solo la vas a guardar en un gestor, puedes subir a 24 o 32 sin ningún coste.</p>
+  </details>
+  <details>
+    <summary>¿Puedo usarla como clave del wifi?</summary>
+    <p>Sí, aunque una clave que vas a teclear en varios móviles se maneja mejor con una frase de contraseña. En ese caso mira el generador de frases de contraseña de esta misma sección.</p>
+  </details>
+</div>

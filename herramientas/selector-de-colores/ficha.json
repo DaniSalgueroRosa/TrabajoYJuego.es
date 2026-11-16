@@ -1,0 +1,8 @@
+{
+  "titulo": "Selector de colores",
+  "descripcion": "Elige un color y obtén su código HEX, RGB, HSL y CMYK, el color CSS más parecido y su contraste con blanco y negro. También desde una imagen.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "imagenes",
+  "orden": 46
+}

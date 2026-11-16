@@ -1,0 +1,17 @@
+{
+  "titulo": "Anagramas: ordena las letras y forma la palabra",
+  "descripcion": "Juego de anagramas en español: ordena las letras desordenadas y escribe la palabra. Diez rondas de 4 a 7 letras con tiempo y puntos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "anagramas",
+    "palabras",
+    "letras",
+    "ortografía",
+    "un jugador"
+  ],
+  "categoria": "palabras",
+  "dificultad": "media",
+  "duracion": "4-8 min",
+  "orden": 35
+}

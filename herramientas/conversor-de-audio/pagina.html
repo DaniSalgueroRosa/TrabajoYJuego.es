@@ -1,0 +1,36 @@
+<div class="herr" id="herr" data-herramienta="conversor-de-audio">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Convertir audio sin que salga de tu dispositivo</h2>
+  <p>Elige uno o varios audios, decide el formato de salida y pulsa Convertir. El navegador abre cada archivo, aplica los ajustes que hayas marcado y te devuelve uno nuevo para descargar. No hay cuentas, colas de espera ni servidores intermedios: el audio no sale de tu equipo, y por eso funciona igual de bien con una grabación privada que con una canción.</p>
+  <h2>Qué formatos lee y cuáles crea</h2>
+  <p><strong>Lee</strong> lo que tu navegador sepa decodificar: normalmente MP3, M4A y AAC, OGG (Vorbis y Opus), FLAC, WAV y el audio de archivos WebM o MP4. <strong>Crea</strong> MP3, WAV de 16, 24 o 32 bits, FLAC de 16 o 24 bits y Ogg Opus.</p><p>El MP3 lo genera un codificador propio, escrito para este sitio y comprobado con un decodificador independiente. Es sencillo: no usa el modelo psicoacústico de los programas profesionales, así que a 192 kb/s o más suena muy bien, a 128 kb/s es correcto y por debajo de 96 kb/s se nota más la compresión. Elige MP3 cuando necesites que el archivo lo abra cualquier reproductor, coche o móvil; para guardar sin perder nada, FLAC; y para el menor peso con buena calidad, Opus.</p>
+  <h2>Cuál elegir según lo que necesites</h2>
+  <ul><li><strong>WAV 16 bits:</strong> lo abre cualquier programa, reproductor o editor. Pesa unos 10 MB por minuto en estéreo.</li><li><strong>WAV 24 bits o 32 flotante:</strong> para seguir editando en un programa de producción sin acumular redondeos.</li><li><strong>FLAC:</strong> el mismo sonido que el WAV en la mitad de espacio, y sin perder una sola muestra.</li><li><strong>MP3:</strong> lo abre prácticamente cualquier aparato. A 192 kb/s ocupa unos 1,4 MB por minuto; a 128 kb/s, algo menos de 1 MB. Guarda como máximo dos canales y a 32, 44,1 o 48 kHz.</li><li><strong>Ogg Opus:</strong> el más pequeño; con 64 kb/s la voz suena clara y con 128 kb/s la música suena bien.</li></ul>
+  <h2>Ajustes que conviene conocer</h2>
+  <p>Pasar a mono mezcla los canales en uno solo, útil para voz o para reducir el tamaño a la mitad. Cambiar la frecuencia de muestreo reduce o amplía el número de muestras por segundo; bajar a 16 kHz o 8 kHz recorta los agudos pero sirve para voz. La opción de subir el volumen amplifica el audio hasta que el pico más alto roza el máximo, sin pasarse.</p><p>Convertir un audio que ya perdió calidad, como un MP3, a un formato sin pérdidas no la recupera: el archivo pesará más, pero sonará igual que el original. Y al revés: pasar a MP3 un audio que ya estaba comprimido añade otra pérdida, así que parte siempre del original sin comprimir cuando lo tengas.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Puedo convertir a MP3?</summary>
+    <p>Sí. Elige MP3 en «Convertir a» y la calidad en kb/s: 192 es un buen punto de partida para música y 128 basta para voz. El archivo se crea en tu navegador, sin subirlo a ningún sitio. Si un archivo tiene más de dos canales, se guardan los dos primeros, y si su frecuencia no es de 32, 44,1 o 48 kHz, se ajusta a la más cercana de esas.</p>
+  </details>
+  <details>
+    <summary>¿Por qué un WAV pesa tanto más que el MP3 original?</summary>
+    <p>Porque el WAV guarda todas las muestras sin comprimir. Un minuto de música estéreo a 44,1 kHz y 16 bits ocupa unos 10 MB, mientras que el mismo minuto en MP3 a 128 kb/s ocupa alrededor de 1 MB. Si quieres sin pérdidas pero más pequeño, elige FLAC.</p>
+  </details>
+  <details>
+    <summary>¿Se pierde calidad al convertir?</summary>
+    <p>Con WAV y FLAC no se pierde nada respecto a lo que el navegador decodifica. Con MP3 y con Opus sí hay compresión con pérdidas; en Opus a 128 kb/s o más es difícil notar la diferencia, y en MP3 conviene subir a 192 kb/s si el audio es música. Cambiar la frecuencia de muestreo o pasar a mono también modifica el sonido.</p>
+  </details>
+  <details>
+    <summary>¿Hay un límite de tamaño?</summary>
+    <p>No lo ponemos nosotros, pero el navegador carga cada archivo entero en memoria y lo decodifica a números decimales. En un ordenador normal, un audio de una hora funciona; archivos de varias horas pueden agotar la memoria. En ese caso, divídelos antes.</p>
+  </details>
+  <details>
+    <summary>¿Guardáis mis audios?</summary>
+    <p>No. Todo se procesa en la página y el archivo convertido existe solo mientras no la cierres. Descárgalo antes de salir.</p>
+  </details>
+</div>

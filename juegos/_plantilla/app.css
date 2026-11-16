@@ -1,0 +1,3 @@
+/* Estilos solo de este juego. Empieza cada regla por #mj (el id de tu .pantalla) o por body[data-item="la-carpeta"] para no tocar el resto.
+   Los colores de la identidad están como variables: --tinta, --noche-2, --noche-linea, --tiza, --tiza-suave, --limon, --sandia. */
+#mj .boton-retro { min-width: 12rem; min-height: 4rem; }

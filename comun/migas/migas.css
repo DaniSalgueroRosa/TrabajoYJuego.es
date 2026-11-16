@@ -1,0 +1,7 @@
+/* MIGAS: «Inicio / Juegos / Nombre». Heredan el color de la franja donde estén. */
+.migas ol { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e2); margin: 0; padding: 0; list-style: none; font-size: var(--t-1); }
+/* El separador va al final de cada miga (menos la última): si la ruta se parte en dos líneas, la barra no queda huérfana al principio de la siguiente. */
+.migas li:not(:last-child)::after { content: "/"; content: "/" / ""; margin-left: var(--e2); }
+.migas a { color: inherit; text-underline-offset: 0.2em; }
+.migas a:hover { text-decoration-thickness: 3px; }
+.migas [aria-current="page"] { font-weight: 700; }

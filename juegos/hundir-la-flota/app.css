@@ -1,0 +1,20 @@
+/* HUNDIR LA FLOTA: dos tableros de 10×10 con casillas cuadradas; los estados se distinguen por símbolo y por color */
+.hf-tableros { display: grid; gap: var(--e5); align-items: start; }
+@media (min-width: 52rem) { .hf-tableros { grid-template-columns: 1.5fr 1fr; } }
+.hf-tablero { display: grid; gap: var(--e2); min-width: 0; }
+.hf-titulo { margin: 0; color: var(--tiza); font: 700 var(--t0) / 1.3 var(--f-trabajo); }
+.hf-rejilla { display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; width: 100%; max-width: 26rem; padding: 3px; background: var(--noche-linea); }
+.hf-rejilla--propia { max-width: 16rem; }
+.hf-celda { aspect-ratio: 1; min-width: 0; padding: 0; border: 0; border-radius: 0; background: #1A4A58; color: var(--tiza); font: 400 1rem / 1 var(--f-pixel); cursor: pointer; display: grid; place-items: center; }
+.hf-rejilla--propia .hf-celda { cursor: default; font-size: 0.75rem; }
+.hf-celda:hover:not(:disabled) { background: #26697D; }
+.hf-celda:focus-visible { outline: 3px solid var(--limon); outline-offset: -3px; z-index: 1; }
+.hf-celda:disabled { opacity: 1; }
+.hf-celda--agua { background: var(--noche-2); color: var(--tiza-suave); }
+.hf-celda--tocado { background: #D98B1E; color: var(--tinta); }
+.hf-celda--hundido { background: var(--sandia); color: var(--tinta); }
+.hf-celda--barco { background: #7C8F88; }
+.hf-celda--barco.hf-celda--tocado { background: #D98B1E; }
+.hf-msg { min-height: 3.2em; }
+.hf-flota { display: flex; flex-wrap: wrap; gap: var(--e1) var(--e3); margin: 0; padding: 0; list-style: none; color: var(--tiza-suave); font-size: var(--t-1); }
+.hf-barco--hundido { color: var(--sandia); text-decoration: line-through; }

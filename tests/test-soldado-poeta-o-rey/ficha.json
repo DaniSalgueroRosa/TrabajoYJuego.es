@@ -1,0 +1,21 @@
+{
+  "titulo": "Test: ¿Soldado, poeta o rey?",
+  "descripcion": "Catorce situaciones para descubrir si tu arquetipo es el soldado, el poeta o el rey, con un triángulo que muestra tu mezcla. Un juego de arquetipos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "soldado poeta o rey",
+    "arquetipos",
+    "test de personalidad",
+    "qué arquetipo soy",
+    "test de arquetipos"
+  ],
+  "categoria": "personalidad",
+  "duracion": "3 min",
+  "orden": 45,
+  "tema": {
+    "fondo": "#1C1A24",
+    "texto": "#F2EEE4",
+    "acento": "#E0B040"
+  }
+}

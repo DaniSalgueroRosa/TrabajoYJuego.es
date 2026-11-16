@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de comisiones de Stripe",
+  "descripcion": "Calcula la comisión de Stripe en España según la tarjeta o el adeudo SEPA, cuánto te queda de un cobro o cuánto cobrar para recibir un neto.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "comercio",
+  "orden": 143
+}

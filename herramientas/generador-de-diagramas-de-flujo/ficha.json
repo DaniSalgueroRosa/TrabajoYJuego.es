@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de diagramas de flujo",
+  "descripcion": "Escribe los pasos de un proceso en texto y obtén un diagrama de flujo con decisiones y bucles, listo para descargar como imagen PNG o SVG.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "imagenes",
+  "orden": 164
+}

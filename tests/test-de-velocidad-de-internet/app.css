@@ -1,0 +1,3 @@
+body[data-item="test-de-velocidad-de-internet"] .vi-zona { gap: var(--e4); min-height: 14rem; }
+body[data-item="test-de-velocidad-de-internet"] .vi-mensaje { margin: 0; max-width: 38rem; font-weight: 700; line-height: 1.45; }
+body[data-item="test-de-velocidad-de-internet"] .vi-duracion { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--e3); }

@@ -1,0 +1,27 @@
+/* TANDA DE PENALTIS: portería con red, portero y balón de píxeles, barra de fuerza y marcador de tiros */
+.tp-marcador { display: grid; gap: var(--e2); }
+.tp-fila { display: flex; align-items: center; gap: var(--e2); margin: 0; padding: 0; list-style: none; }
+.tp-quien { min-width: 3.6rem; color: var(--tiza-suave); }
+.tp-bola { width: 1.5rem; height: 1.5rem; background: var(--noche-2); box-shadow: 0 0 0 2px var(--noche-linea); }
+.tp-bola--gol { background: var(--limon); box-shadow: 0 0 0 2px var(--tinta); }
+.tp-bola--fallo { background: var(--sandia); box-shadow: 0 0 0 2px var(--tinta); }
+.tp-campo { position: relative; width: 100%; max-width: 36rem; aspect-ratio: 5 / 4; margin: 0 auto; overflow: hidden; background: linear-gradient(var(--tinta) 0 64%, var(--pizarra) 64% 100%); box-shadow: 0 0 0 3px var(--noche-linea); }
+.tp-porteria { position: absolute; left: 8%; right: 8%; top: 4%; height: 56%; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr);
+  border: 6px solid var(--tiza); border-bottom: 0; background: repeating-linear-gradient(45deg, transparent 0 9px, var(--noche-linea) 9px 10px), repeating-linear-gradient(-45deg, transparent 0 9px, var(--noche-linea) 9px 10px); }
+.tp-zona { min-width: 0; padding: 0; border: 1px dashed var(--noche-linea); border-radius: 0; background: transparent; cursor: pointer; }
+.tp-zona:hover:not(:disabled), .tp-zona:focus-visible { background: rgba(230, 241, 74, 0.28); outline: 3px solid var(--limon); outline-offset: -3px; }
+.tp-zona:disabled { cursor: default; }
+.tp-portero { position: absolute; width: 11%; aspect-ratio: 12 / 16; transform: translate(-50%, -50%) rotate(var(--giro, 0deg)); transition: left 0.35s steps(5, end), top 0.35s steps(5, end), transform 0.35s steps(5, end); pointer-events: none; }
+.tp-portero svg { display: block; width: 100%; height: 100%; }
+.tp-piel { fill: #F2C9A0; } .tp-camiseta { fill: var(--limon); } .tp-guante { fill: var(--sandia); } .tp-pantalon { fill: var(--tiza); }
+.tp-balon { position: absolute; width: 6.5%; aspect-ratio: 1; transform: translate(-50%, -50%); background: var(--tiza); border: 3px solid var(--tinta); border-radius: 50%; pointer-events: none; }
+.tp-balon::after { content: ""; position: absolute; inset: 28%; background: var(--tinta); }
+.tp-balon--vuela { transition: left 0.45s steps(6, end), top 0.45s steps(6, end); }
+.tp-punto { position: absolute; left: 50%; top: 86%; width: 6px; height: 6px; margin: -3px 0 0 -3px; background: var(--tiza-suave); }
+.tp-fuerza { position: relative; height: 1.4rem; max-width: 36rem; width: 100%; margin: 0 auto; background: var(--tinta); box-shadow: 0 0 0 3px var(--noche-linea); }
+.tp-fuerza[hidden] { display: none; }
+.tp-fuerza-verde { position: absolute; top: 0; bottom: 0; left: 45%; width: 43%; background: var(--pizarra-media); }
+.tp-aguja { position: absolute; top: -4px; bottom: -4px; left: 0; width: 6px; margin-left: -3px; background: var(--limon); }
+.tp-msg { max-width: 36rem; margin: 0 auto; text-align: center; }
+.tp-ayuda { max-width: 36rem; margin: 0 auto; text-align: center; }
+@media (prefers-reduced-motion: reduce) { .tp-portero, .tp-balon--vuela { transition: none; } }

@@ -1,0 +1,15 @@
+{
+  "titulo": "2048",
+  "descripcion": "Desliza las fichas para juntar números iguales y llegar a 2048. Se juega con las flechas del teclado o deslizando el dedo por el tablero.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "números",
+    "puzle",
+    "un jugador"
+  ],
+  "categoria": "arcade",
+  "dificultad": "media",
+  "duracion": "5-15 min",
+  "orden": 19
+}

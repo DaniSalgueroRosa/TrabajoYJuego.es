@@ -1,0 +1,34 @@
+<div class="herr" id="herr" data-herramienta="generador-de-codigos-de-barras">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Crea un código de barras en tu navegador</h2>
+  <p>Escribe el número o el texto, elige el tipo de código y verás el dibujo al instante, con los dígitos debajo de las barras. Puedes descargarlo como imagen PNG para documentos y pantallas, o como SVG, un formato vectorial que se amplía sin perder nitidez y es el más cómodo para enviar a una imprenta. Si te falta el dígito de control, la herramienta lo calcula; si lo escribes, lo comprueba.</p>
+  <h2>Qué tipo de código elegir</h2>
+  <ul><li><strong>EAN-13</strong> es el que llevan casi todos los productos que se venden en Europa. Tiene 13 cifras, la última de control.</li><li><strong>EAN-8</strong> es una versión corta, de 8 cifras, para envases tan pequeños que no cabe el EAN-13.</li><li><strong>UPC-A</strong> es el equivalente de Estados Unidos y Canadá, con 12 cifras. Un UPC-A es en realidad un EAN-13 que empieza por cero.</li><li><strong>Code 128</strong> admite letras, cifras y signos, y se usa para inventarios, envíos y etiquetas internas. Escribe cualquier texto sin tildes ni eñes.</li></ul>
+  <h2>El dígito de control</h2>
+  <p>La última cifra de un EAN o un UPC sirve para detectar errores de lectura. Se obtiene multiplicando las cifras anteriores alternativamente por 3 y por 1 empezando por la derecha, sumando los resultados y calculando lo que falta para llegar a la siguiente decena. Para 400638133393, la suma es 79 y faltan 1 para llegar a 80, así que el número completo es 4006381333931. Si escribes un dígito de control que no coincide, la herramienta te dice cuál debería ser.</p><p>Code 128 usa otro sistema: un valor de control, calculado con los símbolos del código, que aparece como dato informativo y no hay que escribir.</p>
+  <h2>Antes de usarlo en productos de venta</h2>
+  <p>Esta herramienta dibuja códigos válidos, pero no los asigna. Los números que identifican productos en el comercio los reparte la organización GS1, que en España representa AECOC, y los obtiene cada empresa asociada junto a su propio prefijo. No copies el número de otro producto ni inventes uno para venderlo: podría coincidir con el de un artículo real. Los EAN-13 que empiezan por 2 se reservan para uso interno de cada tienda y sirven, por ejemplo, para el pesaje en la charcutería.</p><p>Para inventarios propios, etiquetas de almacén, entradas o carnés, el Code 128 con tus propios textos no necesita ningún registro.</p>
+  <h2>Cómo imprimirlo para que se lea</h2>
+  <p>Usa barras oscuras sobre un fondo claro y respeta la zona blanca que rodea al código, que ya viene incluida en la imagen. El tamaño nominal de un EAN-13 es de unos 37 por 26 milímetros y admite ampliaciones del 80 % al 200 %, de modo que un código demasiado pequeño falla en el lector. Imprime siempre una prueba y comprueba que tu lector, o el móvil, lo reconoce antes de hacer una tirada.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Puedo usar este código para vender un producto en tiendas?</summary>
+    <p>Solo si el número te corresponde. Los números de producto los asigna GS1 (en España, a través de AECOC) y los comercios y plataformas suelen comprobarlos. La herramienta solo se encarga de dibujar el código.</p>
+  </details>
+  <details>
+    <summary>¿Qué diferencia hay entre descargar PNG y SVG?</summary>
+    <p>El PNG es una imagen de píxeles con un tamaño fijo, ideal para documentos y pantallas. El SVG está formado por rectángulos que se pueden ampliar a cualquier tamaño sin que se desenfoquen, por lo que es mejor para imprimir.</p>
+  </details>
+  <details>
+    <summary>¿Por qué no admite tildes ni eñes?</summary>
+    <p>El juego de Code 128 que usa esta herramienta cubre los caracteres del teclado inglés: letras sin acentos, cifras y signos. Escribe «anio» en lugar de «año» si necesitas esa palabra.</p>
+  </details>
+  <details>
+    <summary>¿Se envía o se guarda lo que escribo?</summary>
+    <p>No. El dibujo se hace en tu dispositivo con tu navegador y nada se almacena: al cerrar o recargar la página, el código desaparece.</p>
+  </details>
+</div>

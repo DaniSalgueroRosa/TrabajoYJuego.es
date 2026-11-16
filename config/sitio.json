@@ -1,0 +1,16 @@
+{
+  "nombre": "TrabajoYJuego",
+  "lema": "Herramientas y guías para trabajar. Juegos y tests para parar.",
+  "url": "https://trabajoyjuego.es",
+  "idioma": "es",
+  "entorno": "preproduccion",
+  "portada": {
+    "titulo": "TrabajoYJuego: herramientas, guías, juegos y tests",
+    "descripcion": "Herramientas y guías para cuando toca trabajar, juegos y tests para cuando toca parar. Todo en un solo sitio y en español."
+  },
+  "mundos": [
+    { "id": "trabajo", "nombre": "Trabajo", "frase": "Para cuando toca resolver algo." },
+    { "id": "juego", "nombre": "Juego", "frase": "Para cuando toca parar un rato." }
+  ],
+  "novedades_en_portada": 6
+}

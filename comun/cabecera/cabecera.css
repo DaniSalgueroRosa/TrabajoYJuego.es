@@ -1,0 +1,32 @@
+/* CABECERA: logo y menú. Los enlaces de «Trabajo» usan la letra formal y subrayan con un barrido suave;
+   los de «Juego» usan la de píxeles y subrayan a saltos, de cinco en cinco. */
+.cabecera { background: var(--lienzo); color: var(--tinta); border-bottom: 2px solid var(--tinta); --foco: var(--tinta); }
+.cabecera-interior { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e3) var(--e6); padding-block: var(--e4); }
+.cabecera-marca { display: block; flex: none; line-height: 0; }
+.cabecera-marca img { display: block; height: 2.1rem; width: auto; }
+
+.cabecera-nav ul { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e1) var(--e5); margin: 0; padding: 0; list-style: none; }
+.cabecera-nav li.cabecera-cambio { padding-left: var(--e5); border-left: 2px solid var(--tinta); }
+.cabecera-nav a {
+  --foco: var(--tinta);
+  position: relative; display: block; padding-block: 0.4rem;
+  color: var(--tinta); text-decoration: none; font: 700 1rem / 1.2 var(--f-trabajo);
+}
+.cabecera-nav li[data-grupo="juego"] a { font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px); -webkit-text-stroke: 0.7px currentColor; }
+
+.cabecera-nav a::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 3px;
+  background: var(--pizarra); transform: scaleX(0); transform-origin: left; transition: transform 0.4s var(--suave);
+}
+.cabecera-nav li[data-grupo="juego"] a::after { height: 4px; background: var(--sandia-texto); transition: transform 0.35s steps(5, end); }
+.cabecera-nav a:hover::after,
+.cabecera-nav a:focus-visible::after,
+.cabecera-nav a[aria-current="page"]::after { transform: scaleX(1); }
+
+@media (max-width: 40rem) {
+  .cabecera-nav { width: 100%; }
+  .cabecera-nav ul { flex-wrap: nowrap; justify-content: space-between; gap: var(--e2); }
+  .cabecera-nav li.cabecera-cambio { padding-left: var(--e2); }
+  .cabecera-nav a { font-size: 0.95rem; }
+  .cabecera-nav li[data-grupo="juego"] a { font-size: 1.25rem; font-size: round(down, 1.25rem, 10px); }
+}

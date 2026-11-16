@@ -1,0 +1,14 @@
+{
+  "titulo": "Reducir el peso de un PDF o una foto",
+  "descripcion": "Cómo hacer que un PDF o una imagen quepa en un correo o en un formulario: qué ajustar primero, qué valores probar y cuándo parar.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "PDF",
+    "imágenes",
+    "compresión",
+    "tamaño"
+  ],
+  "categoria": "pdf-documentos",
+  "orden": 3
+}

@@ -1,0 +1,5 @@
+body[data-item="entrenador-de-punteria"] .en-area { position: relative; display: block; width: 100%; aspect-ratio: 16 / 10; min-height: 15rem; padding: 0; overflow: hidden; cursor: crosshair; touch-action: none; user-select: none; -webkit-user-select: none; }
+body[data-item="entrenador-de-punteria"] .en-obj { position: absolute; appearance: none; padding: 0; border-radius: 50%; border: 4px solid var(--t-texto); background: var(--t-acento); cursor: crosshair; transform-origin: center; box-shadow: inset 0 0 0 7px var(--t-fondo), inset 0 0 0 11px var(--t-acento); }
+body[data-item="entrenador-de-punteria"] .en-mensaje { position: absolute; left: 6%; right: 6%; bottom: 6%; margin: 0; text-align: center; font-weight: 700; pointer-events: none; }
+body[data-item="entrenador-de-punteria"] .en-inicio { position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); cursor: pointer; }
+@media (max-width: 640px) { body[data-item="entrenador-de-punteria"] .en-area { aspect-ratio: 1 / 1; } }

@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de sueldo bruto y neto",
+  "descripcion": "Calcula tu sueldo neto a partir del bruto anual, o el bruto que necesitas para un neto, con Seguridad Social e IRPF estimados de 2026.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "finanzas",
+  "orden": 65
+}

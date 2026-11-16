@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de números aleatorios",
+  "descripcion": "Genera números aleatorios entre un mínimo y un máximo: enteros o con decimales, con o sin repetición y ordenados. Azar criptográfico en tu navegador.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 93
+}

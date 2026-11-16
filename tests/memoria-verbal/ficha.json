@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de memoria verbal",
+  "descripcion": "Palabras que salen una a una: di si son nuevas o ya vistas. Tienes tres vidas y cada acierto suma un punto. Mide tu memoria verbal.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "memoria verbal",
+    "test de palabras",
+    "verbal memory",
+    "palabras nuevas o vistas",
+    "memoria"
+  ],
+  "categoria": "memoria-percepcion",
+  "duracion": "3 min",
+  "orden": 24,
+  "tema": {
+    "fondo": "#F3F7F5",
+    "texto": "#14201C",
+    "acento": "#C21E4A"
+  }
+}

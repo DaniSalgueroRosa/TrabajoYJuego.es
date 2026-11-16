@@ -1,0 +1,21 @@
+{
+  "titulo": "CPS con clic derecho: test de velocidad",
+  "descripcion": "Mide cuántos clics por segundo haces con el botón derecho del ratón en 5, 10, 15 o 30 segundos. Ignora los izquierdos y no abre el menú.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "cps clic derecho",
+    "right click cps",
+    "botón derecho",
+    "test de clics",
+    "velocidad"
+  ],
+  "categoria": "velocidad-clics",
+  "duracion": "10 s",
+  "orden": 4,
+  "tema": {
+    "fondo": "#101A17",
+    "texto": "#EAF2EE",
+    "acento": "#E6F14A"
+  }
+}

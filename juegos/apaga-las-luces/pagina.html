@@ -1,0 +1,41 @@
+<div class="juego" data-juego="apaga-las-luces">
+  <div class="pantalla" id="al">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>La idea del juego</h2>
+  <p>Tienes una rejilla de luces, algunas encendidas y otras apagadas. Al pulsar una casilla cambia su estado y el de las cuatro casillas que la rodean (arriba, abajo, izquierda y derecha). Tu objetivo es apagarlas todas con el menor número de pulsaciones posible.</p>
+  <p>Parece fácil, pero cada pulsación que apaga una luz puede encender otras. El reto está en encontrar un orden que arregle todo el tablero sin estropear lo ya resuelto.</p>
+  <h2>Tableros y niveles</h2>
+  <p>Fácil usa una rejilla de 4×4, Medio una de 5×5 y Difícil una de 6×6. Cada tablero se crea pulsando casillas al azar sobre uno apagado: 5 en Fácil, 8 en Medio y 14 en Difícil. Por eso siempre tiene solución y nunca necesitas más pulsaciones que las que se usaron para crearlo.</p>
+  <p>Las luces encendidas llevan un círculo lleno y las apagadas uno vacío, para poder jugar sin depender del color.</p>
+  <h2>Estrategia</h2>
+  <ul>
+    <li>Fíjate en que pulsar dos veces la misma casilla no sirve para nada: lo único que importa es qué casillas pulsas y no el orden.</li>
+    <li>Puedes resolver el tablero fila a fila: apaga la primera fila pulsando las casillas de la segunda que estén debajo de una luz encendida, y repite hacia abajo.</li>
+    <li>Al llegar a la última fila, las luces que queden te indican qué casillas de la primera fila habría que haber pulsado.</li>
+  </ul>
+  <h2>La pista y las matemáticas</h2>
+  <p>La pista del juego no adivina: plantea el tablero como un sistema de ecuaciones en el que cada casilla es una incógnita que vale 0 (no pulsar) o 1 (pulsar), lo resuelve con álgebra en base 2 y elige la solución con menos pulsaciones. Después te señala una casilla de esa solución. Cada pista resta 40 puntos.</p>
+  <p>Si sigues las pistas una tras otra llegas siempre a la solución más corta. Es un buen ejemplo de cómo un problema de ingenio se convierte en un cálculo con matrices.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Todos los tableros se pueden resolver?</summary>
+    <p>Sí. Se crean a partir de uno apagado aplicando pulsaciones, así que repetir esas mismas pulsaciones lo apaga de nuevo.</p>
+  </details>
+  <details>
+    <summary>¿Puedo jugar con el teclado?</summary>
+    <p>Sí. Con las flechas te mueves por la rejilla y con Intro o la barra espaciadora pulsas la luz donde estás.</p>
+  </details>
+  <details>
+    <summary>¿Cómo se calcula la puntuación?</summary>
+    <p>Cada nivel empieza con una puntuación base: 600, 900 o 1.400. Restan 20 puntos por cada pulsación de más sobre las que bastaban para crear el tablero, un punto por cada segundo y 40 por cada pista.</p>
+  </details>
+  <details>
+    <summary>¿Qué significa el número de luces encendidas?</summary>
+    <p>Es un recuento sin más: no siempre baja con cada pulsación, porque una pulsación puede apagar unas luces y encender otras.</p>
+  </details>
+</div>

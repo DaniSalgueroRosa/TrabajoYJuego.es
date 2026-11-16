@@ -1,0 +1,8 @@
+{
+  "titulo": "Selector aleatorio de nombres",
+  "descripcion": "Elige al azar uno o varios nombres de una lista: pega los nombres, uno por línea, y la herramienta sortea sin favoritismos, con o sin repetición.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 94
+}

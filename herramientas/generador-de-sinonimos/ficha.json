@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de sinónimos",
+  "descripcion": "Busca sinónimos y antónimos de una palabra en español, o pega un texto y sustituye sus palabras por alternativas con un clic. Funciona sin conexión.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 160
+}

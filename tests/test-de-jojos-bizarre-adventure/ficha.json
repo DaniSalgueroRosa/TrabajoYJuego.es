@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de JoJo's Bizarre Adventure",
+  "descripcion": "Diez situaciones para saber qué protagonista de JoJo's Bizarre Adventure eres, con radar de rasgos y los cinco más parecidos. Test de fans, sin imágenes.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de JoJo's Bizarre Adventure",
+    "qué JoJo soy",
+    "personajes de JoJo",
+    "test anime",
+    "Jotaro Kujo"
+  ],
+  "categoria": "cultura-pop",
+  "duracion": "3 min",
+  "orden": 66,
+  "tema": {
+    "fondo": "#1E0B2E",
+    "texto": "#FDEBFF",
+    "acento": "#FF5FC8"
+  }
+}

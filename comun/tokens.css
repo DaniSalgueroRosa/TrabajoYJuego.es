@@ -1,0 +1,58 @@
+/* TOKENS: todos los colores, tipografías, tamaños y movimientos del sitio.
+   Para cambiar el estilo del conjunto, empieza aquí; el resto de CSS solo usa estas variables.
+   (Si cambias un color de marca, cámbialo también en motor/identidad.py y vuelve a ejecutarlo para rehacer el logo.) */
+:root {
+  /* Color de marca */
+  --pizarra: #1D3A34;        /* verde pizarra: tinta del mundo «Trabajo» */
+  --pizarra-media: #2F6B5C;
+  --papel-trabajo: #E4EDE8;  /* papel de cuaderno */
+  --tiza: #EAF2EE;
+  --sandia: #FF5A7D;         /* rosa sandía: neón del mundo «Juego» */
+  --sandia-texto: #C21E4A;   /* la misma sandía, oscurecida para leerse sobre fondo claro */
+  --limon: #E6F14A;          /* subrayador y cursor: el color que une los dos mundos */
+  --limon-claro: #F4F8C0;
+  --tinta: #14201C;          /* negro con un punto verde: pantalla apagada */
+
+  /* Superficies y texto */
+  --lienzo: #F3F5F2;
+  --papel: #FFFFFF;
+  --tinta-suave: #46564F;
+  --linea: #C5D1CB;
+  --noche-2: #1E2E29;        /* panel sobre fondo oscuro */
+  --noche-linea: #3A5249;
+  --tiza-suave: #AFC4BB;
+
+  /* Tipografía */
+  --f-trabajo: "Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --f-pixel: "Cuadritos", "Courier New", ui-monospace, monospace;
+  --f-texto: var(--f-trabajo);
+
+  /* Escala de tamaños */
+  --t-1: 0.875rem;
+  --t0: 1.0625rem;
+  --t1: 1.3rem;
+  --t2: 1.65rem;
+  --t3: 2.2rem;
+  --t4: clamp(2.2rem, 1.3rem + 3vw, 3.6rem);
+  --t-seccion: clamp(3.2rem, 1.4rem + 8vw, 6.5rem);
+  --t-ficha: clamp(2.4rem, 1.2rem + 5vw, 4.25rem);
+
+  /* Espacios */
+  --e1: 0.25rem;
+  --e2: 0.5rem;
+  --e3: 0.75rem;
+  --e4: 1rem;
+  --e5: 1.5rem;
+  --e6: 2.5rem;
+  --e7: 4rem;
+  --e8: 6rem;
+
+  /* Forma: «Trabajo» es recto, «Juego» es de píxeles (esquinas cortadas, sin redondeo) */
+  --radio-trabajo: 2px;
+  --radio-libre: 14px;
+  --ancho-contenido: 72rem;
+  --ancho-texto: 40rem;
+
+  /* Movimiento: «Trabajo» se mueve suave; «Juego» se mueve a saltos, fotograma a fotograma */
+  --suave: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

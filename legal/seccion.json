@@ -1,0 +1,14 @@
+{
+  "titulo": "Información legal",
+  "singular": "página legal",
+  "plural": "páginas legales",
+  "descripcion": "Aviso legal, política de privacidad, política de cookies, condiciones de uso, publicidad y contacto de TrabajoYJuego.",
+  "resumen": "Aviso legal, privacidad, cookies, condiciones, publicidad y contacto.",
+  "mundo": "trabajo",
+  "orden": 9,
+  "vacio": "Las páginas legales aparecerán aquí en cuanto se publiquen.",
+  "ordenar_por": "orden",
+  "ubicacion": "pie",
+  "dinamico": true,
+  "schema": { "tipo": "WebPage" }
+}

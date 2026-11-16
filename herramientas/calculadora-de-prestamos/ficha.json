@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de préstamos",
+  "descripcion": "Calcula la cuota de un préstamo personal, los intereses, el total a devolver y la TAE con comisión de apertura, en meses o en años.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "finanzas",
+  "orden": 62
+}

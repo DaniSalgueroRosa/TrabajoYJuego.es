@@ -1,0 +1,14 @@
+{
+  "titulo": "Calculadora de faltas de FP",
+  "descripcion": "Calcula cuántas horas puedes faltar en cada módulo de tu ciclo de FP de Andalucía antes de perder la evaluación continua.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "FP",
+    "Andalucía",
+    "faltas",
+    "asistencia"
+  ],
+  "categoria": "estudiantes",
+  "orden": 21
+}

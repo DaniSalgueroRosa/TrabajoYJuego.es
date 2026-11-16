@@ -1,0 +1,2 @@
+.cient-teclas { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.cient-teclas .boton { min-width: 3rem; font-weight: 700; }

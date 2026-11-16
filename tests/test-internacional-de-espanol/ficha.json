@@ -1,0 +1,21 @@
+{
+  "titulo": "Test internacional de español",
+  "descripcion": "Veinticuatro palabras que cambian de significado según el país hispanohablante, de «carro» a «chompa». Mide tu español internacional y se corrige al momento.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "español de América",
+    "palabras de Latinoamérica",
+    "variedades del español",
+    "español internacional",
+    "test de español"
+  ],
+  "categoria": "espanol",
+  "duracion": "4 min",
+  "orden": 82,
+  "tema": {
+    "fondo": "#1E1B33",
+    "texto": "#F1EFFF",
+    "acento": "#FFC857"
+  }
+}

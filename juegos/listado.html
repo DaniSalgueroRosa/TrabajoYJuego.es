@@ -1,0 +1,59 @@
+<div class="seccion-cabecera">
+  <div class="contenedor">
+    {{> comun/migas/migas}}
+    <h1 class="seccion-titulo">{{seccion.titulo}}</h1>
+    <p class="seccion-lead">{{seccion.descripcion}}</p>
+  </div>
+</div>
+<div class="contenedor seccion-cuerpo">
+  {{#hay_items}}
+  <div class="juegos-intro">
+    <p>Aquí no hay cuentas, registros ni descargas: eliges un juego y empiezas. Lo que juegas vive solo en la pestaña abierta, así que
+    tus puntuaciones y rachas desaparecen al recargar la página o cerrarla. Busca por nombre o tema, o filtra por categoría y dificultad.</p>
+  </div>
+  {{#filtros.activos}}
+  <form class="filtros" data-filtros data-singular="{{filtros.singular}}" data-plural="{{filtros.plural}}" role="search" aria-label="Buscar y filtrar {{seccion.plural}}" hidden>
+    <div class="filtro-fila">
+      <p class="filtro-campo">
+        <label for="filtro-texto">Buscar un {{filtros.singular}}</label>
+        <input id="filtro-texto" type="search" autocomplete="off" placeholder="Nombre, tema, palabra…" data-filtro-texto>
+      </p>
+      {{#filtros.hay_dificultades}}
+      <p class="filtro-campo">
+        <label for="filtro-dificultad">Dificultad</label>
+        <select id="filtro-dificultad" data-filtro-dificultad>
+          <option value="">Todas</option>
+          {{#filtros.dificultades}}
+          <option value="{{id}}">{{nombre}}</option>
+          {{/filtros.dificultades}}
+        </select>
+      </p>
+      {{/filtros.hay_dificultades}}
+    </div>
+    {{#filtros.hay_categorias}}
+    <fieldset>
+      <legend>Categoría</legend>
+      <div class="filtro-chips">
+        <button type="button" class="chip" data-filtro-categoria="" aria-pressed="true">Todas ({{filtros.total}})</button>
+        {{#filtros.categorias}}
+        <button type="button" class="chip" data-filtro-categoria="{{id}}" aria-pressed="false">{{nombre}} ({{cuenta}})</button>
+        {{/filtros.categorias}}
+      </div>
+    </fieldset>
+    {{/filtros.hay_categorias}}
+    <p class="filtro-estado" role="status" aria-live="polite" data-filtro-estado></p>
+    <p><button type="button" class="boton-retro boton-retro--sec boton-retro--chico" data-filtro-borrar hidden>Quitar filtros</button></p>
+  </form>
+  {{/filtros.activos}}
+  <h2 class="solo-lectores">Lista de {{seccion.plural}}</h2>
+  <ul class="rejilla">
+    {{#items}}
+    <li data-categoria="{{categoria}}" data-dificultad="{{dificultad}}" data-busqueda="{{busqueda}}">{{> comun/tarjeta/tarjeta}}</li>
+    {{/items}}
+  </ul>
+  {{> comun/anuncio/anuncio-listado}}
+  {{/hay_items}}
+  {{^hay_items}}
+  {{> comun/vacio/vacio}}
+  {{/hay_items}}
+</div>

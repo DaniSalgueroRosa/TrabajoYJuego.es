@@ -1,0 +1,21 @@
+{
+  "titulo": "Arrastrar y hacer clic (drag click)",
+  "descripcion": "Test de drag click: arrastra el dedo sobre el botón del ratón y mide tus CPS, las ráfagas de clics y la más larga en 1, 2, 5 o 10 segundos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "drag click",
+    "arrastrar y hacer clic",
+    "drag click test",
+    "ráfagas de clics",
+    "cps"
+  ],
+  "categoria": "raton-teclado",
+  "duracion": "5 s",
+  "orden": 10,
+  "tema": {
+    "fondo": "#172033",
+    "texto": "#E8EEF9",
+    "acento": "#FFB347"
+  }
+}

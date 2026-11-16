@@ -1,0 +1,22 @@
+<article class="ficha">
+  <header class="ficha-cabecera">
+    <div class="contenedor">
+      {{> comun/migas/migas}}
+      <h1 class="ficha-titulo"><span class="marca">{{item.titulo}}</span></h1>
+      <p class="ficha-lead">{{item.descripcion}}</p>
+      <div class="ficha-meta">
+        <p>Publicado el <time datetime="{{item.fecha_iso}}">{{item.fecha_texto}}</time></p>
+        {{#item.hay_etiquetas}}
+        <ul class="ficha-etiquetas" aria-label="Etiquetas">
+          {{#item.etiquetas}}
+          <li>{{.}}</li>
+          {{/item.etiquetas}}
+        </ul>
+        {{/item.hay_etiquetas}}
+      </div>
+    </div>
+  </header>
+  <div class="contenedor ficha-cuerpo">
+{{{cuerpo}}}
+  </div>
+</article>

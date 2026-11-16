@@ -1,0 +1,32 @@
+<div class="herr" id="herr" data-herramienta="generador-de-frases-de-contrasena">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Una contraseña que se puede recordar y no se puede adivinar</h2>
+  <p>Una frase de contraseña son varias palabras corrientes elegidas al azar, como <em>puente-cebra-ola-tinta-mesa-faro</em>. Se recuerda mucho mejor que una cadena de letras y símbolos, y a cambio de ser algo más larga resulta igual de difícil de adivinar. Esta herramienta las crea con una lista de más de mil palabras españolas sin tildes ni eñes, para que se puedan teclear en cualquier teclado.</p>
+  <h2>Por qué funciona</h2>
+  <p>La seguridad no depende de que las palabras sean raras, sino de que se elijan al azar entre muchas. Con una lista de más de mil palabras, cada una aporta algo más de 10 bits de entropía. Seis palabras suman unos 60 bits y ocho pasan de los 80, cifras con las que un ataque por fuerza bruta resulta muy costoso. La entropía se calcula con la lista completa y la ves bajo el resultado, junto con una valoración de la fortaleza.</p><p>El azar sale de <code>crypto.getRandomValues</code>, el generador criptográfico del navegador, y no de una función previsible. Las palabras se pueden repetir, igual que en el método clásico de tirar dados para elegir palabras de una lista.</p>
+  <h2>Cómo usar una frase de contraseña</h2>
+  <ul><li>Quédate con la frase tal como sale: si sustituyes palabras por otras que te gustan más, dejas de tener azar y pierdes seguridad.</li><li>Escríbela unas cuantas veces para memorizarla antes de abandonar el lugar donde la ves.</li><li>Úsala sobre todo para lo que tienes que recordar de memoria: la contraseña del gestor, el cifrado del disco o el acceso al correo.</li><li>Para el resto de cuentas, un gestor de contraseñas con claves aleatorias largas es mejor opción.</li></ul>
+  <h2>Si la web pone límites</h2>
+  <p>Algunas webs exigen mayúsculas, números o símbolos, o limitan la longitud. Marca la casilla de mayúsculas o la del número final para cumplir esas reglas, y elige como separador el guion o el punto si el servicio no admite espacios. Si no te deja pasar de cierta longitud, prueba un generador de contraseñas aleatorias de caracteres, que aprovecha cada posición mejor que las palabras.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Cuántas palabras necesito?</summary>
+    <p>Para una cuenta importante, seis como mínimo; ocho si quieres un margen amplio. Con tres o cuatro la frase es cómoda, pero solo sirve donde un atacante no pueda probar millones de combinaciones.</p>
+  </details>
+  <details>
+    <summary>¿Puedo elegir yo las palabras?</summary>
+    <p>No conviene. Una frase pensada por una persona, aunque parezca rara, sigue patrones que se pueden probar. La seguridad viene de que las palabras las elija el azar.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda alguna frase que genero?</summary>
+    <p>No. Se generan en tu navegador, se muestran en pantalla y desaparecen al cerrar o recargar la página. Tampoco se envían a ningún sitio.</p>
+  </details>
+  <details>
+    <summary>¿Es más segura que una contraseña de caracteres aleatorios?</summary>
+    <p>A igual longitud, no: cada carácter aporta más azar que cada palabra. Lo que gana la frase es que se recuerda y se teclea con facilidad, y ahí compensa.</p>
+  </details>
+</div>

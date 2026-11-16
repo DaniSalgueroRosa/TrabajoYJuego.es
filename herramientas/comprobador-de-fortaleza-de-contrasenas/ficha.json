@@ -1,0 +1,8 @@
+{
+  "titulo": "Comprobador de fortaleza de contraseñas",
+  "descripcion": "Mide la fortaleza de una contraseña: bits de entropía, patrones débiles, si es de las más usadas y cuánto tardaría en adivinarse. Todo en tu navegador.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 92
+}

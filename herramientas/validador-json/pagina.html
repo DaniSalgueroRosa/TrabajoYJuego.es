@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="validador-json">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Averigua si tu JSON es válido</h2>
+  <p>Un JSON con un solo carácter fuera de sitio deja de funcionar: la aplicación se niega a leerlo y el mensaje de error suele ser críptico. Esta herramienta lo comprueba contra el estándar y, si hay un problema, te indica en qué línea y columna está, muestra esa línea con una flecha en el punto exacto y explica en español qué se esperaba. Si todo está bien, te da un resumen de la estructura: tipo del valor principal, número de objetos, listas y claves, y los niveles de anidamiento.</p>
+  <h2>Errores más habituales</h2>
+  <ul><li><strong>Coma final:</strong> una coma después del último elemento de un objeto o una lista, como en {"a": 1,}. Es lo más frecuente y JSON no lo admite.</li><li><strong>Comillas simples:</strong> en JSON las cadenas y las claves van siempre entre comillas dobles.</li><li><strong>Claves sin comillas:</strong> {nombre: "Ana"} es válido en JavaScript, pero no en JSON.</li><li><strong>Comentarios:</strong> ni // ni /* */ están permitidos.</li><li><strong>Valores no admitidos:</strong> undefined, NaN e Infinity no existen en JSON; usa null o un texto.</li><li><strong>Saltos de línea dentro de un texto:</strong> hay que escribirlos como \n.</li><li><strong>Ceros a la izquierda:</strong> 007 no es un número válido; escribe 7 o "007".</li></ul>
+  <h2>Qué comprueba y qué no</h2>
+  <p>La herramienta verifica la sintaxis estricta de la norma RFC 8259. Detecta también las claves repetidas dentro de un mismo objeto, que son técnicamente válidas pero casi siempre un error, y los documentos demasiado anidados. No comprueba que los datos tengan sentido para tu aplicación, por ejemplo que exista un campo concreto o que un valor tenga un formato; para eso se usan esquemas. El análisis se hace en tu navegador, sin enviar el texto a ningún servidor, y sirve con documentos de cualquier tamaño razonable.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Qué significa «la línea y la columna»?</summary>
+    <p>La línea cuenta los saltos de línea desde el principio del texto. La columna indica el carácter dentro de esa línea donde el analizador detectó el problema, que a veces está un poco después del error real.</p>
+  </details>
+  <details>
+    <summary>Mi JSON tiene comentarios, ¿es válido?</summary>
+    <p>No según el estándar. Algunos programas aceptan variantes como JSONC o JSON5, pero esta herramienta aplica el formato estricto.</p>
+  </details>
+  <details>
+    <summary>¿Qué es una clave repetida?</summary>
+    <p>Un mismo nombre usado dos veces dentro de un objeto. El estándar no lo prohíbe, pero cada programa lo trata a su manera, por lo que conviene evitarlo.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda lo que pego?</summary>
+    <p>No. Se comprueba en tu navegador y nada se almacena ni se envía.</p>
+  </details>
+</div>

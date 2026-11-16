@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de tono de color: ordena el degradado",
+  "descripcion": "Ordena fichas de color según el tono entre dos extremos fijos, en tres dificultades. Mide cuántas colocas bien y tu error total.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "tono de color",
+    "ordenar colores",
+    "test de matices",
+    "hue test",
+    "degradado"
+  ],
+  "categoria": "vista-oido",
+  "duracion": "2 min",
+  "orden": 19,
+  "tema": {
+    "fondo": "#2B2B2B",
+    "texto": "#F2F2F2",
+    "acento": "#9BE3C8"
+  }
+}

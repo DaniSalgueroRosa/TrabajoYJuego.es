@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de nivel de vocabulario de francés",
+  "descripcion": "Treinta palabras en francés, de A1 a C1, para estimar tu nivel de vocabulario. Eliges el significado en español y se corrige al momento.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "vocabulario de francés",
+    "nivel de francés",
+    "test de francés",
+    "palabras en francés",
+    "falsos amigos francés"
+  ],
+  "categoria": "otros-idiomas",
+  "duracion": "5 min",
+  "orden": 85,
+  "tema": {
+    "fondo": "#14183A",
+    "texto": "#EEF1FF",
+    "acento": "#9DB4FF"
+  }
+}

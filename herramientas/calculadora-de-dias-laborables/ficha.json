@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de días laborables",
+  "descripcion": "Cuenta los días laborables entre dos fechas descontando fines de semana y festivos nacionales de España, y añade tus propios días libres.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "fechas",
+  "orden": 73
+}

@@ -1,0 +1,14 @@
+{
+  "titulo": "Cuánto cuesta un cliente y cuánto vale",
+  "descripcion": "Calcula el coste por adquisición, el valor de vida del cliente y la tasa de conversión para saber si captar clientes te compensa.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "CPA",
+    "LTV",
+    "conversión",
+    "clientes"
+  ],
+  "categoria": "comercio",
+  "orden": 37
+}

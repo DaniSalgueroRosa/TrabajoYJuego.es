@@ -1,0 +1,34 @@
+<div class="juego" data-juego="adivina-el-numero">
+  <div class="pantalla" id="an">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>Cómo se juega</h2>
+  <p>La máquina piensa un número entero al azar dentro de un rango que eliges. Tú escribes una propuesta y ella responde si el número secreto es más alto o más bajo. Con cada respuesta el margen se estrecha, y tienes un número limitado de intentos para acertar.</p>
+  <h2>Los tres niveles</h2>
+  <p>En el nivel fácil el número está entre 1 y 50 y dispones de siete intentos. En el medio, entre 1 y 100, tienes ocho. En el difícil, entre 1 y 1000, tienes once. Los límites no son caprichosos: son justo los intentos que necesita quien juega bien, más uno de margen para un despiste.</p>
+  <h2>La estrategia de la mitad</h2>
+  <p>La mejor táctica es probar siempre el número que queda en el centro del margen posible. Si el rango es de 1 a 100, empieza por 50: la respuesta descarta la mitad de los números de golpe. Después prueba 25 o 75, y así sucesivamente. Esta técnica se llama búsqueda binaria y con ella cualquier número del 1 al 100 se encuentra en siete intentos como máximo.</p>
+  <h2>Por qué funciona tan bien</h2>
+  <p>Cada intento duplica la información que tienes. Con diez intentos se pueden distinguir 1.024 números, y con once, 2.048. Por eso el rango de mil queda cubierto con holgura. Es el mismo principio que usan los programas para buscar un dato en una lista ordenada sin recorrerla entera.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Cambia el número si me equivoco?</summary>
+    <p>No. El número se elige al empezar la partida y no se mueve hasta que aciertas o gastas todos los intentos.</p>
+  </details>
+  <details>
+    <summary>¿Cuenta como intento escribir un número fuera de rango?</summary>
+    <p>No. Si el valor no es entero o queda fuera del rango, el juego te lo avisa y conserva tus intentos.</p>
+  </details>
+  <details>
+    <summary>¿Qué es lo mejor que se puede hacer?</summary>
+    <p>Acertar con el primer intento tiene una probabilidad pequeña. Lo realista con buena técnica es acertar en cinco o seis intentos en el rango de 1 a 100.</p>
+  </details>
+  <details>
+    <summary>¿Puedo jugar solo con el teclado?</summary>
+    <p>Sí. Escribe el número y pulsa Intro para probar; el campo vuelve a quedar listo después de cada intento.</p>
+  </details>
+</div>

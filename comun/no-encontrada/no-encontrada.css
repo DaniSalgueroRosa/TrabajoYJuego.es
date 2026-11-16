@@ -1,0 +1,8 @@
+/* PÁGINA 404: sobria, con el número en letra de píxeles como único guiño. */
+.no-encontrada { padding-block: var(--e8); }
+.no-encontrada-codigo { font: 400 1rem / 1 var(--f-pixel); font-size: round(down, clamp(5rem, 22vw, 12rem), 10px); color: var(--sandia-texto); }
+.no-encontrada h1 { margin-top: var(--e4); font-size: var(--t4); }
+.no-encontrada-texto { max-width: var(--ancho-texto); margin-top: var(--e4); }
+.no-encontrada-enlaces { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e5); margin: var(--e5) 0 0; padding: 0; list-style: none; font-weight: 700; }
+.no-encontrada-enlaces a { text-underline-offset: 0.2em; }
+.no-encontrada-enlaces a:hover { text-decoration-thickness: 3px; }

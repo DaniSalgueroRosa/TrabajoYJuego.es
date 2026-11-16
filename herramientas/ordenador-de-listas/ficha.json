@@ -1,0 +1,8 @@
+{
+  "titulo": "Ordenador de listas",
+  "descripcion": "Ordena una lista alfabéticamente (con la ñ en su sitio), por longitud o numéricamente, al revés o al azar. Quita duplicados y numera.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 57
+}

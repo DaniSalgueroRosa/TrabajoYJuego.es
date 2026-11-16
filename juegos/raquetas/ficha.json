@@ -1,0 +1,17 @@
+{
+  "titulo": "Raquetas: duelo de palas contra el ordenador",
+  "descripcion": "Duelo de palas contra el ordenador a 7 puntos: mueve tu pala con el ratón, el dedo o el teclado y devuelve la bola cada vez más rápida.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "palas",
+    "arcade",
+    "reflejos",
+    "clásico",
+    "un jugador"
+  ],
+  "categoria": "arcade",
+  "dificultad": "media",
+  "duracion": "3-5 min",
+  "orden": 69
+}

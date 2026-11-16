@@ -1,0 +1,33 @@
+<div class="herr" id="herr" data-herramienta="generador-de-diagramas-de-flujo">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Un diagrama de flujo a partir de texto</h2>
+  <p>Dibujar un diagrama de flujo a mano obliga a colocar cajas, alinearlas y arrastrar flechas cada vez que cambia un paso. Aquí lo escribes como una lista: cada línea une pasos con una flecha (<code>Leer datos -&gt; Procesar</code>) y la herramienta los coloca de arriba abajo, reparte el espacio y traza las flechas sin cruzarlas más de lo necesario.</p>
+  <p>Para una pregunta con dos salidas escribe una línea por cada respuesta y añade la etiqueta tras una barra: <code>¿Datos válidos? -&gt; Procesar | Sí</code> y <code>¿Datos válidos? -&gt; Mostrar error | No</code>. Si una flecha vuelve a un paso anterior, el diagrama dibuja el bucle sin que tengas que hacer nada especial.</p>
+  <h2>Las formas y las reglas de escritura</h2>
+  <ul><li><strong>Proceso:</strong> un rectángulo; es la forma por defecto. También puedes forzarla con corchetes: <code>[Guardar]</code>.</li><li><strong>Decisión:</strong> un rombo; se deduce si el texto empieza por ¿ o termina en ?, o se fija con llaves: <code>{Mayor de edad}</code>.</li><li><strong>Inicio y fin:</strong> una píldora oscura para «Inicio», «Fin», «Start» y «End», o con paréntesis: <code>(Empezar)</code>.</li><li><strong>Entrada o salida de datos:</strong> un paralelogramo, con barras: <code>/Pedir el nombre/</code>.</li><li><strong>Mismo paso, mismo cuadro:</strong> si repites un texto, aunque cambien las mayúsculas o los espacios, la flecha apunta al mismo paso.</li><li><strong>Comentarios:</strong> las líneas que empiezan por # no se dibujan.</li></ul>
+  <p>Se admiten hasta 150 pasos y 300 conexiones por diagrama. Si te pasas, la herramienta te lo dice para que lo dividas en varios.</p>
+  <h2>Descargar y privacidad</h2>
+  <p>Cuando el diagrama esté listo, descárgalo como imagen PNG para insertarlo en un documento o una presentación, o como SVG si quieres editarlo después en un programa de dibujo o imprimirlo sin perder nitidez. También puedes copiar el texto para guardarlo y volver a generar el diagrama más adelante.</p>
+  <p>Todo se calcula en tu navegador. Lo que escribes no se envía a ningún servidor ni se guarda, y desaparece al cerrar o recargar la página.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Cómo hago que una decisión tenga un «Sí» y un «No»?</summary>
+    <p>Escribe una línea por cada salida y pon la etiqueta al final, detrás de una barra: «¿Todo bien? -> Seguir | Sí» y «¿Todo bien? -> Corregir | No». La etiqueta se dibuja junto a la flecha.</p>
+  </details>
+  <details>
+    <summary>¿Puedo hacer que un paso vuelva a uno anterior?</summary>
+    <p>Sí. Basta con escribir la conexión hacia atrás, por ejemplo «Corregir -> Leer datos». El diagrama detecta el ciclo y dibuja la flecha subiendo por un lateral.</p>
+  </details>
+  <details>
+    <summary>¿Por qué no puedo mover las cajas a mano?</summary>
+    <p>La herramienta coloca los pasos automáticamente y recalcula todo en cada cambio. Si quieres retocar el dibujo, descarga el SVG y ábrelo en un editor de gráficos vectoriales.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda mi diagrama?</summary>
+    <p>No. No se envía ni se almacena en ningún sitio. Copia el texto o descarga el PNG o el SVG antes de cerrar la página.</p>
+  </details>
+</div>

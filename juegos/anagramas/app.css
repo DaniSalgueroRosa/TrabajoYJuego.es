@@ -1,0 +1,4 @@
+/* ANAGRAMAS: fichas de letra grandes, como las de un juego de mesa. */
+.an-letras { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: var(--e3) auto; }
+.an-letra { display: inline-flex; align-items: center; justify-content: center; width: 2.9rem; height: 3.2rem; font-family: var(--f-pixel); font-size: 1.6rem; color: var(--tinta); background: var(--limon); border: 3px solid var(--tinta); border-radius: 6px; box-shadow: 0 3px 0 var(--tinta); }
+@media (max-width: 26rem) { .an-letra { width: 2.4rem; height: 2.8rem; font-size: 1.35rem; } }

@@ -1,0 +1,16 @@
+{
+  "titulo": "Hundir la flota contra el ordenador",
+  "descripcion": "El clásico hundir la flota en un tablero de 10×10: dispara, busca los cinco barcos enemigos y hunde su flota antes de que hunda la tuya.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "barcos",
+    "estrategia",
+    "clásico",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "5-8 min",
+  "orden": 65
+}

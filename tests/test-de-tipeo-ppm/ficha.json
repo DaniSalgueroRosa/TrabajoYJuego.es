@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de tipeo: palabras por minuto",
+  "descripcion": "Mide tu velocidad al teclear en palabras por minuto (PPM), tu precisión y tus errores con textos en español de 15, 30, 60 o 120 segundos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de tipeo",
+    "palabras por minuto",
+    "ppm",
+    "velocidad de escritura",
+    "mecanografía"
+  ],
+  "categoria": "raton-teclado",
+  "duracion": "30 s",
+  "orden": 11,
+  "tema": {
+    "fondo": "#172033",
+    "texto": "#E8EEF9",
+    "acento": "#FFB347"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de CSV a Excel",
+  "descripcion": "Convierte un CSV a un archivo Excel (.xlsx): detecta el separador, reconoce números y fechas, respeta los ceros iniciales y pone los títulos en negrita.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 162
+}

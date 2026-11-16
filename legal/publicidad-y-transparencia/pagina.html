@@ -1,0 +1,33 @@
+<h2>1. Cómo se financia este sitio</h2>
+{{#publicidad.activa}}
+<p>{{sitio.nombre}} es gratuito y se financia con publicidad de Google AdSense. No cobramos por usar los juegos, las herramientas ni las guías.</p>
+{{/publicidad.activa}}
+{{^publicidad.activa}}
+<p>{{sitio.nombre}} es gratuito. <strong>Ahora mismo no muestra anuncios.</strong> Si en el futuro se financia con publicidad, será con Google AdSense y esta página y la <a href="{{raiz}}legal/politica-de-cookies/">política de cookies</a> se actualizarán antes de que aparezca el primer anuncio.</p>
+{{/publicidad.activa}}
+
+<h2>2. Cómo reconocerás un anuncio</h2>
+<p>Cada anuncio va dentro de un recuadro con la etiqueta «Publicidad». Si algo no lleva esa etiqueta, es contenido nuestro. No mezclamos anuncios con el texto de las guías ni con los resultados de las herramientas, los juegos o los tests.</p>
+
+<h2>3. Dónde se colocan</h2>
+<p>Hemos reservado solo dos posiciones: al final de la página de cada juego, debajo del texto y del botón de volver, y al final de los listados. Las reglas que seguimos son estas:</p>
+<ul>
+  <li>Ningún anuncio se coloca sobre un juego, una herramienta o un test, ni cerca de sus botones o controles, para que no pulses uno por error.</li>
+  <li>No hay ventanas emergentes, ni anuncios que se muevan por encima del contenido, ni anuncios que aparezcan a mitad de partida.</li>
+  <li>El sitio nunca te pide que pulses un anuncio ni te ofrece nada a cambio de hacerlo.</li>
+</ul>
+
+<h2>4. Independencia</h2>
+<p>La publicidad no condiciona lo que publicamos. No elegimos a los anunciantes, que son los que pone Google, ni recomendamos sus productos o servicios. Este sitio no publica contenido patrocinado ni enlaces de afiliación.</p>
+
+<h2>5. Tu privacidad y tu elección</h2>
+{{#publicidad.activa}}
+<p>Los anuncios los sirve Google. Cuando la normativa exige tu consentimiento para cookies de publicidad, Google te muestra un mensaje en el que puedes aceptar, rechazar o configurar tus opciones, y puedes cambiarlas cuando quieras desde la <a href="{{raiz}}legal/politica-de-cookies/#configurar">política de cookies</a>. Para controlar la personalización de anuncios en tu cuenta de Google puedes visitar <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">adssettings.google.com</a><span class="solo-lectores"> (se abre en una pestaña nueva)</span>.</p>
+{{/publicidad.activa}}
+{{^publicidad.activa}}
+<p>Mientras no haya publicidad, el sitio no carga ningún código de anuncios ni de consentimiento de terceros. Cuando la haya, solo se cargará con tu permiso en los casos en que la normativa lo exija.</p>
+{{/publicidad.activa}}
+
+<h2>6. Cómo avisarnos de un anuncio inadecuado</h2>
+<p>Si ves un anuncio engañoso, ofensivo o que se comporte mal, escríbenos a {{{titular.email}}} indicando la página y, si puedes, qué anuncio era. También puedes usar los controles del propio anuncio de Google para denunciarlo.</p>
+{{> legal/_partes/enlaces}}

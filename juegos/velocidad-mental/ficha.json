@@ -1,0 +1,15 @@
+{
+  "titulo": "Velocidad mental",
+  "descripcion": "Un minuto, tres vidas y una avalancha de operaciones: ¿es cierta o falsa? Responde rápido y encadena aciertos para sumar más.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "contrarreloj",
+    "cálculo",
+    "un jugador"
+  ],
+  "categoria": "matematicas",
+  "dificultad": "media",
+  "duracion": "1-2 min",
+  "orden": 14
+}

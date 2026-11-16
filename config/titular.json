@@ -1,0 +1,10 @@
+{
+  "_ayuda": "Datos del titular de la web. Aparecen en el aviso legal, la política de privacidad, el contacto y demás páginas legales. Déjalos vacíos si todavía no los tienes: las páginas mostrarán «[COMPLETAR POR EL TITULAR]» y el comprobador (python3 sitio.py comprobar) no te dejará publicar en producción hasta que los rellenes. No inventes ninguno.",
+  "nombre": "",
+  "nif": "",
+  "domicilio": "",
+  "email": "",
+  "telefono": "",
+  "registro": "",
+  "alojamiento": ""
+}

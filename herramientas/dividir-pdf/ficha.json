@@ -1,0 +1,8 @@
+{
+  "titulo": "Dividir PDF",
+  "descripcion": "Divide un PDF en varios archivos: una página por archivo, por rangos o cada cierto número de páginas.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 4
+}

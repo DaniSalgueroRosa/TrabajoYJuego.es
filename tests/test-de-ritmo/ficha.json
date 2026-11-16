@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de ritmo: pulsa al compás",
+  "descripcion": "Sigue el pulso de un metrónomo y luego continúa tú solo. Mide tu desfase, tu regularidad y cómo mantienes el tempo con 60, 90 o 120 ppm.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de ritmo",
+    "metrónomo",
+    "sentido del ritmo",
+    "tempo",
+    "pulso"
+  ],
+  "categoria": "vista-oido",
+  "duracion": "30 s",
+  "orden": 23,
+  "tema": {
+    "fondo": "#2B2B2B",
+    "texto": "#F2F2F2",
+    "acento": "#9BE3C8"
+  }
+}

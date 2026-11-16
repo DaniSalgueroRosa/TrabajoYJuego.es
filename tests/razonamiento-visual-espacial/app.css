@@ -1,0 +1,11 @@
+body[data-item="razonamiento-visual-espacial"] .rv-zona { display: grid; justify-items: center; align-content: center; gap: var(--e4); }
+body[data-item="razonamiento-visual-espacial"] .rv-mensaje { margin: 0; max-width: 38rem; font-weight: 700; line-height: 1.45; }
+body[data-item="razonamiento-visual-espacial"] .rv-juego { display: grid; justify-items: center; gap: var(--e3); width: 100%; }
+body[data-item="razonamiento-visual-espacial"] .rv-figura { display: grid; place-items: center; min-height: 9rem; padding: var(--e3); background: var(--t-fondo); border: 2px solid var(--tt-linea); border-radius: 12px; min-width: 10rem; }
+body[data-item="razonamiento-visual-espacial"] .rv-opciones { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; width: min(100%, 26rem); }
+body[data-item="razonamiento-visual-espacial"] .rv-opcion { appearance: none; position: relative; display: grid; place-items: center; min-height: 8rem; padding: var(--e3); background: var(--t-fondo); border: 3px solid var(--tt-linea); border-radius: 12px; cursor: pointer; }
+body[data-item="razonamiento-visual-espacial"] .rv-opcion:hover { border-color: var(--t-acento); }
+body[data-item="razonamiento-visual-espacial"] .rv-opcion:focus-visible { outline: 4px solid var(--t-texto); outline-offset: 2px; }
+body[data-item="razonamiento-visual-espacial"] .rv-letra { position: absolute; left: 8px; top: 4px; font: 700 0.95rem / 1 var(--tt-fuente-tit); color: var(--tt-suave); }
+body[data-item="razonamiento-visual-espacial"] .rv-svg rect { fill: var(--t-texto); }
+body[data-item="razonamiento-visual-espacial"] .rv-svg--ref rect { fill: var(--t-acento); }

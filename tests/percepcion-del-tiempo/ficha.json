@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de percepción del tiempo",
+  "descripcion": "Estima 3, 5, 8, 10 y 15 segundos sin reloj. Mide cuánto te desvías en cada uno y si tiendes a pasarte o a quedarte corto.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "percepción del tiempo",
+    "estimar segundos",
+    "time perception",
+    "reloj interno",
+    "cuenta mental"
+  ],
+  "categoria": "memoria-percepcion",
+  "duracion": "2 min",
+  "orden": 27,
+  "tema": {
+    "fondo": "#F3F7F5",
+    "texto": "#14201C",
+    "acento": "#C21E4A"
+  }
+}

@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="conversor-csv-a-json">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>De CSV a JSON en un clic</h2>
+  <p>Un CSV es la forma más sencilla de guardar una tabla, y es lo que exportan Excel, Google Sheets y casi cualquier programa de gestión. El JSON, en cambio, es el formato que esperan las API y las aplicaciones web. Esta herramienta convierte uno en otro: pega el contenido del CSV y obtendrás una lista de objetos, uno por fila, con los nombres de las columnas como claves. Detecta por sí sola si el archivo usa comas, puntos y comas, tabuladores o barras verticales.</p>
+  <h2>Lo que cuida la conversión</h2>
+  <ul><li><strong>Separador automático:</strong> los CSV de Excel en español suelen llevar punto y coma. La herramienta lo detecta mirando la primera fila y te dice cuál ha elegido; también puedes fijarlo a mano.</li><li><strong>Comillas y saltos de línea:</strong> los campos entrecomillados pueden contener el separador, comillas dobles escapadas dos veces y saltos de línea, como manda el estándar RFC 4180.</li><li><strong>Números sin sorpresas:</strong> los números se reconocen y se escriben sin comillas, pero «007» se queda como texto para no perder los ceros, y un entero de más de 15 cifras, como un número de tarjeta o un identificador, también, porque JavaScript lo redondearía. Con la opción de decimales con coma, «3,14» pasa a 3.14.</li><li><strong>Booleanos y vacíos:</strong> true y false, también en mayúsculas como las exporta Excel, se convierten en verdadero y falso, y las celdas vacías pueden ser cadenas vacías o null.</li></ul>
+  <h2>Cabecera, filas irregulares y nombres repetidos</h2>
+  <p>Si desmarcas la casilla de la cabecera, el resultado es una lista de listas, sin nombres. Si una fila tiene más o menos celdas que la cabecera, la herramienta rellena las que faltan, llama «columna N» a las sobrantes y te avisa de cuántas filas eran irregulares. Los nombres de columna vacíos o repetidos se renombran para que ninguna clave pise a otra. El archivo se procesa en tu navegador y sirve para tablas de varios miles de filas, y puedes descargar el resultado como un archivo .json.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Qué pasa con las comillas dentro de un campo?</summary>
+    <p>En un CSV, un campo entre comillas puede llevar una comilla doble escrita dos veces. La herramienta la convierte en una sola comilla en el texto del JSON.</p>
+  </details>
+  <details>
+    <summary>¿Por qué «007» no se convierte en número?</summary>
+    <p>Porque al hacerlo se perderían los ceros de la izquierda. Se mantiene como texto. Lo mismo ocurre con enteros de más de 15 cifras, que se redondearían.</p>
+  </details>
+  <details>
+    <summary>Mi archivo tiene acentos rotos, ¿qué hago?</summary>
+    <p>Esta herramienta trabaja con el texto que pegas. Si al exportar desde Excel se ven mal, guarda el CSV como «CSV UTF-8» o abre el archivo con un editor de texto y copia el contenido.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda mi CSV?</summary>
+    <p>No. La conversión se hace en tu navegador y no se envía ni se almacena nada.</p>
+  </details>
+</div>

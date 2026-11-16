@@ -1,0 +1,11 @@
+{
+  "titulo": "Calcula 24: llega a 24 con cuatro números",
+  "descripcion": "Combina cuatro números con sumas, restas, multiplicaciones y divisiones hasta obtener 24. Con pista, deshacer y rompecabezas siempre resolubles.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": ["juego del 24", "cálculo mental", "números", "operaciones"],
+  "categoria": "matematicas",
+  "dificultad": "media",
+  "duracion": "1-5 min",
+  "orden": 57
+}

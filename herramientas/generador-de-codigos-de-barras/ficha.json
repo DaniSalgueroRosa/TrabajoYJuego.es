@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de códigos de barras",
+  "descripcion": "Crea códigos de barras EAN-13, EAN-8, UPC-A y Code 128 con dígito de control automático y descárgalos en PNG o SVG. Sin cuentas y sin enviar datos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "imagenes",
+  "orden": 118
+}

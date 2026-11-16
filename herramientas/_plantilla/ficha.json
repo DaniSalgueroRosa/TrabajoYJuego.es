@@ -1,0 +1,7 @@
+{
+  "titulo": "ESCRIBE: nombre de la herramienta",
+  "descripcion": "ESCRIBE: una frase de 40 a 160 caracteres que diga qué hace y para quién. Sale en Google y en las tarjetas.",
+  "fecha": "2026-01-01",
+  "estado": "publicado",
+  "etiquetas": ["ESCRIBE", "etiquetas", "opcionales"]
+}

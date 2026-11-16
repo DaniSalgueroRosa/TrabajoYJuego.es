@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trabajar con JSON y CSV | TrabajoYJuego</title>
+<meta name="description" content="Cómo formatear y validar un JSON, entender sus errores más comunes y pasar datos entre JSON y CSV sin perder ceros, acentos ni cifras.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://trabajoyjuego.es/recursos/trabajar-con-json-y-csv/">
+<meta name="theme-color" content="#1D3A34">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="TrabajoYJuego">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Trabajar con JSON y CSV | TrabajoYJuego">
+<meta property="og:description" content="Cómo formatear y validar un JSON, entender sus errores más comunes y pasar datos entre JSON y CSV sin perder ceros, acentos ni cifras.">
+<meta property="og:url" content="https://trabajoyjuego.es/recursos/trabajar-con-json-y-csv/">
+<meta property="og:image" content="https://trabajoyjuego.es/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b2ce0bfd">
+<link rel="stylesheet" href="../../assets/css/recursos.css?v=5813938c">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Trabajar con JSON y CSV","description":"Cómo formatear y validar un JSON, entender sus errores más comunes y pasar datos entre JSON y CSV sin perder ceros, acentos ni cifras.","datePublished":"2026-11-14","dateModified":"2026-11-14","mainEntityOfPage":"https://trabajoyjuego.es/recursos/trabajar-con-json-y-csv/","inLanguage":"es","image":"https://trabajoyjuego.es/assets/img/og.png","author":{"@id":"https://trabajoyjuego.es/#organizacion"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Recursos","item":"https://trabajoyjuego.es/recursos/"},{"@type":"ListItem","position":3,"name":"Trabajar con JSON y CSV","item":"https://trabajoyjuego.es/recursos/trabajar-con-json-y-csv/"}]}</script>
+
+</head>
+<body data-seccion="recursos" data-item="trabajar-con-json-y-csv">
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera-interior">
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <nav class="cabecera-nav" aria-label="Secciones">
+      <ul>
+        <li data-grupo="trabajo"><a href="../../herramientas/">Herramientas</a></li>
+        <li data-grupo="trabajo"><a href="../../recursos/" aria-current="page">Recursos</a></li>
+        <li data-grupo="juego" class="cabecera-cambio"><a href="../../juegos/">Juegos</a></li>
+        <li data-grupo="juego"><a href="../../tests/">Tests</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1" data-mundo="trabajo">
+<article class="ficha">
+  <header class="ficha-cabecera">
+    <div class="contenedor">
+      <nav class="migas" aria-label="Ruta de navegación">
+  <ol>
+    <li><a href="../../">Inicio</a></li>
+    <li><a href="../../recursos/">Recursos</a></li>
+    <li><span aria-current="page">Trabajar con JSON y CSV</span></li>
+  </ol>
+</nav>
+
+      <h1 class="ficha-titulo"><span class="marca">Trabajar con JSON y CSV</span></h1>
+      <p class="ficha-lead">Cómo formatear y validar un JSON, entender sus errores más comunes y pasar datos entre JSON y CSV sin perder ceros, acentos ni cifras.</p>
+      <div class="ficha-meta">
+        <p>Publicado el <time datetime="2026-11-14">14 de noviembre de 2026</time></p>
+        <ul class="ficha-etiquetas" aria-label="Etiquetas">
+          <li>JSON</li>
+          <li>CSV</li>
+          <li>datos</li>
+          <li>programación</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="contenedor ficha-cuerpo">
+<p>JSON y CSV son los dos formatos con los que se mueven casi todos los datos entre programas. El JSON lo entregan las API y lo esperan las aplicaciones web; el CSV es lo que exportan y abren las hojas de cálculo. Cuando algo falla, el mensaje de error rara vez ayuda: un carácter de más, un separador equivocado, un cero que desaparece. Las cuatro herramientas de esta guía están pensadas para localizar esos fallos y para convertir entre ambos formatos sin alterar los datos. Todo ocurre en tu navegador, de modo que puedes usarlas con información privada.</p>
+
+<h2>Cuando el JSON no se lee: valida primero</h2>
+<p>Si una aplicación rechaza un JSON, empieza con <a href="../../herramientas/validador-json/">Validador JSON</a>. Comprueba la sintaxis estricta del estándar y te dice la línea y la columna del primer problema, con una flecha sobre el punto exacto. La columna a veces cae algo después del fallo real, así que mira también el carácter anterior. Los errores más frecuentes son siempre los mismos:</p>
+<ul>
+  <li>Una coma tras el último elemento de un objeto o lista.</li>
+  <li>Comillas simples en lugar de dobles, o claves sin comillas.</li>
+  <li>Comentarios, que el estándar no admite aunque algunos programas los toleren.</li>
+  <li>Valores que no existen en JSON, como <code>undefined</code> o <code>NaN</code>.</li>
+  <li>Ceros a la izquierda en un número, como 007.</li>
+</ul>
+<p>Si el JSON es válido, te da un resumen de su estructura: tipo del valor principal, número de objetos, listas y claves, y niveles de anidamiento. Ten claro qué no comprueba: no sabe si falta un campo que tu aplicación necesita ni si un valor tiene el formato correcto.</p>
+
+<h2>Para leerlo o enviarlo: formatea o minifica</h2>
+<p><a href="../../herramientas/formateador-json/">Formateador JSON</a> tiene dos modos. Embellecer deja cada clave en su línea, con la sangría que elijas, para leer, revisar y comparar. Minificar quita todos los espacios para enviarlo por red o incrustarlo. Lo que lo distingue es que no reescribe tus datos: un entero largo o un 1.50 se copian tal como están, y solo cambian los espacios, algo que no hacen todos los formateadores. Si ordenas las claves a todos los niveles, comparar dos documentos resulta mucho más fácil. Avisa de las claves repetidas, casi siempre un error.</p>
+
+<h2>De JSON a una hoja de cálculo</h2>
+<p><a href="../../herramientas/conversor-json-a-csv/">Conversor JSON a CSV</a> convierte una lista de objetos en una tabla, con una columna por clave y una fila por objeto. Los objetos anidados se aplanan con un punto, por ejemplo <code>direccion.ciudad</code>, y las listas internas se escriben como JSON en una celda para no perder información. Hay un detalle de Excel en español que causa muchas consultas: si al abrir el archivo todo aparece en una sola columna, genera de nuevo el CSV con punto y coma, que es el separador habitual. Para que los acentos y la eñe se vean bien, usa la descarga pensada para Excel. Si los datos vienen de una fuente que no controlas, activa la casilla de neutralizar fórmulas, porque una celda que empieza por un signo igual podría ejecutarse al abrir la hoja.</p>
+
+<h2>De una hoja de cálculo a JSON</h2>
+<p><a href="../../herramientas/conversor-csv-a-json/">Conversor CSV a JSON</a> detecta si el archivo usa comas, puntos y comas, tabuladores o barras verticales, y respeta las comillas y los saltos de línea dentro de un campo. Lo cuidadoso está en los números: «007» se queda como texto para no perder ceros, y un entero de más de 15 cifras, como un identificador, también, porque el redondeo de JavaScript lo estropearía. Con decimales con coma, la opción adecuada convierte «3,14» en 3.14. Si una fila tiene más o menos celdas que la cabecera, la herramienta te avisa y rellena o nombra las que faltan o sobran.</p>
+
+<h2>Un flujo típico</h2>
+<ol>
+  <li>Recibes datos de una API: valídalos y formatéalos para entenderlos.</li>
+  <li>Conviértelos a CSV para que otra persona los revise en una hoja de cálculo.</li>
+  <li>Cuando vuelvan corregidos, pasa el CSV a JSON y vuelve a validar el resultado.</li>
+  <li>Minifica la versión final antes de enviarla o incrustarla.</li>
+</ol>
+
+<h2>Más herramientas para programar</h2>
+<p>Para codificar datos, calcular huellas o crear identificadores, mira la guía de <a href="../base64-hashes-y-uuid/">Base64, hashes y UUID</a>. Y si publicas una web, la de <a href="../antes-de-publicar-una-web/">preparar una web antes de publicarla</a> incluye el minificador de HTML, CSS y JavaScript.</p>
+
+  </div>
+</article>
+
+</main>
+<footer class="pie">
+  <div class="contenedor pie-interior">
+    <div class="pie-marca">
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
+    </div>
+    <nav class="pie-nav" aria-label="Secciones, en el pie de página">
+      <div class="pie-grupo" data-grupo="trabajo">
+        <h2 class="pie-grupo-titulo">Trabajo</h2>
+        <ul>
+          <li><a href="../../herramientas/">Herramientas</a></li>
+          <li><a href="../../recursos/">Recursos</a></li>
+        </ul>
+      </div>
+      <div class="pie-grupo" data-grupo="juego">
+        <h2 class="pie-grupo-titulo">Juego</h2>
+        <ul>
+          <li><a href="../../juegos/">Juegos</a></li>
+          <li><a href="../../tests/">Tests</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <nav class="contenedor pie-legales" aria-label="Información legal">
+    <ul>
+      <li><a href="../../legal/aviso-legal/">Aviso legal</a></li>
+      <li><a href="../../legal/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="../../legal/politica-de-cookies/">Política de cookies</a></li>
+      <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
+      <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
+      <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
+    </ul>
+  </nav>
+  <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
+</footer>
+
+</body>
+</html>

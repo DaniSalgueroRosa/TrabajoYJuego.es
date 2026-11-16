@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de nivel de vocabulario de inglés",
+  "descripcion": "Treinta palabras en inglés, de A1 a C1, para estimar tu nivel de vocabulario. Eliges el significado en español y se corrige al momento.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "vocabulario de inglés",
+    "nivel de inglés",
+    "test de inglés",
+    "niveles A1 B1 C1",
+    "palabras en inglés"
+  ],
+  "categoria": "otros-idiomas",
+  "duracion": "5 min",
+  "orden": 84,
+  "tema": {
+    "fondo": "#0F2530",
+    "texto": "#EAF6FA",
+    "acento": "#7EE0C3"
+  }
+}

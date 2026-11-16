@@ -1,0 +1,21 @@
+{
+  "titulo": "Calculadora de amor",
+  "descripcion": "Escribe dos nombres y mira el porcentaje de afinidad que sale con el método clásico de las letras de LOVES. Con medidor y los pasos del cálculo. Es un juego.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "calculadora de amor",
+    "love calculator",
+    "compatibilidad de nombres",
+    "porcentaje de amor",
+    "test de pareja"
+  ],
+  "categoria": "relaciones",
+  "duracion": "1 min",
+  "orden": 55,
+  "tema": {
+    "fondo": "#2B0F1D",
+    "texto": "#FFE9F1",
+    "acento": "#FF6FA3"
+  }
+}

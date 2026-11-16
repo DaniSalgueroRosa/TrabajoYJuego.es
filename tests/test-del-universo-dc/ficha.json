@@ -1,0 +1,21 @@
+{
+  "titulo": "Test del Universo DC: ¿qué héroe eres?",
+  "descripcion": "Diez situaciones para saber con qué personaje del Universo DC compartes más carácter, de Batman a Catwoman, con radar de rasgos y ranking. Test de fans.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test del Universo DC",
+    "qué héroe de DC soy",
+    "Batman o Superman",
+    "personajes de DC",
+    "test de superhéroes"
+  ],
+  "categoria": "series-cine",
+  "duracion": "3 min",
+  "orden": 69,
+  "tema": {
+    "fondo": "#0E1428",
+    "texto": "#EEF2FF",
+    "acento": "#5AA9FF"
+  }
+}

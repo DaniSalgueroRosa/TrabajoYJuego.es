@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de sistemas numéricos",
+  "descripcion": "Convierte números entre binario, octal, decimal, hexadecimal y cualquier base de 2 a 36, sin límite de tamaño y con negativos. Resultados al instante.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 88
+}

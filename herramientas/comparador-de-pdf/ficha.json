@@ -1,0 +1,8 @@
+{
+  "titulo": "Comparador de documentos PDF",
+  "descripcion": "Compara dos PDF y mira qué texto se ha añadido, eliminado o cambiado, con las palabras distintas marcadas, el número de página y los datos de ambos archivos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 161
+}

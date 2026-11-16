@@ -1,0 +1,16 @@
+{
+  "titulo": "Test de clics: ¿cuántos por segundo?",
+  "descripcion": "Mide tus clics por segundo en 5, 10 o 30 segundos. Funciona con ratón, dedo o teclado y te da un nivel al terminar.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "clics por segundo",
+    "cps",
+    "test",
+    "habilidad"
+  ],
+  "categoria": "habilidad",
+  "dificultad": "facil",
+  "duracion": "10-30 s",
+  "orden": 29
+}

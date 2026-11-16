@@ -1,0 +1,8 @@
+{
+  "titulo": "Inversor de texto",
+  "descripcion": "Invierte un texto al revés: las letras, el orden de las palabras, cada palabra o las líneas. También lo escribe boca abajo y detecta palíndromos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 58
+}

@@ -1,0 +1,14 @@
+{
+  "titulo": "Descuentos, IVA, propinas y gastos",
+  "descripcion": "Cómo calcular el precio real de una oferta, sumar o quitar el IVA, decidir una propina y repartir los gastos de un viaje o de un piso.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "compras",
+    "IVA",
+    "descuentos",
+    "propina"
+  ],
+  "categoria": "finanzas",
+  "orden": 12
+}

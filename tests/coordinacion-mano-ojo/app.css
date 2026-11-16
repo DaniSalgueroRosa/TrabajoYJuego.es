@@ -1,0 +1,5 @@
+body[data-item="coordinacion-mano-ojo"] .mo-area { position: relative; display: block; width: 100%; aspect-ratio: 16 / 10; min-height: 15rem; padding: 0; overflow: hidden; cursor: crosshair; touch-action: none; user-select: none; -webkit-user-select: none; }
+body[data-item="coordinacion-mano-ojo"] .mo-obj { box-sizing: border-box; position: absolute; left: 0; top: 0; border-radius: 50%; border: 4px solid var(--t-texto); background: color-mix(in srgb, var(--t-acento) 45%, var(--t-fondo)); will-change: transform; pointer-events: none; }
+body[data-item="coordinacion-mano-ojo"] .mo-obj[data-dentro="1"] { border-width: 9px; }
+body[data-item="coordinacion-mano-ojo"] .mo-mensaje { position: absolute; left: 6%; right: 6%; bottom: 5%; margin: 0; text-align: center; font-weight: 700; pointer-events: none; }
+@media (max-width: 640px) { body[data-item="coordinacion-mano-ojo"] .mo-area { aspect-ratio: 4 / 5; } }

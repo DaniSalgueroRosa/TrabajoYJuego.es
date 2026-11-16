@@ -1,0 +1,14 @@
+{
+  "titulo": "Texto a voz",
+  "descripcion": "Convierte texto en voz con las voces de tu dispositivo: elige idioma, velocidad y tono, pausa y reanuda. Sin enviar tu texto a ningún servidor.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "voz",
+    "lectura",
+    "accesibilidad"
+  ],
+  "categoria": "audio",
+  "orden": 108
+}

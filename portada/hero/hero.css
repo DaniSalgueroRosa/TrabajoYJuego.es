@@ -1,0 +1,114 @@
+/* PORTADA · HERO: dos mitades que se reparten la pantalla.
+     Trabajo → papel de cuaderno, letra formal, movimiento suave (barridos y deslizamientos).
+     Juego   → pantalla de arcade, letra de píxeles, movimiento a saltos (fotograma a fotograma).
+   La mitad sobre la que está el ratón (o el foco del teclado) se ensancha; la «y» viaja pegada a la costura.
+   En móvil se apilan y no se ensanchan. */
+.hero { position: relative; display: flex; min-height: clamp(32rem, calc(100svh - 11rem), 46rem); }
+.hero-mitad { position: relative; display: flex; flex: 1 1 0; min-width: 0; container-type: inline-size; transition: flex-grow 0.6s var(--suave); }
+.hero-mitad--primera { z-index: 2; }
+.hero-mitad:is(:hover, :focus-within) { flex-grow: 1.5; }
+
+.hero-fondo { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.hero-interior {
+  position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: space-between; gap: var(--e6);
+  width: 100%; padding: var(--e6) clamp(1.25rem, 6cqi, 3.5rem) var(--e5);
+}
+
+.hero-palabra { width: fit-content; font-size: clamp(3rem, 10vw, 7rem); font-size: clamp(3rem, 18cqi, 9rem); line-height: 0.95; letter-spacing: -0.045em; }
+.hero-frase { max-width: 24rem; margin-top: var(--e4); font-size: var(--t1); line-height: 1.35; }
+
+.hero-enlaces { margin: 0; padding: 0; list-style: none; }
+.hero-enlace {
+  display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 0.2rem var(--e4);
+  margin-inline: calc(var(--e2) * -1); padding: var(--e4) var(--e2);
+  border-top: 2px solid currentColor; color: inherit; text-decoration: none; transition: background-color 0.3s;
+}
+.hero-enlaces li:last-child .hero-enlace { border-bottom: 2px solid currentColor; }
+.hero-enlace:hover, .hero-enlace:focus-visible { background-color: var(--tinte); }
+.hero-enlace:focus-visible { outline-offset: -3px; }
+.hero-enlace-titulo { grid-column: 1; justify-self: start; font-size: clamp(1.4rem, 5.5cqi, 2rem); line-height: 1.1; }
+.hero-enlace-cuenta { grid-column: 2; grid-row: 1; font-size: var(--t-1); font-weight: 700; white-space: nowrap; }
+.hero-enlace-resumen { grid-column: 1 / -1; font-size: var(--t-1); }
+
+/* ---------- Trabajo */
+.hero-mitad[data-mundo="trabajo"] { background: var(--papel-trabajo); color: var(--pizarra); --foco: var(--pizarra); --tinte: rgba(29, 58, 52, 0.09); }
+.hero-mitad[data-mundo="trabajo"] .hero-fondo::before {
+  content: ""; position: absolute; inset: -40px;
+  background-image: linear-gradient(rgba(29, 58, 52, 0.13) 1px, transparent 1px), linear-gradient(90deg, rgba(29, 58, 52, 0.13) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.hero-mitad[data-mundo="trabajo"] .hero-palabra {
+  font-family: var(--f-trabajo); font-weight: 700;
+  background: linear-gradient(var(--limon), var(--limon)) no-repeat 0 90% / 100% 0.24em;   /* subrayador */
+}
+.hero-mitad[data-mundo="trabajo"] .hero-enlace-titulo {
+  font-family: var(--f-trabajo); font-weight: 700;
+  background: linear-gradient(var(--limon), var(--limon)) no-repeat 0 88% / 0 0.4em;
+  transition: background-size 0.5s var(--suave);
+}
+.hero-mitad[data-mundo="trabajo"] .hero-enlace:is(:hover, :focus-visible) .hero-enlace-titulo { background-size: 100% 0.4em; }
+
+/* ---------- Juego */
+.hero-mitad[data-mundo="juego"] { background: var(--tinta); color: var(--tiza); --foco: var(--limon); --tinte: rgba(234, 242, 238, 0.1); }
+.hero-mitad[data-mundo="juego"] .hero-fondo::before {
+  content: ""; position: absolute; inset: 0;
+  background-image: radial-gradient(rgba(234, 242, 238, 0.16) 2px, transparent 2.5px); background-size: 24px 24px;
+}
+.hero-mitad[data-mundo="juego"] .hero-fondo::after {   /* líneas de barrido de un monitor CRT */
+  content: ""; position: absolute; inset: 0;
+  background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0 2px, transparent 2px 4px);
+}
+.hero-mitad[data-mundo="juego"] .hero-palabra {
+  font-family: var(--f-pixel); font-weight: 400; letter-spacing: 0; line-height: 1; color: var(--sandia);
+  font-size: clamp(3rem, 10vw, 7rem); font-size: round(down, clamp(3rem, 21cqi, 9rem), 10px);
+}
+.hero-mitad[data-mundo="juego"] .hero-palabra::after {   /* cursor que parpadea */
+  content: "█" / ""; margin-left: 0.08em; color: var(--limon); animation: hero-parpadeo 1.1s steps(1, end) infinite;
+}
+.hero-mitad[data-mundo="juego"] .hero-enlace-titulo { font-family: var(--f-pixel); font-weight: 400; line-height: 1.2; -webkit-text-stroke: 0.7px currentColor; font-size: 1.5rem; font-size: round(down, 1.75rem, 10px); }
+.hero-mitad[data-mundo="juego"] .hero-enlace-titulo::after { content: " ▶" / ""; visibility: hidden; color: var(--limon); }
+.hero-mitad[data-mundo="juego"] .hero-enlace:is(:hover, :focus-visible) .hero-enlace-titulo { color: var(--limon); }
+.hero-mitad[data-mundo="juego"] .hero-enlace:is(:hover, :focus-visible) .hero-enlace-titulo::after { visibility: visible; }
+.hero-mitad[data-mundo="juego"] .hero-enlace-cuenta { color: var(--limon); }
+.hero-mitad[data-mundo="juego"] .hero-enlace-resumen { color: var(--tiza-suave); }
+
+/* ---------- La «y» de la costura (viaja con el borde de la primera mitad) */
+.hero-y {
+  position: absolute; z-index: 3; top: 50%; right: 0; display: grid; place-items: center;
+  width: clamp(4.25rem, 8vw, 6.5rem); aspect-ratio: 1; padding-bottom: 0.08em;
+  border: 4px solid var(--tinta); border-radius: 50%; background: var(--limon); color: var(--tinta);
+  font: 700 clamp(2.4rem, 5vw, 4rem) / 1 var(--f-trabajo);
+  transform: translate(50%, -50%) rotate(-8deg);
+}
+
+/* ---------- Entrada (una sola vez, al cargar). Trabajo desliza con suavidad; Juego aparece letra a letra. */
+@keyframes hero-parpadeo { 50% { opacity: 0; } }
+@keyframes hero-revelar { from { clip-path: inset(-0.2em 100% -0.3em -0.1em); } to { clip-path: inset(-0.2em -0.1em -0.3em -0.1em); } }
+@keyframes hero-subir { from { opacity: 0; transform: translateY(16px); } }
+@keyframes hero-marcador { from { background-size: 0 0.24em; } }
+@keyframes hero-encender { from { opacity: 0; } }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-mitad[data-mundo="trabajo"] .hero-palabra { animation: hero-revelar 0.9s var(--suave) backwards, hero-marcador 0.7s var(--suave) 0.7s backwards; }
+  .hero-mitad[data-mundo="trabajo"] .hero-frase { animation: hero-subir 0.7s var(--suave) 0.45s backwards; }
+  .hero-mitad[data-mundo="trabajo"] .hero-enlaces li { animation: hero-subir 0.7s var(--suave) calc(0.6s + var(--n, 0) * 0.12s) backwards; }
+  .hero-mitad[data-mundo="trabajo"] .hero-fondo::before { animation: hero-rejilla 14s linear infinite; }
+
+  .hero-mitad[data-mundo="juego"] .hero-palabra { animation: hero-revelar 0.7s steps(5, end) backwards; }
+  .hero-mitad[data-mundo="juego"] .hero-frase { animation: hero-encender 0.5s steps(3, end) 0.5s backwards; }
+  .hero-mitad[data-mundo="juego"] .hero-enlaces li { animation: hero-encender 0.5s steps(3, end) calc(0.6s + var(--n, 0) * 0.2s) backwards; }
+}
+@keyframes hero-rejilla { to { transform: translate(40px, 40px); } }
+.hero-enlaces li:nth-child(2) { --n: 1; }
+.hero-enlaces li:nth-child(3) { --n: 2; }
+.hero-enlaces li:nth-child(4) { --n: 3; }
+.hero-enlaces li:nth-child(5) { --n: 4; }
+.hero-enlaces li:nth-child(6) { --n: 5; }
+
+/* ---------- Móvil: una mitad encima de la otra */
+@media (max-width: 52rem) {
+  .hero { flex-direction: column; min-height: 0; }
+  .hero-mitad { flex: none; min-height: 24rem; }
+  .hero-mitad:is(:hover, :focus-within) { flex-grow: 0; }
+  .hero-y { top: auto; right: auto; bottom: 0; left: 50%; transform: translate(-50%, 50%) rotate(-8deg); }
+  .hero-mitad[data-mundo="juego"] .hero-interior { padding-top: calc(var(--e6) + 2rem); }
+}

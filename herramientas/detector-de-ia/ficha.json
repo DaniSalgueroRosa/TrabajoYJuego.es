@@ -1,0 +1,8 @@
+{
+  "titulo": "Detector de patrones de IA en textos",
+  "descripcion": "Analiza un texto y enseña señales como repeticiones, fórmulas típicas o frases uniformes. No da porcentajes ni prueba autoría: úsalo con cautela.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 110
+}

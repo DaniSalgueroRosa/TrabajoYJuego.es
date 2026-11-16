@@ -1,0 +1,38 @@
+<div class="juego" data-juego="torre-de-hanoi">
+  <div class="pantalla" id="hn">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>La regla del juego</h2>
+  <p>Hay tres torres y una pila de discos de distintos tamaños, ordenados de mayor a menor en la primera torre, con el más pequeño arriba. El objetivo es llevar toda la pila a la tercera torre. Solo se puede mover un disco cada vez, siempre el de arriba de una torre, y nunca se puede poner un disco sobre otro más pequeño.</p>
+  <p>Es un rompecabezas inventado en el siglo XIX y se resuelve siempre con un patrón. Cuanto más discos añades, más movimientos hacen falta: con tres discos son siete como mínimo, con cuatro, quince, y con siete, ciento veintisiete.</p>
+  <h2>Cómo se mueven los discos</h2>
+  <p>Toca una torre para coger su disco de arriba y toca otra torre para dejarlo allí. Con el teclado, las teclas <kbd>1</kbd>, <kbd>2</kbd> y <kbd>3</kbd> hacen lo mismo, y <kbd>Esc</kbd> cancela la selección. Si el movimiento no está permitido, el juego te explica por qué y no cuenta como movimiento.</p>
+  <p>Cada disco lleva su número dentro, de modo que el juego se puede seguir sin fijarse en los colores. Los lectores de pantalla leen el contenido de cada torre de arriba abajo.</p>
+  <h2>El truco para resolverlo</h2>
+  <p>Para mover una pila de n discos de una torre a otra, primero hay que llevar los n−1 discos de arriba a la torre libre, después mover el disco grande al destino y, por último, llevar los n−1 discos encima de él. Cada una de esas partes pequeñas se resuelve con el mismo truco, y así hasta llegar a un solo disco.</p>
+  <p>Una regla práctica: con un número impar de discos, el disco más pequeño se mueve siempre hacia la torre del destino; con un número par, hacia la torre libre. Alternar un movimiento del disco pequeño con el único movimiento legal que no lo toca resuelve el puzle sin pensar.</p>
+  <h2>Pista, deshacer y puntos</h2>
+  <p>El botón de pista calcula el mejor movimiento posible desde la posición actual, aunque hayas cometido errores antes, y resalta la torre de origen y la de destino. Cada pista resta 30 puntos. Deshacer vuelve atrás el último movimiento y también lo resta del contador.</p>
+  <p>Al terminar, la puntuación depende del número de discos, de cuántos movimientos has usado por encima del mínimo, del tiempo y de las pistas.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Cuántos movimientos necesito como mínimo?</summary>
+    <p>El mínimo es 2 elevado al número de discos menos 1: 7 con tres discos, 15 con cuatro, 31 con cinco, 63 con seis y 127 con siete. El marcador «Mínimo» te lo dice en todo momento.</p>
+  </details>
+  <details>
+    <summary>¿Se puede resolver siempre?</summary>
+    <p>Sí, desde cualquier posición legal es posible llevar toda la pila a la tercera torre. Por eso la pista funciona aunque hayas movido los discos sin plan.</p>
+  </details>
+  <details>
+    <summary>¿Qué pasa si intento un movimiento prohibido?</summary>
+    <p>No se mueve ningún disco y aparece un aviso que dice qué disco intentabas poner sobre cuál. No se cuenta como movimiento.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda mi partida?</summary>
+    <p>No: todo vive en la memoria de la pestaña y no se guarda nada en tu dispositivo.</p>
+  </details>
+</div>

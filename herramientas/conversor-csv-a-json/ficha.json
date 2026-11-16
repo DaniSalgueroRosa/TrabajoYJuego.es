@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor CSV a JSON",
+  "descripcion": "Convierte un CSV a JSON: detecta el separador, usa la primera fila como nombres, reconoce números y booleanos sin perder ceros ni cifras.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 84
+}

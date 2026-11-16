@@ -1,0 +1,341 @@
+{
+"_nota": "Lugares para «¿Dónde está?»: n nombre, t tipo, lat y lon en grados decimales. Para ampliar, añade objetos con el mismo formato (latitud positiva al norte, longitud positiva al este).",
+"lugares": [
+{
+"n": "Madrid (España)",
+"t": "Ciudad",
+"lat": 40.42,
+"lon": -3.7
+},
+{
+"n": "Barcelona (España)",
+"t": "Ciudad",
+"lat": 41.39,
+"lon": 2.17
+},
+{
+"n": "Sevilla (España)",
+"t": "Ciudad",
+"lat": 37.39,
+"lon": -5.99
+},
+{
+"n": "Santiago de Compostela (España)",
+"t": "Ciudad",
+"lat": 42.88,
+"lon": -8.54
+},
+{
+"n": "Tenerife (islas Canarias)",
+"t": "Isla",
+"lat": 28.29,
+"lon": -16.63
+},
+{
+"n": "Lisboa (Portugal)",
+"t": "Ciudad",
+"lat": 38.72,
+"lon": -9.14
+},
+{
+"n": "París (Francia)",
+"t": "Ciudad",
+"lat": 48.86,
+"lon": 2.35
+},
+{
+"n": "Londres (Reino Unido)",
+"t": "Ciudad",
+"lat": 51.51,
+"lon": -0.13
+},
+{
+"n": "Roma (Italia)",
+"t": "Ciudad",
+"lat": 41.9,
+"lon": 12.5
+},
+{
+"n": "Berlín (Alemania)",
+"t": "Ciudad",
+"lat": 52.52,
+"lon": 13.4
+},
+{
+"n": "Atenas (Grecia)",
+"t": "Ciudad",
+"lat": 37.98,
+"lon": 23.73
+},
+{
+"n": "Estambul (Turquía)",
+"t": "Ciudad",
+"lat": 41.01,
+"lon": 28.98
+},
+{
+"n": "Moscú (Rusia)",
+"t": "Ciudad",
+"lat": 55.76,
+"lon": 37.62
+},
+{
+"n": "Reikiavik (Islandia)",
+"t": "Ciudad",
+"lat": 64.15,
+"lon": -21.94
+},
+{
+"n": "Marrakech (Marruecos)",
+"t": "Ciudad",
+"lat": 31.63,
+"lon": -8.01
+},
+{
+"n": "El Cairo (Egipto)",
+"t": "Ciudad",
+"lat": 30.04,
+"lon": 31.24
+},
+{
+"n": "Lagos (Nigeria)",
+"t": "Ciudad",
+"lat": 6.52,
+"lon": 3.38
+},
+{
+"n": "Nairobi (Kenia)",
+"t": "Ciudad",
+"lat": -1.29,
+"lon": 36.82
+},
+{
+"n": "Ciudad del Cabo (Sudáfrica)",
+"t": "Ciudad",
+"lat": -33.92,
+"lon": 18.42
+},
+{
+"n": "Dubái (Emiratos Árabes Unidos)",
+"t": "Ciudad",
+"lat": 25.2,
+"lon": 55.27
+},
+{
+"n": "Nueva Delhi (India)",
+"t": "Ciudad",
+"lat": 28.61,
+"lon": 77.21
+},
+{
+"n": "Bombay (India)",
+"t": "Ciudad",
+"lat": 19.08,
+"lon": 72.88
+},
+{
+"n": "Pekín (China)",
+"t": "Ciudad",
+"lat": 39.9,
+"lon": 116.41
+},
+{
+"n": "Tokio (Japón)",
+"t": "Ciudad",
+"lat": 35.68,
+"lon": 139.69
+},
+{
+"n": "Seúl (Corea del Sur)",
+"t": "Ciudad",
+"lat": 37.57,
+"lon": 126.98
+},
+{
+"n": "Bangkok (Tailandia)",
+"t": "Ciudad",
+"lat": 13.76,
+"lon": 100.5
+},
+{
+"n": "Singapur",
+"t": "Ciudad",
+"lat": 1.35,
+"lon": 103.82
+},
+{
+"n": "Yakarta (Indonesia)",
+"t": "Ciudad",
+"lat": -6.21,
+"lon": 106.85
+},
+{
+"n": "Manila (Filipinas)",
+"t": "Ciudad",
+"lat": 14.6,
+"lon": 120.98
+},
+{
+"n": "Sídney (Australia)",
+"t": "Ciudad",
+"lat": -33.87,
+"lon": 151.21
+},
+{
+"n": "Auckland (Nueva Zelanda)",
+"t": "Ciudad",
+"lat": -36.85,
+"lon": 174.76
+},
+{
+"n": "Honolulú (Hawái)",
+"t": "Ciudad",
+"lat": 21.31,
+"lon": -157.86
+},
+{
+"n": "Los Ángeles (Estados Unidos)",
+"t": "Ciudad",
+"lat": 34.05,
+"lon": -118.24
+},
+{
+"n": "Nueva York (Estados Unidos)",
+"t": "Ciudad",
+"lat": 40.71,
+"lon": -74.01
+},
+{
+"n": "Vancouver (Canadá)",
+"t": "Ciudad",
+"lat": 49.28,
+"lon": -123.12
+},
+{
+"n": "Toronto (Canadá)",
+"t": "Ciudad",
+"lat": 43.65,
+"lon": -79.38
+},
+{
+"n": "Ciudad de México (México)",
+"t": "Ciudad",
+"lat": 19.43,
+"lon": -99.13
+},
+{
+"n": "La Habana (Cuba)",
+"t": "Ciudad",
+"lat": 23.11,
+"lon": -82.37
+},
+{
+"n": "Bogotá (Colombia)",
+"t": "Ciudad",
+"lat": 4.71,
+"lon": -74.07
+},
+{
+"n": "Quito (Ecuador)",
+"t": "Ciudad",
+"lat": -0.18,
+"lon": -78.47
+},
+{
+"n": "Lima (Perú)",
+"t": "Ciudad",
+"lat": -12.05,
+"lon": -77.04
+},
+{
+"n": "Santiago (Chile)",
+"t": "Ciudad",
+"lat": -33.45,
+"lon": -70.67
+},
+{
+"n": "Buenos Aires (Argentina)",
+"t": "Ciudad",
+"lat": -34.6,
+"lon": -58.38
+},
+{
+"n": "São Paulo (Brasil)",
+"t": "Ciudad",
+"lat": -23.55,
+"lon": -46.63
+},
+{
+"n": "Machu Picchu (Perú)",
+"t": "Monumento",
+"lat": -13.16,
+"lon": -72.55
+},
+{
+"n": "Pirámides de Guiza (Egipto)",
+"t": "Monumento",
+"lat": 29.98,
+"lon": 31.13
+},
+{
+"n": "Taj Mahal (India)",
+"t": "Monumento",
+"lat": 27.17,
+"lon": 78.04
+},
+{
+"n": "Stonehenge (Reino Unido)",
+"t": "Monumento",
+"lat": 51.18,
+"lon": -1.83
+},
+{
+"n": "Monte Everest (Nepal)",
+"t": "Montaña",
+"lat": 27.99,
+"lon": 86.93
+},
+{
+"n": "Kilimanjaro (Tanzania)",
+"t": "Montaña",
+"lat": -3.07,
+"lon": 37.36
+},
+{
+"n": "Gran Cañón (Estados Unidos)",
+"t": "Naturaleza",
+"lat": 36.11,
+"lon": -112.11
+},
+{
+"n": "Cataratas del Niágara",
+"t": "Naturaleza",
+"lat": 43.08,
+"lon": -79.07
+},
+{
+"n": "Gran Barrera de Coral (Australia)",
+"t": "Naturaleza",
+"lat": -18.29,
+"lon": 147.7
+},
+{
+"n": "Islas Galápagos (Ecuador)",
+"t": "Naturaleza",
+"lat": -0.74,
+"lon": -90.35
+},
+{
+"n": "Canal de Panamá",
+"t": "Monumento",
+"lat": 9.08,
+"lon": -79.68
+},
+{
+"n": "Petra (Jordania)",
+"t": "Monumento",
+"lat": 30.33,
+"lon": 35.44
+}
+]
+}

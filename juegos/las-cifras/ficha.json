@@ -1,0 +1,18 @@
+{
+  "titulo": "Las cifras: juego de números con operaciones",
+  "descripcion": "Juego de números: combina seis cifras con sumas, restas, multiplicaciones y divisiones para llegar a un objetivo de tres cifras. Tres rondas con tiempo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "las cifras",
+    "cálculo mental",
+    "números",
+    "operaciones",
+    "matemáticas",
+    "un jugador"
+  ],
+  "categoria": "matematicas",
+  "dificultad": "dificil",
+  "duracion": "5-8 min",
+  "orden": 41
+}

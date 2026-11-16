@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de horas lectivas",
+  "descripcion": "Calcula las horas lectivas de cada asignatura del curso a partir de las horas semanales y las semanas de clase, con el límite de faltas.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "estudiantes",
+  "orden": 27
+}

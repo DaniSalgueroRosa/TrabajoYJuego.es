@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="minificador-de-html-css-y-javascript">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Reduce el peso de tu código web</h2>
+  <p>Cuanto menos pesa una página, antes se carga, y eso se nota en la experiencia del visitante y en la posición en los buscadores. Los archivos HTML, CSS y JavaScript que escribimos están llenos de cosas que ayudan a las personas pero no al navegador: comentarios, sangrías, saltos de línea y espacios. Esta herramienta los quita y te muestra cuánto has ahorrado, sin cambiar lo que hace el código.</p>
+  <h2>Qué hace con cada lenguaje</h2>
+  <ul><li><strong>HTML:</strong> elimina los comentarios, reduce las series de espacios a uno solo, quita los espacios alrededor de las etiquetas de bloque como div, p o li, y ordena los espacios dentro de las etiquetas. No toca el contenido de pre ni de textarea, donde los espacios cuentan, ni los comentarios condicionales de Internet Explorer. El CSS y el JavaScript que haya dentro de la página se minifican también, si lo dejas marcado.</li><li><strong>CSS:</strong> quita comentarios, espacios y el último punto y coma de cada regla. Respeta los espacios que importan, como los de calc(), los de las propiedades personalizadas o los de los selectores descendientes.</li><li><strong>JavaScript:</strong> quita comentarios y espacios sobrantes, y conserva los saltos de línea que evitan errores en el código sin puntos y comas. Mantiene los comentarios de licencia que empiezan por /*!.</li></ul>
+  <h2>Qué no hace y cómo comprobarlo</h2>
+  <p>Es una minificación conservadora: no cambia los nombres de las variables, no acorta los colores ni simplifica expresiones. Por eso ahorra algo menos que las herramientas profesionales de empaquetado, pero a cambio el riesgo de estropear algo es mínimo. En JavaScript, la herramienta analiza el código, genera la versión reducida y la vuelve a analizar para comprobar que contiene exactamente los mismos elementos; si no puede asegurarlo, deja el código como estaba y te lo dice. En HTML, ten en cuenta que quitar espacios entre bloques supone que se comportan como bloques normales; si tu CSS los muestra en línea, desmarca esa opción. Prueba siempre el resultado antes de publicarlo. Todo el proceso se hace en tu navegador y el código no sale de tu dispositivo.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Puede estropear mi código?</summary>
+    <p>Es poco probable, porque solo quita lo que no afecta al funcionamiento, pero siempre conviene probarlo. En JavaScript, si la herramienta detecta algo que no puede reducir con seguridad, lo deja tal cual.</p>
+  </details>
+  <details>
+    <summary>¿Por qué mi JavaScript no queda en una sola línea?</summary>
+    <p>Porque si el código no usa puntos y comas, algunos saltos de línea son necesarios para que se interprete igual. Se conservan solo donde hacen falta.</p>
+  </details>
+  <details>
+    <summary>¿Se pueden recuperar los comentarios después?</summary>
+    <p>No. Guarda siempre el archivo original y publica el minificado. Los comentarios de licencia que empiezan por /*! se mantienen a propósito.</p>
+  </details>
+  <details>
+    <summary>¿Se envía mi código a algún servidor?</summary>
+    <p>No. La minificación se hace en tu navegador y no se guarda ni se transmite nada.</p>
+  </details>
+</div>

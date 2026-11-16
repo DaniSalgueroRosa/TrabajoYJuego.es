@@ -1,0 +1,8 @@
+body[data-item="memoria-numerica"] .mn-zona { display: grid; justify-items: center; align-content: center; gap: var(--e4); min-height: 20rem; }
+body[data-item="memoria-numerica"] .mn-mensaje { margin: 0; max-width: 36rem; font-weight: 700; line-height: 1.45; }
+body[data-item="memoria-numerica"] .mn-cifras { margin: 0; min-height: 1.1em; font: 700 clamp(2.2rem, 10vw, 4.4rem) / 1.1 var(--tt-fuente-num); letter-spacing: 0.08em; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+body[data-item="memoria-numerica"] .mn-oculto { color: var(--tt-linea); }
+body[data-item="memoria-numerica"] .mn-error { color: var(--t-acento); }
+body[data-item="memoria-numerica"] .mn-barra { width: min(100%, 24rem); height: 10px; background: var(--tt-linea); border-radius: 5px; overflow: hidden; }
+body[data-item="memoria-numerica"] .mn-barra i { display: block; height: 100%; width: 0; background: var(--t-acento); }
+body[data-item="memoria-numerica"] .mn-entrada { width: min(100%, 14rem); text-align: center; letter-spacing: 0.1em; }

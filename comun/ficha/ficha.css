@@ -1,0 +1,12 @@
+/* ESTRUCTURA COMÚN DE LA PÁGINA DE UN ELEMENTO (herramienta, guía, juego, test): franja de título + cuerpo.
+   El cuerpo es el contenido de su pagina.html. */
+.ficha-cabecera { background: var(--m-fondo); color: var(--m-texto); --foco: var(--m-texto); padding-block: var(--e5) var(--e6); }
+.ficha-titulo { margin-top: var(--e5); font-size: var(--t-ficha); line-height: 1; letter-spacing: -0.03em; }
+.ficha-lead { max-width: 40rem; margin-top: var(--e4); font-size: var(--t1); line-height: 1.4; }
+.ficha-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e2) var(--e4); margin-top: var(--e4); font-size: var(--t-1); }
+.ficha-etiquetas { display: flex; flex-wrap: wrap; gap: var(--e2); margin: 0; padding: 0; list-style: none; }
+.ficha-etiquetas li { padding: 0.1rem 0.7rem; border: 2px solid currentColor; border-radius: min(var(--m-radio, 0px), 999px); }
+.ficha-cuerpo { padding-block: var(--e6) var(--e8); }
+
+/* Elementos con «tema» propio (sobre todo Tests): toda la zona de contenido toma sus colores */
+main.con-tema { background: var(--t-fondo); color: var(--t-texto); --foco: var(--t-texto); }

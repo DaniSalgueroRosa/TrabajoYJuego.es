@@ -1,0 +1,32 @@
+<div class="herr" id="herr" data-herramienta="recortador-de-audio">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Quitar lo que sobra de un audio</h2>
+  <p>Carga un audio y verás su forma de onda: los picos altos son los momentos fuertes y las zonas planas, el silencio. Pulsa sobre la onda para mover el inicio o el final del recorte, o escribe los tiempos a mano si quieres precisión de décimas de segundo. La zona resaltada es el tramo elegido.</p>
+  <h2>Conservar o quitar</h2>
+  <p>Por defecto se <strong>conserva</strong> el tramo elegido y se descarta el resto: ideal para sacar una frase de una grabación, el estribillo de una canción o un tono de llamada. También puedes <strong>quitar</strong> el tramo y unir lo que queda a ambos lados, para eliminar una tos, una pausa larga o un anuncio en medio de un audio.</p>
+  <h2>Escuchar antes de guardar</h2>
+  <p>El botón de escuchar reproduce exactamente lo que vas a guardar, con el fundido incluido si lo has marcado. Si el corte suena brusco, activa el fundido de medio segundo al principio y al final, que evita el chasquido que a veces produce un recorte hecho en mitad de una onda.</p>
+  <h2>Formatos de salida</h2>
+  <p>Puedes guardar el recorte en WAV (16, 24 o 32 bits), en FLAC sin pérdidas, en MP3, que lo abre cualquier reproductor, o en Ogg Opus, que es el más ligero. Las dos primeras opciones no cambian ni una muestra del original; en MP3 y en Opus eliges la calidad en kb/s. El recorte se hace sobre las muestras ya decodificadas, así que no se vuelve a comprimir nada salvo que elijas MP3 u Opus.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Puedo recortar con más precisión que una décima de segundo?</summary>
+    <p>Los tiempos que escribes se interpretan con todos los decimales que pongas; el cuadro de texto muestra décimas, pero un valor como 12,345 se respeta al cortar.</p>
+  </details>
+  <details>
+    <summary>¿Qué pasa con la calidad del audio?</summary>
+    <p>Si guardas en WAV o FLAC, el tramo conservado es idéntico al original decodificado. Si el original era un MP3, el recorte sonará igual que el MP3, no mejor.</p>
+  </details>
+  <details>
+    <summary>¿Puedo recortar un vídeo?</summary>
+    <p>Puedes cargar el audio de un vídeo MP4 o WebM y recortarlo, pero el resultado será solo audio. Para sacar todo el sonido de un vídeo, usa la herramienta de extraer audio.</p>
+  </details>
+  <details>
+    <summary>¿El recorte funciona con audios largos?</summary>
+    <p>Sí, mientras el navegador tenga memoria para decodificarlos. Dibujar la onda de un audio de una hora lleva solo unos segundos.</p>
+  </details>
+</div>

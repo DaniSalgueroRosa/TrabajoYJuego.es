@@ -1,0 +1,14 @@
+{
+  "titulo": "Cobrar a tiempo: vencimientos y demora",
+  "descripcion": "Cuándo vence una factura, si compensa un descuento por pronto pago y qué intereses de demora puedes reclamar a un cliente que paga tarde.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "facturas",
+    "vencimiento",
+    "pronto pago",
+    "morosidad"
+  ],
+  "categoria": "negocio",
+  "orden": 39
+}

@@ -1,0 +1,15 @@
+{
+  "titulo": "Detecta el patrón",
+  "descripcion": "Series de números y letras con una regla escondida. Descubre cuál es y elige el siguiente elemento entre cuatro opciones.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "series",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "dificil",
+  "duracion": "4-7 min",
+  "orden": 15
+}

@@ -1,0 +1,737 @@
+{
+"_nota": "Sinónimos y antónimos: «k» es el tipo de pregunta; en «o» la respuesta correcta va siempre primera (el juego baraja las opciones al mostrarlas).",
+"preguntas": [
+{
+"k": "sinonimo",
+"p": "rápido",
+"o": [
+"veloz",
+"tardío",
+"silencioso",
+"pesado"
+],
+"c": 0,
+"e": "Algo rápido es algo veloz, que se mueve o se hace en poco tiempo."
+},
+{
+"k": "sinonimo",
+"p": "feliz",
+"o": [
+"contento",
+"cansado",
+"enfadado",
+"hambriento"
+],
+"c": 0,
+"e": "Estar feliz es estar contento."
+},
+{
+"k": "sinonimo",
+"p": "valiente",
+"o": [
+"intrépido",
+"cobarde",
+"tímido",
+"perezoso"
+],
+"c": 0,
+"e": "Un valiente no se deja llevar por el miedo; «intrépido» es una forma más intensa de decirlo."
+},
+{
+"k": "sinonimo",
+"p": "enorme",
+"o": [
+"gigantesco",
+"diminuto",
+"estrecho",
+"ligero"
+],
+"c": 0,
+"e": "Los dos significan de tamaño muy grande."
+},
+{
+"k": "sinonimo",
+"p": "hermoso",
+"o": [
+"bello",
+"feo",
+"ordinario",
+"oscuro"
+],
+"c": 0,
+"e": "Dos palabras para lo que resulta agradable de ver."
+},
+{
+"k": "sinonimo",
+"p": "comenzar",
+"o": [
+"iniciar",
+"terminar",
+"esperar",
+"dudar"
+],
+"c": 0,
+"e": "Comenzar e iniciar son poner algo en marcha."
+},
+{
+"k": "sinonimo",
+"p": "charlar",
+"o": [
+"conversar",
+"callar",
+"escribir",
+"correr"
+],
+"c": 0,
+"e": "Charlar es hablar de manera informal con alguien."
+},
+{
+"k": "sinonimo",
+"p": "cansado",
+"o": [
+"agotado",
+"descansado",
+"despierto",
+"ágil"
+],
+"c": 0,
+"e": "Agotado es estar muy cansado, sin fuerzas."
+},
+{
+"k": "sinonimo",
+"p": "astuto",
+"o": [
+"sagaz",
+"ingenuo",
+"perezoso",
+"tranquilo"
+],
+"c": 0,
+"e": "Los dos describen a quien sabe aprovechar las situaciones con inteligencia."
+},
+{
+"k": "sinonimo",
+"p": "miedo",
+"o": [
+"temor",
+"valor",
+"rabia",
+"alegría"
+],
+"c": 0,
+"e": "Miedo y temor son la sensación ante un peligro."
+},
+{
+"k": "sinonimo",
+"p": "ayudar",
+"o": [
+"socorrer",
+"estorbar",
+"olvidar",
+"discutir"
+],
+"c": 0,
+"e": "Socorrer es ayudar a quien está en peligro o necesidad."
+},
+{
+"k": "sinonimo",
+"p": "casa",
+"o": [
+"vivienda",
+"calle",
+"jardín",
+"escuela"
+],
+"c": 0,
+"e": "Una vivienda es un lugar donde se vive."
+},
+{
+"k": "sinonimo",
+"p": "pequeño",
+"o": [
+"diminuto",
+"inmenso",
+"robusto",
+"alto"
+],
+"c": 0,
+"e": "Diminuto es muy pequeño."
+},
+{
+"k": "sinonimo",
+"p": "rico (que tiene mucho dinero)",
+"o": [
+"adinerado",
+"pobre",
+"humilde",
+"miserable"
+],
+"c": 0,
+"e": "Adinerado es quien posee mucho dinero."
+},
+{
+"k": "sinonimo",
+"p": "terminar",
+"o": [
+"acabar",
+"comenzar",
+"empezar",
+"iniciar"
+],
+"c": 0,
+"e": "Terminar y acabar significan poner fin a algo."
+},
+{
+"k": "sinonimo",
+"p": "bonito",
+"o": [
+"lindo",
+"horrible",
+"antiguo",
+"oscuro"
+],
+"c": 0,
+"e": "«Lindo» es sinónimo de bonito, muy usado en América."
+},
+{
+"k": "sinonimo",
+"p": "gritar",
+"o": [
+"chillar",
+"susurrar",
+"callar",
+"murmurar"
+],
+"c": 0,
+"e": "Chillar es dar gritos agudos."
+},
+{
+"k": "sinonimo",
+"p": "enfadado",
+"o": [
+"irritado",
+"alegre",
+"sereno",
+"dormido"
+],
+"c": 0,
+"e": "Irritado es estar muy enfadado."
+},
+{
+"k": "sinonimo",
+"p": "amigo",
+"o": [
+"camarada",
+"rival",
+"enemigo",
+"desconocido"
+],
+"c": 0,
+"e": "Un camarada es un compañero o amigo."
+},
+{
+"k": "sinonimo",
+"p": "mentira",
+"o": [
+"falsedad",
+"verdad",
+"realidad",
+"certeza"
+],
+"c": 0,
+"e": "Una falsedad es algo que no es cierto."
+},
+{
+"k": "sinonimo",
+"p": "anciano",
+"o": [
+"viejo",
+"joven",
+"niño",
+"recién nacido"
+],
+"c": 0,
+"e": "Anciano y viejo se dicen de quien tiene muchos años."
+},
+{
+"k": "sinonimo",
+"p": "dificultad",
+"o": [
+"obstáculo",
+"facilidad",
+"ventaja",
+"ayuda"
+],
+"c": 0,
+"e": "Una dificultad es algo que se interpone en el camino."
+},
+{
+"k": "sinonimo",
+"p": "caminar",
+"o": [
+"andar",
+"correr",
+"detenerse",
+"saltar"
+],
+"c": 0,
+"e": "Caminar y andar son avanzar a pie."
+},
+{
+"k": "sinonimo",
+"p": "fuerte",
+"o": [
+"robusto",
+"frágil",
+"débil",
+"delicado"
+],
+"c": 0,
+"e": "Robusto es fuerte y resistente."
+},
+{
+"k": "sinonimo",
+"p": "limpiar",
+"o": [
+"asear",
+"ensuciar",
+"manchar",
+"mojar"
+],
+"c": 0,
+"e": "Asear es limpiar y arreglar."
+},
+{
+"k": "sinonimo",
+"p": "tranquilo",
+"o": [
+"sosegado",
+"nervioso",
+"agitado",
+"inquieto"
+],
+"c": 0,
+"e": "Sosegado es quien está en calma."
+},
+{
+"k": "sinonimo",
+"p": "comienzo",
+"o": [
+"principio",
+"fin",
+"final",
+"desenlace"
+],
+"c": 0,
+"e": "Comienzo y principio son el primer momento de algo."
+},
+{
+"k": "sinonimo",
+"p": "regalo",
+"o": [
+"obsequio",
+"deuda",
+"castigo",
+"encargo"
+],
+"c": 0,
+"e": "Un obsequio es algo que se da sin esperar nada a cambio."
+},
+{
+"k": "sinonimo",
+"p": "lío",
+"o": [
+"enredo",
+"orden",
+"calma",
+"silencio"
+],
+"c": 0,
+"e": "Un enredo es una situación confusa."
+},
+{
+"k": "antonimo",
+"p": "alto",
+"o": [
+"bajo",
+"grande",
+"ancho",
+"delgado"
+],
+"c": 0,
+"e": "Alto y bajo se oponen en la medida vertical."
+},
+{
+"k": "antonimo",
+"p": "generoso",
+"o": [
+"tacaño",
+"amable",
+"rico",
+"simpático"
+],
+"c": 0,
+"e": "El generoso da con gusto; el tacaño no quiere gastar ni compartir."
+},
+{
+"k": "antonimo",
+"p": "antiguo",
+"o": [
+"moderno",
+"viejo",
+"clásico",
+"lejano"
+],
+"c": 0,
+"e": "Antiguo es lo de hace mucho y moderno, lo reciente."
+},
+{
+"k": "antonimo",
+"p": "subir",
+"o": [
+"bajar",
+"saltar",
+"trepar",
+"volar"
+],
+"c": 0,
+"e": "Subir es ir a un lugar más alto y bajar, ir a uno más bajo."
+},
+{
+"k": "antonimo",
+"p": "llegar",
+"o": [
+"partir",
+"volver",
+"entrar",
+"venir"
+],
+"c": 0,
+"e": "Llegar es alcanzar un sitio y partir es salir de él."
+},
+{
+"k": "antonimo",
+"p": "abundante",
+"o": [
+"escaso",
+"grande",
+"nuevo",
+"rápido"
+],
+"c": 0,
+"e": "Abundante es que hay mucho y escaso, que hay poco."
+},
+{
+"k": "antonimo",
+"p": "ruido",
+"o": [
+"silencio",
+"música",
+"voz",
+"estruendo"
+],
+"c": 0,
+"e": "El silencio es la ausencia de ruido."
+},
+{
+"k": "antonimo",
+"p": "amor",
+"o": [
+"odio",
+"cariño",
+"pasión",
+"ternura"
+],
+"c": 0,
+"e": "Amor y odio son sentimientos opuestos."
+},
+{
+"k": "antonimo",
+"p": "victoria",
+"o": [
+"derrota",
+"batalla",
+"premio",
+"éxito"
+],
+"c": 0,
+"e": "Ganar es la victoria y perder es la derrota."
+},
+{
+"k": "antonimo",
+"p": "seco",
+"o": [
+"húmedo",
+"sucio",
+"duro",
+"caliente"
+],
+"c": 0,
+"e": "Seco es sin humedad y húmedo, con algo de agua."
+},
+{
+"k": "antonimo",
+"p": "frío",
+"o": [
+"caliente",
+"fresco",
+"helado",
+"templado"
+],
+"c": 0,
+"e": "Frío y caliente son extremos opuestos de temperatura."
+},
+{
+"k": "antonimo",
+"p": "inicio",
+"o": [
+"final",
+"principio",
+"comienzo",
+"apertura"
+],
+"c": 0,
+"e": "El inicio es donde empieza algo y el final, donde acaba."
+},
+{
+"k": "antonimo",
+"p": "valiente",
+"o": [
+"cobarde",
+"audaz",
+"firme",
+"sereno"
+],
+"c": 0,
+"e": "El valiente afronta el peligro y el cobarde huye de él."
+},
+{
+"k": "antonimo",
+"p": "ancho",
+"o": [
+"estrecho",
+"grueso",
+"largo",
+"amplio"
+],
+"c": 0,
+"e": "Ancho tiene mucha anchura y estrecho, poca."
+},
+{
+"k": "antonimo",
+"p": "temprano",
+"o": [
+"tarde",
+"pronto",
+"mañana",
+"ahora"
+],
+"c": 0,
+"e": "Temprano es antes de lo normal y tarde, después."
+},
+{
+"k": "antonimo",
+"p": "cerrar",
+"o": [
+"abrir",
+"tapar",
+"sellar",
+"atar"
+],
+"c": 0,
+"e": "Cerrar y abrir son acciones contrarias."
+},
+{
+"k": "antonimo",
+"p": "ganar",
+"o": [
+"perder",
+"competir",
+"jugar",
+"empatar"
+],
+"c": 0,
+"e": "Ganar y perder son los resultados contrarios de una competición."
+},
+{
+"k": "antonimo",
+"p": "entrar",
+"o": [
+"salir",
+"pasar",
+"avanzar",
+"subir"
+],
+"c": 0,
+"e": "Entrar es ir hacia dentro y salir, ir hacia fuera."
+},
+{
+"k": "antonimo",
+"p": "cierto",
+"o": [
+"falso",
+"seguro",
+"exacto",
+"real"
+],
+"c": 0,
+"e": "Lo cierto es verdadero y lo falso no lo es."
+},
+{
+"k": "antonimo",
+"p": "liso",
+"o": [
+"rugoso",
+"suave",
+"plano",
+"brillante"
+],
+"c": 0,
+"e": "Liso no tiene asperezas y rugoso sí las tiene."
+},
+{
+"k": "antonimo",
+"p": "sencillo",
+"o": [
+"complicado",
+"fácil",
+"simple",
+"breve"
+],
+"c": 0,
+"e": "Sencillo es fácil de entender o hacer y complicado, lo contrario."
+},
+{
+"k": "antonimo",
+"p": "sabio",
+"o": [
+"ignorante",
+"viejo",
+"culto",
+"prudente"
+],
+"c": 0,
+"e": "El sabio sabe mucho y el ignorante, poco."
+},
+{
+"k": "antonimo",
+"p": "barato",
+"o": [
+"caro",
+"bueno",
+"malo",
+"pequeño"
+],
+"c": 0,
+"e": "Barato cuesta poco y caro, mucho."
+},
+{
+"k": "antonimo",
+"p": "lleno",
+"o": [
+"vacío",
+"pesado",
+"grande",
+"redondo"
+],
+"c": 0,
+"e": "Lleno no admite más y vacío no contiene nada."
+},
+{
+"k": "antonimo",
+"p": "nacer",
+"o": [
+"morir",
+"crecer",
+"vivir",
+"aparecer"
+],
+"c": 0,
+"e": "Nacer es empezar la vida y morir, acabarla."
+},
+{
+"k": "antonimo",
+"p": "dulce",
+"o": [
+"amargo",
+"tierno",
+"caliente",
+"líquido"
+],
+"c": 0,
+"e": "Son dos de los sabores básicos y se oponen."
+},
+{
+"k": "antonimo",
+"p": "pesado",
+"o": [
+"ligero",
+"grueso",
+"lento",
+"largo"
+],
+"c": 0,
+"e": "Pesado pesa mucho y ligero, poco."
+},
+{
+"k": "antonimo",
+"p": "optimista",
+"o": [
+"pesimista",
+"alegre",
+"confiado",
+"soñador"
+],
+"c": 0,
+"e": "El optimista espera lo mejor y el pesimista, lo peor."
+},
+{
+"k": "antonimo",
+"p": "brillante",
+"o": [
+"opaco",
+"reluciente",
+"claro",
+"fino"
+],
+"c": 0,
+"e": "Brillante refleja la luz y opaco, no."
+},
+{
+"k": "antonimo",
+"p": "junto",
+"o": [
+"separado",
+"cerca",
+"unido",
+"pegado"
+],
+"c": 0,
+"e": "Junto está en contacto o a la vez; separado, no."
+},
+{
+"k": "antonimo",
+"p": "verdad",
+"o": [
+"mentira",
+"historia",
+"duda",
+"secreto"
+],
+"c": 0,
+"e": "Decir la verdad es lo contrario de mentir."
+},
+{
+"k": "antonimo",
+"p": "despertar",
+"o": [
+"dormirse",
+"soñar",
+"levantarse",
+"bostezar"
+],
+"c": 0,
+"e": "Despertar es dejar de dormir y dormirse, empezar a hacerlo."
+}
+]
+}

@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de equipos aleatorios",
+  "descripcion": "Divide una lista de nombres en equipos equilibrados al azar: indica cuántos equipos o cuántas personas por equipo y obtén el reparto al instante.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 97
+}

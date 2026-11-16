@@ -1,0 +1,86 @@
+/* BASE: reinicio, texto, enlaces, foco, los dos mundos y utilidades. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--lienzo);
+  color: var(--tinta);
+  font: 400 var(--t0) / 1.6 var(--f-texto);
+}
+main { flex: 1 0 auto; outline: none; }
+img, svg, video, canvas { max-width: 100%; }
+img, video { height: auto; }
+p, ul, ol, figure { margin: 0; }
+a { color: inherit; }
+
+/* Los dos mundos definen cómo se ven los títulos, las esquinas y el color de énfasis de lo que contienen.
+   «libre» e «inicio» son neutros: lo usan la portada y la zona de Tests, donde cada test pone su propio aspecto. */
+:is(main, .tarjeta, .vacio)[data-mundo="trabajo"] {
+  --m-fondo: var(--pizarra);
+  --m-texto: var(--tiza);
+  --m-acento: var(--pizarra);
+  --m-radio: var(--radio-trabajo);
+  --f-titulo: var(--f-trabajo);
+  --foco: var(--tinta);
+}
+:is(main, .tarjeta, .vacio)[data-mundo="juego"] {
+  --m-fondo: var(--tinta);
+  --m-texto: var(--tiza);
+  --m-acento: var(--sandia);
+  --m-radio: 0;
+  --f-titulo: var(--f-pixel);
+  --foco: var(--limon);
+}
+:is(main, .tarjeta, .vacio)[data-mundo="libre"],
+:is(main, .tarjeta, .vacio)[data-mundo="inicio"] {
+  --m-fondo: var(--lienzo);
+  --m-texto: var(--tinta);
+  --m-acento: var(--pizarra);
+  --m-radio: var(--radio-libre);
+  --f-titulo: var(--f-trabajo);
+  --foco: var(--tinta);
+}
+main[data-mundo="juego"] { background: var(--tinta); color: var(--tiza); }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--f-titulo, var(--f-trabajo));
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+/* La letra de píxeles solo tiene un peso y se ve mejor suelta de interlineado y espaciado */
+:is(main, .tarjeta, .vacio)[data-mundo="juego"] :is(h1, h2, h3, h4) { font-weight: 400; letter-spacing: 0; line-height: 1.25; }
+
+:focus-visible { outline: 3px solid var(--foco, var(--tinta)); outline-offset: 3px; }
+::selection { background: var(--limon); color: var(--tinta); }
+
+.contenedor {
+  width: 100%;
+  max-width: var(--ancho-contenido);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+}
+
+.solo-lectores {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+.salto {
+  position: absolute; left: 1rem; top: -5rem; z-index: 100; padding: 0.75rem 1rem;
+  background: var(--limon); color: var(--tinta); font-weight: 700; text-decoration: none; border: 3px solid var(--tinta);
+}
+.salto:focus { top: 1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Marca de dato pendiente de completar por el titular (config/titular.json). El comprobador impide publicar en producción mientras quede alguna. */
+mark.pendiente { padding: 0 0.25em; background: #FFE9A8; color: #14201C; outline: 2px dashed #8A5A00; outline-offset: 1px; font-weight: 700; }

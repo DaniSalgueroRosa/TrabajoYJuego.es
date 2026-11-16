@@ -1,0 +1,36 @@
+<div class="juego" data-juego="buscaminas">
+  <div class="pantalla" id="bm">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>Cómo se juega al buscaminas</h2>
+  <p>El campo está cubierto de casillas. Al descubrir una, puede salir una mina (y pierdes), una casilla vacía (y se abre sola toda la zona que la rodea) o un número, que indica cuántas minas hay en las ocho casillas vecinas. Ganas cuando has descubierto todas las casillas que no tienen mina.</p>
+  <p>Tu primera casilla siempre es segura: las minas se colocan después de tu primer toque, dejando libre esa casilla y las de alrededor.</p>
+  <h2>Banderas y atajos</h2>
+  <p>Para marcar una casilla donde crees que hay una mina, usa clic derecho en el ordenador, una pulsación larga en la pantalla táctil, la tecla <kbd>F</kbd> o el botón «Modo bandera», que convierte cada toque en una bandera. El contador de «Minas sin marcar» baja con cada bandera.</p>
+  <p>Si tocas un número que ya tiene a su alrededor tantas banderas como indica, se descubren de golpe todas las casillas vecinas que no estén marcadas. Es el atajo que usan los jugadores rápidos, pero si una bandera estaba mal puesta, también descubrirás una mina.</p>
+  <h2>Tamaños del campo</h2>
+  <p>Fácil es un campo de 9×9 con 10 minas; Medio, de 12×12 con 24; y Difícil, de 13×13 con 36. Hemos ajustado las medidas clásicas para que todas las casillas sigan siendo lo bastante grandes como para tocarlas con el dedo en un móvil.</p>
+  <h2>Estrategia básica</h2>
+  <p>Busca primero los números 1 que tienen una sola casilla vecina sin descubrir: esa casilla es una mina. Después, usa esa mina para resolver los números de al lado. Cuando una zona no se puede resolver con seguridad, mejor empezar a abrir por otro lado que arriesgar un 50 %.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Puedo perder en el primer toque?</summary>
+    <p>No. Las minas se reparten cuando descubres la primera casilla y se evita esa casilla y todas las que la rodean.</p>
+  </details>
+  <details>
+    <summary>¿Cómo juego con el teclado?</summary>
+    <p>Muévete con las flechas, descubre con Intro o la barra espaciadora y pon o quita una bandera con la tecla F.</p>
+  </details>
+  <details>
+    <summary>¿Qué pasa cuando gano o pierdo?</summary>
+    <p>Si pierdes se enseñan todas las minas y las banderas mal puestas. Si ganas, las minas que quedan se marcan solas y se calculan los puntos según el tiempo.</p>
+  </details>
+  <details>
+    <summary>¿Hay una partida diaria?</summary>
+    <p>No. Cada partida es un campo nuevo y aleatorio, y puedes empezar otro cuando quieras con «Nueva partida».</p>
+  </details>
+</div>

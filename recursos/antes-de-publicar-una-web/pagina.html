@@ -1,0 +1,26 @@
+<p>Cuando una web ya funciona, quedan tres tareas pequeñas que no se ven al diseñarla pero que se notan al publicarla: el icono de la pestaña, el aspecto del resultado en buscadores y en redes y el peso del código. Esta guía las ordena como una lista de comprobación. Las tres herramientas trabajan en tu navegador, de modo que tu código y tu logotipo no pasan por ningún servidor.</p>
+
+<h2>1. El icono: un favicon que se vea a 16 píxeles</h2>
+<p>El favicon aparece en la pestaña, en los marcadores y en los resultados de búsqueda del móvil. Con <a href="../../herramientas/generador-de-favicons/">Generador de favicons</a> partes de una sola imagen y obtienes el <code>favicon.ico</code> clásico, los PNG de 16 y 32 píxeles, el icono de Apple de 180 y los de Android de 192 y 512, además del código HTML para pegar en la cabecera. Parte de una imagen cuadrada de al menos 512 × 512. Un icono se muestra minúsculo, así que funciona mejor un símbolo o una letra con buen contraste que un logotipo con texto. Mira siempre el resultado en el navegador, porque a 16 píxeles los detalles finos desaparecen. Sube los archivos a la carpeta principal de la web, junto a la página de inicio.</p>
+
+<h2>2. Las etiquetas meta: cómo te ven antes de entrar</h2>
+<p><a href="../../herramientas/generador-de-etiquetas-meta/">Generador de etiquetas meta SEO</a> genera el bloque del <code>&lt;head&gt;</code> con el título, la descripción, la dirección canónica, las instrucciones para robots y las etiquetas Open Graph y de tarjeta de X. Ten presentes estas orientaciones:</p>
+<ul>
+  <li>Un título de hasta unos 60 caracteres y una descripción de entre 70 y 160 suelen mostrarse enteros, aunque los buscadores cortan por espacio en pantalla y no por una cifra exacta.</li>
+  <li>La dirección canónica indica cuál es la principal cuando una página se abre por varias rutas.</li>
+  <li>La etiqueta <code>noindex</code> saca una página de los buscadores. Úsala solo en páginas que no quieras que aparezcan, nunca por descuido en las demás.</li>
+  <li>Para compartir en redes necesitas una imagen con dirección completa; sin ella, el enlace se verá solo con texto.</li>
+</ul>
+<p>La herramienta escapa las comillas y los signos &amp; para que no rompan el HTML. Si tu web usa un gestor de contenidos, es probable que estas etiquetas se rellenen desde un apartado de SEO; en ese caso usa la herramienta para redactar y comprobar las longitudes y pega los textos allí.</p>
+
+<h2>3. El peso del código: minificar sin riesgos</h2>
+<p>Los comentarios, las sangrías y los saltos de línea ayudan a quien lee el código pero no al navegador. <a href="../../herramientas/minificador-de-html-css-y-javascript/">Minificador de HTML, CSS y JavaScript</a> los quita y te muestra cuánto ocupa el archivo antes y después. Es una minificación conservadora: no renombra variables ni reescribe expresiones, de modo que ahorra algo menos que un empaquetador profesional, pero el riesgo de estropear algo es muy bajo. En JavaScript comprueba el resultado volviendo a analizarlo y, si no puede garantizar que es equivalente, deja el código como estaba y te lo dice. Guarda siempre tu versión legible y publica la minificada.</p>
+
+<h2>Un orden que evita sorpresas</h2>
+<ol>
+  <li>Termina el contenido y el diseño. Si aún ajustas colores, apóyate en la guía de <a href="../colores-degradados-y-sombras/">colores, degradados y sombras</a>.</li>
+  <li>Genera los iconos y súbelos a la raíz.</li>
+  <li>Redacta el título y la descripción de cada página importante y pega las etiquetas.</li>
+  <li>Minifica el código al final, justo antes de subirlo, y prueba la web minificada completa: menús, formularios y botones.</li>
+  <li>Comparte un enlace de prueba en una conversación para ver cómo queda la tarjeta, y busca tu página en una pestaña nueva para ver el icono.</li>
+</ol>

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de tiempo de reacción",
+  "descripcion": "Mide en milisegundos cuánto tardas en reaccionar cuando la zona pasa de rojo a verde. Cinco intentos y tu media, sin registro ni descargas.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "tiempo de reacción",
+    "test de reflejos",
+    "reaction time test",
+    "reflejos",
+    "milisegundos"
+  ],
+  "categoria": "reaccion-punteria",
+  "duracion": "1 min",
+  "orden": 12,
+  "tema": {
+    "fondo": "#2A1018",
+    "texto": "#FFEFF2",
+    "acento": "#FF5A7D"
+  }
+}

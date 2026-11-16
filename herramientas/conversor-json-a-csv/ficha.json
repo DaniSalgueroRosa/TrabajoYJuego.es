@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor JSON a CSV",
+  "descripcion": "Convierte un JSON (lista de objetos) a CSV para abrirlo en Excel o Google Sheets: aplana objetos anidados, elige separador y descarga el archivo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 83
+}

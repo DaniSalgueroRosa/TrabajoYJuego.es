@@ -1,0 +1,20 @@
+<div class="seccion-cabecera">
+  <div class="contenedor">
+    {{> comun/migas/migas}}
+    <h1 class="seccion-titulo"><span class="marca">{{seccion.titulo}}</span></h1>
+    <p class="seccion-lead">{{seccion.descripcion}}</p>
+  </div>
+</div>
+<div class="contenedor seccion-cuerpo">
+  {{#hay_items}}
+  <h2 class="solo-lectores">Lista de {{seccion.plural}}</h2>
+  <ul class="rejilla">
+    {{#items}}
+    <li>{{> comun/tarjeta/tarjeta}}</li>
+    {{/items}}
+  </ul>
+  {{/hay_items}}
+  {{^hay_items}}
+  {{> comun/vacio/vacio}}
+  {{/hay_items}}
+</div>

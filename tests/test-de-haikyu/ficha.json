@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de Haikyu!!",
+  "descripcion": "Diez situaciones de equipo para saber con qué personaje de Haikyu!! encajas más, con radar de rasgos y ranking de afinidad. Test de fans, sin imágenes.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de Haikyu",
+    "qué personaje de Haikyu soy",
+    "personajes de Haikyu",
+    "test de voleibol",
+    "Hinata Shoyo"
+  ],
+  "categoria": "cultura-pop",
+  "duracion": "3 min",
+  "orden": 65,
+  "tema": {
+    "fondo": "#161616",
+    "texto": "#F4F4F4",
+    "acento": "#FF8A3D"
+  }
+}

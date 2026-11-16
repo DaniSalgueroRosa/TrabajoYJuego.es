@@ -1,0 +1,184 @@
+{
+"temas": [
+{
+"id": "animales",
+"titulo": "Animales",
+"palabras": [
+"GATO",
+"PERRO",
+"CABALLO",
+"OVEJA",
+"CERDO",
+"GALLINA",
+"CONEJO",
+"TORTUGA",
+"ELEFANTE",
+"JIRAFA",
+"ZORRO",
+"TIGRE",
+"LOBO",
+"MARIPOSA"
+]
+},
+{
+"id": "frutas",
+"titulo": "Frutas",
+"palabras": [
+"MANZANA",
+"PERA",
+"CEREZA",
+"FRESA",
+"UVA",
+"NARANJA",
+"CIRUELA",
+"MANDARINA",
+"ALBARICOQUE",
+"HIGO",
+"MANGO",
+"KIWI",
+"PIÑA",
+"GRANADA"
+]
+},
+{
+"id": "cuerpo",
+"titulo": "El cuerpo humano",
+"palabras": [
+"CABEZA",
+"BRAZO",
+"MANO",
+"PIERNA",
+"RODILLA",
+"CODO",
+"HOMBRO",
+"CUELLO",
+"ESPALDA",
+"DEDO",
+"OREJA",
+"CEJA",
+"MUÑECA",
+"TOBILLO"
+]
+},
+{
+"id": "ciudades",
+"titulo": "Ciudades de España",
+"palabras": [
+"MADRID",
+"BARCELONA",
+"VALENCIA",
+"SEVILLA",
+"BILBAO",
+"ZARAGOZA",
+"ALICANTE",
+"MURCIA",
+"SALAMANCA",
+"SANTANDER",
+"TOLEDO",
+"BURGOS",
+"LOGROÑO",
+"PAMPLONA"
+]
+},
+{
+"id": "paises",
+"titulo": "Países",
+"palabras": [
+"ESPAÑA",
+"FRANCIA",
+"ITALIA",
+"PORTUGAL",
+"ALEMANIA",
+"ARGENTINA",
+"CHILE",
+"COLOMBIA",
+"BRASIL",
+"CUBA",
+"CHINA",
+"EGIPTO",
+"GRECIA",
+"URUGUAY"
+]
+},
+{
+"id": "deportes",
+"titulo": "Deportes",
+"palabras": [
+"BALONCESTO",
+"TENIS",
+"ATLETISMO",
+"CICLISMO",
+"BOXEO",
+"GOLF",
+"RUGBY",
+"VOLEIBOL",
+"BALONMANO",
+"ESGRIMA",
+"JUDO",
+"REMO",
+"SURF",
+"HOCKEY"
+]
+},
+{
+"id": "oficios",
+"titulo": "Oficios",
+"palabras": [
+"ALBAÑIL",
+"CARPINTERO",
+"PANADERO",
+"PESCADOR",
+"BOMBERO",
+"PINTOR",
+"ELECTRICISTA",
+"FONTANERO",
+"COCINERO",
+"MAESTRO",
+"JARDINERO",
+"CAMARERO",
+"PILOTO",
+"CARTERO"
+]
+},
+{
+"id": "instrumentos",
+"titulo": "Instrumentos musicales",
+"palabras": [
+"GUITARRA",
+"PIANO",
+"FLAUTA",
+"TROMPETA",
+"TAMBOR",
+"ARPA",
+"CLARINETE",
+"OBOE",
+"VIOLONCHELO",
+"CONTRABAJO",
+"PANDERETA",
+"CASTAÑUELAS",
+"GAITA",
+"BANJO"
+]
+},
+{
+"id": "naturaleza",
+"titulo": "Naturaleza",
+"palabras": [
+"MONTAÑA",
+"LAGO",
+"BOSQUE",
+"DESIERTO",
+"SELVA",
+"PRADERA",
+"ISLA",
+"CASCADA",
+"GLACIAR",
+"CUEVA",
+"VALLE",
+"PLAYA",
+"ARROYO",
+"TORMENTA"
+]
+}
+]
+}

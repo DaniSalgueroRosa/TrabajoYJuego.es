@@ -1,0 +1,212 @@
+/* ===== portada/portada.css ===== */
+/* PORTADA: reglas de la página en conjunto. Cada parte tiene su propio CSS en su carpeta:
+     hero/hero.css            las dos mitades «Trabajo | Juego»
+     novedades/novedades.css  lo último que se ha publicado
+     explorar/explorar.css    índice por categorías, con cada juego o herramienta enlazado
+     sobre/sobre.css          qué es el sitio, en dos frases
+     informacion/informacion.css  datos, publicidad y enlaces a las páginas legales
+   Para añadir una parte nueva: crea su carpeta con <parte>.html y <parte>.css y añade {{> portada/<parte>/<parte>}} en portada.html. */
+.portada { display: block; }
+
+/* ===== portada/explorar/explorar.css ===== */
+/* PORTADA · EXPLORAR: índice de cada sección que tiene categorías, con todos sus elementos publicados enlazados.
+   Es una lista de enlaces (no de tarjetas): sirve para llegar a cualquier juego o herramienta en un clic desde la portada.
+   Cada bloque toma el aspecto de su mundo: «juego» de pantalla de arcade, «trabajo» de papel de cuaderno. */
+.explorar { padding-block: var(--e7); border-top: 2px solid var(--tinta); }
+.explorar-cabeza { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--e2) var(--e5); margin-bottom: var(--e5); }
+.explorar-titulo { font-size: var(--t4); letter-spacing: -0.03em; }
+.explorar-todos { margin: 0; font-weight: 700; }
+.explorar-todos a { color: inherit; text-underline-offset: 0.25em; }
+
+.explorar-rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15.5rem), 1fr)); gap: var(--e4); margin: 0; padding: 0; list-style: none; }
+.explorar-grupo { display: flex; flex-direction: column; gap: var(--e2); min-width: 0; padding: var(--e4) var(--e4) var(--e5); border: 2px solid currentColor; }
+.explorar-grupo-titulo { margin: 0; font-size: var(--t1); line-height: 1.15; }
+.explorar-grupo-titulo a { color: inherit; text-decoration: none; }
+.explorar-grupo-titulo a::after { content: " →" / ""; font-weight: 400; }
+.explorar-grupo-titulo a:hover, .explorar-grupo-titulo a:focus-visible { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.2em; }
+.explorar-cuenta { margin: 0 0 var(--e2); font-size: var(--t-1); font-weight: 700; }
+.explorar-items { display: grid; gap: var(--e1); margin: 0; padding: 0; list-style: none; border-top: 1px solid currentColor; }
+.explorar-items li { border-bottom: 1px solid var(--linea-fina, currentColor); }
+.explorar-items a { display: block; padding: var(--e2) 0; color: inherit; text-underline-offset: 0.25em; overflow-wrap: anywhere; }
+.explorar-items a:hover, .explorar-items a:focus-visible { background-color: var(--tinte); }
+
+/* ---------- Trabajo */
+.explorar[data-mundo="trabajo"] { background: var(--papel-trabajo); color: var(--pizarra); --foco: var(--pizarra); --tinte: rgba(29, 58, 52, 0.1); --linea-fina: rgba(29, 58, 52, 0.25); }
+.explorar[data-mundo="trabajo"] .explorar-titulo { font-family: var(--f-trabajo); }
+.explorar[data-mundo="trabajo"] .explorar-grupo { background: var(--papel); border-radius: var(--radio-trabajo); }
+.explorar[data-mundo="trabajo"] .explorar-grupo-titulo { font-family: var(--f-trabajo); font-weight: 700; }
+
+/* ---------- Juego */
+.explorar[data-mundo="juego"] { background: var(--tinta); color: var(--tiza); --foco: var(--limon); --tinte: rgba(234, 242, 238, 0.1); --linea-fina: var(--noche-linea); }
+.explorar[data-mundo="juego"] .explorar-titulo { font: 400 var(--t3) / 1.15 var(--f-pixel); font-size: 2.2rem; font-size: round(down, 2.2rem, 10px); letter-spacing: 0; color: var(--sandia); }
+.explorar[data-mundo="juego"] .explorar-todos a { color: var(--limon); }
+.explorar[data-mundo="juego"] .explorar-grupo { background: var(--noche-2); border-color: var(--noche-linea); }
+.explorar[data-mundo="juego"] .explorar-grupo-titulo { font: 400 var(--t1) / 1.2 var(--f-pixel); font-size: 1.3rem; font-size: round(down, 1.3rem, 10px); -webkit-text-stroke: 0.5px currentColor; }
+.explorar[data-mundo="juego"] .explorar-grupo-titulo a:is(:hover, :focus-visible) { color: var(--limon); }
+.explorar[data-mundo="juego"] .explorar-cuenta { color: var(--limon); }
+.explorar[data-mundo="juego"] .explorar-items { border-top-color: var(--noche-linea); }
+.explorar[data-mundo="juego"] .explorar-items a { padding-inline: var(--e2); margin-inline: calc(var(--e2) * -1); }
+
+/* ===== portada/hero/hero.css ===== */
+/* PORTADA · HERO: dos mitades que se reparten la pantalla.
+     Trabajo → papel de cuaderno, letra formal, movimiento suave (barridos y deslizamientos).
+     Juego   → pantalla de arcade, letra de píxeles, movimiento a saltos (fotograma a fotograma).
+   La mitad sobre la que está el ratón (o el foco del teclado) se ensancha; la «y» viaja pegada a la costura.
+   En móvil se apilan y no se ensanchan. */
+.hero { position: relative; display: flex; min-height: clamp(32rem, calc(100svh - 11rem), 46rem); }
+.hero-mitad { position: relative; display: flex; flex: 1 1 0; min-width: 0; container-type: inline-size; transition: flex-grow 0.6s var(--suave); }
+.hero-mitad--primera { z-index: 2; }
+.hero-mitad:is(:hover, :focus-within) { flex-grow: 1.5; }
+
+.hero-fondo { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.hero-interior {
+  position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: space-between; gap: var(--e6);
+  width: 100%; padding: var(--e6) clamp(1.25rem, 6cqi, 3.5rem) var(--e5);
+}
+
+.hero-palabra { width: fit-content; font-size: clamp(3rem, 10vw, 7rem); font-size: clamp(3rem, 18cqi, 9rem); line-height: 0.95; letter-spacing: -0.045em; }
+.hero-frase { max-width: 24rem; margin-top: var(--e4); font-size: var(--t1); line-height: 1.35; }
+
+.hero-enlaces { margin: 0; padding: 0; list-style: none; }
+.hero-enlace {
+  display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 0.2rem var(--e4);
+  margin-inline: calc(var(--e2) * -1); padding: var(--e4) var(--e2);
+  border-top: 2px solid currentColor; color: inherit; text-decoration: none; transition: background-color 0.3s;
+}
+.hero-enlaces li:last-child .hero-enlace { border-bottom: 2px solid currentColor; }
+.hero-enlace:hover, .hero-enlace:focus-visible { background-color: var(--tinte); }
+.hero-enlace:focus-visible { outline-offset: -3px; }
+.hero-enlace-titulo { grid-column: 1; justify-self: start; font-size: clamp(1.4rem, 5.5cqi, 2rem); line-height: 1.1; }
+.hero-enlace-cuenta { grid-column: 2; grid-row: 1; font-size: var(--t-1); font-weight: 700; white-space: nowrap; }
+.hero-enlace-resumen { grid-column: 1 / -1; font-size: var(--t-1); }
+
+/* ---------- Trabajo */
+.hero-mitad[data-mundo="trabajo"] { background: var(--papel-trabajo); color: var(--pizarra); --foco: var(--pizarra); --tinte: rgba(29, 58, 52, 0.09); }
+.hero-mitad[data-mundo="trabajo"] .hero-fondo::before {
+  content: ""; position: absolute; inset: -40px;
+  background-image: linear-gradient(rgba(29, 58, 52, 0.13) 1px, transparent 1px), linear-gradient(90deg, rgba(29, 58, 52, 0.13) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+.hero-mitad[data-mundo="trabajo"] .hero-palabra {
+  font-family: var(--f-trabajo); font-weight: 700;
+  background: linear-gradient(var(--limon), var(--limon)) no-repeat 0 90% / 100% 0.24em;   /* subrayador */
+}
+.hero-mitad[data-mundo="trabajo"] .hero-enlace-titulo {
+  font-family: var(--f-trabajo); font-weight: 700;
+  background: linear-gradient(var(--limon), var(--limon)) no-repeat 0 88% / 0 0.4em;
+  transition: background-size 0.5s var(--suave);
+}
+.hero-mitad[data-mundo="trabajo"] .hero-enlace:is(:hover, :focus-visible) .hero-enlace-titulo { background-size: 100% 0.4em; }
+
+/* ---------- Juego */
+.hero-mitad[data-mundo="juego"] { background: var(--tinta); color: var(--tiza); --foco: var(--limon); --tinte: rgba(234, 242, 238, 0.1); }
+.hero-mitad[data-mundo="juego"] .hero-fondo::before {
+  content: ""; position: absolute; inset: 0;
+  background-image: radial-gradient(rgba(234, 242, 238, 0.16) 2px, transparent 2.5px); background-size: 24px 24px;
+}
+.hero-mitad[data-mundo="juego"] .hero-fondo::after {   /* líneas de barrido de un monitor CRT */
+  content: ""; position: absolute; inset: 0;
+  background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0 2px, transparent 2px 4px);
+}
+.hero-mitad[data-mundo="juego"] .hero-palabra {
+  font-family: var(--f-pixel); font-weight: 400; letter-spacing: 0; line-height: 1; color: var(--sandia);
+  font-size: clamp(3rem, 10vw, 7rem); font-size: round(down, clamp(3rem, 21cqi, 9rem), 10px);
+}
+.hero-mitad[data-mundo="juego"] .hero-palabra::after {   /* cursor que parpadea */
+  content: "█" / ""; margin-left: 0.08em; color: var(--limon); animation: hero-parpadeo 1.1s steps(1, end) infinite;
+}
+.hero-mitad[data-mundo="juego"] .hero-enlace-titulo { font-family: var(--f-pixel); font-weight: 400; line-height: 1.2; -webkit-text-stroke: 0.7px currentColor; font-size: 1.5rem; font-size: round(down, 1.75rem, 10px); }
+.hero-mitad[data-mundo="juego"] .hero-enlace-titulo::after { content: " ▶" / ""; visibility: hidden; color: var(--limon); }
+.hero-mitad[data-mundo="juego"] .hero-enlace:is(:hover, :focus-visible) .hero-enlace-titulo { color: var(--limon); }
+.hero-mitad[data-mundo="juego"] .hero-enlace:is(:hover, :focus-visible) .hero-enlace-titulo::after { visibility: visible; }
+.hero-mitad[data-mundo="juego"] .hero-enlace-cuenta { color: var(--limon); }
+.hero-mitad[data-mundo="juego"] .hero-enlace-resumen { color: var(--tiza-suave); }
+
+/* ---------- La «y» de la costura (viaja con el borde de la primera mitad) */
+.hero-y {
+  position: absolute; z-index: 3; top: 50%; right: 0; display: grid; place-items: center;
+  width: clamp(4.25rem, 8vw, 6.5rem); aspect-ratio: 1; padding-bottom: 0.08em;
+  border: 4px solid var(--tinta); border-radius: 50%; background: var(--limon); color: var(--tinta);
+  font: 700 clamp(2.4rem, 5vw, 4rem) / 1 var(--f-trabajo);
+  transform: translate(50%, -50%) rotate(-8deg);
+}
+
+/* ---------- Entrada (una sola vez, al cargar). Trabajo desliza con suavidad; Juego aparece letra a letra. */
+@keyframes hero-parpadeo { 50% { opacity: 0; } }
+@keyframes hero-revelar { from { clip-path: inset(-0.2em 100% -0.3em -0.1em); } to { clip-path: inset(-0.2em -0.1em -0.3em -0.1em); } }
+@keyframes hero-subir { from { opacity: 0; transform: translateY(16px); } }
+@keyframes hero-marcador { from { background-size: 0 0.24em; } }
+@keyframes hero-encender { from { opacity: 0; } }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-mitad[data-mundo="trabajo"] .hero-palabra { animation: hero-revelar 0.9s var(--suave) backwards, hero-marcador 0.7s var(--suave) 0.7s backwards; }
+  .hero-mitad[data-mundo="trabajo"] .hero-frase { animation: hero-subir 0.7s var(--suave) 0.45s backwards; }
+  .hero-mitad[data-mundo="trabajo"] .hero-enlaces li { animation: hero-subir 0.7s var(--suave) calc(0.6s + var(--n, 0) * 0.12s) backwards; }
+  .hero-mitad[data-mundo="trabajo"] .hero-fondo::before { animation: hero-rejilla 14s linear infinite; }
+
+  .hero-mitad[data-mundo="juego"] .hero-palabra { animation: hero-revelar 0.7s steps(5, end) backwards; }
+  .hero-mitad[data-mundo="juego"] .hero-frase { animation: hero-encender 0.5s steps(3, end) 0.5s backwards; }
+  .hero-mitad[data-mundo="juego"] .hero-enlaces li { animation: hero-encender 0.5s steps(3, end) calc(0.6s + var(--n, 0) * 0.2s) backwards; }
+}
+@keyframes hero-rejilla { to { transform: translate(40px, 40px); } }
+.hero-enlaces li:nth-child(2) { --n: 1; }
+.hero-enlaces li:nth-child(3) { --n: 2; }
+.hero-enlaces li:nth-child(4) { --n: 3; }
+.hero-enlaces li:nth-child(5) { --n: 4; }
+.hero-enlaces li:nth-child(6) { --n: 5; }
+
+/* ---------- Móvil: una mitad encima de la otra */
+@media (max-width: 52rem) {
+  .hero { flex-direction: column; min-height: 0; }
+  .hero-mitad { flex: none; min-height: 24rem; }
+  .hero-mitad:is(:hover, :focus-within) { flex-grow: 0; }
+  .hero-y { top: auto; right: auto; bottom: 0; left: 50%; transform: translate(-50%, 50%) rotate(-8deg); }
+  .hero-mitad[data-mundo="juego"] .hero-interior { padding-top: calc(var(--e6) + 2rem); }
+}
+
+/* ===== portada/informacion/informacion.css ===== */
+/* PORTADA · INFORMACIÓN: lo esencial sobre datos y publicidad, dicho en tres frases, y acceso directo a las páginas legales.
+   Las frases dependen del estado real del sitio (publicidad activa o no) y coinciden con la política de privacidad.
+   Aspecto de «Trabajo» (papel y letra formal): es información, no juego. */
+.informacion { border-top: 2px solid var(--tinta); background: var(--lienzo); }
+.informacion-interior { display: grid; gap: var(--e6); padding-block: var(--e7); }
+.informacion-titulo { font-size: var(--t4); letter-spacing: -0.03em; }
+.informacion-intro { max-width: 22rem; margin-top: var(--e3); font-size: var(--t0); color: var(--tinta-suave); }
+
+.informacion-puntos { display: grid; gap: var(--e4); margin: 0; }
+.informacion-punto { padding-left: var(--e4); border-left: 6px solid var(--limon); box-shadow: -2px 0 0 var(--tinta); }
+.informacion-punto dt { font-weight: 700; font-size: var(--t0); }
+.informacion-punto dd { max-width: 34rem; margin: var(--e1) 0 0; color: var(--tinta-suave); line-height: 1.45; }
+.informacion-punto a { color: var(--pizarra); text-underline-offset: 0.2em; }
+
+.informacion-legales-titulo { margin-bottom: var(--e3); font-size: var(--t0); }
+.informacion-legales ul { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; border-top: 2px solid var(--tinta); }
+.informacion-legales li { border-bottom: 1px solid var(--linea); }
+.informacion-legales a {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--e3); min-height: 2.75rem; padding: var(--e2) var(--e2);
+  color: var(--pizarra); font-weight: 700; text-decoration: none;
+}
+.informacion-legales a::after { content: "→" / ""; font-weight: 400; }
+.informacion-legales a:hover, .informacion-legales a:focus-visible { background-color: var(--limon-claro); }
+.informacion-legales a:focus-visible { outline-offset: -3px; --foco: var(--pizarra); }
+
+@media (min-width: 52rem) {
+  .informacion-interior { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--e7); align-items: start; }
+  .informacion-cabeza { grid-row: 1 / span 2; }
+  .informacion-legales { grid-column: 2; }
+}
+
+/* ===== portada/novedades/novedades.css ===== */
+/* PORTADA · NOVEDADES: lo último publicado en cualquier sección, con las tarjetas comunes (comun/tarjeta/).
+   Si todavía no hay nada, muestra el estado vacío (comun/vacio/). */
+.novedades { padding-block: var(--e7) var(--e8); }
+.novedades-titulo { margin-bottom: var(--e5); font-size: var(--t4); letter-spacing: -0.03em; }
+
+/* ===== portada/sobre/sobre.css ===== */
+/* PORTADA · SOBRE: qué es el sitio, en dos frases. Lo más tranquilo de la portada, a propósito. */
+.sobre { border-top: 2px solid var(--tinta); background: var(--papel); }
+.sobre-interior { display: grid; gap: var(--e5); padding-block: var(--e7); }
+.sobre-titulo { font-size: var(--t4); letter-spacing: -0.03em; }
+.sobre-texto { display: grid; gap: var(--e4); max-width: 36rem; font-size: var(--t1); line-height: 1.45; }
+@media (min-width: 52rem) {
+  .sobre-interior { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: var(--e7); align-items: start; }
+}

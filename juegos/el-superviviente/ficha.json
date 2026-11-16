@@ -1,0 +1,15 @@
+{
+  "titulo": "El superviviente",
+  "descripcion": "Esquiva los bloques que caen cada vez más rápido y recoge estrellas para sumar puntos. Tres vidas. Se juega con teclado, ratón o dedo.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "esquivar",
+    "arcade",
+    "un jugador"
+  ],
+  "categoria": "arcade",
+  "dificultad": "dificil",
+  "duracion": "1-5 min",
+  "orden": 20
+}

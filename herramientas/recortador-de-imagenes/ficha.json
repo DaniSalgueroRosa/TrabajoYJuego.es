@@ -1,0 +1,8 @@
+{
+  "titulo": "Recortador de imágenes",
+  "descripcion": "Recorta una imagen arrastrando el rectángulo o escribiendo las medidas, con proporciones fijas (1:1, 4:3, 16:9). Se hace en tu navegador, sin subirla.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "imagenes",
+  "orden": 44
+}

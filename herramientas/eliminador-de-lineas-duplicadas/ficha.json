@@ -1,0 +1,8 @@
+{
+  "titulo": "Eliminador de líneas duplicadas",
+  "descripcion": "Quita las líneas repetidas de una lista, o deja solo las que no se repiten o las que sí. Ignora mayúsculas y espacios si quieres.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 55
+}

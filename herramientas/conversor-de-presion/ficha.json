@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de presión",
+  "descripcion": "Convierte pascales, bares, atmósferas, psi, mmHg y torr al instante. Útil para neumáticos, meteorología, buceo y equipos de laboratorio.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 39
+}

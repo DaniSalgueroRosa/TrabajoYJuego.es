@@ -1,0 +1,17 @@
+{
+  "titulo": "Torre de Hanói online con 3 a 7 discos",
+  "descripcion": "Resuelve la Torre de Hanói con 3 a 7 discos: mueve la pila de una torre a otra sin poner un disco grande sobre uno pequeño. Con pista y deshacer.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "hanói",
+    "torres",
+    "lógica",
+    "rompecabezas",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-15 min",
+  "orden": 37
+}

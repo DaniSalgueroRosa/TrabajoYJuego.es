@@ -1,0 +1,13 @@
+/* ORDENA LOS FRASCOS: cada frasco es una columna de hasta cuatro capas, apiladas desde abajo. */
+.fr-mesa { display: flex; flex-wrap: wrap; gap: 14px 12px; align-items: flex-end; }
+.fr-frasco { display: flex; flex-direction: column-reverse; justify-content: flex-start; width: 3.4rem; height: 9.6rem; padding: 4px; gap: 2px; font: inherit; cursor: pointer; background: var(--noche-linea); border: 3px solid var(--tiza); border-radius: 0 0 14px 14px; }
+.fr-frasco:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
+.fr-frasco[aria-pressed="true"] { border-color: var(--limon); transform: translateY(-8px); }
+.fr-capa { flex: 1 1 0; display: grid; place-items: center; min-height: 0; font-weight: 700; font-size: 0.95rem; color: #0f2a24; }
+.fr-hueco { flex: 1 1 0; }
+.fr-c0 { background: #e6ef3a; }
+.fr-c1 { background: #ff7aa8; }
+.fr-c2 { background: #4fd1e5; }
+.fr-c3 { background: #ffa94d; }
+.fr-c4 { background: #b69cff; }
+.fr-c5 { background: #7be495; }

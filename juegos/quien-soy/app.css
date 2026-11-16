@@ -1,0 +1,6 @@
+/* ¿QUIÉN SOY? */
+.qs-bloque { display: grid; gap: var(--e3); }
+.qs-pistas { display: grid; gap: var(--e2); margin: 0; padding: 0; list-style: none; counter-reset: pista; }
+.qs-pistas li { counter-increment: pista; padding: var(--e3) var(--e4); background: var(--tinta); color: var(--tiza); box-shadow: 0 0 0 3px var(--noche-linea); }
+.qs-pistas li::before { content: counter(pista) ". "; color: var(--limon); font-family: var(--f-pixel); }
+.qs-pistas li.qs-nueva { box-shadow: 0 0 0 3px var(--limon); }

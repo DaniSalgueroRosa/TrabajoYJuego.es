@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de consumo eléctrico",
+  "descripcion": "Calcula los kWh y el coste de la electricidad de cualquier aparato a partir de su potencia, las horas de uso y el precio del kWh, al mes y al año.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "calculadoras",
+  "orden": 123
+}

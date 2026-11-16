@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de visión del color con láminas",
+  "descripcion": "Ocho láminas de puntos de colores con un número escondido, al estilo de las clásicas. Pasatiempo: no es un diagnóstico médico.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "visión del color",
+    "test de daltonismo",
+    "láminas de puntos",
+    "color blind test",
+    "números escondidos"
+  ],
+  "categoria": "vista-oido",
+  "duracion": "3 min",
+  "orden": 21,
+  "tema": {
+    "fondo": "#2B2B2B",
+    "texto": "#F2F2F2",
+    "acento": "#9BE3C8"
+  }
+}

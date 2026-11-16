@@ -1,0 +1,8 @@
+{
+  "titulo": "Temporizador online",
+  "descripcion": "Temporizador online con horas, minutos y segundos, atajos de 1 a 60 minutos, barra de progreso y aviso sonoro al terminar.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "fechas",
+  "orden": 76
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "IA o cuadro real: ¿sabes distinguirlos?",
+  "descripcion": "Diez imágenes: decide si es un cuadro real o lo ha hecho una IA. Al responder verás autor, fuente y una pista para distinguirlos mejor.",
+  "fecha": "2026-11-15",
+  "estado": "proximamente",
+  "etiquetas": [
+    "IA o real",
+    "imágenes de IA",
+    "cuadros reales",
+    "detectar imágenes generadas",
+    "arte"
+  ],
+  "categoria": "utilidades",
+  "duracion": "3 min",
+  "orden": 32,
+  "tema": {
+    "fondo": "#0E2630",
+    "texto": "#E6F5F8",
+    "acento": "#5CE1F2"
+  }
+}

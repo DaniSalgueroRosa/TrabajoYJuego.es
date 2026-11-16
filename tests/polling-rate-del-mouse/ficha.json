@@ -1,0 +1,21 @@
+{
+  "titulo": "Polling rate del mouse: test en Hz",
+  "descripcion": "Estima la frecuencia de sondeo de tu ratón (125, 500, 1000 Hz…) moviéndolo en círculos unos segundos. Avisa si el navegador no deja medirla.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "polling rate",
+    "frecuencia de sondeo",
+    "hz del ratón",
+    "mouse polling rate test",
+    "ratón gaming"
+  ],
+  "categoria": "raton-teclado",
+  "duracion": "10 s",
+  "orden": 7,
+  "tema": {
+    "fondo": "#172033",
+    "texto": "#E8EEF9",
+    "acento": "#FFB347"
+  }
+}

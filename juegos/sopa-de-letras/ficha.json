@@ -1,0 +1,17 @@
+{
+  "titulo": "Sopa de letras online con temas y tres niveles",
+  "descripcion": "Encuentra las palabras escondidas en la sopa de letras: nueve temas, tres tamaños, pistas y juego táctil, con ratón o con teclado.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "sopa de letras",
+    "palabras",
+    "pasatiempo",
+    "búsqueda",
+    "un jugador"
+  ],
+  "categoria": "palabras",
+  "dificultad": "facil",
+  "duracion": "3-8 min",
+  "orden": 36
+}

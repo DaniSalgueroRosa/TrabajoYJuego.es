@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de Jujutsu Kaisen",
+  "descripcion": "Diez situaciones para saber qué personaje de Jujutsu Kaisen eres, con un radar de rasgos y los cinco más parecidos. Test de fans, sin spoilers.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de Jujutsu Kaisen",
+    "qué personaje de Jujutsu Kaisen soy",
+    "personajes de Jujutsu Kaisen",
+    "test anime",
+    "Itadori"
+  ],
+  "categoria": "cultura-pop",
+  "duracion": "3 min",
+  "orden": 64,
+  "tema": {
+    "fondo": "#120F24",
+    "texto": "#EDE9FF",
+    "acento": "#7FA8FF"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "titulo": "Validador JSON",
+  "descripcion": "Comprueba si un JSON es válido y, si no lo es, te dice la línea y la columna del error y cómo corregirlo. Muestra también su estructura.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 82
+}

@@ -1,0 +1,30 @@
+/* PORTADA · INFORMACIÓN: lo esencial sobre datos y publicidad, dicho en tres frases, y acceso directo a las páginas legales.
+   Las frases dependen del estado real del sitio (publicidad activa o no) y coinciden con la política de privacidad.
+   Aspecto de «Trabajo» (papel y letra formal): es información, no juego. */
+.informacion { border-top: 2px solid var(--tinta); background: var(--lienzo); }
+.informacion-interior { display: grid; gap: var(--e6); padding-block: var(--e7); }
+.informacion-titulo { font-size: var(--t4); letter-spacing: -0.03em; }
+.informacion-intro { max-width: 22rem; margin-top: var(--e3); font-size: var(--t0); color: var(--tinta-suave); }
+
+.informacion-puntos { display: grid; gap: var(--e4); margin: 0; }
+.informacion-punto { padding-left: var(--e4); border-left: 6px solid var(--limon); box-shadow: -2px 0 0 var(--tinta); }
+.informacion-punto dt { font-weight: 700; font-size: var(--t0); }
+.informacion-punto dd { max-width: 34rem; margin: var(--e1) 0 0; color: var(--tinta-suave); line-height: 1.45; }
+.informacion-punto a { color: var(--pizarra); text-underline-offset: 0.2em; }
+
+.informacion-legales-titulo { margin-bottom: var(--e3); font-size: var(--t0); }
+.informacion-legales ul { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; border-top: 2px solid var(--tinta); }
+.informacion-legales li { border-bottom: 1px solid var(--linea); }
+.informacion-legales a {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--e3); min-height: 2.75rem; padding: var(--e2) var(--e2);
+  color: var(--pizarra); font-weight: 700; text-decoration: none;
+}
+.informacion-legales a::after { content: "→" / ""; font-weight: 400; }
+.informacion-legales a:hover, .informacion-legales a:focus-visible { background-color: var(--limon-claro); }
+.informacion-legales a:focus-visible { outline-offset: -3px; --foco: var(--pizarra); }
+
+@media (min-width: 52rem) {
+  .informacion-interior { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--e7); align-items: start; }
+  .informacion-cabeza { grid-row: 1 / span 2; }
+  .informacion-legales { grid-column: 2; }
+}

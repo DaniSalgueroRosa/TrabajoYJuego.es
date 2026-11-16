@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de edad cerebral",
+  "descripcion": "Tres tareas cortas (cálculo, colores y palabras, tabla de números) para sacar una «edad cerebral» de juego. Pasatiempo, no un test médico.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "edad cerebral",
+    "test de edad mental",
+    "brain age",
+    "cálculo mental",
+    "efecto stroop"
+  ],
+  "categoria": "memoria-percepcion",
+  "duracion": "3 min",
+  "orden": 29,
+  "tema": {
+    "fondo": "#F3F7F5",
+    "texto": "#14201C",
+    "acento": "#C21E4A"
+  }
+}

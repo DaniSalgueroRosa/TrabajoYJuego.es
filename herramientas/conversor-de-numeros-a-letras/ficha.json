@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de números a letras",
+  "descripcion": "Escribe con letras cualquier número hasta 30 cifras, también en euros, dólares o pesos, con género y decimales. Útil para cheques, contratos y facturas.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 112
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de diferenciación de colores",
+  "descripcion": "Encuentra la casilla de color distinto en cada cuadrícula durante 60 s. La diferencia se reduce con cada acierto. Mide hasta dónde llega tu ojo.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "diferenciación de colores",
+    "test de colores",
+    "color test",
+    "ojo de águila",
+    "agudeza cromática"
+  ],
+  "categoria": "vista-oido",
+  "duracion": "1 min",
+  "orden": 18,
+  "tema": {
+    "fondo": "#2B2B2B",
+    "texto": "#F2F2F2",
+    "acento": "#9BE3C8"
+  }
+}

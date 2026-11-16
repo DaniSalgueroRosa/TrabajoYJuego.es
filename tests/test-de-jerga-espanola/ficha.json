@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de jerga española",
+  "descripcion": "Veinticuatro expresiones coloquiales de España, de «mola» a «dar sopas con honda», para ver cuánta jerga controlas. Se corrige al momento.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "jerga española",
+    "expresiones de España",
+    "español coloquial",
+    "dichos españoles",
+    "test de español"
+  ],
+  "categoria": "espanol",
+  "duracion": "4 min",
+  "orden": 81,
+  "tema": {
+    "fondo": "#2B1A12",
+    "texto": "#FFF3E8",
+    "acento": "#FF9F5A"
+  }
+}

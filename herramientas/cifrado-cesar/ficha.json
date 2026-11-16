@@ -1,0 +1,8 @@
+{
+  "titulo": "Cifrado César y ROT13",
+  "descripcion": "Cifra y descifra texto con el cifrado César o ROT13: elige el desplazamiento, el alfabeto español o inglés y prueba los 25 desplazamientos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 126
+}

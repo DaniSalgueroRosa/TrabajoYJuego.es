@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de nivel de vocabulario de español",
+  "descripcion": "Treinta palabras, de las cotidianas a las más raras, para estimar tu nivel de vocabulario en español. Se corrige al momento, con gráfica por franjas.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "vocabulario español",
+    "test de vocabulario",
+    "nivel de español",
+    "palabras difíciles",
+    "significado de palabras"
+  ],
+  "categoria": "espanol",
+  "duracion": "5 min",
+  "orden": 80,
+  "tema": {
+    "fondo": "#2A1210",
+    "texto": "#FFF1EC",
+    "acento": "#FFB35C"
+  }
+}

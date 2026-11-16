@@ -1,0 +1,13 @@
+{
+  "titulo": "Cambiar velocidad y volumen de audio",
+  "descripcion": "Acelera o frena un audio sin cambiar el tono (o cambiándolo, como un disco) y sube o baja el volumen, todo en tu navegador.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "velocidad",
+    "volumen"
+  ],
+  "categoria": "audio",
+  "orden": 104
+}

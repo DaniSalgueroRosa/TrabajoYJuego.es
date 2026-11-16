@@ -1,0 +1,69 @@
+{
+  "titulo": "Tests",
+  "singular": "test",
+  "plural": "tests",
+  "descripcion": "Tests de reflejos, memoria, personalidad, amor, cultura pop e idiomas. Se hacen en el navegador, sin registro y sin guardar nada.",
+  "resumen": "Reflejos, memoria, personalidad, amor, cultura pop e idiomas.",
+  "mundo": "juego",
+  "aspecto": "libre",
+  "orden": 4,
+  "vacio": "El primer test aparecerá en esta página en cuanto se publique.",
+  "ordenar_por": "orden",
+  "schema": {
+    "tipo": "WebApplication",
+    "categoria": "EntertainmentApplication"
+  },
+  "accion": "Hacer el test",
+  "buscador": true,
+  "categorias": [
+    {
+      "id": "velocidad-clics",
+      "nombre": "Velocidad y clics"
+    },
+    {
+      "id": "raton-teclado",
+      "nombre": "Ratón y teclado"
+    },
+    {
+      "id": "reaccion-punteria",
+      "nombre": "Reacción y puntería"
+    },
+    {
+      "id": "vista-oido",
+      "nombre": "Vista y oído"
+    },
+    {
+      "id": "memoria-percepcion",
+      "nombre": "Memoria y percepción"
+    },
+    {
+      "id": "utilidades",
+      "nombre": "Utilidades"
+    },
+    {
+      "id": "personalidad",
+      "nombre": "Personalidad, psicología y autoconocimiento"
+    },
+    {
+      "id": "relaciones",
+      "nombre": "Relaciones, amor y orientación"
+    },
+    {
+      "id": "cultura-pop",
+      "nombre": "Cultura pop: anime y manga"
+    },
+    {
+      "id": "series-cine",
+      "nombre": "Cultura pop: series, libros y cine"
+    },
+    {
+      "id": "espanol",
+      "nombre": "Idiomas: español"
+    },
+    {
+      "id": "otros-idiomas",
+      "nombre": "Idiomas y geografía"
+    }
+  ],
+  "agrupar": true
+}

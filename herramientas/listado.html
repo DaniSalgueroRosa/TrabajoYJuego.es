@@ -1,0 +1,56 @@
+<div class="seccion-cabecera">
+  <div class="contenedor">
+    {{> comun/migas/migas}}
+    <h1 class="seccion-titulo">{{seccion.titulo}}</h1>
+    <p class="seccion-lead">{{seccion.descripcion}}</p>
+  </div>
+</div>
+<div class="contenedor seccion-cuerpo">
+  {{#hay_items}}
+  {{#filtros.activos}}
+  <form class="filtros filtros--herramientas" data-filtros data-singular="{{filtros.singular}}" data-plural="{{filtros.plural}}" role="search" aria-label="Buscar {{seccion.plural}}" hidden>
+    <p class="filtro-campo filtro-campo--buscar">
+      <label for="filtro-texto">Buscar una herramienta</label>
+      <input id="filtro-texto" type="search" autocomplete="off" placeholder="pdf, contraseña, mp3, qr…" data-filtro-texto>
+    </p>
+    {{#filtros.hay_categorias}}
+    <fieldset>
+      <legend>Categoría</legend>
+      <div class="filtro-chips">
+        <button type="button" class="chip" data-filtro-categoria="" aria-pressed="true">Todas ({{filtros.total}})</button>
+        {{#filtros.categorias}}
+        <button type="button" class="chip" data-filtro-categoria="{{id}}" aria-pressed="false">{{nombre}} ({{cuenta}})</button>
+        {{/filtros.categorias}}
+      </div>
+    </fieldset>
+    {{/filtros.hay_categorias}}
+    <p class="filtro-estado" role="status" aria-live="polite" data-filtro-estado></p>
+    <p><button type="button" class="boton boton--secundario boton--chico" data-filtro-borrar hidden>Quitar filtros</button></p>
+  </form>
+  {{/filtros.activos}}
+  {{#hay_grupos}}
+  {{#grupos}}
+  <section class="grupo" data-bloque="{{id}}" aria-labelledby="grupo-{{id}}">
+    <h2 class="grupo-titulo" id="grupo-{{id}}">{{nombre}} <span class="grupo-cuenta">{{cuenta}}</span></h2>
+    <ul class="rejilla">
+      {{#items}}
+      <li data-categoria="{{categoria}}" data-busqueda="{{busqueda}}">{{> comun/tarjeta/tarjeta}}</li>
+      {{/items}}
+    </ul>
+  </section>
+  {{/grupos}}
+  {{/hay_grupos}}
+  {{^hay_grupos}}
+  <h2 class="solo-lectores">Lista de {{seccion.plural}}</h2>
+  <ul class="rejilla">
+    {{#items}}
+    <li data-categoria="{{categoria}}" data-busqueda="{{busqueda}}">{{> comun/tarjeta/tarjeta}}</li>
+    {{/items}}
+  </ul>
+  {{/hay_grupos}}
+  {{> comun/anuncio/anuncio-listado}}
+  {{/hay_items}}
+  {{^hay_items}}
+  {{> comun/vacio/vacio}}
+  {{/hay_items}}
+</div>

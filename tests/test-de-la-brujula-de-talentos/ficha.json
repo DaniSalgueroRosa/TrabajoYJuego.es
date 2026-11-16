@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de la brújula de talentos",
+  "descripcion": "Catorce preguntas para saber si tu talento apunta a analizar, crear, conectar o construir, con una brújula que marca tu dirección. Orientación de juego.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "brújula de talentos",
+    "test de talentos",
+    "mis talentos",
+    "test vocacional",
+    "qué se me da bien"
+  ],
+  "categoria": "personalidad",
+  "duracion": "4 min",
+  "orden": 47,
+  "tema": {
+    "fondo": "#F2F7EE",
+    "texto": "#1B2A14",
+    "acento": "#2F6B1E"
+  }
+}

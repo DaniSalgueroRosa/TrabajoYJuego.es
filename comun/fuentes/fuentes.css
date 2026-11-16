@@ -1,0 +1,6 @@
+/* Tipografías propias, sin pedir nada a servidores de terceros. Los archivos están en esta misma carpeta
+   (al construir se copian a assets/fonts/). Licencias en LICENCIA.txt. */
+@font-face { font-family: "Heros"; src: url("../fonts/heros-400.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Heros"; src: url("../fonts/heros-400-cursiva.woff") format("woff"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Heros"; src: url("../fonts/heros-700.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cuadritos"; src: url("../fonts/cuadritos-400.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }

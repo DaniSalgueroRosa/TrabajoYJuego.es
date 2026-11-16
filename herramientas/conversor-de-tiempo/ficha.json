@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de tiempo",
+  "descripcion": "Convierte milisegundos, segundos, minutos, horas, días, semanas, meses y años entre sí, con tabla de equivalencias y duraciones medias.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 37
+}

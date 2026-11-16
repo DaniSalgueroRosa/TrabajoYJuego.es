@@ -1,0 +1,8 @@
+{
+  "titulo": "Codificador y decodificador Base64",
+  "descripcion": "Codifica texto a Base64 o decodifica Base64 a texto con soporte UTF-8, acentos y emojis, variante URL y relleno opcional. Gratis y sin subir nada.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 85
+}

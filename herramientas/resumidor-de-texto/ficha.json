@@ -1,0 +1,8 @@
+{
+  "titulo": "Resumidor de texto",
+  "descripcion": "Resume un texto largo quedándote con sus frases más representativas, por porcentaje o por número de frases. No reescribe nada y funciona en tu navegador.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 111
+}

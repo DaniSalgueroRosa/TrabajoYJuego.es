@@ -1,0 +1,6 @@
+/* LADRILLOS: lienzo apaisado 4:3 que se adapta al ancho; la pala se arrastra con el dedo o el ratón. */
+.ld-zona { width: min(100%, 30rem); margin: 4px auto; touch-action: none; user-select: none; -webkit-user-select: none; line-height: 0; box-shadow: 0 0 0 4px var(--noche-linea); }
+.ld-zona:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
+.ld-lienzo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; }
+.ld-pad { display: flex; gap: 6px; justify-content: center; margin: var(--e2) auto; }
+.ld-btn { min-width: 4.2rem; height: 3rem; padding: 0 var(--e2); touch-action: manipulation; }

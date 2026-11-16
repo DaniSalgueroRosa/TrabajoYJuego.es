@@ -1,0 +1,255 @@
+{
+"_nota": "Las 50 provincias de España: «n» es la provincia, «ca» su comunidad autónoma y «cap» su capital (igual al nombre cuando coinciden).",
+"provincias": [
+{
+"n": "Almería",
+"ca": "Andalucía",
+"cap": "Almería"
+},
+{
+"n": "Cádiz",
+"ca": "Andalucía",
+"cap": "Cádiz"
+},
+{
+"n": "Córdoba",
+"ca": "Andalucía",
+"cap": "Córdoba"
+},
+{
+"n": "Granada",
+"ca": "Andalucía",
+"cap": "Granada"
+},
+{
+"n": "Huelva",
+"ca": "Andalucía",
+"cap": "Huelva"
+},
+{
+"n": "Jaén",
+"ca": "Andalucía",
+"cap": "Jaén"
+},
+{
+"n": "Málaga",
+"ca": "Andalucía",
+"cap": "Málaga"
+},
+{
+"n": "Sevilla",
+"ca": "Andalucía",
+"cap": "Sevilla"
+},
+{
+"n": "Huesca",
+"ca": "Aragón",
+"cap": "Huesca"
+},
+{
+"n": "Teruel",
+"ca": "Aragón",
+"cap": "Teruel"
+},
+{
+"n": "Zaragoza",
+"ca": "Aragón",
+"cap": "Zaragoza"
+},
+{
+"n": "Asturias",
+"ca": "Asturias",
+"cap": "Oviedo"
+},
+{
+"n": "Islas Baleares",
+"ca": "Islas Baleares",
+"cap": "Palma"
+},
+{
+"n": "Las Palmas",
+"ca": "Canarias",
+"cap": "Las Palmas de Gran Canaria"
+},
+{
+"n": "Santa Cruz de Tenerife",
+"ca": "Canarias",
+"cap": "Santa Cruz de Tenerife"
+},
+{
+"n": "Cantabria",
+"ca": "Cantabria",
+"cap": "Santander"
+},
+{
+"n": "Ávila",
+"ca": "Castilla y León",
+"cap": "Ávila"
+},
+{
+"n": "Burgos",
+"ca": "Castilla y León",
+"cap": "Burgos"
+},
+{
+"n": "León",
+"ca": "Castilla y León",
+"cap": "León"
+},
+{
+"n": "Palencia",
+"ca": "Castilla y León",
+"cap": "Palencia"
+},
+{
+"n": "Salamanca",
+"ca": "Castilla y León",
+"cap": "Salamanca"
+},
+{
+"n": "Segovia",
+"ca": "Castilla y León",
+"cap": "Segovia"
+},
+{
+"n": "Soria",
+"ca": "Castilla y León",
+"cap": "Soria"
+},
+{
+"n": "Valladolid",
+"ca": "Castilla y León",
+"cap": "Valladolid"
+},
+{
+"n": "Zamora",
+"ca": "Castilla y León",
+"cap": "Zamora"
+},
+{
+"n": "Albacete",
+"ca": "Castilla-La Mancha",
+"cap": "Albacete"
+},
+{
+"n": "Ciudad Real",
+"ca": "Castilla-La Mancha",
+"cap": "Ciudad Real"
+},
+{
+"n": "Cuenca",
+"ca": "Castilla-La Mancha",
+"cap": "Cuenca"
+},
+{
+"n": "Guadalajara",
+"ca": "Castilla-La Mancha",
+"cap": "Guadalajara"
+},
+{
+"n": "Toledo",
+"ca": "Castilla-La Mancha",
+"cap": "Toledo"
+},
+{
+"n": "Barcelona",
+"ca": "Cataluña",
+"cap": "Barcelona"
+},
+{
+"n": "Girona",
+"ca": "Cataluña",
+"cap": "Girona"
+},
+{
+"n": "Lleida",
+"ca": "Cataluña",
+"cap": "Lleida"
+},
+{
+"n": "Tarragona",
+"ca": "Cataluña",
+"cap": "Tarragona"
+},
+{
+"n": "Alicante",
+"ca": "Comunidad Valenciana",
+"cap": "Alicante"
+},
+{
+"n": "Castellón",
+"ca": "Comunidad Valenciana",
+"cap": "Castellón de la Plana"
+},
+{
+"n": "Valencia",
+"ca": "Comunidad Valenciana",
+"cap": "Valencia"
+},
+{
+"n": "Badajoz",
+"ca": "Extremadura",
+"cap": "Badajoz"
+},
+{
+"n": "Cáceres",
+"ca": "Extremadura",
+"cap": "Cáceres"
+},
+{
+"n": "A Coruña",
+"ca": "Galicia",
+"cap": "A Coruña"
+},
+{
+"n": "Lugo",
+"ca": "Galicia",
+"cap": "Lugo"
+},
+{
+"n": "Ourense",
+"ca": "Galicia",
+"cap": "Ourense"
+},
+{
+"n": "Pontevedra",
+"ca": "Galicia",
+"cap": "Pontevedra"
+},
+{
+"n": "Madrid",
+"ca": "Comunidad de Madrid",
+"cap": "Madrid"
+},
+{
+"n": "Murcia",
+"ca": "Región de Murcia",
+"cap": "Murcia"
+},
+{
+"n": "Navarra",
+"ca": "Navarra",
+"cap": "Pamplona"
+},
+{
+"n": "Álava",
+"ca": "País Vasco",
+"cap": "Vitoria-Gasteiz"
+},
+{
+"n": "Guipúzcoa",
+"ca": "País Vasco",
+"cap": "San Sebastián"
+},
+{
+"n": "Vizcaya",
+"ca": "País Vasco",
+"cap": "Bilbao"
+},
+{
+"n": "La Rioja",
+"ca": "La Rioja",
+"cap": "Logroño"
+}
+]
+}

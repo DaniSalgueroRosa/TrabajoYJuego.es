@@ -1,0 +1,14 @@
+{
+  "titulo": "Afinador de guitarra online",
+  "descripcion": "Afina tu guitarra, bajo o ukelele con el micrófono del dispositivo: ves la nota y si sube o baja. También suena el tono de cada cuerda.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "musica",
+    "afinador",
+    "guitarra"
+  ],
+  "categoria": "audio",
+  "orden": 107
+}

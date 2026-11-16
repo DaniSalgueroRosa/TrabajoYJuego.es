@@ -1,0 +1,21 @@
+{
+  "titulo": "Test lésbico",
+  "descripcion": "Doce frases para quien se pregunta si le atraen las mujeres: atracción, vínculos y comodidad con la palabra. Medidor y radar. No es un diagnóstico.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test lésbico",
+    "soy lesbiana",
+    "me atraen las mujeres",
+    "test de lesbiana",
+    "orientación sexual"
+  ],
+  "categoria": "relaciones",
+  "duracion": "3 min",
+  "orden": 58,
+  "tema": {
+    "fondo": "#FFF0F6",
+    "texto": "#3F0B24",
+    "acento": "#B1124F"
+  }
+}

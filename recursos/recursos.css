@@ -1,0 +1,58 @@
+/* RECURSOS · mundo «Trabajo», versión de lectura: papel de cuaderno, el título lleva subrayador limón que se pinta al cargar,
+   el listado es una lista de filas (no tarjetas) y el cuerpo de las guías tiene estilo de texto largo. */
+body[data-seccion="recursos"] main[data-mundo] { --m-fondo: var(--papel-trabajo); --m-texto: var(--pizarra); }
+body[data-seccion="recursos"] :is(.seccion-cabecera, .ficha-cabecera) { border-bottom: 2px solid var(--pizarra); }
+/* El subrayador va en un <span> en línea: sigue cada línea del título aunque se parta en dos. */
+body[data-seccion="recursos"] :is(.seccion-titulo, .ficha-titulo) .marca {
+  background: linear-gradient(var(--limon), var(--limon)) no-repeat 0 90% / 100% 0.22em;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+@media (prefers-reduced-motion: no-preference) {
+  body[data-seccion="recursos"] :is(.seccion-titulo, .ficha-titulo) .marca { animation: recursos-marcador 0.8s var(--suave) 0.2s backwards; }
+}
+@keyframes recursos-marcador { from { background-size: 0 0.22em; } }
+
+/* Listado: una fila por guía */
+body[data-seccion="recursos"] .rejilla { grid-template-columns: 1fr; gap: var(--e3); }
+body[data-seccion="recursos"] .rejilla .tarjeta { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: var(--e2) var(--e5); }
+body[data-seccion="recursos"] .rejilla .tarjeta-titulo, body[data-seccion="recursos"] .rejilla .tarjeta-texto { grid-column: 1; }
+body[data-seccion="recursos"] .rejilla .tarjeta-pie { grid-column: 2; grid-row: 1; white-space: nowrap; }
+@media (max-width: 40rem) {
+  body[data-seccion="recursos"] .rejilla .tarjeta { grid-template-columns: 1fr; }
+  body[data-seccion="recursos"] .rejilla .tarjeta-pie { grid-column: 1; grid-row: auto; }
+}
+
+/* Cuerpo de una guía: texto largo con medida cómoda (≈ 40 rem) */
+body[data-seccion="recursos"] .ficha-cuerpo > * { max-width: var(--ancho-texto); }
+body[data-seccion="recursos"] .ficha-cuerpo > * + * { margin-top: var(--e4); }
+body[data-seccion="recursos"] .ficha-cuerpo > :is(h2, h3) { margin-top: var(--e6); }
+body[data-seccion="recursos"] .ficha-cuerpo h2 { font-size: var(--t3); letter-spacing: -0.03em; }
+body[data-seccion="recursos"] .ficha-cuerpo h3 { font-size: var(--t2); }
+body[data-seccion="recursos"] .ficha-cuerpo :is(ul, ol) { padding-left: 1.4em; }
+body[data-seccion="recursos"] .ficha-cuerpo li + li { margin-top: var(--e2); }
+body[data-seccion="recursos"] .ficha-cuerpo a { text-underline-offset: 0.2em; text-decoration-color: var(--pizarra-media); text-decoration-thickness: 2px; }
+body[data-seccion="recursos"] .ficha-cuerpo a:hover { background: var(--limon); }
+body[data-seccion="recursos"] .ficha-cuerpo blockquote { margin-inline: 0; padding-left: var(--e4); border-left: 6px solid var(--limon); font-size: var(--t1); }
+body[data-seccion="recursos"] .ficha-cuerpo :is(pre, code) { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.9em; }
+body[data-seccion="recursos"] .ficha-cuerpo pre { overflow-x: auto; padding: var(--e4); background: var(--pizarra); color: var(--tiza); border-radius: var(--radio-trabajo); }
+body[data-seccion="recursos"] .ficha-cuerpo img { display: block; max-width: 100%; border: 1px solid var(--linea); }
+
+/* Listado agrupado por categorías, con buscador */
+body[data-seccion="recursos"] .filtros--recursos { padding: var(--e5); background: var(--papel); border: 1px solid var(--linea); border-top: 6px solid var(--limon); border-radius: var(--radio-trabajo); }
+body[data-seccion="recursos"] .filtro-campo--buscar { display: grid; gap: 0.35rem; margin: 0; font-weight: 700; }
+body[data-seccion="recursos"] .filtro-campo--buscar input { padding: 0.85rem 1rem; border: 2px solid var(--pizarra); border-radius: var(--radio-trabajo); background: var(--papel); color: var(--tinta); font: 400 1.1rem / 1.4 var(--f-trabajo); }
+body[data-seccion="recursos"] .filtro-campo--buscar input:focus-visible { outline: 3px solid var(--limon); outline-offset: 1px; box-shadow: 0 0 0 5px var(--pizarra); }
+body[data-seccion="recursos"] .grupo { margin-top: var(--e7); }
+body[data-seccion="recursos"] .grupo:first-of-type { margin-top: 0; }
+body[data-seccion="recursos"] .grupo[hidden] { display: none; }
+body[data-seccion="recursos"] .grupo-titulo { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--e3); margin-bottom: var(--e4); padding-bottom: var(--e2); border-bottom: 3px solid var(--pizarra); font-size: var(--t3); line-height: 1.1; }
+body[data-seccion="recursos"] .grupo-cuenta { font-size: var(--t-1); font-weight: 400; color: var(--tinta-suave); }
+body[data-seccion="recursos"] .chip {
+  padding: 0.45rem 0.9rem; cursor: pointer; border: 2px solid var(--pizarra); border-radius: 999px; background: var(--papel); color: var(--pizarra);
+  font: 700 var(--t-1) / 1.2 var(--f-trabajo); transition: background-color 0.2s, color 0.2s;
+}
+body[data-seccion="recursos"] .chip:hover { background: var(--limon); color: var(--tinta); }
+body[data-seccion="recursos"] .chip[aria-pressed="true"] { background: var(--pizarra); color: var(--tiza); }
+body[data-seccion="recursos"] .chip:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; box-shadow: 0 0 0 5px var(--pizarra); }
+
+body[data-seccion="recursos"] .grupo .tarjeta-meta { display: none; }

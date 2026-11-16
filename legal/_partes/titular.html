@@ -1,0 +1,13 @@
+<ul class="legal-datos">
+  <li><strong>Titular:</strong> {{{titular.nombre}}}</li>
+  <li><strong>NIF o identificación fiscal:</strong> {{{titular.nif}}}</li>
+  <li><strong>Domicilio:</strong> {{{titular.domicilio}}}</li>
+  <li><strong>Correo electrónico:</strong> {{{titular.email}}}</li>
+  {{#titular.tiene_telefono}}
+  <li><strong>Teléfono:</strong> {{{titular.telefono}}}</li>
+  {{/titular.tiene_telefono}}
+  {{#titular.tiene_registro}}
+  <li><strong>Datos registrales:</strong> {{{titular.registro}}}</li>
+  {{/titular.tiene_registro}}
+  <li><strong>Sitio web:</strong> {{sitio.url}}</li>
+</ul>

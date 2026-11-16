@@ -1,0 +1,21 @@
+{
+  "titulo": "Test ¿Estoy enamorado/a?",
+  "descripcion": "Catorce frases para saber si lo que sientes es enamoramiento, cariño o amistad. Con un radar de ilusión, pensamientos, cariño, futuro y nervios.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "estoy enamorado",
+    "estoy enamorada",
+    "test de enamoramiento",
+    "enamoramiento o cariño",
+    "test de amor"
+  ],
+  "categoria": "relaciones",
+  "duracion": "3 min",
+  "orden": 54,
+  "tema": {
+    "fondo": "#FDEFF8",
+    "texto": "#3C0F2E",
+    "acento": "#A8136A"
+  }
+}

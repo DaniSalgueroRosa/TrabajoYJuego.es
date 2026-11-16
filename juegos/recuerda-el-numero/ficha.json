@@ -1,0 +1,17 @@
+{
+  "titulo": "Recuerda el número: test de memoria numérica",
+  "descripcion": "Memoriza un número durante unos segundos y escríbelo de memoria. Cada acierto añade una cifra. Tres vidas y tres velocidades.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "memoria",
+    "números",
+    "cifras",
+    "test",
+    "un jugador"
+  ],
+  "categoria": "memoria",
+  "dificultad": "media",
+  "duracion": "3-8 min",
+  "orden": 34
+}

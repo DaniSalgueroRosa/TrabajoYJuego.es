@@ -1,0 +1,8 @@
+{
+  "titulo": "PDF a Word",
+  "descripcion": "Convierte un PDF con texto en un documento de Word editable (.docx) sin subir el archivo a ningún servidor.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 1
+}

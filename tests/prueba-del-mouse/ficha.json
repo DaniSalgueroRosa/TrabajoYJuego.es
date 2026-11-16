@@ -1,0 +1,21 @@
+{
+  "titulo": "Prueba del mouse: botones y rueda",
+  "descripcion": "Comprueba que funcionan todos los botones de tu ratón, la rueda y los laterales. Detecta dobles clics accidentales y cuenta cada pulsación.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "prueba del mouse",
+    "test de ratón",
+    "mouse test",
+    "botones del ratón",
+    "doble clic"
+  ],
+  "categoria": "raton-teclado",
+  "duracion": "1 min",
+  "orden": 6,
+  "tema": {
+    "fondo": "#172033",
+    "texto": "#E8EEF9",
+    "acento": "#FFB347"
+  }
+}

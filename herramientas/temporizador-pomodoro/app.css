@@ -1,0 +1,7 @@
+.pomo-reloj { display: grid; gap: var(--e3); justify-items: start; padding: var(--e5); background: var(--pizarra); color: var(--tiza); }
+.pomo[data-fase="corto"] .pomo-reloj, .pomo[data-fase="largo"] .pomo-reloj { background: var(--pizarra-media); }
+.pomo-fase { margin: 0; font-size: var(--t1); font-weight: 700; color: var(--limon); }
+.pomo-tiempo { font-size: clamp(3.4rem, 2rem + 10vw, 7rem); font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+.pomo-barra { width: 100%; max-width: 30rem; }
+.pomo-cuenta { margin: 0; opacity: 0.9; }
+.pomo-reloj .boton--secundario { background: transparent; color: var(--tiza); border-color: var(--tiza); }

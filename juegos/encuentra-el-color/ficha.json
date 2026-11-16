@@ -1,0 +1,11 @@
+{
+  "titulo": "Test de colores: encuentra el diferente",
+  "descripcion": "Encuentra la casilla de un tono distinto en una cuadrícula que crece y se vuelve más difícil. 30 segundos por partida y los fallos te restan tiempo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": ["test de colores", "vista", "reflejos", "color diferente"],
+  "categoria": "habilidad",
+  "dificultad": "media",
+  "duracion": "1 min",
+  "orden": 59
+}

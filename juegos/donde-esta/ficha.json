@@ -1,0 +1,15 @@
+{
+  "titulo": "¿Dónde está?",
+  "descripcion": "Sitúa ciudades, monumentos y lugares naturales en el mapa del mundo. Cuanto más cerca pongas el marcador, más puntos sumas. Son ocho lugares por partida.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "geografía",
+    "mapa",
+    "un jugador"
+  ],
+  "categoria": "geografia",
+  "dificultad": "media",
+  "duracion": "3-6 min",
+  "orden": 12
+}

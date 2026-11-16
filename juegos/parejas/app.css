@@ -1,0 +1,11 @@
+/* PAREJAS: cartas cuadradas con dorso de píxeles; las figuras llevan forma y color propios, así que no dependen solo del color. */
+.pj-tablero { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; width: min(100%, 26rem); margin: 4px auto; }
+.pj-carta { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--tinta);
+  box-shadow: 0 -3px 0 0 var(--noche-linea), 0 3px 0 0 var(--noche-linea), -3px 0 0 0 var(--noche-linea), 3px 0 0 0 var(--noche-linea); }
+.pj-carta:hover:not(:disabled) { box-shadow: 0 -3px 0 0 var(--sandia), 0 3px 0 0 var(--sandia), -3px 0 0 0 var(--sandia), 3px 0 0 0 var(--sandia); }
+.pj-carta:focus-visible { outline: 3px solid var(--limon); outline-offset: 5px; }
+.pj-carta:disabled { cursor: default; opacity: 1; }
+.pj-dorso { width: 100%; height: 100%; background: repeating-conic-gradient(var(--pizarra-media) 0 25%, var(--noche-2) 0 50%) 0 0 / 16px 16px; }
+.pj-abierta { background: var(--noche-2); }
+.pj-par { background: var(--pizarra-media); box-shadow: 0 -3px 0 0 var(--limon), 0 3px 0 0 var(--limon), -3px 0 0 0 var(--limon), 3px 0 0 0 var(--limon); }
+.pj-figura { width: 70%; height: 70%; }

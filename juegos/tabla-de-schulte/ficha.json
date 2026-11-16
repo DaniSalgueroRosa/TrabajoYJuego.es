@@ -1,0 +1,11 @@
+{
+  "titulo": "Tabla de Schulte: encuentra los números",
+  "descripcion": "Entrena la atención con una tabla de Schulte: pulsa los números en orden lo más rápido que puedas en cuadrículas de 4×4, 5×5 o 6×6.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": ["tabla de Schulte", "atención", "velocidad", "concentración"],
+  "categoria": "habilidad",
+  "dificultad": "media",
+  "duracion": "1-2 min",
+  "orden": 54
+}

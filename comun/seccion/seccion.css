@@ -1,0 +1,9 @@
+/* ESTRUCTURA COMÚN DE LOS LISTADOS: franja de título, cuerpo y rejilla. Cada sección (herramientas.css,
+   recursos.css, juegos.css, tests.css) pone encima su propio aspecto. */
+.seccion-cabecera { background: var(--m-fondo); color: var(--m-texto); --foco: var(--m-texto); padding-block: var(--e5) var(--e7); }
+.seccion-titulo { margin-top: var(--e5); font-size: var(--t-seccion); line-height: 0.95; letter-spacing: -0.04em; }
+.seccion-lead { max-width: 36rem; margin-top: var(--e4); font-size: var(--t1); line-height: 1.4; }
+.seccion-cuerpo { padding-block: var(--e7) var(--e8); }
+
+.rejilla { display: grid; gap: var(--e5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); margin: 0; padding: 0; list-style: none; }
+.rejilla > li { min-width: 0; }

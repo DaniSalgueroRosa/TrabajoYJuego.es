@@ -1,0 +1,565 @@
+{
+"_nota": "p = país, c = capital, r = región (las respuestas falsas se eligen de la misma región).",
+"paises": [
+{
+"p": "Alemania",
+"c": "Berlín",
+"r": "europa"
+},
+{
+"p": "Austria",
+"c": "Viena",
+"r": "europa"
+},
+{
+"p": "Bélgica",
+"c": "Bruselas",
+"r": "europa"
+},
+{
+"p": "Bulgaria",
+"c": "Sofía",
+"r": "europa"
+},
+{
+"p": "Croacia",
+"c": "Zagreb",
+"r": "europa"
+},
+{
+"p": "Dinamarca",
+"c": "Copenhague",
+"r": "europa"
+},
+{
+"p": "Eslovaquia",
+"c": "Bratislava",
+"r": "europa"
+},
+{
+"p": "Eslovenia",
+"c": "Liubliana",
+"r": "europa"
+},
+{
+"p": "España",
+"c": "Madrid",
+"r": "europa"
+},
+{
+"p": "Estonia",
+"c": "Tallin",
+"r": "europa"
+},
+{
+"p": "Finlandia",
+"c": "Helsinki",
+"r": "europa"
+},
+{
+"p": "Francia",
+"c": "París",
+"r": "europa"
+},
+{
+"p": "Grecia",
+"c": "Atenas",
+"r": "europa"
+},
+{
+"p": "Hungría",
+"c": "Budapest",
+"r": "europa"
+},
+{
+"p": "Irlanda",
+"c": "Dublín",
+"r": "europa"
+},
+{
+"p": "Islandia",
+"c": "Reikiavik",
+"r": "europa"
+},
+{
+"p": "Italia",
+"c": "Roma",
+"r": "europa"
+},
+{
+"p": "Letonia",
+"c": "Riga",
+"r": "europa"
+},
+{
+"p": "Lituania",
+"c": "Vilna",
+"r": "europa"
+},
+{
+"p": "Noruega",
+"c": "Oslo",
+"r": "europa"
+},
+{
+"p": "Países Bajos",
+"c": "Ámsterdam",
+"r": "europa"
+},
+{
+"p": "Polonia",
+"c": "Varsovia",
+"r": "europa"
+},
+{
+"p": "Portugal",
+"c": "Lisboa",
+"r": "europa"
+},
+{
+"p": "Reino Unido",
+"c": "Londres",
+"r": "europa"
+},
+{
+"p": "República Checa",
+"c": "Praga",
+"r": "europa"
+},
+{
+"p": "Rumanía",
+"c": "Bucarest",
+"r": "europa"
+},
+{
+"p": "Serbia",
+"c": "Belgrado",
+"r": "europa"
+},
+{
+"p": "Suecia",
+"c": "Estocolmo",
+"r": "europa"
+},
+{
+"p": "Suiza",
+"c": "Berna",
+"r": "europa"
+},
+{
+"p": "Ucrania",
+"c": "Kiev",
+"r": "europa"
+},
+{
+"p": "Albania",
+"c": "Tirana",
+"r": "europa"
+},
+{
+"p": "Bielorrusia",
+"c": "Minsk",
+"r": "europa"
+},
+{
+"p": "Malta",
+"c": "La Valeta",
+"r": "europa"
+},
+{
+"p": "Chipre",
+"c": "Nicosia",
+"r": "europa"
+},
+{
+"p": "Rusia",
+"c": "Moscú",
+"r": "europa"
+},
+{
+"p": "Argentina",
+"c": "Buenos Aires",
+"r": "america"
+},
+{
+"p": "Brasil",
+"c": "Brasilia",
+"r": "america"
+},
+{
+"p": "Canadá",
+"c": "Ottawa",
+"r": "america"
+},
+{
+"p": "Chile",
+"c": "Santiago",
+"r": "america"
+},
+{
+"p": "Colombia",
+"c": "Bogotá",
+"r": "america"
+},
+{
+"p": "Costa Rica",
+"c": "San José",
+"r": "america"
+},
+{
+"p": "Cuba",
+"c": "La Habana",
+"r": "america"
+},
+{
+"p": "Ecuador",
+"c": "Quito",
+"r": "america"
+},
+{
+"p": "El Salvador",
+"c": "San Salvador",
+"r": "america"
+},
+{
+"p": "Estados Unidos",
+"c": "Washington D. C.",
+"r": "america"
+},
+{
+"p": "Guatemala",
+"c": "Ciudad de Guatemala",
+"r": "america"
+},
+{
+"p": "Honduras",
+"c": "Tegucigalpa",
+"r": "america"
+},
+{
+"p": "México",
+"c": "Ciudad de México",
+"r": "america"
+},
+{
+"p": "Nicaragua",
+"c": "Managua",
+"r": "america"
+},
+{
+"p": "Panamá",
+"c": "Ciudad de Panamá",
+"r": "america"
+},
+{
+"p": "Paraguay",
+"c": "Asunción",
+"r": "america"
+},
+{
+"p": "Perú",
+"c": "Lima",
+"r": "america"
+},
+{
+"p": "República Dominicana",
+"c": "Santo Domingo",
+"r": "america"
+},
+{
+"p": "Uruguay",
+"c": "Montevideo",
+"r": "america"
+},
+{
+"p": "Venezuela",
+"c": "Caracas",
+"r": "america"
+},
+{
+"p": "Jamaica",
+"c": "Kingston",
+"r": "america"
+},
+{
+"p": "Haití",
+"c": "Puerto Príncipe",
+"r": "america"
+},
+{
+"p": "Arabia Saudí",
+"c": "Riad",
+"r": "asia"
+},
+{
+"p": "China",
+"c": "Pekín",
+"r": "asia"
+},
+{
+"p": "Corea del Sur",
+"c": "Seúl",
+"r": "asia"
+},
+{
+"p": "Filipinas",
+"c": "Manila",
+"r": "asia"
+},
+{
+"p": "India",
+"c": "Nueva Delhi",
+"r": "asia"
+},
+{
+"p": "Indonesia",
+"c": "Yakarta",
+"r": "asia"
+},
+{
+"p": "Irak",
+"c": "Bagdad",
+"r": "asia"
+},
+{
+"p": "Irán",
+"c": "Teherán",
+"r": "asia"
+},
+{
+"p": "Japón",
+"c": "Tokio",
+"r": "asia"
+},
+{
+"p": "Jordania",
+"c": "Amán",
+"r": "asia"
+},
+{
+"p": "Kazajistán",
+"c": "Astaná",
+"r": "asia"
+},
+{
+"p": "Líbano",
+"c": "Beirut",
+"r": "asia"
+},
+{
+"p": "Malasia",
+"c": "Kuala Lumpur",
+"r": "asia"
+},
+{
+"p": "Mongolia",
+"c": "Ulán Bator",
+"r": "asia"
+},
+{
+"p": "Nepal",
+"c": "Katmandú",
+"r": "asia"
+},
+{
+"p": "Pakistán",
+"c": "Islamabad",
+"r": "asia"
+},
+{
+"p": "Siria",
+"c": "Damasco",
+"r": "asia"
+},
+{
+"p": "Tailandia",
+"c": "Bangkok",
+"r": "asia"
+},
+{
+"p": "Turquía",
+"c": "Ankara",
+"r": "asia"
+},
+{
+"p": "Vietnam",
+"c": "Hanói",
+"r": "asia"
+},
+{
+"p": "Afganistán",
+"c": "Kabul",
+"r": "asia"
+},
+{
+"p": "Bangladés",
+"c": "Daca",
+"r": "asia"
+},
+{
+"p": "Camboya",
+"c": "Nom Pen",
+"r": "asia"
+},
+{
+"p": "Catar",
+"c": "Doha",
+"r": "asia"
+},
+{
+"p": "Georgia",
+"c": "Tiflis",
+"r": "asia"
+},
+{
+"p": "Armenia",
+"c": "Ereván",
+"r": "asia"
+},
+{
+"p": "Azerbaiyán",
+"c": "Bakú",
+"r": "asia"
+},
+{
+"p": "Uzbekistán",
+"c": "Taskent",
+"r": "asia"
+},
+{
+"p": "Argelia",
+"c": "Argel",
+"r": "africa"
+},
+{
+"p": "Angola",
+"c": "Luanda",
+"r": "africa"
+},
+{
+"p": "Camerún",
+"c": "Yaundé",
+"r": "africa"
+},
+{
+"p": "Egipto",
+"c": "El Cairo",
+"r": "africa"
+},
+{
+"p": "Etiopía",
+"c": "Adís Abeba",
+"r": "africa"
+},
+{
+"p": "Ghana",
+"c": "Acra",
+"r": "africa"
+},
+{
+"p": "Kenia",
+"c": "Nairobi",
+"r": "africa"
+},
+{
+"p": "Libia",
+"c": "Trípoli",
+"r": "africa"
+},
+{
+"p": "Marruecos",
+"c": "Rabat",
+"r": "africa"
+},
+{
+"p": "Mozambique",
+"c": "Maputo",
+"r": "africa"
+},
+{
+"p": "Nigeria",
+"c": "Abuya",
+"r": "africa"
+},
+{
+"p": "Senegal",
+"c": "Dakar",
+"r": "africa"
+},
+{
+"p": "Túnez",
+"c": "Túnez",
+"r": "africa"
+},
+{
+"p": "Uganda",
+"c": "Kampala",
+"r": "africa"
+},
+{
+"p": "Zimbabue",
+"c": "Harare",
+"r": "africa"
+},
+{
+"p": "Mali",
+"c": "Bamako",
+"r": "africa"
+},
+{
+"p": "Madagascar",
+"c": "Antananarivo",
+"r": "africa"
+},
+{
+"p": "Namibia",
+"c": "Windhoek",
+"r": "africa"
+},
+{
+"p": "Zambia",
+"c": "Lusaka",
+"r": "africa"
+},
+{
+"p": "Sudán",
+"c": "Jartum",
+"r": "africa"
+},
+{
+"p": "Somalia",
+"c": "Mogadiscio",
+"r": "africa"
+},
+{
+"p": "Ruanda",
+"c": "Kigali",
+"r": "africa"
+},
+{
+"p": "Botsuana",
+"c": "Gaborone",
+"r": "africa"
+},
+{
+"p": "Australia",
+"c": "Canberra",
+"r": "oceania"
+},
+{
+"p": "Nueva Zelanda",
+"c": "Wellington",
+"r": "oceania"
+},
+{
+"p": "Fiyi",
+"c": "Suva",
+"r": "oceania"
+},
+{
+"p": "Papúa Nueva Guinea",
+"c": "Port Moresby",
+"r": "oceania"
+}
+]
+}

@@ -1,0 +1,773 @@
+{
+"_nota": "Preguntas de «Quiz de cultura general». «o»: opciones (la primera es la correcta; el juego las baraja). Para ampliar: añade objetos con p (pregunta), o (4 opciones, la correcta primero), e (explicación) y t (tema).",
+"preguntas": [
+{
+"p": "¿Cuál es el río más largo de la península ibérica?",
+"o": [
+"Tajo",
+"Ebro",
+"Duero",
+"Guadiana"
+],
+"c": 0,
+"e": "El Tajo mide unos 1.007 km. El Ebro (unos 910 km) es el más largo que corre entero por España.",
+"t": "Geografía"
+},
+{
+"p": "¿En qué año llegó Cristóbal Colón a América por primera vez?",
+"o": [
+"1492",
+"1485",
+"1504",
+"1519"
+],
+"c": 0,
+"e": "La expedición de las tres carabelas tocó tierra el 12 de octubre de 1492.",
+"t": "Historia"
+},
+{
+"p": "¿Cuántos huesos tiene el cuerpo de una persona adulta?",
+"o": [
+"206",
+"186",
+"226",
+"256"
+],
+"c": 0,
+"e": "Un recién nacido tiene más (unos 300) porque muchos huesos se sueldan al crecer.",
+"t": "Ciencia"
+},
+{
+"p": "¿Cuál es el planeta más grande del sistema solar?",
+"o": [
+"Júpiter",
+"Saturno",
+"Neptuno",
+"Urano"
+],
+"c": 0,
+"e": "Júpiter tiene más del doble de masa que todos los demás planetas juntos.",
+"t": "Ciencia"
+},
+{
+"p": "¿Quién escribió «Don Quijote de la Mancha»?",
+"o": [
+"Miguel de Cervantes",
+"Lope de Vega",
+"Francisco de Quevedo",
+"Benito Pérez Galdós"
+],
+"c": 0,
+"e": "La primera parte se publicó en 1605 y la segunda en 1615.",
+"t": "Literatura"
+},
+{
+"p": "¿Cuál es la capital de Australia?",
+"o": [
+"Canberra",
+"Sídney",
+"Melbourne",
+"Perth"
+],
+"c": 0,
+"e": "Sídney y Melbourne son más grandes, pero la capital es Canberra.",
+"t": "Geografía"
+},
+{
+"p": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+"o": [
+"Nitrógeno",
+"Oxígeno",
+"Dióxido de carbono",
+"Argón"
+],
+"c": 0,
+"e": "El aire tiene cerca de un 78 % de nitrógeno y un 21 % de oxígeno.",
+"t": "Ciencia"
+},
+{
+"p": "¿Cuál es el símbolo químico del oro?",
+"o": [
+"Au",
+"Ag",
+"Or",
+"Go"
+],
+"c": 0,
+"e": "Viene del latín «aurum».",
+"t": "Ciencia"
+},
+{
+"p": "¿Quién pintó «Las meninas»?",
+"o": [
+"Diego Velázquez",
+"Francisco de Goya",
+"El Greco",
+"Bartolomé Murillo"
+],
+"c": 0,
+"e": "Velázquez la pintó en 1656; se conserva en el Museo del Prado.",
+"t": "Arte"
+},
+{
+"p": "¿Cuál es el desierto cálido más grande del mundo?",
+"o": [
+"Sáhara",
+"Gobi",
+"Kalahari",
+"Arábigo"
+],
+"c": 0,
+"e": "El Sáhara ocupa unos 9 millones de km². El mayor desierto de todos es la Antártida.",
+"t": "Geografía"
+},
+{
+"p": "¿Cuántos jugadores de un mismo equipo están en pista a la vez en baloncesto?",
+"o": [
+"5",
+"6",
+"7",
+"4"
+],
+"c": 0,
+"e": "Cada equipo juega con cinco jugadores en pista.",
+"t": "Deporte"
+},
+{
+"p": "¿Cuál es el océano más grande?",
+"o": [
+"Pacífico",
+"Atlántico",
+"Índico",
+"Ártico"
+],
+"c": 0,
+"e": "El Pacífico cubre cerca de un tercio de la superficie del planeta.",
+"t": "Geografía"
+},
+{
+"p": "¿Quién formuló la teoría de la relatividad?",
+"o": [
+"Albert Einstein",
+"Isaac Newton",
+"Niels Bohr",
+"Galileo Galilei"
+],
+"c": 0,
+"e": "La relatividad especial es de 1905 y la general de 1915.",
+"t": "Ciencia"
+},
+{
+"p": "¿En qué año cayó el Muro de Berlín?",
+"o": [
+"1989",
+"1979",
+"1991",
+"1985"
+],
+"c": 0,
+"e": "Cayó en la noche del 9 de noviembre de 1989.",
+"t": "Historia"
+},
+{
+"p": "¿Cuál es el hueso más largo del cuerpo humano?",
+"o": [
+"Fémur",
+"Tibia",
+"Húmero",
+"Peroné"
+],
+"c": 0,
+"e": "El fémur está en el muslo y supone aproximadamente una cuarta parte de la estatura.",
+"t": "Ciencia"
+},
+{
+"p": "¿Qué planeta se conoce como «el planeta rojo»?",
+"o": [
+"Marte",
+"Venus",
+"Mercurio",
+"Júpiter"
+],
+"c": 0,
+"e": "Su color se debe al óxido de hierro de su superficie.",
+"t": "Ciencia"
+},
+{
+"p": "¿Cuál es la montaña más alta del mundo sobre el nivel del mar?",
+"o": [
+"Everest",
+"K2",
+"Kilimanjaro",
+"Mont Blanc"
+],
+"c": 0,
+"e": "El Everest mide 8.849 m.",
+"t": "Geografía"
+},
+{
+"p": "¿Qué lengua tiene más hablantes nativos del mundo?",
+"o": [
+"Chino mandarín",
+"Español",
+"Inglés",
+"Hindi"
+],
+"c": 0,
+"e": "El español es la segunda lengua con más hablantes nativos.",
+"t": "Lengua"
+},
+{
+"p": "¿Quién compuso «Las cuatro estaciones»?",
+"o": [
+"Antonio Vivaldi",
+"Wolfgang A. Mozart",
+"Johann S. Bach",
+"Ludwig van Beethoven"
+],
+"c": 0,
+"e": "Es un conjunto de cuatro conciertos para violín compuestos hacia 1720.",
+"t": "Música"
+},
+{
+"p": "¿Cuál es el mamífero más grande que existe?",
+"o": [
+"Ballena azul",
+"Elefante africano",
+"Cachalote",
+"Jirafa"
+],
+"c": 0,
+"e": "Puede superar los 25 metros y las 100 toneladas.",
+"t": "Naturaleza"
+},
+{
+"p": "¿Cuál es la capital de Canadá?",
+"o": [
+"Ottawa",
+"Toronto",
+"Montreal",
+"Vancouver"
+],
+"c": 0,
+"e": "Toronto es la ciudad más poblada, pero la capital es Ottawa.",
+"t": "Geografía"
+},
+{
+"p": "¿Qué vitamina produce la piel con la luz del sol?",
+"o": [
+"Vitamina D",
+"Vitamina C",
+"Vitamina A",
+"Vitamina B12"
+],
+"c": 0,
+"e": "La luz ultravioleta ayuda a que el cuerpo la fabrique.",
+"t": "Ciencia"
+},
+{
+"p": "¿Cuál es el río más largo de Europa?",
+"o": [
+"Volga",
+"Danubio",
+"Rin",
+"Támesis"
+],
+"c": 0,
+"e": "El Volga mide unos 3.530 km y desemboca en el mar Caspio.",
+"t": "Geografía"
+},
+{
+"p": "¿En qué año se aprobó la Constitución española vigente?",
+"o": [
+"1978",
+"1975",
+"1981",
+"1982"
+],
+"c": 0,
+"e": "Se aprobó en referéndum el 6 de diciembre de 1978.",
+"t": "Historia"
+},
+{
+"p": "¿Quién es el autor de «Cien años de soledad»?",
+"o": [
+"Gabriel García Márquez",
+"Mario Vargas Llosa",
+"Julio Cortázar",
+"Jorge Luis Borges"
+],
+"c": 0,
+"e": "Se publicó en 1967 y narra la historia de la familia Buendía.",
+"t": "Literatura"
+},
+{
+"p": "¿Qué metal es líquido a temperatura ambiente?",
+"o": [
+"Mercurio",
+"Plomo",
+"Aluminio",
+"Estaño"
+],
+"c": 0,
+"e": "Se funde a unos −39 °C.",
+"t": "Ciencia"
+},
+{
+"p": "¿Qué país es el más extenso del mundo?",
+"o": [
+"Rusia",
+"Canadá",
+"China",
+"Estados Unidos"
+],
+"c": 0,
+"e": "Rusia ocupa más de 17 millones de km².",
+"t": "Geografía"
+},
+{
+"p": "¿Qué ciudad fue sede de los Juegos Olímpicos de verano de 1992?",
+"o": [
+"Barcelona",
+"Atlanta",
+"Seúl",
+"Sídney"
+],
+"c": 0,
+"e": "Los Juegos de Barcelona 92 se celebraron del 25 de julio al 9 de agosto.",
+"t": "Deporte"
+},
+{
+"p": "¿Cuántos minutos dura el tiempo reglamentario de un partido de fútbol?",
+"o": [
+"90",
+"80",
+"100",
+"120"
+],
+"c": 0,
+"e": "Son dos partes de 45 minutos, sin contar el tiempo añadido.",
+"t": "Deporte"
+},
+{
+"p": "¿Cuántas teclas tiene un piano estándar?",
+"o": [
+"88",
+"76",
+"92",
+"100"
+],
+"c": 0,
+"e": "Tiene 52 teclas blancas y 36 negras.",
+"t": "Música"
+},
+{
+"p": "¿Quién fue la primera persona en pisar la Luna?",
+"o": [
+"Neil Armstrong",
+"Buzz Aldrin",
+"Yuri Gagarin",
+"Alan Shepard"
+],
+"c": 0,
+"e": "Ocurrió el 20 de julio de 1969, durante la misión Apolo 11.",
+"t": "Historia"
+},
+{
+"p": "¿Quién creó al detective Sherlock Holmes?",
+"o": [
+"Arthur Conan Doyle",
+"Agatha Christie",
+"Edgar Allan Poe",
+"Julio Verne"
+],
+"c": 0,
+"e": "Apareció por primera vez en 1887.",
+"t": "Literatura"
+},
+{
+"p": "¿En qué ciudad está la Sagrada Familia?",
+"o": [
+"Barcelona",
+"Madrid",
+"Valencia",
+"Sevilla"
+],
+"c": 0,
+"e": "Antoni Gaudí empezó a dirigir las obras en 1883.",
+"t": "Arte"
+},
+{
+"p": "¿Cuál es el planeta más cercano al Sol?",
+"o": [
+"Mercurio",
+"Venus",
+"Marte",
+"Tierra"
+],
+"c": 0,
+"e": "Tarda solo 88 días terrestres en dar una vuelta al Sol.",
+"t": "Ciencia"
+},
+{
+"p": "¿Quién pintó «La noche estrellada»?",
+"o": [
+"Vincent van Gogh",
+"Claude Monet",
+"Pablo Picasso",
+"Salvador Dalí"
+],
+"c": 0,
+"e": "La pintó en 1889 desde el sanatorio de Saint-Rémy.",
+"t": "Arte"
+},
+{
+"p": "¿En qué país está Machu Picchu?",
+"o": [
+"Perú",
+"Bolivia",
+"México",
+"Ecuador"
+],
+"c": 0,
+"e": "Es una ciudadela inca de los Andes peruanos.",
+"t": "Geografía"
+},
+{
+"p": "¿Cuál es el animal terrestre más rápido?",
+"o": [
+"Guepardo",
+"León",
+"Antílope",
+"Caballo"
+],
+"c": 0,
+"e": "Puede superar los 100 km/h en carreras cortas.",
+"t": "Naturaleza"
+},
+{
+"p": "¿Qué elemento químico tiene el símbolo Fe?",
+"o": [
+"Hierro",
+"Flúor",
+"Fósforo",
+"Francio"
+],
+"c": 0,
+"e": "Viene del latín «ferrum».",
+"t": "Ciencia"
+},
+{
+"p": "¿Quién escribió «La Odisea»?",
+"o": [
+"Homero",
+"Virgilio",
+"Sófocles",
+"Platón"
+],
+"c": 0,
+"e": "Se atribuye a Homero y cuenta el regreso de Ulises a Ítaca.",
+"t": "Literatura"
+},
+{
+"p": "¿En qué año comenzó la Primera Guerra Mundial?",
+"o": [
+"1914",
+"1905",
+"1918",
+"1939"
+],
+"c": 0,
+"e": "Comenzó en julio de 1914 y terminó en noviembre de 1918.",
+"t": "Historia"
+},
+{
+"p": "¿Cuál es la capital de Turquía?",
+"o": [
+"Ankara",
+"Estambul",
+"Esmirna",
+"Antalya"
+],
+"c": 0,
+"e": "Estambul es la ciudad más grande, pero la capital es Ankara.",
+"t": "Geografía"
+},
+{
+"p": "¿Qué parte de la célula contiene el material genético?",
+"o": [
+"Núcleo",
+"Membrana",
+"Ribosoma",
+"Citoplasma"
+],
+"c": 0,
+"e": "El ADN de las células con núcleo se guarda en él.",
+"t": "Ciencia"
+},
+{
+"p": "¿Cuál es la isla más grande del mar Mediterráneo?",
+"o": [
+"Sicilia",
+"Cerdeña",
+"Chipre",
+"Mallorca"
+],
+"c": 0,
+"e": "Sicilia tiene unos 25.700 km²; Cerdeña, unos 24.100.",
+"t": "Geografía"
+},
+{
+"p": "¿Qué deporte se juega en Wimbledon?",
+"o": [
+"Tenis",
+"Críquet",
+"Golf",
+"Rugby"
+],
+"c": 0,
+"e": "El torneo de Wimbledon se juega sobre hierba desde 1877.",
+"t": "Deporte"
+},
+{
+"p": "¿Quién descubrió la penicilina?",
+"o": [
+"Alexander Fleming",
+"Louis Pasteur",
+"Marie Curie",
+"Robert Koch"
+],
+"c": 0,
+"e": "La descubrió en 1928 al observar un moho que mataba bacterias.",
+"t": "Ciencia"
+},
+{
+"p": "¿Quién pintó los frescos del techo de la Capilla Sixtina?",
+"o": [
+"Miguel Ángel",
+"Leonardo da Vinci",
+"Rafael",
+"Botticelli"
+],
+"c": 0,
+"e": "Los pintó entre 1508 y 1512.",
+"t": "Arte"
+},
+{
+"p": "¿Qué gas absorben las plantas en la fotosíntesis?",
+"o": [
+"Dióxido de carbono",
+"Oxígeno",
+"Nitrógeno",
+"Metano"
+],
+"c": 0,
+"e": "Con la luz, lo convierten en azúcares y liberan oxígeno.",
+"t": "Ciencia"
+},
+{
+"p": "¿Qué cordillera separa España de Francia?",
+"o": [
+"Pirineos",
+"Alpes",
+"Cantábrica",
+"Sistema Central"
+],
+"c": 0,
+"e": "Se extiende de mar a mar, del Cantábrico al Mediterráneo.",
+"t": "Geografía"
+},
+{
+"p": "¿Cuál es el idioma oficial de Brasil?",
+"o": [
+"Portugués",
+"Español",
+"Inglés",
+"Francés"
+],
+"c": 0,
+"e": "Brasil es el país más grande donde se habla portugués.",
+"t": "Lengua"
+},
+{
+"p": "¿Qué planeta tiene los anillos más visibles?",
+"o": [
+"Saturno",
+"Júpiter",
+"Marte",
+"Venus"
+],
+"c": 0,
+"e": "Sus anillos son de hielo y roca, y se ven con un telescopio pequeño.",
+"t": "Ciencia"
+},
+{
+"p": "¿Cuántas cuerdas tiene una guitarra clásica?",
+"o": [
+"6",
+"4",
+"5",
+"7"
+],
+"c": 0,
+"e": "Se afinan, de grave a aguda, mi-la-re-sol-si-mi.",
+"t": "Música"
+},
+{
+"p": "¿Qué ciudad se conoce como «la Ciudad Eterna»?",
+"o": [
+"Roma",
+"Atenas",
+"París",
+"Jerusalén"
+],
+"c": 0,
+"e": "El apodo viene de la idea de que Roma perduraría para siempre.",
+"t": "Historia"
+},
+{
+"p": "¿Cuál es el metal sólido más ligero?",
+"o": [
+"Litio",
+"Aluminio",
+"Magnesio",
+"Sodio"
+],
+"c": 0,
+"e": "Su densidad es casi la mitad que la del agua.",
+"t": "Ciencia"
+},
+{
+"p": "¿En qué país nació Pablo Picasso?",
+"o": [
+"España",
+"Francia",
+"Italia",
+"Portugal"
+],
+"c": 0,
+"e": "Nació en Málaga en 1881.",
+"t": "Arte"
+},
+{
+"p": "¿Cuál es la capital de Marruecos?",
+"o": [
+"Rabat",
+"Casablanca",
+"Marrakech",
+"Fez"
+],
+"c": 0,
+"e": "Casablanca es la ciudad más grande, pero la capital es Rabat.",
+"t": "Geografía"
+},
+{
+"p": "¿De qué país procede el haiku?",
+"o": [
+"Japón",
+"China",
+"Corea",
+"Tailandia"
+],
+"c": 0,
+"e": "Es un poema muy breve, de tres versos.",
+"t": "Literatura"
+},
+{
+"p": "¿Cuántos corazones tiene un pulpo?",
+"o": [
+"3",
+"1",
+"2",
+"8"
+],
+"c": 0,
+"e": "Dos bombean sangre a las branquias y uno al resto del cuerpo.",
+"t": "Naturaleza"
+},
+{
+"p": "¿Cuál es la capital de Egipto?",
+"o": [
+"El Cairo",
+"Alejandría",
+"Luxor",
+"Asuán"
+],
+"c": 0,
+"e": "Está a orillas del Nilo.",
+"t": "Geografía"
+},
+{
+"p": "¿Cuántos lados tiene un hexágono?",
+"o": [
+"6",
+"5",
+"7",
+"8"
+],
+"c": 0,
+"e": "«Hexa» significa seis en griego.",
+"t": "Matemáticas"
+},
+{
+"p": "¿Cuántos grados suman los ángulos de un triángulo?",
+"o": [
+"180",
+"90",
+"360",
+"270"
+],
+"c": 0,
+"e": "En un plano, siempre suman 180 grados.",
+"t": "Matemáticas"
+},
+{
+"p": "¿Cuál es el resultado de 12 × 12?",
+"o": [
+"144",
+"124",
+"122",
+"148"
+],
+"c": 0,
+"e": "Doce docenas forman una gruesa: 144.",
+"t": "Matemáticas"
+},
+{
+"p": "¿Qué estación empieza en el solsticio de junio en el hemisferio norte?",
+"o": [
+"Verano",
+"Primavera",
+"Otoño",
+"Invierno"
+],
+"c": 0,
+"e": "El solsticio de verano es hacia el 21 de junio.",
+"t": "Ciencia"
+},
+{
+"p": "¿De qué color es la sangre oxigenada que circula por las arterias?",
+"o": [
+"Rojo brillante",
+"Azul",
+"Rojo oscuro",
+"Morado"
+],
+"c": 0,
+"e": "Con oxígeno, la hemoglobina se ve rojo vivo.",
+"t": "Ciencia"
+},
+{
+"p": "¿Quién pintó «Guernica»?",
+"o": [
+"Pablo Picasso",
+"Salvador Dalí",
+"Joan Miró",
+"Francisco de Goya"
+],
+"c": 0,
+"e": "Lo pintó en 1937 para el pabellón español de la Exposición de París.",
+"t": "Arte"
+}
+]
+}

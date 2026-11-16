@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de margen de beneficio",
+  "descripcion": "Calcula el margen de beneficio y el recargo a partir del coste y el precio, o el precio y el coste máximo que corresponden a un margen. Con tabla de equivalencias.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "negocio",
+  "orden": 128
+}

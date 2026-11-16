@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de energía",
+  "descripcion": "Convierte julios, kilojulios, calorías, kilocalorías, vatios hora, kWh, BTU y electronvoltios al instante, con tabla de equivalencias.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 40
+}

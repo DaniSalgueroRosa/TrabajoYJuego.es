@@ -1,0 +1,245 @@
+{
+"_nota": "Conjuntos de «El impostor». t: tema; v: tres afirmaciones verdaderas; f: la falsa; e: explicación. Para ampliar: añade objetos con t, v (3), f y e.",
+"conjuntos": [
+{
+"t": "Animales",
+"v": [
+"Los delfines respiran aire por un orificio en la parte superior de la cabeza.",
+"Las arañas tienen ocho patas.",
+"Los pulpos tienen tres corazones."
+],
+"f": "Los murciélagos son aves.",
+"e": "Los murciélagos son mamíferos: crían a sus hijos con leche."
+},
+{
+"t": "Cuerpo humano",
+"v": [
+"El corazón humano tiene cuatro cavidades.",
+"El hueso más pequeño del cuerpo está en el oído.",
+"Un adulto tiene 206 huesos."
+],
+"f": "La sangre humana es azul dentro de las venas.",
+"e": "La sangre siempre es roja; las venas se ven azuladas por cómo la luz atraviesa la piel."
+},
+{
+"t": "Geografía",
+"v": [
+"El Teide es el pico más alto de España.",
+"El Amazonas atraviesa Brasil.",
+"Islandia tiene volcanes activos."
+],
+"f": "Canberra es la ciudad más grande de Australia.",
+"e": "La más grande es Sídney; Canberra es la capital."
+},
+{
+"t": "Ciencia",
+"v": [
+"El agua hierve a 100 °C al nivel del mar.",
+"La luz del Sol tarda unos 8 minutos en llegar a la Tierra.",
+"El sonido no se propaga en el vacío."
+],
+"f": "Primero se oye el trueno y después se ve el rayo.",
+"e": "La luz viaja mucho más rápido que el sonido: primero se ve el rayo y luego se oye el trueno."
+},
+{
+"t": "Historia",
+"v": [
+"Cervantes murió en 1616.",
+"La Revolución francesa empezó en 1789.",
+"Colón partió de Palos de la Frontera en 1492."
+],
+"f": "Napoleón nació en España.",
+"e": "Napoleón nació en Córcega, que pertenece a Francia."
+},
+{
+"t": "Espacio",
+"v": [
+"Júpiter es el planeta más grande del sistema solar.",
+"Un día en Venus dura más que su año.",
+"La Luna no tiene una atmósfera apreciable."
+],
+"f": "El Sol es un planeta.",
+"e": "El Sol es una estrella."
+},
+{
+"t": "Naturaleza",
+"v": [
+"Los tiburones son peces.",
+"Las ballenas son mamíferos.",
+"Las abejas fabrican miel."
+],
+"f": "Los camellos almacenan agua en sus jorobas.",
+"e": "En las jorobas almacenan grasa, no agua."
+},
+{
+"t": "Deporte",
+"v": [
+"Un partido de baloncesto se divide en cuatro cuartos.",
+"El maratón mide 42,195 km.",
+"En tenis, un set se gana por seis juegos como mínimo."
+],
+"f": "En el campo de fútbol hay doce jugadores de cada equipo.",
+"e": "Cada equipo juega con once jugadores en el campo."
+},
+{
+"t": "Comida",
+"v": [
+"El jamón ibérico procede del cerdo.",
+"El aceite de oliva se extrae de la aceituna.",
+"La paella nació en Valencia."
+],
+"f": "El queso manchego se elabora con leche de vaca.",
+"e": "El queso manchego se hace con leche de oveja manchega."
+},
+{
+"t": "Arte",
+"v": [
+"«La Gioconda» se conserva en el Louvre.",
+"Goya pintó «Los fusilamientos del tres de mayo».",
+"Dalí fue un pintor surrealista."
+],
+"f": "«Las meninas» es una obra de Murillo.",
+"e": "«Las meninas» es de Velázquez."
+},
+{
+"t": "Tecnología",
+"v": [
+"Un byte tiene ocho bits.",
+"El wifi permite conectar dispositivos sin cables.",
+"El código binario usa ceros y unos."
+],
+"f": "Internet y la web son exactamente lo mismo.",
+"e": "Internet es la red de redes; la web es solo uno de los servicios que funcionan sobre ella."
+},
+{
+"t": "Matemáticas",
+"v": [
+"El número 1 no es primo.",
+"La suma de los ángulos de un triángulo es 180°.",
+"El cero es un número par."
+],
+"f": "Un cuadrado no es un rectángulo.",
+"e": "Un cuadrado es un rectángulo que tiene los cuatro lados iguales."
+},
+{
+"t": "Geografía",
+"v": [
+"El Mediterráneo se comunica con el Atlántico por el estrecho de Gibraltar.",
+"El Danubio atraviesa varias capitales europeas.",
+"El monte Fuji está en Japón."
+],
+"f": "El desierto de Atacama está en África.",
+"e": "El desierto de Atacama está en Chile, en Sudamérica."
+},
+{
+"t": "Música",
+"v": [
+"Un piano estándar tiene 88 teclas.",
+"Una orquesta sinfónica suele tener director o directora.",
+"La guitarra clásica tiene seis cuerdas."
+],
+"f": "El violonchelo es un instrumento de viento.",
+"e": "El violonchelo es un instrumento de cuerda frotada."
+},
+{
+"t": "Plantas",
+"v": [
+"Los árboles absorben dióxido de carbono.",
+"Las setas no son plantas.",
+"El bambú es una hierba gigante."
+],
+"f": "Los cactus son árboles.",
+"e": "Los cactus son plantas suculentas, no árboles."
+},
+{
+"t": "Historia",
+"v": [
+"La Alhambra está en Granada.",
+"El Imperio romano usaba el latín como lengua oficial.",
+"Las pirámides de Giza están en Egipto."
+],
+"f": "La Gran Muralla china se construyó en un solo siglo.",
+"e": "Se levantó y se amplió durante más de dos mil años."
+},
+{
+"t": "Cuerpo humano",
+"v": [
+"Los pulmones intercambian oxígeno y dióxido de carbono.",
+"El hígado es el órgano interno más grande.",
+"La piel es el órgano más extenso del cuerpo."
+],
+"f": "Solo usamos el 10 % del cerebro.",
+"e": "Es un mito: usamos todo el cerebro, aunque no todas las zonas a la vez."
+},
+{
+"t": "Física",
+"v": [
+"El agua se dilata al congelarse.",
+"El hielo flota en el agua líquida.",
+"La Tierra tarda unas 24 horas en girar sobre su eje."
+],
+"f": "En invierno hace frío porque la Tierra está más lejos del Sol.",
+"e": "Las estaciones se deben a la inclinación del eje de la Tierra, no a la distancia al Sol."
+},
+{
+"t": "Ríos de España",
+"v": [
+"El Ebro desemboca en el Mediterráneo.",
+"El Guadalquivir pasa por Sevilla.",
+"El Tajo pasa por Toledo."
+],
+"f": "El Duero desemboca en el Mediterráneo.",
+"e": "El Duero desemboca en el Atlántico, en Oporto (Portugal)."
+},
+{
+"t": "Literatura",
+"v": [
+"«La Celestina» es obra de Fernando de Rojas.",
+"García Lorca escribió «Bodas de sangre».",
+"Bécquer escribió las «Rimas»."
+],
+"f": "«El Quijote» es de Lope de Vega.",
+"e": "«El Quijote» es de Cervantes."
+},
+{
+"t": "Cuerpo humano",
+"v": [
+"Un adulto tiene 32 dientes si conserva las muelas del juicio.",
+"Los pulmones no tienen músculos propios.",
+"El oído interno ayuda a mantener el equilibrio."
+],
+"f": "Los huesos son tejido muerto que no cambia nunca.",
+"e": "Los huesos son tejido vivo que se renueva durante toda la vida."
+},
+{
+"t": "Sistema solar",
+"v": [
+"Saturno tiene anillos.",
+"Mercurio es el planeta más cercano al Sol.",
+"Marte tiene dos lunas."
+],
+"f": "La Tierra tiene dos lunas.",
+"e": "La Tierra tiene un solo satélite natural: la Luna."
+},
+{
+"t": "Química",
+"v": [
+"El agua es H₂O.",
+"El oro es un metal.",
+"La sal común es cloruro de sodio."
+],
+"f": "El oxígeno es un metal.",
+"e": "El oxígeno es un gas no metálico."
+},
+{
+"t": "Animales",
+"v": [
+"Los koalas son marsupiales.",
+"Las jirafas tienen una lengua larga y oscura.",
+"Los pingüinos viven sobre todo en el hemisferio sur."
+],
+"f": "Los osos polares viven en la Antártida.",
+"e": "Los osos polares viven en el Ártico; en la Antártida no hay osos."
+}
+]
+}

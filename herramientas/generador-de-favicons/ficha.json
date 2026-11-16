@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de favicons",
+  "descripcion": "Crea el favicon.ico y los iconos PNG de tu web (16, 32, 180, 192 y 512 píxeles) desde una sola imagen, con el código HTML listo para pegar.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "imagenes",
+  "orden": 50
+}

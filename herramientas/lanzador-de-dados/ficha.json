@@ -1,0 +1,8 @@
+{
+  "titulo": "Lanzador de dados",
+  "descripcion": "Lanza dados online: de 4, 6, 8, 10, 12, 20 o 100 caras, hasta 20 a la vez y con modificador. Ves cada dado, la suma y el historial de tiradas.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 96
+}

@@ -1,0 +1,8 @@
+/* ANUNCIO: hueco de publicidad (solo existe en la página cuando hay publicidad activa y un bloque con número).
+   Siempre va rotulado «Publicidad», con aire alrededor y lejos de botones, tableros y menús, para que no se confunda con ningún control
+   (política de colocación de AdSense). Nunca se coloca encima ni al lado del área de juego. */
+.anuncio { max-width: 46rem; margin: var(--e7) auto 0; padding-top: var(--e4); border-top: 1px dashed var(--linea); }
+.anuncio-rotulo { margin-bottom: var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
+.anuncio .adsbygoogle { min-height: 90px; }
+main[data-mundo="juego"] .anuncio { border-top-color: var(--noche-linea); }
+main[data-mundo="juego"] .anuncio-rotulo { color: var(--tiza-suave); }

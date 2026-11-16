@@ -1,0 +1,22 @@
+<section class="hero" aria-labelledby="hero-titulo">
+  <h1 id="hero-titulo" class="solo-lectores">{{sitio.nombre}}: herramientas, guías, juegos y tests</h1>
+  {{#mundos}}
+  <div class="hero-mitad{{#primera}} hero-mitad--primera{{/primera}}" data-mundo="{{id}}">
+    <div class="hero-fondo" aria-hidden="true"></div>
+    <div class="hero-interior">
+      <div class="hero-cabeza">
+        <h2 class="hero-palabra">{{nombre}}</h2>
+        <p class="hero-frase">{{frase}}</p>
+      </div>
+      <ul class="hero-enlaces">
+        {{#secciones}}
+        <li><a class="hero-enlace" href="{{href}}"><span class="hero-enlace-titulo">{{titulo}}</span><span class="hero-enlace-cuenta">{{cuenta}}</span><span class="hero-enlace-resumen">{{resumen}}</span></a></li>
+        {{/secciones}}
+      </ul>
+    </div>
+    {{#primera}}
+    <span class="hero-y" aria-hidden="true">y</span>
+    {{/primera}}
+  </div>
+  {{/mundos}}
+</section>

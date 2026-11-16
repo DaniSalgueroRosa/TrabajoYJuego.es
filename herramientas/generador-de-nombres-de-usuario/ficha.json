@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de nombres de usuario",
+  "descripcion": "Genera nombres de usuario originales combinando un nombre y un adjetivo, con la longitud, el separador y el número que elijas. Sin comprobar disponibilidad.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 116
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Test ¿Le gusto?",
+  "descripcion": "Catorce señales del día a día (miradas, mensajes, planes) para saber si le gustas a alguien, con medidor y gráfica por áreas. Orientativo y sin presiones.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "le gusto",
+    "test le gusto",
+    "señales de que le gustas",
+    "le gusto a esa persona",
+    "test de amor"
+  ],
+  "categoria": "relaciones",
+  "duracion": "3 min",
+  "orden": 52,
+  "tema": {
+    "fondo": "#FFF0F3",
+    "texto": "#3B1021",
+    "acento": "#C2185B"
+  }
+}

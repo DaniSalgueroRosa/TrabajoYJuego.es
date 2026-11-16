@@ -1,0 +1,22 @@
+{
+  "titulo": "Click Jitter: test de CPS con vibración",
+  "descripcion": "Test de click jitter: vibra el brazo y mira tus CPS, el mejor segundo, la caída de ritmo y la regularidad en 5, 10 o 15 segundos.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "click jitter",
+    "jitter click",
+    "jitter click test",
+    "cps",
+    "vibración",
+    "clic rápido"
+  ],
+  "categoria": "velocidad-clics",
+  "duracion": "10 s",
+  "orden": 2,
+  "tema": {
+    "fondo": "#101A17",
+    "texto": "#EAF2EE",
+    "acento": "#E6F14A"
+  }
+}

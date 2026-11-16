@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="conversor-json-a-csv">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>De JSON a una tabla que se abre en Excel</h2>
+  <p>Las API y las aplicaciones modernas entregan los datos en JSON, pero lo que la mayoría de la gente sabe manejar es una hoja de cálculo. Esta herramienta convierte una lista de objetos JSON en un archivo CSV: una columna por cada clave y una fila por cada objeto, listo para abrir en Excel, Google Sheets o LibreOffice. Pega el JSON, elige el separador y descarga el resultado.</p>
+  <h2>Cómo se construye la tabla</h2>
+  <ul><li><strong>Columnas:</strong> son todas las claves que aparecen en la lista, en el orden en que se encuentran por primera vez. Si un objeto no tiene una clave, su celda queda vacía.</li><li><strong>Objetos anidados:</strong> se aplanan con un punto, de modo que {"direccion":{"ciudad":"Madrid"}} da una columna «direccion.ciudad». Puedes desactivarlo para dejarlos como texto JSON.</li><li><strong>Listas dentro de un objeto:</strong> se escriben como JSON en una sola celda, para no perder datos.</li><li><strong>Valores:</strong> null se deja vacío, y los números se copian tal cual, con todas sus cifras.</li><li><strong>Comillas:</strong> los textos con el separador, comillas o saltos de línea se entrecomillan siguiendo el estándar RFC 4180.</li></ul>
+  <h2>Consejos para abrirlo bien en Excel</h2>
+  <p>En Excel en español, el separador de listas suele ser el punto y coma, y no la coma; si al abrir el archivo todo aparece en una columna, vuelve a generarlo con punto y coma. Para que los acentos y la eñe se vean bien, usa «Descargar CSV para Excel», que añade una marca al principio del archivo (BOM) que indica que está en UTF-8. Los números con decimales llevan punto, como en el JSON; si tu Excel espera coma decimal, deberás convertirlos allí. Y si los datos vienen de una fuente que no controlas, activa la casilla de neutralizar fórmulas: un texto que empieza por «=» podría ejecutarse como fórmula al abrir el archivo, y así se le antepone un apóstrofo para que se vea como texto.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Mi JSON tiene que ser una lista?</summary>
+    <p>Lo normal es una lista de objetos. También funciona con un solo objeto, que da una fila, con una lista de valores sueltos, que da una columna «valor», o con listas de listas.</p>
+  </details>
+  <details>
+    <summary>¿Se pierden los ceros o las cifras de los números largos?</summary>
+    <p>No. Los números se copian exactamente como están escritos en el JSON, sin pasar por la aritmética del navegador.</p>
+  </details>
+  <details>
+    <summary>¿Por qué mi Excel muestra todo en una sola columna?</summary>
+    <p>Porque espera otro separador. Cambia a punto y coma, que es el habitual en Excel en español, o importa el archivo desde la pestaña de datos y elige el separador.</p>
+  </details>
+  <details>
+    <summary>¿Se envía mi JSON a algún servidor?</summary>
+    <p>No. La conversión se hace en tu navegador.</p>
+  </details>
+</div>

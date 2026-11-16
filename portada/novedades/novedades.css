@@ -1,0 +1,4 @@
+/* PORTADA · NOVEDADES: lo último publicado en cualquier sección, con las tarjetas comunes (comun/tarjeta/).
+   Si todavía no hay nada, muestra el estado vacío (comun/vacio/). */
+.novedades { padding-block: var(--e7) var(--e8); }
+.novedades-titulo { margin-bottom: var(--e5); font-size: var(--t4); letter-spacing: -0.03em; }

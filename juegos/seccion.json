@@ -1,0 +1,51 @@
+{
+  "titulo": "Juegos",
+  "singular": "juego",
+  "plural": "juegos",
+  "descripcion": "Juegos gratis para jugar en el navegador sin registrarte: palabras, lógica, memoria, mates, geografía y arcade. Cada partida empieza al instante.",
+  "resumen": "Partidas cortas para cuando toca parar.",
+  "mundo": "juego",
+  "orden": 3,
+  "vacio": "El primer juego aparecerá en esta página en cuanto se publique.",
+  "ordenar_por": "orden",
+  "buscador": true,
+  "accion": "Jugar",
+  "categorias": [
+    {
+      "id": "palabras",
+      "nombre": "Palabras"
+    },
+    {
+      "id": "logica",
+      "nombre": "Lógica"
+    },
+    {
+      "id": "cultura-general",
+      "nombre": "Cultura general"
+    },
+    {
+      "id": "matematicas",
+      "nombre": "Matemáticas"
+    },
+    {
+      "id": "memoria",
+      "nombre": "Memoria"
+    },
+    {
+      "id": "geografia",
+      "nombre": "Geografía"
+    },
+    {
+      "id": "habilidad",
+      "nombre": "Habilidad"
+    },
+    {
+      "id": "arcade",
+      "nombre": "Arcade"
+    }
+  ],
+  "schema": {
+    "tipo": "WebApplication",
+    "categoria": "GameApplication"
+  }
+}

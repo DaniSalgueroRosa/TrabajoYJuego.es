@@ -1,0 +1,8 @@
+{
+  "titulo": "ESCRIBE: nombre del test",
+  "descripcion": "ESCRIBE: una frase de 40 a 160 caracteres que diga qué descubre quien hace el test. Sale en Google y en las tarjetas.",
+  "fecha": "2026-01-01",
+  "estado": "publicado",
+  "etiquetas": ["ESCRIBE"],
+  "tema": { "fondo": "#1D3A34", "texto": "#EAF2EE", "acento": "#E6F14A" }
+}

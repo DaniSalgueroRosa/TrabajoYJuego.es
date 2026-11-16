@@ -1,0 +1,21 @@
+{
+  "titulo": "Giros de ratón: vueltas con el cursor",
+  "descripcion": "Mueve el cursor en círculos y cuenta cuántas vueltas completas das en 5, 10 o 20 segundos. Mide giros por segundo, sentido y regularidad.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "giros de ratón",
+    "círculos con el ratón",
+    "control del ratón",
+    "test de ratón",
+    "vueltas por segundo"
+  ],
+  "categoria": "raton-teclado",
+  "duracion": "10 s",
+  "orden": 9,
+  "tema": {
+    "fondo": "#172033",
+    "texto": "#E8EEF9",
+    "acento": "#FFB347"
+  }
+}

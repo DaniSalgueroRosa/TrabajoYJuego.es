@@ -1,0 +1,24 @@
+<p>Un número puede escribirse de muchas maneras: con cifras romanas en el capítulo de un libro, con letras en un cheque, en binario o hexadecimal en un programa, con una letra de control añadida en un documento de identidad. Cada convención tiene sus reglas y sus trampas, que se olvidan con facilidad. Las cuatro herramientas de esta guía aplican esas reglas por ti y te avisan cuando algo está mal formado. Se ejecutan en tu navegador y lo que escribes no se guarda ni sale de tu dispositivo.</p>
+
+<h2>Números romanos: siete letras y pocas reglas</h2>
+<p><a href="../../herramientas/conversor-de-numeros-romanos/">Conversor de números romanos</a> detecta si escribes una cifra o un romano y convierte en ambos sentidos, con varias líneas a la vez. Se suman los valores de mayor a menor y se restan solo seis parejas: IV, IX, XL, XC, CD y CM. I, X, C y M no se repiten más de tres veces seguidas, y V, L y D no se repiten nunca. Por eso 4 es IV y no IIII, aunque algunos relojes usen esa forma por tradición, y la herramienta tiene una casilla para aceptar esas variantes antiguas. El rango va del 1 al 3999, porque sin la raya superior no hay forma limpia de escribir más, y tampoco existe el cero.</p>
+
+<h2>Números con letras: cheques, contratos y facturas</h2>
+<p><a href="../../herramientas/conversor-de-numeros-a-letras/">Conversor de números a letras</a> escribe cantidades con la ortografía del español, hasta 30 cifras. Algunos puntos que sorprenden: del 16 al 29 es una sola palabra, el 100 exacto es «cien» y el resto «ciento», 1.000 es «mil» y no «un mil». Un billón, en español, es un millón de millones; mil millones se dice «mil millones». Con moneda, la parte decimal se lee como céntimos, y si la cantidad es de millones exactos se añade «de»: «dos millones de euros». El uno cambia según el sustantivo, y por eso hay una opción para elegir «veintiún libros» o «veintiuna casas». Es una ayuda: antes de rellenar un cheque, comprueba las normas de tu banco.</p>
+
+<h2>Sistemas numéricos: binario, octal y hexadecimal</h2>
+<p><a href="../../herramientas/conversor-de-sistemas-numericos/">Conversor de sistemas numéricos</a> convierte enteros entre las bases 2, 8, 10 y 16, y cualquier otra entre 2 y 36. Admite prefijos como 0x, 0b y 0o y separadores como espacios o guiones bajos. Usa aritmética de precisión arbitraria, de modo que no pierde cifras con números enormes, hasta mil cifras, e indica cuántos bits ocupa el valor, lo que sirve para saber si cabe en un entero de 8, 16, 32 o 64 bits. El hexadecimal se usa tanto porque cada cifra equivale a cuatro bits y un byte son dos cifras. No convierte decimales con parte fraccionaria, y los negativos se muestran con su signo, no en complemento a dos.</p>
+
+<h2>La letra del DNI y del NIE</h2>
+<p><a href="../../herramientas/calculadora-de-letra-del-dni/">Calculadora de la letra del DNI y NIE</a> calcula la letra de control dividiendo el número entre 23 y buscando el resto en una tabla de 23 letras. En un NIE, la X, la Y o la Z inicial se sustituye por 0, 1 o 2 antes de calcular. También comprueba si una letra escrita coincide con el número. La letra solo detecta errores de copia: no demuestra que el documento exista, esté vigente ni pertenezca a nadie. Úsala para revisar tus propios datos o los de un formulario, y no pegues en ninguna herramienta los datos de otras personas sin su permiso.</p>
+
+<h2>Errores típicos</h2>
+<ul>
+  <li>Escribir en romano un número mayor de 3999 o el cero.</li>
+  <li>Poner «un mil» en lugar de «mil» o confundir el billón español con el inglés.</li>
+  <li>Olvidar que, al convertir de hexadecimal, A vale 10 y F vale 15.</li>
+  <li>Dar por válido un documento solo porque la letra cuadra.</li>
+</ul>
+
+<h2>Dónde seguir</h2>
+<p>Si necesitas pasar medidas entre sistemas, mira <a href="../longitud-peso-volumen-y-superficie/">longitud, peso, volumen y superficie</a>. Si trabajas con datos en programación, la guía de <a href="../trabajar-con-json-y-csv/">JSON y CSV</a> es la siguiente parada.</p>

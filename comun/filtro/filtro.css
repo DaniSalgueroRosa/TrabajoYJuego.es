@@ -1,0 +1,9 @@
+/* FILTRO: buscador y filtros de un listado (los pone el generador cuando la sección tiene «buscador»). Cada sección le da su aspecto. */
+.filtros { display: grid; gap: var(--e4); margin-bottom: var(--e6); }
+.filtros[hidden] { display: none; }
+.filtros fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+.filtros legend { padding: 0; margin-bottom: var(--e2); font-weight: 700; }
+.filtro-chips { display: flex; flex-wrap: wrap; gap: var(--e2); }
+.filtro-fila { display: grid; gap: var(--e4); }
+.filtro-estado { min-height: 1.6em; }
+@media (min-width: 40rem) { .filtro-fila { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); } }

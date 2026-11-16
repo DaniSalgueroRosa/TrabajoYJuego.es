@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de memoria a corto plazo",
+  "descripcion": "Repite la secuencia de casillas que se iluminan, con una más en cada ronda. Un test de memoria visual y de orden en una cuadrícula de 3 × 3.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "memoria a corto plazo",
+    "secuencia de casillas",
+    "sequence memory",
+    "memoria visual",
+    "simon"
+  ],
+  "categoria": "memoria-percepcion",
+  "duracion": "3 min",
+  "orden": 26,
+  "tema": {
+    "fondo": "#F3F7F5",
+    "texto": "#14201C",
+    "acento": "#C21E4A"
+  }
+}

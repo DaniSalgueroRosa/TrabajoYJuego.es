@@ -1,0 +1,17 @@
+{
+  "titulo": "Reversi contra el ordenador",
+  "descripcion": "Reversi en tablero de 8×8: encierra las fichas del ordenador para voltearlas y acaba con más fichas que él. Tres niveles de dificultad.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "reversi",
+    "estrategia",
+    "tablero",
+    "clásico",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "dificil",
+  "duracion": "10-15 min",
+  "orden": 67
+}

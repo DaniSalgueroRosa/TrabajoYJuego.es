@@ -1,0 +1,15 @@
+{
+  "titulo": "Mente matemática",
+  "descripcion": "Diez operaciones de cabeza que se van complicando: sumas, tablas, divisiones y porcentajes. Responde antes de que acabe el tiempo.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "cálculo mental",
+    "matemáticas",
+    "un jugador"
+  ],
+  "categoria": "matematicas",
+  "dificultad": "media",
+  "duracion": "3-5 min",
+  "orden": 6
+}

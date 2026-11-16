@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de comisiones de PayPal",
+  "descripcion": "Calcula la comisión de PayPal de un cobro en España y cuánto te queda, o cuánto cobrar para recibir un neto, según el tipo de cobro y el origen.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "categoria": "comercio",
+  "orden": 142
+}

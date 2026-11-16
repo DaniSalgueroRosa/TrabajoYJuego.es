@@ -1,0 +1,15 @@
+{
+  "titulo": "Conversor de audio",
+  "descripcion": "Convierte M4A, OGG, FLAC, WAV u otro audio a MP3, WAV, FLAC u Ogg Opus en tu navegador, con canales y frecuencia a tu gusto. Sin subir nada.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "mp3",
+    "wav",
+    "flac",
+    "opus"
+  ],
+  "categoria": "audio",
+  "orden": 101
+}

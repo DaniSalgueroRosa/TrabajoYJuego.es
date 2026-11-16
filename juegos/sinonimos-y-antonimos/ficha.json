@@ -1,0 +1,17 @@
+{
+  "titulo": "Sinónimos y antónimos: quiz de vocabulario",
+  "descripcion": "Quiz de sinónimos y antónimos en español: elige la palabra que significa lo mismo o lo contrario. Diez rondas con tiempo, puntos y repaso final.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "sinónimos",
+    "antónimos",
+    "vocabulario",
+    "lengua",
+    "un jugador"
+  ],
+  "categoria": "palabras",
+  "dificultad": "facil",
+  "duracion": "3-5 min",
+  "orden": 50
+}

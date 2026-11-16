@@ -1,0 +1,6 @@
+/* Prueba del mouse: el dibujo del ratón es vectorial y se enciende con el color de acento */
+body[data-item="prueba-del-mouse"] .rt-zona { min-height: 22rem; cursor: crosshair; user-select: none; -webkit-user-select: none; }
+body[data-item="prueba-del-mouse"] .rt-zona:focus-visible { outline: 4px solid var(--t-texto); outline-offset: 3px; }
+body[data-item="prueba-del-mouse"] .rt-mouse { width: min(12rem, 52vw); height: auto; }
+body[data-item="prueba-del-mouse"] .rt-mouse path, body[data-item="prueba-del-mouse"] .rt-mouse rect { fill: var(--t-fondo); stroke: var(--t-texto); stroke-width: 3; stroke-linejoin: round; transition: fill 0.08s; }
+body[data-item="prueba-del-mouse"] .rt-mouse .rt-on { fill: var(--t-acento); }

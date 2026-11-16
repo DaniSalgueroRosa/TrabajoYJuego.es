@@ -1,0 +1,8 @@
+{
+  "titulo": "Convertidor universal de imágenes",
+  "descripcion": "Convierte imágenes entre PNG, JPG, WebP y BMP en tu navegador, sin subirlas a ningún servidor. Admite también GIF, SVG y AVIF como origen.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "imagenes",
+  "orden": 41
+}

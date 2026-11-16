@@ -1,0 +1,7 @@
+<nav class="migas" aria-label="Ruta de navegación">
+  <ol>
+    {{#migas}}
+    <li>{{#href}}<a href="{{href}}">{{texto}}</a>{{/href}}{{^href}}<span aria-current="page">{{texto}}</span>{{/href}}</li>
+    {{/migas}}
+  </ol>
+</nav>

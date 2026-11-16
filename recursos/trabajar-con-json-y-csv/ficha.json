@@ -1,0 +1,14 @@
+{
+  "titulo": "Trabajar con JSON y CSV",
+  "descripcion": "Cómo formatear y validar un JSON, entender sus errores más comunes y pasar datos entre JSON y CSV sin perder ceros, acentos ni cifras.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "JSON",
+    "CSV",
+    "datos",
+    "programación"
+  ],
+  "categoria": "informatica",
+  "orden": 25
+}

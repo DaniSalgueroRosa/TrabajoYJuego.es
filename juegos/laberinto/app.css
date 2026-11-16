@@ -1,0 +1,18 @@
+/* LABERINTO: cuadrícula de casillas con muros en los lados cerrados. La meta es un cuadrado y el jugador un círculo. */
+.lab-tablero { display: grid; width: min(100%, 26rem); background: var(--noche-2); border: 3px solid var(--tiza); outline-offset: 3px; }
+.lab-tablero:focus-visible { outline: 3px solid var(--limon); }
+.lab-celda { position: relative; aspect-ratio: 1; min-width: 0; box-sizing: border-box; border: 2px solid var(--tiza); background: var(--noche-2); }
+.lab-n { border-top-color: transparent; }
+.lab-e { border-right-color: transparent; }
+.lab-s { border-bottom-color: transparent; }
+.lab-o { border-left-color: transparent; }
+.lab-paso { background: var(--pizarra-media); }
+.lab-yo::after, .lab-meta::after { content: ''; position: absolute; inset: 22%; }
+.lab-yo::after { background: var(--limon); border-radius: 50%; }
+.lab-meta::after { background: var(--sandia); border-radius: 0; }
+.lab-mando { display: grid; grid-template-columns: repeat(3, 3.6rem); grid-template-rows: repeat(2, 3.2rem); gap: 6px; justify-content: center; }
+.lab-mando .boton-retro { padding: 0; font-size: 1.4rem; }
+.lab-mando .lab-arriba { grid-column: 2; grid-row: 1; }
+.lab-mando .lab-izq { grid-column: 1; grid-row: 2; }
+.lab-mando .lab-abajo { grid-column: 2; grid-row: 2; }
+.lab-mando .lab-der { grid-column: 3; grid-row: 2; }

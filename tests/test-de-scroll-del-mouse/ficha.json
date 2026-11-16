@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de scroll del mouse: rueda",
+  "descripcion": "Gira la rueda de tu ratón durante 5, 10 o 15 segundos y mira cuántos pasos por segundo haces, qué tipo de rueda tienes y si hay saltos de sentido.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "scroll del ratón",
+    "rueda del ratón",
+    "test de scroll",
+    "pasos por segundo",
+    "mouse wheel test"
+  ],
+  "categoria": "raton-teclado",
+  "duracion": "10 s",
+  "orden": 8,
+  "tema": {
+    "fondo": "#172033",
+    "texto": "#E8EEF9",
+    "acento": "#FFB347"
+  }
+}

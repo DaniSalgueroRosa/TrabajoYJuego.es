@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de Dragon Ball",
+  "descripcion": "Diez situaciones para saber con qué personaje de Dragon Ball encajas más, con radar de rasgos y los cinco más parecidos. Test de fans, sin imágenes.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de Dragon Ball",
+    "qué personaje de Dragon Ball soy",
+    "personajes de Dragon Ball",
+    "test anime",
+    "Goku"
+  ],
+  "categoria": "cultura-pop",
+  "duracion": "3 min",
+  "orden": 63,
+  "tema": {
+    "fondo": "#0E1A33",
+    "texto": "#EAF1FF",
+    "acento": "#FFB020"
+  }
+}

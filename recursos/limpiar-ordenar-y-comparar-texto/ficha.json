@@ -1,0 +1,14 @@
+{
+  "titulo": "Limpiar, ordenar y comparar textos",
+  "descripcion": "Cambiar mayúsculas, quitar líneas repetidas, ordenar listas, dar la vuelta a un texto y ver qué cambió entre dos versiones.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "texto",
+    "listas",
+    "mayúsculas",
+    "comparar"
+  ],
+  "categoria": "texto",
+  "orden": 29
+}

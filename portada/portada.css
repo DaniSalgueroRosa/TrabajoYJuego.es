@@ -1,0 +1,8 @@
+/* PORTADA: reglas de la página en conjunto. Cada parte tiene su propio CSS en su carpeta:
+     hero/hero.css            las dos mitades «Trabajo | Juego»
+     novedades/novedades.css  lo último que se ha publicado
+     explorar/explorar.css    índice por categorías, con cada juego o herramienta enlazado
+     sobre/sobre.css          qué es el sitio, en dos frases
+     informacion/informacion.css  datos, publicidad y enlaces a las páginas legales
+   Para añadir una parte nueva: crea su carpeta con <parte>.html y <parte>.css y añade {{> portada/<parte>/<parte>}} en portada.html. */
+.portada { display: block; }

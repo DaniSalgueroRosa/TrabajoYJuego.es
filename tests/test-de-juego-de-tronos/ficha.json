@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de Juego de Tronos: tu casa",
+  "descripcion": "Diez situaciones de poder, honor y supervivencia para saber a qué casa de Juego de Tronos perteneces, con radar de rasgos y afinidad. Test de fans.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de Juego de Tronos",
+    "qué casa soy",
+    "casas de Juego de Tronos",
+    "Stark o Lannister",
+    "test de series"
+  ],
+  "categoria": "series-cine",
+  "duracion": "3 min",
+  "orden": 68,
+  "tema": {
+    "fondo": "#17181B",
+    "texto": "#EDEDED",
+    "acento": "#D2A94E"
+  }
+}

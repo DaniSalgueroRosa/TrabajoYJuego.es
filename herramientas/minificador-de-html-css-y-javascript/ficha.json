@@ -1,0 +1,8 @@
+{
+  "titulo": "Minificador de HTML, CSS y JavaScript",
+  "descripcion": "Minifica código HTML, CSS y JavaScript quitando comentarios y espacios sobrantes sin cambiar su funcionamiento. Muestra cuánto ocupa antes y después.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "informatica",
+  "orden": 89
+}

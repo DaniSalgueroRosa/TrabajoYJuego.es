@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de nivel de vocabulario de japonés",
+  "descripcion": "Treinta palabras en japonés, de N5 a N1, con su lectura, para estimar tu nivel de vocabulario. Eliges el significado y se corrige al momento.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "vocabulario de japonés",
+    "nivel de japonés",
+    "test de japonés",
+    "JLPT N5 N1",
+    "kanji"
+  ],
+  "categoria": "otros-idiomas",
+  "duracion": "5 min",
+  "orden": 87,
+  "tema": {
+    "fondo": "#1E1214",
+    "texto": "#FFF0F0",
+    "acento": "#FF7A7A"
+  }
+}

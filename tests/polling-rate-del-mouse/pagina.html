@@ -1,0 +1,39 @@
+<section class="tt tt--raton contenedor" data-test="polling-rate-del-mouse">
+  <header class="tt-cab">
+    <h1 class="tt-titulo">Polling rate del mouse: test en Hz</h1>
+    <p class="tt-lead">El polling rate indica cuántas veces por segundo informa tu ratón de su posición. Muévelo en círculos rápidos y calcularemos una estimación.</p>
+  </header>
+  <div class="tt-app" id="tt-app">
+    <noscript><p class="tt-aviso">Este test necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="tt-aviso">Cargando el test…</p>
+  </div>
+  <div class="tt-texto">
+    <h2>Qué es el polling rate</h2>
+    <p>Es la frecuencia de sondeo: las veces por segundo que el ratón envía su posición al ordenador. A 125 Hz manda una lectura cada 8 milisegundos; a 500 Hz, una cada 2; a 1000 Hz, una cada milisegundo. Cuanto mayor es, más fino es el seguimiento del cursor, algo que se nota sobre todo en juegos de puntería y en pantallas de alta frecuencia de actualización.</p>
+    <h2>Cómo se mide desde el navegador</h2>
+    <p>El navegador recibe los movimientos del ratón y, por lo general, se los reparte a la página una vez por fotograma. Para saber a qué ritmo llegaron en realidad, el test usa los eventos sin agrupar que ofrecen navegadores como Chrome y Edge y calcula el tiempo entre una lectura y la siguiente. La frecuencia estimada es la inversa del intervalo mediano.</p>
+    <p>Si tu navegador no ofrece esos eventos, el test lo detecta y te avisa de que solo ve la frecuencia de tu pantalla.</p>
+    <h2>Cómo hacer una buena medida</h2>
+    <p>Mueve el ratón en círculos amplios y rápidos, sin parar, durante todo el tiempo. Un ratón parado no envía lecturas, y un movimiento muy lento puede producir menos eventos de los que el sensor es capaz de enviar. Cierra otras pestañas pesadas, desactiva el ahorro de energía y, si puedes, conecta el ratón directamente en lugar de usar un concentrador USB.</p>
+    <h2>Cómo leer el resultado</h2>
+    <p>Nuestro número se acerca a la frecuencia real, pero no es un instrumento de laboratorio: el reloj del navegador tiene una resolución limitada, así que por encima de 2000 Hz la diferencia entre un valor y otro es muy pequeña. El resultado se compara con las frecuencias habituales (125, 250, 500, 1000, 2000, 4000 y 8000 Hz) y se muestra la que más se parece.</p>
+    <p>Para revisar el resto del ratón, tienes la <a href="../prueba-del-mouse/">prueba del mouse</a>.</p>
+    <h2>Preguntas frecuentes</h2>
+    <details>
+      <summary>¿Por qué me sale una cifra de unos 60 Hz?</summary>
+      <p>Porque tu navegador solo entrega un evento por fotograma y mide la frecuencia de la pantalla, no la del ratón. Prueba en Chrome o Edge desde un ordenador.</p>
+    </details>
+    <details>
+      <summary>¿Más Hz es siempre mejor?</summary>
+      <p>Da un seguimiento más fino, pero también más trabajo para el procesador y, en ratones inalámbricos, menos batería. La diferencia real depende del juego y de la pantalla.</p>
+    </details>
+    <details>
+      <summary>¿Puedo cambiar el polling rate?</summary>
+      <p>En muchos ratones sí, con el programa del fabricante o con un botón de perfil. Cambia el valor, repite el test y comprueba el resultado.</p>
+    </details>
+    <details>
+      <summary>¿Sirve para ratones inalámbricos?</summary>
+      <p>Sí. Algunos reducen su frecuencia para ahorrar batería y el test lo refleja.</p>
+    </details>
+  </div>
+</section>

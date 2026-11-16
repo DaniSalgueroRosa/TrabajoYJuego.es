@@ -1,0 +1,8 @@
+{
+  "titulo": "Girar PDF",
+  "descripcion": "Gira las páginas de un PDF 90, 180 o 270 grados, todas o solo las que elijas, y descarga el documento corregido.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 8
+}

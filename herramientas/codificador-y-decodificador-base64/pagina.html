@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="codificador-y-decodificador-base64">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Base64 sin complicaciones</h2>
+  <p>Base64 es una forma de representar datos cualquiera, texto o archivos, usando solo letras, cifras y unos pocos símbolos que sobreviven al correo electrónico, a las direcciones web y a los formatos de texto. Se usa en archivos adjuntos de correo, en imágenes incrustadas en páginas web, en cabeceras de autenticación y en tokens. Esta herramienta convierte texto a Base64 y de vuelta, con soporte completo para acentos, eñes y emojis.</p>
+  <h2>Cómo funciona y qué opciones hay</h2>
+  <ul><li><strong>Codificar:</strong> el texto se convierte primero a bytes en UTF-8 y esos bytes se pasan a Base64. Así «ñ» o «😀» se codifican de la misma manera que en la mayoría de los lenguajes de programación, y se evitan los errores que da la función btoa de los navegadores con caracteres fuera del alfabeto latino básico.</li><li><strong>Variante segura para URL:</strong> sustituye + por - y / por _, para poder incluir el resultado en una dirección web o en un nombre de archivo sin tener que escaparlo. Es la que usan los tokens JWT.</li><li><strong>Relleno:</strong> los signos «=» del final completan el último bloque de cuatro caracteres. Muchos sistemas los admiten omitidos; otros los exigen.</li><li><strong>Líneas de 76 caracteres:</strong> el formato MIME del correo electrónico parte el texto en líneas de esa longitud.</li></ul>
+  <h2>Al decodificar</h2>
+  <p>La herramienta acepta las dos variantes de forma automática, ignora los espacios y saltos de línea, y no necesita el relleno. Si encuentra un carácter que no pertenece al alfabeto, te dice cuál es y en qué posición. Si lo decodificado no es texto UTF-8, por ejemplo porque Base64 contenía una imagen o un archivo comprimido, lo muestra en hexadecimal en lugar de símbolos sin sentido. Recuerda que Base64 no es cifrado: cualquiera puede decodificarlo, así que no sirve para ocultar contraseñas ni datos privados. Todo ocurre en tu navegador, sin enviar nada a internet.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Base64 es una forma de cifrar?</summary>
+    <p>No. Es solo una codificación reversible y sin clave. Cualquiera puede decodificarla, por lo que no protege la información.</p>
+  </details>
+  <details>
+    <summary>¿Por qué crece el tamaño al codificar?</summary>
+    <p>Porque cada tres bytes se convierten en cuatro caracteres. El resultado ocupa un tercio más que el original, aproximadamente.</p>
+  </details>
+  <details>
+    <summary>¿Qué es la variante URL?</summary>
+    <p>Una versión del alfabeto que usa - y _ en lugar de + y /, para poder ponerla en direcciones web sin problemas. Se usa, por ejemplo, en los tokens JWT.</p>
+  </details>
+  <details>
+    <summary>¿Se envía mi texto a algún servidor?</summary>
+    <p>No. La conversión se hace en tu navegador y no se guarda nada.</p>
+  </details>
+</div>

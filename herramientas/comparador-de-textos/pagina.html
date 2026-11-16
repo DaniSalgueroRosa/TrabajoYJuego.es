@@ -1,0 +1,30 @@
+<div class="herr" id="herr" data-herramienta="comparador-de-textos">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Encuentra qué ha cambiado entre dos textos</h2>
+  <p>Cuando dos personas editan un documento, cuando recibes una nueva versión de un contrato o cuando quieres saber qué ha tocado alguien en tu redacción, comparar a ojo es lento y poco fiable. Pega la versión original a la izquierda y la modificada a la derecha: la herramienta marca lo que se ha añadido, lo que se ha eliminado y lo que sigue igual, y calcula cuánto se parecen los dos textos.</p>
+  <h2>Línea a línea o palabra a palabra</h2>
+  <ul><li><strong>Línea a línea:</strong> es la comparación clásica, la de los programas de control de versiones. Cada línea eliminada aparece con un signo menos y cada línea añadida con un signo más, de modo que se distinguen sin depender del color.</li><li><strong>Palabra a palabra:</strong> muestra los cambios dentro de un mismo párrafo: las palabras eliminadas aparecen tachadas y las añadidas, subrayadas. Los signos de puntuación cuentan como elementos independientes, por lo que cambiar una coma también se detecta.</li></ul><p>Puedes ignorar las diferencias de mayúsculas y, al comparar por líneas, los espacios sobrantes al principio, al final o repetidos, que suelen ser ruido sin importancia.</p>
+  <h2>Cómo se calcula el parecido</h2>
+  <p>La herramienta busca la mayor secuencia de elementos que aparecen en el mismo orden en los dos textos. Esa parte común son los elementos «iguales». El porcentaje de parecido es el doble de los elementos iguales dividido entre el total de elementos de ambos textos: 100 % significa idénticos y 0 %, que no comparten nada. Es una medida de coincidencia literal, no de significado: dos frases que dicen lo mismo con otras palabras parecerán distintas.</p><p>Para textos muy largos, la comparación palabra a palabra puede rechazarse por exigir demasiada memoria; en ese caso, compara por líneas o por partes.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Qué significan el signo más y el signo menos?</summary>
+    <p>El signo más marca una línea que existe en el texto modificado pero no en el original. El signo menos marca una línea del original que ya no está.</p>
+  </details>
+  <details>
+    <summary>¿Detecta cambios de orden?</summary>
+    <p>Un párrafo movido de sitio se muestra como eliminado en su lugar original y añadido en el nuevo, porque la comparación sigue el orden del texto.</p>
+  </details>
+  <details>
+    <summary>¿Sirve para comparar archivos de código?</summary>
+    <p>Para fragmentos cortos sí: pega el contenido de cada archivo y compara línea a línea. Para proyectos completos es mejor un programa de control de versiones.</p>
+  </details>
+  <details>
+    <summary>¿Se envían mis textos a algún servidor?</summary>
+    <p>No. La comparación se hace en tu navegador, y los textos no se guardan ni salen de tu dispositivo.</p>
+  </details>
+</div>

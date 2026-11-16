@@ -1,0 +1,9 @@
+/* TABLA DE SCHULTE: cuadrícula de números; los ya marcados se apagan y llevan una marca además del color. */
+.sch-tabla { display: grid; gap: 6px; width: min(100%, 26rem); padding: 8px; background: var(--noche-linea); }
+.sch-celda { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--tinta); color: var(--tiza); font: inherit; font-weight: 700; font-size: clamp(1rem, 4.6vw, 1.5rem); }
+.sch-celda:hover { background: var(--noche-2); }
+.sch-celda:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; position: relative; z-index: 1; }
+.sch-hecho { background: var(--pizarra-media); color: var(--limon); text-decoration: line-through; }
+.sch-tabla.sch-t4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.sch-tabla.sch-t5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.sch-tabla.sch-t6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }

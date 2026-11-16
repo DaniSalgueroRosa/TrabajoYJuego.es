@@ -1,0 +1,16 @@
+{
+  "titulo": "Sudoku gratis: fácil, medio y difícil",
+  "descripcion": "Sudoku online sin registrarte: tres niveles, notas a lápiz, pistas y comprobación. Cada tablero es nuevo y tiene una única solución.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "sudoku",
+    "lógica",
+    "números",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "dificil",
+  "duracion": "10-25 min",
+  "orden": 21
+}

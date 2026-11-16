@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de contraseñas",
+  "descripcion": "Crea contraseñas aleatorias y seguras de 4 a 128 caracteres, con letras, números y símbolos a tu gusto. Se generan en tu navegador y no se guardan.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "utilidades",
+  "orden": 91
+}

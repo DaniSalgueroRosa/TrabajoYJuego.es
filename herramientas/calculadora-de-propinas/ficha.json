@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de propinas",
+  "descripcion": "Calcula la propina de una cuenta, el total a pagar y lo que toca a cada persona, con redondeo opcional al euro. Para restaurantes y grupos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "finanzas",
+  "orden": 70
+}

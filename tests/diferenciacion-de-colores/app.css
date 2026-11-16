@@ -1,0 +1,5 @@
+body[data-item="diferenciacion-de-colores"] .dc-zona { display: grid; justify-items: center; align-content: center; gap: var(--e4); }
+body[data-item="diferenciacion-de-colores"] .dc-mensaje { margin: 0; max-width: 34rem; font-weight: 700; line-height: 1.45; }
+body[data-item="diferenciacion-de-colores"] .dc-grid { display: grid; gap: 5px; width: min(100%, 30rem); aspect-ratio: 1; }
+body[data-item="diferenciacion-de-colores"] .dc-casilla { appearance: none; padding: 0; margin: 0; border: 0; border-radius: 6px; cursor: pointer; min-width: 0; min-height: 0; }
+body[data-item="diferenciacion-de-colores"] .dc-casilla:focus-visible { outline: 4px solid var(--t-texto); outline-offset: 2px; }

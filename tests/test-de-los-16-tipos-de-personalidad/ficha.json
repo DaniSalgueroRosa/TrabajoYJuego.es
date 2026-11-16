@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de los 16 tipos de personalidad",
+  "descripcion": "Veintiocho preguntas para saber cuál de los 16 tipos de cuatro letras eres, con gráfica de tus cuatro ejes. Un juego de autoconocimiento, no un diagnóstico.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "16 tipos de personalidad",
+    "test de personalidad",
+    "tipos de personalidad",
+    "introvertido o extrovertido",
+    "autoconocimiento"
+  ],
+  "categoria": "personalidad",
+  "duracion": "6 min",
+  "orden": 43,
+  "tema": {
+    "fondo": "#EEF3FF",
+    "texto": "#13213F",
+    "acento": "#2447C9"
+  }
+}

@@ -1,0 +1,32 @@
+<div class="herr" id="herr" data-herramienta="generador-de-enlaces-de-whatsapp">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Un enlace que abre el chat sin guardar el contacto</h2>
+  <p>Con un enlace de WhatsApp de tipo <code>wa.me</code>, quien lo pulsa abre una conversación contigo sin tener que guardar tu número en la agenda, y con el mensaje que tú quieras ya escrito. Es útil en la firma del correo, en una tarjeta, en un perfil de red social o en el botón de contacto de una web. Escribe el teléfono y, si quieres, el mensaje, y la herramienta construye el enlace, un código QR y el HTML para pegarlo.</p>
+  <h2>Cómo se construye el enlace</h2>
+  <p>El formato es <code>https://wa.me/</code> seguido del teléfono en formato internacional, que significa el prefijo del país y el número, todo en cifras: sin el signo +, sin ceros iniciales de marcación, sin espacios ni guiones. Si hay mensaje, se añade <code>?text=</code> y el texto codificado, de manera que los espacios, las tildes, los saltos de línea y símbolos como el signo de porcentaje o la interrogación viajan sin romper la dirección. La herramienta codifica también los signos que algunos programas dejan sin tocar, como el asterisco y los paréntesis.</p>
+  <h2>Si el enlace no abre el chat</h2>
+  <ul><li>Revisa el prefijo del país: el número debe tener entre 8 y 15 cifras contando ese prefijo.</li><li>Si tu número empieza por 0, prueba a quitarlo cuando uses el prefijo internacional.</li><li>En algunos países, como Argentina, los móviles llevan una cifra extra tras el prefijo; mira cómo aparece tu número en WhatsApp.</li><li>Un mensaje muy largo hace el enlace tan largo que algunas aplicaciones lo cortan.</li></ul><p>Si dejas el teléfono vacío, el enlace sirve para compartir un mensaje y que cada persona elija a quién enviarlo.</p>
+  <h2>Privacidad</h2>
+  <p>Todo se calcula en tu navegador: el número y el mensaje no se envían a ningún servidor ni se guardan al cerrar la página. Piensa que quien tenga el enlace tendrá tu teléfono, así que no lo publiques si no quieres que sea público.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Necesito una cuenta de empresa de WhatsApp?</summary>
+    <p>No. Los enlaces wa.me funcionan con una cuenta normal de WhatsApp. Las cuentas de empresa ofrecen otras funciones, pero el enlace es el mismo.</p>
+  </details>
+  <details>
+    <summary>¿Se puede poner un mensaje con varias líneas?</summary>
+    <p>Sí. Los saltos de línea se codifican correctamente y aparecen como líneas separadas en el mensaje que se abre en el chat.</p>
+  </details>
+  <details>
+    <summary>¿Cómo uso el código HTML?</summary>
+    <p>Cópialo y pégalo en la página donde quieras el botón o el texto de contacto. Ya lleva los atributos para abrirse en otra pestaña sin dar acceso a tu web.</p>
+  </details>
+  <details>
+    <summary>¿Funciona también en ordenador?</summary>
+    <p>Sí. En el móvil abre la aplicación y en el ordenador abre WhatsApp Web o la aplicación de escritorio, según lo que tengas instalado.</p>
+  </details>
+</div>

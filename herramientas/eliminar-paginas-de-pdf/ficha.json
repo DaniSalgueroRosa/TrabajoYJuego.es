@@ -1,0 +1,8 @@
+{
+  "titulo": "Eliminar páginas de PDF",
+  "descripcion": "Quita del PDF las páginas que no quieres escribiendo sus números o rangos, y descarga el resto como un nuevo archivo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 9
+}

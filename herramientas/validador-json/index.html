@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Validador JSON | TrabajoYJuego</title>
+<meta name="description" content="Comprueba si un JSON es válido y, si no lo es, te dice la línea y la columna del error y cómo corregirlo. Muestra también su estructura.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://trabajoyjuego.es/herramientas/validador-json/">
+<meta name="theme-color" content="#1D3A34">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TrabajoYJuego">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Validador JSON | TrabajoYJuego">
+<meta property="og:description" content="Comprueba si un JSON es válido y, si no lo es, te dice la línea y la columna del error y cómo corregirlo. Muestra también su estructura.">
+<meta property="og:url" content="https://trabajoyjuego.es/herramientas/validador-json/">
+<meta property="og:image" content="https://trabajoyjuego.es/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b2ce0bfd">
+<link rel="stylesheet" href="../../assets/css/herramientas.css?v=be44dd49">
+<link rel="stylesheet" href="app.css?v=038e8af6">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Validador JSON","description":"Comprueba si un JSON es válido y, si no lo es, te dice la línea y la columna del error y cómo corregirlo. Muestra también su estructura.","url":"https://trabajoyjuego.es/herramientas/validador-json/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","applicationCategory":"UtilitiesApplication","datePublished":"2026-11-14"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Herramientas","item":"https://trabajoyjuego.es/herramientas/"},{"@type":"ListItem","position":3,"name":"Validador JSON","item":"https://trabajoyjuego.es/herramientas/validador-json/"}]}</script>
+
+</head>
+<body data-seccion="herramientas" data-item="validador-json">
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera-interior">
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <nav class="cabecera-nav" aria-label="Secciones">
+      <ul>
+        <li data-grupo="trabajo"><a href="../../herramientas/" aria-current="page">Herramientas</a></li>
+        <li data-grupo="trabajo"><a href="../../recursos/">Recursos</a></li>
+        <li data-grupo="juego" class="cabecera-cambio"><a href="../../juegos/">Juegos</a></li>
+        <li data-grupo="juego"><a href="../../tests/">Tests</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1" data-mundo="trabajo">
+<article class="ficha">
+  <header class="ficha-cabecera">
+    <div class="contenedor">
+      <nav class="migas" aria-label="Ruta de navegación">
+  <ol>
+    <li><a href="../../">Inicio</a></li>
+    <li><a href="../../herramientas/">Herramientas</a></li>
+    <li><span aria-current="page">Validador JSON</span></li>
+  </ol>
+</nav>
+
+      <h1 class="ficha-titulo">Validador JSON</h1>
+      <p class="ficha-lead">Comprueba si un JSON es válido y, si no lo es, te dice la línea y la columna del error y cómo corregirlo. Muestra también su estructura.</p>
+      <div class="ficha-meta">
+        <p>Publicado el <time datetime="2026-11-14">14 de noviembre de 2026</time></p>
+      </div>
+    </div>
+  </header>
+  <div class="contenedor ficha-cuerpo">
+<div class="herr" id="herr" data-herramienta="validador-json">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Averigua si tu JSON es válido</h2>
+  <p>Un JSON con un solo carácter fuera de sitio deja de funcionar: la aplicación se niega a leerlo y el mensaje de error suele ser críptico. Esta herramienta lo comprueba contra el estándar y, si hay un problema, te indica en qué línea y columna está, muestra esa línea con una flecha en el punto exacto y explica en español qué se esperaba. Si todo está bien, te da un resumen de la estructura: tipo del valor principal, número de objetos, listas y claves, y los niveles de anidamiento.</p>
+  <h2>Errores más habituales</h2>
+  <ul><li><strong>Coma final:</strong> una coma después del último elemento de un objeto o una lista, como en {"a": 1,}. Es lo más frecuente y JSON no lo admite.</li><li><strong>Comillas simples:</strong> en JSON las cadenas y las claves van siempre entre comillas dobles.</li><li><strong>Claves sin comillas:</strong> {nombre: "Ana"} es válido en JavaScript, pero no en JSON.</li><li><strong>Comentarios:</strong> ni // ni /* */ están permitidos.</li><li><strong>Valores no admitidos:</strong> undefined, NaN e Infinity no existen en JSON; usa null o un texto.</li><li><strong>Saltos de línea dentro de un texto:</strong> hay que escribirlos como \n.</li><li><strong>Ceros a la izquierda:</strong> 007 no es un número válido; escribe 7 o "007".</li></ul>
+  <h2>Qué comprueba y qué no</h2>
+  <p>La herramienta verifica la sintaxis estricta de la norma RFC 8259. Detecta también las claves repetidas dentro de un mismo objeto, que son técnicamente válidas pero casi siempre un error, y los documentos demasiado anidados. No comprueba que los datos tengan sentido para tu aplicación, por ejemplo que exista un campo concreto o que un valor tenga un formato; para eso se usan esquemas. El análisis se hace en tu navegador, sin enviar el texto a ningún servidor, y sirve con documentos de cualquier tamaño razonable.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Qué significa «la línea y la columna»?</summary>
+    <p>La línea cuenta los saltos de línea desde el principio del texto. La columna indica el carácter dentro de esa línea donde el analizador detectó el problema, que a veces está un poco después del error real.</p>
+  </details>
+  <details>
+    <summary>Mi JSON tiene comentarios, ¿es válido?</summary>
+    <p>No según el estándar. Algunos programas aceptan variantes como JSONC o JSON5, pero esta herramienta aplica el formato estricto.</p>
+  </details>
+  <details>
+    <summary>¿Qué es una clave repetida?</summary>
+    <p>Un mismo nombre usado dos veces dentro de un objeto. El estándar no lo prohíbe, pero cada programa lo trata a su manera, por lo que conviene evitarlo.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda lo que pego?</summary>
+    <p>No. Se comprueba en tu navegador y nada se almacena ni se envía.</p>
+  </details>
+</div>
+
+    <aside class="herr-privacidad" aria-label="Privacidad">
+      <p><strong>Sin registro y sin subir nada.</strong> Esta herramienta funciona en tu navegador: lo que escribes o eliges no se envía a ningún servidor ni se guarda en tu dispositivo.</p>
+    </aside>
+  </div>
+</article>
+
+</main>
+<footer class="pie">
+  <div class="contenedor pie-interior">
+    <div class="pie-marca">
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
+    </div>
+    <nav class="pie-nav" aria-label="Secciones, en el pie de página">
+      <div class="pie-grupo" data-grupo="trabajo">
+        <h2 class="pie-grupo-titulo">Trabajo</h2>
+        <ul>
+          <li><a href="../../herramientas/">Herramientas</a></li>
+          <li><a href="../../recursos/">Recursos</a></li>
+        </ul>
+      </div>
+      <div class="pie-grupo" data-grupo="juego">
+        <h2 class="pie-grupo-titulo">Juego</h2>
+        <ul>
+          <li><a href="../../juegos/">Juegos</a></li>
+          <li><a href="../../tests/">Tests</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <nav class="contenedor pie-legales" aria-label="Información legal">
+    <ul>
+      <li><a href="../../legal/aviso-legal/">Aviso legal</a></li>
+      <li><a href="../../legal/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="../../legal/politica-de-cookies/">Política de cookies</a></li>
+      <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
+      <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
+      <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
+    </ul>
+  </nav>
+  <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
+</footer>
+
+<script src="../../assets/js/herramientas.js?v=f69adb52" defer></script>
+<script src="app.js?v=a3d19ac0" defer></script>
+</body>
+</html>

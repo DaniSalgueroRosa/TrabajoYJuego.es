@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de geografía: ¿de dónde vienes?",
+  "descripcion": "Dieciséis preguntas sobre las palabras y rasgos que usas al hablar para saber a qué región hispanohablante suena tu español. Con gráfica de coincidencia.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "de dónde vienes",
+    "acento español",
+    "palabras por países",
+    "variedades del español",
+    "geografía del español"
+  ],
+  "categoria": "otros-idiomas",
+  "duracion": "4 min",
+  "orden": 88,
+  "tema": {
+    "fondo": "#12263A",
+    "texto": "#EAF3FB",
+    "acento": "#FFD166"
+  }
+}

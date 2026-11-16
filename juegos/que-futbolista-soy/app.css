@@ -1,0 +1,6 @@
+/* ¿QUÉ FUTBOLISTA SOY?: lista de pistas */
+.qj-bloque { display: grid; gap: var(--e3); }
+.qj-pistas { display: grid; gap: var(--e2); margin: 0; padding: 0; list-style: none; counter-reset: pista; }
+.qj-pistas li { counter-increment: pista; padding: var(--e3) var(--e4); background: var(--tinta); color: var(--tiza); box-shadow: 0 0 0 3px var(--noche-linea); }
+.qj-pistas li::before { content: counter(pista) ". "; color: var(--limon); font-family: var(--f-pixel); }
+.qj-pistas li.qj-nueva { box-shadow: 0 0 0 3px var(--limon); }

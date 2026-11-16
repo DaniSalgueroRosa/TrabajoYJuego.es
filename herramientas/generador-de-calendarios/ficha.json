@@ -1,0 +1,8 @@
+{
+  "titulo": "Generador de calendarios",
+  "descripcion": "Crea un calendario imprimible de un año o de un mes, con semanas desde lunes o domingo, números de semana y festivos de España. PDF e imagen.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "fechas",
+  "orden": 77
+}

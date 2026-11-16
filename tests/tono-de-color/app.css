@@ -1,0 +1,13 @@
+body[data-item="tono-de-color"] .tc-zona { display: grid; gap: var(--e4); align-content: center; }
+body[data-item="tono-de-color"] .tc-mensaje { margin: 0; font-weight: 700; line-height: 1.45; }
+body[data-item="tono-de-color"] .tc-fila { display: flex; gap: 4px; justify-content: center; }
+body[data-item="tono-de-color"] .tc-ficha { appearance: none; flex: 1 1 0; min-width: 0; min-height: clamp(5.5rem, 22vw, 9rem); max-width: 5.5rem; padding: 0; border: 3px solid transparent; border-radius: 8px; cursor: pointer; position: relative; }
+body[data-item="tono-de-color"] .tc-ficha--fija { cursor: default; border-color: var(--t-texto); }
+body[data-item="tono-de-color"] .tc-ficha--sel { border-color: var(--t-texto); transform: translateY(-8px); box-shadow: 0 8px 0 var(--t-acento); }
+body[data-item="tono-de-color"] .tc-ficha:focus-visible { outline: 4px solid var(--t-texto); outline-offset: 2px; }
+body[data-item="tono-de-color"] .tc-fijo { position: absolute; left: 0; right: 0; bottom: 4px; font-size: 1.4rem; line-height: 1; color: var(--t-texto); text-shadow: 0 0 3px #000; }
+body[data-item="tono-de-color"] .tc-resumen { display: grid; gap: var(--e2); }
+body[data-item="tono-de-color"] .tc-comparar { display: flex; gap: 3px; }
+body[data-item="tono-de-color"] .tc-mini { flex: 1 1 0; min-width: 0; height: 3.2rem; border-radius: 5px; display: grid; place-items: end center; }
+body[data-item="tono-de-color"] .tc-mini b { font-size: 1rem; line-height: 1; color: #fff; text-shadow: 0 0 3px #000, 0 0 3px #000; padding-bottom: 2px; }
+@media (max-width: 640px) { body[data-item="tono-de-color"] .tc-fila { gap: 2px; } body[data-item="tono-de-color"] .tc-ficha { border-width: 2px; border-radius: 6px; } }

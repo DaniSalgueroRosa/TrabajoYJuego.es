@@ -1,0 +1,3 @@
+/* Aspecto propio de este test. Tienes disponibles var(--t-fondo), var(--t-texto) y var(--t-acento) (los colores de «tema»).
+   Empieza cada regla por .mi-test (o body[data-item="la-carpeta"]) para no tocar el resto del sitio. */
+.mi-test { padding-block: var(--e7); }

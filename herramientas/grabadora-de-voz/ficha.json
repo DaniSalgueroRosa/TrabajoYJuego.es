@@ -1,0 +1,14 @@
+{
+  "titulo": "Grabadora de voz",
+  "descripcion": "Graba tu voz desde el micrófono del navegador, escúchala y guárdala en MP3, WAV, FLAC u Ogg Opus. La grabación no sale de tu dispositivo.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "audio",
+    "grabar",
+    "voz",
+    "microfono"
+  ],
+  "categoria": "utilidades",
+  "orden": 99
+}

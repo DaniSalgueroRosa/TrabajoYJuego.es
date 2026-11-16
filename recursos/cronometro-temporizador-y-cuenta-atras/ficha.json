@@ -1,0 +1,14 @@
+{
+  "titulo": "Cronómetro, temporizador y cuenta atrás",
+  "descripcion": "Qué diferencia hay entre medir, programar un aviso y contar hacia una fecha, y cómo convertir duraciones de horas a segundos o de días a minutos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "cronómetro",
+    "temporizador",
+    "cuenta atrás",
+    "tiempo"
+  ],
+  "categoria": "fechas",
+  "orden": 20
+}

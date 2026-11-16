@@ -1,0 +1,18 @@
+{
+  "titulo": "Quiz de ciencia: física, química y biología",
+  "descripcion": "Quiz de ciencia en español con 65 preguntas de física, química, biología y ciencias de la Tierra. Diez preguntas por partida con tiempo y puntos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "ciencia",
+    "quiz",
+    "física",
+    "química",
+    "biología",
+    "un jugador"
+  ],
+  "categoria": "cultura-general",
+  "dificultad": "media",
+  "duracion": "4-6 min",
+  "orden": 46
+}

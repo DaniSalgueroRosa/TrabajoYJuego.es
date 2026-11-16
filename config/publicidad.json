@@ -1,0 +1,9 @@
+{
+  "_ayuda": "Publicidad de Google AdSense. Mientras «activa» sea false (o el entorno no sea «produccion», o falte «cliente») el sitio NO carga ningún código de anuncios ni de consentimiento de Google, y las páginas legales lo explican así. Cuando AdSense apruebe tu cuenta: pon tu identificador de editor en «cliente» (ca-pub- y 16 cifras), el número de cada bloque de anuncios en «bloques» y «activa» en true. Instrucciones completas en docs/PUBLICAR.md.",
+  "activa": false,
+  "cliente": "",
+  "bloques": {
+    "listado": "",
+    "juego": ""
+  }
+}

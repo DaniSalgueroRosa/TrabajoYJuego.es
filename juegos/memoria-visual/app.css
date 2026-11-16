@@ -1,0 +1,15 @@
+/* MEMORIA VISUAL: cuadrícula cuadrada de casillas. Luz = limón; acierto = verde con ✓; fallo = rosa con ✕; las no marcadas se muestran con borde discontinuo. */
+.mv-tablero { display: grid; gap: 8px; width: min(100%, 26rem); margin: 4px auto; padding: 4px; }
+.mv-celda {
+  position: relative; aspect-ratio: 1; min-width: 0; border: 0; border-radius: 0; padding: 0; cursor: pointer; background: var(--tinta); color: var(--tiza);
+  box-shadow: 0 -3px 0 0 var(--noche-linea), 0 3px 0 0 var(--noche-linea), -3px 0 0 0 var(--noche-linea), 3px 0 0 0 var(--noche-linea);
+}
+.mv-celda:hover:not(:disabled) { box-shadow: 0 -3px 0 0 var(--tiza-suave), 0 3px 0 0 var(--tiza-suave), -3px 0 0 0 var(--tiza-suave), 3px 0 0 0 var(--tiza-suave); }
+.mv-celda:focus-visible { outline: 3px solid var(--limon); outline-offset: 5px; }
+.mv-celda--luz { background: var(--limon); }
+.mv-celda--ok { background: var(--pizarra-media); }
+.mv-celda--ok::after, .mv-celda--mal::after { position: absolute; inset: 0; display: grid; place-items: center; font: 700 1.4rem / 1 var(--f-trabajo); color: var(--tiza); }
+.mv-celda--ok::after { content: "✓"; }
+.mv-celda--mal { background: var(--sandia-texto); }
+.mv-celda--mal::after { content: "✕"; }
+.mv-celda--mostrar { outline: 3px dashed var(--limon); outline-offset: -8px; }

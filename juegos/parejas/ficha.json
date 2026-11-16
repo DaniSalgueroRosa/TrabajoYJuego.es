@@ -1,0 +1,16 @@
+{
+  "titulo": "Juego de parejas: memoriza las cartas",
+  "descripcion": "Da la vuelta a las cartas de dos en dos y encuentra todas las parejas. Tres tamaños de tablero, figuras con forma y color propios.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "parejas",
+    "memoria",
+    "cartas",
+    "concentración"
+  ],
+  "categoria": "memoria",
+  "dificultad": "facil",
+  "duracion": "2-6 min",
+  "orden": 30
+}

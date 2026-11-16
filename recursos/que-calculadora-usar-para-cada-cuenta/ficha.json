@@ -1,0 +1,14 @@
+{
+  "titulo": "Qué calculadora usar para cada cuenta",
+  "descripcion": "Cuándo basta la calculadora básica, cuándo hace falta la científica y cuándo conviene la de porcentajes o la de redondeo, con ejemplos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "calculadora",
+    "matemáticas",
+    "porcentajes",
+    "redondeo"
+  ],
+  "categoria": "calculadoras",
+  "orden": 10
+}

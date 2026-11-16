@@ -1,0 +1,72 @@
+{
+  "titulo": "Herramientas",
+  "singular": "herramienta",
+  "plural": "herramientas",
+  "descripcion": "Más de cien herramientas gratuitas en español: PDF, audio, calculadoras, conversores, imágenes y texto. Sin registro y sin subir tus archivos.",
+  "resumen": "PDF, audio, calculadoras, conversores y utilidades que funcionan en tu navegador.",
+  "mundo": "trabajo",
+  "orden": 1,
+  "vacio": "La primera herramienta aparecerá en esta página en cuanto se publique.",
+  "ordenar_por": "orden",
+  "schema": {
+    "tipo": "WebApplication",
+    "categoria": "UtilitiesApplication"
+  },
+  "accion": "Abrir",
+  "buscador": true,
+  "categorias": [
+    {
+      "id": "pdf-documentos",
+      "nombre": "PDF y documentos"
+    },
+    {
+      "id": "calculadoras",
+      "nombre": "Calculadoras"
+    },
+    {
+      "id": "estudiantes",
+      "nombre": "Estudiantes y FP"
+    },
+    {
+      "id": "conversores",
+      "nombre": "Conversores"
+    },
+    {
+      "id": "imagenes",
+      "nombre": "Imágenes y diseño"
+    },
+    {
+      "id": "audio",
+      "nombre": "Audio y sonido"
+    },
+    {
+      "id": "texto",
+      "nombre": "Texto y escritura"
+    },
+    {
+      "id": "finanzas",
+      "nombre": "Finanzas y economía"
+    },
+    {
+      "id": "negocio",
+      "nombre": "Negocio y autónomos"
+    },
+    {
+      "id": "comercio",
+      "nombre": "Venta online y publicidad"
+    },
+    {
+      "id": "fechas",
+      "nombre": "Fecha y organización"
+    },
+    {
+      "id": "informatica",
+      "nombre": "Informática y programación"
+    },
+    {
+      "id": "utilidades",
+      "nombre": "Generadores y utilidades"
+    }
+  ],
+  "agrupar": true
+}

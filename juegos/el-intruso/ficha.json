@@ -1,0 +1,15 @@
+{
+  "titulo": "El intruso",
+  "descripcion": "Cuatro palabras, tres tienen algo en común y una no encaja. Encuentra al intruso antes de que se acabe el tiempo.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "clasificar",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "facil",
+  "duracion": "3-5 min",
+  "orden": 5
+}

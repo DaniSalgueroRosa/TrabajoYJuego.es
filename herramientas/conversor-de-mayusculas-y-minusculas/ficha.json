@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de mayúsculas y minúsculas",
+  "descripcion": "Convierte un texto a MAYÚSCULAS, minúsculas, tipo título, tipo frase o alternando mayúsculas, respetando la ñ y las tildes del español.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "texto",
+  "orden": 53
+}

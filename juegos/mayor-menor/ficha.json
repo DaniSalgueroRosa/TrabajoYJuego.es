@@ -1,0 +1,15 @@
+{
+  "titulo": "Mayor o menor",
+  "descripcion": "Te damos un dato y tú adivinas si el siguiente es mayor o menor: habitantes, altitudes, ríos y fechas. Aguanta la racha con dos vidas.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "comparar",
+    "datos",
+    "un jugador"
+  ],
+  "categoria": "geografia",
+  "dificultad": "facil",
+  "duracion": "3-6 min",
+  "orden": 10
+}

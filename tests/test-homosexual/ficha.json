@@ -1,0 +1,21 @@
+{
+  "titulo": "Test homosexual",
+  "descripcion": "Doce frases para quien se pregunta si le atraen personas de su mismo género: atracción, imaginación y entorno. Con espectro y barras. No es un diagnóstico.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test homosexual",
+    "soy gay",
+    "soy homosexual",
+    "test gay",
+    "orientación sexual"
+  ],
+  "categoria": "relaciones",
+  "duracion": "3 min",
+  "orden": 59,
+  "tema": {
+    "fondo": "#EAF4FF",
+    "texto": "#0B2540",
+    "acento": "#0B5FAD"
+  }
+}

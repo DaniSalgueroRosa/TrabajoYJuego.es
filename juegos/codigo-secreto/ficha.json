@@ -1,0 +1,17 @@
+{
+  "titulo": "Código secreto: adivina la combinación de colores",
+  "descripcion": "Descifra la combinación de colores escondida con las pistas de cada intento. Tres niveles, símbolos para cada color y juego con teclado.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "código secreto",
+    "colores",
+    "deducción",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "5-15 min",
+  "orden": 40
+}

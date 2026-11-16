@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de razonamiento visual-espacial",
+  "descripcion": "Diez preguntas de rotación mental: elige cuál de las cuatro figuras es la de referencia girada, sin caer en las reflejadas.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "razonamiento visual-espacial",
+    "rotación mental",
+    "test espacial",
+    "figuras girar",
+    "inteligencia espacial"
+  ],
+  "categoria": "memoria-percepcion",
+  "duracion": "4 min",
+  "orden": 30,
+  "tema": {
+    "fondo": "#F3F7F5",
+    "texto": "#14201C",
+    "acento": "#C21E4A"
+  }
+}

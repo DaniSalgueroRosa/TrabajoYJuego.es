@@ -1,0 +1,48 @@
+/* PALABRA INFINITA: tablero de intentos, teclado y panel de resultado.
+   Colores de estado (contraste ≥ 5:1 sobre su texto): verde pizarra = bien colocada, limón = hay en otro sitio, gris = no está. */
+.pi-controles { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e3) var(--e5); }
+.pi-longitud { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e1) var(--e2); }
+.pi-longitud .boton-retro { min-width: 2.6rem; margin: 3px; padding-inline: 0.5rem; }
+.pi-longitud-etiqueta { color: var(--tiza); font-weight: 700; }
+.pi-info { margin: 0; color: var(--tiza-suave); font-size: var(--t-1); }
+
+.pi-tablero { display: grid; gap: 8px; width: min(100%, calc(var(--n) * 4.4rem)); margin: 6px auto; padding: 4px; }
+.pi-fila { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 8px; }
+.pi-celda {
+  display: grid; place-items: center; aspect-ratio: 1; min-width: 0; background: var(--tinta); color: var(--tiza);
+  font: 400 20px / 1 var(--f-pixel); text-transform: uppercase;
+  box-shadow: 0 -3px 0 0 var(--noche-linea), 0 3px 0 0 var(--noche-linea), -3px 0 0 0 var(--noche-linea), 3px 0 0 0 var(--noche-linea);
+}
+.pi-tablero[data-n="4"] .pi-celda, .pi-tablero[data-n="5"] .pi-celda { font-size: 30px; }
+@media (min-width: 40rem) { .pi-celda { font-size: 30px; } .pi-tablero[data-n="4"] .pi-celda, .pi-tablero[data-n="5"] .pi-celda { font-size: 40px; } }
+.pi-celda.llena { box-shadow: 0 -3px 0 0 var(--tiza), 0 3px 0 0 var(--tiza), -3px 0 0 0 var(--tiza), 3px 0 0 0 var(--tiza); animation: pi-pop 0.2s steps(2); }
+.pi-celda.ok { background: var(--pizarra-media); color: var(--tiza); box-shadow: 0 -3px 0 0 var(--tiza), 0 3px 0 0 var(--tiza), -3px 0 0 0 var(--tiza), 3px 0 0 0 var(--tiza); animation: pi-pop 0.2s steps(2); }
+.pi-celda.hay { background: var(--limon); color: var(--tinta); outline: 3px dashed var(--tinta); outline-offset: -9px; box-shadow: 0 -3px 0 0 var(--limon), 0 3px 0 0 var(--limon), -3px 0 0 0 var(--limon), 3px 0 0 0 var(--limon); animation: pi-pop 0.2s steps(2); }
+.pi-celda.no { background: var(--noche-linea); color: var(--tiza); animation: pi-pop 0.2s steps(2); }
+.pi-celda--ejemplo { display: inline-grid; width: 2.6rem; height: 2.6rem; margin-right: var(--e2); vertical-align: middle; font-size: 20px; }
+.pi-leyenda .pi-celda { animation: none; font-size: 20px; }
+.pi-leyenda { padding-left: 0; list-style: none; }
+.pi-leyenda li { margin: var(--e3) 0 0; }
+.pi-fila--sacudida { animation: pi-sacudir 0.3s steps(4); }
+@keyframes pi-pop { 0% { transform: scale(1.18); } 100% { transform: scale(1); } }
+@keyframes pi-sacudir { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+
+.pi-teclado { display: grid; gap: 8px; width: 100%; max-width: 36rem; margin-inline: auto; }
+.pi-teclado-fila { display: flex; justify-content: center; gap: 5px; }
+.pi-tecla {
+  flex: 1 1 0; min-width: 0; height: 3.1rem; padding: 0; cursor: pointer; border: 0; border-radius: 0; background: var(--noche-linea); color: var(--tiza);
+  font: 700 1rem / 1 var(--f-trabajo); text-transform: uppercase;
+}
+.pi-tecla--ancha { flex: 1.7 1 0; font-size: 0.78rem; text-transform: none; }
+.pi-tecla:hover { background: var(--tiza); color: var(--tinta); }
+.pi-tecla:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.pi-tecla[data-estado="ok"] { background: var(--pizarra-media); color: var(--tiza); }
+.pi-tecla[data-estado="hay"] { background: var(--limon); color: var(--tinta); }
+.pi-tecla[data-estado="no"] { background: var(--tinta); color: var(--tiza-suave); }
+
+.pi-dist { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; font-size: var(--t-1); color: var(--tiza-suave); }
+.pi-dist li { display: grid; grid-template-columns: 1.2rem 1fr; align-items: center; gap: var(--e2); }
+.pi-dist-barra { display: block; min-width: 1.6rem; padding: 0 var(--e2); background: var(--noche-linea); color: var(--tiza); text-align: right; }
+.pi-dist-barra--ultima { background: var(--pizarra-media); }
+.pi-sesion-bloque { display: grid; gap: var(--e3); }
+.pi-sesion-bloque h3 { margin: 0; font-size: 1rem; }

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reversi contra el ordenador | TrabajoYJuego</title>
+<meta name="description" content="Reversi en tablero de 8×8: encierra las fichas del ordenador para voltearlas y acaba con más fichas que él. Tres niveles de dificultad.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://trabajoyjuego.es/juegos/reversi/">
+<meta name="theme-color" content="#1D3A34">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TrabajoYJuego">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Reversi contra el ordenador | TrabajoYJuego">
+<meta property="og:description" content="Reversi en tablero de 8×8: encierra las fichas del ordenador para voltearlas y acaba con más fichas que él. Tres niveles de dificultad.">
+<meta property="og:url" content="https://trabajoyjuego.es/juegos/reversi/">
+<meta property="og:image" content="https://trabajoyjuego.es/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b2ce0bfd">
+<link rel="stylesheet" href="../../assets/css/juegos.css?v=a37a499e">
+<link rel="stylesheet" href="app.css?v=3c4e40e9">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Reversi contra el ordenador","description":"Reversi en tablero de 8×8: encierra las fichas del ordenador para voltearlas y acaba con más fichas que él. Tres niveles de dificultad.","url":"https://trabajoyjuego.es/juegos/reversi/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","applicationCategory":"GameApplication","datePublished":"2026-11-15"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Juegos","item":"https://trabajoyjuego.es/juegos/"},{"@type":"ListItem","position":3,"name":"Reversi contra el ordenador","item":"https://trabajoyjuego.es/juegos/reversi/"}]}</script>
+
+</head>
+<body data-seccion="juegos" data-item="reversi">
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera-interior">
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <nav class="cabecera-nav" aria-label="Secciones">
+      <ul>
+        <li data-grupo="trabajo"><a href="../../herramientas/">Herramientas</a></li>
+        <li data-grupo="trabajo"><a href="../../recursos/">Recursos</a></li>
+        <li data-grupo="juego" class="cabecera-cambio"><a href="../../juegos/" aria-current="page">Juegos</a></li>
+        <li data-grupo="juego"><a href="../../tests/">Tests</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1" data-mundo="juego">
+<article class="ficha">
+  <header class="ficha-cabecera">
+    <div class="contenedor">
+      <nav class="migas" aria-label="Ruta de navegación">
+  <ol>
+    <li><a href="../../">Inicio</a></li>
+    <li><a href="../../juegos/">Juegos</a></li>
+    <li><span aria-current="page">Reversi contra el ordenador</span></li>
+  </ol>
+</nav>
+
+      <h1 class="ficha-titulo">Reversi contra el ordenador</h1>
+      <p class="ficha-lead">Reversi en tablero de 8×8: encierra las fichas del ordenador para voltearlas y acaba con más fichas que él. Tres niveles de dificultad.</p>
+      <div class="ficha-meta">
+        <p class="ficha-categoria"><span class="solo-lectores">Categoría: </span>Lógica</p>
+        <p class="dificultad" data-nivel="3"><span class="dificultad-pips" aria-hidden="true"><i></i><i></i><i></i></span> <span class="dificultad-texto"><span class="solo-lectores">Dificultad: </span>Difícil</span></p>
+        <p class="ficha-duracion"><span class="solo-lectores">Duración: </span>10-15 min</p>
+        <p class="ficha-fecha">Publicado el <time datetime="2026-11-15">15 de noviembre de 2026</time></p>
+        <ul class="ficha-etiquetas" aria-label="Etiquetas">
+          <li>reversi</li>
+          <li>estrategia</li>
+          <li>tablero</li>
+          <li>clásico</li>
+          <li>un jugador</li>
+        </ul>
+      </div>
+      <p class="ficha-volver"><a class="boton-retro boton-retro--sec boton-retro--chico" href="../../juegos/">Volver a todos los juegos</a></p>
+    </div>
+  </header>
+  <div class="contenedor ficha-cuerpo">
+<div class="juego" data-juego="reversi">
+  <div class="pantalla" id="rv">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>Cómo se juega</h2>
+  <p>El reversi se juega en un tablero de 8×8 con fichas negras y blancas. Tú llevas las negras y empiezas. En tu turno colocas una ficha en una casilla vacía de modo que, en línea recta (horizontal, vertical o diagonal), quede una o más fichas blancas entre la nueva y otra ficha negra tuya. Todas las blancas encerradas se voltean y pasan a ser tuyas. Si no tienes ninguna jugada válida, pasas el turno.</p>
+  <h2>Cuándo termina la partida</h2>
+  <p>La partida acaba cuando el tablero está lleno o cuando ninguno de los dos puede jugar. Gana quien tenga más fichas de su color en ese momento. Un jugador que va muy por delante a mitad de partida no tiene la victoria asegurada: lo que cuenta es el recuento final.</p>
+  <h2>Esquinas, bordes y movilidad</h2>
+  <p>Las cuatro esquinas son las casillas más valiosas porque nadie puede voltear una ficha que está en ellas. Las casillas pegadas a las esquinas suelen ser peligrosas, ya que regalan la esquina al rival. Al principio conviene tener pocas fichas y muchas jugadas disponibles: quien se queda sin movimientos acaba entregando las mejores casillas.</p>
+  <h2>Los tres niveles</h2>
+  <p>En el nivel fácil el ordenador elige una jugada válida al azar. En el normal prefiere las esquinas y las jugadas que voltean muchas fichas. En el difícil mira cuatro jugadas hacia delante y valora la posición de sus fichas y las jugadas que te deja. Cada nivel multiplica tu puntuación: tus fichas finales más 20 puntos si ganas (10 si empatas), por uno, dos o tres.</p>
+  <h2>Ayuda y teclado</h2>
+  <p>Las jugadas válidas se marcan con un punto amarillo. Si quieres un reto mayor, desactiva «Mostrar jugadas posibles». Con el teclado, muévete por las casillas con las flechas y coloca ficha con Intro o la barra espaciadora.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Qué hago si no tengo ninguna jugada válida?</summary>
+    <p>Pasas el turno automáticamente y el ordenador sigue jugando hasta que vuelvas a tener alguna jugada.</p>
+  </details>
+  <details>
+    <summary>¿Por qué el ordenador a veces no coge la esquina?</summary>
+    <p>En el nivel fácil elige al azar. En los otros dos, solo la ocupa cuando puede jugar allí.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda mi puntuación?</summary>
+    <p>No. No. El marcador de victorias y tu mejor puntuación se mantienen solo mientras la página esté abierta, y no se almacena nada en tu dispositivo.</p>
+  </details>
+  <details>
+    <summary>¿Se puede jugar en el móvil?</summary>
+    <p>Sí. El tablero se adapta al ancho de la pantalla y cada casilla es un botón grande.</p>
+  </details>
+</div>
+
+    <p class="ficha-volver ficha-volver--pie"><a class="boton-retro" href="../../juegos/">Volver a todos los juegos</a></p>
+    
+  </div>
+</article>
+
+</main>
+<footer class="pie">
+  <div class="contenedor pie-interior">
+    <div class="pie-marca">
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
+    </div>
+    <nav class="pie-nav" aria-label="Secciones, en el pie de página">
+      <div class="pie-grupo" data-grupo="trabajo">
+        <h2 class="pie-grupo-titulo">Trabajo</h2>
+        <ul>
+          <li><a href="../../herramientas/">Herramientas</a></li>
+          <li><a href="../../recursos/">Recursos</a></li>
+        </ul>
+      </div>
+      <div class="pie-grupo" data-grupo="juego">
+        <h2 class="pie-grupo-titulo">Juego</h2>
+        <ul>
+          <li><a href="../../juegos/">Juegos</a></li>
+          <li><a href="../../tests/">Tests</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <nav class="contenedor pie-legales" aria-label="Información legal">
+    <ul>
+      <li><a href="../../legal/aviso-legal/">Aviso legal</a></li>
+      <li><a href="../../legal/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="../../legal/politica-de-cookies/">Política de cookies</a></li>
+      <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
+      <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
+      <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
+    </ul>
+  </nav>
+  <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
+</footer>
+
+<script src="../../assets/js/juegos.js?v=4377f732" defer></script>
+<script src="app.js?v=591786d1" defer></script>
+</body>
+</html>

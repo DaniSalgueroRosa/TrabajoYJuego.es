@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de días entre fechas",
+  "descripcion": "Calcula cuántos días, semanas, meses y años hay entre dos fechas, incluyendo o no el día final. Resultado exacto con los años bisiestos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "fechas",
+  "orden": 72
+}

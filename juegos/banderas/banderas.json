@@ -1,0 +1,1827 @@
+{
+"_nota": "Banderas dibujadas con formas simples (r rectángulo, c círculo, o anillo, p polígono, s estrella, d trazado). Sin escudos ni detalles finos. v = tamaño del dibujo; d = descripción para lectores de pantalla.",
+"banderas": [
+{
+"n": "Francia",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales del mismo ancho: azul, blanca y roja",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#0055A4"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FFFFFF"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#EF4135"
+]
+]
+},
+{
+"n": "Italia",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales: verde, blanca y roja",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#009246"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FFFFFF"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#CE2B37"
+]
+]
+},
+{
+"n": "Irlanda",
+"v": [
+60,
+30
+],
+"d": "tres franjas verticales: verde, blanca y naranja",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+30,
+"#169B62"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+30,
+"#FFFFFF"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+30,
+"#FF883E"
+]
+]
+},
+{
+"n": "Bélgica",
+"v": [
+45,
+39
+],
+"d": "tres franjas verticales: negra, amarilla y roja",
+"f": [
+[
+"r",
+0,
+0,
+15.0,
+39,
+"#000000"
+],
+[
+"r",
+15.0,
+0,
+15.0,
+39,
+"#FAE042"
+],
+[
+"r",
+30.0,
+0,
+15.0,
+39,
+"#ED2939"
+]
+]
+},
+{
+"n": "Alemania",
+"v": [
+50,
+30
+],
+"d": "tres franjas horizontales: negra, roja y dorada",
+"f": [
+[
+"r",
+0,
+0,
+50,
+10.0,
+"#000000"
+],
+[
+"r",
+0,
+10.0,
+50,
+10.0,
+"#DD0000"
+],
+[
+"r",
+0,
+20.0,
+50,
+10.0,
+"#FFCE00"
+]
+]
+},
+{
+"n": "Países Bajos",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: roja, blanca y azul oscuro",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#AE1C28"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#21468B"
+]
+]
+},
+{
+"n": "Luxemburgo",
+"v": [
+50,
+30
+],
+"d": "tres franjas horizontales: roja, blanca y azul claro",
+"f": [
+[
+"r",
+0,
+0,
+50,
+10.0,
+"#ED2939"
+],
+[
+"r",
+0,
+10.0,
+50,
+10.0,
+"#FFFFFF"
+],
+[
+"r",
+0,
+20.0,
+50,
+10.0,
+"#00A1DE"
+]
+]
+},
+{
+"n": "Rusia",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: blanca, azul y roja",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#0039A6"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#D52B1E"
+]
+]
+},
+{
+"n": "Polonia",
+"v": [
+48,
+30
+],
+"d": "dos franjas horizontales: blanca arriba y roja abajo",
+"f": [
+[
+"r",
+0,
+0,
+48,
+15.0,
+"#FFFFFF"
+],
+[
+"r",
+0,
+15.0,
+48,
+15.0,
+"#DC143C"
+]
+]
+},
+{
+"n": "Austria",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: roja, blanca y roja",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#ED2939"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#ED2939"
+]
+]
+},
+{
+"n": "Hungría",
+"v": [
+60,
+30
+],
+"d": "tres franjas horizontales: roja, blanca y verde",
+"f": [
+[
+"r",
+0,
+0,
+60,
+10.0,
+"#CE2939"
+],
+[
+"r",
+0,
+10.0,
+60,
+10.0,
+"#FFFFFF"
+],
+[
+"r",
+0,
+20.0,
+60,
+10.0,
+"#477050"
+]
+]
+},
+{
+"n": "Bulgaria",
+"v": [
+50,
+30
+],
+"d": "tres franjas horizontales: blanca, verde y roja",
+"f": [
+[
+"r",
+0,
+0,
+50,
+10.0,
+"#FFFFFF"
+],
+[
+"r",
+0,
+10.0,
+50,
+10.0,
+"#00966E"
+],
+[
+"r",
+0,
+20.0,
+50,
+10.0,
+"#D62612"
+]
+]
+},
+{
+"n": "Rumanía",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales: azul, amarilla y roja",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#002B7F"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FCD116"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#CE1126"
+]
+]
+},
+{
+"n": "Lituania",
+"v": [
+50,
+30
+],
+"d": "tres franjas horizontales: amarilla, verde y roja",
+"f": [
+[
+"r",
+0,
+0,
+50,
+10.0,
+"#FDB913"
+],
+[
+"r",
+0,
+10.0,
+50,
+10.0,
+"#006A44"
+],
+[
+"r",
+0,
+20.0,
+50,
+10.0,
+"#C1272D"
+]
+]
+},
+{
+"n": "Estonia",
+"v": [
+55,
+35
+],
+"d": "tres franjas horizontales: azul, negra y blanca",
+"f": [
+[
+"r",
+0,
+0,
+55,
+11.67,
+"#0072CE"
+],
+[
+"r",
+0,
+11.67,
+55,
+11.67,
+"#000000"
+],
+[
+"r",
+0,
+23.33,
+55,
+11.67,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Letonia",
+"v": [
+60,
+30
+],
+"d": "una franja blanca estrecha entre dos franjas granates anchas",
+"f": [
+[
+"r",
+0,
+0,
+60,
+12.0,
+"#9E3039"
+],
+[
+"r",
+0,
+12.0,
+60,
+6.0,
+"#FFFFFF"
+],
+[
+"r",
+0,
+18.0,
+60,
+12.0,
+"#9E3039"
+]
+]
+},
+{
+"n": "Ucrania",
+"v": [
+60,
+40
+],
+"d": "dos franjas horizontales: azul arriba y amarilla abajo",
+"f": [
+[
+"r",
+0,
+0,
+60,
+20.0,
+"#0057B7"
+],
+[
+"r",
+0,
+20.0,
+60,
+20.0,
+"#FFD700"
+]
+]
+},
+{
+"n": "Suecia",
+"v": [
+160,
+100
+],
+"d": "fondo azul con una cruz amarilla descentrada hacia el mástil",
+"f": [
+[
+"r",
+0,
+0,
+160,
+100,
+"#006AA7"
+],
+[
+"r",
+50,
+0,
+20,
+100,
+"#FECC02"
+],
+[
+"r",
+0,
+40,
+160,
+20,
+"#FECC02"
+]
+]
+},
+{
+"n": "Noruega",
+"v": [
+220,
+160
+],
+"d": "fondo rojo con una cruz azul bordeada de blanco, descentrada hacia el mástil",
+"f": [
+[
+"r",
+0,
+0,
+220,
+160,
+"#BA0C2F"
+],
+[
+"r",
+60,
+0,
+40,
+160,
+"#FFFFFF"
+],
+[
+"r",
+0,
+60,
+220,
+40,
+"#FFFFFF"
+],
+[
+"r",
+70,
+0,
+20,
+160,
+"#00205B"
+],
+[
+"r",
+0,
+70,
+220,
+20,
+"#00205B"
+]
+]
+},
+{
+"n": "Finlandia",
+"v": [
+180,
+110
+],
+"d": "fondo blanco con una cruz azul descentrada hacia el mástil",
+"f": [
+[
+"r",
+0,
+0,
+180,
+110,
+"#FFFFFF"
+],
+[
+"r",
+50,
+0,
+30,
+110,
+"#003580"
+],
+[
+"r",
+0,
+40,
+180,
+30,
+"#003580"
+]
+]
+},
+{
+"n": "Dinamarca",
+"v": [
+370,
+280
+],
+"d": "fondo rojo con una cruz blanca descentrada hacia el mástil",
+"f": [
+[
+"r",
+0,
+0,
+370,
+280,
+"#C8102E"
+],
+[
+"r",
+120,
+0,
+40,
+280,
+"#FFFFFF"
+],
+[
+"r",
+0,
+120,
+370,
+40,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Islandia",
+"v": [
+250,
+180
+],
+"d": "fondo azul con una cruz roja bordeada de blanco, descentrada hacia el mástil",
+"f": [
+[
+"r",
+0,
+0,
+250,
+180,
+"#02529C"
+],
+[
+"r",
+70,
+0,
+40,
+180,
+"#FFFFFF"
+],
+[
+"r",
+0,
+70,
+250,
+40,
+"#FFFFFF"
+],
+[
+"r",
+80,
+0,
+20,
+180,
+"#DC1E35"
+],
+[
+"r",
+0,
+80,
+250,
+20,
+"#DC1E35"
+]
+]
+},
+{
+"n": "Suiza",
+"v": [
+32,
+32
+],
+"d": "bandera cuadrada: fondo rojo con una cruz blanca de brazos cortos",
+"f": [
+[
+"r",
+0,
+0,
+32,
+32,
+"#DA291C"
+],
+[
+"r",
+13,
+6,
+6,
+20,
+"#FFFFFF"
+],
+[
+"r",
+6,
+13,
+20,
+6,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Grecia",
+"v": [
+27,
+18
+],
+"d": "nueve franjas horizontales azules y blancas y un cuadrado azul con cruz blanca arriba a la izquierda",
+"f": [
+[
+"r",
+0,
+0,
+27,
+18,
+"#FFFFFF"
+],
+[
+"r",
+0,
+0,
+27,
+2,
+"#0D5EAF"
+],
+[
+"r",
+0,
+4,
+27,
+2,
+"#0D5EAF"
+],
+[
+"r",
+0,
+8,
+27,
+2,
+"#0D5EAF"
+],
+[
+"r",
+0,
+12,
+27,
+2,
+"#0D5EAF"
+],
+[
+"r",
+0,
+16,
+27,
+2,
+"#0D5EAF"
+],
+[
+"r",
+0,
+0,
+10,
+10,
+"#0D5EAF"
+],
+[
+"r",
+4,
+0,
+2,
+10,
+"#FFFFFF"
+],
+[
+"r",
+0,
+4,
+10,
+2,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Colombia",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: amarilla (el doble de ancha), azul y roja",
+"f": [
+[
+"r",
+0,
+0,
+60,
+20.0,
+"#FCD116"
+],
+[
+"r",
+0,
+20.0,
+60,
+10.0,
+"#003893"
+],
+[
+"r",
+0,
+30.0,
+60,
+10.0,
+"#CE1126"
+]
+]
+},
+{
+"n": "Argentina",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: celeste, blanca y celeste, con un sol amarillo en el centro",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#74ACDF"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#74ACDF"
+],
+[
+"c",
+30,
+20,
+4.5,
+"#F6B40E"
+]
+]
+},
+{
+"n": "Chile",
+"v": [
+60,
+40
+],
+"d": "franja blanca arriba y roja abajo, con un cuadrado azul y una estrella blanca arriba a la izquierda",
+"f": [
+[
+"r",
+0,
+0,
+60,
+20,
+"#FFFFFF"
+],
+[
+"r",
+0,
+20,
+60,
+20,
+"#D52B1E"
+],
+[
+"r",
+0,
+0,
+20,
+20,
+"#0039A6"
+],
+[
+"s",
+10,
+10,
+6,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Japón",
+"v": [
+60,
+40
+],
+"d": "fondo blanco con un círculo rojo en el centro",
+"f": [
+[
+"r",
+0,
+0,
+60,
+40,
+"#FFFFFF"
+],
+[
+"c",
+30,
+20,
+12,
+"#BC002D"
+]
+]
+},
+{
+"n": "Bangladés",
+"v": [
+60,
+36
+],
+"d": "fondo verde con un círculo rojo algo desplazado hacia el mástil",
+"f": [
+[
+"r",
+0,
+0,
+60,
+36,
+"#006A4E"
+],
+[
+"c",
+27,
+18,
+12,
+"#F42A41"
+]
+]
+},
+{
+"n": "Costa de Marfil",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales: naranja, blanca y verde",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#F77F00"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FFFFFF"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#009E60"
+]
+]
+},
+{
+"n": "Nigeria",
+"v": [
+60,
+30
+],
+"d": "tres franjas verticales: verde, blanca y verde",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+30,
+"#008751"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+30,
+"#FFFFFF"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+30,
+"#008751"
+]
+]
+},
+{
+"n": "Mali",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales: verde, amarilla y roja",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#14B53A"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FCD116"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#CE1126"
+]
+]
+},
+{
+"n": "Guinea",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales: roja, amarilla y verde",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#CE1126"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FCD116"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#009460"
+]
+]
+},
+{
+"n": "Senegal",
+"v": [
+60,
+40
+],
+"d": "tres franjas verticales: verde, amarilla y roja, con una estrella verde en el centro",
+"f": [
+[
+"r",
+0,
+0,
+20.0,
+40,
+"#00853F"
+],
+[
+"r",
+20.0,
+0,
+20.0,
+40,
+"#FDEF42"
+],
+[
+"r",
+40.0,
+0,
+20.0,
+40,
+"#E31B23"
+],
+[
+"s",
+30,
+20.5,
+7,
+"#00853F"
+]
+]
+},
+{
+"n": "Gabón",
+"v": [
+48,
+36
+],
+"d": "tres franjas horizontales: verde, amarilla y azul",
+"f": [
+[
+"r",
+0,
+0,
+48,
+12.0,
+"#009E60"
+],
+[
+"r",
+0,
+12.0,
+48,
+12.0,
+"#FCD116"
+],
+[
+"r",
+0,
+24.0,
+48,
+12.0,
+"#3A75C4"
+]
+]
+},
+{
+"n": "Níger",
+"v": [
+36,
+42
+],
+"d": "tres franjas horizontales: naranja, blanca y verde, con un círculo naranja en el centro",
+"f": [
+[
+"r",
+0,
+0,
+36,
+14.0,
+"#E05206"
+],
+[
+"r",
+0,
+14.0,
+36,
+14.0,
+"#FFFFFF"
+],
+[
+"r",
+0,
+28.0,
+36,
+14.0,
+"#0DB02B"
+],
+[
+"c",
+18,
+21,
+5,
+"#E05206"
+]
+]
+},
+{
+"n": "Yemen",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: roja, blanca y negra",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#CE1126"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#000000"
+]
+]
+},
+{
+"n": "Armenia",
+"v": [
+60,
+30
+],
+"d": "tres franjas horizontales: roja, azul y naranja",
+"f": [
+[
+"r",
+0,
+0,
+60,
+10.0,
+"#D90012"
+],
+[
+"r",
+0,
+10.0,
+60,
+10.0,
+"#0033A0"
+],
+[
+"r",
+0,
+20.0,
+60,
+10.0,
+"#F2A800"
+]
+]
+},
+{
+"n": "Indonesia",
+"v": [
+60,
+40
+],
+"d": "dos franjas horizontales: roja arriba y blanca abajo",
+"f": [
+[
+"r",
+0,
+0,
+60,
+20.0,
+"#E70011"
+],
+[
+"r",
+0,
+20.0,
+60,
+20.0,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Tailandia",
+"v": [
+60,
+40
+],
+"d": "cinco franjas horizontales: roja, blanca, azul oscuro (el doble de ancha), blanca y roja",
+"f": [
+[
+"r",
+0,
+0,
+60,
+6.67,
+"#A51931"
+],
+[
+"r",
+0,
+6.67,
+60,
+6.67,
+"#F4F5F8"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#2D2A4A"
+],
+[
+"r",
+0,
+26.67,
+60,
+6.67,
+"#F4F5F8"
+],
+[
+"r",
+0,
+33.33,
+60,
+6.67,
+"#A51931"
+]
+]
+},
+{
+"n": "Sierra Leona",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: verde, blanca y azul",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#1EB53A"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#0072C6"
+]
+]
+},
+{
+"n": "Madagascar",
+"v": [
+30,
+20
+],
+"d": "una franja blanca vertical junto al mástil y dos franjas horizontales: roja arriba y verde abajo",
+"f": [
+[
+"r",
+0,
+0,
+30,
+20,
+"#FFFFFF"
+],
+[
+"r",
+10,
+0,
+20,
+10,
+"#FC3D32"
+],
+[
+"r",
+10,
+10,
+20,
+10,
+"#007E3A"
+]
+]
+},
+{
+"n": "Mauricio",
+"v": [
+60,
+40
+],
+"d": "cuatro franjas horizontales: roja, azul, amarilla y verde",
+"f": [
+[
+"r",
+0,
+0,
+60,
+10.0,
+"#EA2839"
+],
+[
+"r",
+0,
+10.0,
+60,
+10.0,
+"#1A206D"
+],
+[
+"r",
+0,
+20.0,
+60,
+10.0,
+"#FFD500"
+],
+[
+"r",
+0,
+30.0,
+60,
+10.0,
+"#00A551"
+]
+]
+},
+{
+"n": "Botsuana",
+"v": [
+36,
+24
+],
+"d": "fondo azul claro con una franja negra horizontal bordeada de blanco",
+"f": [
+[
+"r",
+0,
+0,
+36,
+24,
+"#75AADB"
+],
+[
+"r",
+0,
+9,
+36,
+6,
+"#FFFFFF"
+],
+[
+"r",
+0,
+10,
+36,
+4,
+"#000000"
+]
+]
+},
+{
+"n": "Panamá",
+"v": [
+60,
+40
+],
+"d": "cuatro cuadrantes: blanco con estrella azul, rojo, azul y blanco con estrella roja",
+"f": [
+[
+"r",
+0,
+0,
+30,
+20,
+"#FFFFFF"
+],
+[
+"r",
+30,
+0,
+30,
+20,
+"#D21034"
+],
+[
+"r",
+0,
+20,
+30,
+20,
+"#005293"
+],
+[
+"r",
+30,
+20,
+30,
+20,
+"#FFFFFF"
+],
+[
+"s",
+15,
+10.5,
+7,
+"#005293"
+],
+[
+"s",
+45,
+30.5,
+7,
+"#D21034"
+]
+]
+},
+{
+"n": "Cuba",
+"v": [
+60,
+30
+],
+"d": "cinco franjas horizontales azules y blancas y un triángulo rojo con una estrella blanca junto al mástil",
+"f": [
+[
+"r",
+0,
+0,
+60,
+30,
+"#FFFFFF"
+],
+[
+"r",
+0,
+0,
+60,
+6,
+"#002A8F"
+],
+[
+"r",
+0,
+12,
+60,
+6,
+"#002A8F"
+],
+[
+"r",
+0,
+24,
+60,
+6,
+"#002A8F"
+],
+[
+"p",
+"0,0 26,15 0,30",
+"#CF142B"
+],
+[
+"s",
+8.7,
+15.5,
+5.5,
+"#FFFFFF"
+]
+]
+},
+{
+"n": "Jamaica",
+"v": [
+60,
+30
+],
+"d": "una cruz diagonal amarilla que deja triángulos verdes arriba y abajo y negros a los lados",
+"f": [
+[
+"p",
+"0,0 60,0 30,15",
+"#009B3A"
+],
+[
+"p",
+"0,30 60,30 30,15",
+"#009B3A"
+],
+[
+"p",
+"0,0 0,30 30,15",
+"#000000"
+],
+[
+"p",
+"60,0 60,30 30,15",
+"#000000"
+],
+[
+"p",
+"0,0 6,0 60,27 60,30 54,30 0,3",
+"#FED100"
+],
+[
+"p",
+"60,0 54,0 0,27 0,30 6,30 60,3",
+"#FED100"
+]
+]
+},
+{
+"n": "India",
+"v": [
+60,
+40
+],
+"d": "tres franjas horizontales: azafrán, blanca y verde, con una rueda azul de 24 radios en el centro",
+"f": [
+[
+"r",
+0,
+0,
+60,
+13.33,
+"#FF9933"
+],
+[
+"r",
+0,
+13.33,
+60,
+13.33,
+"#FFFFFF"
+],
+[
+"r",
+0,
+26.67,
+60,
+13.33,
+"#138808"
+],
+[
+"o",
+30,
+20,
+5.2,
+0.7,
+"#000080"
+],
+[
+"d",
+"M35.20 20.00L24.80 20.00M35.02 21.35L24.98 18.65M34.50 22.60L25.50 17.40M33.68 23.68L26.32 16.32M32.60 24.50L27.40 15.50M31.35 25.02L28.65 14.98M30.00 25.20L30.00 14.80M28.65 25.02L31.35 14.98M27.40 24.50L32.60 15.50M26.32 23.68L33.68 16.32M25.50 22.60L34.50 17.40M24.98 21.35L35.02 18.65",
+null,
+"#000080",
+0.3
+],
+[
+"c",
+30,
+20,
+1,
+"#000080"
+]
+]
+},
+{
+"n": "Brasil",
+"v": [
+70,
+49
+],
+"d": "fondo verde con un rombo amarillo y, dentro, un círculo azul",
+"f": [
+[
+"r",
+0,
+0,
+70,
+49,
+"#009739"
+],
+[
+"p",
+"35,4 66,24.5 35,45 4,24.5",
+"#FEDD00"
+],
+[
+"c",
+35,
+24.5,
+12.5,
+"#012169"
+]
+]
+}
+]
+}

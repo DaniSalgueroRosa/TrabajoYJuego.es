@@ -1,0 +1,370 @@
+{
+"_nota": "Cada acertijo: p (enunciado), r (respuestas aceptadas, en minúsculas, sin acentos ni artículo inicial), pista y e (explicación). Para ampliar, añade objetos con el mismo formato.",
+"acertijos": [
+{
+"p": "Tengo ciudades pero no casas, montañas pero no árboles y agua pero no peces. ¿Qué soy?",
+"r": [
+"mapa"
+],
+"pista": "Te ayuda a no perderte.",
+"e": "Un mapa dibuja ciudades, montañas y mares, pero no contiene ninguna de esas cosas de verdad."
+},
+{
+"p": "Cuanto más seca, más se moja. ¿Qué es?",
+"r": [
+"toalla"
+],
+"pista": "Está en el baño.",
+"e": "Una toalla seca el cuerpo y por eso se va mojando ella."
+},
+{
+"p": "Blanca por dentro, verde por fuera; si quieres que te lo diga, espera.",
+"r": [
+"pera"
+],
+"pista": "Es una fruta. La rima de «espera» da la pista.",
+"e": "Es el acertijo popular de la pera: verde por fuera y blanca por dentro."
+},
+{
+"p": "Oro parece, plata no es. ¿Qué es?",
+"r": [
+"platano",
+"banana"
+],
+"pista": "Se pela y se come.",
+"e": "Es el acertijo popular del plátano: parece de oro por el color, y «plata no es» da la pista de la rima."
+},
+{
+"p": "Tiene dientes pero no come, tiene cabeza pero no es persona. ¿Qué es?",
+"r": [
+"ajo"
+],
+"pista": "Va en muchos guisos.",
+"e": "El ajo tiene «dientes» y «cabeza»."
+},
+{
+"p": "Vuela sin alas y llora sin ojos. ¿Qué es?",
+"r": [
+"nube"
+],
+"pista": "Mira al cielo cuando llueve.",
+"e": "Las nubes se desplazan por el cielo y, al llover, «lloran»."
+},
+{
+"p": "Tiene agujas pero no pincha, tiene números pero no sabe contar. ¿Qué es?",
+"r": [
+"reloj"
+],
+"pista": "Se lleva en la muñeca o cuelga de la pared.",
+"e": "Un reloj tiene agujas y números."
+},
+{
+"p": "Si digo mi nombre, desaparezco. ¿Quién soy?",
+"r": [
+"silencio"
+],
+"pista": "Es lo contrario del ruido.",
+"e": "Al decir «silencio», se rompe el silencio."
+},
+{
+"p": "Siempre sube y nunca baja. ¿Qué es?",
+"r": [
+"edad",
+"anos"
+],
+"pista": "Cada cumpleaños aumenta.",
+"e": "La edad solo aumenta."
+},
+{
+"p": "Anda sin pies, silba sin boca, pega sin manos y no lo ves ni lo tocas. ¿Qué es?",
+"r": [
+"viento",
+"aire"
+],
+"pista": "Mueve las hojas de los árboles.",
+"e": "Es el viento: se mueve, silba y empuja, pero no se ve."
+},
+{
+"p": "Un hombre mira un retrato y dice: «No tengo hermanos ni hermanas, pero el padre de ese hombre es el hijo de mi padre». ¿Quién sale en el retrato?",
+"r": [
+"su hijo",
+"mi hijo",
+"hijo"
+],
+"pista": "Si no tiene hermanos, «el hijo de mi padre» solo puede ser él mismo.",
+"e": "«El hijo de mi padre» es él mismo, así que el padre del retratado es él: en el retrato sale su hijo."
+},
+{
+"p": "¿Qué pesa más: un kilo de paja o un kilo de hierro?",
+"r": [
+"lo mismo",
+"igual",
+"pesan lo mismo",
+"pesan igual",
+"dos",
+"lo mismo pesan",
+"iguales",
+"nada"
+],
+"pista": "Fíjate en la palabra «kilo».",
+"e": "Pesan lo mismo: un kilo es un kilo."
+},
+{
+"p": "Es más ligero que una pluma, pero ni la persona más fuerte lo aguanta más de unos minutos. ¿Qué es?",
+"r": [
+"aliento",
+"respiracion",
+"aire"
+],
+"pista": "Lo haces sin darte cuenta, pero si lo retienes…",
+"e": "El aliento: nadie puede aguantar la respiración mucho tiempo."
+},
+{
+"p": "Tiene cuello pero no cabeza, tiene boca pero no habla y suele estar llena o vacía. ¿Qué es?",
+"r": [
+"botella"
+],
+"pista": "Se recicla en el contenedor verde.",
+"e": "Una botella tiene cuello y boca."
+},
+{
+"p": "Cuanto más le quitas, más grande se hace. ¿Qué es?",
+"r": [
+"agujero",
+"hoyo",
+"hueco"
+],
+"pista": "Piensa en cavar.",
+"e": "Un agujero crece cuanto más tierra sacas."
+},
+{
+"p": "Tiene cuatro patas pero no anda; tiene respaldo pero no habla. ¿Qué es?",
+"r": [
+"silla"
+],
+"pista": "Te sientas en ella.",
+"e": "Una silla tiene patas y respaldo."
+},
+{
+"p": "¿Qué mes del año tiene 28 días?",
+"r": [
+"todos",
+"todos los meses",
+"doce",
+"12",
+"todos tienen 28 dias"
+],
+"pista": "Piensa en «al menos».",
+"e": "Todos los meses tienen al menos 28 días."
+},
+{
+"p": "Entras en una habitación oscura con una cerilla. Hay una vela, una lámpara de aceite y una chimenea con leña. ¿Qué enciendes primero?",
+"r": [
+"cerilla",
+"fosforo",
+"cerilla primero"
+],
+"pista": "Sin ella, no puedes encender nada.",
+"e": "Antes de encender cualquier cosa hay que encender la cerilla."
+},
+{
+"p": "Un granjero tenía 17 ovejas y todas menos 9 murieron. ¿Cuántas le quedan?",
+"r": [
+"9",
+"nueve"
+],
+"pista": "Lee con calma «todas menos 9».",
+"e": "Todas menos 9 murieron: le quedan 9 vivas."
+},
+{
+"p": "Si 3 gatos cazan 3 ratones en 3 minutos, ¿cuántos gatos hacen falta para cazar 100 ratones en 100 minutos?",
+"r": [
+"3",
+"tres"
+],
+"pista": "Calcula cuánto caza cada gato por minuto.",
+"e": "Cada gato caza un ratón cada 3 minutos. Con 3 gatos, en 100 minutos se cazan 100 ratones: el ritmo es el mismo, así que siguen bastando 3 gatos."
+},
+{
+"p": "Una madre tiene cinco hijas y cada una de ellas tiene un hermano. ¿Cuántos hijos tiene la madre?",
+"r": [
+"6",
+"seis"
+],
+"pista": "El hermano de todas es el mismo.",
+"e": "Las cinco hijas comparten un único hermano: son seis hijos."
+},
+{
+"p": "Soy alta cuando soy joven y baja cuando soy vieja. ¿Qué soy?",
+"r": [
+"vela",
+"candela"
+],
+"pista": "Da luz y cera.",
+"e": "Una vela se va consumiendo y se acorta."
+},
+{
+"p": "Si me alimentas, vivo; si me das agua, muero. ¿Qué soy?",
+"r": [
+"fuego",
+"llama",
+"lumbre"
+],
+"pista": "Quema.",
+"e": "El fuego necesita combustible y se apaga con agua."
+},
+{
+"p": "Un gallo pone un huevo en lo alto de un tejado. ¿Hacia qué lado cae?",
+"r": [
+"ninguno",
+"no pone",
+"gallos no ponen huevos",
+"no ponen huevos",
+"no cae",
+"no pone huevos",
+"gallos no ponen"
+],
+"pista": "Piensa en quién pone huevos.",
+"e": "Los gallos no ponen huevos."
+},
+{
+"p": "Pegado a un sobre viajo por el mundo y yo sigo siempre en mi esquina. ¿Qué soy?",
+"r": [
+"sello"
+],
+"pista": "Hay que comprarlo en Correos.",
+"e": "El sello se queda en la esquina del sobre mientras la carta viaja."
+},
+{
+"p": "Tengo hojas pero no soy un árbol; tengo lomo pero no soy un animal. ¿Qué soy?",
+"r": [
+"libro"
+],
+"pista": "Se lee.",
+"e": "Un libro tiene hojas y lomo."
+},
+{
+"p": "Tiene un ojo pero no puede ver. ¿Qué es?",
+"r": [
+"aguja"
+],
+"pista": "Sirve para coser.",
+"e": "Una aguja tiene un ojo por donde pasa el hilo."
+},
+{
+"p": "Cuanto más lavas, más sucia se pone. ¿Qué es?",
+"r": [
+"agua"
+],
+"pista": "Piensa en lo que queda en el barreño.",
+"e": "El agua con la que te lavas queda sucia."
+},
+{
+"p": "Es tuyo, pero lo usan más los demás. ¿Qué es?",
+"r": [
+"nombre",
+"tu nombre",
+"mi nombre"
+],
+"pista": "Te lo ponen al nacer.",
+"e": "Tu nombre lo dicen más los demás que tú."
+},
+{
+"p": "Corre pero no tiene pies, tiene boca pero no come y tiene cama pero no duerme. ¿Qué es?",
+"r": [
+"rio"
+],
+"pista": "Va a parar al mar.",
+"e": "Un río corre, tiene boca (desembocadura) y cauce o lecho."
+},
+{
+"p": "¿Qué número multiplicado por sí mismo da 144?",
+"r": [
+"12",
+"doce"
+],
+"pista": "Es una docena.",
+"e": "12 × 12 = 144."
+},
+{
+"p": "Un tren eléctrico viaja hacia el norte. ¿Hacia dónde va el humo?",
+"r": [
+"no hay humo",
+"no tiene humo",
+"no echa humo",
+"no sale humo",
+"ninguno",
+"no hay",
+"no hay humo porque es electrico"
+],
+"pista": "Piensa en cómo funciona el tren.",
+"e": "Los trenes eléctricos no echan humo."
+},
+{
+"p": "Es hijo de mi padre, pero no es mi hermano. ¿Quién es?",
+"r": [
+"yo",
+"yo mismo",
+"soy yo",
+"tu",
+"tu mismo",
+"uno mismo",
+"mi mismo"
+],
+"pista": "Piensa en quién habla.",
+"e": "Es la propia persona que habla."
+},
+{
+"p": "Por la mañana va a cuatro patas, al mediodía va a dos y por la noche va a tres. ¿Quién es?",
+"r": [
+"hombre",
+"persona",
+"ser humano",
+"humano"
+],
+"pista": "Es el acertijo de la esfinge: piensa en las etapas de la vida.",
+"e": "Es el ser humano: gatea de bebé, camina de adulto y usa bastón de mayor."
+},
+{
+"p": "¿Qué hay que romper antes de usarlo?",
+"r": [
+"huevo"
+],
+"pista": "Es un ingrediente de la tortilla.",
+"e": "Para cocinarlo hay que romper el huevo."
+},
+{
+"p": "Tiene teclas pero no abre ninguna puerta, y lo pulsas para escribir. ¿Qué es?",
+"r": [
+"teclado"
+],
+"pista": "Está junto a la pantalla del ordenador.",
+"e": "Un teclado tiene teclas."
+},
+{
+"p": "Tiene patas pero no camina y soporta tu desayuno. ¿Qué es?",
+"r": [
+"mesa"
+],
+"pista": "Se pone el mantel encima.",
+"e": "Una mesa tiene patas."
+},
+{
+"p": "Si lo tienes, quieres compartirlo; si lo compartes, ya no lo tienes. ¿Qué es?",
+"r": [
+"secreto"
+],
+"pista": "Se cuenta en voz baja.",
+"e": "Un secreto deja de serlo al compartirlo."
+},
+{
+"p": "Siempre está delante de ti y no puedes verlo. ¿Qué es?",
+"r": [
+"futuro",
+"manana"
+],
+"pista": "Todavía no ha ocurrido.",
+"e": "El futuro está siempre por delante y no se ve."
+}
+]
+}

@@ -1,0 +1,28 @@
+/* 2048: tablero de 4×4 con paleta propia (de verde apagado a rosa y violeta); el número siempre está escrito en la ficha. Contraste ≥ 4.5:1. */
+.d48-tablero { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; width: min(100%, 24rem); margin: 4px auto; padding: 8px; background: var(--tinta); touch-action: none; user-select: none; -webkit-user-select: none;
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea); }
+.d48-tablero:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
+.d48-celda { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; background: var(--noche-2); color: var(--tiza); font: 400 1.8rem / 1 var(--f-pixel); font-size: round(down, 1.8rem, 10px); }
+.d48-celda[data-d="3"] { font-size: round(down, 1.4rem, 10px); }
+.d48-celda[data-d="4"] { font-size: round(down, 1.1rem, 10px); }
+.d48-celda[data-d="5"] { font-size: 0.9rem; }
+@media (max-width: 24rem) { .d48-celda { font-size: round(down, 1.4rem, 10px); } .d48-celda[data-d="3"] { font-size: 1.1rem; } .d48-celda[data-d="4"] { font-size: 0.9rem; } }
+.d48-v2 { background: #2F6B5C; color: #EAF2EE; }
+.d48-v4 { background: #4C9A84; color: #14201C; }
+.d48-v8 { background: #8FD694; color: #14201C; }
+.d48-v16 { background: #C6E86B; color: #14201C; }
+.d48-v32 { background: #E6F14A; color: #14201C; }
+.d48-v64 { background: #FFD25A; color: #14201C; }
+.d48-v128 { background: #FF9F5A; color: #14201C; }
+.d48-v256 { background: #FF8A8A; color: #14201C; }
+.d48-v512 { background: #FF5A7D; color: #14201C; }
+.d48-v1024 { background: #F28CC0; color: #14201C; }
+.d48-v2048 { background: #B9A0F5; color: #14201C; }
+.d48-v4096 { background: #EAF2EE; color: #14201C; }
+.d48-nueva { animation: d48-nace 0.12s steps(3) 1; }
+.d48-fusion { animation: d48-pop 0.12s steps(3) 1; }
+@keyframes d48-nace { from { transform: scale(0.4); } to { transform: scale(1); } }
+@keyframes d48-pop { 50% { transform: scale(1.12); } }
+.d48-pad { display: grid; grid-template-columns: repeat(3, 3.4rem); grid-template-areas: ". arr ." "izq abj der"; gap: 6px; justify-content: center; margin: var(--e2) auto; }
+.d48-dir { min-width: 0; padding: 0; height: 3rem; font-size: 1.3rem; }
+.d48-dir--arr { grid-area: arr; } .d48-dir--izq { grid-area: izq; } .d48-dir--abj { grid-area: abj; } .d48-dir--der { grid-area: der; }

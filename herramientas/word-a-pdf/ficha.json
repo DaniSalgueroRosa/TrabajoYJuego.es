@@ -1,0 +1,8 @@
+{
+  "titulo": "Word a PDF",
+  "descripcion": "Convierte un documento de Word (.docx) u OpenDocument (.odt) en un PDF de texto, sin subirlo a ningún servidor.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "pdf-documentos",
+  "orden": 2
+}

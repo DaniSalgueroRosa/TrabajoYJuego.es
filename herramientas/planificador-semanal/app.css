@@ -1,0 +1,13 @@
+.pl-previa { display: grid; gap: var(--e3); min-width: 0; }
+.pl-titulo { margin: 0; font-size: var(--t1); font-weight: 800; color: var(--pizarra); overflow-wrap: anywhere; }
+.pl-semana { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--e3); }
+.pl-dia { border: 1px solid var(--linea); background: var(--papel); min-width: 0; }
+.pl-dia-nombre { margin: 0; padding: 0.5rem var(--e3); background: var(--pizarra); color: var(--tiza); font-size: 1rem; display: flex; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap; }
+.pl-dia-fecha { font-weight: 400; font-size: var(--t-1); }
+.pl-tareas { list-style: none; margin: 0; padding: var(--e3); display: grid; gap: 0.5rem; }
+.pl-tareas li { position: relative; padding-left: 1.4rem; overflow-wrap: anywhere; }
+.pl-tareas li::before { content: ""; position: absolute; left: 0; top: 0.3em; width: 0.8rem; height: 0.8rem; border: 2px solid var(--pizarra); }
+.pl-libre { margin: 0; padding: var(--e3); color: var(--tinta-suave); font-size: var(--t-1); }
+.pl-notas { border: 1px solid var(--linea); background: var(--papel); padding: var(--e3); }
+.pl-notas h3 { margin: 0 0 0.3rem; font-size: 1rem; }
+.pl-notas-texto { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }

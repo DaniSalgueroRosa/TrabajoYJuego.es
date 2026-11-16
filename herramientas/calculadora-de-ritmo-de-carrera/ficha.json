@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de ritmo de carrera",
+  "descripcion": "Calcula tu ritmo por kilómetro, tu velocidad en km/h y los tiempos previstos en 5 km, 10 km, media maratón y maratón a partir de tu marca.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "calculadoras",
+  "orden": 122
+}

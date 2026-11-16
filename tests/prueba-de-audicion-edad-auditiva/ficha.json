@@ -1,0 +1,21 @@
+{
+  "titulo": "Prueba de audición: edad auditiva",
+  "descripcion": "Descubre hasta qué frecuencia de agudos oyes (8–20 kHz) con tonos a volumen bajo y silencios de control. Pasatiempo orientativo, no prueba médica.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "prueba de audición",
+    "edad auditiva",
+    "test de frecuencias",
+    "sonido agudo",
+    "hearing test"
+  ],
+  "categoria": "vista-oido",
+  "duracion": "3 min",
+  "orden": 22,
+  "tema": {
+    "fondo": "#2B2B2B",
+    "texto": "#F2F2F2",
+    "acento": "#9BE3C8"
+  }
+}

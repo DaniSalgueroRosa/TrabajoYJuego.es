@@ -1,0 +1,21 @@
+{
+  "titulo": "Test trans",
+  "descripcion": "Doce frases para quien se pregunta cómo vive su género: nombre, cuerpo, expresión y entorno. Con espectro y barras. No es un diagnóstico ni una etiqueta.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test trans",
+    "soy trans",
+    "identidad de género",
+    "test de género",
+    "persona no binaria"
+  ],
+  "categoria": "relaciones",
+  "duracion": "3 min",
+  "orden": 61,
+  "tema": {
+    "fondo": "#EEF9FB",
+    "texto": "#0F2E38",
+    "acento": "#0E6F8A"
+  }
+}

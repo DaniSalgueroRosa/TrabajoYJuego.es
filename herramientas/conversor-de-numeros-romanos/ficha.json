@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de números romanos",
+  "descripcion": "Convierte números arábigos en romanos y al revés, del 1 al 3999, comprobando que el romano esté bien escrito. Admite varias líneas a la vez.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 113
+}

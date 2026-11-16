@@ -1,0 +1,14 @@
+{
+  "titulo": "Longitud, peso, volumen y superficie",
+  "descripcion": "Cómo pasar entre el sistema métrico y las medidas anglosajonas: pulgadas, libras, galones, tazas y acres, con las equivalencias que más se usan.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "unidades",
+    "conversión",
+    "medidas",
+    "sistema métrico"
+  ],
+  "categoria": "conversores",
+  "orden": 22
+}

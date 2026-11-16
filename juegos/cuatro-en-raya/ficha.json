@@ -1,0 +1,16 @@
+{
+  "titulo": "Cuatro en raya online contra la máquina",
+  "descripcion": "Suelta fichas en un tablero de 7×6 y alinea cuatro antes que tu rival. Tres niveles de máquina o dos jugadores, con teclas del 1 al 7.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "cuatro en raya",
+    "dos jugadores",
+    "estrategia",
+    "clásico"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-8 min",
+  "orden": 27
+}

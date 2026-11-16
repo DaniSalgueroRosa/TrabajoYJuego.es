@@ -1,0 +1,11 @@
+{
+  "titulo": "ESCRIBE: nombre del juego",
+  "descripcion": "ESCRIBE: una frase de 40 a 160 caracteres que diga de qué va el juego. Sale en Google y en las tarjetas.",
+  "fecha": "2026-01-01",
+  "estado": "borrador",
+  "categoria": "ESCRIBE: palabras, logica, cultura-general, matematicas, memoria, geografia, habilidad o arcade",
+  "dificultad": "facil",
+  "duracion": "1 min",
+  "orden": 21,
+  "etiquetas": ["ESCRIBE", "un jugador"]
+}

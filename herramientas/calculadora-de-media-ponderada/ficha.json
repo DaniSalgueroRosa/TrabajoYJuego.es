@@ -1,0 +1,8 @@
+{
+  "titulo": "Calculadora de media ponderada",
+  "descripcion": "Calcula la media ponderada de notas, créditos o cualquier valor con distinto peso, con el detalle de cada aportación.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "estudiantes",
+  "orden": 24
+}

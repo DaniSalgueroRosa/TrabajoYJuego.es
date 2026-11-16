@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de Naruto",
+  "descripcion": "Diez situaciones para saber con qué personaje de Naruto encajas más, con un radar de tus rasgos y la lista de los cinco más parecidos. Test de fans.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de Naruto",
+    "qué personaje de Naruto soy",
+    "personajes de Naruto",
+    "test anime",
+    "Naruto Uzumaki"
+  ],
+  "categoria": "cultura-pop",
+  "duracion": "3 min",
+  "orden": 62,
+  "tema": {
+    "fondo": "#1A1208",
+    "texto": "#FFF3E0",
+    "acento": "#FF8A1F"
+  }
+}

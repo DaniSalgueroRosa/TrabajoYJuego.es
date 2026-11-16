@@ -1,0 +1,42 @@
+/* CATÁLOGO DE JUEGOS: presentación, buscador, filtros y la información extra de cada tarjeta (categoría, dificultad, botón). */
+.juegos-intro { max-width: 46rem; margin-bottom: var(--e6); color: var(--tiza-suave); font-size: var(--t1); line-height: 1.45; }
+
+/* ---- Buscador y filtros (los muestra filtro.js; sin JavaScript se ve la lista entera) */
+.filtros label, .filtros legend { margin-bottom: var(--e2); color: var(--tiza); font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+.filtros label { display: block; }
+.filtro-campo { display: grid; }
+.filtros input[type="search"], .filtros select {
+  width: calc(100% - 8px); margin: 4px; padding: 0.7rem 0.9rem; border: 0; border-radius: 0; background: var(--noche-2); color: var(--tiza);
+  font: 400 var(--t0) / 1.2 var(--f-trabajo); appearance: none;
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea);
+}
+.filtros select { background-image: linear-gradient(45deg, transparent 50%, var(--limon) 50%), linear-gradient(135deg, var(--limon) 50%, transparent 50%); background-position: calc(100% - 20px) 55%, calc(100% - 14px) 55%; background-size: 6px 6px; background-repeat: no-repeat; padding-right: 2.4rem; }
+.filtros input[type="search"]::placeholder { color: var(--tiza-suave); opacity: 1; }
+.filtros input:focus-visible, .filtros select:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.chip {
+  margin: 4px; padding: 0.4rem 0.8rem; cursor: pointer; border: 0; background: var(--noche-2); color: var(--tiza);
+  font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px);
+  box-shadow: 0 -4px 0 0 var(--noche-linea), 0 4px 0 0 var(--noche-linea), -4px 0 0 0 var(--noche-linea), 4px 0 0 0 var(--noche-linea);
+}
+.chip:hover { box-shadow: 0 -4px 0 0 var(--sandia), 0 4px 0 0 var(--sandia), -4px 0 0 0 var(--sandia), 4px 0 0 0 var(--sandia); }
+.chip[aria-pressed="true"] { background: var(--limon); color: var(--tinta); box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta); }
+.chip:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.filtro-estado { color: var(--tiza); }
+
+/* ---- Tarjetas de juego: categoría, dificultad y botón */
+.tarjeta-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e1) var(--e4); font-size: var(--t-1); }
+.tarjeta[data-mundo="juego"] .tarjeta-categoria { color: var(--sandia); font: 400 1.25rem / 1 var(--f-pixel); font-size: round(down, 1.25rem, 10px); }
+.dificultad { display: inline-flex; align-items: center; gap: var(--e2); margin: 0; color: var(--limon); }
+.dificultad-texto { color: var(--tiza-suave); font-size: var(--t-1); }
+.dificultad-pips { display: inline-flex; gap: 3px; }
+.dificultad-pips i { display: block; width: 10px; height: 10px; border: 2px solid currentColor; }
+.dificultad[data-nivel="1"] i:nth-child(-n+1), .dificultad[data-nivel="2"] i:nth-child(-n+2), .dificultad[data-nivel="3"] i { background: currentColor; }
+.tarjeta-pie--accion { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e2) var(--e4); }
+.tarjeta[data-mundo="juego"] .tarjeta-boton {
+  display: inline-block; margin: 4px; padding: 0.3rem 0.8rem; background: var(--limon); color: var(--tinta);
+  font: 400 1.25rem / 1.2 var(--f-pixel); font-size: round(down, 1.25rem, 10px);
+  box-shadow: 0 -4px 0 0 var(--tinta), 0 4px 0 0 var(--tinta), -4px 0 0 0 var(--tinta), 4px 0 0 0 var(--tinta);
+}
+.tarjeta[data-mundo="juego"]:hover .tarjeta-boton, .tarjeta[data-mundo="juego"]:has(.tarjeta-enlace:focus-visible) .tarjeta-boton { background: var(--sandia); }
+.tarjeta[data-mundo="juego"] .tarjeta-duracion { color: var(--tiza-suave); }
+.tarjeta[data-mundo="juego"] .tarjeta-pie--accion { color: var(--tiza-suave); }

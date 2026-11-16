@@ -1,0 +1,17 @@
+{
+  "titulo": "Puzle deslizante: ordena las fichas numeradas",
+  "descripcion": "Ordena las fichas deslizándolas hacia el hueco, del 1 en adelante. Tamaños de 3×3, 4×4 y 5×5, siempre con solución y con teclado o pantalla táctil.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "puzle",
+    "fichas",
+    "deslizante",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-15 min",
+  "orden": 39
+}

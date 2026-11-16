@@ -1,0 +1,32 @@
+<div class="herr" id="herr" data-herramienta="generador-de-etiquetas-meta">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Las etiquetas que decide cómo se ve tu página</h2>
+  <p>Lo que lees en un resultado de búsqueda o en un enlace compartido en una red social sale de unas pocas etiquetas del <code>&lt;head&gt;</code> de la página. Escribe el título y la descripción, añade la dirección y una imagen si las tienes, y la herramienta genera el bloque listo para pegar, con los caracteres especiales ya escapados para que no rompan el HTML.</p>
+  <h2>Para qué sirve cada etiqueta</h2>
+  <ul><li><strong>title:</strong> el título que se muestra en la pestaña del navegador y como enlace azul en los buscadores. Es lo primero que lee quien busca.</li><li><strong>description:</strong> el texto que suele aparecer debajo del título. No influye directamente en la posición, pero un buen resumen anima a pulsar.</li><li><strong>canonical:</strong> indica cuál es la dirección principal cuando una misma página se puede abrir por varias.</li><li><strong>robots:</strong> permite pedir que una página no se indexe. Úsala con cuidado: una página con noindex desaparece de los buscadores.</li><li><strong>Open Graph:</strong> las etiquetas que empiezan por og: controlan el título, la descripción y la imagen al compartir en redes y aplicaciones de mensajería.</li></ul>
+  <h2>Longitudes recomendadas</h2>
+  <p>Los buscadores cortan los textos largos según el espacio que ocupan en pantalla, no por un número exacto de caracteres, así que las cifras son orientativas. Un título de hasta unos 60 caracteres y una descripción de entre 70 y 160 suelen verse completos. La herramienta cuenta los caracteres y te avisa cuando te pasas o te quedas muy corto, pero la última palabra la tiene el buscador, que a veces reescribe la descripción con un fragmento de la propia página.</p>
+  <h2>Tarjeta de X y compartir en redes</h2>
+  <p>La red X, antes Twitter, usa las etiquetas Open Graph cuando faltan las suyas, por eso la herramienta solo añade <code>twitter:card</code> para elegir el formato y <code>twitter:site</code> para tu usuario. La tarjeta con imagen grande necesita una dirección de imagen completa; si no tienes una, elige la pequeña. Tras publicar, conviene compartir un enlace de prueba para comprobar que se ve como esperabas.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Dónde pego el código generado?</summary>
+    <p>Dentro de la etiqueta head de tu página HTML, antes de que empiece el cuerpo. En un gestor de contenidos, busca el apartado de SEO de la página o del tema, donde suele haber un campo para código del encabezado.</p>
+  </details>
+  <details>
+    <summary>¿Garantiza este código que mi página salga mejor en Google?</summary>
+    <p>No. Unas etiquetas bien escritas ayudan a que los buscadores entiendan la página y a que el resultado resulte atractivo, pero la posición depende de muchos otros factores, sobre todo del contenido.</p>
+  </details>
+  <details>
+    <summary>¿Por qué escapa las comillas y el signo &amp;?</summary>
+    <p>Porque dentro de un atributo HTML una comilla doble cierra el valor antes de tiempo y un signo & suelto puede interpretarse mal. Se escriben como &amp;quot; y &amp;amp; para que el texto se muestre tal como lo escribiste.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda lo que escribo?</summary>
+    <p>No. Las etiquetas se generan en tu navegador y no se envían ni se almacenan en ningún sitio; al recargar la página se borran.</p>
+  </details>
+</div>

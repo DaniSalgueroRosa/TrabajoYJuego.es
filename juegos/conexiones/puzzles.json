@@ -1,0 +1,545 @@
+{
+"_nota": "Puzzles de «Conexiones». Cada puzzle tiene 4 grupos (el primero es el más fácil y el último el más difícil), con n (nombre del grupo), p (4 palabras) y e (explicación). Las 16 palabras de un puzzle deben ser distintas. Para ampliar: añade puzzles con el mismo formato.",
+"puzzles": [
+{
+"id": "c01",
+"grupos": [
+{
+"n": "Palos de la baraja española",
+"p": [
+"oros",
+"copas",
+"espadas",
+"bastos"
+],
+"e": "Los cuatro palos de la baraja española."
+},
+{
+"n": "Partes de un zapato",
+"p": [
+"suela",
+"tacón",
+"cordón",
+"lengüeta"
+],
+"e": "Piezas que forman un zapato."
+},
+{
+"n": "Tipos de pan",
+"p": [
+"baguete",
+"chapata",
+"pita",
+"centeno"
+],
+"e": "Distintos panes, por su forma o su harina."
+},
+{
+"n": "Se pueden «romper»",
+"p": [
+"hielo",
+"récord",
+"silencio",
+"promesa"
+],
+"e": "Se rompe el hielo, un récord, el silencio y una promesa."
+}
+]
+},
+{
+"id": "c02",
+"grupos": [
+{
+"n": "Planetas",
+"p": [
+"Marte",
+"Venus",
+"Saturno",
+"Urano"
+],
+"e": "Cuatro planetas del sistema solar."
+},
+{
+"n": "Instrumentos de percusión",
+"p": [
+"caja",
+"bombo",
+"platillo",
+"triángulo"
+],
+"e": "Instrumentos que se golpean."
+},
+{
+"n": "Metales",
+"p": [
+"cobre",
+"plomo",
+"estaño",
+"zinc"
+],
+"e": "Cuatro metales. «Hierro» tentaba, pero encajaba mejor en el golf."
+},
+{
+"n": "Palos de golf",
+"p": [
+"hierro",
+"madera",
+"putter",
+"wedge"
+],
+"e": "Hierro y madera son tipos de palo de golf, aunque también sean materiales."
+}
+]
+},
+{
+"id": "c03",
+"grupos": [
+{
+"n": "Ríos de España",
+"p": [
+"Ebro",
+"Tajo",
+"Duero",
+"Júcar"
+],
+"e": "Cuatro ríos españoles."
+},
+{
+"n": "Islas Baleares",
+"p": [
+"Ibiza",
+"Menorca",
+"Formentera",
+"Mallorca"
+],
+"e": "Las islas del archipiélago balear."
+},
+{
+"n": "Islas Canarias",
+"p": [
+"Tenerife",
+"Lanzarote",
+"Gomera",
+"Hierro"
+],
+"e": "Islas del archipiélago canario."
+},
+{
+"n": "Ciudades andaluzas",
+"p": [
+"Sevilla",
+"Cádiz",
+"Málaga",
+"Granada"
+],
+"e": "Capitales de provincia de Andalucía."
+}
+]
+},
+{
+"id": "c04",
+"grupos": [
+{
+"n": "Quesos",
+"p": [
+"manchego",
+"brie",
+"gouda",
+"cheddar"
+],
+"e": "Cuatro tipos de queso."
+},
+{
+"n": "Embutidos",
+"p": [
+"chorizo",
+"salchichón",
+"lomo",
+"morcilla"
+],
+"e": "Productos de charcutería."
+},
+{
+"n": "Pastas",
+"p": [
+"espagueti",
+"macarrón",
+"tallarín",
+"fideo"
+],
+"e": "Formatos de pasta."
+},
+{
+"n": "Legumbres",
+"p": [
+"lenteja",
+"garbanzo",
+"alubia",
+"haba"
+],
+"e": "Legumbres que se cocinan en guiso o ensalada."
+}
+]
+},
+{
+"id": "c05",
+"grupos": [
+{
+"n": "Huesos",
+"p": [
+"fémur",
+"tibia",
+"costilla",
+"húmero"
+],
+"e": "Huesos del esqueleto humano."
+},
+{
+"n": "Músculos",
+"p": [
+"bíceps",
+"tríceps",
+"glúteo",
+"deltoides"
+],
+"e": "Músculos del cuerpo."
+},
+{
+"n": "Órganos internos",
+"p": [
+"hígado",
+"riñón",
+"pulmón",
+"bazo"
+],
+"e": "Órganos del interior del cuerpo."
+},
+{
+"n": "Partes del ojo",
+"p": [
+"pupila",
+"iris",
+"retina",
+"córnea"
+],
+"e": "Estructuras del ojo."
+}
+]
+},
+{
+"id": "c06",
+"grupos": [
+{
+"n": "Deportes de raqueta",
+"p": [
+"tenis",
+"pádel",
+"bádminton",
+"squash"
+],
+"e": "Se juegan con raqueta."
+},
+{
+"n": "Deportes de agua",
+"p": [
+"natación",
+"waterpolo",
+"remo",
+"surf"
+],
+"e": "Se practican en el agua."
+},
+{
+"n": "Deportes de invierno",
+"p": [
+"esquí",
+"curling",
+"biatlón",
+"snowboard"
+],
+"e": "Se practican sobre nieve o hielo."
+},
+{
+"n": "Deportes de combate",
+"p": [
+"boxeo",
+"judo",
+"esgrima",
+"lucha"
+],
+"e": "Dos rivales se enfrentan cuerpo a cuerpo o con armas deportivas."
+}
+]
+},
+{
+"id": "c07",
+"grupos": [
+{
+"n": "Instrumentos de cuerda",
+"p": [
+"violín",
+"arpa",
+"guitarra",
+"laúd"
+],
+"e": "Producen el sonido con cuerdas."
+},
+{
+"n": "Instrumentos de viento",
+"p": [
+"flauta",
+"oboe",
+"trompeta",
+"clarinete"
+],
+"e": "Se tocan soplando."
+},
+{
+"n": "Instrumentos de percusión",
+"p": [
+"tambor",
+"xilófono",
+"timbal",
+"pandereta"
+],
+"e": "Se golpean o se sacuden."
+},
+{
+"n": "Instrumentos de teclado",
+"p": [
+"piano",
+"órgano",
+"celesta",
+"clave"
+],
+"e": "Se tocan con teclas. El clave es el antecesor del piano; el órgano, además, es una víscera."
+}
+]
+},
+{
+"id": "c08",
+"grupos": [
+{
+"n": "Tonos de azul",
+"p": [
+"celeste",
+"cobalto",
+"añil",
+"marino"
+],
+"e": "Cuatro azules."
+},
+{
+"n": "Tonos de verde",
+"p": [
+"esmeralda",
+"oliva",
+"menta",
+"pistacho"
+],
+"e": "Cuatro verdes."
+},
+{
+"n": "Tonos de rojo",
+"p": [
+"carmesí",
+"granate",
+"escarlata",
+"bermellón"
+],
+"e": "Cuatro rojos."
+},
+{
+"n": "Tonos de amarillo",
+"p": [
+"limón",
+"mostaza",
+"ámbar",
+"dorado"
+],
+"e": "Cuatro amarillos."
+}
+]
+},
+{
+"id": "c09",
+"grupos": [
+{
+"n": "Tienen dientes",
+"p": [
+"peine",
+"sierra",
+"engranaje",
+"ajo"
+],
+"e": "Un peine, una sierra, un engranaje y un ajo tienen dientes."
+},
+{
+"n": "Tienen hojas",
+"p": [
+"libro",
+"árbol",
+"puerta",
+"tijeras"
+],
+"e": "Hojas de papel, de árbol, de puerta y de tijera."
+},
+{
+"n": "Tienen cabeza",
+"p": [
+"clavo",
+"alfiler",
+"cerilla",
+"martillo"
+],
+"e": "Todos llevan una cabeza."
+},
+{
+"n": "Tienen agujas",
+"p": [
+"reloj",
+"brújula",
+"pino",
+"jeringuilla"
+],
+"e": "Agujas de reloj, de brújula, de pino y de jeringuilla."
+}
+]
+},
+{
+"id": "c10",
+"grupos": [
+{
+"n": "Capitales sudamericanas",
+"p": [
+"Lima",
+"Quito",
+"Bogotá",
+"Santiago"
+],
+"e": "Capitales de Perú, Ecuador, Colombia y Chile."
+},
+{
+"n": "Capitales europeas",
+"p": [
+"Roma",
+"Oslo",
+"Viena",
+"Praga"
+],
+"e": "Capitales de Italia, Noruega, Austria y Chequia."
+},
+{
+"n": "Países africanos",
+"p": [
+"Kenia",
+"Ghana",
+"Mali",
+"Chad"
+],
+"e": "Países del continente africano."
+},
+{
+"n": "Países asiáticos",
+"p": [
+"Japón",
+"Nepal",
+"Laos",
+"Omán"
+],
+"e": "Países de Asia."
+}
+]
+},
+{
+"id": "c11",
+"grupos": [
+{
+"n": "Sinónimos de «grande»",
+"p": [
+"enorme",
+"inmenso",
+"gigante",
+"colosal"
+],
+"e": "Palabras para algo muy grande."
+},
+{
+"n": "Sinónimos de «pequeño»",
+"p": [
+"diminuto",
+"minúsculo",
+"menudo",
+"reducido"
+],
+"e": "Palabras para algo muy pequeño."
+},
+{
+"n": "Sinónimos de «bonito»",
+"p": [
+"hermoso",
+"bello",
+"precioso",
+"lindo"
+],
+"e": "Palabras para algo agradable de ver."
+},
+{
+"n": "Sinónimos de «feo»",
+"p": [
+"horrible",
+"espantoso",
+"repulsivo",
+"horroroso"
+],
+"e": "Palabras para algo desagradable de ver."
+}
+]
+},
+{
+"id": "c12",
+"grupos": [
+{
+"n": "Ropa de verano",
+"p": [
+"bañador",
+"sandalias",
+"camiseta",
+"gorra"
+],
+"e": "Prendas para el calor."
+},
+{
+"n": "Ropa de invierno",
+"p": [
+"bufanda",
+"guantes",
+"abrigo",
+"gorro"
+],
+"e": "Prendas para el frío."
+},
+{
+"n": "Para la lluvia",
+"p": [
+"paraguas",
+"impermeable",
+"katiuskas",
+"chubasquero"
+],
+"e": "Para no mojarse."
+},
+{
+"n": "Para hacer deporte",
+"p": [
+"chándal",
+"zapatillas",
+"mallas",
+"muñequera"
+],
+"e": "Ropa deportiva."
+}
+]
+}
+]
+}

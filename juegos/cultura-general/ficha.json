@@ -1,0 +1,15 @@
+{
+  "titulo": "Quiz de cultura general",
+  "descripcion": "Diez preguntas de historia, ciencia, geografía, arte y deporte con cuatro respuestas. Cuanto más rápido aciertes, más puntos.",
+  "fecha": "2026-11-13",
+  "estado": "publicado",
+  "etiquetas": [
+    "quiz",
+    "preguntas y respuestas",
+    "un jugador"
+  ],
+  "categoria": "cultura-general",
+  "dificultad": "facil",
+  "duracion": "3-5 min",
+  "orden": 11
+}

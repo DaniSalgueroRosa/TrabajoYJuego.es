@@ -1,0 +1,30 @@
+<p>Base64, los hashes y los UUID aparecen constantemente en programación, y se confunden entre sí y con el cifrado. Son cosas distintas con usos distintos: Base64 representa datos con un alfabeto seguro, un hash es una huella de un solo sentido y un UUID es un identificador que no se repite. Ninguno de los tres protege información por sí solo. Esta guía explica para qué vale cada uno y los errores que más se cometen. Las tres herramientas trabajan en tu navegador y no envían nada a servidores.</p>
+
+<h2>Base64: transportar datos, no protegerlos</h2>
+<p>Base64 convierte cualquier dato en texto compuesto por letras, cifras y unos pocos símbolos que sobreviven al correo, a las direcciones web y a los formatos de texto. Se usa en adjuntos de correo, imágenes incrustadas, cabeceras de autenticación y tokens. <a href="../../herramientas/codificador-y-decodificador-base64/">Codificador y decodificador Base64</a> convierte texto en ambos sentidos con soporte para acentos, eñes y emojis, porque primero pasa el texto a bytes en UTF-8. Tiene una variante segura para URL, con guion y guion bajo en lugar de más y barra, que es la que usan los tokens JWT. El relleno con signos igual al final es opcional para muchos sistemas y obligatorio para otros. Ojo con dos hechos: el resultado ocupa aproximadamente un tercio más que el original, y Base64 no es cifrado, porque cualquiera puede decodificarlo sin clave.</p>
+
+<h2>Hashes: una huella que no se puede deshacer</h2>
+<p><a href="../../herramientas/generador-de-hashes/">Generador de hashes</a> calcula a la vez MD5, SHA-1, SHA-256, SHA-384 y SHA-512. Un hash cambia por completo si se altera un solo carácter, y de él no se recupera el texto. Sirve para comprobar que un dato no se ha alterado. Para elegir:</p>
+<ul>
+  <li><strong>SHA-256</strong> es la opción por defecto en la mayoría de usos actuales.</li>
+  <li><strong>SHA-384 y SHA-512</strong> dan huellas más largas, útiles cuando una norma las pide.</li>
+  <li><strong>MD5 y SHA-1</strong> pueden falsificarse a propósito, así que no valen para firmas ni para proteger contraseñas, aunque siguen sirviendo para detectar un archivo dañado.</li>
+</ul>
+<p>Guardar contraseñas exige algoritmos específicos, lentos y con sal, como bcrypt, scrypt o Argon2; un SHA, por sí solo, no basta. Si pegas el hash esperado en el campo de comparación, te dice si coincide con alguno, y si no coincide pero tiene la longitud de un algoritmo, suele indicar un espacio o un salto de línea de más. La herramienta trabaja con texto; para archivos, usa <code>sha256sum</code> en Linux y macOS o <code>Get-FileHash</code> en Windows.</p>
+
+<h2>UUID: identificadores que no se repiten</h2>
+<p><a href="../../herramientas/generador-uuid/">Generador UUID</a> crea uno o hasta mil identificadores de 128 bits. La versión 4 es casi toda aleatoria y es la opción habitual. La versión 7 empieza por la fecha y la hora en milisegundos, así que los UUID creados después son mayores, y eso la hace la mejor para claves de base de datos, porque insertar en orden evita fragmentar los índices. Los números salen del generador criptográfico del navegador. Un UUID no está pensado para ser secreto: para una contraseña o un token de acceso, usa un generador de claves con más longitud y símbolos, como el de la guía de <a href="../contrasenas-seguras/">contraseñas seguras</a>. UUID y GUID son lo mismo, y este último es el nombre que usa Microsoft.</p>
+
+<h2>Un cuadro mental para no confundirlos</h2>
+<ul>
+  <li>¿Quieres que los datos viajen por un canal de texto? Base64.</li>
+  <li>¿Quieres detectar si algo ha cambiado? Hash.</li>
+  <li>¿Quieres dar a algo un nombre único? UUID.</li>
+  <li>¿Quieres que nadie lo lea? Ninguno de los tres: necesitas cifrado de verdad.</li>
+</ul>
+
+<h2>Preguntas frecuentes</h2>
+<h3>¿Por qué mi hash no coincide con el de otro programa?</h3>
+<p>Casi siempre por un espacio, un salto de línea o una codificación de texto distinta. Esta herramienta usa UTF-8.</p>
+<h3>¿Y para trabajar con datos estructurados?</h3>
+<p>Mira la guía de <a href="../trabajar-con-json-y-csv/">JSON y CSV</a>.</p>

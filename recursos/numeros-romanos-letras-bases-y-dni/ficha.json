@@ -1,0 +1,14 @@
+{
+  "titulo": "Números: romanos, letras, bases y DNI",
+  "descripcion": "Escribir un número en romano o con letras, pasarlo entre binario, decimal y hexadecimal, y comprobar la letra de control de un DNI o NIE.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "números",
+    "romanos",
+    "binario",
+    "DNI"
+  ],
+  "categoria": "conversores",
+  "orden": 24
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Dibuja un círculo perfecto",
+  "descripcion": "Traza un círculo a mano alzada en tres intentos. Te damos una puntuación sobre 100 según lo redondo y cerrado que sea tu trazo.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "círculo perfecto",
+    "dibujar un círculo",
+    "perfect circle",
+    "pulso",
+    "precisión del trazo"
+  ],
+  "categoria": "memoria-percepcion",
+  "duracion": "1 min",
+  "orden": 28,
+  "tema": {
+    "fondo": "#F3F7F5",
+    "texto": "#14201C",
+    "acento": "#C21E4A"
+  }
+}

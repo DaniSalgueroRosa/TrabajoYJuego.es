@@ -1,0 +1,32 @@
+<div class="herr" id="herr" data-herramienta="calculadora-de-letra-del-dni">
+  <noscript><p class="herr-estado herr-estado--aviso">Esta herramienta necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+  <p class="herr-vacio" id="herr-carga">Cargando la herramienta…</p>
+</div>
+
+<div class="herr-texto">
+  <h2>Calcula la letra de tu DNI o NIE</h2>
+  <p>La letra que acompaña al número de un DNI o de un NIE no es decorativa: sirve para detectar errores al copiarlo. Escribe el número y obtendrás su letra de control; escribe el número con la letra y la herramienta te dirá si coincide. Puedes pegar varias líneas, y admite puntos, guiones y espacios, como en 12.345.678-Z.</p>
+  <h2>Cómo se calcula la letra</h2>
+  <p>Se divide el número entre 23 y se mira el resto en una tabla de 23 letras, ordenadas así: <strong>TRWAGMYFPDXBNJZSQVHLCKE</strong>. El resto 0 corresponde a la primera letra (T), el 1 a la segunda (R) y así hasta el 22, que es la E. Por ejemplo, 12345678 entre 23 da 536768 y sobran 14, y la letra que ocupa el puesto 14 es la Z, de modo que el documento completo es 12345678Z.</p><p>Si el número tiene menos de ocho cifras, se completa con ceros por la izquierda: el 1 se trata como 00000001 y su letra es la R.</p>
+  <h2>Cómo se calcula en un NIE</h2>
+  <p>El NIE empieza por una letra, X, Y o Z, seguida de siete cifras y la letra de control. Para calcularla se sustituye la inicial por una cifra (X por 0, Y por 1 y Z por 2) y se aplica el mismo método. Así, X1234567 se calcula como 01234567: da resto 19 al dividir entre 23 y su letra es la L, de manera que el NIE completo es X1234567L.</p>
+  <h2>Qué comprueba y qué no</h2>
+  <p>Comprueba únicamente la letra de control. No puede saber si el número existe, si el documento está vigente ni a quién pertenece, y una letra correcta no demuestra nada sobre una persona. Úsalo para detectar erratas al rellenar formularios o para revisar tus propios datos. Los números y letras que escribes no salen de tu navegador ni se guardan.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Por qué el DNI no usa las letras I, Ñ, O ni U?</summary>
+    <p>La tabla tiene 23 letras y deja fuera esas cuatro. Suele explicarse por su parecido con otros caracteres, como el 1, el 0 o la V, que podían confundirse al leerlas o teclearlas.</p>
+  </details>
+  <details>
+    <summary>¿Sirve para el NIF de empresas o el pasaporte?</summary>
+    <p>No. Los NIF de sociedades y otras entidades se calculan con otro sistema, y los pasaportes tienen su propia numeración. Esta herramienta solo vale para el DNI y el NIE de personas físicas.</p>
+  </details>
+  <details>
+    <summary>¿Qué pasa si escribo menos de ocho cifras?</summary>
+    <p>Se rellena con ceros por la izquierda hasta completar ocho. Si ese número es el tuyo, no cuenta con la letra de este cálculo hasta que lo escribas completo.</p>
+  </details>
+  <details>
+    <summary>¿Se guarda lo que escribo?</summary>
+    <p>No. El cálculo se hace en tu navegador y todo desaparece al cerrar o recargar la página.</p>
+  </details>
+</div>

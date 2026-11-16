@@ -1,0 +1,7 @@
+body[data-item="ia-vs-cuadros-reales"] .ia-zona { gap: var(--e4); }
+body[data-item="ia-vs-cuadros-reales"] .ia-mensaje { margin: 0; max-width: 38rem; font-weight: 700; line-height: 1.45; }
+body[data-item="ia-vs-cuadros-reales"] .ia-marco { margin: 0; display: grid; place-items: center; width: 100%; padding: var(--e3); background: var(--t-fondo); border: 2px solid var(--tt-linea); border-radius: var(--tt-radio); }
+body[data-item="ia-vs-cuadros-reales"] .ia-imagen { display: block; max-width: 100%; max-height: min(60vh, 32rem); width: auto; height: auto; border-radius: 4px; }
+body[data-item="ia-vs-cuadros-reales"] .ia-ficha { display: grid; gap: 0.25rem; max-width: 38rem; line-height: 1.5; }
+body[data-item="ia-vs-cuadros-reales"] .ia-ficha[hidden], body[data-item="ia-vs-cuadros-reales"] .ia-zona[hidden] { display: none; }
+body[data-item="ia-vs-cuadros-reales"] .ia-pista { margin-top: var(--e2); color: var(--tt-suave); }

@@ -1,0 +1,29 @@
+<!-- ESCRIBE: aquí va el juego. Solo el contenido de la página (sin <html>, <head> ni <body>).
+     Estructura de todos los juegos: un bloque .juego con la .pantalla donde dibuja app.js, y debajo .juego-texto con el texto
+     original para Google (al menos cuatro apartados con <h2> y unas preguntas frecuentes con <details>).
+     Piezas listas en juegos/componentes.css: .pantalla .hud .barra .boton-retro .opciones .campo-retro .final .sesion .mensaje.
+     Funciones listas en juegos/juegos.js y juegos/utilidades.js (TYJ.h, TYJ.hud, TYJ.Temporizador, TYJ.Sesion, TYJ.final, TYJ.util…).
+     Los datos del juego (preguntas, listas…) van en un .json dentro de esta carpeta y se leen con TYJ.datos('mi-juego/archivo.json').
+     Tu código en app.js y tu CSS en app.css se enlazan solos. Borra estos comentarios al terminar. -->
+<div class="juego" data-juego="mi-juego">
+  <div class="pantalla" id="mj">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>ESCRIBE: Cómo se juega</h2>
+  <p>ESCRIBE: objetivo, controles (ratón, táctil y teclado) y qué pasa al acertar o fallar.</p>
+  <h2>ESCRIBE: Puntuación</h2>
+  <p>ESCRIBE: cómo se calcula y qué es una buena puntuación.</p>
+  <h2>ESCRIBE: Consejos</h2>
+  <p>ESCRIBE: dos o tres ideas para jugar mejor, con palabras propias de este juego.</p>
+  <h2>ESCRIBE: Un apartado propio de este juego</h2>
+  <p>ESCRIBE: lo que lo distingue (origen, qué entrena, límites de sus datos). No copies el texto de otro juego: cada página debe ser única.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>ESCRIBE: una pregunta real que se haría un jugador</summary>
+    <p>ESCRIBE: la respuesta.</p>
+  </details>
+</div>

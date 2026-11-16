@@ -1,0 +1,21 @@
+{
+  "titulo": "Test de puntería",
+  "descripcion": "Pulsa 30 círculos que aparecen en lugares al azar y mide tu tiempo medio por objetivo, tus fallos y tu precisión con el ratón o con el dedo.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "test de puntería",
+    "aim test",
+    "precisión del ratón",
+    "aim trainer",
+    "objetivos"
+  ],
+  "categoria": "reaccion-punteria",
+  "duracion": "1 min",
+  "orden": 14,
+  "tema": {
+    "fondo": "#2A1018",
+    "texto": "#FFEFF2",
+    "acento": "#FF5A7D"
+  }
+}

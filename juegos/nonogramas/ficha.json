@@ -1,0 +1,17 @@
+{
+  "titulo": "Nonogramas: pinta el dibujo con lógica",
+  "descripcion": "Resuelve nonogramas (picross) de 5×5, 8×8 y 10×10: los números de filas y columnas te dicen qué casillas pintar. Siempre con solución lógica.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "picross",
+    "lógica",
+    "puzle",
+    "números",
+    "un jugador"
+  ],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "3-10 min",
+  "orden": 66
+}

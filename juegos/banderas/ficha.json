@@ -1,0 +1,16 @@
+{
+  "titulo": "Juego de banderas: adivina el país",
+  "descripcion": "Adivina de qué país es cada bandera entre cuatro opciones. Diez rondas con banderas dibujadas, descripción para lectores de pantalla y repaso.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": [
+    "banderas",
+    "países",
+    "geografía",
+    "quiz"
+  ],
+  "categoria": "geografia",
+  "dificultad": "media",
+  "duracion": "3-5 min",
+  "orden": 23
+}

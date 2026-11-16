@@ -1,0 +1,11 @@
+{
+  "titulo": "Inundación: llena el tablero de un color",
+  "descripcion": "Juego de inundación (Flood-It): cambia el color de la esquina para absorber casillas y llena todo el tablero antes de agotar los movimientos.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "etiquetas": ["inundación", "flood it", "colores", "puzle"],
+  "categoria": "logica",
+  "dificultad": "media",
+  "duracion": "2-5 min",
+  "orden": 55
+}

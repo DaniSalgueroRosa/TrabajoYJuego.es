@@ -1,0 +1,47 @@
+<h2>1. Qué son las cookies</h2>
+<p>Una cookie es un pequeño archivo que un sitio web guarda en tu navegador. Esta política también cubre tecnologías parecidas, como el almacenamiento local del navegador o los identificadores de publicidad. El responsable del sitio es {{{titular.nombre}}}; sus datos completos están en el <a href="{{raiz}}legal/aviso-legal/">aviso legal</a>.</p>
+
+<h2>2. Lo que guarda este sitio</h2>
+<p><strong>Nada.</strong> {{sitio.nombre}} no usa cookies propias ni <em>localStorage</em>, <em>sessionStorage</em> o <em>IndexedDB</em>: no hay cuentas, no se recuerdan preferencias y las partidas de los juegos viven solo en la memoria de la pestaña, de modo que desaparecen al recargar o cerrarla. Tampoco usamos herramientas de analítica propias.</p>
+
+<h2>3. Cookies de terceros</h2>
+{{#publicidad.activa}}
+<p>Este sitio muestra publicidad de Google AdSense. Con tu consentimiento, Google puede usar cookies e identificadores propios para mostrar, medir y personalizar anuncios. Hasta que decidas, no se cargan cookies de publicidad no esenciales cuando la normativa exige tu consentimiento.</p>
+<div class="legal-tabla">
+  <table>
+    <caption class="solo-lectores">Cookies de terceros que puede usar este sitio</caption>
+    <thead>
+      <tr><th scope="col">Proveedor</th><th scope="col">Finalidad</th><th scope="col">Tipo</th><th scope="col">Duración</th><th scope="col">¿Necesita consentimiento?</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Google (AdSense y mensaje de consentimiento)</th>
+        <td data-etiqueta="Finalidad">Mostrar, medir y personalizar anuncios, y recordar tu elección sobre ellos.</td>
+        <td data-etiqueta="Tipo">De terceros; publicidad y técnica.</td>
+        <td data-etiqueta="Duración">La define Google. Puedes verla en <a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">su página sobre cookies</a><span class="solo-lectores"> (se abre en una pestaña nueva)</span>.</td>
+        <td data-etiqueta="¿Necesita consentimiento?">Sí, las de publicidad. La cookie que recuerda tu elección es técnica.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>La lista exacta de cookies depende de los anunciantes y de Google, y puede cambiar. Google la mantiene actualizada en la página que enlazamos arriba.</p>
+{{/publicidad.activa}}
+{{^publicidad.activa}}
+<p>Ahora mismo este sitio no carga cookies ni elementos de terceros: no hay publicidad, ni analítica, ni mapas o vídeos incrustados. Si en el futuro incorpora publicidad u otras herramientas de terceros que los necesiten, esta página lo explicará con detalle y el sitio pedirá tu permiso antes de cargarlos, cuando la normativa lo exija.</p>
+{{/publicidad.activa}}
+
+<h2 id="configurar">4. Cómo aceptar, rechazar o cambiar tu elección</h2>
+{{#publicidad.activa}}
+<p>La primera vez que entras, Google muestra un mensaje de consentimiento (el servicio «Privacy &amp; messaging» de Google) donde puedes aceptar, rechazar o configurar tus opciones, con la misma facilidad para cada una. Puedes cambiar o retirar tu elección cuando quieras con este botón, que abre de nuevo ese mensaje:</p>
+<p><button type="button" class="boton-retro" data-consentimiento hidden>Cambiar mi consentimiento</button></p>
+<p role="status" data-consentimiento-estado></p>
+<p>Si el botón no aparece, activa JavaScript o desactiva el bloqueador de anuncios en esta web y recarga la página. También puedes borrar las cookies y los datos del sitio desde los ajustes de tu navegador; si lo haces, se te volverá a preguntar.</p>
+{{/publicidad.activa}}
+{{^publicidad.activa}}
+<p>Como el sitio no usa cookies ni carga elementos de terceros, no hay nada que aceptar, rechazar ni configurar. Si eso cambia, aquí aparecerá el modo de cambiar tu elección.</p>
+{{/publicidad.activa}}
+<p>Además, puedes bloquear o borrar las cookies de cualquier sitio desde los ajustes de tu navegador: consulta la ayuda de tu navegador para saber cómo.</p>
+
+<h2>5. Más información</h2>
+<p>Cómo tratamos los datos personales lo explicamos en la <a href="{{raiz}}legal/politica-de-privacidad/">política de privacidad</a>. Si tienes dudas sobre esta política, escribe a {{{titular.email}}}.</p>
+{{> legal/_partes/enlaces}}

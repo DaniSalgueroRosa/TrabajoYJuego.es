@@ -1,0 +1,33 @@
+<footer class="pie">
+  <div class="contenedor pie-interior">
+    <div class="pie-marca">
+      <a class="pie-logo" href="{{inicio}}"><img src="{{raiz}}assets/img/logo-claro.svg" alt="{{sitio.nombre}}, ir a la portada" width="213" height="34"></a>
+      <p class="pie-lema">{{sitio.lema}}</p>
+    </div>
+    <nav class="pie-nav" aria-label="Secciones, en el pie de página">
+      {{#mundos_pie}}
+      <div class="pie-grupo" data-grupo="{{id}}">
+        <h2 class="pie-grupo-titulo">{{nombre}}</h2>
+        <ul>
+          {{#secciones}}
+          <li><a href="{{href}}">{{titulo}}</a></li>
+          {{/secciones}}
+        </ul>
+      </div>
+      {{/mundos_pie}}
+    </nav>
+  </div>
+  {{#hay_legales}}
+  <nav class="contenedor pie-legales" aria-label="Información legal">
+    <ul>
+      {{#legales}}
+      <li><a href="{{href}}">{{titulo}}</a></li>
+      {{/legales}}
+      {{#cookies_href}}
+      <li><a href="{{cookies_href}}">Configurar cookies</a></li>
+      {{/cookies_href}}
+    </ul>
+  </nav>
+  {{/hay_legales}}
+  <p class="contenedor pie-legal">© {{sitio.anio}} {{sitio.nombre}}</p>
+</footer>

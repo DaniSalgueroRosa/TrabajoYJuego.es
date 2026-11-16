@@ -1,0 +1,352 @@
+{
+"_nota": "Pistas de «¿Quién soy?». n: nombre (se muestra al acabar); r: respuestas aceptadas; p: cinco pistas, de la más difícil a la más fácil. Para ampliar: añade objetos con n, r y p (5 pistas).",
+"elementos": [
+{
+"n": "Picasso",
+"r": [
+"Picasso",
+"Pablo Picasso"
+],
+"p": [
+"Nací en Málaga en 1881.",
+"Cofundé el cubismo junto a Georges Braque.",
+"Pinté «Las señoritas de Aviñón».",
+"Mi obra más famosa denuncia el bombardeo de una ciudad vasca en 1937.",
+"Soy el autor del «Guernica»."
+]
+},
+{
+"n": "Cervantes",
+"r": [
+"Cervantes",
+"Miguel de Cervantes"
+],
+"p": [
+"Nací en Alcalá de Henares en 1547.",
+"Perdí el uso de la mano izquierda en la batalla de Lepanto.",
+"Fui cautivo en Argel durante cinco años.",
+"Escribí las «Novelas ejemplares».",
+"Creé a un hidalgo que luchaba contra molinos de viento."
+]
+},
+{
+"n": "Marie Curie",
+"r": [
+"Curie",
+"Marie Curie",
+"Madame Curie"
+],
+"p": [
+"Nací en Varsovia en 1867.",
+"Fui la primera persona en ganar dos premios Nobel en ciencias distintas.",
+"Descubrí dos elementos químicos, uno con el nombre de mi país de origen.",
+"Estudié la radiactividad, una palabra que acuñé yo.",
+"Mi apellido de casada es el de mi marido, Pierre."
+]
+},
+{
+"n": "Albert Einstein",
+"r": [
+"Einstein",
+"Albert Einstein"
+],
+"p": [
+"Nací en Ulm, Alemania, en 1879.",
+"Trabajé en una oficina de patentes en Suiza.",
+"Recibí el Nobel de Física de 1921 por explicar el efecto fotoeléctrico.",
+"Mi fórmula más famosa relaciona energía y masa.",
+"Soy conocido por E = mc² y la teoría de la relatividad."
+]
+},
+{
+"n": "Leonardo da Vinci",
+"r": [
+"Leonardo",
+"Leonardo da Vinci",
+"Da Vinci"
+],
+"p": [
+"Nací en 1452 en un pueblo cercano a Florencia.",
+"Fui pintor, ingeniero, anatomista e inventor.",
+"Dibujé al «Hombre de Vitruvio».",
+"Pinté «La última cena».",
+"Pinté a la «Mona Lisa»."
+]
+},
+{
+"n": "Cristóbal Colón",
+"r": [
+"Colón",
+"Cristóbal Colón"
+],
+"p": [
+"Nací probablemente en Génova hacia 1451.",
+"Pedí ayuda a los Reyes Católicos para mi proyecto.",
+"Salí del puerto de Palos en 1492.",
+"Mis barcos eran la Pinta, la Niña y la Santa María.",
+"Llegué a América en 1492."
+]
+},
+{
+"n": "Frida Kahlo",
+"r": [
+"Frida Kahlo",
+"Frida",
+"Kahlo"
+],
+"p": [
+"Nací en 1907 en Coyoacán, México.",
+"Un accidente de autobús en mi juventud marcó mi vida y mi obra.",
+"Estuve casada con el muralista Diego Rivera.",
+"Pinté muchos autorretratos, con cejas muy marcadas.",
+"Mi Casa Azul de Ciudad de México es hoy un museo."
+]
+},
+{
+"n": "Mozart",
+"r": [
+"Mozart",
+"Wolfgang Amadeus Mozart"
+],
+"p": [
+"Nací en Salzburgo en 1756.",
+"A los seis años ya daba conciertos por las cortes de Europa.",
+"Compuse más de 600 obras y morí a los 35 años.",
+"Entre mis óperas están «Las bodas de Fígaro» y «La flauta mágica».",
+"Mi nombre completo empieza por Wolfgang Amadeus."
+]
+},
+{
+"n": "Antoni Gaudí",
+"r": [
+"Gaudí",
+"Antoni Gaudí",
+"Antonio Gaudí"
+],
+"p": [
+"Nací en 1852 en la provincia de Tarragona.",
+"Mi estilo se inspira en las formas de la naturaleza.",
+"Diseñé la Casa Batlló y la Casa Milà.",
+"Me atropelló un tranvía en 1926.",
+"Mi obra maestra, todavía sin acabar, es la Sagrada Familia."
+]
+},
+{
+"n": "Isaac Newton",
+"r": [
+"Newton",
+"Isaac Newton"
+],
+"p": [
+"Nací en Inglaterra en 1642.",
+"Presidí la Royal Society de Londres.",
+"Escribí los «Principia Mathematica».",
+"Formulé las leyes del movimiento y la gravitación universal.",
+"Dicen que una manzana me inspiró."
+]
+},
+{
+"n": "Gabriel García Márquez",
+"r": [
+"García Márquez",
+"Gabriel García Márquez",
+"Gabo"
+],
+"p": [
+"Nací en Aracataca, Colombia, en 1927.",
+"Fui periodista y guionista, además de novelista.",
+"Recibí el Nobel de Literatura en 1982.",
+"Escribí «Crónica de una muerte anunciada».",
+"Mi novela más famosa cuenta la historia de los Buendía en Macondo."
+]
+},
+{
+"n": "Neil Armstrong",
+"r": [
+"Armstrong",
+"Neil Armstrong"
+],
+"p": [
+"Nací en Ohio en 1930.",
+"Fui piloto de pruebas y astronauta.",
+"Comandé la misión Apolo 11.",
+"En 1969 pronuncié una frase sobre un pequeño paso.",
+"Fui el primer ser humano en pisar la Luna."
+]
+},
+{
+"n": "Nelson Mandela",
+"r": [
+"Mandela",
+"Nelson Mandela"
+],
+"p": [
+"Nací en 1918 en Sudáfrica.",
+"Fui abogado y pasé 27 años en prisión.",
+"Recibí el Premio Nobel de la Paz en 1993.",
+"Fui presidente de Sudáfrica de 1994 a 1999.",
+"Luché contra el apartheid."
+]
+},
+{
+"n": "William Shakespeare",
+"r": [
+"Shakespeare",
+"William Shakespeare"
+],
+"p": [
+"Nací en Stratford-upon-Avon en 1564.",
+"Fui actor y autor teatral en el teatro del Globo.",
+"Escribí «Hamlet» y «Macbeth».",
+"Mis tragedias incluyen a unos amantes de Verona.",
+"Escribí «Romeo y Julieta»."
+]
+},
+{
+"n": "Beethoven",
+"r": [
+"Beethoven",
+"Ludwig van Beethoven"
+],
+"p": [
+"Nací en Bonn en 1770.",
+"Me fui quedando sordo con los años.",
+"Escribí nueve sinfonías.",
+"Mi Novena incluye el «Himno a la Alegría».",
+"Compuse «Para Elisa»."
+]
+},
+{
+"n": "La torre Eiffel",
+"r": [
+"Torre Eiffel",
+"La torre Eiffel",
+"Eiffel"
+],
+"p": [
+"Me inauguraron en 1889 para una Exposición Universal.",
+"Mido unos 330 metros contando las antenas.",
+"Soy de hierro y me repintan cada pocos años.",
+"Estoy a orillas del Sena.",
+"Soy el símbolo de París."
+]
+},
+{
+"n": "El Everest",
+"r": [
+"Everest",
+"El Everest",
+"Monte Everest"
+],
+"p": [
+"Estoy en el Himalaya, en la frontera entre Nepal y el Tíbet.",
+"Mido 8.849 metros.",
+"En nepalí me llaman Sagarmatha.",
+"Edmund Hillary y Tenzing Norgay me escalaron en 1953.",
+"Soy la montaña más alta del mundo."
+]
+},
+{
+"n": "El Amazonas",
+"r": [
+"Amazonas",
+"El Amazonas",
+"Río Amazonas"
+],
+"p": [
+"Nazco en los Andes peruanos.",
+"Mi cuenca ocupa casi toda la mayor selva tropical del mundo.",
+"Atravieso Perú, Colombia y Brasil.",
+"Desemboco en el océano Atlántico.",
+"Soy el río más caudaloso del planeta."
+]
+},
+{
+"n": "El Sáhara",
+"r": [
+"Sáhara",
+"Sahara",
+"El Sáhara"
+],
+"p": [
+"Ocupo gran parte del norte de África.",
+"Mido unos 9 millones de kilómetros cuadrados.",
+"Mi nombre en árabe significa «desierto».",
+"Tengo dunas, pero sobre todo soy roca y grava.",
+"Soy el mayor desierto cálido del mundo."
+]
+},
+{
+"n": "La ballena azul",
+"r": [
+"Ballena azul",
+"La ballena azul",
+"Ballena"
+],
+"p": [
+"Vivo en todos los océanos.",
+"Me alimento sobre todo de krill.",
+"Mi corazón pesa tanto como un coche pequeño.",
+"Mido hasta 30 metros.",
+"Soy el animal más grande que ha existido."
+]
+},
+{
+"n": "El pulpo",
+"r": [
+"Pulpo",
+"El pulpo"
+],
+"p": [
+"Vivo en el mar.",
+"Tengo tres corazones.",
+"Mi sangre es azul.",
+"Tengo ocho brazos con ventosas.",
+"Suelto tinta para huir de mis enemigos."
+]
+},
+{
+"n": "Don Quijote",
+"r": [
+"Don Quijote",
+"Quijote",
+"Alonso Quijano"
+],
+"p": [
+"Soy un hidalgo manchego de unos cincuenta años.",
+"Leí tantos libros de caballerías que perdí el juicio.",
+"Mi caballo se llama Rocinante.",
+"Mi escudero es Sancho Panza.",
+"Me enfrento a unos molinos de viento creyendo que son gigantes."
+]
+},
+{
+"n": "El Sol",
+"r": [
+"Sol",
+"El Sol"
+],
+"p": [
+"Tengo unos 4.600 millones de años.",
+"Mi diámetro es unas 109 veces el de la Tierra.",
+"Estoy a unos 150 millones de kilómetros de la Tierra.",
+"Soy una estrella de tipo enano amarillo.",
+"Todos los planetas del sistema solar giran a mi alrededor."
+]
+},
+{
+"n": "La Luna",
+"r": [
+"Luna",
+"La Luna"
+],
+"p": [
+"Tengo unos 3.474 kilómetros de diámetro.",
+"Mi gravedad es una sexta parte de la terrestre.",
+"Provoco las mareas en la Tierra.",
+"Los humanos aterrizaron en mí por primera vez en 1969.",
+"Soy el único satélite natural de la Tierra."
+]
+}
+]
+}

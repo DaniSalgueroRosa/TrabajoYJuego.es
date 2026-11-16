@@ -1,0 +1,21 @@
+{
+  "titulo": "APM: acciones por minuto",
+  "descripcion": "Mide tus acciones por minuto (APM) contando clics y pulsaciones de teclado durante 10 s, 30 s o 1 min. Con desglose entre ratón y teclado.",
+  "fecha": "2026-11-15",
+  "estado": "publicado",
+  "etiquetas": [
+    "apm",
+    "acciones por minuto",
+    "apm test",
+    "velocidad de juego",
+    "clics y teclas"
+  ],
+  "categoria": "reaccion-punteria",
+  "duracion": "30 s",
+  "orden": 17,
+  "tema": {
+    "fondo": "#2A1018",
+    "texto": "#FFEFF2",
+    "acento": "#FF5A7D"
+  }
+}

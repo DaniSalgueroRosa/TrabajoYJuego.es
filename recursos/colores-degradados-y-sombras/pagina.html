@@ -1,0 +1,26 @@
+<p>Un diseño agradable no nace de usar muchos colores, sino de elegir pocos y repetirlos con criterio. Esta guía recorre las cuatro herramientas de color y estilo del sitio en el orden en que suelen hacer falta: primero el color base, luego la paleta que lo acompaña, después los efectos de fondo y de relieve y, por último, la comprobación de que todo se lee bien. Todo se calcula en tu navegador y puedes copiar el código CSS al terminar.</p>
+
+<h2>Paso 1: fija un color base</h2>
+<p>Empieza con <a href="../../herramientas/selector-de-colores/">Selector de colores</a>. Elige el color con el selector o escribe su código y obtendrás el mismo tono en cuatro idiomas. HEX, como <code>#336699</code>, es el habitual en las hojas de estilo. RGB indica cuánto rojo, verde y azul hay, de 0 a 255. HSL separa tono, saturación y luminosidad, y resulta cómodo para aclarar u oscurecer un color sin cambiar su carácter. CMYK es la conversión matemática hacia impresión, sin el perfil de color de una imprenta, así que sirve de orientación y no de garantía. Si ya tienes una fotografía o un logotipo, cárgalo y toca el punto del que quieres copiar el tono.</p>
+
+<h2>Paso 2: construye una paleta que combine</h2>
+<p><a href="../../herramientas/generador-de-paletas-de-colores/">Generador de paletas de colores</a> aplica las reglas clásicas del círculo cromático. Una elección rápida:</p>
+<ul>
+  <li><strong>Monocromática o análoga</strong> para webs serenas: variaciones de un mismo tono o colores vecinos.</li>
+  <li><strong>Complementaria</strong> para destacar un botón o un aviso: el color opuesto del base.</li>
+  <li><strong>Tríada o tétrada</strong> para proyectos vistosos, como juegos o materiales infantiles, aunque exigen más cuidado con las proporciones.</li>
+</ul>
+<p>Una proporción que funciona casi siempre: un color dominante en la mayor parte del espacio, uno secundario en torno a un tercio y el de contraste solo en detalles. Puedes copiar la paleta como lista de códigos o como variables CSS y pegarla en tu hoja de estilo.</p>
+
+<h2>Paso 3: añade un degradado donde aporte algo</h2>
+<p>Con <a href="../../herramientas/generador-de-degradados/">Generador de degradados</a> puedes crear transiciones lineales, radiales o cónicas con hasta ocho colores. Los degradados de tonos cercanos suelen quedar más elegantes que los de colores muy distintos. Cada color tiene su posición de 0 a 100, y dos colores en la misma posición producen un corte brusco, útil para hacer franjas. Copia la declaración de <code>background</code> o descarga el fondo como imagen PNG. Un degradado detrás de un texto obliga a comprobar el contraste en la zona más clara y en la más oscura, no solo en el centro.</p>
+
+<h2>Paso 4: da relieve con sombras</h2>
+<p><a href="../../herramientas/generador-de-sombras-css/">Generador de sombras CSS</a> compone sombras de varias capas para <code>box-shadow</code> o <code>text-shadow</code> y te enseña el resultado en directo. Las sombras reales casi nunca son negras del todo: con una opacidad entre el 10 % y el 30 % se ven más naturales, y combinar una sombra cercana y nítida con otra lejana y difusa imita mejor la luz. Reserva las sombras muy grandes para pocos elementos, porque decenas de ellas pueden ralentizar el dibujado en equipos modestos.</p>
+
+<h2>Comprobar el contraste antes de dar por bueno el diseño</h2>
+<p>De vuelta en el selector de colores, mira el contraste con texto blanco y con texto negro. Una relación de 4,5 a 1 cumple el nivel AA de las pautas de accesibilidad para texto normal, 7 a 1 llega al nivel AAA y con 3 a 1 solo vale texto grande. Un botón de un color bonito con letras que no se leen no es un buen botón. También conviene mirar el diseño en una pantalla con poco brillo y con la luz del día, porque el contraste que parece suficiente en un monitor puede quedarse corto en la calle.</p>
+
+<h2>Un ejemplo de principio a fin</h2>
+<p>Supón que tu marca usa un azul oscuro. Lo introduces en el selector, anotas su HEX y comprobas que con letras blancas el contraste es alto. Generas una paleta análoga para fondos y bordes y eliges un complementario cálido solo para el botón principal. Para la cabecera creas un degradado muy suave entre el azul y una variante algo más clara, y para las tarjetas una sombra de dos capas con baja opacidad. Pegas las variables y las declaraciones en tu hoja de estilo y tendrás un conjunto coherente en menos de diez minutos.</p>
+<p>Si además estás preparando la web para publicarla, mira la guía de <a href="../antes-de-publicar-una-web/">icono, etiquetas y peso del código</a>.</p>

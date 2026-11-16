@@ -1,0 +1,720 @@
+{
+"_nota": "Refranes populares: «p» es el comienzo del refrán; en «o» el final correcto va siempre primero (el juego baraja las opciones al mostrarlas); «e» es el significado.",
+"refranes": [
+{
+"p": "A caballo regalado,",
+"o": [
+"no le mires el diente",
+"no le pongas herraduras",
+"no le busques dueño",
+"no le des de comer"
+],
+"c": 0,
+"e": "Cuando algo te lo dan gratis, no conviene criticarlo."
+},
+{
+"p": "Más vale pájaro en mano",
+"o": [
+"que ciento volando",
+"que jaula vacía",
+"que huevo en el nido",
+"que un vuelo largo"
+],
+"c": 0,
+"e": "Es mejor tener algo seguro que arriesgarlo por algo mejor que quizá no llegue."
+},
+{
+"p": "Quien a buen árbol se arrima,",
+"o": [
+"buena sombra le cobija",
+"buen fruto le regala",
+"buen techo le da",
+"buena leña recoge"
+],
+"c": 0,
+"e": "Si te relacionas con gente influyente o buena, sales beneficiado."
+},
+{
+"p": "No por mucho madrugar",
+"o": [
+"amanece más temprano",
+"se llega más lejos",
+"se duerme mejor",
+"se trabaja más"
+],
+"c": 0,
+"e": "Darse prisa no hace que las cosas salgan antes."
+},
+{
+"p": "Al que madruga,",
+"o": [
+"Dios le ayuda",
+"el sol lo despierta",
+"nadie lo espera",
+"le sobra el día"
+],
+"c": 0,
+"e": "Quien empieza pronto sus tareas suele salir ganando."
+},
+{
+"p": "En casa del herrero,",
+"o": [
+"cuchillo de palo",
+"martillo de oro",
+"hierro de sobra",
+"fuego de leña"
+],
+"c": 0,
+"e": "A veces quien se dedica a algo no tiene en casa lo que ofrece a los demás."
+},
+{
+"p": "Camarón que se duerme,",
+"o": [
+"se lo lleva la corriente",
+"se queda en la orilla",
+"se hace pescado",
+"sueña con el mar"
+],
+"c": 0,
+"e": "Quien se descuida pierde las oportunidades."
+},
+{
+"p": "Dime con quién andas",
+"o": [
+"y te diré quién eres",
+"y te diré a dónde vas",
+"y te daré consejo",
+"y te contaré un secreto"
+],
+"c": 0,
+"e": "Las amistades de una persona dicen mucho de cómo es."
+},
+{
+"p": "Ojos que no ven,",
+"o": [
+"corazón que no siente",
+"boca que no habla",
+"oídos que no oyen",
+"mano que no toca"
+],
+"c": 0,
+"e": "Lo que no se sabe no hace sufrir."
+},
+{
+"p": "A mal tiempo,",
+"o": [
+"buena cara",
+"buen abrigo",
+"poca prisa",
+"paso corto"
+],
+"c": 0,
+"e": "Hay que afrontar las dificultades con buen ánimo."
+},
+{
+"p": "Perro ladrador,",
+"o": [
+"poco mordedor",
+"mal guardián",
+"buen cazador",
+"gran amigo"
+],
+"c": 0,
+"e": "Quien amenaza mucho suele hacer poco."
+},
+{
+"p": "Cuando el río suena,",
+"o": [
+"agua lleva",
+"peces trae",
+"barro trae",
+"frío da"
+],
+"c": 0,
+"e": "Si corre un rumor, algo de verdad tendrá."
+},
+{
+"p": "El que mucho abarca,",
+"o": [
+"poco aprieta",
+"mucho pierde",
+"nada suelta",
+"pronto cansa"
+],
+"c": 0,
+"e": "Quien quiere hacer demasiadas cosas a la vez, las hace mal."
+},
+{
+"p": "Más sabe el diablo por viejo",
+"o": [
+"que por diablo",
+"que por listo",
+"que por malo",
+"que por rey"
+],
+"c": 0,
+"e": "La experiencia enseña más que la inteligencia."
+},
+{
+"p": "No hay mal",
+"o": [
+"que por bien no venga",
+"que cien años dure",
+"que no se cure",
+"que no tenga fin"
+],
+"c": 0,
+"e": "Hasta de los contratiempos puede salir algo bueno."
+},
+{
+"p": "Una golondrina",
+"o": [
+"no hace verano",
+"trae la lluvia",
+"no cruza el mar",
+"anuncia la primavera"
+],
+"c": 0,
+"e": "Un solo hecho aislado no basta para sacar una conclusión."
+},
+{
+"p": "Aunque la mona se vista de seda,",
+"o": [
+"mona se queda",
+"reina se hace",
+"bonita se ve",
+"señora parece"
+],
+"c": 0,
+"e": "Las apariencias no cambian lo que alguien es en realidad."
+},
+{
+"p": "De tal palo,",
+"o": [
+"tal astilla",
+"tal sombra",
+"tal árbol",
+"tal leña"
+],
+"c": 0,
+"e": "Los hijos suelen parecerse a sus padres."
+},
+{
+"p": "Cría cuervos",
+"o": [
+"y te sacarán los ojos",
+"y tendrás compañía",
+"y te darán la espalda",
+"y harás un nido"
+],
+"c": 0,
+"e": "Quien favorece a alguien puede recibir ingratitud a cambio."
+},
+{
+"p": "Del dicho al hecho",
+"o": [
+"hay mucho trecho",
+"hay poco camino",
+"hay un paso",
+"hay un puente"
+],
+"c": 0,
+"e": "Decir que se hará algo es más fácil que hacerlo."
+},
+{
+"p": "El hábito",
+"o": [
+"no hace al monje",
+"no cambia al hombre",
+"hace al santo",
+"esconde al sabio"
+],
+"c": 0,
+"e": "No hay que juzgar a alguien solo por cómo viste."
+},
+{
+"p": "En boca cerrada",
+"o": [
+"no entran moscas",
+"no cabe la verdad",
+"no sale el humo",
+"no caben mentiras"
+],
+"c": 0,
+"e": "Callar a tiempo evita problemas."
+},
+{
+"p": "Genio y figura,",
+"o": [
+"hasta la sepultura",
+"para toda la vida",
+"sin medida",
+"hasta que llegue el fin"
+],
+"c": 0,
+"e": "El carácter de una persona apenas cambia con los años."
+},
+{
+"p": "La unión",
+"o": [
+"hace la fuerza",
+"hace el trabajo",
+"da la razón",
+"evita la guerra"
+],
+"c": 0,
+"e": "Juntos se logra más que por separado."
+},
+{
+"p": "Lo que mal empieza,",
+"o": [
+"mal acaba",
+"peor sigue",
+"bien se arregla",
+"no tiene prisa"
+],
+"c": 0,
+"e": "Un mal comienzo suele traer un mal final."
+},
+{
+"p": "Mal de muchos,",
+"o": [
+"consuelo de tontos",
+"alegría de pocos",
+"remedio de sabios",
+"pena de ricos"
+],
+"c": 0,
+"e": "Que algo malo le pase a mucha gente no debería servir de consuelo."
+},
+{
+"p": "No dejes para mañana",
+"o": [
+"lo que puedas hacer hoy",
+"lo que no quieras hacer",
+"lo que ya hiciste ayer",
+"lo que te pida otro"
+],
+"c": 0,
+"e": "Conviene no aplazar las tareas."
+},
+{
+"p": "No hay peor sordo",
+"o": [
+"que el que no quiere oír",
+"que el que no sabe hablar",
+"que el que habla mucho",
+"que el que duerme"
+],
+"c": 0,
+"e": "Quien no quiere escuchar no hay forma de convencerlo."
+},
+{
+"p": "Por la boca",
+"o": [
+"muere el pez",
+"vive el hombre",
+"entra el mal",
+"se pierde el sabio"
+],
+"c": 0,
+"e": "Hablar de más puede meterte en problemas."
+},
+{
+"p": "Quien algo quiere,",
+"o": [
+"algo le cuesta",
+"algo le sobra",
+"todo lo pierde",
+"nada le falta"
+],
+"c": 0,
+"e": "Para conseguir algo hay que esforzarse."
+},
+{
+"p": "Quien bien te quiere,",
+"o": [
+"te hará llorar",
+"te hará reír",
+"te dará la razón",
+"te dejará en paz"
+],
+"c": 0,
+"e": "Quien te aprecia de verdad te dirá cosas aunque duelan."
+},
+{
+"p": "Quien siembra vientos,",
+"o": [
+"recoge tempestades",
+"recoge cosechas",
+"pierde la semilla",
+"espera la lluvia"
+],
+"c": 0,
+"e": "Las malas acciones traen malas consecuencias."
+},
+{
+"p": "Ver para",
+"o": [
+"creer",
+"entender",
+"aprender",
+"contar"
+],
+"c": 0,
+"e": "Hay que comprobar las cosas antes de darlas por ciertas."
+},
+{
+"p": "Cada oveja",
+"o": [
+"con su pareja",
+"con su rebaño",
+"en su prado",
+"con su pastor"
+],
+"c": 0,
+"e": "Cada cual se junta con quien se le parece."
+},
+{
+"p": "A cada cerdo",
+"o": [
+"le llega su San Martín",
+"le llega su domingo",
+"le llega su banquete",
+"le llega su fiesta"
+],
+"c": 0,
+"e": "Tarde o temprano, a todos les llega su hora, sobre todo a quien se ha portado mal."
+},
+{
+"p": "A buen entendedor,",
+"o": [
+"pocas palabras bastan",
+"muchas palabras sobran",
+"una mirada basta",
+"nada hay que decir"
+],
+"c": 0,
+"e": "Quien comprende rápido no necesita explicaciones largas."
+},
+{
+"p": "Hecha la ley,",
+"o": [
+"hecha la trampa",
+"hecha la fiesta",
+"hecho el castigo",
+"hecho el mapa"
+],
+"c": 0,
+"e": "Siempre hay quien encuentra la forma de saltarse las normas."
+},
+{
+"p": "La cabra tira",
+"o": [
+"al monte",
+"a la huerta",
+"al río",
+"a la casa"
+],
+"c": 0,
+"e": "Cada uno vuelve a su naturaleza o a sus costumbres."
+},
+{
+"p": "Ande yo caliente,",
+"o": [
+"ríase la gente",
+"duerma la gente",
+"calle la gente",
+"cante la gente"
+],
+"c": 0,
+"e": "Lo importante es estar a gusto, por mucho que opinen los demás."
+},
+{
+"p": "Antes de que te cases,",
+"o": [
+"mira lo que haces",
+"piensa en tu futuro",
+"cuenta tus ahorros",
+"pide un consejo"
+],
+"c": 0,
+"e": "Conviene pensar bien las decisiones importantes antes de tomarlas."
+},
+{
+"p": "Árbol que nace torcido,",
+"o": [
+"jamás su tronco endereza",
+"siempre da buen fruto",
+"pronto se arregla",
+"acaba en la leña"
+],
+"c": 0,
+"e": "Es muy difícil corregir un defecto o un vicio cuando ya está muy arraigado."
+},
+{
+"p": "Barriga llena,",
+"o": [
+"corazón contento",
+"mente tranquila",
+"cuerpo cansado",
+"mesa vacía"
+],
+"c": 0,
+"e": "Con las necesidades cubiertas, es más fácil estar de buen humor."
+},
+{
+"p": "Con pan y vino",
+"o": [
+"se anda el camino",
+"se vive mejor",
+"se llega a Roma",
+"se gana el cielo"
+],
+"c": 0,
+"e": "Con buena comida se tienen fuerzas para seguir adelante."
+},
+{
+"p": "Donde manda capitán,",
+"o": [
+"no manda marinero",
+"mandan todos",
+"sobra el timón",
+"sopla el viento"
+],
+"c": 0,
+"e": "Quien tiene la autoridad es quien decide."
+},
+{
+"p": "El que a hierro mata,",
+"o": [
+"a hierro muere",
+"a fuego arde",
+"a palos acaba",
+"a solas queda"
+],
+"c": 0,
+"e": "Quien usa la violencia suele recibirla."
+},
+{
+"p": "Éramos pocos",
+"o": [
+"y parió la abuela",
+"y llegó el cartero",
+"y se acabó el pan",
+"y cantó el gallo"
+],
+"c": 0,
+"e": "Se dice cuando a una situación ya complicada se suma otro problema."
+},
+{
+"p": "Más vale tarde",
+"o": [
+"que nunca",
+"que pronto",
+"que mal",
+"que después"
+],
+"c": 0,
+"e": "Es mejor hacer algo con retraso que no hacerlo."
+},
+{
+"p": "El saber",
+"o": [
+"no ocupa lugar",
+"no tiene precio",
+"hace sabios",
+"pesa poco"
+],
+"c": 0,
+"e": "Aprender nunca estorba."
+},
+{
+"p": "No es oro",
+"o": [
+"todo lo que reluce",
+"todo lo que pesa",
+"lo que se encuentra",
+"lo que se vende"
+],
+"c": 0,
+"e": "Las apariencias engañan."
+},
+{
+"p": "A palabras necias,",
+"o": [
+"oídos sordos",
+"respuestas largas",
+"ojos abiertos",
+"mente despierta"
+],
+"c": 0,
+"e": "No hay que hacer caso de tonterías o de ofensas."
+},
+{
+"p": "Agua que no has de beber,",
+"o": [
+"déjala correr",
+"no la ensucies",
+"guárdala bien",
+"no la pises"
+],
+"c": 0,
+"e": "No te metas en asuntos que no te conciernen."
+},
+{
+"p": "Dios aprieta,",
+"o": [
+"pero no ahoga",
+"pero no ve",
+"y a veces olvida",
+"y no suelta"
+],
+"c": 0,
+"e": "Los problemas, por duros que sean, tienen salida."
+},
+{
+"p": "Cuando una puerta se cierra,",
+"o": [
+"otra se abre",
+"otra se rompe",
+"hay que esperar",
+"se enciende una luz"
+],
+"c": 0,
+"e": "Tras un fracaso aparecen nuevas oportunidades."
+},
+{
+"p": "Más vale solo",
+"o": [
+"que mal acompañado",
+"que sin dinero",
+"que sin pan",
+"que sin trabajo"
+],
+"c": 0,
+"e": "Es mejor estar sin compañía que con quien no conviene."
+},
+{
+"p": "Quien tiene boca",
+"o": [
+"se equivoca",
+"pregunta mucho",
+"habla de más",
+"nunca calla"
+],
+"c": 0,
+"e": "Todos cometemos errores, sobre todo quien actúa o habla."
+},
+{
+"p": "Tanto va el cántaro a la fuente",
+"o": [
+"que al fin se rompe",
+"que siempre vuelve lleno",
+"que se acaba el agua",
+"que la fuente se seca"
+],
+"c": 0,
+"e": "Quien se arriesga una y otra vez acaba sufriendo las consecuencias."
+},
+{
+"p": "El que ríe el último,",
+"o": [
+"ríe mejor",
+"ríe poco",
+"ríe solo",
+"ríe más fuerte"
+],
+"c": 0,
+"e": "Lo importante es cómo acaban las cosas, no cómo empiezan."
+},
+{
+"p": "En el país de los ciegos,",
+"o": [
+"el tuerto es rey",
+"el sordo es sabio",
+"todos ven poco",
+"nadie manda"
+],
+"c": 0,
+"e": "Con poca habilidad se destaca entre quienes tienen menos."
+},
+{
+"p": "Muerto el perro,",
+"o": [
+"se acabó la rabia",
+"se acabó el ruido",
+"llega la calma",
+"se fue el miedo"
+],
+"c": 0,
+"e": "Si desaparece la causa de un problema, desaparece el problema."
+},
+{
+"p": "Los trapos sucios",
+"o": [
+"se lavan en casa",
+"se tienden al sol",
+"se tiran fuera",
+"se dejan secar"
+],
+"c": 0,
+"e": "Los problemas privados hay que resolverlos sin contárselos a todo el mundo."
+},
+{
+"p": "Zapatero,",
+"o": [
+"a tus zapatos",
+"a tu cuenta",
+"a tu casa",
+"a tu trabajo"
+],
+"c": 0,
+"e": "Cada cual debe ocuparse de lo que sabe y no meterse en lo ajeno."
+},
+{
+"p": "Cada maestrillo",
+"o": [
+"tiene su librillo",
+"tiene su escuela",
+"tiene su alumno",
+"tiene su lección"
+],
+"c": 0,
+"e": "Cada persona tiene su propia forma de hacer las cosas."
+},
+{
+"p": "A río revuelto,",
+"o": [
+"ganancia de pescadores",
+"pesca para todos",
+"agua para beber",
+"tiempo de calma"
+],
+"c": 0,
+"e": "Los momentos de confusión los aprovechan algunos para sacar beneficio."
+},
+{
+"p": "Poderoso caballero",
+"o": [
+"es don Dinero",
+"es el trabajo",
+"es el hambre",
+"es el tiempo"
+],
+"c": 0,
+"e": "El dinero tiene mucha influencia."
+},
+{
+"p": "Ni tanto",
+"o": [
+"ni tan calvo",
+"ni tan poco",
+"ni tan alto",
+"ni tan lejos"
+],
+"c": 0,
+"e": "Conviene evitar los extremos."
+}
+]
+}

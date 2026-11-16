@@ -1,0 +1,8 @@
+{
+  "titulo": "Conversor de velocidad",
+  "descripcion": "Convierte kilómetros por hora, metros por segundo, millas por hora, nudos y número Mach al instante, con tabla de todas las equivalencias.",
+  "fecha": "2026-11-14",
+  "estado": "publicado",
+  "categoria": "conversores",
+  "orden": 38
+}
