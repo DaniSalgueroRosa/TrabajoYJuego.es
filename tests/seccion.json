@@ -7,6 +7,7 @@
   "mundo": "juego",
   "aspecto": "libre",
   "orden": 4,
+  "anuncios": true,
   "vacio": "El primer test aparecerá en esta página en cuanto se publique.",
   "ordenar_por": "orden",
   "schema": {

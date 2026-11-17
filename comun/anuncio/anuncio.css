@@ -1,8 +1,26 @@
-/* ANUNCIO: hueco de publicidad (solo existe en la página cuando hay publicidad activa y un bloque con número).
-   Siempre va rotulado «Publicidad», con aire alrededor y lejos de botones, tableros y menús, para que no se confunda con ningún control
-   (política de colocación de AdSense). Nunca se coloca encima ni al lado del área de juego. */
-.anuncio { max-width: 46rem; margin: var(--e7) auto 0; padding-top: var(--e4); border-top: 1px dashed var(--linea); }
-.anuncio-rotulo { margin-bottom: var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
+/* ANUNCIO: huecos de publicidad. Solo existen en la página cuando hay publicidad activa y el hueco tiene un bloque con número.
+   Siempre van rotulados «Publicidad», con aire alrededor y lejos de botones, tableros, campos y menús, para que no se confundan con ningún
+   control (política de colocación de AdSense). Hay cinco posiciones:
+     · cabecera — banner fino bajo el menú de los listados y las fichas: se ve nada más entrar y queda por encima del título, lejos del juego;
+     · portada  — banner fino justo debajo del bloque «Trabajo | Juego» de la portada;
+     · texto   — dentro del texto de la ficha, entre dos apartados, después de bastante texto (lo coloca el motor, ver motor/anuncios.py);
+     · final   — al final de la ficha, después del texto;
+     · listado — en los listados, entre dos bloques de tarjetas y al final.
+   Nunca se colocan encima ni al lado del área de juego, de la herramienta o del test, ni flotando sobre el contenido. */
+.anuncio { max-width: 46rem; margin: var(--e7) auto 0; padding-top: var(--e4); border-top: 1px dashed var(--linea); clear: both; }
+.anuncio--texto { margin: var(--e7) auto; }
+/* Banners de arriba (cabecera y portada): finos (formato horizontal, 728 px como mucho) y sin línea de separación. Van centrados en la página. El marco no tiene espacio propio: si el hueco queda vacío, desaparece entero y no deja un hueco en blanco. */
+.anuncio--cabecera, .anuncio--portada { max-width: 46rem; margin: var(--e5) auto var(--e2); padding-top: 0; border-top: 0; }
+.anuncio--portada { margin: var(--e5) auto 0; }
+.anuncio-marco:has(.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
+.anuncio--listado { max-width: none; margin-bottom: var(--e7); }
+/* En las fichas el texto va alineado a la izquierda: el anuncio del final se alinea con él, igual que el del texto. */
+.ficha-cuerpo > .anuncio, .ficha--libre .contenedor > .anuncio { margin-left: 0; margin-right: auto; }
+/* «.anuncio .anuncio-rotulo» (y no solo «.anuncio-rotulo») para ganar a las reglas de párrafo de cada sección (anchos y márgenes del texto). */
+.anuncio .anuncio-rotulo { max-width: none; margin: 0 0 var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
 .anuncio .adsbygoogle { min-height: 90px; }
+/* Si AdSense no tiene anuncio que mostrar, el hueco desaparece entero (sin rótulo suelto ni espacio vacío). */
+.anuncio:has(.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
 main[data-mundo="juego"] .anuncio { border-top-color: var(--noche-linea); }
-main[data-mundo="juego"] .anuncio-rotulo { color: var(--tiza-suave); }
+main[data-mundo="juego"] .anuncio .anuncio-rotulo { color: var(--tiza-suave); }
+@media print { .anuncio, .anuncio-marco { display: none; } }

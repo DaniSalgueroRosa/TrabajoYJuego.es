@@ -7,6 +7,9 @@
 <a class="salto" href="#contenido">Saltar al contenido</a>
 {{> comun/cabecera/cabecera}}
 <main id="contenido" tabindex="-1" data-mundo="{{pagina.mundo}}"{{#pagina.main_attrs}} {{{pagina.main_attrs}}}{{/pagina.main_attrs}}>
+{{#pagina.anuncio_cabecera}}
+{{> comun/anuncio/anuncio-cabecera}}
+{{/pagina.anuncio_cabecera}}
 {{{contenido}}}
 </main>
 {{> comun/pie/pie}}

@@ -1,9 +1,13 @@
 {
-  "_ayuda": "Publicidad de Google AdSense. Mientras «activa» sea false (o el entorno no sea «produccion», o falte «cliente») el sitio NO carga ningún código de anuncios ni de consentimiento de Google, y las páginas legales lo explican así. Cuando AdSense apruebe tu cuenta: pon tu identificador de editor en «cliente» (ca-pub- y 16 cifras), el número de cada bloque de anuncios en «bloques» y «activa» en true. Instrucciones completas en docs/PUBLICAR.md.",
+  "_ayuda": "Publicidad de Google AdSense. Mientras «activa» sea false (o el entorno no sea «produccion», o falte «cliente») el sitio NO carga ningún código de anuncios ni de consentimiento de Google, y las páginas legales lo explican así. Cuando AdSense apruebe tu cuenta: pon tu identificador de editor en «cliente» (ca-pub- y 16 cifras), el número de bloque en «bloques» y «activa» en true. Los huecos son cinco: «cabecera» (banner fino bajo el menú de los listados y de cada juego, herramienta, test y guía), «portada» (banner fino bajo el bloque Trabajo | Juego; si lo dejas vacío usa «cabecera»), «texto» (dentro del texto de cada ficha), «final» (al final de cada ficha) y «listado» (en los listados). Con crear un solo bloque de anuncios en AdSense y ponerlo en «general» ya funcionan los cinco; si quieres medir cada posición por separado, crea un bloque por hueco y rellena también los demás. Para PEDIR la revisión a AdSense: pon solo «cliente» (con «activa» en false y el entorno en «produccion»); así el sitio publica ads.txt y una etiqueta meta de verificación, sin anuncios ni código de Google. Instrucciones completas en docs/PUBLICAR.md.",
   "activa": false,
   "cliente": "",
   "bloques": {
+    "general": "",
+    "cabecera": "",
+    "portada": "",
     "listado": "",
-    "juego": ""
+    "texto": "",
+    "final": ""
   }
 }

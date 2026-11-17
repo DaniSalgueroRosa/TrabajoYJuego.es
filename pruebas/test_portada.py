@@ -27,7 +27,7 @@ from pruebas.ejemplos import copiar_proyecto  # noqa: E402
 LEGALES = ["aviso-legal", "politica-de-privacidad", "politica-de-cookies", "condiciones-de-uso", "publicidad-y-transparencia", "contacto"]
 TITULAR = {"nombre": "Titular de Prueba S.L.", "nif": "B00000000", "domicilio": "Calle de la Prueba 1, 28000 Madrid",
            "email": "prueba@ejemplo.test", "telefono": "", "registro": "", "alojamiento": "Hosting de Prueba S.A."}
-PUBLICIDAD = {"activa": True, "cliente": "ca-pub-1234567890123456", "bloques": {"listado": "1111111111", "juego": "2222222222"}}
+PUBLICIDAD = {"activa": True, "cliente": "ca-pub-1234567890123456", "bloques": {"cabecera": "6666666666", "portada": "7777777777", "listado": "1111111111", "texto": "2222222222", "final": "3333333333"}}
 
 
 def trozo(html: str, clase: str) -> str:

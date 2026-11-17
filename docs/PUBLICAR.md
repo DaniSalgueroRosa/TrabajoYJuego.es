@@ -61,12 +61,25 @@ El sitio está pensado para un **dominio propio en la raíz**, no para una subca
 | Pieza | Dónde se genera | Cuándo |
 |---|---|---|
 | Script de AdSense (`adsbygoogle.js?client=ca-pub-…`) | `<head>` de todas las páginas (`comun/cabeza.html`) | Solo con `activa: true` + `cliente` + `entorno: produccion` |
-| Hueco de anuncio rotulado «Publicidad» (listados) | Al final de `juegos/listado.html` (`comun/anuncio/anuncio-listado.html`) | Solo si hay número en `bloques.listado` |
-| Hueco de anuncio rotulado «Publicidad» (juego) | Al final de cada página de juego, **después** del texto y del botón de volver, nunca junto al tablero (`comun/anuncio/anuncio-elemento.html`) | Solo si hay número en `bloques.juego` |
-| `ads.txt` | `dist/ads.txt` | Solo con publicidad activa, con tu identificador real |
+| Banner «Publicidad» **bajo el menú** | En los listados y en cada juego, herramienta, test y guía, por encima del título: se ve nada más entrar y queda lejos del juego o la herramienta. Banner fino (formato horizontal, 728 px como mucho). Lo pone el marco de página (`comun/marco.html` → `comun/anuncio/anuncio-cabecera.html`) en las secciones con `"anuncios": true` | Solo si el hueco tiene número (`bloques.cabecera` o `bloques.general`) |
+| Banner «Publicidad» **en la portada** | Justo debajo del bloque «Trabajo \| Juego» (`portada/portada.html` → `comun/anuncio/anuncio-portada.html`). Fino, como el de la cabecera | Solo con número (`bloques.portada`; si está vacío usa `bloques.cabecera` y luego `bloques.general`) |
+| Hueco «Publicidad» **dentro del texto** | En juegos, herramientas, tests y guías: entre dos apartados, tras bastante texto y lejos del juego, la herramienta o el test. Lo coloca el motor (`motor/anuncios.py`; plantilla `comun/anuncio/anuncio-texto.html`). Si la ficha tiene muy poco texto, no se pone | Solo si el hueco tiene número (`bloques.texto` o `bloques.general`) |
+| Hueco «Publicidad» **al final** | Al final de cada ficha, después del texto (y, en los juegos, del botón de volver): `comun/anuncio/anuncio-final.html` | Solo con número (`bloques.final` o `bloques.general`) |
+| Hueco «Publicidad» **en los listados** | Entre dos bloques de tarjetas y al final de la página (`comun/anuncio/anuncio-listado.html`) | Solo con número (`bloques.listado` o `bloques.general`) |
+| `ads.txt` y etiqueta `<meta name="google-adsense-account">` | `dist/ads.txt` y el `<head>` de las páginas (salvo la 404) | Con `cliente` + `entorno: produccion`, esté `activa` en true **o en false** (modo verificación: AdSense los pide para revisar el sitio; no hay anuncios ni código de Google) |
 | Botón «Cambiar mi consentimiento» | `legal/politica-de-cookies/` (`comun/consentimiento/consentimiento.js`) | Solo con publicidad activa |
 
-Si quieres anuncios en otra sección, añade `{{> comun/anuncio/anuncio-listado}}` o `{{> comun/anuncio/anuncio-elemento}}` al final de su `listado.html` o `ficha.html`
-(y apunta el número de bloque que corresponda). Mantén los anuncios lejos de botones y áreas de juego.
+**Con un solo bloque de AdSense basta:** créalo (display adaptable) y pon su número en `bloques.general`; lo usan los cinco huecos (AdSense permite reutilizar un bloque
+en varias posiciones). Si más adelante quieres ver en AdSense cuánto rinde cada posición, crea un bloque por hueco y rellena `cabecera`, `portada`, `texto`, `final` y `listado` (los dos banners de arriba pueden compartir bloque: crea uno de tipo horizontal para `cabecera` y deja `portada` vacío).
+
+**Orden recomendado:** 1) publica el sitio con tu `cliente` y `activa: false`; 2) en AdSense añade el sitio, verifícalo y pide la revisión; 3) cuando lo aprueben, crea el bloque, ponlo en `bloques.general`, pon `activa: true`, reconstruye y vuelve a subir.
+
+**Las páginas legales (contacto incluido) y la 404 no llevan anuncios**, a propósito: son páginas de texto obligatorio o de error. La portada lleva solo el banner fino de debajo del bloque «Trabajo | Juego».
+
+**Imprescindible en AdSense:** desactiva los **anuncios automáticos** y los formatos que se quedan fijos o a pantalla completa (anclados, viñetas). Si no, Google puede
+poner anuncios en sitios que este sitio no ha previsto, y la página «Publicidad y transparencia» dejaría de decir la verdad.
+
+Si quieres anuncios en una sección nueva: pon `"anuncios": true` en su `seccion.json` (activa el del texto) (eso activa también el banner de cabecera, que pone el marco solo) y añade `{{> comun/anuncio/anuncio-final}}` al final de su `ficha.html`
+y `{{> comun/anuncio/anuncio-listado}}` al final de su `listado.html`. Mantén los anuncios lejos de botones y áreas de juego.
 
 El sitio no promete que AdSense lo apruebe ni muestra anuncios falsos: mientras `activa` sea `false` no hay huecos vacíos ni código de terceros.

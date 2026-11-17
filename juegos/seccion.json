@@ -6,6 +6,7 @@
   "resumen": "Partidas cortas para cuando toca parar.",
   "mundo": "juego",
   "orden": 3,
+  "anuncios": true,
   "vacio": "El primer juego aparecerá en esta página en cuanto se publique.",
   "ordenar_por": "orden",
   "buscador": true,

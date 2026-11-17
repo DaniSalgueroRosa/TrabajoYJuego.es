@@ -7,6 +7,9 @@
      informacion/informacion.css  datos, publicidad y enlaces a las páginas legales
    Para añadir una parte nueva: crea su carpeta con <parte>.html y <parte>.css y añade {{> portada/<parte>/<parte>}} en portada.html. */
 .portada { display: block; }
+/* Con el banner de la portada, el bloque «Trabajo | Juego» se acorta 6 rem en pantallas anchas para que el banner entre entero en la primera pantalla
+   (sin él, en un portátil asomaría solo la mitad). En móvil las dos mitades se apilan y el banner queda después de ellas. */
+@media (min-width: 52.01rem) { .portada--anuncio .hero { min-height: clamp(32rem, calc(100svh - 17rem), 46rem); } }
 
 /* ===== portada/explorar/explorar.css ===== */
 /* PORTADA · EXPLORAR: índice de cada sección que tiene categorías, con todos sus elementos publicados enlazados.

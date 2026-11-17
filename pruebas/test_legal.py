@@ -30,7 +30,7 @@ PAGINAS = ["aviso-legal", "politica-de-privacidad", "politica-de-cookies", "cond
 TITULAR = {"nombre": "Titular de Prueba S.L.", "nif": "B00000000", "domicilio": "Calle de la Prueba 1, 28000 Madrid",
            "email": "prueba@ejemplo.test", "telefono": "", "registro": "", "alojamiento": "Hosting de Prueba S.A."}
 CLIENTE = "ca-pub-1234567890123456"
-PUBLICIDAD = {"activa": True, "cliente": CLIENTE, "bloques": {"listado": "1111111111", "juego": "2222222222"}}
+PUBLICIDAD = {"activa": True, "cliente": CLIENTE, "bloques": {"cabecera": "6666666666", "portada": "7777777777", "listado": "1111111111", "texto": "2222222222", "final": "3333333333"}}
 DESCRIPCION = "Una descripción lo bastante larga para pasar la comprobación de longitud mínima."
 
 
@@ -58,6 +58,16 @@ class Base(unittest.TestCase):
     def juego(self, slug="juego-uno"):
         ficha(self.raiz, "juegos", slug, {"titulo": "Juego de prueba", "fecha": "2026-11-01", "descripcion": DESCRIPCION, "categoria": "logica"})
         escribir(self.raiz / "juegos" / slug / "pagina.html", "<div class=\"juego\"><p>Hola.</p></div>\n")
+
+    def juego_con_texto(self, slug="juego-uno", apartados=5):
+        """Un juego con el texto explicativo de verdad: varios apartados con párrafos, y al final las preguntas frecuentes."""
+        ficha(self.raiz, "juegos", slug, {"titulo": "Juego de prueba", "fecha": "2026-11-01", "descripcion": DESCRIPCION, "categoria": "logica"})
+        parrafo = "<p>" + ("Este párrafo explica una parte del juego con palabras sencillas para que se pueda leer sin prisa. " * 4) + "</p>\n"
+        cuerpo = '<div class="juego" data-juego="x"><div class="pantalla"><button type="button">Jugar</button></div></div>\n\n<div class="juego-texto">\n'
+        for i in range(1, apartados):
+            cuerpo += f"  <h2>Apartado {i}</h2>\n  " + parrafo + "  " + parrafo
+        cuerpo += "  <h2>Preguntas frecuentes</h2>\n  <details><summary>¿Una?</summary><p>Sí, una respuesta.</p></details>\n  <details><summary>¿Otra?</summary><p>No, otra respuesta.</p></details>\n</div>\n"
+        escribir(self.raiz / "juegos" / slug / "pagina.html", cuerpo)
 
     def construir(self):
         return Constructor(self.raiz, self.dist).construir()
@@ -235,7 +245,7 @@ class SinPublicidad(Base):
 
     def test_un_bloque_con_letras_se_rechaza(self):
         self.produccion()
-        self.config("publicidad.json", activa=True, cliente=CLIENTE, bloques={"listado": "abc", "juego": ""})
+        self.config("publicidad.json", activa=True, cliente=CLIENTE, bloques={"listado": "abc", "final": ""})
         with self.assertRaises(ErrorProyecto):
             self.construir()
 
@@ -247,23 +257,86 @@ class SinPublicidad(Base):
         self.assertNotIn("data-consentimiento", cookies)
         publicidad = self.leer("legal/publicidad-y-transparencia/index.html")
         self.assertIn("no muestra anuncios", publicidad)
+        self.assertIn("saldrá solo en estas posiciones", publicidad)
+        self.assertNotIn("Los anuncios salen solo", publicidad)
         privacidad = self.leer("legal/politica-de-privacidad/index.html")
         self.assertNotIn("Google LLC", privacidad)
         self.assertIn("no se carga publicidad", privacidad)
 
     def test_el_listado_y_el_juego_no_reservan_hueco_de_anuncio(self):
-        self.juego()
+        self.juego_con_texto()
         self.construir()
         self.assertNotIn("anuncio", self.leer("juegos/juego-uno/index.html").replace("anuncios", ""))
         self.assertNotIn('class="anuncio', self.leer("juegos/index.html"))
 
 
+class Verificacion(Base):
+    """Para pedir la revisión, AdSense necesita ver tu identificador en la web ANTES de aprobarla. Con «activa» en false y «cliente» relleno, en
+    producción, el sitio publica solo ads.txt y la etiqueta meta de cuenta: texto, no código; sin anuncios, sin script y sin consentimiento."""
+
+    def preparar(self, **cambios):
+        self.produccion()
+        self.titular_completo()
+        self.config("publicidad.json", activa=False, cliente=CLIENTE, **cambios)
+        self.juego_con_texto()
+        return self.construir()
+
+    def test_publica_ads_txt_y_la_etiqueta_meta_y_nada_mas_de_google(self):
+        self.preparar()
+        self.assertEqual(self.leer("ads.txt"), "google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0\n")
+        etiqueta = f'<meta name="google-adsense-account" content="{CLIENTE}">'
+        for ruta in ("index.html", "juegos/index.html", "juegos/juego-uno/index.html", "legal/aviso-legal/index.html"):
+            self.assertIn(etiqueta, self.leer(ruta), ruta)
+        self.assertNotIn(etiqueta, self.leer("404.html"))
+        todo = self.todo_el_html()
+        for rastro in ("adsbygoogle", "googlesyndication", "data-ad-client", "googlefc", 'class="anuncio', "consentimiento.js"):
+            self.assertNotIn(rastro, todo, rastro)
+        for p in (self.dist / "assets").rglob("*.js"):
+            self.assertNotIn("googlesyndication", p.read_text(encoding="utf-8"))
+
+    def test_los_textos_legales_siguen_diciendo_que_no_hay_anuncios(self):
+        self.preparar()
+        self.assertIn("no muestra anuncios", self.leer("legal/publicidad-y-transparencia/index.html"))
+        self.assertIn("no carga cookies ni elementos de terceros", self.leer("legal/politica-de-cookies/index.html"))
+        self.assertNotIn("data-consentimiento", self.leer("legal/politica-de-cookies/index.html"))
+        self.assertIn("Ahora mismo no muestra anuncios", self.leer("index.html"))
+
+    def test_en_preproduccion_no_sale_nada(self):
+        self.config("publicidad.json", activa=False, cliente=CLIENTE)
+        self.juego_con_texto()
+        self.construir()
+        self.assertNotIn("ca-pub-", self.todo_el_html())
+        self.assertFalse((self.dist / "ads.txt").exists())
+
+    def test_sin_cliente_no_sale_nada_aunque_sea_produccion(self):
+        self.produccion()
+        self.titular_completo()
+        self.juego_con_texto()
+        self.construir()
+        self.assertNotIn("google-adsense-account", self.todo_el_html())
+        self.assertFalse((self.dist / "ads.txt").exists())
+
+    def test_con_la_publicidad_activa_tambien_sale_la_etiqueta_y_ads_txt(self):
+        self.produccion()
+        self.titular_completo()
+        self.config("publicidad.json", **PUBLICIDAD)
+        self.juego_con_texto()
+        self.construir()
+        self.assertIn(f'content="{CLIENTE}"', self.leer("index.html"))
+        self.assertTrue((self.dist / "ads.txt").exists())
+
+    def test_el_sitio_pasa_la_revision(self):
+        self.preparar()
+        res = comprobar(self.raiz)
+        self.assertEqual(res.errores, [], res.errores)
+
+
 class ConPublicidad(Base):
-    def preparar(self, bloques=None):
+    def preparar(self, bloques=None, texto_largo=False):
         self.produccion()
         self.titular_completo()
         self.config("publicidad.json", **dict(PUBLICIDAD, **({"bloques": bloques} if bloques is not None else {})))
-        self.juego()
+        self.juego_con_texto() if texto_largo else self.juego()
         return self.construir()
 
     def test_el_script_sale_en_todas_las_paginas_con_el_identificador_real(self):
@@ -277,29 +350,125 @@ class ConPublicidad(Base):
         self.assertEqual(self.leer("ads.txt"), "google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0\n")
 
     def test_los_bloques_reservados_llevan_etiqueta_y_su_numero(self):
-        self.preparar()
+        self.preparar(texto_largo=True)
         juego = self.leer("juegos/juego-uno/index.html")
         listado = self.leer("juegos/index.html")
-        self.assertIn('data-ad-slot="2222222222"', juego)
+        self.assertEqual(re.findall(r'data-posicion="texto"[\s\S]*?data-ad-slot="(\d+)"', juego), ["2222222222"])
+        self.assertEqual(re.findall(r'data-posicion="final"[\s\S]*?data-ad-slot="(\d+)"', juego), ["3333333333"])
         self.assertIn('data-ad-slot="1111111111"', listado)
         for html in (juego, listado):
             self.assertIn("Publicidad<", html)
             self.assertIn(f'data-ad-client="{CLIENTE}"', html)
 
-    def test_el_anuncio_del_juego_va_despues_del_juego_y_del_boton_de_volver(self):
-        self.preparar()
+    def test_el_anuncio_del_final_va_despues_del_juego_y_del_boton_de_volver(self):
+        self.preparar(texto_largo=True)
         html = self.leer("juegos/juego-uno/index.html")
-        fin_del_juego = html.index("<p>Hola.</p></div>")
-        self.assertGreater(html.index('class="anuncio"'), fin_del_juego)
-        volver = [m.start() for m in re.finditer(r'href="\.\./"', html)]
-        if volver:
-            self.assertGreater(html.index('class="anuncio"'), min(volver))
-        self.assertEqual(html.count('class="anuncio"'), 1)
+        fin_del_juego = html.index("Jugar</button></div></div>")
+        final = html.index('data-posicion="final"')
+        self.assertGreater(final, fin_del_juego)
+        volver = [m.start() for m in re.finditer(r'<a [^>]*>Volver a todos los juegos</a>', html)]
+        self.assertEqual(len(volver), 2)
+        self.assertGreater(final, max(volver))
+        self.assertEqual(html.count('class="anuncio anuncio--final"'), 1)
+
+    def test_el_anuncio_del_texto_va_entre_dos_apartados_y_lejos_del_juego(self):
+        self.preparar(texto_largo=True)
+        html = self.leer("juegos/juego-uno/index.html")
+        self.assertEqual(html.count('data-posicion="texto"'), 1)
+        pos = html.index('<aside class="anuncio anuncio--texto"')
+        fin_del_juego = html.index("Jugar</button></div></div>")
+        antes = html[fin_del_juego:pos]
+        self.assertGreater(len(re.sub(r"<[^>]+>", "", antes).split()), 40, "tiene que haber bastante texto entre el juego y el anuncio")
+        # justo antes hay un párrafo cerrado y justo después un encabezado: no corta ningún apartado por la mitad
+        self.assertRegex(html[:pos].rstrip()[-6:], r"</p>")
+        despues = re.sub(r"^\s*<aside.*?</aside>\s*", "", html[pos:], flags=re.S)
+        self.assertTrue(despues.lstrip().startswith("<h2"), despues[:80])
+        # y no es el último apartado (las preguntas frecuentes quedan después, con el anuncio del final)
+        self.assertLess(pos, html.index("Preguntas frecuentes"))
+
+    def test_nunca_hay_mas_de_un_anuncio_por_posicion_y_ninguno_cerca_de_los_controles(self):
+        self.preparar(texto_largo=True)
+        html = self.leer("juegos/juego-uno/index.html")
+        self.assertEqual(html.count('class="anuncio '), 3)   # cabecera (antes del título), texto y final
+        self.assertEqual(html.count('data-posicion="cabecera"'), 1)
+        inicio_juego, fin_juego = html.index('<div class="juego"'), html.index("Jugar</button></div></div>")
+        for m in re.finditer(r'class="anuncio ', html):
+            self.assertFalse(inicio_juego < m.start() < fin_juego)
+
+    def test_sin_texto_suficiente_solo_queda_el_anuncio_del_final(self):
+        self.preparar()          # el juego de prueba corto: «<p>Hola.</p>»
+        html = self.leer("juegos/juego-uno/index.html")
+        self.assertNotIn('data-posicion="texto"', html)
+        self.assertEqual(html.count('data-posicion="final"'), 1)
+
+    def test_el_listado_largo_lleva_un_anuncio_entre_las_tarjetas_y_otro_al_final(self):
+        self.produccion()
+        self.titular_completo()
+        self.config("publicidad.json", **PUBLICIDAD)
+        for i in range(20):
+            self.juego_con_texto(f"juego-{i:02d}")
+        self.construir()
+        html = self.leer("juegos/index.html")
+        self.assertEqual(html.count('data-posicion="listado"'), 2)
+        primero = html.index('data-posicion="listado"')
+        self.assertEqual(html[:primero].count("<li data-categoria"), 12)
+        self.assertGreater(html[primero:].count("<li data-categoria"), 0)
+        self.assertGreater(html.rindex('data-posicion="listado"'), html.rindex("<li data-categoria"))
+
+    def test_un_listado_corto_solo_lleva_el_anuncio_del_final(self):
+        self.preparar()
+        html = self.leer("juegos/index.html")
+        self.assertEqual(html.count('data-posicion="listado"'), 1)
+
+    def test_con_un_bloque_general_lo_usan_todos_los_huecos_sin_numero_propio(self):
+        informe = self.preparar(bloques={"general": "4444444444", "final": "5555555555"}, texto_largo=True)
+        juego = self.leer("juegos/juego-uno/index.html")
+        self.assertEqual(re.findall(r'data-posicion="texto"[\s\S]*?data-ad-slot="(\d+)"', juego), ["4444444444"])
+        self.assertEqual(re.findall(r'data-posicion="final"[\s\S]*?data-ad-slot="(\d+)"', juego), ["5555555555"])
+        self.assertIn('data-ad-slot="4444444444"', self.leer("juegos/index.html"))
+        self.assertEqual(re.findall(r'data-posicion="cabecera"[\s\S]*?data-ad-slot="(\d+)"', juego), ["4444444444"])
+        self.assertEqual(re.findall(r'data-posicion="portada"[\s\S]*?data-ad-slot="(\d+)"', self.leer("index.html")), ["4444444444"])
+        self.assertFalse(any("bloque" in a for a in informe.avisos), informe.avisos)
+
+    def test_el_banner_de_la_portada_usa_su_numero_y_si_no_el_de_cabecera(self):
+        self.preparar(bloques={"general": "4444444444", "cabecera": "8888888888", "portada": "9999999999"})
+        self.assertEqual(re.findall(r'data-posicion="portada"[\s\S]*?data-ad-slot="(\d+)"', self.leer("index.html")), ["9999999999"])
+        self.assertEqual(re.findall(r'data-posicion="cabecera"[\s\S]*?data-ad-slot="(\d+)"', self.leer("juegos/juego-uno/index.html")), ["8888888888"])
+        self.preparar(bloques={"general": "4444444444", "cabecera": "8888888888"})
+        self.assertEqual(re.findall(r'data-posicion="portada"[\s\S]*?data-ad-slot="(\d+)"', self.leer("index.html")), ["8888888888"])
+
+    def test_los_banners_de_arriba_son_finos_y_van_antes_que_el_titulo(self):
+        self.preparar()
+        for ruta in ("index.html", "juegos/index.html", "juegos/juego-uno/index.html"):
+            with self.subTest(pagina=ruta):
+                html = self.leer(ruta)
+                banner = re.search(r'<aside class="anuncio anuncio--(?:cabecera|portada)"[\s\S]*?</aside>', html).group(0)
+                self.assertIn('data-ad-format="horizontal"', banner)
+                self.assertIn('data-full-width-responsive="false"', banner)
+                self.assertIn("Publicidad", banner)
+        juego = self.leer("juegos/juego-uno/index.html")
+        self.assertLess(juego.index('data-posicion="cabecera"'), juego.index("<h1"))
 
     def test_sin_numero_de_bloque_avisa_de_los_anuncios_automaticos(self):
-        informe = self.preparar(bloques={"listado": "", "juego": ""})
-        self.assertTrue(any("bloque" in a for a in informe.avisos), informe.avisos)
-        self.assertNotIn('class="anuncio"', self.leer("juegos/juego-uno/index.html"))
+        informe = self.preparar(bloques={})
+        self.assertTrue(any("ningún bloque" in a for a in informe.avisos), informe.avisos)
+        self.assertNotIn('class="anuncio', self.leer("juegos/juego-uno/index.html"))
+
+    def test_un_hueco_sin_numero_y_sin_general_avisa_y_se_queda_vacio(self):
+        informe = self.preparar(bloques={"final": "5555555555"}, texto_largo=True)
+        self.assertTrue(any("texto" in a and "listado" in a for a in informe.avisos), informe.avisos)
+        juego = self.leer("juegos/juego-uno/index.html")
+        self.assertNotIn('data-posicion="texto"', juego)
+        self.assertIn('data-posicion="final"', juego)
+
+    def test_los_anuncios_no_salen_en_las_paginas_legales_ni_en_la_404_y_la_portada_solo_lleva_su_banner(self):
+        self.preparar(texto_largo=True)
+        for ruta in ("404.html", "legal/index.html", "legal/aviso-legal/index.html", "legal/publicidad-y-transparencia/index.html"):
+            with self.subTest(pagina=ruta):
+                self.assertNotIn('<aside class="anuncio', self.leer(ruta))
+        portada = self.leer("index.html")
+        self.assertEqual(portada.count('<aside class="anuncio'), 1)
+        self.assertEqual(portada.count('data-posicion="portada"'), 1)
 
     def test_el_boton_de_consentimiento_solo_esta_en_las_cookies(self):
         self.preparar()
@@ -320,6 +489,12 @@ class ConPublicidad(Base):
         publicidad = self.leer("legal/publicidad-y-transparencia/index.html")
         self.assertIn("se financia con publicidad de Google AdSense", publicidad)
         self.assertNotIn("garantiza", publicidad.lower())
+        # el texto dice las posiciones reales, en presente, y que lo legal y la 404 no llevan anuncios (la portada sí lleva su banner)
+        self.assertIn("Los anuncios salen solo en estas posiciones", publicidad)
+        self.assertNotIn("saldrá solo", publicidad)
+        for frase in ("Un banner fino bajo el menú", "Un banner fino en la portada", "Dentro del texto", "Al final", "En los listados",
+                      "No hay anuncios en las páginas legales"):
+            self.assertIn(frase, publicidad)
 
     def test_el_sitio_pasa_la_revision_en_produccion(self):
         self.preparar()

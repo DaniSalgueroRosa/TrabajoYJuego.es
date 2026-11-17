@@ -11,7 +11,7 @@ No se ha inventado ningún dato: no hay NIF, ni dirección, ni correo, ni identi
 | Revisión de los textos legales por quien lleve tu asesoría | `legal/*/pagina.html` | Son una base fiel a lo que el sitio hace, **no asesoramiento jurídico** |
 | Pasar `entorno` a `produccion` | `config/sitio.json` | En preproducción todo es `noindex` y `robots.txt` bloquea |
 | Elegir hosting | Libre: es una carpeta de archivos estáticos | Ver `PUBLICAR.md` |
-| Si habrá anuncios: cuenta de AdSense aprobada, identificador, 2 bloques, mensaje de consentimiento en Privacy & messaging, anuncios automáticos desactivados | `config/publicidad.json` + AdSense | Ver `LEGAL-PENDIENTE.md` |
+| Si habrá anuncios: cuenta de AdSense aprobada, identificador, 1 bloque («general»), mensaje de consentimiento en Privacy & messaging, anuncios automáticos desactivados | `config/publicidad.json` + AdSense | Ver `LEGAL-PENDIENTE.md` |
 
 ## Lo que hay en la v2 y no estaba en la v1
 
@@ -62,4 +62,4 @@ la configuración del titular, las pruebas de los juegos y de lo legal.
 - **Contacto solo por correo**: no hay formulario (un formulario obligaría a tratar datos y a explicarlo en privacidad).
 - **`entorno: preproduccion`** y **`publicidad.activa: false`**: hay que cambiarlos al publicar.
 - **La carpeta de pruebas se llama `pruebas/`**, no `tests/`, porque `tests/` es una sección.
-- **Los anuncios, si los hay, solo van en dos sitios**: al final de los listados y al final de cada juego (después del texto), nunca junto al tablero.
+- **Los anuncios, si los hay, solo van en cinco sitios**: un banner fino bajo el menú (listados y fichas, por encima del título), otro en la portada bajo el bloque «Trabajo | Juego», uno dentro del texto de cada ficha (entre dos apartados), uno al final de cada ficha y los de los listados; nunca junto a un tablero, herramienta o test, y ninguno en lo legal ni en la 404.

@@ -26,7 +26,7 @@ Si no arranca, la tabla «Si no arranca» de `LEEME.md` cubre los casos habitual
 Son los que **no existían** en la entrega anterior de la v2. Los juegos y las páginas legales van agrupados por carpeta.
 
 - `(carpeta principal)` → `INSTALACION-JUEGOS.md`
-- `comun/anuncio/` → `anuncio-elemento.html`, `anuncio-listado.html`, `anuncio.css`
+- `comun/anuncio/` → `anuncio-texto.html`, `anuncio-final.html`, `anuncio-listado.html`, `anuncio.css`
 - `comun/consentimiento/` → `consentimiento.js`
 - `comun/filtro/` → `filtro.css`, `filtro.js`
 - `config/` → `publicidad.json`, `titular.json`
@@ -269,7 +269,7 @@ Después de rellenar: `python3 sitio.py construir`, abre `/legal/aviso-legal/` y
 {
   "activa": true,
   "cliente": "ca-pub-0000000000000000",
-  "bloques": { "listado": "0000000000", "juego": "0000000000" }
+  "bloques": { "general": "0000000000" }
 }
 ```
 
@@ -278,8 +278,8 @@ Después de rellenar: `python3 sitio.py construir`, abre `/legal/aviso-legal/` y
 | Campo | De dónde sale |
 |---|---|
 | `cliente` | Tu identificador de editor de AdSense (`pub-…`); aquí se escribe con `ca-` delante: `ca-pub-` y 16 cifras |
-| `bloques.listado` | El número de un bloque de display adaptable que crees en AdSense para los **listados** (solo cifras) |
-| `bloques.juego` | El número de otro bloque para las **páginas de juego** (solo cifras) |
+| `bloques.general` | El número de un bloque de display adaptable de AdSense (solo cifras). **Con este basta**: lo usan todos los huecos que no tengan número propio |
+| `bloques.texto`, `bloques.final`, `bloques.listado` | Opcionales: un bloque distinto para el hueco dentro del texto, el del final de cada página y el de los listados, si quieres medirlos por separado |
 | `activa` | `true` solo cuando tu cuenta esté aprobada |
 
 Para que tenga efecto, además, `config/sitio.json` debe tener `"entorno": "produccion"`. Con `activa: false`, sin `cliente` o en preproducción, **el sitio no carga ni una línea de Google** (y las páginas legales lo dicen así).
@@ -289,18 +289,20 @@ Dónde aparece, para que sepas qué se genera (no lo edites a mano):
 | Qué | Archivo | Detalle |
 |---|---|---|
 | Script de AdSense | `comun/cabeza.html` | Va en el `<head>` de todas las páginas, solo con publicidad activa |
-| Hueco en el catálogo | `comun/anuncio/anuncio-listado.html` | Al final de `/juegos/`, lejos de los filtros y las tarjetas. Solo si pones `bloques.listado` |
-| Hueco en cada juego | `comun/anuncio/anuncio-elemento.html` | Al final de la página de cada juego, **nunca junto a los controles**. Solo si pones `bloques.juego` |
+| Hueco dentro del texto | `comun/anuncio/anuncio-texto.html` (lo coloca `motor/anuncios.py`) | Entre dos apartados del texto de cada juego, herramienta, test y guía, lejos de los controles. Si la ficha tiene muy poco texto, no se pone |
+| Hueco al final | `comun/anuncio/anuncio-final.html` | Al final de cada ficha, después del texto y del botón de volver |
+| Hueco en los listados | `comun/anuncio/anuncio-listado.html` | Entre dos bloques de tarjetas y al final del listado |
+| Sin anuncios | — | La portada, las páginas legales, el contacto y la 404 |
 | `ads.txt` | `dist/ads.txt` | Se crea solo en producción con anuncios activos |
 | Botón «Cambiar mi consentimiento» | `comun/consentimiento/` y la política de cookies | Reabre el mensaje de Google |
 
 Pasos, en este orden:
 
-1. Alta de `trabajoyjuego.es` en AdSense y espera de la revisión. **Nadie garantiza la aprobación**: Google decide en cada caso.
+1. Alta de `trabajoyjuego.es` en AdSense y espera de la revisión. **Nadie garantiza la aprobación**: Google decide en cada caso. Para pedir la revisión, publica antes el sitio con tu identificador en `cliente` y `activa` en `false` (con `entorno: produccion`): solo se publican `ads.txt` y una etiqueta meta, sin anuncios.
 2. Rellena `config/titular.json` (apartado 7). Sin eso, el sitio no está listo.
-3. Copia tu identificador en `cliente` y los dos números en `bloques`; pon `activa` en `true` y el entorno en `produccion`.
+3. Copia tu identificador en `cliente` y el número de bloque en `bloques.general`; pon `activa` en `true` y el entorno en `produccion`.
 4. En AdSense, apartado **Privacidad y mensajes**, crea y publica el **mensaje de consentimiento** de Google para el EEE y el Reino Unido, con aceptar, rechazar y gestionar con la misma facilidad. El sitio **no incluye un sistema de consentimiento propio** ni se presenta como certificado.
-5. En AdSense, **desactiva los anuncios automáticos** para este sitio, para que solo salgan los huecos reservados.
+5. En AdSense, **desactiva los anuncios automáticos** (y los anclados y viñetas) para este sitio, para que solo salgan los huecos reservados.
 6. `python3 sitio.py comprobar`, luego `python3 sitio.py construir`, y sube el contenido de `dist/` a tu hosting.
 7. Tras publicar, mira en AdSense el estado de `ads.txt` y abre el sitio en una ventana privada con las herramientas de desarrollador abiertas para ver que el mensaje de consentimiento aparece y no hay errores.
 

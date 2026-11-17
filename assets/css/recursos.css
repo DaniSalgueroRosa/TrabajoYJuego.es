@@ -27,6 +27,9 @@ body[data-seccion="recursos"] .rejilla .tarjeta-pie { grid-column: 2; grid-row: 
 body[data-seccion="recursos"] .ficha-cuerpo > * { max-width: var(--ancho-texto); }
 body[data-seccion="recursos"] .ficha-cuerpo > * + * { margin-top: var(--e4); }
 body[data-seccion="recursos"] .ficha-cuerpo > :is(h2, h3) { margin-top: var(--e6); }
+/* Los anuncios (los coloca el motor entre apartados y al final) conservan su aire: la regla «* + *» de arriba se lo quitaría. */
+body[data-seccion="recursos"] .ficha-cuerpo > .anuncio { margin-top: var(--e7); }
+body[data-seccion="recursos"] .ficha-cuerpo > .anuncio--texto { margin-bottom: var(--e7); }
 body[data-seccion="recursos"] .ficha-cuerpo h2 { font-size: var(--t3); letter-spacing: -0.03em; }
 body[data-seccion="recursos"] .ficha-cuerpo h3 { font-size: var(--t2); }
 body[data-seccion="recursos"] .ficha-cuerpo :is(ul, ol) { padding-left: 1.4em; }

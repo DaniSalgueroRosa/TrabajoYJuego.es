@@ -38,15 +38,23 @@
       {{/items}}
     </ul>
   </section>
+  {{#anuncio_despues}}
+  {{> comun/anuncio/anuncio-listado}}
+  {{/anuncio_despues}}
   {{/grupos}}
   {{/hay_grupos}}
   {{^hay_grupos}}
   <h2 class="solo-lectores">Lista de {{seccion.plural}}</h2>
+  {{#tandas}}
   <ul class="rejilla">
     {{#items}}
     <li data-categoria="{{categoria}}" data-busqueda="{{busqueda}}">{{> comun/tarjeta/tarjeta}}</li>
     {{/items}}
   </ul>
+  {{#anuncio_despues}}
+  {{> comun/anuncio/anuncio-listado}}
+  {{/anuncio_despues}}
+  {{/tandas}}
   {{/hay_grupos}}
   {{> comun/anuncio/anuncio-listado}}
   {{/hay_items}}

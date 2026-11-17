@@ -13,7 +13,7 @@ from datetime import date
 from html import escape
 from pathlib import Path
 
-from . import seo
+from . import anuncios, seo
 from .estilos import paquete_comun, paquete_portada, paquete_seccion
 from .legal import leer_publicidad, leer_titular
 from .nucleo import ErrorProyecto, fecha_larga, hash_corto, leer_json, plural, ruta_relativa, sin_ocultos
@@ -148,8 +148,8 @@ class Constructor:
                 shutil.copy2(p, destino)
 
     def _ads_txt(self):
-        """ads.txt: solo existe cuando hay publicidad activa, con el identificador real del editor (nunca uno inventado)."""
-        if self.publicidad["activa"]:
+        """ads.txt: solo existe con publicidad activa o en modo verificación, con el identificador real del editor (nunca uno inventado)."""
+        if self.publicidad["editor"]:
             (self.salida / "ads.txt").write_text(f"google.com, {self.publicidad['editor']}, DIRECT, f08c47fec0942fa0\n", encoding="utf-8")
 
     # ------------------------------------------------------------ datos compartidos
@@ -201,7 +201,7 @@ class Constructor:
     def _pagina(self, url: str, plantilla: str, datos: dict, *, titulo: str, descripcion: str, mundo: str, tipo: str,
                 seccion: str = "", item: str = "", css_extra: tuple = (), js_extra: tuple = (), jsonld: tuple = (),
                 main_attrs: str = "", raiz: str | None = None, indexable: bool = True, og_tipo: str = "website",
-                fecha: date | None = None, paquetes: tuple = (), scripts: tuple = ()):
+                fecha: date | None = None, paquetes: tuple = (), scripts: tuple = (), cabecera: bool = False):
         archivo = url if url.endswith(".html") else url + "index.html"
         if raiz is None:
             raiz = "../" * url.count("/")
@@ -215,6 +215,7 @@ class Constructor:
             "og": indexable, "og_tipo": og_tipo, "og_imagen": seo.absoluta(self.cfg, "assets/img/og.png"),
             "css": hrefs_css + list(css_extra), "js": list(js_extra), "jsonld": [seo.jsonld(j) for j in jsonld],
             "mundo": mundo, "seccion": seccion, "item": item, "main_attrs": main_attrs,
+            "anuncio_cabecera": cabecera,   # banner fino bajo el menú (comun/anuncio/anuncio-cabecera.html); solo en listados y fichas con «anuncios»
         }
         legales, cookies = self._legales(raiz)
         base = {
@@ -222,7 +223,8 @@ class Constructor:
                       "anio": date.today().year, "locale": self.cfg["idioma"] + "_ES"},
             "raiz": raiz, "inicio": raiz or "./", "nav": self._nav(raiz, seccion), "mundos_pie": self._mundos_pie(raiz), "pagina": pagina,
             "legales": legales, "hay_legales": bool(legales), "cookies_href": cookies, "titular": self.titular,
-            "publicidad": self.publicidad if tipo != "404" else {**self.publicidad, "activa": False, "bloque_listado": "", "bloque_juego": ""},
+            "publicidad": self.publicidad if tipo != "404" else {**self.publicidad, "activa": False, "meta_cuenta": "",
+                                                                    **{k: "" for k in self.publicidad if k.startswith("bloque_")}},
         }
         datos_total = {**base, **datos}
         contenido = self.plantillas.renderizar(plantilla, datos_total)
@@ -306,9 +308,19 @@ class Constructor:
             bloques = [(c["id"], c["nombre"]) for c in s.categorias]
             if any(t.get("categoria") not in ids for t in items):
                 bloques.append(("", "Otras"))
-            datos["grupos"] = [{"id": i or "otras", "nombre": n, "items": g, "cuenta": plural(len(g), s.singular, s.plural)}
+            datos["grupos"] = [{"id": i or "otras", "nombre": n, "items": g, "cuenta": plural(len(g), s.singular, s.plural), "anuncio_despues": False}
                                for i, n in bloques for g in [[t for t in items if (t.get("categoria") if t.get("categoria") in ids else "") == i]] if g]
             datos["hay_grupos"] = bool(datos["grupos"])
+            # Un anuncio entre bloques: tras el segundo si hay cuatro o más (así queda debajo de lo primero que se mira), tras el primero si hay dos o tres.
+            if s.anuncios and len(datos["grupos"]) >= 2:
+                datos["grupos"][1 if len(datos["grupos"]) >= 4 else 0]["anuncio_despues"] = True
+        if not datos.get("hay_grupos"):
+            # Sin bloques: una sola rejilla. Si es larga, se parte tras las primeras tarjetas para poner ahí un anuncio.
+            corte = 12
+            if s.anuncios and len(items) >= corte + 6:
+                datos["tandas"] = [{"items": items[:corte], "anuncio_despues": True}, {"items": items[corte:], "anuncio_despues": False}]
+            else:
+                datos["tandas"] = [{"items": items, "anuncio_despues": False}]
         grafo = {"@context": "https://schema.org", "@type": "CollectionPage", "name": s.titulo, "description": s.descripcion,
                  "url": seo.absoluta(self.cfg, s.url), "inLanguage": self.cfg["idioma"],
                  "isPartOf": {"@id": seo.absoluta(self.cfg, "") + "#sitio"}}
@@ -320,7 +332,7 @@ class Constructor:
         self._pagina(s.url, f"{s.slug}/listado", datos, titulo=f"{s.titulo} | {self.cfg['nombre']}", descripcion=s.descripcion,
                      mundo=s.aspecto, tipo="listado", seccion=s.slug, jsonld=(grafo, migas),
                      fecha=max((e.fecha for e in s.publicados), default=None), paquetes=(self.paquetes[s.slug],),
-                     scripts=("filtro",) if (s.buscador and s.publicados) else ())
+                     scripts=("filtro",) if (s.buscador and s.publicados) else (), cabecera=s.anuncios)
 
     def _filtros(self, s: Seccion) -> dict:
         """Datos del buscador y los filtros del listado (se muestran solo con JavaScript; sin él se ve la lista entera)."""
@@ -380,6 +392,8 @@ class Constructor:
                             "titular": self.titular, "publicidad": self.publicidad, "raiz": raiz,
                             "item": {"slug": e.slug, "titulo": e.titulo, "fecha_texto": fecha_larga(e.fecha)}}
             cuerpo = self.plantillas.renderizar_texto(cuerpo, datos_cuerpo, ruta_relativa(e.carpeta / "pagina.html", self.raiz))
+        if s.anuncios and self.publicidad["bloque_texto"]:
+            cuerpo = anuncios.insertar(cuerpo, self.plantillas.renderizar("comun/anuncio/anuncio-texto", {"publicidad": self.publicidad}))
         if e.tiene_css:
             css_extra.append(f"app.css?v={hash_corto((e.carpeta / 'app.css').read_bytes())}")
         if e.tiene_js:
@@ -404,7 +418,7 @@ class Constructor:
                      mundo=s.aspecto, tipo="elemento", seccion=s.slug, item=e.slug, css_extra=tuple(css_extra),
                      js_extra=tuple(js_extra), jsonld=(self._jsonld_elemento(e), migas), main_attrs=main_attrs,
                      og_tipo="article" if s.schema["tipo"] == "Article" else "website", fecha=e.fecha,
-                     paquetes=(self.paquetes[s.slug],),
+                     paquetes=(self.paquetes[s.slug],), cabecera=s.anuncios,
                      scripts=(s.slug,) + (("consentimiento",) if s.dinamico and self.publicidad["activa"] else ()))
 
     # ------------------------------------------------------------ 404

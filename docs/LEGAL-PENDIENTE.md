@@ -32,15 +32,20 @@ y las páginas de cookies, privacidad y publicidad lo dicen así. Sigue estos pa
 
 1. **Cuenta y sitio.** En AdSense, añade `trabajoyjuego.es` (o tu dominio definitivo) y espera la revisión de Google. Nadie puede garantizar que la aprueben:
    Google pide contenido propio y útil, páginas legales y un sitio funcional, y decide en cada caso.
+   **Para pedir la revisión, el sitio ya tiene que estar publicado y llevar tu identificador** (AdSense lo comprueba con ads.txt, una etiqueta meta o su código). Para eso no hace falta activar los anuncios:
+   pon tu identificador en `"cliente"` y deja `"activa"` en `false`, con `"entorno": "produccion"`. El sitio publica entonces solo `ads.txt` y la etiqueta meta de cuenta (texto, sin código de Google),
+   no muestra anuncios y las páginas legales siguen diciendo la verdad. Cuando Google apruebe el sitio, sigues con el paso 3 y 4.
 2. **Identificador de editor.** Cópialo de AdSense (empieza por `pub-`; aquí se escribe con `ca-` delante: `ca-pub-` y 16 cifras) en `"cliente"`.
-3. **Bloques de anuncios.** En AdSense crea dos bloques de anuncios de display adaptables y copia el número de cada uno: uno para los **listados** y otro para las **páginas de juego**.
-   Van en `"bloques": { "listado": "…", "juego": "…" }` (solo cifras).
+3. **Bloques de anuncios.** En AdSense crea **un** bloque de anuncios de display adaptable y copia su número en `"bloques": { "general": "…" }` (solo cifras): lo usan
+   los cinco huecos del sitio (banner bajo el menú, banner de la portada, dentro del texto, al final de cada página y en los listados). Si quieres medir cada posición por separado, crea un bloque por hueco y rellena
+   también `"cabecera"`, `"portada"`, `"texto"`, `"final"` y `"listado"`.
 4. **«Activa».** Pon `"activa": true`. Solo tiene efecto con `"entorno": "produccion"` en `config/sitio.json`; en preproducción no se carga nada y el sitio te avisa.
 5. **Mensaje de consentimiento (Privacy & messaging).** Es de Google, no del sitio: créalo y publícalo en AdSense, en el apartado de **Privacidad y mensajes**
    (el nombre puede variar según el idioma de tu cuenta), para la normativa europea (EEE y Reino Unido). Comprueba en el editor del mensaje que
    **aceptar, rechazar y gestionar opciones tienen la misma facilidad** y que se puede **cambiar la elección más tarde** (el botón «Cambiar mi consentimiento»
    de la política de cookies ya llama a la función oficial de Google para reabrir ese mensaje).
-6. **Anuncios automáticos: desactívalos** para este sitio en AdSense. Así solo salen los huecos reservados, que están lejos de los controles.
+6. **Anuncios automáticos: desactívalos** para este sitio en AdSense, y también los formatos fijos o a pantalla completa (anclados, viñetas). Así solo salen los huecos reservados,
+   que están lejos de los controles, y la página «Publicidad y transparencia» sigue diciendo la verdad.
 7. **ads.txt.** Se genera solo con tu identificador (`dist/ads.txt`). Tras publicar, comprueba en AdSense que el estado de ads.txt sea correcto.
 8. `python3 sitio.py comprobar` y, si no hay errores, `python3 sitio.py construir` y sube `dist/`.
 

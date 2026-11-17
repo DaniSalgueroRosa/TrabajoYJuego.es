@@ -35,6 +35,7 @@ Para añadir una quinta basta con crear otra carpeta con ese archivo y sus plant
 | `schema` | no | Datos estructurados de sus elementos: `{"tipo": "WebApplication", "categoria": "GameApplication"}`. Por defecto `WebPage` |
 | `categorias` | no | Lista de `{"id": "palabras", "nombre": "Palabras"}`. Si la sección las define, **cada elemento publicado debe declarar una** y el listado muestra chips para filtrar por ellas |
 | `buscador` | no | `true` muestra el buscador y los filtros (solo con JavaScript; sin él se ve la lista completa) |
+| `anuncios` | no | `true` permite un anuncio dentro del texto de las fichas de la sección (solo si hay publicidad activa; ver `motor/anuncios.py`). Lo usan `herramientas/`, `recursos/`, `juegos/` y `tests/` |
 | `agrupar` | no | `true` (con `categorias`) muestra el listado en bloques, uno por categoría, con su título y su cuenta; el buscador y los chips siguen filtrando. Lo usan `herramientas/` y `recursos/` |
 | `accion` | no | Verbo del botón de cada tarjeta («Jugar»). Por defecto, «Ver» |
 | `ubicacion` | no | `menu` (por defecto: cabecera, portada, «Lo último» y pie) o `pie` (enlaces en el pie y en el bloque «Información y transparencia» de la portada; ni menú, ni «Lo último», ni mitades «Trabajo \| Juego», como `legal/`) |
@@ -107,7 +108,7 @@ Datos que tienen a mano:
 ## Configuración del titular y de la publicidad
 
 - `config/titular.json`: nombre, NIF, domicilio, correo, teléfono, registro, alojamiento. Vacío = «[COMPLETAR POR EL TITULAR]» (y error del comprobador en producción).
-- `config/publicidad.json`: `activa`, `cliente` (`ca-pub-` y 16 cifras), `bloques` (`listado`, `juego`). Solo se cargan anuncios con `activa: true`, un `cliente` válido **y** `entorno: produccion`.
+- `config/publicidad.json`: `activa`, `cliente` (`ca-pub-` y 16 cifras), `bloques` (`general`, `cabecera`, `portada`, `texto`, `final`, `listado`; basta con `general`). Solo se cargan anuncios con `activa: true`, un `cliente` válido **y** `entorno: produccion`.
 
 Los pasos completos están en [LEGAL-PENDIENTE.md](LEGAL-PENDIENTE.md) y [PUBLICAR.md](PUBLICAR.md).
 

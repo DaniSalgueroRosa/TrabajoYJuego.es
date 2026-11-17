@@ -6,6 +6,7 @@
   "resumen": "PDF, audio, calculadoras, conversores y utilidades que funcionan en tu navegador.",
   "mundo": "trabajo",
   "orden": 1,
+  "anuncios": true,
   "vacio": "La primera herramienta aparecerá en esta página en cuanto se publique.",
   "ordenar_por": "orden",
   "schema": {

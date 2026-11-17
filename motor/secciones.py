@@ -23,7 +23,7 @@ from .nucleo import (ErrorProyecto, es_slug, leer_json, parsear_fecha, ruta_rela
 ESTADOS = ("publicado", "proximamente", "borrador")
 MUNDOS_VALIDOS_APARIENCIA = ("libre",)          # además de los mundos definidos en config/sitio.json
 CAMPOS_SECCION = {"titulo", "singular", "plural", "descripcion", "resumen", "mundo", "aspecto", "orden", "vacio",
-                  "ordenar_por", "schema", "categorias", "buscador", "agrupar", "accion", "ubicacion", "dinamico"}
+                  "ordenar_por", "schema", "categorias", "buscador", "agrupar", "accion", "ubicacion", "dinamico", "anuncios"}
 CAMPOS_FICHA = {"titulo", "descripcion", "fecha", "estado", "etiquetas", "tema", "categoria", "dificultad", "duracion", "orden"}
 DIFICULTADES = {"facil": ("Fácil", 1), "media": ("Media", 2), "dificil": ("Difícil", 3)}
 UBICACIONES = ("menu", "pie")
@@ -82,6 +82,7 @@ class Seccion:
     accion: str = ""                                   # texto del botón de las tarjetas («Jugar»)
     ubicacion: str = "menu"                            # «menu» (cabecera, portada y pie) o «pie» (solo enlaces del pie, p. ej. lo legal)
     dinamico: bool = False                             # las pagina.html se procesan como plantilla (datos del titular, publicidad…)
+    anuncios: bool = False                             # las fichas admiten un anuncio dentro de su texto (solo si hay publicidad activa)
     elementos: list = field(default_factory=list)
 
     @property
@@ -151,7 +152,7 @@ def leer_seccion(carpeta: Path, mundos: list) -> Seccion:
     if ordenar not in ("fecha", "titulo", "orden"):
         raise ErrorProyecto(f"{donde}: «ordenar_por» debe ser «fecha», «titulo» u «orden» (este último usa el número «orden» de cada ficha).")
     categorias = _leer_categorias(d.get("categorias", []), donde)
-    for clave in ("buscador", "agrupar", "dinamico"):
+    for clave in ("buscador", "agrupar", "dinamico", "anuncios"):
         if not isinstance(d.get(clave, False), bool):
             raise ErrorProyecto(f"{donde}: «{clave}» debe ser true o false.")
     if "accion" in d and (not isinstance(d["accion"], str) or not d["accion"].strip()):
@@ -169,7 +170,7 @@ def leer_seccion(carpeta: Path, mundos: list) -> Seccion:
         resumen=_exigir_texto(d, "resumen", donde), mundo=mundo, aspecto=aspecto, orden=d["orden"],
         vacio=_exigir_texto(d, "vacio", donde), ordenar_por=ordenar, schema=schema, categorias=categorias,
         buscador=bool(d.get("buscador", False)), agrupar=bool(d.get("agrupar", False)), accion=d.get("accion", "").strip(), ubicacion=ubicacion,
-        dinamico=bool(d.get("dinamico", False)))
+        dinamico=bool(d.get("dinamico", False)), anuncios=bool(d.get("anuncios", False)))
 
 
 def _leer_categorias(valor, donde: str) -> list:

@@ -6,6 +6,7 @@
   "resumen": "Guías prácticas para usar mejor las herramientas.",
   "mundo": "trabajo",
   "orden": 2,
+  "anuncios": true,
   "vacio": "La primera guía aparecerá en esta página en cuanto se publique.",
   "ordenar_por": "orden",
   "schema": {

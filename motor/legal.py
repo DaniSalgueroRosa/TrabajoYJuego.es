@@ -25,7 +25,10 @@ ETIQUETAS = {"nombre": "nombre o razón social", "nif": "NIF o identificación f
 _CLIENTE = re.compile(r"^ca-pub-\d{16}$")
 _BLOQUE = re.compile(r"^\d{6,15}$")
 _EMAIL = re.compile(r"^[^@\s<>\"']+@[^@\s<>\"']+\.[^@\s<>\"']+$")
-BLOQUES = ("listado", "juego")
+# Huecos de anuncio. «general» es un bloque de reserva: lo usan todos los huecos que no tengan número propio (AdSense permite reutilizar
+# un mismo bloque en varias posiciones); los otros tres sirven para medir cada posición por separado en los informes de AdSense.
+HUECOS = ("cabecera", "portada", "listado", "texto", "final")   # posiciones donde puede salir un anuncio (ver docs/PUBLICAR.md)
+BLOQUES = ("general", "cabecera", "portada", "listado", "texto", "final")
 
 
 def _comprobar_campos(datos: dict, permitidos: set, donde: str):
@@ -96,15 +99,30 @@ def leer_publicidad(raiz: Path, cfg: dict) -> dict:
                             "pon «activa» en false hasta que AdSense apruebe tu cuenta.")
     produccion = cfg.get("entorno") == "produccion"
     activa = solicitada and bool(cliente) and produccion
+    # Verificación: para pedir la revisión del sitio, AdSense exige que la web demuestre que es tuya (código, ads.txt o etiqueta meta).
+    # Con «activa» en false pero «cliente» relleno y entorno de producción, el sitio publica solo ads.txt y la etiqueta meta de cuenta:
+    # son texto, no cargan nada de Google, y los textos legales siguen diciendo (con verdad) que no hay anuncios.
+    verificacion = (not solicitada) and bool(cliente) and produccion
     avisos = []
     if solicitada and not produccion:
         avisos.append("config/publicidad.json tiene «activa» en true, pero el entorno es «preproduccion»: no se carga ningún anuncio en esta copia.")
-    if activa and not any(bloques.get(b, "").strip() for b in BLOQUES):
+    num = {b: bloques.get(b, "").strip() for b in BLOQUES}
+    general = num["general"]
+    # «portada» es un banner como «cabecera»: si no tiene número propio usa el de «cabecera», y si tampoco, el «general».
+    resueltos = {b: (num[b] or general) if activa else "" for b in ("cabecera", "listado", "texto", "final")}
+    resueltos["portada"] = (num["portada"] or num["cabecera"] or general) if activa else ""
+    if activa and not any(num.values()):
         avisos.append("La publicidad está activa pero ningún bloque tiene número: solo funcionarán los anuncios automáticos de AdSense, "
-                      "que no controlan su posición (desactívalos en AdSense y rellena «bloques»).")
+                      "que no controlan su posición (desactívalos en AdSense y rellena «bloques»; basta con «general»).")
+    elif activa:
+        sin = [b for b in HUECOS if not resueltos[b]]
+        if sin:
+            avisos.append("Estos huecos de anuncio no tienen número de bloque y se quedarán vacíos: " + ", ".join(sin) +
+                          ". Rellénalos o pon un bloque «general» que sirva para todos.")
     return {
-        "activa": activa, "cliente": cliente if activa else "", "editor": cliente.replace("ca-", "", 1) if activa else "",
-        "bloque_listado": bloques.get("listado", "").strip() if activa else "",
-        "bloque_juego": bloques.get("juego", "").strip() if activa else "",
+        "activa": activa, "cliente": cliente if activa else "", "editor": cliente.replace("ca-", "", 1) if (activa or verificacion) else "",
+        "verificacion": verificacion, "meta_cuenta": cliente if (activa or verificacion) else "",
+        "bloque_cabecera": resueltos["cabecera"], "bloque_portada": resueltos["portada"], "bloque_listado": resueltos["listado"],
+        "bloque_texto": resueltos["texto"], "bloque_final": resueltos["final"],
         "avisos": avisos,
     }

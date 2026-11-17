@@ -46,11 +46,16 @@
   </form>
   {{/filtros.activos}}
   <h2 class="solo-lectores">Lista de {{seccion.plural}}</h2>
+  {{#tandas}}
   <ul class="rejilla">
     {{#items}}
     <li data-categoria="{{categoria}}" data-dificultad="{{dificultad}}" data-busqueda="{{busqueda}}">{{> comun/tarjeta/tarjeta}}</li>
     {{/items}}
   </ul>
+  {{#anuncio_despues}}
+  {{> comun/anuncio/anuncio-listado}}
+  {{/anuncio_despues}}
+  {{/tandas}}
   {{> comun/anuncio/anuncio-listado}}
   {{/hay_items}}
   {{^hay_items}}
