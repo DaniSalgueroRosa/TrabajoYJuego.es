@@ -11,7 +11,7 @@
 
   function s(tag, atr, hijos) {
     var e = doc.createElementNS(NS, tag);
-    Object.keys(atr || {}).forEach(function (k) { if (atr[k] != null) e.setAttribute(k, atr[k]); });
+    Object.keys(atr || {}).forEach(function (k) { if (atr[k] == null) return; if (k === 'style') e.style.cssText = atr[k]; else e.setAttribute(k, atr[k]); });
     (hijos || []).forEach(function (h) { e.appendChild(h); });
     return e;
   }

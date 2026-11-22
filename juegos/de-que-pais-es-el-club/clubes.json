@@ -1,0 +1,515 @@
+{
+ "_nota": "Clubes para «¿De qué país es el club?». n: nombre; p: país; c: ciudad en la que juega de local. Solo clubes con una sede inequívoca.",
+ "clubes": [
+  {
+   "n": "Real Madrid",
+   "p": "España",
+   "c": "Madrid"
+  },
+  {
+   "n": "FC Barcelona",
+   "p": "España",
+   "c": "Barcelona"
+  },
+  {
+   "n": "Atlético de Madrid",
+   "p": "España",
+   "c": "Madrid"
+  },
+  {
+   "n": "Sevilla FC",
+   "p": "España",
+   "c": "Sevilla"
+  },
+  {
+   "n": "Valencia CF",
+   "p": "España",
+   "c": "Valencia"
+  },
+  {
+   "n": "Villarreal CF",
+   "p": "España",
+   "c": "Villarreal"
+  },
+  {
+   "n": "Athletic Club",
+   "p": "España",
+   "c": "Bilbao"
+  },
+  {
+   "n": "Real Sociedad",
+   "p": "España",
+   "c": "San Sebastián"
+  },
+  {
+   "n": "Real Betis",
+   "p": "España",
+   "c": "Sevilla"
+  },
+  {
+   "n": "Celta de Vigo",
+   "p": "España",
+   "c": "Vigo"
+  },
+  {
+   "n": "RCD Espanyol",
+   "p": "España",
+   "c": "Barcelona"
+  },
+  {
+   "n": "CA Osasuna",
+   "p": "España",
+   "c": "Pamplona"
+  },
+  {
+   "n": "RCD Mallorca",
+   "p": "España",
+   "c": "Palma"
+  },
+  {
+   "n": "Girona FC",
+   "p": "España",
+   "c": "Girona"
+  },
+  {
+   "n": "Deportivo de La Coruña",
+   "p": "España",
+   "c": "La Coruña"
+  },
+  {
+   "n": "Real Zaragoza",
+   "p": "España",
+   "c": "Zaragoza"
+  },
+  {
+   "n": "Sporting de Gijón",
+   "p": "España",
+   "c": "Gijón"
+  },
+  {
+   "n": "Manchester United",
+   "p": "Inglaterra",
+   "c": "Mánchester"
+  },
+  {
+   "n": "Manchester City",
+   "p": "Inglaterra",
+   "c": "Mánchester"
+  },
+  {
+   "n": "Liverpool",
+   "p": "Inglaterra",
+   "c": "Liverpool"
+  },
+  {
+   "n": "Everton",
+   "p": "Inglaterra",
+   "c": "Liverpool"
+  },
+  {
+   "n": "Arsenal",
+   "p": "Inglaterra",
+   "c": "Londres"
+  },
+  {
+   "n": "Chelsea",
+   "p": "Inglaterra",
+   "c": "Londres"
+  },
+  {
+   "n": "Tottenham Hotspur",
+   "p": "Inglaterra",
+   "c": "Londres"
+  },
+  {
+   "n": "West Ham United",
+   "p": "Inglaterra",
+   "c": "Londres"
+  },
+  {
+   "n": "Newcastle United",
+   "p": "Inglaterra",
+   "c": "Newcastle"
+  },
+  {
+   "n": "Aston Villa",
+   "p": "Inglaterra",
+   "c": "Birmingham"
+  },
+  {
+   "n": "Leicester City",
+   "p": "Inglaterra",
+   "c": "Leicester"
+  },
+  {
+   "n": "Leeds United",
+   "p": "Inglaterra",
+   "c": "Leeds"
+  },
+  {
+   "n": "Juventus",
+   "p": "Italia",
+   "c": "Turín"
+  },
+  {
+   "n": "Torino",
+   "p": "Italia",
+   "c": "Turín"
+  },
+  {
+   "n": "AC Milan",
+   "p": "Italia",
+   "c": "Milán"
+  },
+  {
+   "n": "Inter de Milán",
+   "p": "Italia",
+   "c": "Milán"
+  },
+  {
+   "n": "AS Roma",
+   "p": "Italia",
+   "c": "Roma"
+  },
+  {
+   "n": "Lazio",
+   "p": "Italia",
+   "c": "Roma"
+  },
+  {
+   "n": "Nápoles",
+   "p": "Italia",
+   "c": "Nápoles"
+  },
+  {
+   "n": "Fiorentina",
+   "p": "Italia",
+   "c": "Florencia"
+  },
+  {
+   "n": "Atalanta",
+   "p": "Italia",
+   "c": "Bérgamo"
+  },
+  {
+   "n": "Bolonia",
+   "p": "Italia",
+   "c": "Bolonia"
+  },
+  {
+   "n": "Génova",
+   "p": "Italia",
+   "c": "Génova"
+  },
+  {
+   "n": "Bayern de Múnich",
+   "p": "Alemania",
+   "c": "Múnich"
+  },
+  {
+   "n": "Borussia Dortmund",
+   "p": "Alemania",
+   "c": "Dortmund"
+  },
+  {
+   "n": "Bayer Leverkusen",
+   "p": "Alemania",
+   "c": "Leverkusen"
+  },
+  {
+   "n": "Schalke 04",
+   "p": "Alemania",
+   "c": "Gelsenkirchen"
+  },
+  {
+   "n": "RB Leipzig",
+   "p": "Alemania",
+   "c": "Leipzig"
+  },
+  {
+   "n": "VfL Wolfsburgo",
+   "p": "Alemania",
+   "c": "Wolfsburgo"
+  },
+  {
+   "n": "Eintracht Fráncfort",
+   "p": "Alemania",
+   "c": "Fráncfort"
+  },
+  {
+   "n": "Hamburgo",
+   "p": "Alemania",
+   "c": "Hamburgo"
+  },
+  {
+   "n": "VfB Stuttgart",
+   "p": "Alemania",
+   "c": "Stuttgart"
+  },
+  {
+   "n": "Werder Bremen",
+   "p": "Alemania",
+   "c": "Bremen"
+  },
+  {
+   "n": "París Saint-Germain",
+   "p": "Francia",
+   "c": "París"
+  },
+  {
+   "n": "Olympique de Marsella",
+   "p": "Francia",
+   "c": "Marsella"
+  },
+  {
+   "n": "Olympique de Lyon",
+   "p": "Francia",
+   "c": "Lyon"
+  },
+  {
+   "n": "Lille",
+   "p": "Francia",
+   "c": "Lille"
+  },
+  {
+   "n": "OGC Niza",
+   "p": "Francia",
+   "c": "Niza"
+  },
+  {
+   "n": "Girondins de Burdeos",
+   "p": "Francia",
+   "c": "Burdeos"
+  },
+  {
+   "n": "Stade Rennais",
+   "p": "Francia",
+   "c": "Rennes"
+  },
+  {
+   "n": "AS Saint-Étienne",
+   "p": "Francia",
+   "c": "Saint-Étienne"
+  },
+  {
+   "n": "Benfica",
+   "p": "Portugal",
+   "c": "Lisboa"
+  },
+  {
+   "n": "Sporting CP",
+   "p": "Portugal",
+   "c": "Lisboa"
+  },
+  {
+   "n": "FC Porto",
+   "p": "Portugal",
+   "c": "Oporto"
+  },
+  {
+   "n": "Sporting de Braga",
+   "p": "Portugal",
+   "c": "Braga"
+  },
+  {
+   "n": "Ajax",
+   "p": "Países Bajos",
+   "c": "Ámsterdam"
+  },
+  {
+   "n": "PSV Eindhoven",
+   "p": "Países Bajos",
+   "c": "Eindhoven"
+  },
+  {
+   "n": "Feyenoord",
+   "p": "Países Bajos",
+   "c": "Róterdam"
+  },
+  {
+   "n": "Anderlecht",
+   "p": "Bélgica",
+   "c": "Bruselas"
+  },
+  {
+   "n": "Club Brugge",
+   "p": "Bélgica",
+   "c": "Brujas"
+  },
+  {
+   "n": "Celtic",
+   "p": "Escocia",
+   "c": "Glasgow"
+  },
+  {
+   "n": "Rangers",
+   "p": "Escocia",
+   "c": "Glasgow"
+  },
+  {
+   "n": "Galatasaray",
+   "p": "Turquía",
+   "c": "Estambul"
+  },
+  {
+   "n": "Fenerbahçe",
+   "p": "Turquía",
+   "c": "Estambul"
+  },
+  {
+   "n": "Beşiktaş",
+   "p": "Turquía",
+   "c": "Estambul"
+  },
+  {
+   "n": "Olympiacos",
+   "p": "Grecia",
+   "c": "El Pireo"
+  },
+  {
+   "n": "Panathinaikos",
+   "p": "Grecia",
+   "c": "Atenas"
+  },
+  {
+   "n": "Estrella Roja",
+   "p": "Serbia",
+   "c": "Belgrado"
+  },
+  {
+   "n": "Dinamo de Zagreb",
+   "p": "Croacia",
+   "c": "Zagreb"
+  },
+  {
+   "n": "Red Bull Salzburgo",
+   "p": "Austria",
+   "c": "Salzburgo"
+  },
+  {
+   "n": "FC Basilea",
+   "p": "Suiza",
+   "c": "Basilea"
+  },
+  {
+   "n": "FC Copenhague",
+   "p": "Dinamarca",
+   "c": "Copenhague"
+  },
+  {
+   "n": "Boca Juniors",
+   "p": "Argentina",
+   "c": "Buenos Aires"
+  },
+  {
+   "n": "River Plate",
+   "p": "Argentina",
+   "c": "Buenos Aires"
+  },
+  {
+   "n": "Independiente",
+   "p": "Argentina",
+   "c": "Avellaneda"
+  },
+  {
+   "n": "Racing Club",
+   "p": "Argentina",
+   "c": "Avellaneda"
+  },
+  {
+   "n": "Rosario Central",
+   "p": "Argentina",
+   "c": "Rosario"
+  },
+  {
+   "n": "Flamengo",
+   "p": "Brasil",
+   "c": "Río de Janeiro"
+  },
+  {
+   "n": "Fluminense",
+   "p": "Brasil",
+   "c": "Río de Janeiro"
+  },
+  {
+   "n": "Palmeiras",
+   "p": "Brasil",
+   "c": "São Paulo"
+  },
+  {
+   "n": "Corinthians",
+   "p": "Brasil",
+   "c": "São Paulo"
+  },
+  {
+   "n": "Santos",
+   "p": "Brasil",
+   "c": "Santos"
+  },
+  {
+   "n": "Grêmio",
+   "p": "Brasil",
+   "c": "Porto Alegre"
+  },
+  {
+   "n": "Peñarol",
+   "p": "Uruguay",
+   "c": "Montevideo"
+  },
+  {
+   "n": "Nacional",
+   "p": "Uruguay",
+   "c": "Montevideo"
+  },
+  {
+   "n": "Club América",
+   "p": "México",
+   "c": "Ciudad de México"
+  },
+  {
+   "n": "Chivas de Guadalajara",
+   "p": "México",
+   "c": "Guadalajara"
+  },
+  {
+   "n": "Cruz Azul",
+   "p": "México",
+   "c": "Ciudad de México"
+  },
+  {
+   "n": "CF Monterrey",
+   "p": "México",
+   "c": "Monterrey"
+  },
+  {
+   "n": "Inter Miami",
+   "p": "Estados Unidos",
+   "c": "Miami"
+  },
+  {
+   "n": "LA Galaxy",
+   "p": "Estados Unidos",
+   "c": "Los Ángeles"
+  },
+  {
+   "n": "Atlético Nacional",
+   "p": "Colombia",
+   "c": "Medellín"
+  },
+  {
+   "n": "Colo-Colo",
+   "p": "Chile",
+   "c": "Santiago de Chile"
+  },
+  {
+   "n": "Al-Hilal",
+   "p": "Arabia Saudí",
+   "c": "Riad"
+  },
+  {
+   "n": "Al-Nassr",
+   "p": "Arabia Saudí",
+   "c": "Riad"
+  }
+ ]
+}

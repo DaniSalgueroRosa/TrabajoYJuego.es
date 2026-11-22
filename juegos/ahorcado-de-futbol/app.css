@@ -1,0 +1,22 @@
+/* AHORCADO DE FÚTBOL: portería con red (los fallos son goles encajados), huecos de la palabra y teclado con la Ñ. Contraste ≥ 4.5:1. */
+.ahf-zona { display: grid; gap: var(--e3); justify-items: center; }
+.ahf-dibujo { width: min(80%, 16rem); height: auto; }
+.ahf-red { stroke: var(--noche-linea); }
+.ahf-palos { stroke: var(--tiza); }
+.ahf-cesped { stroke: var(--pizarra-media); }
+.ahf-balon { opacity: 0; }
+.ahf-balon circle { fill: var(--tiza); stroke: var(--tinta); stroke-width: 2; }
+.ahf-balon path { fill: var(--tinta); }
+.ahf-balon--on { opacity: 1; }
+.ahf-categoria { margin: 0; color: var(--tiza-suave); font-size: var(--t-1); }
+.ahf-palabra { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 0; }
+.ahf-letra { display: grid; place-items: center; width: 2.2rem; height: 2.8rem; border-bottom: 4px solid var(--tiza); color: var(--limon); font: 400 1.65rem / 1 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.ahf-letra--falta { color: #FF9DB0; }
+.ahf-teclado { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px; width: min(100%, 30rem); margin: 0 auto; }
+.ahf-tecla { min-width: 0; min-height: 2.75rem; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--tinta); color: var(--tiza); font: 400 1.15rem / 1 var(--f-pixel); box-shadow: 0 0 0 2px var(--noche-linea); }
+.ahf-tecla:hover:not(:disabled) { box-shadow: 0 0 0 2px var(--sandia); }
+.ahf-tecla:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
+.ahf-tecla:disabled { cursor: default; }
+.ahf-tecla.ok { background: var(--pizarra-media); }
+.ahf-tecla.mal { background: var(--sandia-texto); color: #FFFFFF; }
+@media (max-width: 28rem) { .ahf-letra { width: 1.9rem; height: 2.5rem; } .ahf-teclado { gap: 4px; } }

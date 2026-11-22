@@ -24,6 +24,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
 
+from . import seguridad
 from .nucleo import RAIZ, ErrorProyecto, leer_json
 from .paginas import Constructor
 from .plantilla import ErrorPlantilla
@@ -34,6 +35,14 @@ TEXTO_RELLENO = re.compile(r"\bESCRIBE\b|(?i:lorem ipsum dolor)")
 MARCA_PENDIENTE = 'class="pendiente"'
 EXTENSIONES_TEXTO = {".html", ".css", ".js", ".json", ".svg", ".xml", ".txt", ".webmanifest"}
 BASE = "https://sitio.local"
+# Seguridad: lo único ajeno que una página puede cargar es el código de AdSense (y solo con publicidad activa) y su botón de anuncio en línea.
+SCRIPT_ADSENSE = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+PUSH_ADSENSE = "(adsbygoogle = window.adsbygoogle || []).push({});"
+# Código que en el navegador convierte texto en código o en HTML. En el JavaScript propio del sitio no debe aparecer (lo ajeno, vendor/, queda fuera).
+SUMIDEROS_JS = re.compile(r"\.innerHTML\b|\.outerHTML\b|insertAdjacentHTML|document\.write\b|\beval\s*\(|new\s+Function\b|"
+                          r"setAttribute\(\s*['\"]style['\"]|createElement\(\s*['\"](?:style|iframe)['\"]|\bsrcdoc\b|javascript:")
+# Archivos que no deben acabar en el servidor: copias, código fuente, mapas de depuración, secretos, comprimidos.
+SUFIJOS_PROHIBIDOS = (".bak", ".old", ".orig", ".sql", ".log", ".ini", ".env", ".py", ".md", ".map", ".zip", ".tar", ".gz", ".sh", ".pyc", "~")
 
 
 @dataclass
@@ -56,8 +65,9 @@ class Resultado:
 class _Lector(HTMLParser):
     """Recoge de una página lo que hay que revisar."""
 
-    def __init__(self):
+    def __init__(self, host: str = ""):
         super().__init__(convert_charrefs=True)
+        self.host = host
         self.titulo, self._en_titulo = "", False
         self.meta: dict[str, str] = {}
         self.canonical = None
@@ -69,9 +79,39 @@ class _Lector(HTMLParser):
         self.ids: list[str] = []
         self.img_sin_alt = 0
         self._profundidad_oculta = 0   # dentro de <script>/<style> no se busca texto de relleno en el marcado visible
+        self.csp = None                                 # contenido de <meta http-equiv="Content-Security-Policy">
+        self.inseguro: list[str] = []                   # cosas que la política de contenido (CSP) bloquearía o que abren una puerta
+        self.scripts_en_linea: list[str] = []
+        self._en_script_en_linea, self._buf_script = False, []
+
+    def _revisar_seguridad(self, tag, a):
+        for k, v in a.items():
+            if k.startswith("on"):
+                self.inseguro.append(f"<{tag}> lleva el manejador en línea «{k}» (usa addEventListener en un archivo .js)")
+            elif k == "style":
+                self.inseguro.append(f"<{tag}> lleva un estilo en línea (style=…); pasa ese estilo a una clase del CSS")
+            elif k in ("href", "src", "action", "formaction", "data", "srcdoc") and v.strip().lower().startswith(("javascript:", "data:text/html", "vbscript:")):
+                self.inseguro.append(f"<{tag}> lleva una dirección ejecutable en «{k}»")
+        if tag in ("iframe", "object", "embed", "applet", "base", "frame"):
+            self.inseguro.append(f"el sitio no usa <{tag}> y la política de contenido lo prohíbe")
+        elif tag == "style":
+            self.inseguro.append("hay un bloque <style> en línea; el CSS va en archivos .css")
+        elif tag == "form" and urlsplit(a.get("action", "")).netloc:
+            self.inseguro.append("un formulario envía datos a otro dominio")
+        elif tag == "meta" and a.get("http-equiv", "").lower() == "content-security-policy":
+            self.csp = a.get("content", "")
+        elif tag == "a" and a.get("target", "").lower() == "_blank" and "noopener" not in a.get("rel", "").lower():
+            self.inseguro.append(f"enlace con target=\"_blank\" sin rel=\"noopener\": {a.get('href', '')}")
+        if tag in ("script", "link", "img", "source", "audio", "video", "track") and not (tag == "link" and a.get("rel", "").lower() in ("canonical", "alternate", "author", "me", "next", "prev")):
+            destino = a.get("src") or (a.get("href") if tag == "link" else "")
+            if destino and urlsplit(destino).netloc not in ("", self.host) and not destino.startswith(SCRIPT_ADSENSE):
+                self.inseguro.append(f"<{tag}> carga un recurso de otro dominio ({urlsplit(destino).netloc}); todo debe ser del propio sitio")
 
     def handle_starttag(self, tag, atributos):
         a = {k: (v if v is not None else "") for k, v in atributos}
+        self._revisar_seguridad(tag, a)
+        if tag == "script" and "src" not in a and a.get("type") != "application/ld+json":
+            self._en_script_en_linea, self._buf_script = True, []
         if "id" in a:
             self.ids.append(a["id"])
         if tag == "html":
@@ -117,16 +157,21 @@ class _Lector(HTMLParser):
         elif tag == "script" and self._en_jsonld:
             self._en_jsonld = False
             self.jsonld.append("".join(self._buf))
+        elif tag == "script" and self._en_script_en_linea:
+            self._en_script_en_linea = False
+            self.scripts_en_linea.append("".join(self._buf_script).strip())
 
     def handle_data(self, datos):
         if self._en_titulo:
             self.titulo += datos
         if self._en_jsonld:
             self._buf.append(datos)
+        if self._en_script_en_linea:
+            self._buf_script.append(datos)
 
 
-def _leer_pagina(ruta: Path) -> _Lector:
-    lector = _Lector()
+def _leer_pagina(ruta: Path, host: str = "") -> _Lector:
+    lector = _Lector(host)
     lector.feed(ruta.read_text(encoding="utf-8"))
     lector.close()
     return lector
@@ -198,7 +243,7 @@ class Revisor:
     def _pagina(self, archivo: Path):
         url = _url_de(self.dist, archivo)
         donde = url
-        lector = _leer_pagina(archivo)
+        lector = _leer_pagina(archivo, self.host)
         self._cache[archivo] = lector
         produccion = self.cfg["entorno"] == "produccion"
         es_404 = archivo.name == "404.html"
@@ -238,7 +283,8 @@ class Revisor:
                 self.res.error(donde, "falta <link rel=\"canonical\">.")
             elif not lector.canonical.startswith(self.cfg["url"].rstrip("/") + "/"):
                 self.res.error(donde, f"el canonical «{lector.canonical}» no empieza por la URL del sitio ({self.cfg['url']}).")
-            if produccion and "noindex" in robots:
+            # «noindex, follow» es la forma deliberada (ficha con "indexar": false); «noindex, nofollow» es preproducción o un olvido
+            if produccion and "noindex" in robots and "nofollow" in robots:
                 self.res.error(donde, "en producción la página lleva noindex y Google no la indexará.")
             if not lector.meta.get("og:title") or not lector.meta.get("og:image"):
                 self.res.error(donde, "faltan las etiquetas Open Graph (og:title / og:image).")
@@ -259,9 +305,25 @@ class Revisor:
             if not isinstance(datos, dict) or "@context" not in datos or not ({"@type", "@graph"} & set(datos)):
                 self.res.error(donde, "JSON-LD sin @context o sin @type/@graph.")
 
+        self._seguridad_pagina(donde, lector)
+
         ids = set(lector.ids)
         for etiqueta, _, valor in lector.referencias:
             self._comprobar_referencia(donde, url, etiqueta, valor, ids)
+
+    def _seguridad_pagina(self, donde: str, lector: _Lector):
+        carga_google = any(v == SCRIPT_ADSENSE or v.startswith(SCRIPT_ADSENSE + "?") for _, _, v in lector.referencias)
+        esperada = seguridad.csp_meta(carga_google)
+        if lector.csp is None:
+            self.res.error(donde, "seguridad: falta la política de contenido (<meta http-equiv=\"Content-Security-Policy\">).")
+        elif lector.csp != esperada:
+            self.res.error(donde, "seguridad: la política de contenido de la página no es la que genera el sitio" +
+                           (" (la página carga el código de Google y debería llevar la que lo admite)." if carga_google else "."))
+        for texto in lector.scripts_en_linea:
+            if not (texto == PUSH_ADSENSE and carga_google):
+                self.res.error(donde, "seguridad: hay un <script> en línea; la política de contenido lo bloquearía. Pásalo a un archivo .js.")
+        for problema in dict.fromkeys(lector.inseguro):
+            self.res.error(donde, "seguridad: " + problema + ".")
 
     # ---------------------------------------------------------------- recursos
     def _css(self, archivo: Path):
@@ -318,6 +380,9 @@ class Revisor:
         for archivo in paginas:
             if archivo.name == "404.html":
                 continue
+            lector = self._cache.get(archivo)
+            if lector is not None and "noindex" in lector.meta.get("robots", ""):
+                continue                      # página con "indexar": false: a propósito no está en el sitemap
             esperadas.add(self.cfg["url"].rstrip("/") + _url_de(self.dist, archivo))
         for falta in sorted(esperadas - localizaciones):
             self.res.error("/sitemap.xml", f"no incluye {falta}.")
@@ -342,7 +407,38 @@ class Revisor:
         self._pendientes(paginas)
         self._sin_usar()
         self._robots_y_sitemap(paginas)
+        self._seguridad_sitio()
         return self.res
+
+    def _seguridad_sitio(self):
+        """Archivos de cabeceras del servidor, nada prohibido publicado y JavaScript propio sin sumideros de inyección."""
+        politicas = {seguridad.csp_cabecera(False), seguridad.csp_cabecera(True)}
+        esperadas = {n: v for n, v in seguridad.cabeceras(False) if n != "Content-Security-Policy"}
+        headers = self.dist / "_headers"
+        htaccess = self.dist / ".htaccess"
+        for archivo, formato in ((headers, "  {n}: {v}"), (htaccess, 'Header always set {n} "{v}"')):
+            if not archivo.is_file():
+                self.res.error("/" + archivo.name, "seguridad: falta este archivo de cabeceras del servidor (se genera al construir).")
+                continue
+            texto = archivo.read_text(encoding="utf-8")
+            if not any(formato.format(n="Content-Security-Policy", v=p).strip() in texto for p in politicas):
+                self.res.error("/" + archivo.name, "seguridad: no lleva la política de contenido (CSP) del sitio.")
+            for n, v in esperadas.items():
+                if formato.format(n=n, v=v).strip() not in texto:
+                    self.res.error("/" + archivo.name, f"seguridad: falta la cabecera «{n}» con el valor del sitio.")
+        for archivo in sorted(self.dist.rglob("*")):
+            if not archivo.is_file():
+                continue
+            rel = "/" + archivo.relative_to(self.dist).as_posix()
+            nombre = archivo.name.lower()
+            if nombre.endswith(SUFIJOS_PROHIBIDOS) or (nombre.startswith(".") and nombre != ".htaccess") or "/.git/" in rel:
+                self.res.error(rel, "seguridad: este archivo no debe publicarse (copia, código fuente, mapa, secreto u oculto).")
+            elif archivo.suffix == ".js" and "/vendor/" not in rel:
+                for n, linea in enumerate(archivo.read_text(encoding="utf-8").splitlines(), 1):
+                    m = SUMIDEROS_JS.search(linea)
+                    if m:
+                        self.res.error(rel, f"seguridad, línea {n}: «{m.group(0)}» convierte texto en código o HTML; la política de contenido lo prohíbe y es la vía clásica de inyección.")
+                        break
 
     def _pendientes(self, paginas: list[Path]):
         """Datos del titular sin completar. En preproducción basta el aviso que ya da la construcción; en producción es un error

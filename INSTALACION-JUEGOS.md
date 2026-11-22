@@ -129,7 +129,7 @@ Qué cambia en los más relevantes:
 | `motor/paginas.py` (portada) | Calcula el índice por categoría y desempata «Lo último» por el `orden` de la ficha (antes, por orden alfabético: con 20 juegos del mismo día enseñaba 2048, Acertijos, Conexiones…) |
 | `comun/filtro/filtro.js` | Entiende `/juegos/?categoria=palabras`: el listado se abre ya filtrado desde la portada |
 | `comun/pie/*`, `comun/tarjeta/tarjeta.html` | El pie con los enlaces legales y «Configurar cookies»; la tarjeta con categoría, dificultad, duración y botón «Jugar» |
-| `juegos/seccion.json`, `listado.html`, `ficha.html` | Las 8 categorías, el buscador y los filtros, y la ficha de cada juego con su botón de volver |
+| `juegos/seccion.json`, `listado.html`, `ficha.html` | Las 9 categorías, el buscador y los filtros, y la ficha de cada juego con su botón de volver |
 | `juegos/_plantilla/*` | La plantilla para el juego número 21, ahora un juego de ejemplo que funciona |
 | `docs/*`, `LEEME.md` | Documentación actualizada |
 | `pruebas/*` | Ajustadas a lo anterior |
@@ -164,7 +164,7 @@ Funciona con el mismo contrato de carpetas que el resto del sitio (detalle en `d
 
 - **Cada juego es una subcarpeta de `juegos/` y se publica solo.** `juegos/reflejos/` aparece en `/juegos/reflejos/`, en el catálogo `/juegos/`, en el menú, en el índice por categoría de la portada (y en «Lo último» si es de los más recientes), en el `sitemap.xml` y con su marcado de buscadores. No se registra en ningún sitio: basta con que la carpeta tenga `ficha.json` con `"estado": "publicado"` y su `pagina.html`.
 - **El orden del catálogo** lo da el campo `orden` de cada `ficha.json` (1 a 20, el de tu lista).
-- **Las 8 categorías** (Palabras, Lógica, Cultura general, Matemáticas, Memoria, Geografía, Habilidad, Arcade) están declaradas en `juegos/seccion.json`. Cada juego elige una con `"categoria"`. Los botones de filtro solo muestran las categorías que tienen juegos.
+- **Las 9 categorías** (Fútbol, Palabras, Lógica, Cultura general, Matemáticas, Memoria, Geografía, Habilidad, Arcade) están declaradas en `juegos/seccion.json`. Cada juego elige una con `"categoria"`. Los botones de filtro solo muestran las categorías que tienen juegos.
 - **Código compartido:** cualquier `.js` suelto dentro de `juegos/` (`utilidades.js`, `juegos.js`, `rondas.js`) se agrupa en un único archivo que se carga **antes** del `app.js` de cada juego; los `.css` sueltos (`juegos.css`, `componentes.css`, `catalogo.css`) también. Un juego solo escribe lo suyo.
 - **Datos:** el JSON de un juego vive en su carpeta (por ejemplo `juegos/acertijos/acertijos.json`) y se copia tal cual. Lo común (la lista de palabras) está en `juegos/datos/`.
 - **Sin persistencia:** ningún juego guarda nada (ni `localStorage`, ni `sessionStorage`, ni cookies, ni IndexedDB, ni cachés). Una prueba automática lo vigila.
@@ -178,7 +178,7 @@ Funciona con el mismo contrato de carpetas que el resto del sitio (detalle en `d
 
 Con `python3 sitio.py servir` en marcha (se reconstruye solo cada vez que guardas):
 
-0. **La portada**, <http://localhost:8080/>: tras «Lo último» debe verse el bloque **«Juegos por categoría»** con 8 categorías y los 20 juegos enlazados (pulsa el nombre de una categoría, por ejemplo «Palabras»: abre `/juegos/?categoria=palabras` ya filtrado, con 3 juegos), y después **«Información y transparencia»**: «Sin registro», «Tus partidas no se guardan», la frase de publicidad («Ahora mismo no muestra anuncios…» mientras `activa` sea `false`) y las seis páginas legales. Pruébala también a 375 px de ancho.
+0. **La portada**, <http://localhost:8080/>: tras «Lo último» debe verse el bloque **«Juegos por categoría»** con 9 categorías y los 20 juegos enlazados (pulsa el nombre de una categoría, por ejemplo «Palabras»: abre `/juegos/?categoria=palabras` ya filtrado, con 3 juegos), y después **«Información y transparencia»**: «Sin registro», «Tus partidas no se guardan», la frase de publicidad («Ahora mismo no muestra anuncios…» mientras `activa` sea `false`) y las seis páginas legales. Pruébala también a 375 px de ancho.
 1. Abre <http://localhost:8080/juegos/>. Debe verse el texto de introducción, el buscador, el desplegable de dificultad y los botones de categoría con estos recuentos: **Todas 20 · Palabras 3 · Lógica 6 · Cultura general 3 · Matemáticas 2 · Memoria 1 · Geografía 2 · Habilidad 1 · Arcade 2**. Escribe «cultura» en el buscador y comprueba que quedan solo los que la mencionan.
 2. Abre cada juego **por su dirección directa**, `http://localhost:8080/juegos/<carpeta>/`, y haz la prueba rápida de la tabla (1 o 2 minutos cada uno).
 3. En **todos**: debe haber una pantalla de inicio con instrucciones y botón de empezar; al terminar, resultado con «jugar otra vez» (y «compartir» cuando tiene sentido); dos botones «Volver a todos los juegos» (arriba y abajo) que llevan a `/juegos/`; y si **recargas la página**, todo vuelve a empezar (no se guarda nada).

@@ -14,7 +14,8 @@ from html import escape
 from pathlib import Path
 
 from . import anuncios, seo
-from .estilos import paquete_comun, paquete_portada, paquete_seccion
+from .estilos import css_temas, id_tema, paquete_comun, paquete_portada, paquete_seccion
+from . import seguridad
 from .legal import leer_publicidad, leer_titular
 from .nucleo import ErrorProyecto, fecha_larga, hash_corto, leer_json, plural, ruta_relativa, sin_ocultos
 from .plantilla import Plantillas
@@ -88,7 +89,8 @@ class Constructor:
         self.informe.avisos.extend(self.publicidad["avisos"])
         self.plantillas = Plantillas(self.raiz)
         self.salida.mkdir(parents=True, exist_ok=True)
-        self.paquetes = {"comun": paquete_comun(self.raiz), "portada": paquete_portada(self.raiz)}
+        temas = [e.tema for s in self.secciones for e in (*s.publicados, *s.proximos) if e.tema]
+        self.paquetes = {"comun": paquete_comun(self.raiz, css_temas(temas)), "portada": paquete_portada(self.raiz)}
         for s in self.secciones:
             self.paquetes[s.slug] = paquete_seccion(s, self.raiz)
         self.scripts = {s.slug: script_seccion(s, self.raiz) for s in self.secciones}
@@ -110,6 +112,7 @@ class Constructor:
         if not self.titular["completo"]:
             self.informe.avisos.append("Faltan datos del titular en config/titular.json (" + ", ".join(self.titular["faltan"]) +
                                        "): las páginas legales muestran «[COMPLETAR POR EL TITULAR]». Hay que rellenarlos antes de publicar.")
+        self._seguridad()
         (self.salida / "robots.txt").write_text(seo.robots_txt(self.cfg), encoding="utf-8")
         (self.salida / "sitemap.xml").write_text(seo.sitemap_xml(self.cfg, self._sitemap), encoding="utf-8")
         return self.informe
@@ -146,6 +149,17 @@ class Constructor:
                 destino = self.salida / s.slug / "datos" / p.relative_to(origen)
                 destino.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(p, destino)
+
+    def _seguridad(self):
+        """Cabeceras de seguridad para el hosting (_headers para Cloudflare, .htaccess para Apache/LiteSpeed) y security.txt si hay correo del titular."""
+        activa = bool(self.publicidad["activa"])
+        (self.salida / "_headers").write_text(seguridad.archivo_headers(activa), encoding="utf-8")
+        (self.salida / ".htaccess").write_text(seguridad.archivo_htaccess(activa), encoding="utf-8")
+        txt = seguridad.security_txt(self.titular["email_texto"], self.cfg["url"])
+        if txt:
+            destino = self.salida / ".well-known" / "security.txt"
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            destino.write_text(txt, encoding="utf-8")
 
     def _ads_txt(self):
         """ads.txt: solo existe con publicidad activa o en modo verificación, con el identificador real del editor (nunca uno inventado)."""
@@ -194,14 +208,14 @@ class Constructor:
             "seccion_titulo": e.seccion.titulo, "mostrar_seccion": mostrar_seccion,
             "fecha_iso": e.fecha.isoformat() if e.fecha else "", "fecha_texto": fecha_larga(e.fecha) if e.fecha else "",
             "tema": bool(t),
-            "tema_css": f"--t-fondo:{t['fondo']};--t-texto:{t['texto']};--t-acento:{t['acento']}" if t else "",
+            "tema_id": id_tema(t) if t else "",
         }
 
     # ------------------------------------------------------------ escritura de una página
     def _pagina(self, url: str, plantilla: str, datos: dict, *, titulo: str, descripcion: str, mundo: str, tipo: str,
                 seccion: str = "", item: str = "", css_extra: tuple = (), js_extra: tuple = (), jsonld: tuple = (),
                 main_attrs: str = "", raiz: str | None = None, indexable: bool = True, og_tipo: str = "website",
-                fecha: date | None = None, paquetes: tuple = (), scripts: tuple = (), cabecera: bool = False):
+                fecha: date | None = None, paquetes: tuple = (), scripts: tuple = (), cabecera: bool = False, noindexar: bool = False):
         archivo = url if url.endswith(".html") else url + "index.html"
         if raiz is None:
             raiz = "../" * url.count("/")
@@ -211,20 +225,24 @@ class Constructor:
         canonical = seo.absoluta(self.cfg, url) if indexable else ""
         pagina = {
             "titulo": titulo, "descripcion": descripcion, "canonical": canonical,
-            "robots": "" if (produccion and indexable) else "noindex, nofollow",
+            # noindexar: la página se ve y se enlaza (p. ej. las legales con datos personales del titular) pero no debe salir en buscadores
+            "robots": "noindex, nofollow" if not (produccion and indexable) else ("noindex, follow" if noindexar else ""),
             "og": indexable, "og_tipo": og_tipo, "og_imagen": seo.absoluta(self.cfg, "assets/img/og.png"),
             "css": hrefs_css + list(css_extra), "js": list(js_extra), "jsonld": [seo.jsonld(j) for j in jsonld],
             "mundo": mundo, "seccion": seccion, "item": item, "main_attrs": main_attrs,
             "anuncio_cabecera": cabecera,   # banner fino bajo el menú (comun/anuncio/anuncio-cabecera.html); solo en listados y fichas con «anuncios»
         }
         legales, cookies = self._legales(raiz)
+        pub = self.publicidad if tipo != "404" else {**self.publicidad, "activa": False, "meta_cuenta": "",
+                                                       **{k: "" for k in self.publicidad if k.startswith("bloque_")}}
         base = {
             "sitio": {"nombre": self.cfg["nombre"], "lema": self.cfg["lema"], "idioma": self.cfg["idioma"],
                       "anio": date.today().year, "locale": self.cfg["idioma"] + "_ES"},
             "raiz": raiz, "inicio": raiz or "./", "nav": self._nav(raiz, seccion), "mundos_pie": self._mundos_pie(raiz), "pagina": pagina,
             "legales": legales, "hay_legales": bool(legales), "cookies_href": cookies, "titular": self.titular,
-            "publicidad": self.publicidad if tipo != "404" else {**self.publicidad, "activa": False, "meta_cuenta": "",
-                                                                    **{k: "" for k in self.publicidad if k.startswith("bloque_")}},
+            "publicidad": pub,
+            # La política de contenido de la página sigue a la publicidad de ESA página: si no carga el código de Google, no se le abre la puerta.
+            "seguridad": {"csp": seguridad.csp_meta(bool(pub["activa"]))},
         }
         datos_total = {**base, **datos}
         contenido = self.plantillas.renderizar(plantilla, datos_total)
@@ -233,7 +251,7 @@ class Constructor:
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(html, encoding="utf-8")
         self.informe.paginas.append((url, tipo))
-        if indexable:
+        if indexable and not noindexar:
             self._sitemap.append((url, fecha))
 
     # ------------------------------------------------------------ portada
@@ -401,7 +419,7 @@ class Constructor:
         main_attrs = ""
         if e.tema:
             t = e.tema
-            main_attrs = f'class="con-tema" style="--t-fondo:{t["fondo"]};--t-texto:{t["texto"]};--t-acento:{t["acento"]}"'
+            main_attrs = f'class="con-tema" data-tema="{id_tema(t)}"'
         datos = {
             "seccion": self._datos_seccion(s, raiz),
             "item": {"slug": e.slug, "titulo": e.titulo, "descripcion": e.descripcion, "fecha_iso": e.fecha.isoformat(),
@@ -418,7 +436,7 @@ class Constructor:
                      mundo=s.aspecto, tipo="elemento", seccion=s.slug, item=e.slug, css_extra=tuple(css_extra),
                      js_extra=tuple(js_extra), jsonld=(self._jsonld_elemento(e), migas), main_attrs=main_attrs,
                      og_tipo="article" if s.schema["tipo"] == "Article" else "website", fecha=e.fecha,
-                     paquetes=(self.paquetes[s.slug],), cabecera=s.anuncios,
+                     paquetes=(self.paquetes[s.slug],), cabecera=s.anuncios, noindexar=not e.indexar,
                      scripts=(s.slug,) + (("consentimiento",) if s.dinamico and self.publicidad["activa"] else ()))
 
     # ------------------------------------------------------------ 404

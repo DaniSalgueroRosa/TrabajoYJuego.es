@@ -1,0 +1,1147 @@
+{
+ "_nota": "Futbolistas de «Futbolista oculto». n: nombre; r: otras formas de escribirlo (no pueden repetirse entre jugadores); p: país de su selección; pos: posición; y: año de nacimiento; m: campeón del mundo con su selección (de la plantilla campeona); c: campeón de Europa de clubes (Copa de Europa o Champions League); b: ganador del Balón de Oro. Se omiten los internacionales españoles en activo porque el Mundial de 2026 acaba de cambiar sus palmarés. Datos hasta 2026.",
+ "futbolistas": [
+  {
+   "n": "Lionel Messi",
+   "r": [
+    "Messi",
+    "Leo Messi"
+   ],
+   "p": "Argentina",
+   "pos": "Delantero",
+   "y": 1987,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Cristiano Ronaldo",
+   "r": [
+    "Cristiano",
+    "CR7"
+   ],
+   "p": "Portugal",
+   "pos": "Delantero",
+   "y": 1985,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Kylian Mbappé",
+   "r": [
+    "Mbappe",
+    "Mbappé"
+   ],
+   "p": "Francia",
+   "pos": "Delantero",
+   "y": 1998,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Neymar",
+   "r": [
+    "Neymar Jr"
+   ],
+   "p": "Brasil",
+   "pos": "Delantero",
+   "y": 1992,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Luka Modrić",
+   "r": [
+    "Modric",
+    "Modrić"
+   ],
+   "p": "Croacia",
+   "pos": "Centrocampista",
+   "y": 1985,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Karim Benzema",
+   "r": [
+    "Benzema"
+   ],
+   "p": "Francia",
+   "pos": "Delantero",
+   "y": 1987,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Robert Lewandowski",
+   "r": [
+    "Lewandowski"
+   ],
+   "p": "Polonia",
+   "pos": "Delantero",
+   "y": 1988,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Erling Haaland",
+   "r": [
+    "Haaland"
+   ],
+   "p": "Noruega",
+   "pos": "Delantero",
+   "y": 2000,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Mohamed Salah",
+   "r": [
+    "Salah"
+   ],
+   "p": "Egipto",
+   "pos": "Delantero",
+   "y": 1992,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Kevin De Bruyne",
+   "r": [
+    "De Bruyne"
+   ],
+   "p": "Bélgica",
+   "pos": "Centrocampista",
+   "y": 1991,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Andrés Iniesta",
+   "r": [
+    "Iniesta"
+   ],
+   "p": "España",
+   "pos": "Centrocampista",
+   "y": 1984,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Xavi Hernández",
+   "r": [
+    "Xavi"
+   ],
+   "p": "España",
+   "pos": "Centrocampista",
+   "y": 1980,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Sergio Ramos",
+   "r": [
+    "Ramos"
+   ],
+   "p": "España",
+   "pos": "Defensa",
+   "y": 1986,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Iker Casillas",
+   "r": [
+    "Casillas"
+   ],
+   "p": "España",
+   "pos": "Portero",
+   "y": 1981,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Gerard Piqué",
+   "r": [
+    "Pique",
+    "Piqué"
+   ],
+   "p": "España",
+   "pos": "Defensa",
+   "y": 1987,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Sergio Busquets",
+   "r": [
+    "Busquets"
+   ],
+   "p": "España",
+   "pos": "Centrocampista",
+   "y": 1988,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "David Villa",
+   "r": [
+    "Villa"
+   ],
+   "p": "España",
+   "pos": "Delantero",
+   "y": 1981,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Fernando Torres",
+   "r": [
+    "Torres",
+    "El Niño"
+   ],
+   "p": "España",
+   "pos": "Delantero",
+   "y": 1984,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Raúl González",
+   "r": [
+    "Raul",
+    "Raúl"
+   ],
+   "p": "España",
+   "pos": "Delantero",
+   "y": 1977,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Carles Puyol",
+   "r": [
+    "Puyol"
+   ],
+   "p": "España",
+   "pos": "Defensa",
+   "y": 1978,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Xabi Alonso",
+   "r": [
+    "Alonso"
+   ],
+   "p": "España",
+   "pos": "Centrocampista",
+   "y": 1981,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Zinedine Zidane",
+   "r": [
+    "Zidane",
+    "Zizou"
+   ],
+   "p": "Francia",
+   "pos": "Centrocampista",
+   "y": 1972,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Thierry Henry",
+   "r": [
+    "Henry"
+   ],
+   "p": "Francia",
+   "pos": "Delantero",
+   "y": 1977,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Michel Platini",
+   "r": [
+    "Platini"
+   ],
+   "p": "Francia",
+   "pos": "Centrocampista",
+   "y": 1955,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Pelé",
+   "r": [
+    "Pele"
+   ],
+   "p": "Brasil",
+   "pos": "Delantero",
+   "y": 1940,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Johan Cruyff",
+   "r": [
+    "Cruyff",
+    "Cruijff"
+   ],
+   "p": "Países Bajos",
+   "pos": "Delantero",
+   "y": 1947,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Franz Beckenbauer",
+   "r": [
+    "Beckenbauer",
+    "El Káiser"
+   ],
+   "p": "Alemania",
+   "pos": "Defensa",
+   "y": 1945,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Marco van Basten",
+   "r": [
+    "Van Basten"
+   ],
+   "p": "Países Bajos",
+   "pos": "Delantero",
+   "y": 1964,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Ruud Gullit",
+   "r": [
+    "Gullit"
+   ],
+   "p": "Países Bajos",
+   "pos": "Centrocampista",
+   "y": 1962,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Ronaldo Nazário",
+   "r": [
+    "Ronaldo",
+    "Ronaldo Nazario",
+    "El Fenómeno"
+   ],
+   "p": "Brasil",
+   "pos": "Delantero",
+   "y": 1976,
+   "m": true,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Kaká",
+   "r": [
+    "Kaka"
+   ],
+   "p": "Brasil",
+   "pos": "Centrocampista",
+   "y": 1982,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Roberto Carlos",
+   "r": [
+    "Carlos"
+   ],
+   "p": "Brasil",
+   "pos": "Defensa",
+   "y": 1973,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Cafú",
+   "r": [
+    "Cafu"
+   ],
+   "p": "Brasil",
+   "pos": "Defensa",
+   "y": 1970,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Paolo Maldini",
+   "r": [
+    "Maldini"
+   ],
+   "p": "Italia",
+   "pos": "Defensa",
+   "y": 1968,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Fabio Cannavaro",
+   "r": [
+    "Cannavaro"
+   ],
+   "p": "Italia",
+   "pos": "Defensa",
+   "y": 1973,
+   "m": true,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Gianluigi Buffon",
+   "r": [
+    "Buffon",
+    "Gigi Buffon"
+   ],
+   "p": "Italia",
+   "pos": "Portero",
+   "y": 1978,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Andrea Pirlo",
+   "r": [
+    "Pirlo"
+   ],
+   "p": "Italia",
+   "pos": "Centrocampista",
+   "y": 1979,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Francesco Totti",
+   "r": [
+    "Totti"
+   ],
+   "p": "Italia",
+   "pos": "Delantero",
+   "y": 1976,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Alessandro Del Piero",
+   "r": [
+    "Del Piero",
+    "Delpiero"
+   ],
+   "p": "Italia",
+   "pos": "Delantero",
+   "y": 1974,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Roberto Baggio",
+   "r": [
+    "Baggio"
+   ],
+   "p": "Italia",
+   "pos": "Delantero",
+   "y": 1967,
+   "m": false,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Lothar Matthäus",
+   "r": [
+    "Matthaus",
+    "Matthäus"
+   ],
+   "p": "Alemania",
+   "pos": "Centrocampista",
+   "y": 1961,
+   "m": true,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Manuel Neuer",
+   "r": [
+    "Neuer"
+   ],
+   "p": "Alemania",
+   "pos": "Portero",
+   "y": 1986,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Toni Kroos",
+   "r": [
+    "Kroos"
+   ],
+   "p": "Alemania",
+   "pos": "Centrocampista",
+   "y": 1990,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Thomas Müller",
+   "r": [
+    "Thomas Muller"
+   ],
+   "p": "Alemania",
+   "pos": "Delantero",
+   "y": 1989,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Miroslav Klose",
+   "r": [
+    "Klose"
+   ],
+   "p": "Alemania",
+   "pos": "Delantero",
+   "y": 1978,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Gerd Müller",
+   "r": [
+    "Gerd Muller",
+    "Der Bomber"
+   ],
+   "p": "Alemania",
+   "pos": "Delantero",
+   "y": 1945,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Oliver Kahn",
+   "r": [
+    "Kahn"
+   ],
+   "p": "Alemania",
+   "pos": "Portero",
+   "y": 1969,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Lev Yashin",
+   "r": [
+    "Yashin",
+    "Yashine",
+    "Lev Yachin"
+   ],
+   "p": "Unión Soviética",
+   "pos": "Portero",
+   "y": 1929,
+   "m": false,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Eusébio",
+   "r": [
+    "Eusebio"
+   ],
+   "p": "Portugal",
+   "pos": "Delantero",
+   "y": 1942,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Luís Figo",
+   "r": [
+    "Figo",
+    "Luis Figo"
+   ],
+   "p": "Portugal",
+   "pos": "Centrocampista",
+   "y": 1972,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Michael Owen",
+   "r": [
+    "Owen"
+   ],
+   "p": "Inglaterra",
+   "pos": "Delantero",
+   "y": 1979,
+   "m": false,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Bobby Charlton",
+   "r": [
+    "Charlton"
+   ],
+   "p": "Inglaterra",
+   "pos": "Centrocampista",
+   "y": 1937,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Wayne Rooney",
+   "r": [
+    "Rooney"
+   ],
+   "p": "Inglaterra",
+   "pos": "Delantero",
+   "y": 1985,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "David Beckham",
+   "r": [
+    "Beckham"
+   ],
+   "p": "Inglaterra",
+   "pos": "Centrocampista",
+   "y": 1975,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Steven Gerrard",
+   "r": [
+    "Gerrard"
+   ],
+   "p": "Inglaterra",
+   "pos": "Centrocampista",
+   "y": 1980,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Harry Kane",
+   "r": [
+    "Kane"
+   ],
+   "p": "Inglaterra",
+   "pos": "Delantero",
+   "y": 1993,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Thibaut Courtois",
+   "r": [
+    "Courtois"
+   ],
+   "p": "Bélgica",
+   "pos": "Portero",
+   "y": 1992,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Didier Drogba",
+   "r": [
+    "Drogba"
+   ],
+   "p": "Costa de Marfil",
+   "pos": "Delantero",
+   "y": 1978,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Samuel Eto'o",
+   "r": [
+    "Etoo",
+    "Eto'o",
+    "Samuel Etoo"
+   ],
+   "p": "Camerún",
+   "pos": "Delantero",
+   "y": 1981,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "George Weah",
+   "r": [
+    "Weah"
+   ],
+   "p": "Liberia",
+   "pos": "Delantero",
+   "y": 1966,
+   "m": false,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Hristo Stoichkov",
+   "r": [
+    "Stoichkov",
+    "Stoitchkov"
+   ],
+   "p": "Bulgaria",
+   "pos": "Delantero",
+   "y": 1966,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Pavel Nedvěd",
+   "r": [
+    "Nedved",
+    "Nedvěd"
+   ],
+   "p": "Chequia",
+   "pos": "Centrocampista",
+   "y": 1972,
+   "m": false,
+   "c": false,
+   "b": true
+  },
+  {
+   "n": "Andriy Shevchenko",
+   "r": [
+    "Shevchenko",
+    "Sheva"
+   ],
+   "p": "Ucrania",
+   "pos": "Delantero",
+   "y": 1976,
+   "m": false,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Luis Suárez",
+   "r": [
+    "Suarez",
+    "Suárez",
+    "Luis Suarez"
+   ],
+   "p": "Uruguay",
+   "pos": "Delantero",
+   "y": 1987,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Edinson Cavani",
+   "r": [
+    "Cavani"
+   ],
+   "p": "Uruguay",
+   "pos": "Delantero",
+   "y": 1987,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Diego Forlán",
+   "r": [
+    "Forlan",
+    "Forlán"
+   ],
+   "p": "Uruguay",
+   "pos": "Delantero",
+   "y": 1979,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Sergio Agüero",
+   "r": [
+    "Aguero",
+    "Agüero",
+    "Kun Agüero"
+   ],
+   "p": "Argentina",
+   "pos": "Delantero",
+   "y": 1988,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Gabriel Batistuta",
+   "r": [
+    "Batistuta",
+    "Batigol"
+   ],
+   "p": "Argentina",
+   "pos": "Delantero",
+   "y": 1969,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Carlos Tevez",
+   "r": [
+    "Tevez",
+    "Tévez"
+   ],
+   "p": "Argentina",
+   "pos": "Delantero",
+   "y": 1984,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Radamel Falcao",
+   "r": [
+    "Falcao"
+   ],
+   "p": "Colombia",
+   "pos": "Delantero",
+   "y": 1986,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "James Rodríguez",
+   "r": [
+    "James",
+    "James Rodriguez"
+   ],
+   "p": "Colombia",
+   "pos": "Centrocampista",
+   "y": 1991,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Zlatan Ibrahimović",
+   "r": [
+    "Zlatan",
+    "Ibrahimovic"
+   ],
+   "p": "Suecia",
+   "pos": "Delantero",
+   "y": 1981,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Henrik Larsson",
+   "r": [
+    "Larsson"
+   ],
+   "p": "Suecia",
+   "pos": "Delantero",
+   "y": 1971,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Peter Schmeichel",
+   "r": [
+    "Schmeichel"
+   ],
+   "p": "Dinamarca",
+   "pos": "Portero",
+   "y": 1963,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Didier Deschamps",
+   "r": [
+    "Deschamps"
+   ],
+   "p": "Francia",
+   "pos": "Centrocampista",
+   "y": 1968,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Lilian Thuram",
+   "r": [
+    "Thuram"
+   ],
+   "p": "Francia",
+   "pos": "Defensa",
+   "y": 1972,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "N'Golo Kanté",
+   "r": [
+    "Kante",
+    "Kanté"
+   ],
+   "p": "Francia",
+   "pos": "Centrocampista",
+   "y": 1991,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Paul Pogba",
+   "r": [
+    "Pogba"
+   ],
+   "p": "Francia",
+   "pos": "Centrocampista",
+   "y": 1993,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Antoine Griezmann",
+   "r": [
+    "Griezmann"
+   ],
+   "p": "Francia",
+   "pos": "Delantero",
+   "y": 1991,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Raphaël Varane",
+   "r": [
+    "Varane"
+   ],
+   "p": "Francia",
+   "pos": "Defensa",
+   "y": 1993,
+   "m": true,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Hugo Lloris",
+   "r": [
+    "Lloris"
+   ],
+   "p": "Francia",
+   "pos": "Portero",
+   "y": 1986,
+   "m": true,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Ousmane Dembélé",
+   "r": [
+    "Dembele",
+    "Dembélé"
+   ],
+   "p": "Francia",
+   "pos": "Delantero",
+   "y": 1997,
+   "m": true,
+   "c": true,
+   "b": true
+  },
+  {
+   "n": "Sadio Mané",
+   "r": [
+    "Mane",
+    "Mané"
+   ],
+   "p": "Senegal",
+   "pos": "Delantero",
+   "y": 1992,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Virgil van Dijk",
+   "r": [
+    "Van Dijk"
+   ],
+   "p": "Países Bajos",
+   "pos": "Defensa",
+   "y": 1991,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Dennis Bergkamp",
+   "r": [
+    "Bergkamp"
+   ],
+   "p": "Países Bajos",
+   "pos": "Delantero",
+   "y": 1969,
+   "m": false,
+   "c": false,
+   "b": false
+  },
+  {
+   "n": "Edwin van der Sar",
+   "r": [
+    "Van der Sar"
+   ],
+   "p": "Países Bajos",
+   "pos": "Portero",
+   "y": 1970,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Vinícius Júnior",
+   "r": [
+    "Vinicius",
+    "Vinícius",
+    "Vini Jr"
+   ],
+   "p": "Brasil",
+   "pos": "Delantero",
+   "y": 2000,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Jude Bellingham",
+   "r": [
+    "Bellingham"
+   ],
+   "p": "Inglaterra",
+   "pos": "Centrocampista",
+   "y": 2003,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Federico Valverde",
+   "r": [
+    "Valverde"
+   ],
+   "p": "Uruguay",
+   "pos": "Centrocampista",
+   "y": 1998,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Marcelo",
+   "r": [
+    "Marcelo Vieira"
+   ],
+   "p": "Brasil",
+   "pos": "Defensa",
+   "y": 1988,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Achraf Hakimi",
+   "r": [
+    "Hakimi"
+   ],
+   "p": "Marruecos",
+   "pos": "Defensa",
+   "y": 1998,
+   "m": false,
+   "c": true,
+   "b": false
+  },
+  {
+   "n": "Gianluigi Donnarumma",
+   "r": [
+    "Donnarumma"
+   ],
+   "p": "Italia",
+   "pos": "Portero",
+   "y": 1999,
+   "m": false,
+   "c": true,
+   "b": false
+  }
+ ]
+}

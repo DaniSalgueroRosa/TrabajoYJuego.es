@@ -1,0 +1,593 @@
+{
+ "_nota": "Grupos de «El intruso del fútbol». t: lo que comparten tres de las cuatro opciones (se lee tras «Tres de estos futbolistas…»); m: miembros del grupo; f: intrusos posibles con el motivo por el que no pertenecen (frase terminada en punto). Datos hasta 2026.",
+ "grupos": [
+  {
+   "t": "han ganado el Balón de Oro",
+   "m": [
+    "Lionel Messi",
+    "Cristiano Ronaldo",
+    "Luka Modrić",
+    "Karim Benzema",
+    "Zinedine Zidane",
+    "Kaká",
+    "Ronaldinho",
+    "Fabio Cannavaro",
+    "Michel Platini",
+    "Johan Cruyff",
+    "Marco van Basten",
+    "Luís Figo",
+    "Rivaldo",
+    "Andriy Shevchenko",
+    "Ousmane Dembélé",
+    "Rodri"
+   ],
+   "f": [
+    {
+     "n": "Xavi Hernández",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Andrés Iniesta",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Gianluigi Buffon",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Thierry Henry",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Iker Casillas",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Philipp Lahm",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Zlatan Ibrahimović",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Robert Lewandowski",
+     "e": "Nunca ganó el Balón de Oro."
+    },
+    {
+     "n": "Mohamed Salah",
+     "e": "Nunca ganó el Balón de Oro."
+    }
+   ]
+  },
+  {
+   "t": "fueron campeones del mundo con España en 2010",
+   "m": [
+    "Iker Casillas",
+    "Xavi Hernández",
+    "Andrés Iniesta",
+    "Gerard Piqué",
+    "Sergio Busquets",
+    "David Villa",
+    "Carles Puyol",
+    "Xabi Alonso",
+    "Sergio Ramos",
+    "Fernando Torres",
+    "Cesc Fàbregas",
+    "Pedro",
+    "Juan Mata",
+    "Jesús Navas",
+    "Joan Capdevila",
+    "David Silva"
+   ],
+   "f": [
+    {
+     "n": "Raúl González",
+     "e": "No estuvo en el Mundial de 2010: su etapa en la selección había terminado."
+    },
+    {
+     "n": "Fernando Morientes",
+     "e": "No estuvo en el Mundial de 2010."
+    },
+    {
+     "n": "Luis Enrique",
+     "e": "No estuvo en el Mundial de 2010: jugó los de 1994 y 1998."
+    },
+    {
+     "n": "Fernando Hierro",
+     "e": "No estuvo en el Mundial de 2010: jugó los de 1990, 1994, 1998 y 2002."
+    },
+    {
+     "n": "Joaquín Sánchez",
+     "e": "No estuvo en la lista del Mundial de 2010."
+    }
+   ]
+  },
+  {
+   "t": "fueron campeones del mundo con Francia en 2018",
+   "m": [
+    "Hugo Lloris",
+    "Benjamin Pavard",
+    "Raphaël Varane",
+    "Samuel Umtiti",
+    "Lucas Hernández",
+    "N'Golo Kanté",
+    "Paul Pogba",
+    "Kylian Mbappé",
+    "Antoine Griezmann",
+    "Olivier Giroud",
+    "Blaise Matuidi",
+    "Ousmane Dembélé",
+    "Nabil Fekir",
+    "Corentin Tolisso",
+    "Presnel Kimpembe",
+    "Steve Mandanda"
+   ],
+   "f": [
+    {
+     "n": "Karim Benzema",
+     "e": "No fue convocado para el Mundial de 2018."
+    },
+    {
+     "n": "Franck Ribéry",
+     "e": "Se retiró de la selección en 2014 y no jugó el Mundial de 2018."
+    },
+    {
+     "n": "Kingsley Coman",
+     "e": "No estuvo en la lista del Mundial de 2018."
+    },
+    {
+     "n": "Alexandre Lacazette",
+     "e": "No estuvo en la lista del Mundial de 2018."
+    }
+   ]
+  },
+  {
+   "t": "fueron campeones del mundo con Alemania en 2014",
+   "m": [
+    "Manuel Neuer",
+    "Philipp Lahm",
+    "Jérôme Boateng",
+    "Mats Hummels",
+    "Benedikt Höwedes",
+    "Bastian Schweinsteiger",
+    "Toni Kroos",
+    "Thomas Müller",
+    "Mesut Özil",
+    "Miroslav Klose",
+    "Mario Götze",
+    "Sami Khedira",
+    "Per Mertesacker",
+    "André Schürrle",
+    "Lukas Podolski",
+    "Christoph Kramer"
+   ],
+   "f": [
+    {
+     "n": "Marco Reus",
+     "e": "Se lesionó antes del torneo y no jugó el Mundial de 2014."
+    },
+    {
+     "n": "İlkay Gündoğan",
+     "e": "Se lesionó y se perdió el Mundial de 2014."
+    },
+    {
+     "n": "Michael Ballack",
+     "e": "Se retiró de la selección en 2010."
+    },
+    {
+     "n": "Oliver Kahn",
+     "e": "Se retiró de la selección en 2006."
+    }
+   ]
+  },
+  {
+   "t": "fueron campeones del mundo con Brasil",
+   "m": [
+    "Pelé",
+    "Cafú",
+    "Roberto Carlos",
+    "Ronaldo Nazário",
+    "Rivaldo",
+    "Kaká",
+    "Ronaldinho",
+    "Romário",
+    "Bebeto",
+    "Dunga",
+    "Taffarel",
+    "Jairzinho",
+    "Rivelino",
+    "Garrincha",
+    "Gilberto Silva",
+    "Lúcio"
+   ],
+   "f": [
+    {
+     "n": "Zico",
+     "e": "Nunca ganó un Mundial con Brasil."
+    },
+    {
+     "n": "Sócrates",
+     "e": "Nunca ganó un Mundial con Brasil."
+    },
+    {
+     "n": "Neymar",
+     "e": "Brasil no ha ganado ningún Mundial con él."
+    },
+    {
+     "n": "Falcão",
+     "e": "Nunca ganó un Mundial con Brasil."
+    },
+    {
+     "n": "Vinícius Júnior",
+     "e": "Brasil no ha ganado ningún Mundial con él."
+    }
+   ]
+  },
+  {
+   "t": "fueron campeones del mundo con Argentina",
+   "m": [
+    "Mario Kempes",
+    "Daniel Passarella",
+    "Diego Maradona",
+    "Jorge Valdano",
+    "Jorge Burruchaga",
+    "Lionel Messi",
+    "Ángel Di María",
+    "Rodrigo De Paul",
+    "Nicolás Otamendi",
+    "Alexis Mac Allister",
+    "Enzo Fernández",
+    "Emiliano Martínez",
+    "Julián Álvarez",
+    "Lautaro Martínez"
+   ],
+   "f": [
+    {
+     "n": "Gabriel Batistuta",
+     "e": "Nunca ganó un Mundial."
+    },
+    {
+     "n": "Juan Román Riquelme",
+     "e": "Nunca ganó un Mundial."
+    },
+    {
+     "n": "Javier Zanetti",
+     "e": "Nunca ganó un Mundial."
+    },
+    {
+     "n": "Hernán Crespo",
+     "e": "Nunca ganó un Mundial."
+    },
+    {
+     "n": "Sergio Agüero",
+     "e": "Nunca ganó un Mundial."
+    },
+    {
+     "n": "Carlos Tevez",
+     "e": "Nunca ganó un Mundial."
+    }
+   ]
+  },
+  {
+   "t": "han jugado en el Real Madrid y en el FC Barcelona",
+   "m": [
+    "Luís Figo",
+    "Ronaldo Nazário",
+    "Michael Laudrup",
+    "Luis Enrique",
+    "Bernd Schuster",
+    "Javier Saviola"
+   ],
+   "f": [
+    {
+     "n": "Xavi Hernández",
+     "e": "Solo jugó en el Barcelona y el Al-Sadd."
+    },
+    {
+     "n": "Raúl González",
+     "e": "Nunca jugó en el Barcelona."
+    },
+    {
+     "n": "Lionel Messi",
+     "e": "Nunca jugó en el Real Madrid."
+    },
+    {
+     "n": "Johan Cruyff",
+     "e": "Jugó en el Barcelona, pero nunca en el Real Madrid."
+    },
+    {
+     "n": "David Beckham",
+     "e": "Nunca jugó en el Barcelona."
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "e": "Nunca llegó a jugar un partido oficial con el Barcelona."
+    },
+    {
+     "n": "Iker Casillas",
+     "e": "Nunca jugó en el Barcelona."
+    }
+   ]
+  },
+  {
+   "t": "son porteros",
+   "m": [
+    "Gianluigi Buffon",
+    "Manuel Neuer",
+    "Iker Casillas",
+    "Thibaut Courtois",
+    "Jan Oblak",
+    "Alisson Becker",
+    "Peter Schmeichel",
+    "Oliver Kahn",
+    "Lev Yashin",
+    "Dino Zoff",
+    "Edwin van der Sar",
+    "Gianluigi Donnarumma",
+    "Marc-André ter Stegen",
+    "Hugo Lloris",
+    "Petr Čech",
+    "David de Gea"
+   ],
+   "f": [
+    {
+     "n": "Andrea Pirlo",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Paolo Maldini",
+     "e": "Es defensa."
+    },
+    {
+     "n": "Sergio Ramos",
+     "e": "Es defensa."
+    },
+    {
+     "n": "Luka Modrić",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Xavi Hernández",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Toni Kroos",
+     "e": "Es centrocampista."
+    }
+   ]
+  },
+  {
+   "t": "son defensas",
+   "m": [
+    "Paolo Maldini",
+    "Fabio Cannavaro",
+    "Carles Puyol",
+    "Sergio Ramos",
+    "Franz Beckenbauer",
+    "Franco Baresi",
+    "Alessandro Nesta",
+    "Lilian Thuram",
+    "Raphaël Varane",
+    "Gerard Piqué",
+    "Virgil van Dijk",
+    "Marcelo",
+    "Roberto Carlos",
+    "Cafú",
+    "Philipp Lahm",
+    "Giorgio Chiellini"
+   ],
+   "f": [
+    {
+     "n": "Andrea Pirlo",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Xavi Hernández",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Andrés Iniesta",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Toni Kroos",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Luka Modrić",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Steven Gerrard",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "David Beckham",
+     "e": "Es centrocampista."
+    }
+   ]
+  },
+  {
+   "t": "son delanteros",
+   "m": [
+    "Thierry Henry",
+    "Didier Drogba",
+    "Samuel Eto'o",
+    "Raúl González",
+    "David Villa",
+    "Fernando Torres",
+    "Edinson Cavani",
+    "Robert Lewandowski",
+    "Erling Haaland",
+    "Karim Benzema",
+    "Kylian Mbappé",
+    "Luis Suárez",
+    "Sergio Agüero",
+    "Gonzalo Higuaín",
+    "Gabriel Batistuta",
+    "Gerd Müller",
+    "Marco van Basten",
+    "Romário",
+    "Miroslav Klose"
+   ],
+   "f": [
+    {
+     "n": "Andrea Pirlo",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Luka Modrić",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Xavi Hernández",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Andrés Iniesta",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Toni Kroos",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Sergio Busquets",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "Xabi Alonso",
+     "e": "Es centrocampista."
+    },
+    {
+     "n": "N'Golo Kanté",
+     "e": "Es centrocampista."
+    }
+   ]
+  },
+  {
+   "t": "han ganado el Pichichi de LaLiga",
+   "m": [
+    "Diego Forlán",
+    "Samuel Eto'o",
+    "Ruud van Nistelrooy",
+    "Lionel Messi",
+    "Cristiano Ronaldo",
+    "Luis Suárez",
+    "Karim Benzema",
+    "Robert Lewandowski",
+    "Kylian Mbappé",
+    "Hugo Sánchez",
+    "Telmo Zarra",
+    "Quini"
+   ],
+   "f": [
+    {
+     "n": "Antoine Griezmann",
+     "e": "Nunca ganó el Pichichi."
+    },
+    {
+     "n": "David Villa",
+     "e": "Nunca ganó el Pichichi."
+    },
+    {
+     "n": "Gonzalo Higuaín",
+     "e": "Nunca ganó el Pichichi."
+    },
+    {
+     "n": "Iago Aspas",
+     "e": "Nunca ganó el Pichichi."
+    },
+    {
+     "n": "Álvaro Morata",
+     "e": "Nunca ganó el Pichichi."
+    },
+    {
+     "n": "Neymar",
+     "e": "Nunca ganó el Pichichi."
+    }
+   ]
+  },
+  {
+   "t": "ganaron la Champions con el Liverpool en 2019",
+   "m": [
+    "Alisson Becker",
+    "Trent Alexander-Arnold",
+    "Joël Matip",
+    "Virgil van Dijk",
+    "Andy Robertson",
+    "Jordan Henderson",
+    "Fabinho",
+    "Georginio Wijnaldum",
+    "Mohamed Salah",
+    "Roberto Firmino",
+    "Sadio Mané",
+    "Divock Origi",
+    "James Milner",
+    "Joe Gomez"
+   ],
+   "f": [
+    {
+     "n": "Philippe Coutinho",
+     "e": "Se marchó al Barcelona en enero de 2018."
+    },
+    {
+     "n": "Luis Suárez",
+     "e": "Se marchó al Barcelona en 2014."
+    },
+    {
+     "n": "Steven Gerrard",
+     "e": "Dejó el Liverpool en 2015."
+    },
+    {
+     "n": "Raheem Sterling",
+     "e": "Se marchó al Manchester City en 2015."
+    },
+    {
+     "n": "Xabi Alonso",
+     "e": "Dejó el Liverpool en 2009."
+    }
+   ]
+  },
+  {
+   "t": "ganaron la final de la Champions de 2018 con el Real Madrid",
+   "m": [
+    "Keylor Navas",
+    "Dani Carvajal",
+    "Raphaël Varane",
+    "Sergio Ramos",
+    "Marcelo",
+    "Casemiro",
+    "Luka Modrić",
+    "Toni Kroos",
+    "Isco",
+    "Karim Benzema",
+    "Cristiano Ronaldo",
+    "Gareth Bale"
+   ],
+   "f": [
+    {
+     "n": "James Rodríguez",
+     "e": "Estaba cedido en el Bayern de Múnich."
+    },
+    {
+     "n": "Álvaro Morata",
+     "e": "Jugaba en el Chelsea."
+    },
+    {
+     "n": "Thibaut Courtois",
+     "e": "Jugaba en el Chelsea."
+    },
+    {
+     "n": "Eden Hazard",
+     "e": "Jugaba en el Chelsea."
+    },
+    {
+     "n": "Kylian Mbappé",
+     "e": "Jugaba en el París Saint-Germain."
+    }
+   ]
+  }
+ ]
+}

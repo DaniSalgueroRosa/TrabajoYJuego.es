@@ -53,11 +53,35 @@ def pagina_de_error(texto: str) -> bytes:
     ).encode("utf-8")
 
 
+def cabeceras_de_seguridad(carpeta: str) -> list:
+    """Las cabeceras de «_headers» (las mismas que llevará el hosting), para que lo que ves aquí se comporte como en producción.
+    Se dejan fuera HSTS (solo vale con HTTPS) y upgrade-insecure-requests (aquí no hay HTTPS al que subir)."""
+    try:
+        texto = (Path(carpeta) / "_headers").read_text(encoding="utf-8")
+    except OSError:
+        return []
+    salida = []
+    for linea in texto.splitlines():
+        if not linea.startswith("  ") or ": " not in linea:
+            continue
+        nombre, valor = linea.strip().split(": ", 1)
+        if nombre == "Strict-Transport-Security":
+            continue
+        if nombre == "Content-Security-Policy":
+            valor = "; ".join(p for p in valor.split("; ") if p != "upgrade-insecure-requests")
+        salida.append((nombre, valor))
+    return salida
+
+
 class Manejador(http.server.SimpleHTTPRequestHandler):
     estado: Estado = None
+    _pagina_de_error = False   # la página de error de construcción lleva estilos en línea a propósito: no se le aplica la política del sitio
 
     def end_headers(self):
         self.send_header("Cache-Control", "no-store")
+        if not self._pagina_de_error:
+            for nombre, valor in cabeceras_de_seguridad(self.directory):
+                self.send_header(nombre, valor)
         super().end_headers()
 
     def log_message(self, formato, *args):
@@ -73,6 +97,7 @@ class Manejador(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.estado and self.estado.error and not self.path.split("?")[0].startswith("/assets/"):
+            self._pagina_de_error = True
             return self._responder(500, pagina_de_error(self.estado.error))
         return super().do_GET()
 

@@ -1,0 +1,175 @@
+{
+ "_nota": "Campeones de la Liga de Campeones de la UEFA desde su primera edición con este nombre (1992-93). t: temporada; c: club; e: entrenador en la final. Datos hasta la temporada 2025-26.",
+ "campeones": [
+  {
+   "t": "1992-93",
+   "c": "Olympique de Marsella",
+   "e": "Raymond Goethals"
+  },
+  {
+   "t": "1993-94",
+   "c": "AC Milan",
+   "e": "Fabio Capello"
+  },
+  {
+   "t": "1994-95",
+   "c": "Ajax",
+   "e": "Louis van Gaal"
+  },
+  {
+   "t": "1995-96",
+   "c": "Juventus",
+   "e": "Marcello Lippi"
+  },
+  {
+   "t": "1996-97",
+   "c": "Borussia Dortmund",
+   "e": "Ottmar Hitzfeld"
+  },
+  {
+   "t": "1997-98",
+   "c": "Real Madrid",
+   "e": "Jupp Heynckes"
+  },
+  {
+   "t": "1998-99",
+   "c": "Manchester United",
+   "e": "Alex Ferguson"
+  },
+  {
+   "t": "1999-00",
+   "c": "Real Madrid",
+   "e": "Vicente del Bosque"
+  },
+  {
+   "t": "2000-01",
+   "c": "Bayern de Múnich",
+   "e": "Ottmar Hitzfeld"
+  },
+  {
+   "t": "2001-02",
+   "c": "Real Madrid",
+   "e": "Vicente del Bosque"
+  },
+  {
+   "t": "2002-03",
+   "c": "AC Milan",
+   "e": "Carlo Ancelotti"
+  },
+  {
+   "t": "2003-04",
+   "c": "FC Porto",
+   "e": "José Mourinho"
+  },
+  {
+   "t": "2004-05",
+   "c": "Liverpool",
+   "e": "Rafa Benítez"
+  },
+  {
+   "t": "2005-06",
+   "c": "FC Barcelona",
+   "e": "Frank Rijkaard"
+  },
+  {
+   "t": "2006-07",
+   "c": "AC Milan",
+   "e": "Carlo Ancelotti"
+  },
+  {
+   "t": "2007-08",
+   "c": "Manchester United",
+   "e": "Alex Ferguson"
+  },
+  {
+   "t": "2008-09",
+   "c": "FC Barcelona",
+   "e": "Pep Guardiola"
+  },
+  {
+   "t": "2009-10",
+   "c": "Inter de Milán",
+   "e": "José Mourinho"
+  },
+  {
+   "t": "2010-11",
+   "c": "FC Barcelona",
+   "e": "Pep Guardiola"
+  },
+  {
+   "t": "2011-12",
+   "c": "Chelsea",
+   "e": "Roberto Di Matteo"
+  },
+  {
+   "t": "2012-13",
+   "c": "Bayern de Múnich",
+   "e": "Jupp Heynckes"
+  },
+  {
+   "t": "2013-14",
+   "c": "Real Madrid",
+   "e": "Carlo Ancelotti"
+  },
+  {
+   "t": "2014-15",
+   "c": "FC Barcelona",
+   "e": "Luis Enrique"
+  },
+  {
+   "t": "2015-16",
+   "c": "Real Madrid",
+   "e": "Zinedine Zidane"
+  },
+  {
+   "t": "2016-17",
+   "c": "Real Madrid",
+   "e": "Zinedine Zidane"
+  },
+  {
+   "t": "2017-18",
+   "c": "Real Madrid",
+   "e": "Zinedine Zidane"
+  },
+  {
+   "t": "2018-19",
+   "c": "Liverpool",
+   "e": "Jürgen Klopp"
+  },
+  {
+   "t": "2019-20",
+   "c": "Bayern de Múnich",
+   "e": "Hansi Flick"
+  },
+  {
+   "t": "2020-21",
+   "c": "Chelsea",
+   "e": "Thomas Tuchel"
+  },
+  {
+   "t": "2021-22",
+   "c": "Real Madrid",
+   "e": "Carlo Ancelotti"
+  },
+  {
+   "t": "2022-23",
+   "c": "Manchester City",
+   "e": "Pep Guardiola"
+  },
+  {
+   "t": "2023-24",
+   "c": "Real Madrid",
+   "e": "Carlo Ancelotti"
+  },
+  {
+   "t": "2024-25",
+   "c": "París Saint-Germain",
+   "e": "Luis Enrique"
+  },
+  {
+   "t": "2025-26",
+   "c": "París Saint-Germain",
+   "e": "Luis Enrique"
+  }
+ ]
+}

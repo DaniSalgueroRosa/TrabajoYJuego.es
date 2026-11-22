@@ -16,7 +16,10 @@ const SLUGS = ['palabra-infinita', 'una-entre-un-millon', 'conexiones', 'que-pal
   // los nueve sueltos (orden 51 a 59) y la tanda de fútbol y variados (orden 60 a 69)
   'piedra-papel-o-tijera', 'adivina-el-numero', 'juego-del-nim', 'tabla-de-schulte', 'inundacion', 'laberinto', 'el-24', 'ordena-los-frascos', 'encuentra-el-color',
   'quiz-de-futbol', 'que-futbolista-soy', 'tanda-de-penaltis', 'estadios-de-futbol', 'reglas-del-futbol',
-  'hundir-la-flota', 'nonogramas', 'reversi', 'pilla-al-topo', 'raquetas'];
+  'hundir-la-flota', 'nonogramas', 'reversi', 'pilla-al-topo', 'raquetas',
+  // la tanda de fútbol 70–81
+  'adivina-el-once', 'futbolista-oculto', 'camino-de-clubes', 'apodos-de-clubes', 'balon-de-oro', 'goleadores-historicos', 'entrenador-campeon',
+  'intruso-del-club', 'de-que-pais-es-el-club', 'ahorcado-de-futbol', 'tiro-libre', 'regates'];
 const VISTAS = [['móvil', 375, 800, true], ['tablet', 768, 1024, true], ['escritorio', 1280, 900, false]];
 const c = await abrirChrome();
 const fallos = [];
@@ -73,7 +76,7 @@ try {
     h1: document.querySelectorAll('h1').length })`));
   ok(cat.tarjetas >= SLUGS.length, `el catálogo muestra ${cat.tarjetas} tarjetas (esperadas ≥ ${SLUGS.length})`);
   ok(cat.buscador, 'el catálogo tiene buscador');
-  ok(cat.filtros === 9, `el catálogo tiene «Todos» + 8 categorías como filtros (hay ${cat.filtros})`);
+  ok(cat.filtros === 10, `el catálogo tiene «Todos» + 9 categorías como filtros (hay ${cat.filtros})`);
   // buscar «2048» deja solo ese juego visible
   const visibles = `[...document.querySelectorAll('.tarjeta, [data-tarjeta]')].filter(t => !t.hidden && t.offsetParent !== null && getComputedStyle(t).display !== 'none').length`;
   await c.js(`(() => { const i = document.querySelector('input[type=search], input[type=text]'); i.value = '2048'; i.dispatchEvent(new Event('input', { bubbles: true })); })()`);

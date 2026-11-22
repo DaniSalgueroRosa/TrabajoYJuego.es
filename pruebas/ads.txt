@@ -1,0 +1,3 @@
+# ads.txt de codeladder.es
+# Cuando AdSense te dé tu ID de editor, ponlo en site.config.json (adsensePublisherId,
+# con el formato pub-0000000000000000) y vuelve a ejecutar: node tools/build.mjs

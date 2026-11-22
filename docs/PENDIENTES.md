@@ -15,7 +15,7 @@ No se ha inventado ningún dato: no hay NIF, ni dirección, ni correo, ni identi
 
 ## Lo que hay en la v2 y no estaba en la v1
 
-Las 120 herramientas y sus 32 guías (ver `HERRAMIENTAS.md`), los 69 juegos, el catálogo con buscador, filtros por categoría y dificultad (también desde la portada con `?categoria=`), el apartado legal con seis páginas, el bloque de información legal de la portada, la estructura de publicidad y `ads.txt` automáticos,
+Las 120 herramientas y sus 32 guías (ver `HERRAMIENTAS.md`), los 81 juegos, el catálogo con buscador, filtros por categoría y dificultad (también desde la portada con `?categoria=`), el apartado legal con seis páginas, el bloque de información legal de la portada, la estructura de publicidad y `ads.txt` automáticos,
 la configuración del titular, las pruebas de los juegos y de lo legal.
 
 ## Lo que tenía la v1 y la v2 todavía no tiene
@@ -63,3 +63,4 @@ la configuración del titular, las pruebas de los juegos y de lo legal.
 - **`entorno: preproduccion`** y **`publicidad.activa: false`**: hay que cambiarlos al publicar.
 - **La carpeta de pruebas se llama `pruebas/`**, no `tests/`, porque `tests/` es una sección.
 - **Los anuncios, si los hay, solo van en cinco sitios**: un banner fino bajo el menú (listados y fichas, por encima del título), otro en la portada bajo el bloque «Trabajo | Juego», uno dentro del texto de cada ficha (entre dos apartados), uno al final de cada ficha y los de los listados; nunca junto a un tablero, herramienta o test, y ninguno en lo legal ni en la 404.
+- **Seguridad**: política de contenido estricta, cabeceras y configuración del servidor generadas en cada construcción (`motor/seguridad.py`); el código no usa estilos, scripts ni manejadores en línea, y `comprobar` y las pruebas lo vigilan. Con anuncios activos la política se abre a Google solo en las páginas que cargan su código. Ver `docs/SEGURIDAD.md`.

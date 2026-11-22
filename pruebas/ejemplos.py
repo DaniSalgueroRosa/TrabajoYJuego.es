@@ -38,7 +38,22 @@ def copiar_proyecto(destino: Path, conservar: tuple = ()) -> Path:
 
     for parte in PARTES:
         shutil.copytree(RAIZ / parte, destino / parte, ignore=ignorar)
+    _config_de_fabrica(destino)
     return destino
+
+
+def _config_de_fabrica(destino: Path) -> None:
+    """Las pruebas no deben depender de los datos reales del titular ni del entorno que tenga el proyecto: la copia parte de un
+    titular sin rellenar, en preproducción y sin publicidad. (Cada prueba cambia lo que necesite con sus propios ajustes.)"""
+    cambios = {"titular.json": {"nombre": "", "nif": "", "domicilio": "", "email": "", "telefono": "", "registro": "", "alojamiento": ""},
+               "sitio.json": {"entorno": "preproduccion"},
+               "publicidad.json": {"activa": False, "cliente": ""}}
+    for archivo, nuevos in cambios.items():
+        ruta = destino / "config" / archivo
+        if ruta.is_file():
+            d = json.loads(ruta.read_text(encoding="utf-8"))
+            d.update(nuevos)
+            ruta.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def escribir(ruta: Path, texto: str):

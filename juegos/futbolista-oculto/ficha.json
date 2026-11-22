@@ -1,0 +1,17 @@
+{
+  "titulo": "Futbolista oculto: ocho intentos",
+  "descripcion": "Averigua el futbolista secreto con ocho intentos: cada uno te dice si coincide en país, posición, año de nacimiento, Mundial, Champions y Balón de Oro.",
+  "fecha": "2026-11-20",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "adivinar",
+    "futbolistas",
+    "deducción",
+    "un jugador"
+  ],
+  "categoria": "futbol",
+  "dificultad": "media",
+  "duracion": "5-8 min",
+  "orden": 71
+}

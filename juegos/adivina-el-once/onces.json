@@ -1,0 +1,894 @@
+{
+ "_nota": "Onces titulares de finales. t: partido; e: equipo; v: rival; res: resultado; f: sistema; filas: de portero a delantero (cada fila es una línea del campo); cada jugador lleva n (nombre mostrado) y r (formas aceptadas). Alineaciones contrastadas con las actas de UEFA, FIFA y DFB.",
+ "onces": [
+  {
+   "t": "Final del Mundial de 2010",
+   "e": "España",
+   "v": "Países Bajos",
+   "res": "1-0 tras la prórroga",
+   "f": "4-2-3-1",
+   "filas": [
+    [
+     {
+      "n": "Casillas",
+      "r": [
+       "Casillas",
+       "Iker Casillas"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Sergio Ramos",
+      "r": [
+       "Sergio Ramos",
+       "Ramos"
+      ]
+     },
+     {
+      "n": "Piqué",
+      "r": [
+       "Piqué",
+       "Pique",
+       "Gerard Piqué"
+      ]
+     },
+     {
+      "n": "Puyol",
+      "r": [
+       "Puyol",
+       "Carles Puyol"
+      ]
+     },
+     {
+      "n": "Capdevila",
+      "r": [
+       "Capdevila",
+       "Joan Capdevila"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Busquets",
+      "r": [
+       "Busquets",
+       "Sergio Busquets"
+      ]
+     },
+     {
+      "n": "Xabi Alonso",
+      "r": [
+       "Xabi Alonso",
+       "Alonso"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Pedro",
+      "r": [
+       "Pedro",
+       "Pedro Rodríguez"
+      ]
+     },
+     {
+      "n": "Xavi",
+      "r": [
+       "Xavi",
+       "Xavi Hernández"
+      ]
+     },
+     {
+      "n": "Iniesta",
+      "r": [
+       "Iniesta",
+       "Andrés Iniesta"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Villa",
+      "r": [
+       "Villa",
+       "David Villa"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 2022",
+   "e": "Argentina",
+   "v": "Francia",
+   "res": "3-3 y 4-2 en los penaltis",
+   "f": "4-3-3",
+   "filas": [
+    [
+     {
+      "n": "Dibu Martínez",
+      "r": [
+       "Dibu Martínez",
+       "Emiliano Martínez",
+       "Martínez",
+       "Emi Martínez",
+       "Dibu"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Molina",
+      "r": [
+       "Molina",
+       "Nahuel Molina"
+      ]
+     },
+     {
+      "n": "Romero",
+      "r": [
+       "Romero",
+       "Cuti Romero",
+       "Cristian Romero"
+      ]
+     },
+     {
+      "n": "Otamendi",
+      "r": [
+       "Otamendi",
+       "Nicolás Otamendi"
+      ]
+     },
+     {
+      "n": "Tagliafico",
+      "r": [
+       "Tagliafico",
+       "Nicolás Tagliafico"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "De Paul",
+      "r": [
+       "De Paul",
+       "Rodrigo De Paul"
+      ]
+     },
+     {
+      "n": "Enzo Fernández",
+      "r": [
+       "Enzo Fernández",
+       "Enzo",
+       "Fernández"
+      ]
+     },
+     {
+      "n": "Mac Allister",
+      "r": [
+       "Mac Allister",
+       "Alexis Mac Allister"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Messi",
+      "r": [
+       "Messi",
+       "Lionel Messi",
+       "Leo Messi"
+      ]
+     },
+     {
+      "n": "Julián Álvarez",
+      "r": [
+       "Julián Álvarez",
+       "Álvarez",
+       "Alvarez",
+       "Julian Alvarez"
+      ]
+     },
+     {
+      "n": "Di María",
+      "r": [
+       "Di María",
+       "Ángel Di María",
+       "Di Maria",
+       "Fideo"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 2018",
+   "e": "Francia",
+   "v": "Croacia",
+   "res": "4-2",
+   "f": "4-2-3-1",
+   "filas": [
+    [
+     {
+      "n": "Lloris",
+      "r": [
+       "Lloris",
+       "Hugo Lloris"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Pavard",
+      "r": [
+       "Pavard",
+       "Benjamin Pavard"
+      ]
+     },
+     {
+      "n": "Varane",
+      "r": [
+       "Varane",
+       "Raphaël Varane"
+      ]
+     },
+     {
+      "n": "Umtiti",
+      "r": [
+       "Umtiti",
+       "Samuel Umtiti"
+      ]
+     },
+     {
+      "n": "Lucas Hernández",
+      "r": [
+       "Lucas Hernández",
+       "Hernández",
+       "Lucas",
+       "Hernandez"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Kanté",
+      "r": [
+       "Kanté",
+       "N'Golo Kanté",
+       "Kante"
+      ]
+     },
+     {
+      "n": "Pogba",
+      "r": [
+       "Pogba",
+       "Paul Pogba"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Mbappé",
+      "r": [
+       "Mbappé",
+       "Kylian Mbappé",
+       "Mbappe"
+      ]
+     },
+     {
+      "n": "Griezmann",
+      "r": [
+       "Griezmann",
+       "Antoine Griezmann"
+      ]
+     },
+     {
+      "n": "Matuidi",
+      "r": [
+       "Matuidi",
+       "Blaise Matuidi"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Giroud",
+      "r": [
+       "Giroud",
+       "Olivier Giroud"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 2002",
+   "e": "Brasil",
+   "v": "Alemania",
+   "res": "2-0",
+   "f": "3-4-1-2",
+   "filas": [
+    [
+     {
+      "n": "Marcos",
+      "r": [
+       "Marcos",
+       "Marcos Roberto",
+       "Marcos Roberto Silveira Reis"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Lúcio",
+      "r": [
+       "Lúcio",
+       "Lucio"
+      ]
+     },
+     {
+      "n": "Edmílson",
+      "r": [
+       "Edmílson",
+       "Edmilson"
+      ]
+     },
+     {
+      "n": "Roque Júnior",
+      "r": [
+       "Roque Júnior",
+       "Roque Junior",
+       "Roque"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Cafú",
+      "r": [
+       "Cafú",
+       "Cafu"
+      ]
+     },
+     {
+      "n": "Gilberto Silva",
+      "r": [
+       "Gilberto Silva",
+       "Gilberto"
+      ]
+     },
+     {
+      "n": "Kléberson",
+      "r": [
+       "Kléberson",
+       "Kleberson"
+      ]
+     },
+     {
+      "n": "Roberto Carlos",
+      "r": [
+       "Roberto Carlos",
+       "Carlos"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Ronaldinho",
+      "r": [
+       "Ronaldinho",
+       "Ronaldinho Gaúcho"
+      ]
+     },
+     {
+      "n": "Rivaldo",
+      "r": [
+       "Rivaldo"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Ronaldo",
+      "r": [
+       "Ronaldo",
+       "Ronaldo Nazário",
+       "Ronaldo Nazario"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 2006",
+   "e": "Italia",
+   "v": "Francia",
+   "res": "1-1 y 5-3 en los penaltis",
+   "f": "4-4-1-1",
+   "filas": [
+    [
+     {
+      "n": "Buffon",
+      "r": [
+       "Buffon",
+       "Gianluigi Buffon",
+       "Gigi Buffon"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Zambrotta",
+      "r": [
+       "Zambrotta",
+       "Gianluca Zambrotta"
+      ]
+     },
+     {
+      "n": "Cannavaro",
+      "r": [
+       "Cannavaro",
+       "Fabio Cannavaro"
+      ]
+     },
+     {
+      "n": "Materazzi",
+      "r": [
+       "Materazzi",
+       "Marco Materazzi"
+      ]
+     },
+     {
+      "n": "Grosso",
+      "r": [
+       "Grosso",
+       "Fabio Grosso"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Camoranesi",
+      "r": [
+       "Camoranesi",
+       "Mauro Camoranesi"
+      ]
+     },
+     {
+      "n": "Gattuso",
+      "r": [
+       "Gattuso",
+       "Gennaro Gattuso"
+      ]
+     },
+     {
+      "n": "Pirlo",
+      "r": [
+       "Pirlo",
+       "Andrea Pirlo"
+      ]
+     },
+     {
+      "n": "Perrotta",
+      "r": [
+       "Perrotta",
+       "Simone Perrotta"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Totti",
+      "r": [
+       "Totti",
+       "Francesco Totti"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Toni",
+      "r": [
+       "Toni",
+       "Luca Toni"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 2014",
+   "e": "Alemania",
+   "v": "Argentina",
+   "res": "1-0 tras la prórroga",
+   "f": "4-3-2-1",
+   "filas": [
+    [
+     {
+      "n": "Neuer",
+      "r": [
+       "Neuer",
+       "Manuel Neuer"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Lahm",
+      "r": [
+       "Lahm",
+       "Philipp Lahm"
+      ]
+     },
+     {
+      "n": "Boateng",
+      "r": [
+       "Boateng",
+       "Jérôme Boateng"
+      ]
+     },
+     {
+      "n": "Höwedes",
+      "r": [
+       "Höwedes",
+       "Howedes",
+       "Benedikt Höwedes"
+      ]
+     },
+     {
+      "n": "Hummels",
+      "r": [
+       "Hummels",
+       "Mats Hummels"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Kramer",
+      "r": [
+       "Kramer",
+       "Christoph Kramer"
+      ]
+     },
+     {
+      "n": "Schweinsteiger",
+      "r": [
+       "Schweinsteiger",
+       "Bastian Schweinsteiger"
+      ]
+     },
+     {
+      "n": "Kroos",
+      "r": [
+       "Kroos",
+       "Toni Kroos"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Müller",
+      "r": [
+       "Müller",
+       "Muller",
+       "Thomas Müller"
+      ]
+     },
+     {
+      "n": "Özil",
+      "r": [
+       "Özil",
+       "Ozil",
+       "Mesut Özil"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Klose",
+      "r": [
+       "Klose",
+       "Miroslav Klose"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final de la Eurocopa de 2008",
+   "e": "España",
+   "v": "Alemania",
+   "res": "1-0",
+   "f": "4-1-4-1",
+   "filas": [
+    [
+     {
+      "n": "Casillas",
+      "r": [
+       "Casillas",
+       "Iker Casillas"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Sergio Ramos",
+      "r": [
+       "Sergio Ramos",
+       "Ramos"
+      ]
+     },
+     {
+      "n": "Marchena",
+      "r": [
+       "Marchena",
+       "Carlos Marchena"
+      ]
+     },
+     {
+      "n": "Puyol",
+      "r": [
+       "Puyol",
+       "Carles Puyol"
+      ]
+     },
+     {
+      "n": "Capdevila",
+      "r": [
+       "Capdevila",
+       "Joan Capdevila"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Senna",
+      "r": [
+       "Senna",
+       "Marcos Senna"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Iniesta",
+      "r": [
+       "Iniesta",
+       "Andrés Iniesta"
+      ]
+     },
+     {
+      "n": "Xavi",
+      "r": [
+       "Xavi",
+       "Xavi Hernández"
+      ]
+     },
+     {
+      "n": "Silva",
+      "r": [
+       "Silva",
+       "David Silva"
+      ]
+     },
+     {
+      "n": "Cesc Fàbregas",
+      "r": [
+       "Cesc Fàbregas",
+       "Fàbregas",
+       "Fabregas",
+       "Cesc"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Torres",
+      "r": [
+       "Torres",
+       "Fernando Torres"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 1998",
+   "e": "Francia",
+   "v": "Brasil",
+   "res": "3-0",
+   "f": "4-2-3-1",
+   "filas": [
+    [
+     {
+      "n": "Barthez",
+      "r": [
+       "Barthez",
+       "Fabien Barthez"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Thuram",
+      "r": [
+       "Thuram",
+       "Lilian Thuram"
+      ]
+     },
+     {
+      "n": "Leboeuf",
+      "r": [
+       "Leboeuf",
+       "Frank Leboeuf"
+      ]
+     },
+     {
+      "n": "Desailly",
+      "r": [
+       "Desailly",
+       "Marcel Desailly"
+      ]
+     },
+     {
+      "n": "Lizarazu",
+      "r": [
+       "Lizarazu",
+       "Bixente Lizarazu"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Deschamps",
+      "r": [
+       "Deschamps",
+       "Didier Deschamps"
+      ]
+     },
+     {
+      "n": "Petit",
+      "r": [
+       "Petit",
+       "Emmanuel Petit"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Karembeu",
+      "r": [
+       "Karembeu",
+       "Christian Karembeu"
+      ]
+     },
+     {
+      "n": "Zidane",
+      "r": [
+       "Zidane",
+       "Zinedine Zidane"
+      ]
+     },
+     {
+      "n": "Djorkaeff",
+      "r": [
+       "Djorkaeff",
+       "Youri Djorkaeff"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Guivarc'h",
+      "r": [
+       "Guivarc'h",
+       "Guivarch",
+       "Stéphane Guivarc'h"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "t": "Final del Mundial de 2006 (el equipo derrotado)",
+   "e": "Francia",
+   "v": "Italia",
+   "res": "1-1 y derrota 5-3 en los penaltis",
+   "f": "4-2-3-1",
+   "filas": [
+    [
+     {
+      "n": "Barthez",
+      "r": [
+       "Barthez",
+       "Fabien Barthez"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Sagnol",
+      "r": [
+       "Sagnol",
+       "Willy Sagnol"
+      ]
+     },
+     {
+      "n": "Thuram",
+      "r": [
+       "Thuram",
+       "Lilian Thuram"
+      ]
+     },
+     {
+      "n": "Gallas",
+      "r": [
+       "Gallas",
+       "William Gallas"
+      ]
+     },
+     {
+      "n": "Abidal",
+      "r": [
+       "Abidal",
+       "Éric Abidal",
+       "Eric Abidal"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Vieira",
+      "r": [
+       "Vieira",
+       "Patrick Vieira"
+      ]
+     },
+     {
+      "n": "Makélélé",
+      "r": [
+       "Makélélé",
+       "Makelele",
+       "Claude Makélélé"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Ribéry",
+      "r": [
+       "Ribéry",
+       "Ribery",
+       "Franck Ribéry"
+      ]
+     },
+     {
+      "n": "Zidane",
+      "r": [
+       "Zidane",
+       "Zinedine Zidane"
+      ]
+     },
+     {
+      "n": "Malouda",
+      "r": [
+       "Malouda",
+       "Florent Malouda"
+      ]
+     }
+    ],
+    [
+     {
+      "n": "Henry",
+      "r": [
+       "Henry",
+       "Thierry Henry"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -1,15 +1,15 @@
-# Los 69 juegos
+# Los 81 juegos
 
 Todos viven en `juegos/<nombre>/` y se publican en `/juegos/<nombre>/`. Cada juego es una carpeta con su ficha, su página, su código y sus datos.
 **Ninguno guarda nada** en el dispositivo (ni `localStorage`, `sessionStorage`, `IndexedDB`, cookies ni cachés): las partidas, las rachas y las puntuaciones
 viven en la memoria de la pestaña y desaparecen al recargar. Una prueba automática lo vigila (`pruebas/test_juegos_datos.py`).
 
-Orden de publicación: 1–50 son los del encargo inicial, 51–59 los nueve juegos sueltos que vinieron después y 60–69 la tanda de **cinco de fútbol y cinco variados**.
+Orden de publicación: 1–50 son los del encargo inicial, 51–59 los nueve juegos sueltos que vinieron después y 60–69 la tanda de **cinco de fútbol y cinco variados**. 70–81 son la tanda de **doce de fútbol**: diez de cultura y de adivinar (alineaciones, futbolistas, carreras, apodos, premios, goleadores, entrenadores, intrusos, países y palabras) y dos para jugar (Tiro libre y Regates).
 
 | # | Carpeta | Categoría | Dificultad | Datos (`juegos/<carpeta>/`) | Cómo funciona |
 |---|---|---|---|---|---|
 | 1 | `palabra-infinita` | Palabras | Media | `juegos/datos/palabras.json` | Tipo Wordle, de 4 a 7 letras, 6 intentos, partidas ilimitadas, teclado en pantalla y físico, letras repetidas bien evaluadas |
-| 2 | `una-entre-un-millon` | Cultura general | Media | `preguntas.json` | Siete preguntas «nombra un…»: cuanto más rara la respuesta, más puntos. Es una **carrera**: el coche avanza con cada respuesta y la meta son los **700 puntos** (siete aciertos de la respuesta más rara de cada pregunta). Tolera acentos y erratas |
+| 2 | `una-entre-un-millon` | Cultura general | Media | `preguntas.json` | Siete preguntas «nombra un…» en una **carrera nocturna** dibujada en lienzo (cielo con estrellas, montes, carretera en perspectiva y el coche que avanza con cada respuesta); la meta son los **700 puntos**. Cuanto más rara la respuesta, más puntos. Si tu respuesta **no está registrada** (y no se acabó el tiempo), tienes **una segunda oportunidad de 15 s**: la nueva respuesta suma **10 puntos seguros como mínimo** (si es una respuesta registrada que vale más, suma lo que valga; el mínimo es la constante `BONO_OTRA`). Tolera acentos y erratas |
 | 3 | `conexiones` | Lógica | Media | `puzzles.json` | 16 palabras, 4 grupos, 4 errores permitidos, aviso de «casi» y de combinación repetida |
 | 4 | `que-palabra-soy` | Palabras | Media | `palabras.json` | Adivina la palabra por su descripción, con pistas |
 | 5 | `el-intruso` | Lógica | Fácil | `conjuntos.json` | Encuentra la palabra que no pertenece al grupo |
@@ -77,6 +77,18 @@ Orden de publicación: 1–50 son los del encargo inicial, 51–59 los nueve jue
 | 67 | `reversi` | Lógica | Difícil | — | Reversi 8×8 contra el ordenador, con tres niveles (azar, esquinas y voltear mucho, y búsqueda a cuatro jugadas). Pasa turno solo; muestra las jugadas posibles |
 | 68 | `pilla-al-topo` | Habilidad | Fácil | — | 30 segundos, nueve agujeros: topos +10, bombas −15, agujero vacío −3; teclas 1 a 9 |
 | 69 | `raquetas` | Arcade | Media | — | Duelo de palas contra el ordenador a 7 puntos; ratón, dedo, flechas o botones; la bola acelera con cada golpe; tres niveles |
+| 70 | `adivina-el-once` | Cultura general | Difícil | `onces.json` | Nueve onces titulares de finales (siete Mundiales, la Eurocopa 2008 y la final de 2006 desde los dos bandos): escribes apellidos y cada acierto destapa la ficha en su sitio del campo (SVG/CSS). 120 s por once, tres onces por partida, pista de −3 puntos |
+| 71 | `futbolista-oculto` | Cultura general | Media | `futbolistas.json` | Un futbolista secreto de 92 y ocho intentos: cada uno compara país, posición, año de nacimiento (▲/▼ y amarillo a ≤5 años), Mundial, Copa de Europa y Balón de Oro. Sugerencias con `datalist`; sin españoles en activo |
+| 72 | `camino-de-clubes` | Cultura general | Difícil | `caminos.json` | La cadena de clubes de una carrera (56 futbolistas) y tú dices quién es; 8 rondas de 40 s, pista de país y posición (−30). Acepta alias |
+| 73 | `apodos-de-clubes` | Cultura general | Media | `apodos.json` | 69 apodos de clubes de 13 países (solo los que identifican a un único club); diez rondas con cuatro clubes, distractores del mismo país |
+| 74 | `balon-de-oro` | Cultura general | Media | `premios.json` | Los 69 ganadores de 1956 a 2025: quién ganó un año, cuándo ganó el primero, cuántos tiene y el año sin premio (2020) |
+| 75 | `goleadores-historicos` | Cultura general | Difícil | `goleadores.json` | Pichichi de 2004-05 a 2025-26 y Bota de Oro del Mundial (1978–2026, sin 1994 por empate): quién y con cuántos goles |
+| 76 | `entrenador-campeon` | Cultura general | Difícil | `campeones.json` | Los 34 campeones de la Liga de Campeones (1992-93 a 2025-26): entrenador del campeón, club con un técnico concreto y club de una temporada |
+| 77 | `intruso-del-club` | Cultura general | Media | `grupos.json` | Trece grupos («campeones del mundo con España en 2010», «porteros»…): tres futbolistas lo cumplen y uno es el intruso, que se explica al responder |
+| 78 | `de-que-pais-es-el-club` | Geografía | Fácil | `clubes.json` | 102 clubes de 24 países: país o ciudad en la que juega de local; la mitad de las ciudades falsas son del mismo país |
+| 79 | `ahorcado-de-futbol` | Palabras | Media | `palabras.json` | 123 palabras de fútbol por categoría (jugador, club, estadio, selección, término) y seis goles que encajar; teclado propio y del ordenador, pista que cuesta un gol |
+| 80 | `tiro-libre` | Habilidad | Media | — | Cinco faltas ante barrera y portero en un lienzo de píxeles: fijas dirección, altura y potencia con tres medidores; gol 100, escuadra +50; modo lento y teclado, clic o botón |
+| 81 | `regates` | Arcade | Media | — | Lienzo vertical de cinco carriles: esquivas defensas que bajan cada vez más rápido; un metro cada 0,2 s y 10 por regate; tres vidas, pausa, teclado, toque y botones |
 
 Cada juego trae: ficha, pantalla de inicio con instrucciones, puntuación, repetición inmediata, botón de compartir cuando tiene sentido, botón «Volver a todos los juegos»,
 y un texto original para buscadores (cómo se juega, puntuación, consejos, un apartado propio y preguntas frecuentes).
@@ -94,6 +106,10 @@ y un texto original para buscadores (cómo se juega, puntuación, consejos, un a
 - **Juegos de fútbol.** Los datos (resultados, campeones, estadios, plantillas) están comprobados con fuentes públicas y llegan **hasta julio de 2026**
   (incluido el Mundial 2026 y la Champions 2025-26). Cambian con el tiempo: conviene revisar el Quiz de fútbol y «¿Qué futbolista soy?» cada temporada.
   No se usan escudos, logotipos ni fotografías de clubes o jugadores: solo texto. La **Tanda de penaltis** es un juego de azar y reflejos con pesos propios, no un simulador.
+- **Los doce juegos de fútbol 70–81.** Las alineaciones, palmarés, carreras y premios están contrastados con fuentes públicas y llegan hasta 2026; el palmarés de los futbolistas
+  en activo y las carreras de clubes cambian con cada temporada, así que conviene revisarlos cada año. Se han quitado a propósito las respuestas ambiguas (un apodo de dos clubes,
+  un alias de dos futbolistas, dos jugadores con la misma cadena de clubes) y una prueba lo vigila. **Tiro libre** y **Regates** son juegos de reflejos con reglas propias, no simuladores:
+  el portero y los defensas se mueven con azar. Todo es texto y dibujo en píxeles: ni escudos, ni logotipos, ni fotografías.
 - **Hundir la flota, Reversi, Nonogramas.** El ordenador de Hundir la flota no ve tu tablero. El de Reversi usa una valoración posicional clásica (esquinas, movilidad)
   y, en el nivel difícil, busca cuatro jugadas hacia delante. Los nonogramas se generan al azar y se aceptan solo si un resolutor por líneas los resuelve sin adivinar.
 - **Preguntas, acertijos y datos** se han escrito para este sitio; aun así, puede haber algún error de hecho. Hay un enlace de contacto para avisar.
@@ -110,6 +126,12 @@ Después de editar: `python3 sitio.py probar` valida que los datos están bien f
 | Un puzle de Conexiones | `conexiones/puzzles.json` → `puzzles` | `{"id": "c13", "grupos": [{"n": "nombre del grupo", "p": ["p1","p2","p3","p4"], "e": "explicación"}, … 4 grupos]}`; 16 palabras distintas |
 | Una pregunta de «Una entre un millón» | `una-entre-un-millon/preguntas.json` → `preguntas` | `{"id": "p23", "pregunta": "Nombra…", "respuestas": [{"t": ["Francia", "francia"], "n": 4}, …]}` donde `n` = «1 de cada n personas la diría»; al menos 15 respuestas |
 | Un lugar de «¿Dónde está?» | `donde-esta/lugares.json` → `lugares` | `{"n": "Madrid (España)", "t": "Ciudad", "lat": 40.42, "lon": -3.7}` (latitud entre 84 y −60) |
+| Un futbolista de «Futbolista oculto» | `futbolista-oculto/futbolistas.json` → `futbolistas` | `{"n": "Nombre", "r": ["alias"], "p": "País", "pos": "Delantero", "y": 1987, "m": true, "c": true, "b": false}` (`m` Mundial, `c` Copa de Europa, `b` Balón de Oro); sin alias repetidos |
+| Una carrera de «Camino de clubes» | `camino-de-clubes/caminos.json` → `jugadores` | `{"n": "Nombre", "r": ["alias"], "p": "País", "pos": "delantero", "c": ["Club 1", "Club 2", …]}`; la cadena no puede ser igual a la de otro |
+| Un apodo de «Apodos de clubes» | `apodos-de-clubes/apodos.json` → `apodos` | `{"a": "Blaugrana", "c": "FC Barcelona", "p": "España"}`; el apodo debe ser de **un solo** club |
+| Un campeón de «Entrenador campeón» | `entrenador-campeon/campeones.json` → `campeones` | `{"t": "2026-27", "c": "Club", "e": "Entrenador"}`; las temporadas, seguidas |
+| Un club de «¿De qué país es el club?» | `de-que-pais-es-el-club/clubes.json` → `clubes` | `{"n": "Club", "p": "País", "c": "Ciudad"}` |
+| Una palabra del «Ahorcado de fútbol» | `ahorcado-de-futbol/palabras.json` → `palabras` | `{"p": "Wembley", "t": "Estadio"}` (categorías: Jugador, Club, Estadio, Selección, Término; 4 a 14 letras, sin espacios) |
 | Un personaje de «¿Quién soy?» | `quien-soy/personajes.json` → `elementos` | `{"n": "Picasso", "r": ["Picasso", "Pablo Picasso"], "p": [5 pistas de difícil a fácil]}`; la última pista puede nombrar la obra, nunca el nombre |
 | Un grupo de «El intruso» | `el-intruso/conjuntos.json` → `conjuntos` | `{"t": "Frutas", "g": ["manzana","pera","uva"], "i": "zanahoria", "e": "explicación"}` |
 | Un conjunto de «El impostor» | `el-impostor/afirmaciones.json` → `conjuntos` | `{"t": "Animales", "v": [3 afirmaciones verdaderas], "f": "la falsa", "e": "por qué es falsa"}` |
@@ -131,7 +153,7 @@ Después de editar: `python3 sitio.py probar` valida que los datos están bien f
 | Un país y su capital | `capitales/paises.json` → `paises` | `{"p": "País", "c": "Capital", "r": "región"}` |
 | Un tema de «Sopa de letras» | `sopa-de-letras/temas.json` → `temas` | `{"id": "animales", "titulo": "Animales", "palabras": ["GATO", …]}`; al menos 12 palabras en mayúsculas, sin tilde, 3 a 12 letras |
 
-## Añadir otro juego (el 70 y siguientes)
+## Añadir otro juego (el 82 y siguientes)
 
 1. Copia `juegos/_plantilla/` y llama a la copia como quieres que sea su dirección (`juegos/mi-juego/`).
 2. En `ficha.json` pon título, descripción (40 a 160 caracteres), categoría (una de las 8), dificultad, duración y `"estado": "publicado"`.
@@ -157,8 +179,9 @@ Después de editar: `python3 sitio.py probar` valida que los datos están bien f
 
 | Prueba | Qué comprueba | Cómo se lanza |
 |---|---|---|
-| `pruebas/test_juegos_datos.py` | Fichas completas, los 69 en su orden, las 8 categorías, textos propios sin repetir, datos bien formados, **ningún `localStorage`/`sessionStorage`/`IndexedDB`/cookie/caché/petición externa** | `python3 sitio.py probar` |
-| `pruebas/juegos/humo.mjs` | Los 69 juegos arrancan en móvil, tablet y escritorio: sin errores de consola, sin desbordes, contraste del texto, botón de volver, nada guardado; y el catálogo (buscador, filtros, enlaces) | `python3 sitio.py probar --navegador` |
+| `pruebas/test_juegos_datos.py` | Fichas completas, los 81 en su orden, las 9 categorías, textos propios sin repetir, datos bien formados, **ningún `localStorage`/`sessionStorage`/`IndexedDB`/cookie/caché/petición externa** | `python3 sitio.py probar` |
+| `pruebas/juegos/humo.mjs` | Los 81 juegos arrancan en móvil, tablet y escritorio: sin errores de consola, sin desbordes, contraste del texto, botón de volver, nada guardado; y el catálogo (buscador, filtros, enlaces) | `python3 sitio.py probar --navegador` |
 | `pruebas/test_portada.py` y `pruebas/portada.mjs` | La portada con todos los juegos: el índice por categoría enlaza cada juego una vez y con la cuenta correcta, el enlace de categoría abre el catálogo ya filtrado, «Lo último» sigue el orden de las fichas, el bloque de información enlaza las seis páginas legales y cuenta la verdad sobre la publicidad; en móvil, tablet y escritorio sin desbordes, con contraste y con foco visible | `python3 sitio.py probar` y `--navegador` |
 | `pruebas/juegos/futbol-y-variados.mjs` | Los diez juegos 60–69: los cuatro quizes se juegan enteros leyendo la respuesta del banco (ruta de rondas incluida), la tanda de penaltis y Hundir la flota hasta el final, los nonogramas se resuelven con la solución lógica (con ayudas y puntuación), Reversi (reglas, pasar, nivel difícil), Pilla al topo (puntos, bombas, teclas) y Raquetas (teclado, pausa, puntero y final a 7) | `python3 sitio.py probar --navegador` |
+| `pruebas/juegos/futbol-2.mjs` | Los doce juegos 70–81: los seis quizes de rondas se juegan enteros leyendo la respuesta del banco (con un fallo a propósito), Adivina el once (completo, repetidos, pista y rendirse), Futbolista oculto se resuelve con un solver que solo usa la tabla de pistas, Camino de clubes y el Ahorcado hasta el final, Tiro libre con reloj y azar fijados (gol, escuadra, parada, barrera y atrapada con puntos exactos) y Regates con azar fijado, pausa y fin de partida | `python3 sitio.py probar --navegador` |
 | `pruebas/juegos/*.mjs` | Partidas completas de cada juego en Chrome real (acertar, fallar, perder, pausar, repetir, teclado y táctil); 2048 se compara con una implementación independiente | `python3 sitio.py probar --navegador` |

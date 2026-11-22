@@ -2,7 +2,7 @@
   "titulo": "Juegos",
   "singular": "juego",
   "plural": "juegos",
-  "descripcion": "Juegos gratis para jugar en el navegador sin registrarte: palabras, lógica, memoria, mates, geografía y arcade. Cada partida empieza al instante.",
+  "descripcion": "Juegos gratis para jugar en el navegador sin registrarte: fútbol, palabras, lógica, memoria, mates, geografía y arcade. Cada partida empieza al instante.",
   "resumen": "Partidas cortas para cuando toca parar.",
   "mundo": "juego",
   "orden": 3,
@@ -12,6 +12,10 @@
   "buscador": true,
   "accion": "Jugar",
   "categorias": [
+    {
+      "id": "futbol",
+      "nombre": "Fútbol"
+    },
     {
       "id": "palabras",
       "nombre": "Palabras"

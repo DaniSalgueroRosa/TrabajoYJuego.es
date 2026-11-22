@@ -1,0 +1,17 @@
+{
+  "titulo": "Adivina el once: finales históricas",
+  "descripcion": "Completa la alineación de una final famosa escribiendo los apellidos: cada acierto destapa a un jugador en su sitio. Nueve onces de Mundiales y Eurocopa.",
+  "fecha": "2026-11-20",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "alineaciones",
+    "finales",
+    "adivinar",
+    "un jugador"
+  ],
+  "categoria": "futbol",
+  "dificultad": "dificil",
+  "duracion": "5-8 min",
+  "orden": 70
+}

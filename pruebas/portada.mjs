@@ -30,8 +30,8 @@ try {
     const i = JSON.parse(await c.js(`JSON.stringify({
       desborde: document.documentElement.scrollWidth > innerWidth + 1,
       h1: document.querySelectorAll('h1').length,
-      grupos: document.querySelectorAll('.explorar-grupo').length,
-      juegos: document.querySelectorAll('.explorar-items a').length,
+      grupos: document.querySelectorAll('[aria-labelledby="explorar-juegos"] .explorar-grupo').length,
+      juegos: document.querySelectorAll('[aria-labelledby="explorar-juegos"] .explorar-items a').length,
       puntos: document.querySelectorAll('.informacion-punto').length,
       legales: document.querySelectorAll('.informacion-legales a').length,
       sinNombre: [...document.querySelectorAll('.explorar a, .informacion a')].filter(a => !a.textContent.trim()).length,
@@ -41,7 +41,7 @@ try {
     const e = c.consola().filter(x => !/favicon/.test(x));
     ok(!i.desborde, `${nombre}: la portada desborda en horizontal`);
     ok(i.h1 === 1, `${nombre}: debe haber un solo <h1> (hay ${i.h1})`);
-    ok(i.grupos === 8, `${nombre}: el índice tiene 8 categorías (hay ${i.grupos})`);
+    ok(i.grupos === 9, `${nombre}: el índice tiene 9 categorías (hay ${i.grupos})`);
     ok(i.juegos === TOTAL, `${nombre}: el índice enlaza ${TOTAL} juegos (hay ${i.juegos})`);
     ok(i.puntos === 3, `${nombre}: la información tiene 3 puntos (hay ${i.puntos})`);
     ok(i.legales === 6, `${nombre}: la información enlaza 6 páginas legales (hay ${i.legales})`);
@@ -97,7 +97,7 @@ try {
   }
   // cada categoría del índice abre un listado con tantos juegos como dice el índice
   await c.ir(base + '/', 500);
-  const cuentas = JSON.parse(await c.js(`JSON.stringify([...document.querySelectorAll('.explorar-grupo')].map(g => ({ href: g.querySelector('.explorar-grupo-titulo a').getAttribute('href'), n: g.querySelectorAll('.explorar-items a').length })))`));
+  const cuentas = JSON.parse(await c.js(`JSON.stringify([...document.querySelectorAll('[aria-labelledby="explorar-juegos"] .explorar-grupo')].map(g => ({ href: g.querySelector('.explorar-grupo-titulo a').getAttribute('href'), n: g.querySelectorAll('.explorar-items a').length })))`));
   for (const g of cuentas) {
     await c.ir(base + '/' + g.href, 500);
     const n = await c.js(`[...document.querySelectorAll('ul.rejilla > li')].filter(li => !li.hidden).length`);
@@ -127,7 +127,7 @@ try {
     } return JSON.stringify(malos); })()`));
   ok(sinFoco.length === 0, `todos los enlaces de los dos bloques muestran el foco (faltan: ${sinFoco.join(', ')})`);
   // el contorno del foco se ve sobre el fondo del bloque (en el bloque oscuro es limón; en el claro, pizarra)
-  const focoColor = await c.js(`(() => { const a = document.querySelector('.explorar-items a'); a.focus(); return getComputedStyle(a).outlineColor; })()`);
+  const focoColor = await c.js(`(() => { const a = document.querySelector('[aria-labelledby="explorar-juegos"] .explorar-items a'); a.focus(); return getComputedStyle(a).outlineColor; })()`);
   ok(/230, 241, 74/.test(focoColor), `en el índice oscuro el foco es limón (${focoColor})`);
 } finally { await c.cerrar(); }
 console.log(fallos.length ? 'FALLOS: ' + fallos.length : 'PORTADA: índice por categoría e información, bien en móvil, tablet y escritorio');

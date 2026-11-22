@@ -24,7 +24,7 @@ ESTADOS = ("publicado", "proximamente", "borrador")
 MUNDOS_VALIDOS_APARIENCIA = ("libre",)          # además de los mundos definidos en config/sitio.json
 CAMPOS_SECCION = {"titulo", "singular", "plural", "descripcion", "resumen", "mundo", "aspecto", "orden", "vacio",
                   "ordenar_por", "schema", "categorias", "buscador", "agrupar", "accion", "ubicacion", "dinamico", "anuncios"}
-CAMPOS_FICHA = {"titulo", "descripcion", "fecha", "estado", "etiquetas", "tema", "categoria", "dificultad", "duracion", "orden"}
+CAMPOS_FICHA = {"titulo", "descripcion", "fecha", "estado", "etiquetas", "tema", "categoria", "dificultad", "duracion", "orden", "indexar"}
 DIFICULTADES = {"facil": ("Fácil", 1), "media": ("Media", 2), "dificil": ("Difícil", 3)}
 UBICACIONES = ("menu", "pie")
 CARPETAS_DE_APOYO = {"datos"}      # dentro de una sección: se copian tal cual a la web y no son elementos
@@ -51,6 +51,7 @@ class Elemento:
     dificultad: str = ""
     duracion: str = ""
     orden: int | None = None
+    indexar: bool = True                      # False: la página se ve y se enlaza, pero lleva «noindex, follow» y no sale en el sitemap
 
     @property
     def url(self) -> str:                     # relativa a la raíz del sitio, con barra final
@@ -235,11 +236,14 @@ def leer_elemento(seccion: Seccion, carpeta: Path) -> Elemento:
     orden = d.get("orden")
     if orden is not None and (not isinstance(orden, int) or isinstance(orden, bool) or orden < 0):
         raise ErrorProyecto(f"{donde}: «orden» debe ser un número entero (0, 1, 2…).")
+    indexar = d.get("indexar", True)
+    if not isinstance(indexar, bool):
+        raise ErrorProyecto(f"{donde}: «indexar» debe ser true o false.")
     return Elemento(
         seccion=seccion, slug=slug, carpeta=carpeta, titulo=titulo, descripcion=descripcion, fecha=fecha, estado=estado,
         etiquetas=[e.strip() for e in etiquetas], tema=tema,
         tiene_pagina=(carpeta / "pagina.html").is_file(), tiene_css=(carpeta / "app.css").is_file(),
-        tiene_js=(carpeta / "app.js").is_file(), categoria=categoria, dificultad=dificultad, duracion=duracion.strip(), orden=orden)
+        tiene_js=(carpeta / "app.js").is_file(), categoria=categoria, dificultad=dificultad, duracion=duracion.strip(), orden=orden, indexar=indexar)
 
 
 def _leer_categoria(d: dict, seccion: Seccion, estado: str, donde: str) -> str:

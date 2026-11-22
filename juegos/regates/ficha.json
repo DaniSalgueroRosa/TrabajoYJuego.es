@@ -1,0 +1,17 @@
+{
+  "titulo": "Regates: esquiva defensas con el balón",
+  "descripcion": "Conduce el balón por un campo que se acelera y esquiva a los defensas que bajan por cinco carriles. Tres vidas, metros y puntos por cada regate.",
+  "fecha": "2026-11-20",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "arcade",
+    "regates",
+    "reflejos",
+    "un jugador"
+  ],
+  "categoria": "futbol",
+  "dificultad": "media",
+  "duracion": "2-5 min",
+  "orden": 81
+}

@@ -1,0 +1,17 @@
+{
+  "titulo": "Tiro libre: marca de falta con barrera",
+  "descripcion": "Cinco faltas ante una barrera y un portero en un campo de píxeles. Fija dirección, altura y potencia para marcar; la escuadra vale 50 puntos extra.",
+  "fecha": "2026-11-20",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "arcade",
+    "falta",
+    "puntería",
+    "un jugador"
+  ],
+  "categoria": "futbol",
+  "dificultad": "media",
+  "duracion": "3-5 min",
+  "orden": 80
+}

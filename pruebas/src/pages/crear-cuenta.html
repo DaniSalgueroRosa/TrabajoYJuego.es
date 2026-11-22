@@ -1,0 +1,71 @@
+---
+{
+ "file": "crear-cuenta.html",
+ "title": "Crear cuenta — codeLadder",
+ "description": "Crea tu cuenta en codeLadder.",
+ "titleKey": "acc.register.title",
+ "tab": { "key": "acc.register.link", "text": "Crear cuenta" },
+ "group": { "key": "crumb.account", "text": "Cuenta" },
+ "pageClass": "page--auth",
+ "robots": "noindex,follow"
+}
+---
+<div class="auth">
+  <section class="auth-card" aria-labelledby="auth-title">
+    <h1 class="auth-h" id="auth-title" data-i18n="acc.register.h">Crear cuenta</h1>
+    <p class="auth-sub" data-i18n="acc.register.sub">Solo necesitas un correo y una contraseña.</p>
+
+    <form data-auth novalidate>
+      <div class="field">
+        <label for="name" data-i18n="acc.f.name">Nombre (opcional)</label>
+        <input id="name" name="name" type="text" autocomplete="nickname" maxlength="40" aria-describedby="help-name">
+        <p class="field-help" id="help-name" data-i18n="acc.f.name.help">Así te llamaremos en la web.</p>
+      </div>
+
+      <div class="field">
+        <label for="email" data-i18n="acc.f.email">Correo electrónico</label>
+        <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" data-rule="email" aria-required="true" aria-describedby="err-email">
+        <p class="field-error" id="err-email" hidden></p>
+      </div>
+
+      <div class="field">
+        <label for="password" data-i18n="acc.f.pw">Contraseña</label>
+        <div class="pw">
+          <input id="password" name="password" type="password" autocomplete="new-password" data-rule="pwnew" aria-required="true" aria-describedby="help-password err-password">
+          <button type="button" class="pw-toggle" data-toggle-pw aria-controls="password" data-shown="false" aria-label="Mostrar contraseña">Mostrar</button>
+        </div>
+        <p class="field-help" id="help-password" data-i18n="acc.f.pw.help">Mínimo 8 caracteres.</p>
+        <p class="field-error" id="err-password" hidden></p>
+      </div>
+
+      <div class="check-field">
+        <div class="check">
+          <input id="terms" name="terms" type="checkbox" data-rule="terms" aria-required="true" aria-describedby="err-terms">
+          <label for="terms" data-i18n-html="acc.terms">Acepto las <a href="condiciones-de-uso.html">condiciones de uso</a> y he leído la <a href="politica-de-privacidad.html">política de privacidad</a>.</label>
+        </div>
+        <p class="field-error" id="err-terms" hidden></p>
+      </div>
+
+      <div class="check-field">
+        <div class="check">
+          <input id="age" name="age" type="checkbox" data-rule="age" aria-required="true" aria-describedby="err-age">
+          <label for="age" data-i18n="acc.age">Tengo 14 años o más.</label>
+        </div>
+        <p class="field-error" id="err-age" hidden></p>
+      </div>
+
+      <button type="submit" class="btn btn-primary" data-i18n="acc.btn.register">Crear cuenta</button>
+      <div class="form-live" role="status" aria-live="polite"><p class="form-note" id="form-note"></p></div>
+    </form>
+
+    <div class="auth-links">
+      <span><span data-i18n="acc.to.login">¿Ya tienes cuenta?</span> <a href="iniciar-sesion.html" data-i18n="acc.login.link">Iniciar sesión</a></span>
+    </div>
+  </section>
+
+  <aside class="auth-aside">
+    <h2 data-i18n="acc.aside.title">La cuenta es opcional</h2>
+    <p data-i18n="acc.aside.body">Todo el contenido de consulta se puede leer sin registrarse. La cuenta servirá para guardar tu progreso en la ruta de aprendizaje.</p>
+    <p><a href="politica-de-privacidad.html" data-i18n="acc.aside.privacy">Cómo tratamos tus datos</a></p>
+  </aside>
+</div>

@@ -1,0 +1,41 @@
+# Seguridad del servidor. Archivo generado por «python3 sitio.py construir»; no lo edites a mano.
+# Lo lee Apache y LiteSpeed (Hostinger y casi todo el alojamiento compartido). En Cloudflare Pages no hace nada: ahí valen las del archivo _headers.
+
+# Cabeceras de seguridad (las mismas que _headers).
+<IfModule mod_headers.c>
+  Header always set Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob: data:; worker-src 'self' blob:; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "accelerometer=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), hid=(), magnetometer=(), microphone=(self), midi=(), payment=(), serial=(), usb=(), xr-spatial-tracking=()"
+  Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+  Header always set X-Permitted-Cross-Domain-Policies "none"
+  Header always unset X-Powered-By
+</IfModule>
+
+# Sin listados de carpetas, sin firma del servidor y con la codificación indicada.
+Options -Indexes
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+# Página 404 propia.
+ErrorDocument 404 /404.html
+
+# Nada de lo que no sea una página estática se sirve: archivos ocultos, copias, código fuente, mapas de depuración o este mismo _headers.
+<FilesMatch "^(\.|_headers$|.*\.(bak|old|orig|sql|log|ini|env|py|md|map|zip|tar|gz|sh)$)">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Un sitio estático solo se lee: cualquier otro método (POST, PUT, DELETE, TRACE...) se rechaza.
+  RewriteCond %{REQUEST_METHOD} !^(GET|HEAD|OPTIONS)$
+  RewriteRule ^ - [R=405,L]
+  # HTTPS obligatorio. La segunda condición evita el bucle de redirecciones si delante hay un proxy (por ejemplo Cloudflare) que ya habla HTTPS.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>

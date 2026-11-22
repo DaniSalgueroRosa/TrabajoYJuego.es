@@ -1,0 +1,7 @@
+/* CAMINO DE CLUBES: la carrera como una línea de estaciones numeradas */
+.cc-bloque { display: grid; gap: var(--e3); }
+.cc-camino { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e3); margin: 0; padding: 0; list-style: none; counter-reset: club; }
+.cc-camino li { counter-increment: club; position: relative; padding: var(--e2) var(--e3); background: var(--tinta); color: var(--tiza); box-shadow: 0 0 0 3px var(--noche-linea); }
+.cc-camino li::before { content: counter(club) ". "; color: var(--limon); font-family: var(--f-pixel); }
+.cc-camino li:not(:last-child)::after { content: "›"; position: absolute; right: -0.9rem; top: 50%; transform: translateY(-50%); color: var(--sandia); font-family: var(--f-pixel); }
+.cc-camino li:last-child { box-shadow: 0 0 0 3px var(--limon); }

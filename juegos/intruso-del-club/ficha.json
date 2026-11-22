@@ -1,0 +1,17 @@
+{
+  "titulo": "El intruso del fútbol: ¿quién sobra?",
+  "descripcion": "Cuatro futbolistas, tres con algo en común y uno que no encaja: campeones del mundo, ganadores del Balón de Oro, porteros o pichichis. Encuentra al intruso.",
+  "fecha": "2026-11-20",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "intruso",
+    "futbolistas",
+    "lógica",
+    "un jugador"
+  ],
+  "categoria": "futbol",
+  "dificultad": "media",
+  "duracion": "3-5 min",
+  "orden": 77
+}

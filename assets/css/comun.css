@@ -175,6 +175,7 @@ mark.pendiente { padding: 0 0.25em; background: #FFE9A8; color: #14201C; outline
 .ficha-cuerpo > .anuncio, .ficha--libre .contenedor > .anuncio { margin-left: 0; margin-right: auto; }
 /* «.anuncio .anuncio-rotulo» (y no solo «.anuncio-rotulo») para ganar a las reglas de párrafo de cada sección (anchos y márgenes del texto). */
 .anuncio .anuncio-rotulo { max-width: none; margin: 0 0 var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
+.adsbygoogle { display: block; }   /* antes iba en línea (style="display:block"), lo que la política de contenido del sitio no permite */
 .anuncio .adsbygoogle { min-height: 90px; }
 /* Si AdSense no tiene anuncio que mostrar, el hueco desaparece entero (sin rótulo suelto ni espacio vacío). */
 .anuncio:has(.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
@@ -368,3 +369,48 @@ main.con-tema { background: var(--t-fondo); color: var(--t-texto); --foco: var(-
 .vacio[data-mundo="juego"] .vacio-titulo::after { content: "█" / ""; margin-left: 0.3em; color: var(--limon); animation: vacio-parpadeo 1.1s steps(1, end) infinite; }
 .vacio[data-mundo="juego"] .vacio-texto { color: var(--tiza-suave); }
 @keyframes vacio-parpadeo { 50% { opacity: 0; } }
+
+/* ===== temas de los tests (se genera al construir) ===== */
+[data-tema="t0019d2"] { --t-fondo: #120F24; --t-texto: #EDE9FF; --t-acento: #7FA8FF; }
+[data-tema="t020e0a"] { --t-fondo: #F3F7F5; --t-texto: #14201C; --t-acento: #C21E4A; }
+[data-tema="t057238"] { --t-fondo: #2A1018; --t-texto: #FFEFF2; --t-acento: #FF5A7D; }
+[data-tema="t07ff34"] { --t-fondo: #14141A; --t-texto: #EDEDED; --t-acento: #FF6B4A; }
+[data-tema="t09eeb8"] { --t-fondo: #F2F7EE; --t-texto: #1B2A14; --t-acento: #2F6B1E; }
+[data-tema="t12c3b6"] { --t-fondo: #1C1A24; --t-texto: #F2EEE4; --t-acento: #E0B040; }
+[data-tema="t1554cb"] { --t-fondo: #2A1210; --t-texto: #FFF1EC; --t-acento: #FFB35C; }
+[data-tema="t1de2c9"] { --t-fondo: #EAF6F7; --t-texto: #0F2B30; --t-acento: #0A6E7C; }
+[data-tema="t2265f1"] { --t-fondo: #12263A; --t-texto: #EAF3FB; --t-acento: #FFD166; }
+[data-tema="t24b829"] { --t-fondo: #161616; --t-texto: #F4F4F4; --t-acento: #FF8A3D; }
+[data-tema="t2bbafa"] { --t-fondo: #1E1B33; --t-texto: #F1EFFF; --t-acento: #FFC857; }
+[data-tema="t2c11e2"] { --t-fondo: #241426; --t-texto: #FBEFFD; --t-acento: #FF8FA8; }
+[data-tema="t33cd35"] { --t-fondo: #1A1208; --t-texto: #FFF3E0; --t-acento: #FF8A1F; }
+[data-tema="t3443d3"] { --t-fondo: #FFF6EA; --t-texto: #33200F; --t-acento: #B8470B; }
+[data-tema="t3c9c16"] { --t-fondo: #2B0F1D; --t-texto: #FFE9F1; --t-acento: #FF6FA3; }
+[data-tema="t422d35"] { --t-fondo: #F6EEFF; --t-texto: #2B1250; --t-acento: #8227BA; }
+[data-tema="t44ba69"] { --t-fondo: #FFF0F6; --t-texto: #3F0B24; --t-acento: #B1124F; }
+[data-tema="t459dfe"] { --t-fondo: #17181B; --t-texto: #EDEDED; --t-acento: #D2A94E; }
+[data-tema="t46176b"] { --t-fondo: #1F1A14; --t-texto: #F5ECE0; --t-acento: #E8A33D; }
+[data-tema="t4a3d5f"] { --t-fondo: #0E1428; --t-texto: #EEF2FF; --t-acento: #5AA9FF; }
+[data-tema="t58f974"] { --t-fondo: #1E0B2E; --t-texto: #FDEBFF; --t-acento: #FF5FC8; }
+[data-tema="t604d04"] { --t-fondo: #14183A; --t-texto: #EEF1FF; --t-acento: #9DB4FF; }
+[data-tema="t6077c0"] { --t-fondo: #1E1214; --t-texto: #FFF0F0; --t-acento: #FF7A7A; }
+[data-tema="t6432d2"] { --t-fondo: #12281F; --t-texto: #EAF8F0; --t-acento: #FFD166; }
+[data-tema="t67a760"] { --t-fondo: #14263F; --t-texto: #F2F7FF; --t-acento: #FFB93B; }
+[data-tema="t7a1785"] { --t-fondo: #FFF0F3; --t-texto: #3B1021; --t-acento: #C2185B; }
+[data-tema="t80ce15"] { --t-fondo: #EEF3FF; --t-texto: #13213F; --t-acento: #2447C9; }
+[data-tema="t811749"] { --t-fondo: #FFF4EC; --t-texto: #3A1A08; --t-acento: #B03F00; }
+[data-tema="t83018e"] { --t-fondo: #2B2B2B; --t-texto: #F2F2F2; --t-acento: #9BE3C8; }
+[data-tema="t8bdaaf"] { --t-fondo: #F6F0FF; --t-texto: #241A45; --t-acento: #6A2BD1; }
+[data-tema="t8f5e34"] { --t-fondo: #2B1A12; --t-texto: #FFF3E8; --t-acento: #FF9F5A; }
+[data-tema="t925609"] { --t-fondo: #0E2630; --t-texto: #E6F5F8; --t-acento: #5CE1F2; }
+[data-tema="t970e51"] { --t-fondo: #0E1A33; --t-texto: #EAF1FF; --t-acento: #FFB020; }
+[data-tema="ta3b748"] { --t-fondo: #0B2233; --t-texto: #EAF6FF; --t-acento: #5FC8FF; }
+[data-tema="tb2dbfd"] { --t-fondo: #0F2530; --t-texto: #EAF6FA; --t-acento: #7EE0C3; }
+[data-tema="tb5eb1e"] { --t-fondo: #FDEFF8; --t-texto: #3C0F2E; --t-acento: #A8136A; }
+[data-tema="tb9f8d5"] { --t-fondo: #EEF9FB; --t-texto: #0F2E38; --t-acento: #0E6F8A; }
+[data-tema="tba7e88"] { --t-fondo: #1A1433; --t-texto: #F1EBFF; --t-acento: #C7A4FF; }
+[data-tema="tbdb21f"] { --t-fondo: #101A17; --t-texto: #EAF2EE; --t-acento: #E6F14A; }
+[data-tema="tc6a5e1"] { --t-fondo: #FFFDF2; --t-texto: #2B2400; --t-acento: #B34700; }
+[data-tema="td07b2c"] { --t-fondo: #172033; --t-texto: #E8EEF9; --t-acento: #FFB347; }
+[data-tema="td909b9"] { --t-fondo: #F3EEFF; --t-texto: #2A1650; --t-acento: #6C2BD0; }
+[data-tema="tde040a"] { --t-fondo: #EAF4FF; --t-texto: #0B2540; --t-acento: #0B5FAD; }

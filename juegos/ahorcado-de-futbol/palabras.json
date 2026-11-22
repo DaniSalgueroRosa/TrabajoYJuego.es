@@ -1,0 +1,497 @@
+{
+ "_nota": "Palabras del ahorcado de fútbol: p, una sola palabra (con sus tildes); t, la categoría que se muestra como pista.",
+ "palabras": [
+  {
+   "p": "Maradona",
+   "t": "Jugador"
+  },
+  {
+   "p": "Zidane",
+   "t": "Jugador"
+  },
+  {
+   "p": "Iniesta",
+   "t": "Jugador"
+  },
+  {
+   "p": "Cruyff",
+   "t": "Jugador"
+  },
+  {
+   "p": "Beckenbauer",
+   "t": "Jugador"
+  },
+  {
+   "p": "Pelé",
+   "t": "Jugador"
+  },
+  {
+   "p": "Messi",
+   "t": "Jugador"
+  },
+  {
+   "p": "Ronaldo",
+   "t": "Jugador"
+  },
+  {
+   "p": "Mbappé",
+   "t": "Jugador"
+  },
+  {
+   "p": "Modrić",
+   "t": "Jugador"
+  },
+  {
+   "p": "Casillas",
+   "t": "Jugador"
+  },
+  {
+   "p": "Buffon",
+   "t": "Jugador"
+  },
+  {
+   "p": "Neuer",
+   "t": "Jugador"
+  },
+  {
+   "p": "Xavi",
+   "t": "Jugador"
+  },
+  {
+   "p": "Puyol",
+   "t": "Jugador"
+  },
+  {
+   "p": "Pirlo",
+   "t": "Jugador"
+  },
+  {
+   "p": "Maldini",
+   "t": "Jugador"
+  },
+  {
+   "p": "Henry",
+   "t": "Jugador"
+  },
+  {
+   "p": "Rivaldo",
+   "t": "Jugador"
+  },
+  {
+   "p": "Eusébio",
+   "t": "Jugador"
+  },
+  {
+   "p": "Platini",
+   "t": "Jugador"
+  },
+  {
+   "p": "Kaká",
+   "t": "Jugador"
+  },
+  {
+   "p": "Neymar",
+   "t": "Jugador"
+  },
+  {
+   "p": "Lewandowski",
+   "t": "Jugador"
+  },
+  {
+   "p": "Haaland",
+   "t": "Jugador"
+  },
+  {
+   "p": "Salah",
+   "t": "Jugador"
+  },
+  {
+   "p": "Drogba",
+   "t": "Jugador"
+  },
+  {
+   "p": "Raúl",
+   "t": "Jugador"
+  },
+  {
+   "p": "Suárez",
+   "t": "Jugador"
+  },
+  {
+   "p": "Cavani",
+   "t": "Jugador"
+  },
+  {
+   "p": "Barcelona",
+   "t": "Club"
+  },
+  {
+   "p": "Juventus",
+   "t": "Club"
+  },
+  {
+   "p": "Liverpool",
+   "t": "Club"
+  },
+  {
+   "p": "Benfica",
+   "t": "Club"
+  },
+  {
+   "p": "Ajax",
+   "t": "Club"
+  },
+  {
+   "p": "Sevilla",
+   "t": "Club"
+  },
+  {
+   "p": "Valencia",
+   "t": "Club"
+  },
+  {
+   "p": "Arsenal",
+   "t": "Club"
+  },
+  {
+   "p": "Chelsea",
+   "t": "Club"
+  },
+  {
+   "p": "Napoli",
+   "t": "Club"
+  },
+  {
+   "p": "Dortmund",
+   "t": "Club"
+  },
+  {
+   "p": "Villarreal",
+   "t": "Club"
+  },
+  {
+   "p": "Atalanta",
+   "t": "Club"
+  },
+  {
+   "p": "Feyenoord",
+   "t": "Club"
+  },
+  {
+   "p": "Flamengo",
+   "t": "Club"
+  },
+  {
+   "p": "Peñarol",
+   "t": "Club"
+  },
+  {
+   "p": "Celtic",
+   "t": "Club"
+  },
+  {
+   "p": "Galatasaray",
+   "t": "Club"
+  },
+  {
+   "p": "Olympiacos",
+   "t": "Club"
+  },
+  {
+   "p": "Leverkusen",
+   "t": "Club"
+  },
+  {
+   "p": "Espanyol",
+   "t": "Club"
+  },
+  {
+   "p": "Osasuna",
+   "t": "Club"
+  },
+  {
+   "p": "Mallorca",
+   "t": "Club"
+  },
+  {
+   "p": "Betis",
+   "t": "Club"
+  },
+  {
+   "p": "Lazio",
+   "t": "Club"
+  },
+  {
+   "p": "Fiorentina",
+   "t": "Club"
+  },
+  {
+   "p": "Bernabéu",
+   "t": "Estadio"
+  },
+  {
+   "p": "Wembley",
+   "t": "Estadio"
+  },
+  {
+   "p": "Maracaná",
+   "t": "Estadio"
+  },
+  {
+   "p": "Anfield",
+   "t": "Estadio"
+  },
+  {
+   "p": "Mestalla",
+   "t": "Estadio"
+  },
+  {
+   "p": "Azteca",
+   "t": "Estadio"
+  },
+  {
+   "p": "Bombonera",
+   "t": "Estadio"
+  },
+  {
+   "p": "Calderón",
+   "t": "Estadio"
+  },
+  {
+   "p": "Riazor",
+   "t": "Estadio"
+  },
+  {
+   "p": "Allianz",
+   "t": "Estadio"
+  },
+  {
+   "p": "Olímpico",
+   "t": "Estadio"
+  },
+  {
+   "p": "Mendizorroza",
+   "t": "Estadio"
+  },
+  {
+   "p": "Balaídos",
+   "t": "Estadio"
+  },
+  {
+   "p": "Metropolitano",
+   "t": "Estadio"
+  },
+  {
+   "p": "Lusail",
+   "t": "Estadio"
+  },
+  {
+   "p": "Hampden",
+   "t": "Estadio"
+  },
+  {
+   "p": "Anoeta",
+   "t": "Estadio"
+  },
+  {
+   "p": "Argentina",
+   "t": "Selección"
+  },
+  {
+   "p": "Alemania",
+   "t": "Selección"
+  },
+  {
+   "p": "Uruguay",
+   "t": "Selección"
+  },
+  {
+   "p": "Croacia",
+   "t": "Selección"
+  },
+  {
+   "p": "Marruecos",
+   "t": "Selección"
+  },
+  {
+   "p": "Portugal",
+   "t": "Selección"
+  },
+  {
+   "p": "Inglaterra",
+   "t": "Selección"
+  },
+  {
+   "p": "Holanda",
+   "t": "Selección"
+  },
+  {
+   "p": "Bélgica",
+   "t": "Selección"
+  },
+  {
+   "p": "Colombia",
+   "t": "Selección"
+  },
+  {
+   "p": "Camerún",
+   "t": "Selección"
+  },
+  {
+   "p": "Senegal",
+   "t": "Selección"
+  },
+  {
+   "p": "Japón",
+   "t": "Selección"
+  },
+  {
+   "p": "Dinamarca",
+   "t": "Selección"
+  },
+  {
+   "p": "Suecia",
+   "t": "Selección"
+  },
+  {
+   "p": "Italia",
+   "t": "Selección"
+  },
+  {
+   "p": "Francia",
+   "t": "Selección"
+  },
+  {
+   "p": "España",
+   "t": "Selección"
+  },
+  {
+   "p": "Brasil",
+   "t": "Selección"
+  },
+  {
+   "p": "México",
+   "t": "Selección"
+  },
+  {
+   "p": "Penalti",
+   "t": "Término"
+  },
+  {
+   "p": "Córner",
+   "t": "Término"
+  },
+  {
+   "p": "Portero",
+   "t": "Término"
+  },
+  {
+   "p": "Regate",
+   "t": "Término"
+  },
+  {
+   "p": "Chilena",
+   "t": "Término"
+  },
+  {
+   "p": "Tarjeta",
+   "t": "Término"
+  },
+  {
+   "p": "Árbitro",
+   "t": "Término"
+  },
+  {
+   "p": "Remate",
+   "t": "Término"
+  },
+  {
+   "p": "Cabezazo",
+   "t": "Término"
+  },
+  {
+   "p": "Banquillo",
+   "t": "Término"
+  },
+  {
+   "p": "Cantera",
+   "t": "Término"
+  },
+  {
+   "p": "Fichaje",
+   "t": "Término"
+  },
+  {
+   "p": "Delantero",
+   "t": "Término"
+  },
+  {
+   "p": "Barrera",
+   "t": "Término"
+  },
+  {
+   "p": "Falta",
+   "t": "Término"
+  },
+  {
+   "p": "Larguero",
+   "t": "Término"
+  },
+  {
+   "p": "Escuadra",
+   "t": "Término"
+  },
+  {
+   "p": "Prórroga",
+   "t": "Término"
+  },
+  {
+   "p": "Vestuario",
+   "t": "Término"
+  },
+  {
+   "p": "Entrenador",
+   "t": "Término"
+  },
+  {
+   "p": "Mediocampo",
+   "t": "Término"
+  },
+  {
+   "p": "Contraataque",
+   "t": "Término"
+  },
+  {
+   "p": "Marcaje",
+   "t": "Término"
+  },
+  {
+   "p": "Centrocampista",
+   "t": "Término"
+  },
+  {
+   "p": "Lateral",
+   "t": "Término"
+  },
+  {
+   "p": "Descuento",
+   "t": "Término"
+  },
+  {
+   "p": "Saque",
+   "t": "Término"
+  },
+  {
+   "p": "Pase",
+   "t": "Término"
+  },
+  {
+   "p": "Eliminatoria",
+   "t": "Término"
+  },
+  {
+   "p": "Remontada",
+   "t": "Término"
+  }
+ ]
+}

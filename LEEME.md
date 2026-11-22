@@ -1,6 +1,6 @@
 # TrabajoYJuego · v2
 
-Herramientas, recursos, juegos y tests bajo una misma marca, en español. Esta entrega contiene la portada, **120 herramientas**, **32 guías** que las explican, **69 juegos completos**, el **apartado legal**
+Herramientas, recursos, juegos y tests bajo una misma marca, en español. Esta entrega contiene la portada, **120 herramientas**, **32 guías** que las explican, **81 juegos completos**, el **apartado legal**
 (seis páginas), listados con buscador y categorías, la estructura preparada para AdSense y las pruebas. Los tests siguen vacíos, listos para ir metiendo contenido carpeta a carpeta.
 
 **Para instalarlo, empieza por [INSTALACION-JUEGOS.md](INSTALACION-JUEGOS.md) (los pasos valen igual con las herramientas). Qué trae la última ampliación: [ACTUALIZACION-30-HERRAMIENTAS.md](ACTUALIZACION-30-HERRAMIENTAS.md).**
@@ -52,7 +52,7 @@ portada/                    la portada
 
 herramientas/               sección 1   (aspecto «Trabajo»: formal y animado) ← las 120 herramientas, ver docs/HERRAMIENTAS.md
 recursos/                   sección 2   (aspecto «Trabajo», versión de lectura) ← 32 guías, una por grupo de herramientas
-juegos/                     sección 3   (aspecto «Juego»: retro) ← los 69 juegos, ver docs/JUEGOS.md
+juegos/                     sección 3   (aspecto «Juego»: retro) ← los 81 juegos, ver docs/JUEGOS.md
 tests/                      sección 4   (cada test pone su propio aspecto)
 legal/                      sección 5   (aviso legal, privacidad, cookies, condiciones, publicidad y contacto; en el pie y en el bloque «Información y transparencia» de la portada, no en el menú)
   seccion.json              título, descripción y orden de la sección
@@ -104,7 +104,7 @@ Los detalles de cada campo están en [docs/CARPETAS.md](docs/CARPETAS.md). Para 
 
 ## Qué hay y qué no
 
-Está hecho: portada (con índice por categoría de herramientas, guías y juegos, y bloque de información legal), cinco secciones con su aspecto, el mecanismo de «meter una carpeta», el generador, **120 herramientas**, **32 guías**, **69 juegos**, listados con buscador y categorías, apartado legal,
+Está hecho: portada (con índice por categoría de herramientas, guías y juegos, y bloque de información legal), cinco secciones con su aspecto, el mecanismo de «meter una carpeta», el generador, **120 herramientas**, **32 guías**, **81 juegos**, listados con buscador y categorías, apartado legal,
 estructura de publicidad (apagada), SEO técnico (títulos, descripciones, canonical, Open Graph, datos estructurados, robots y sitemap), logotipo, iconos,
 tipografías propias y pruebas (324 de Python y las de navegador).
 

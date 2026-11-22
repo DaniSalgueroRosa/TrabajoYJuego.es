@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark" data-base="" data-title-key="meta.title" data-desc-key="meta.description">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>codeLadder — Aprende y consulta programación, peldaño a peldaño</title>
+  <meta name="description" content="Contenidos para consultar y una ruta para aprender a programar en 4 niveles, de «Hola, mundo» a lo más avanzado. Empezamos por Java.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://codeladder.es/">
+  <meta name="theme-color" content="#1e2128">
+
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="codeLadder">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="codeLadder — Aprende y consulta programación, peldaño a peldaño">
+  <meta property="og:description" content="Contenidos para consultar y una ruta para aprender a programar en 4 niveles, de «Hola, mundo» a lo más avanzado. Empezamos por Java.">
+  <meta property="og:url" content="https://codeladder.es/">
+  <meta property="og:image" content="https://codeladder.es/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script>
+    (function () {
+      var r = document.documentElement;
+      r.classList.add('js');
+      try {
+        var t = localStorage.getItem('cl-theme');
+        if (t === 'light' || t === 'dark') r.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/main.js"></script>
+
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","name":"codeLadder","url":"https://codeladder.es/","inLanguage":"es"}
+  </script>
+</head>
+<body>
+  <!-- Iconos: sprite SVG reutilizable -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-logo" viewBox="0 0 64 64">
+        <rect x="21" y="12" width="22" height="7"/>
+        <rect x="21" y="24" width="22" height="7" opacity=".85"/>
+        <rect x="21" y="36" width="22" height="7" opacity=".7"/>
+        <rect x="21" y="48" width="22" height="7" opacity=".55"/>
+        <rect x="13" y="4" width="9" height="56" rx="4.5"/>
+        <rect x="42" y="4" width="9" height="56" rx="4.5"/>
+      </symbol>
+      <symbol id="i-files" viewBox="0 0 24 24"><path d="M7 3h7l4 4v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v4h4"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5.5 5.5"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5z"/></symbol>
+      <symbol id="i-problems" viewBox="0 0 24 24"><path d="M12 3.5l9 16H3z"/><path d="M12 10v4.5"/><path d="M12 17.2v.1"/></symbol>
+      <symbol id="i-history" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 3v5.8M12 15.2V21"/></symbol>
+      <symbol id="i-fast" viewBox="0 0 24 24"><path d="M5 6l6 6-6 6M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8.5 9h7M8.5 12.5h7M8.5 16h4"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.6"/><path d="M5 20c.8-3.6 3.6-5.6 7-5.6s6.2 2 7 5.6"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+
+  <header class="titlebar">
+    <div class="tb-left">
+      <a class="tb-brand" href="index.html" data-i18n-attr="aria-label:brand.home" aria-label="codeLadder, inicio">
+        <svg class="logo" aria-hidden="true"><use href="#i-logo"/></svg>
+      </a>
+      <nav class="menubar" aria-label="Menú">
+        <button type="button" data-soon data-i18n="menu.file">Archivo</button>
+        <button type="button" data-soon data-i18n="menu.edit">Editar</button>
+        <button type="button" data-soon data-i18n="menu.view">Ver</button>
+        <button type="button" data-soon data-i18n="menu.go">Ir</button>
+        <button type="button" data-soon data-i18n="menu.help">Ayuda</button>
+      </nav>
+    </div>
+    <button type="button" class="tb-search" id="open-palette" aria-haspopup="dialog" aria-keyshortcuts="Control+K Meta+K">
+      <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>
+      <span data-i18n="search.label">Buscar</span>
+      <kbd id="kbd-hint">Ctrl K</kbd>
+    </button>
+    <div class="tb-right">
+      <a class="tb-account" href="iniciar-sesion.html">
+        <svg class="ico" aria-hidden="true"><use href="#i-user"/></svg>
+        <span data-i18n="acc.login.link">Iniciar sesión</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="workbench">
+    <nav class="activitybar" aria-label="Secciones">
+      <button type="button" class="ab-btn is-active" data-soon data-i18n-attr="title:ab.syllabus;aria-label:ab.syllabus" title="Temario" aria-label="Temario"><svg class="ico" aria-hidden="true"><use href="#i-files"/></svg></button>
+      <button type="button" class="ab-btn" data-open-palette data-i18n-attr="title:ab.search;aria-label:ab.search" title="Buscar" aria-label="Buscar"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg></button>
+      <button type="button" class="ab-btn" data-soon data-i18n-attr="title:ab.learn;aria-label:ab.learn" title="Aprender" aria-label="Aprender"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg></button>
+      <button type="button" class="ab-btn" data-soon data-i18n-attr="title:ab.errors;aria-label:ab.errors" title="Errores explicados" aria-label="Errores explicados"><svg class="ico" aria-hidden="true"><use href="#i-problems"/></svg></button>
+      <button type="button" class="ab-btn" data-soon data-i18n-attr="title:ab.news;aria-label:ab.news" title="Novedades por versión" aria-label="Novedades por versión"><svg class="ico" aria-hidden="true"><use href="#i-history"/></svg></button>
+      <a class="ab-btn ab-account" href="iniciar-sesion.html" data-i18n-attr="title:acc.login.link;aria-label:acc.login.link" title="Iniciar sesión" aria-label="Iniciar sesión"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg></a>
+    </nav>
+
+    <main class="editor" id="contenido">
+      <div class="tabbar" aria-hidden="true">
+        <div class="tab">
+          <svg class="ico" aria-hidden="true"><use href="#i-doc"/></svg>
+          <span data-i18n="tab.welcome">Bienvenida</span>
+          <span class="tab-x">×</span>
+        </div>
+      </div>
+      <div class="crumbs" aria-hidden="true"><span>codeladder</span><span class="sep">›</span><span data-i18n="tab.welcome">Bienvenida</span></div>
+
+      <div class="page page--home">
+<section class="hero" aria-labelledby="titulo">
+  <h1 class="wordmark" id="titulo">
+    <svg class="logo" aria-hidden="true"><use href="#i-logo"/></svg>
+    <span>codeLadder</span>
+  </h1>
+
+  <div class="hero-copy">
+    <p class="tagline" data-i18n="hero.tagline">Sube de nivel en programación, peldaño a peldaño.</p>
+    <div class="cta">
+      <button type="button" class="btn btn-primary" data-start>
+        <svg class="ico" aria-hidden="true"><use href="#i-play"/></svg>
+        <span data-i18n="cta.start">Empezar desde cero</span>
+      </button>
+      <button type="button" class="btn btn-ghost" data-know>
+        <svg class="ico" aria-hidden="true"><use href="#i-fast"/></svg>
+        <span data-i18n="cta.know">Ya sé programar</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="term" id="term" aria-hidden="true">
+    <div class="term-head"><span data-i18n="term.title">Terminal</span><span class="term-tab">jshell</span></div>
+    <div class="term-body">
+      <div class="term-line"><span class="ps">jshell&gt;</span> <span id="typed"><span class="t-type">System</span><span class="t-p">.</span><span class="t-prop">out</span><span class="t-p">.</span><span class="t-fn">println</span><span class="t-p">(</span><span class="t-str">"Hola, mundo"</span><span class="t-p">)</span><span class="t-p">;</span></span><span class="cursor is-off" id="cursor-1"></span></div>
+      <div class="term-line term-out" id="out">Hola, mundo</div>
+      <div class="term-line" id="line-3"><span class="ps">jshell&gt;</span> <span class="cursor"></span></div>
+    </div>
+  </div>
+  <p class="sr-only" data-i18n="term.sr">Ejemplo: la instrucción System.out.println("Hola, mundo"); muestra «Hola, mundo» en pantalla.</p>
+</section>
+
+<section class="section" aria-labelledby="h-lenguajes">
+  <h2 class="sec-title" id="h-lenguajes"><span class="hash" aria-hidden="true">##</span><span data-i18n="langs.title">Elige lenguaje</span></h2>
+  <ul class="langs" id="lang-list">
+    <li>
+      <button type="button" class="lang is-featured" style="--lang:var(--accent)" data-lang="java" aria-pressed="false">
+        <span class="lang-name">Java</span>
+        <span class="lang-ext">.java</span>
+        <span class="lang-state" data-i18n="state.prep">En preparación</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#4b8bbe" data-lang="python" aria-pressed="false">
+        <span class="lang-name">Python</span>
+        <span class="lang-ext">.py</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#f0db4f" data-lang="javascript" aria-pressed="false">
+        <span class="lang-name">JavaScript</span>
+        <span class="lang-ext">.js</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#3178c6" data-lang="typescript" aria-pressed="false">
+        <span class="lang-name">TypeScript</span>
+        <span class="lang-ext">.ts</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#7a96b8" data-lang="c" aria-pressed="false">
+        <span class="lang-name">C</span>
+        <span class="lang-ext">.c</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#659ad2" data-lang="cpp" aria-pressed="false">
+        <span class="lang-name">C++</span>
+        <span class="lang-ext">.cpp</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#a068c8" data-lang="csharp" aria-pressed="false">
+        <span class="lang-name">C#</span>
+        <span class="lang-ext">.cs</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#48a9a6" data-lang="sql" aria-pressed="false">
+        <span class="lang-name">SQL</span>
+        <span class="lang-ext">.sql</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#777bb3" data-lang="php" aria-pressed="false">
+        <span class="lang-name">PHP</span>
+        <span class="lang-ext">.php</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#00add8" data-lang="go" aria-pressed="false">
+        <span class="lang-name">Go</span>
+        <span class="lang-ext">.go</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#7f52ff" data-lang="kotlin" aria-pressed="false">
+        <span class="lang-name">Kotlin</span>
+        <span class="lang-ext">.kt</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="lang" style="--lang:#d98562" data-lang="rust" aria-pressed="false">
+        <span class="lang-name">Rust</span>
+        <span class="lang-ext">.rs</span>
+        <span class="lang-state" data-i18n="state.soon">Pronto</span>
+        <svg class="ico lang-check" aria-hidden="true"><use href="#i-check"/></svg>
+      </button>
+    </li>
+  </ul>
+</section>
+
+<section class="section" aria-labelledby="h-niveles">
+  <h2 class="sec-title" id="h-niveles"><span class="hash" aria-hidden="true">##</span><span data-i18n="levels.title">Niveles</span></h2>
+  <p class="pick-line" id="pick-line">
+    <span id="pick-text">Elige un lenguaje para entrar en un nivel.</span>
+    <button type="button" class="link-btn" id="pick-open">Elegir lenguaje</button>
+  </p>
+  <ol class="stairs">
+    <li class="step step-1" style="--p:.5">
+      <span class="step-tag" aria-hidden="true">[1]</span>
+      <h3 class="step-name"><button type="button" class="step-btn" data-level="1" aria-describedby="lvl1-desc" data-i18n="lvl1.name">Fácil</button></h3>
+      <p class="step-desc" id="lvl1-desc" data-i18n="lvl1.desc">Salida por pantalla, variables, bucles y métodos.</p>
+    </li>
+    <li class="step step-2" style="--p:.68">
+      <span class="step-tag" aria-hidden="true">[2]</span>
+      <h3 class="step-name"><button type="button" class="step-btn" data-level="2" aria-describedby="lvl2-desc" data-i18n="lvl2.name">Medio</button></h3>
+      <p class="step-desc" id="lvl2-desc" data-i18n="lvl2.desc">Clases, excepciones, ficheros y JSON.</p>
+    </li>
+    <li class="step step-3" style="--p:.84">
+      <span class="step-tag" aria-hidden="true">[3]</span>
+      <h3 class="step-name"><button type="button" class="step-btn" data-level="3" aria-describedby="lvl3-desc" data-i18n="lvl3.name">Difícil</button></h3>
+      <p class="step-desc" id="lvl3-desc" data-i18n="lvl3.desc">Herencia, estructuras de datos, algoritmos y concurrencia.</p>
+    </li>
+    <li class="step step-4" style="--p:1">
+      <span class="step-tag" aria-hidden="true">[4]</span>
+      <h3 class="step-name"><button type="button" class="step-btn" data-level="4" aria-describedby="lvl4-desc" data-i18n="lvl4.name">Todo</button></h3>
+      <p class="step-desc" id="lvl4-desc" data-i18n="lvl4.desc">El lenguaje completo, proyectos grandes y un reto final.</p>
+    </li>
+  </ol>
+</section>
+
+        <footer class="site-foot">
+          <nav class="foot-nav" aria-label="Legal" data-i18n-attr="aria-label:foot.legal">
+            <ul>
+              <li><a href="aviso-legal.html" data-i18n="foot.notice">Aviso legal</a></li>
+              <li><a href="politica-de-privacidad.html" data-i18n="foot.privacy">Política de privacidad</a></li>
+              <li><a href="politica-de-cookies.html" data-i18n="foot.cookies">Política de cookies</a></li>
+              <li><a href="condiciones-de-uso.html" data-i18n="foot.terms">Condiciones de uso</a></li>
+              <li><a href="sobre-codeladder.html" data-i18n="foot.about">Sobre codeLadder</a></li>
+              <li><a href="contacto.html" data-i18n="foot.contact">Contacto</a></li>
+              <li><button type="button" class="foot-link" data-cookie-settings data-i18n="foot.settings">Configurar cookies</button></li>
+            </ul>
+          </nav>
+          <p class="foot-copy">© 2026 codeLadder</p>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <footer class="statusbar">
+    <div class="sb-left">
+      <span class="sb-item">codeladder.es</span>
+      <button type="button" class="sb-btn sb-pick sb-hide-sm" id="sb-lang" aria-haspopup="dialog" data-i18n-attr="title:status.change" title="Cambiar lenguaje">Elegir lenguaje</button>
+    </div>
+    <div class="sb-right">
+      <div class="sb-group" role="group" aria-label="Idioma" data-i18n-attr="aria-label:status.lang">
+        <button type="button" class="sb-btn" data-lang-set="es" aria-pressed="true">ES</button>
+        <button type="button" class="sb-btn" data-lang-set="en" aria-pressed="false">EN</button>
+      </div>
+      <div class="sb-group" role="group" aria-label="Tema" data-i18n-attr="aria-label:status.theme">
+        <button type="button" class="sb-btn" data-theme-set="light" aria-pressed="false" data-i18n="theme.light">Claro</button>
+        <button type="button" class="sb-btn" data-theme-set="dark" aria-pressed="true" data-i18n="theme.dark">Oscuro</button>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="picker" id="picker" aria-labelledby="picker-title">
+    <div class="picker-box">
+      <div class="picker-head">
+        <div>
+          <h2 class="picker-title" id="picker-title" data-i18n="picker.title">¿En qué lenguaje?</h2>
+          <p class="picker-sub" id="picker-sub" hidden></p>
+        </div>
+        <button type="button" class="picker-x" id="picker-close" aria-label="Cerrar" data-i18n-attr="aria-label:picker.close">×</button>
+      </div>
+      <ul class="langs" id="picker-list"></ul>
+    </div>
+  </dialog>
+
+  <dialog class="picker cookie-dialog" id="cookie-dialog" aria-labelledby="cookie-title">
+    <div class="picker-box">
+      <div class="picker-head">
+        <h2 class="picker-title" id="cookie-title" data-i18n="cookie.title">Cookies y almacenamiento</h2>
+        <button type="button" class="picker-x" data-cookie-close aria-label="Cerrar" data-i18n-attr="aria-label:picker.close">×</button>
+      </div>
+      <div class="cookie-body">
+        <h3 class="cookie-h" data-i18n="cookie.need.title">Necesario, siempre activo</h3>
+        <p data-i18n="cookie.need.body">Tu navegador guarda el tema (claro u oscuro), el idioma y el lenguaje que eliges. Se queda en tu dispositivo, no se envía a ningún sitio y no requiere consentimiento.</p>
+        <ul class="cookie-list">
+          <li><code>cl-theme</code> <span data-i18n="cookie.item.theme">Tema</span></li>
+          <li><code>cl-lang</code> <span data-i18n="cookie.item.lang">Idioma</span></li>
+          <li><code>cl-track</code> <span data-i18n="cookie.item.track">Lenguaje elegido</span></li>
+        </ul>
+        <h3 class="cookie-h" data-i18n="cookie.ads.title">Publicidad y analítica</h3>
+        <p data-i18n="cookie.ads.body">Ahora mismo la web no muestra anuncios ni mide visitas, así que no hay nada más que aceptar. Si algún día se activan, se te pedirá permiso aquí antes de cargar nada.</p>
+        <div class="cookie-actions">
+          <button type="button" class="btn btn-ghost" id="cookie-clear" data-i18n="cookie.clear">Borrar mis preferencias guardadas</button>
+          <a class="link-btn" href="politica-de-cookies.html" data-i18n="cookie.policy">Leer la política de cookies</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="palette" id="palette" hidden>
+    <div class="palette-backdrop" data-palette-close></div>
+    <div class="palette-box" role="dialog" aria-modal="true" aria-label="Buscar" data-i18n-attr="aria-label:search.label">
+      <input id="palette-input" type="text" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Escribe un comando o un lenguaje…" data-i18n-attr="placeholder:palette.placeholder">
+      <ul id="palette-list" role="listbox"></ul>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

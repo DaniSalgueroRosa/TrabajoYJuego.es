@@ -7,7 +7,7 @@ No se ha elegido alojamiento. El resultado es una carpeta de archivos estáticos
 
 ## 1. Preparar
 
-1. Contenido: las 120 herramientas (`HERRAMIENTAS.md`), las 32 guías y los 69 juegos (`JUEGOS.md`) ya están. La sección de tests está vacía hasta que añadas carpetas (ver `CARPETAS.md`).
+1. Contenido: las 120 herramientas (`HERRAMIENTAS.md`), las 32 guías y los 81 juegos (`JUEGOS.md`) ya están. La sección de tests está vacía hasta que añadas carpetas (ver `CARPETAS.md`).
 2. Rellena `config/titular.json` (ver `LEGAL-PENDIENTE.md`, apartado 1).
 3. En `config/sitio.json`, cambia `"entorno"` a `"produccion"` y comprueba que `"url"` es la dirección definitiva (con `https://`).
 4. Si vas a poner anuncios y AdSense ya ha aprobado tu cuenta: `config/publicidad.json` (ver `LEGAL-PENDIENTE.md`, apartado 2). Si no, déjalo como está: **el sitio no carga nada de Google**.
@@ -25,8 +25,9 @@ No se ha elegido alojamiento. El resultado es una carpeta de archivos estáticos
 ## 2. Qué subir
 
 El **contenido** de `dist/` (no la carpeta `dist` en sí) a la raíz del dominio. `index.html` queda en la raíz, junto a `404.html`, `robots.txt`, `sitemap.xml`, `favicon.ico`, la carpeta `assets/`,
-las carpetas de las secciones (`juegos/`, `legal/`…) y, solo si hay publicidad activa, `ads.txt`.
-`python3 sitio.py paquete --dist` te prepara un .zip con exactamente eso.
+las carpetas de las secciones (`juegos/`, `legal/`…), los archivos de seguridad `.htaccess` y `_headers` (y `.well-known/security.txt` si has puesto tu correo) y, solo si hay publicidad activa, `ads.txt`.
+`python3 sitio.py paquete --dist` te prepara un .zip con exactamente eso. **`.htaccess` empieza por punto y algunos programas lo ocultan:** si subes a mano, activa «mostrar archivos ocultos»; si usas
+el administrador de archivos del hosting, sube el .zip y descomprímelo allí. En Cloudflare Pages vale `_headers` y `.htaccess` sobra (y al revés en Hostinger); no molestan, pero puedes borrar el que no uses.
 
 El sitio está pensado para un **dominio propio en la raíz**, no para una subcarpeta.
 
@@ -45,13 +46,15 @@ El sitio está pensado para un **dominio propio en la raíz**, no para una subca
 
 - **Caché:** los CSS de `assets/css/` y los `app.css`/`app.js` de cada elemento llevan `?v=huella` en la dirección, así que admiten caché larga
   (`Cache-Control: public, max-age=31536000, immutable`). Imágenes y fuentes (no llevan huella): un mes. HTML: sin caché o muy corta, para que los cambios se vean.
-- **Seguridad básica:** `X-Content-Type-Options: nosniff` y `Referrer-Policy: strict-origin-when-cross-origin`.
+- **Seguridad:** ya va resuelta y se genera sola en `.htaccess` (Hostinger y cualquier Apache/LiteSpeed) y en `_headers` (Cloudflare Pages): política de contenido, HSTS, `nosniff`, `Referrer-Policy`, `Permissions-Policy`, HTTPS obligatorio y cierre de archivos ocultos. No hay que configurar nada a mano.
+  Qué hace cada cosa y la lista de lo que depende de ti (2FA, DNS…): `docs/SEGURIDAD.md`.
 
 ## 5. Después de publicar
 
 - `http://` redirige a `https://`, y la dirección alternativa redirige a la principal.
 - `/robots.txt` permite rastrear y apunta al sitemap; `/sitemap.xml` lista las páginas.
 - Una dirección inventada (`/no-existe/`) devuelve **404** y muestra tu página de error.
+- Las cabeceras de seguridad llegan de verdad: pasa `https://securityheaders.com` con tu dirección (debe salir A o A+; con anuncios activos puede quedarse en B por lo que exige Google). Si una cabecera no aparece, el hosting ignora el archivo: avísame y lo resuelvo.
 - Da de alta el sitio en Search Console (la verificación por DNS es la más cómoda, porque `dist/` se regenera en cada construcción) y envía `sitemap.xml`.
 
 ## 6. Publicidad (AdSense): dónde va cada cosa

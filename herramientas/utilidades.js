@@ -150,6 +150,7 @@
       if (v === false || v == null) return;
       if (k === 'texto') el.textContent = v;
       else if (k === 'class') el.className = v;
+      else if (k === 'style') el.style.cssText = v;   /* por el CSSOM, no con setAttribute: la política de contenido (CSP) del sitio no admite estilos en línea */
       else if (k === 'value') el.value = v;
       else if (k.slice(0, 2) === 'on' && typeof v === 'function') el.addEventListener(k.slice(2), v);
       else el.setAttribute(k, v === true ? '' : v);

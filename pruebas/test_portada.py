@@ -89,7 +89,7 @@ class IndicePorCategoria(Base):
         for slug, d in self.juegos.items():
             categorias.setdefault(d["categoria"], []).append((d.get("orden", 10**6), slug))
         self.assertEqual(self.explorar.count('class="explorar-grupo-titulo"'), len(categorias))
-        self.assertEqual(len(categorias), 8)
+        self.assertEqual(len(categorias), 9)
         for cat, lista in categorias.items():
             with self.subTest(categoria=cat):
                 self.assertIn(f'href="juegos/?categoria={cat}"', self.explorar)
@@ -143,7 +143,7 @@ class CategoriaSinJuegos(Base):
         explorar = trozo(self.portada(), "explorar")
         self.assertNotIn("categoria=memoria", explorar)
         self.assertNotIn("memoria-visual", explorar)
-        self.assertEqual(explorar.count('class="explorar-grupo-titulo"'), 7)
+        self.assertEqual(explorar.count('class="explorar-grupo-titulo"'), 8)
         self.assertIn(f"Ver {publicados} juegos", explorar)
         self.assertNotIn("<ul class=\"explorar-items\">\n        </ul>", explorar)
 

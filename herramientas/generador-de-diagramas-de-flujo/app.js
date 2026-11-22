@@ -29,7 +29,10 @@
         if (g.errores.length) return;
         if (!g.nodos.length) { vista.appendChild(h('p', { class: 'herr-vacio', texto: 'Escribe los pasos a la izquierda, o prueba con el ejemplo, y aquí aparecerá el diagrama.' })); return; }
         var d = D.disponer(g, { medir: medir }), svg = D.svg(d, { titulo: 'Diagrama de flujo' });
-        vista.innerHTML = svg;
+        /* El dibujo se lee como XML y se inserta como nodos: nada pasa por innerHTML, así que un texto raro del usuario nunca puede convertirse en código. */
+        var analizado = new DOMParser().parseFromString(svg, 'image/svg+xml');
+        if (analizado.getElementsByTagName('parsererror').length) { medidas.appendChild(h('p', { class: 'herr-estado herr-estado--error', role: 'alert', texto: 'No se ha podido dibujar el diagrama. Revisa el texto.' })); return; }
+        vista.appendChild(document.importNode(analizado.documentElement, true));
         vista.classList.toggle('dg-vista--ajustada', ajustar.checked);
         ultimo = { svg: svg, d: d };
         [].forEach.call(botones.querySelectorAll('[data-necesita]'), function (b) { b.disabled = false; });

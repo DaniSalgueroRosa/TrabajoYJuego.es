@@ -1,10 +1,10 @@
 {
   "_ayuda": "Datos del titular de la web. Aparecen en el aviso legal, la política de privacidad, el contacto y demás páginas legales. Déjalos vacíos si todavía no los tienes: las páginas mostrarán «[COMPLETAR POR EL TITULAR]» y el comprobador (python3 sitio.py comprobar) no te dejará publicar en producción hasta que los rellenes. No inventes ninguno.",
-  "nombre": "",
-  "nif": "",
-  "domicilio": "",
-  "email": "",
+  "nombre": "Daniel Salguero Rosa",
+  "nif": "26837927D",
+  "domicilio": "Calle Alonso Cano, 4, 29009 Málaga (España)",
+  "email": "trabajoyjuego.es@gmail.com",
   "telefono": "",
   "registro": "",
-  "alojamiento": ""
+  "alojamiento": "Cloudflare, Inc."
 }

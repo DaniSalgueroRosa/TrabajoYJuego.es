@@ -3,5 +3,6 @@
   "descripcion": "Aviso legal de TrabajoYJuego: quién es el titular del sitio, condiciones de acceso, propiedad intelectual, responsabilidad y legislación aplicable.",
   "fecha": "2026-11-13",
   "estado": "publicado",
-  "orden": 1
+  "orden": 1,
+  "indexar": false
 }

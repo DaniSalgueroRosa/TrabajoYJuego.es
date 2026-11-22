@@ -23,6 +23,11 @@ Abre el archivo y rellena los campos entre comillas. Aparecen en el aviso legal,
 | `registro` | no | Datos del Registro Mercantil u otro registro público, solo si estás inscrito |
 
 Si `telefono` y `registro` se quedan vacíos, esas líneas **desaparecen** (no se muestran huecos).
+
+**Dónde se ven el NIF y el domicilio.** Solo en tres páginas legales (aviso legal, política de privacidad y contacto). No salen en ninguna otra página,
+ni en el buscador interno, ni en el sitemap, y esas tres páginas llevan `noindex, follow` (campo `"indexar": false` en su `ficha.json`), así que Google no las
+ofrece en sus resultados. Ojo: `noindex` evita que se listen, pero cualquiera que abra la página la ve, como exige la LSSI. Si algún día quieres que se indexen, borra
+la línea `"indexar": false` de esas tres fichas. No bloquees `/legal/` en `robots.txt`: Google no podría leer el `noindex`.
 Después: `python3 sitio.py construir` y revisa `/legal/aviso-legal/`: ya no debe quedar ningún «[COMPLETAR POR EL TITULAR]».
 
 ## 2. Publicidad → `config/publicidad.json`

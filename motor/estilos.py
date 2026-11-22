@@ -36,18 +36,34 @@ def _unir(rutas: list, raiz: Path) -> str:
     return "\n".join(partes)
 
 
-def _paquete(nombre: str, rutas: list, raiz: Path):
+def _paquete(nombre: str, rutas: list, raiz: Path, extra: str = ""):
     if not rutas:
         return None
-    texto = _unir(rutas, raiz)
+    texto = _unir(rutas, raiz) + extra
     return Paquete(nombre, texto, hash_corto(texto))
 
 
-def paquete_comun(raiz: Path) -> Paquete:
+def paquete_comun(raiz: Path, extra: str = "") -> Paquete:
+    """«extra» es CSS generado al construir (los colores de los temas) y va al final del paquete."""
     base = raiz / "comun"
     primeros = [base / p for p in PRIMEROS_COMUN]
     resto = sorted((p for p in base.rglob("*.css") if p not in primeros), key=lambda p: p.relative_to(base).as_posix())
-    return _paquete("comun", [p for p in primeros if p.is_file()] + resto, raiz)
+    return _paquete("comun", [p for p in primeros if p.is_file()] + resto, raiz, extra)
+
+
+def id_tema(tema: dict) -> str:
+    """Identificador estable de una combinación de colores de tema (data-tema="…")."""
+    return "t" + hash_corto(f"{tema['fondo']}{tema['texto']}{tema['acento']}")[:6]
+
+
+def css_temas(temas: list) -> str:
+    """Una regla por combinación de colores. Así ninguna página lleva estilos en línea y la política de contenido (CSP) puede prohibirlos.
+    Los colores ya están validados como #RRGGBB al leer cada ficha.json."""
+    unicos = {id_tema(t): t for t in temas}
+    if not unicos:
+        return ""
+    reglas = [f'[data-tema="{i}"] {{ --t-fondo: {t["fondo"]}; --t-texto: {t["texto"]}; --t-acento: {t["acento"]}; }}' for i, t in sorted(unicos.items())]
+    return "\n/* ===== temas de los tests (se genera al construir) ===== */\n" + "\n".join(reglas) + "\n"
 
 
 def paquete_portada(raiz: Path):

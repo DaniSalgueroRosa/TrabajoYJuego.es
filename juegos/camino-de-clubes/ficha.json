@@ -1,0 +1,17 @@
+{
+  "titulo": "Camino de clubes: adivina por su carrera",
+  "descripcion": "Te enseño los clubes por los que ha pasado un futbolista, en orden, y tienes que decir quién es. Ocho rondas con una pista opcional de país y posición.",
+  "fecha": "2026-11-20",
+  "estado": "publicado",
+  "etiquetas": [
+    "fútbol",
+    "carreras",
+    "clubes",
+    "adivinar",
+    "un jugador"
+  ],
+  "categoria": "futbol",
+  "dificultad": "dificil",
+  "duracion": "6-8 min",
+  "orden": 72
+}

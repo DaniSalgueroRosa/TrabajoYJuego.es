@@ -1,0 +1,11 @@
+/* TIRO LIBRE: lienzo pixelado de 320 × 180 con el aviso del resultado encima */
+.tl-escena { position: relative; width: min(100%, 40rem); margin: 8px auto; background: var(--tinta); box-shadow: 0 0 0 4px var(--tinta), 0 0 0 8px var(--noche-linea); }
+.tl-lienzo { display: block; width: 100%; height: auto; aspect-ratio: 320 / 180; image-rendering: pixelated; cursor: pointer; }
+.tl-aviso { position: absolute; left: 50%; top: 50%; margin: 0; padding: var(--e2) var(--e4); transform: translate(-50%, -50%); text-align: center; background: var(--tinta); color: var(--limon);
+  font: 400 1.65rem / 1.25 var(--f-pixel); font-size: round(down, 1.65rem, 10px); box-shadow: 0 0 0 3px var(--limon); }
+.tl-aviso:empty { display: none; }
+.tl-aviso--fallo { color: #FF9DB0; box-shadow: 0 0 0 3px var(--sandia); }
+.tl-fijar { min-width: 12rem; }
+.pantalla .campo-check { display: flex; align-items: center; gap: var(--e2); justify-content: center; color: var(--tiza); }
+.campo-check input { width: 1.4rem; height: 1.4rem; accent-color: var(--limon); }
+.tl-lista { display: grid; gap: var(--e1); margin: 0; padding-left: 1.4rem; color: var(--tiza); text-align: left; }

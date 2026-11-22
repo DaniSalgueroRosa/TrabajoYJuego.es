@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Pruebas del CONTENIDO de los 69 juegos: que los archivos JSON de preguntas, acertijos, palabras, mapas… estén bien formados.
+"""Pruebas del CONTENIDO de los 81 juegos: que los archivos JSON de preguntas, acertijos, palabras, mapas… estén bien formados.
 Así, al añadir una pregunta o un acertijo a mano, un error (una opción repetida, una respuesta que no está entre las opciones,
 una palabra de longitud equivocada) salta aquí y no delante de un jugador.
 
@@ -33,13 +33,15 @@ ORDEN_DEL_ENCARGO = [
 ]
 
 # Juegos añadidos después del encargo de los 50 (orden 51 en adelante): primero los 9 sueltos (51–59) y después la tanda de 10 (60–69:
-# cinco de fútbol y cinco variados).
+# cinco de fútbol y cinco variados) y la tanda de 12 de fútbol (70–81: diez de cultura y adivinar y dos para jugar).
 AMPLIACION = ["piedra-papel-o-tijera", "adivina-el-numero", "juego-del-nim", "tabla-de-schulte", "inundacion",
              "laberinto", "el-24", "ordena-los-frascos", "encuentra-el-color",
              "quiz-de-futbol", "que-futbolista-soy", "tanda-de-penaltis", "estadios-de-futbol", "reglas-del-futbol",
-             "hundir-la-flota", "nonogramas", "reversi", "pilla-al-topo", "raquetas"]
+             "hundir-la-flota", "nonogramas", "reversi", "pilla-al-topo", "raquetas",
+             "adivina-el-once", "futbolista-oculto", "camino-de-clubes", "apodos-de-clubes", "balon-de-oro", "goleadores-historicos",
+             "entrenador-campeon", "intruso-del-club", "de-que-pais-es-el-club", "ahorcado-de-futbol", "tiro-libre", "regates"]
 TODOS = ORDEN_DEL_ENCARGO + AMPLIACION
-CATEGORIAS = {"palabras", "logica", "cultura-general", "matematicas", "memoria", "geografia", "habilidad", "arcade"}
+CATEGORIAS = {"futbol", "palabras", "logica", "cultura-general", "matematicas", "memoria", "geografia", "habilidad", "arcade"}
 
 
 def cargar(ruta: str) -> dict:
@@ -84,7 +86,7 @@ class CatalogoDeJuegos(unittest.TestCase):
         titulos = [cargar(f"{s}/ficha.json")["titulo"] for s in ORDEN_DEL_ENCARGO + AMPLIACION]
         self.assertEqual(len(set(titulos)), len(titulos))
 
-    def test_se_usan_las_ocho_categorias(self):
+    def test_se_usan_las_nueve_categorias(self):
         usadas = {cargar(f"{s}/ficha.json")["categoria"] for s in ORDEN_DEL_ENCARGO + AMPLIACION}
         self.assertEqual(usadas, CATEGORIAS)
 
@@ -295,6 +297,133 @@ class UnaEntreUnMillon(unittest.TestCase):
                     self.assertTrue(isinstance(r["n"], int) and r["n"] >= 1)
                     self.assertTrue(r["t"] and all(t.strip() for t in r["t"]))
                 self.assertGreaterEqual(max(r["n"] for r in p["respuestas"]), 1000, "falta alguna respuesta rara que dé puntos altos")
+
+
+def alias_ambiguos(jugadores) -> dict:
+    """Alias (sin tildes ni mayúsculas) que sirven para dos jugadores distintos. Repetir un alias dentro del MISMO jugador no cuenta."""
+    por_alias = {}
+    for j in jugadores:
+        for a in j["r"]:
+            por_alias.setdefault(norm(a), set()).add(j["n"])
+    return {a: n for a, n in por_alias.items() if len(n) > 1}
+
+
+class DatosDeFutbol(unittest.TestCase):
+    """Los diez juegos de fútbol 70–79 leen JSON propio: sin duplicados que hagan ambigua una respuesta y con las cifras coherentes."""
+
+    def test_adivina_el_once(self):
+        onces = cargar("adivina-el-once/onces.json")["onces"]
+        self.assertEqual(len(onces), 9)
+        for o in onces:
+            with self.subTest(final=o["t"]):
+                self.assertEqual(sum(len(f) for f in o["filas"]), 11, "un once tiene once jugadores")
+                self.assertEqual(len(o["filas"][0]), 1, "la primera fila es el portero")
+                nombres = [j["n"] for f in o["filas"] for j in f]
+                self.assertEqual(len(nombres), len(set(nombres)))
+                self.assertEqual(alias_ambiguos([j for f in o["filas"] for j in f]), {}, "un apellido sirve para dos jugadores del mismo once")
+                for j in (j for f in o["filas"] for j in f):
+                    self.assertTrue(j["r"] and norm(j["n"]) in {norm(a) for a in j["r"]} or any(norm(a) in norm(j["n"]) for a in j["r"]))
+                self.assertTrue(all(o[k] for k in ("e", "v", "res", "f")))
+
+    def test_futbolista_oculto(self):
+        lista = cargar("futbolista-oculto/futbolistas.json")["futbolistas"]
+        self.assertGreaterEqual(len(lista), 80)
+        self.assertEqual(len({norm(j["n"]) for j in lista}), len(lista))
+        self.assertEqual(alias_ambiguos(lista), {}, "un alias sirve para dos futbolistas")
+        for j in lista:
+            with self.subTest(jugador=j["n"]):
+                self.assertIn(j["pos"], {"Portero", "Defensa", "Centrocampista", "Delantero"})
+                self.assertTrue(1920 <= j["y"] <= 2010 and j["p"].strip())
+                self.assertTrue(all(isinstance(j[k], bool) for k in ("m", "c", "b")))
+        self.assertGreaterEqual(sum(j["b"] for j in lista), 10)
+
+    def test_camino_de_clubes(self):
+        lista = cargar("camino-de-clubes/caminos.json")["jugadores"]
+        self.assertGreaterEqual(len(lista), 50)
+        self.assertEqual(len({norm(j["n"]) for j in lista}), len(lista))
+        self.assertEqual(alias_ambiguos(lista), {}, "un alias sirve para dos futbolistas")
+        cadenas = [tuple(j["c"]) for j in lista]
+        self.assertEqual(len(cadenas), len(set(cadenas)), "dos futbolistas con exactamente la misma cadena de clubes: la ronda sería ambigua")
+        for j in lista:
+            with self.subTest(jugador=j["n"]):
+                self.assertGreaterEqual(len(j["c"]), 2)
+                self.assertTrue(all(c.strip() for c in j["c"]) and all(a != b for a, b in zip(j["c"], j["c"][1:])), "dos clubes seguidos iguales")
+                self.assertIn(j["pos"], {"portero", "defensa", "centrocampista", "delantero"})
+
+    def test_apodos_de_clubes(self):
+        lista = cargar("apodos-de-clubes/apodos.json")["apodos"]
+        self.assertGreaterEqual(len(lista), 60)
+        apodos = [norm(x["a"]) for x in lista]
+        self.assertEqual(len(apodos), len(set(apodos)), "un apodo aparece dos veces: sería ambiguo")
+        for x in lista:
+            self.assertTrue(x["a"].strip() and x["c"].strip() and x["p"].strip())
+        self.assertGreaterEqual(len({x["c"] for x in lista}), 40)
+
+    def test_balon_de_oro(self):
+        lista = cargar("balon-de-oro/premios.json")["premios"]
+        anios = [x["a"] for x in lista]
+        self.assertEqual(anios, sorted(set(anios)))
+        self.assertEqual(anios[0], 1956)
+        self.assertNotIn(2020, anios, "en 2020 no se entregó")
+        self.assertEqual(set(range(1956, anios[-1] + 1)) - set(anios), {2020})
+        cuenta = {}
+        for x in lista:
+            cuenta[x["n"]] = cuenta.get(x["n"], 0) + 1
+        self.assertEqual(cuenta["Lionel Messi"], 8)
+        self.assertEqual(cuenta["Cristiano Ronaldo"], 5)
+
+    def test_goleadores_historicos(self):
+        datos = cargar("goleadores-historicos/goleadores.json")
+        temporadas = [x["t"] for x in datos["pichichi"]]
+        self.assertEqual(len(temporadas), len(set(temporadas)))
+        self.assertEqual(temporadas[0], "2004-05")
+        for a, b in zip(temporadas, temporadas[1:]):
+            self.assertEqual(int(b[:4]), int(a[:4]) + 1, "faltan temporadas seguidas del Pichichi")
+        anios = [x["t"] for x in datos["mundiales"]]
+        self.assertEqual(anios, sorted(set(anios)))
+        self.assertNotIn(1994, anios, "en 1994 hubo dos máximos goleadores")
+        for x in datos["pichichi"] + datos["mundiales"]:
+            self.assertTrue(isinstance(x["g"], int) and 4 <= x["g"] <= 60 and x["n"].strip())
+
+    def test_entrenador_campeon(self):
+        lista = cargar("entrenador-campeon/campeones.json")["campeones"]
+        self.assertEqual(lista[0]["t"], "1992-93")
+        temporadas = [x["t"] for x in lista]
+        self.assertEqual(len(temporadas), len(set(temporadas)))
+        for a, b in zip(temporadas, temporadas[1:]):
+            self.assertEqual(int(b[:4]), int(a[:4]) + 1)
+        self.assertTrue(all(x["c"].strip() and x["e"].strip() for x in lista))
+
+    def test_intruso_del_club(self):
+        grupos = cargar("intruso-del-club/grupos.json")["grupos"]
+        self.assertGreaterEqual(len(grupos), 12)
+        self.assertEqual(len({g["t"] for g in grupos}), len(grupos))
+        for g in grupos:
+            with self.subTest(grupo=g["t"]):
+                self.assertGreaterEqual(len(g["m"]), 6)
+                self.assertEqual(len({norm(n) for n in g["m"]}), len(g["m"]))
+                intrusos = {norm(f["n"]) for f in g["f"]}
+                self.assertGreaterEqual(len(intrusos), 3)
+                self.assertFalse(intrusos & {norm(n) for n in g["m"]}, "un intruso también está en el grupo")
+                self.assertTrue(all(f["e"].strip() for f in g["f"]))
+
+    def test_de_que_pais_es_el_club(self):
+        lista = cargar("de-que-pais-es-el-club/clubes.json")["clubes"]
+        self.assertGreaterEqual(len(lista), 90)
+        self.assertEqual(len({norm(x["n"]) for x in lista}), len(lista))
+        for x in lista:
+            self.assertTrue(x["n"].strip() and x["p"].strip() and x["c"].strip())
+        self.assertGreaterEqual(len({x["p"] for x in lista}), 15)
+
+    def test_ahorcado_de_futbol(self):
+        lista = cargar("ahorcado-de-futbol/palabras.json")["palabras"]
+        self.assertGreaterEqual(len(lista), 100)
+        palabras = [norm(x["p"]) for x in lista]
+        self.assertEqual(len(palabras), len(set(palabras)))
+        for x in lista:
+            with self.subTest(palabra=x["p"]):
+                self.assertRegex(norm(x["p"]), r"^[a-z]{4,14}$", "solo letras y sin espacios")
+                self.assertIn(x["t"], {"Jugador", "Club", "Estadio", "Selección", "Término"})
 
 
 class MayorMenorYMapa(unittest.TestCase):

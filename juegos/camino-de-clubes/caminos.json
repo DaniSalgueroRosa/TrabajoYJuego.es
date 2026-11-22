@@ -1,0 +1,954 @@
+{
+ "_nota": "Carreras para «Camino de clubes». n: nombre; r: respuestas aceptadas; p: país; pos: posición; c: clubes por los que pasó, en orden cronológico (se omiten cesiones cortas y etapas en categorías inferiores). Si un club se repite, es que volvió a él. Recorridos revisados hasta la temporada 2025-26; ten en cuenta que los jugadores en activo pueden cambiar de equipo.",
+ "jugadores": [
+  {
+   "n": "Lionel Messi",
+   "r": [
+    "Messi",
+    "Leo Messi",
+    "Lionel Messi"
+   ],
+   "p": "Argentina",
+   "pos": "delantero",
+   "c": [
+    "FC Barcelona",
+    "París Saint-Germain",
+    "Inter Miami"
+   ]
+  },
+  {
+   "n": "Cristiano Ronaldo",
+   "r": [
+    "Cristiano",
+    "Cristiano Ronaldo",
+    "CR7"
+   ],
+   "p": "Portugal",
+   "pos": "delantero",
+   "c": [
+    "Sporting CP",
+    "Manchester United",
+    "Real Madrid",
+    "Juventus",
+    "Manchester United",
+    "Al-Nassr"
+   ]
+  },
+  {
+   "n": "Zlatan Ibrahimović",
+   "r": [
+    "Zlatan",
+    "Ibrahimovic",
+    "Zlatan Ibrahimovic"
+   ],
+   "p": "Suecia",
+   "pos": "delantero",
+   "c": [
+    "Malmö FF",
+    "Ajax",
+    "Juventus",
+    "Inter de Milán",
+    "FC Barcelona",
+    "AC Milan",
+    "París Saint-Germain",
+    "Manchester United",
+    "LA Galaxy",
+    "AC Milan"
+   ]
+  },
+  {
+   "n": "Thierry Henry",
+   "r": [
+    "Henry",
+    "Thierry Henry"
+   ],
+   "p": "Francia",
+   "pos": "delantero",
+   "c": [
+    "AS Mónaco",
+    "Juventus",
+    "Arsenal",
+    "FC Barcelona",
+    "New York Red Bulls"
+   ]
+  },
+  {
+   "n": "David Beckham",
+   "r": [
+    "Beckham",
+    "David Beckham"
+   ],
+   "p": "Inglaterra",
+   "pos": "centrocampista",
+   "c": [
+    "Manchester United",
+    "Real Madrid",
+    "LA Galaxy",
+    "AC Milan",
+    "París Saint-Germain"
+   ]
+  },
+  {
+   "n": "Ronaldo Nazário",
+   "r": [
+    "Ronaldo",
+    "Ronaldo Nazario",
+    "El Fenómeno",
+    "Ronaldo Nazário"
+   ],
+   "p": "Brasil",
+   "pos": "delantero",
+   "c": [
+    "Cruzeiro",
+    "PSV Eindhoven",
+    "FC Barcelona",
+    "Inter de Milán",
+    "Real Madrid",
+    "AC Milan",
+    "Corinthians"
+   ]
+  },
+  {
+   "n": "Kaká",
+   "r": [
+    "Kaka",
+    "Kaká",
+    "Ricardo Kaka"
+   ],
+   "p": "Brasil",
+   "pos": "centrocampista",
+   "c": [
+    "São Paulo",
+    "AC Milan",
+    "Real Madrid",
+    "AC Milan",
+    "São Paulo",
+    "Orlando City"
+   ]
+  },
+  {
+   "n": "Luís Figo",
+   "r": [
+    "Figo",
+    "Luis Figo",
+    "Luís Figo"
+   ],
+   "p": "Portugal",
+   "pos": "centrocampista",
+   "c": [
+    "Sporting CP",
+    "FC Barcelona",
+    "Real Madrid",
+    "Inter de Milán"
+   ]
+  },
+  {
+   "n": "Zinedine Zidane",
+   "r": [
+    "Zidane",
+    "Zinedine Zidane",
+    "Zizou"
+   ],
+   "p": "Francia",
+   "pos": "centrocampista",
+   "c": [
+    "AS Cannes",
+    "Girondins de Burdeos",
+    "Juventus",
+    "Real Madrid"
+   ]
+  },
+  {
+   "n": "Andrea Pirlo",
+   "r": [
+    "Pirlo",
+    "Andrea Pirlo"
+   ],
+   "p": "Italia",
+   "pos": "centrocampista",
+   "c": [
+    "Brescia",
+    "Inter de Milán",
+    "AC Milan",
+    "Juventus",
+    "New York City FC"
+   ]
+  },
+  {
+   "n": "Xavi Hernández",
+   "r": [
+    "Xavi",
+    "Xavi Hernandez",
+    "Xavi Hernández"
+   ],
+   "p": "España",
+   "pos": "centrocampista",
+   "c": [
+    "FC Barcelona",
+    "Al-Sadd"
+   ]
+  },
+  {
+   "n": "Andrés Iniesta",
+   "r": [
+    "Iniesta",
+    "Andres Iniesta",
+    "Andrés Iniesta"
+   ],
+   "p": "España",
+   "pos": "centrocampista",
+   "c": [
+    "FC Barcelona",
+    "Vissel Kobe",
+    "Emirates Club"
+   ]
+  },
+  {
+   "n": "Sergio Ramos",
+   "r": [
+    "Ramos",
+    "Sergio Ramos"
+   ],
+   "p": "España",
+   "pos": "defensa",
+   "c": [
+    "Sevilla FC",
+    "Real Madrid",
+    "París Saint-Germain",
+    "Sevilla FC",
+    "CF Monterrey"
+   ]
+  },
+  {
+   "n": "Iker Casillas",
+   "r": [
+    "Casillas",
+    "Iker Casillas"
+   ],
+   "p": "España",
+   "pos": "portero",
+   "c": [
+    "Real Madrid",
+    "FC Porto"
+   ]
+  },
+  {
+   "n": "Gerard Piqué",
+   "r": [
+    "Pique",
+    "Piqué",
+    "Gerard Pique",
+    "Gerard Piqué"
+   ],
+   "p": "España",
+   "pos": "defensa",
+   "c": [
+    "Manchester United",
+    "Real Zaragoza",
+    "FC Barcelona"
+   ]
+  },
+  {
+   "n": "Fernando Torres",
+   "r": [
+    "Torres",
+    "Fernando Torres",
+    "El Niño Torres",
+    "El Nino"
+   ],
+   "p": "España",
+   "pos": "delantero",
+   "c": [
+    "Atlético de Madrid",
+    "Liverpool",
+    "Chelsea",
+    "AC Milan",
+    "Atlético de Madrid",
+    "Sagan Tosu"
+   ]
+  },
+  {
+   "n": "David Villa",
+   "r": [
+    "Villa",
+    "David Villa",
+    "El Guaje"
+   ],
+   "p": "España",
+   "pos": "delantero",
+   "c": [
+    "Sporting de Gijón",
+    "Real Zaragoza",
+    "Valencia CF",
+    "FC Barcelona",
+    "Atlético de Madrid",
+    "New York City FC",
+    "Vissel Kobe"
+   ]
+  },
+  {
+   "n": "Raúl González",
+   "r": [
+    "Raul",
+    "Raúl",
+    "Raul Gonzalez",
+    "Raúl González"
+   ],
+   "p": "España",
+   "pos": "delantero",
+   "c": [
+    "Real Madrid",
+    "Schalke 04",
+    "Al-Sadd",
+    "New York Cosmos"
+   ]
+  },
+  {
+   "n": "Didier Drogba",
+   "r": [
+    "Drogba",
+    "Didier Drogba"
+   ],
+   "p": "Costa de Marfil",
+   "pos": "delantero",
+   "c": [
+    "Le Mans",
+    "EA Guingamp",
+    "Olympique de Marsella",
+    "Chelsea",
+    "Shanghái Shenhua",
+    "Galatasaray",
+    "Montreal Impact"
+   ]
+  },
+  {
+   "n": "Luka Modrić",
+   "r": [
+    "Modric",
+    "Modrić",
+    "Luka Modric",
+    "Luka Modrić"
+   ],
+   "p": "Croacia",
+   "pos": "centrocampista",
+   "c": [
+    "Dinamo de Zagreb",
+    "Tottenham",
+    "Real Madrid",
+    "AC Milan"
+   ]
+  },
+  {
+   "n": "Gareth Bale",
+   "r": [
+    "Bale",
+    "Gareth Bale"
+   ],
+   "p": "Gales",
+   "pos": "delantero",
+   "c": [
+    "Southampton",
+    "Tottenham",
+    "Real Madrid",
+    "Tottenham",
+    "Los Angeles FC"
+   ]
+  },
+  {
+   "n": "Neymar",
+   "r": [
+    "Neymar",
+    "Neymar Jr",
+    "Neymar Junior"
+   ],
+   "p": "Brasil",
+   "pos": "delantero",
+   "c": [
+    "Santos",
+    "FC Barcelona",
+    "París Saint-Germain",
+    "Al-Hilal",
+    "Santos"
+   ]
+  },
+  {
+   "n": "Kylian Mbappé",
+   "r": [
+    "Mbappe",
+    "Mbappé",
+    "Kylian Mbappe",
+    "Kylian Mbappé"
+   ],
+   "p": "Francia",
+   "pos": "delantero",
+   "c": [
+    "AS Mónaco",
+    "París Saint-Germain",
+    "Real Madrid"
+   ]
+  },
+  {
+   "n": "Robert Lewandowski",
+   "r": [
+    "Lewandowski",
+    "Robert Lewandowski",
+    "Lewy"
+   ],
+   "p": "Polonia",
+   "pos": "delantero",
+   "c": [
+    "Znicz Pruszków",
+    "Lech Poznań",
+    "Borussia Dortmund",
+    "Bayern de Múnich",
+    "FC Barcelona"
+   ]
+  },
+  {
+   "n": "Mohamed Salah",
+   "r": [
+    "Salah",
+    "Mohamed Salah",
+    "Mo Salah"
+   ],
+   "p": "Egipto",
+   "pos": "delantero",
+   "c": [
+    "Al-Mokawloon",
+    "FC Basilea",
+    "Chelsea",
+    "Fiorentina",
+    "AS Roma",
+    "Liverpool"
+   ]
+  },
+  {
+   "n": "Sergio Agüero",
+   "r": [
+    "Aguero",
+    "Agüero",
+    "Kun Aguero",
+    "Sergio Aguero",
+    "Sergio Agüero",
+    "Kun Agüero"
+   ],
+   "p": "Argentina",
+   "pos": "delantero",
+   "c": [
+    "Independiente",
+    "Atlético de Madrid",
+    "Manchester City",
+    "FC Barcelona"
+   ]
+  },
+  {
+   "n": "Carlos Tevez",
+   "r": [
+    "Tevez",
+    "Tévez",
+    "Carlos Tevez",
+    "Carlos Tévez"
+   ],
+   "p": "Argentina",
+   "pos": "delantero",
+   "c": [
+    "Boca Juniors",
+    "Corinthians",
+    "West Ham",
+    "Manchester United",
+    "Manchester City",
+    "Juventus",
+    "Boca Juniors",
+    "Shanghái Shenhua"
+   ]
+  },
+  {
+   "n": "Diego Maradona",
+   "r": [
+    "Maradona",
+    "Diego Maradona",
+    "Diego Armando Maradona",
+    "El Pelusa"
+   ],
+   "p": "Argentina",
+   "pos": "centrocampista",
+   "c": [
+    "Argentinos Juniors",
+    "Boca Juniors",
+    "FC Barcelona",
+    "Nápoles",
+    "Sevilla FC",
+    "Newell's Old Boys"
+   ]
+  },
+  {
+   "n": "Johan Cruyff",
+   "r": [
+    "Cruyff",
+    "Johan Cruyff",
+    "Cruijff"
+   ],
+   "p": "Países Bajos",
+   "pos": "delantero",
+   "c": [
+    "Ajax",
+    "FC Barcelona",
+    "Los Angeles Aztecs",
+    "Washington Diplomats",
+    "Levante",
+    "Ajax",
+    "Feyenoord"
+   ]
+  },
+  {
+   "n": "Gianluigi Buffon",
+   "r": [
+    "Buffon",
+    "Gianluigi Buffon",
+    "Gigi Buffon"
+   ],
+   "p": "Italia",
+   "pos": "portero",
+   "c": [
+    "Parma",
+    "Juventus",
+    "París Saint-Germain",
+    "Juventus",
+    "Parma"
+   ]
+  },
+  {
+   "n": "Manuel Neuer",
+   "r": [
+    "Neuer",
+    "Manuel Neuer"
+   ],
+   "p": "Alemania",
+   "pos": "portero",
+   "c": [
+    "Schalke 04",
+    "Bayern de Múnich"
+   ]
+  },
+  {
+   "n": "Toni Kroos",
+   "r": [
+    "Kroos",
+    "Toni Kroos"
+   ],
+   "p": "Alemania",
+   "pos": "centrocampista",
+   "c": [
+    "Bayern de Múnich",
+    "Bayer Leverkusen",
+    "Real Madrid"
+   ]
+  },
+  {
+   "n": "Mesut Özil",
+   "r": [
+    "Ozil",
+    "Özil",
+    "Mesut Ozil",
+    "Mesut Özil"
+   ],
+   "p": "Alemania",
+   "pos": "centrocampista",
+   "c": [
+    "Werder Bremen",
+    "Real Madrid",
+    "Arsenal",
+    "Fenerbahçe",
+    "İstanbul Başakşehir"
+   ]
+  },
+  {
+   "n": "Cesc Fàbregas",
+   "r": [
+    "Fabregas",
+    "Fàbregas",
+    "Cesc Fabregas",
+    "Cesc",
+    "Cesc Fàbregas"
+   ],
+   "p": "España",
+   "pos": "centrocampista",
+   "c": [
+    "Arsenal",
+    "FC Barcelona",
+    "Chelsea",
+    "AS Mónaco",
+    "Como"
+   ]
+  },
+  {
+   "n": "Luis Suárez",
+   "r": [
+    "Suarez",
+    "Suárez",
+    "Luis Suarez",
+    "Luis Suárez",
+    "El Pistolero"
+   ],
+   "p": "Uruguay",
+   "pos": "delantero",
+   "c": [
+    "Nacional",
+    "Groningen",
+    "Ajax",
+    "Liverpool",
+    "FC Barcelona",
+    "Atlético de Madrid",
+    "Nacional",
+    "Grêmio",
+    "Inter Miami"
+   ]
+  },
+  {
+   "n": "Edinson Cavani",
+   "r": [
+    "Cavani",
+    "Edinson Cavani",
+    "El Matador"
+   ],
+   "p": "Uruguay",
+   "pos": "delantero",
+   "c": [
+    "Danubio",
+    "Palermo",
+    "Nápoles",
+    "París Saint-Germain",
+    "Manchester United",
+    "Valencia CF",
+    "Boca Juniors"
+   ]
+  },
+  {
+   "n": "Wayne Rooney",
+   "r": [
+    "Rooney",
+    "Wayne Rooney"
+   ],
+   "p": "Inglaterra",
+   "pos": "delantero",
+   "c": [
+    "Everton",
+    "Manchester United",
+    "Everton",
+    "D.C. United",
+    "Derby County"
+   ]
+  },
+  {
+   "n": "Steven Gerrard",
+   "r": [
+    "Gerrard",
+    "Steven Gerrard"
+   ],
+   "p": "Inglaterra",
+   "pos": "centrocampista",
+   "c": [
+    "Liverpool",
+    "LA Galaxy"
+   ]
+  },
+  {
+   "n": "Frank Lampard",
+   "r": [
+    "Lampard",
+    "Frank Lampard"
+   ],
+   "p": "Inglaterra",
+   "pos": "centrocampista",
+   "c": [
+    "West Ham",
+    "Chelsea",
+    "Manchester City",
+    "New York City FC"
+   ]
+  },
+  {
+   "n": "Ruud van Nistelrooy",
+   "r": [
+    "Van Nistelrooy",
+    "Nistelrooy",
+    "Ruud van Nistelrooy"
+   ],
+   "p": "Países Bajos",
+   "pos": "delantero",
+   "c": [
+    "Heerenveen",
+    "PSV Eindhoven",
+    "Manchester United",
+    "Real Madrid",
+    "Hamburgo",
+    "Málaga"
+   ]
+  },
+  {
+   "n": "Arjen Robben",
+   "r": [
+    "Robben",
+    "Arjen Robben"
+   ],
+   "p": "Países Bajos",
+   "pos": "delantero",
+   "c": [
+    "Groningen",
+    "PSV Eindhoven",
+    "Chelsea",
+    "Real Madrid",
+    "Bayern de Múnich",
+    "Groningen"
+   ]
+  },
+  {
+   "n": "Eden Hazard",
+   "r": [
+    "Hazard",
+    "Eden Hazard"
+   ],
+   "p": "Bélgica",
+   "pos": "delantero",
+   "c": [
+    "Lille",
+    "Chelsea",
+    "Real Madrid"
+   ]
+  },
+  {
+   "n": "Kevin De Bruyne",
+   "r": [
+    "De Bruyne",
+    "Kevin De Bruyne",
+    "Debruyne"
+   ],
+   "p": "Bélgica",
+   "pos": "centrocampista",
+   "c": [
+    "Genk",
+    "Chelsea",
+    "Werder Bremen",
+    "VfL Wolfsburgo",
+    "Manchester City",
+    "Nápoles"
+   ]
+  },
+  {
+   "n": "Roberto Carlos",
+   "r": [
+    "Roberto Carlos",
+    "Carlos"
+   ],
+   "p": "Brasil",
+   "pos": "defensa",
+   "c": [
+    "Palmeiras",
+    "Inter de Milán",
+    "Real Madrid",
+    "Fenerbahçe"
+   ]
+  },
+  {
+   "n": "Roberto Baggio",
+   "r": [
+    "Baggio",
+    "Roberto Baggio",
+    "Il Divin Codino"
+   ],
+   "p": "Italia",
+   "pos": "delantero",
+   "c": [
+    "Vicenza",
+    "Fiorentina",
+    "Juventus",
+    "AC Milan",
+    "Bologna",
+    "Inter de Milán",
+    "Brescia"
+   ]
+  },
+  {
+   "n": "Alessandro Del Piero",
+   "r": [
+    "Del Piero",
+    "Alessandro Del Piero",
+    "Delpiero"
+   ],
+   "p": "Italia",
+   "pos": "delantero",
+   "c": [
+    "Padova",
+    "Juventus",
+    "Sydney FC",
+    "Delhi Dynamos"
+   ]
+  },
+  {
+   "n": "Michael Laudrup",
+   "r": [
+    "Laudrup",
+    "Michael Laudrup"
+   ],
+   "p": "Dinamarca",
+   "pos": "centrocampista",
+   "c": [
+    "Brøndby",
+    "Lazio",
+    "Juventus",
+    "FC Barcelona",
+    "Real Madrid",
+    "Vissel Kobe",
+    "Ajax"
+   ]
+  },
+  {
+   "n": "Alfredo Di Stéfano",
+   "r": [
+    "Di Stefano",
+    "Di Stéfano",
+    "Alfredo Di Stefano",
+    "Alfredo Di Stéfano",
+    "La Saeta Rubia"
+   ],
+   "p": "Argentina",
+   "pos": "delantero",
+   "c": [
+    "River Plate",
+    "Millonarios",
+    "Real Madrid",
+    "RCD Espanyol"
+   ]
+  },
+  {
+   "n": "Dennis Bergkamp",
+   "r": [
+    "Bergkamp",
+    "Dennis Bergkamp"
+   ],
+   "p": "Países Bajos",
+   "pos": "delantero",
+   "c": [
+    "Ajax",
+    "Inter de Milán",
+    "Arsenal"
+   ]
+  },
+  {
+   "n": "Karim Benzema",
+   "r": [
+    "Benzema",
+    "Karim Benzema"
+   ],
+   "p": "Francia",
+   "pos": "delantero",
+   "c": [
+    "Olympique de Lyon",
+    "Real Madrid",
+    "Al-Ittihad"
+   ]
+  },
+  {
+   "n": "Ángel Di María",
+   "r": [
+    "Di Maria",
+    "Di María",
+    "Angel Di Maria",
+    "Ángel Di María",
+    "Fideo"
+   ],
+   "p": "Argentina",
+   "pos": "centrocampista",
+   "c": [
+    "Rosario Central",
+    "Benfica",
+    "Real Madrid",
+    "Manchester United",
+    "París Saint-Germain",
+    "Juventus",
+    "Benfica",
+    "Rosario Central"
+   ]
+  },
+  {
+   "n": "Paulo Dybala",
+   "r": [
+    "Dybala",
+    "Paulo Dybala",
+    "La Joya"
+   ],
+   "p": "Argentina",
+   "pos": "delantero",
+   "c": [
+    "Instituto",
+    "Palermo",
+    "Juventus",
+    "AS Roma"
+   ]
+  },
+  {
+   "n": "Gonzalo Higuaín",
+   "r": [
+    "Higuain",
+    "Higuaín",
+    "Gonzalo Higuain",
+    "Gonzalo Higuaín",
+    "Pipita"
+   ],
+   "p": "Argentina",
+   "pos": "delantero",
+   "c": [
+    "River Plate",
+    "Real Madrid",
+    "Nápoles",
+    "Juventus",
+    "AC Milan",
+    "Chelsea",
+    "Juventus",
+    "Inter Miami"
+   ]
+  },
+  {
+   "n": "Thibaut Courtois",
+   "r": [
+    "Courtois",
+    "Thibaut Courtois"
+   ],
+   "p": "Bélgica",
+   "pos": "portero",
+   "c": [
+    "Genk",
+    "Chelsea",
+    "Atlético de Madrid",
+    "Real Madrid"
+   ]
+  },
+  {
+   "n": "Sergio Busquets",
+   "r": [
+    "Busquets",
+    "Sergio Busquets"
+   ],
+   "p": "España",
+   "pos": "centrocampista",
+   "c": [
+    "FC Barcelona",
+    "Inter Miami"
+   ]
+  },
+  {
+   "n": "Jordi Alba",
+   "r": [
+    "Alba",
+    "Jordi Alba"
+   ],
+   "p": "España",
+   "pos": "defensa",
+   "c": [
+    "Valencia CF",
+    "FC Barcelona",
+    "Inter Miami"
+   ]
+  }
+ ]
+}

@@ -72,6 +72,7 @@ No se publica `ficha.json`. No puede haber un `index.html` dentro de un elemento
 | `dificultad` | no | `facil`, `media` o `dificil`: sale en la tarjeta y en la ficha, y se puede filtrar |
 | `duracion` | no | Texto corto: `"3-5 min"` |
 | `orden` | no | Entero (0, 1, 2…): posición en secciones con `ordenar_por: orden` |
+| `indexar` | no | `true` (por defecto) o `false`. Con `false` la página sigue publicada y enlazada, pero lleva `noindex, follow` y no entra en el sitemap: los buscadores no la ofrecen. Se usa en las páginas legales que muestran el NIF y el domicilio. Solo tiene efecto en producción (en preproducción todo ya va con `noindex, nofollow`) |
 
 ### Estados
 

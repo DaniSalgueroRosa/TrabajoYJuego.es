@@ -80,6 +80,7 @@
       if (v === false || v == null) return;
       if (k === 'texto') el.textContent = v;
       else if (k === 'class') el.className = v;
+      else if (k === 'style') el.style.cssText = v;   /* por el CSSOM, no con setAttribute: la política de contenido (CSP) del sitio no admite estilos en línea */
       else if (k.slice(0, 2) === 'on' && typeof v === 'function') el.addEventListener(k.slice(2), v);
       else el.setAttribute(k, v === true ? '' : v);
     });
@@ -583,7 +584,7 @@
 
   function s(tag, atr, hijos) {
     var e = doc.createElementNS(NS, tag);
-    Object.keys(atr || {}).forEach(function (k) { if (atr[k] != null) e.setAttribute(k, atr[k]); });
+    Object.keys(atr || {}).forEach(function (k) { if (atr[k] == null) return; if (k === 'style') e.style.cssText = atr[k]; else e.setAttribute(k, atr[k]); });
     (hijos || []).forEach(function (h) { e.appendChild(h); });
     return e;
   }

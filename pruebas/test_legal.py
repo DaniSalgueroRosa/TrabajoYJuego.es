@@ -31,6 +31,7 @@ TITULAR = {"nombre": "Titular de Prueba S.L.", "nif": "B00000000", "domicilio": 
            "email": "prueba@ejemplo.test", "telefono": "", "registro": "", "alojamiento": "Hosting de Prueba S.A."}
 CLIENTE = "ca-pub-1234567890123456"
 PUBLICIDAD = {"activa": True, "cliente": CLIENTE, "bloques": {"cabecera": "6666666666", "portada": "7777777777", "listado": "1111111111", "texto": "2222222222", "final": "3333333333"}}
+CON_DATOS_PERSONALES = {"aviso-legal", "politica-de-privacidad", "contacto"}   # páginas con NIF y domicilio: no se indexan
 DESCRIPCION = "Una descripción lo bastante larga para pasar la comprobación de longitud mínima."
 
 
@@ -129,7 +130,10 @@ class PaginasLegales(Base):
         self.construir()
         mapa = self.leer("sitemap.xml")
         for slug in PAGINAS:
-            self.assertIn(f"<loc>https://trabajoyjuego.es/legal/{slug}/</loc>", mapa)
+            if slug in CON_DATOS_PERSONALES:          # estas tres llevan «indexar: false» (ver PrivacidadDelTitular)
+                self.assertNotIn(f"/legal/{slug}/", mapa)
+            else:
+                self.assertIn(f"<loc>https://trabajoyjuego.es/legal/{slug}/</loc>", mapa)
 
     def test_el_sitio_con_lo_legal_pasa_la_revision_con_los_datos_completos(self):
         self.produccion()
@@ -203,6 +207,83 @@ class DatosDelTitular(Base):
         informe = self.construir()
         self.assertTrue(any("NIF" in a for a in informe.avisos), informe.avisos)
         self.assertIn('class="pendiente"', self.leer("legal/aviso-legal/index.html"))
+
+
+class PrivacidadDelTitular(Base):
+    """El NIF y el domicilio solo pueden verse en las páginas legales, y esas páginas no se ofrecen a los buscadores."""
+    NIF = "B00000000"
+    DOMICILIO = "Calle de la Prueba 1, 28000 Madrid"
+
+    def preparar(self):
+        self.produccion()
+        self.titular_completo()
+        self.juego_con_texto()
+        self.construir()
+
+    def paginas_con_los_datos(self):
+        return {p.relative_to(self.dist).as_posix() for p in self.dist.rglob("*")
+                if p.is_file() and p.suffix in {".html", ".xml", ".txt", ".json", ".js"}
+                and (self.NIF in p.read_text(encoding="utf-8", errors="ignore") or self.DOMICILIO in p.read_text(encoding="utf-8", errors="ignore"))}
+
+    def test_nif_y_domicilio_solo_salen_en_las_tres_paginas_legales(self):
+        self.preparar()
+        esperadas = {f"legal/{s}/index.html" for s in CON_DATOS_PERSONALES}
+        self.assertEqual(self.paginas_con_los_datos() - esperadas, set(), "el NIF o el domicilio aparecen fuera de las páginas legales")
+        self.assertTrue(self.paginas_con_los_datos(), "el titular debería identificarse en alguna página legal (LSSI, art. 10)")
+
+    def test_nif_y_domicilio_no_entran_en_el_buscador_ni_en_otros_indices(self):
+        self.preparar()
+        for ruta in self.dist.rglob("*"):
+            if ruta.is_file() and ruta.suffix in {".json", ".js", ".xml", ".txt"}:
+                texto = ruta.read_text(encoding="utf-8", errors="ignore")
+                self.assertNotIn(self.NIF, texto, ruta.name)
+                self.assertNotIn(self.DOMICILIO, texto, ruta.name)
+
+    def test_las_paginas_con_datos_piden_no_ser_indexadas_pero_si_seguir_enlaces(self):
+        self.preparar()
+        for slug in CON_DATOS_PERSONALES:
+            html = self.leer(f"legal/{slug}/index.html")
+            self.assertRegex(html, r'<meta name="robots" content="noindex, follow">', slug)
+
+    def test_no_estan_en_el_sitemap_y_el_resto_de_paginas_si_se_indexan(self):
+        self.preparar()
+        mapa = self.leer("sitemap.xml")
+        for slug in CON_DATOS_PERSONALES:
+            self.assertNotIn(f"/legal/{slug}/", mapa)
+        for slug in set(PAGINAS) - CON_DATOS_PERSONALES:
+            self.assertIn(f"/legal/{slug}/", mapa)
+            self.assertNotIn("noindex", self.leer(f"legal/{slug}/index.html"))
+        self.assertNotIn("noindex", self.leer("index.html"))
+
+    def test_robots_txt_no_cierra_el_sitio_porque_el_noindex_va_en_la_pagina(self):
+        self.preparar()
+        self.assertNotIn("Disallow: /legal", self.leer("robots.txt"))   # si se bloqueara, Google no vería el noindex
+
+    def test_la_revision_de_produccion_no_se_queja_de_esas_paginas(self):
+        self.preparar()
+        res = comprobar(self.raiz)
+        self.assertEqual([e for e in res.errores], [], res.errores)
+
+    def test_quitando_indexar_la_pagina_vuelve_al_sitemap(self):
+        self.produccion()
+        self.titular_completo()
+        self.juego_con_texto()
+        ruta = self.raiz / "legal" / "contacto" / "ficha.json"
+        d = json.loads(ruta.read_text(encoding="utf-8"))
+        d.pop("indexar", None)
+        ruta.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        self.construir()
+        self.assertIn("/legal/contacto/", self.leer("sitemap.xml"))
+        self.assertNotIn("noindex", self.leer("legal/contacto/index.html"))
+
+    def test_indexar_solo_acepta_verdadero_o_falso(self):
+        self.juego_con_texto()
+        ruta = self.raiz / "legal" / "contacto" / "ficha.json"
+        d = json.loads(ruta.read_text(encoding="utf-8"))
+        d["indexar"] = "no"
+        ruta.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        with self.assertRaises(ErrorProyecto):
+            self.construir()
 
 
 class SinPublicidad(Base):

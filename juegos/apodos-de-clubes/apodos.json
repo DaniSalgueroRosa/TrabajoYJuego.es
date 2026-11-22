@@ -1,0 +1,350 @@
+{
+ "_nota": "Apodos de clubes. a: apodo (solo apodos que identifican a un único club entre los de esta lista); c: club; p: país.",
+ "apodos": [
+  {
+   "a": "Blaugrana",
+   "c": "FC Barcelona",
+   "p": "España"
+  },
+  {
+   "a": "Culés",
+   "c": "FC Barcelona",
+   "p": "España"
+  },
+  {
+   "a": "Merengues",
+   "c": "Real Madrid",
+   "p": "España"
+  },
+  {
+   "a": "Colchoneros",
+   "c": "Atlético de Madrid",
+   "p": "España"
+  },
+  {
+   "a": "Los Leones",
+   "c": "Athletic Club",
+   "p": "España"
+  },
+  {
+   "a": "Txuri-urdin",
+   "c": "Real Sociedad",
+   "p": "España"
+  },
+  {
+   "a": "Submarino Amarillo",
+   "c": "Villarreal CF",
+   "p": "España"
+  },
+  {
+   "a": "Los Che",
+   "c": "Valencia CF",
+   "p": "España"
+  },
+  {
+   "a": "Verdiblancos",
+   "c": "Real Betis",
+   "p": "España"
+  },
+  {
+   "a": "Nervionenses",
+   "c": "Sevilla FC",
+   "p": "España"
+  },
+  {
+   "a": "Pericos",
+   "c": "RCD Espanyol",
+   "p": "España"
+  },
+  {
+   "a": "Gunners",
+   "c": "Arsenal",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Diablos Rojos",
+   "c": "Manchester United",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Citizens",
+   "c": "Manchester City",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Toffees",
+   "c": "Everton",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Magpies",
+   "c": "Newcastle United",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Hammers",
+   "c": "West Ham United",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Foxes",
+   "c": "Leicester City",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Villans",
+   "c": "Aston Villa",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Seagulls",
+   "c": "Brighton",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Cherries",
+   "c": "Bournemouth",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Bees",
+   "c": "Brentford",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Cottagers",
+   "c": "Fulham",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Saints",
+   "c": "Southampton",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Spurs",
+   "c": "Tottenham Hotspur",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "Black Cats",
+   "c": "Sunderland",
+   "p": "Inglaterra"
+  },
+  {
+   "a": "La Vecchia Signora",
+   "c": "Juventus",
+   "p": "Italia"
+  },
+  {
+   "a": "Rossoneri",
+   "c": "AC Milan",
+   "p": "Italia"
+  },
+  {
+   "a": "Nerazzurri",
+   "c": "Inter de Milán",
+   "p": "Italia"
+  },
+  {
+   "a": "Giallorossi",
+   "c": "AS Roma",
+   "p": "Italia"
+  },
+  {
+   "a": "Partenopei",
+   "c": "Nápoles",
+   "p": "Italia"
+  },
+  {
+   "a": "Biancocelesti",
+   "c": "Lazio",
+   "p": "Italia"
+  },
+  {
+   "a": "Viola",
+   "c": "Fiorentina",
+   "p": "Italia"
+  },
+  {
+   "a": "Granata",
+   "c": "Torino",
+   "p": "Italia"
+  },
+  {
+   "a": "Die Werkself",
+   "c": "Bayer Leverkusen",
+   "p": "Alemania"
+  },
+  {
+   "a": "Die Schwarzgelben",
+   "c": "Borussia Dortmund",
+   "p": "Alemania"
+  },
+  {
+   "a": "Die Knappen",
+   "c": "Schalke 04",
+   "p": "Alemania"
+  },
+  {
+   "a": "Die Fohlen",
+   "c": "Borussia Mönchengladbach",
+   "p": "Alemania"
+  },
+  {
+   "a": "Die Eisernen",
+   "c": "Union Berlín",
+   "p": "Alemania"
+  },
+  {
+   "a": "Die Wölfe",
+   "c": "VfL Wolfsburgo",
+   "p": "Alemania"
+  },
+  {
+   "a": "Die Adler",
+   "c": "Eintracht Fráncfort",
+   "p": "Alemania"
+  },
+  {
+   "a": "Águias",
+   "c": "Benfica",
+   "p": "Portugal"
+  },
+  {
+   "a": "Dragões",
+   "c": "FC Porto",
+   "p": "Portugal"
+  },
+  {
+   "a": "Arsenalistas",
+   "c": "Sporting de Braga",
+   "p": "Portugal"
+  },
+  {
+   "a": "Godenzonen",
+   "c": "Ajax",
+   "p": "Países Bajos"
+  },
+  {
+   "a": "Les Gones",
+   "c": "Olympique de Lyon",
+   "p": "Francia"
+  },
+  {
+   "a": "Les Phocéens",
+   "c": "Olympique de Marsella",
+   "p": "Francia"
+  },
+  {
+   "a": "Les Dogues",
+   "c": "Lille",
+   "p": "Francia"
+  },
+  {
+   "a": "Les Aiglons",
+   "c": "OGC Niza",
+   "p": "Francia"
+  },
+  {
+   "a": "Les Verts",
+   "c": "AS Saint-Étienne",
+   "p": "Francia"
+  },
+  {
+   "a": "The Bhoys",
+   "c": "Celtic",
+   "p": "Escocia"
+  },
+  {
+   "a": "The Gers",
+   "c": "Rangers",
+   "p": "Escocia"
+  },
+  {
+   "a": "Xeneizes",
+   "c": "Boca Juniors",
+   "p": "Argentina"
+  },
+  {
+   "a": "El Rojo",
+   "c": "Independiente",
+   "p": "Argentina"
+  },
+  {
+   "a": "La Academia",
+   "c": "Racing Club",
+   "p": "Argentina"
+  },
+  {
+   "a": "Pincharratas",
+   "c": "Estudiantes de La Plata",
+   "p": "Argentina"
+  },
+  {
+   "a": "La Lepra",
+   "c": "Newell's Old Boys",
+   "p": "Argentina"
+  },
+  {
+   "a": "Canallas",
+   "c": "Rosario Central",
+   "p": "Argentina"
+  },
+  {
+   "a": "Cuervos",
+   "c": "San Lorenzo",
+   "p": "Argentina"
+  },
+  {
+   "a": "Mengão",
+   "c": "Flamengo",
+   "p": "Brasil"
+  },
+  {
+   "a": "Timão",
+   "c": "Corinthians",
+   "p": "Brasil"
+  },
+  {
+   "a": "Verdão",
+   "c": "Palmeiras",
+   "p": "Brasil"
+  },
+  {
+   "a": "Peixe",
+   "c": "Santos",
+   "p": "Brasil"
+  },
+  {
+   "a": "Carboneros",
+   "c": "Peñarol",
+   "p": "Uruguay"
+  },
+  {
+   "a": "Bolsilludos",
+   "c": "Nacional",
+   "p": "Uruguay"
+  },
+  {
+   "a": "Rebaño Sagrado",
+   "c": "Chivas de Guadalajara",
+   "p": "México"
+  },
+  {
+   "a": "La Máquina",
+   "c": "Cruz Azul",
+   "p": "México"
+  },
+  {
+   "a": "Kara Kartallar",
+   "c": "Beşiktaş",
+   "p": "Turquía"
+  },
+  {
+   "a": "Sarı Kanaryalar",
+   "c": "Fenerbahçe",
+   "p": "Turquía"
+  }
+ ]
+}

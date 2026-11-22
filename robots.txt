@@ -1,3 +1,4 @@
-# Entorno de pruebas: no rastrear.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://trabajoyjuego.es/sitemap.xml
