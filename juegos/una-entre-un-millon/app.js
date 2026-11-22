@@ -292,7 +292,7 @@
     raiz.appendChild(h('div', { class: 'uem-cuenta' }, barra.nodo, segundos));
     raiz.appendChild(form);
     raiz.appendChild(zona);
-    entrada.focus();
+    entrada.focus({ preventScroll: true });
 
     temporizador = new TYJ.Temporizador({
       segundos: SEGUNDOS,
@@ -335,7 +335,7 @@
         h('p', { texto: 'Pero tienes una segunda oportunidad: si pruebas con otra respuesta distinta te llevas 10 puntos seguros, y más si es rara. Te quedan:' }), seg2, form2);
       TYJ.vaciar(zona).appendChild(caja);
       TYJ.anunciar('«' + primero + '» no está en la lista. Puedes probar otra respuesta y te llevas 10 puntos seguros.');
-      campo.focus();
+      campo.focus({ preventScroll: true });
       temporizador = new TYJ.Temporizador({
         segundos: SEGUNDOS_OTRA,
         alTick: function (r) { seg2.textContent = String(Math.ceil(r)); seg2.classList.toggle('uem-segundos--alerta', r <= 5); },
@@ -347,8 +347,8 @@
       form2.addEventListener('submit', function (e) {
         e.preventDefault(); if (hecho) return;
         var t = campo.value.trim();
-        if (!t) { campo.focus(); return; }
-        if (U.clave(t) === U.clave(primero)) { aviso.textContent = 'Escribe una respuesta distinta de la anterior.'; campo.focus(); return; }
+        if (!t) { campo.focus({ preventScroll: true }); return; }
+        if (U.clave(t) === U.clave(primero)) { aviso.textContent = 'Escribe una respuesta distinta de la anterior.'; campo.focus({ preventScroll: true }); return; }
         hecho = true; temporizador.parar();
         var r2 = buscar(t, p.respuestas), real = r2 ? puntosDe(r2.n, techoDe(p)) : 0;
         registrar({ texto: t, r: r2, pts: Math.max(BONO_OTRA, real), reintento: true, primero: primero });
@@ -356,7 +356,7 @@
       dejar.addEventListener('click', dejarlo);
     }
 
-    form.addEventListener('submit', function (e) { e.preventDefault(); var t = entrada.value.trim(); if (!t) { entrada.focus(); return; } cerrar(t, false); });
+    form.addEventListener('submit', function (e) { e.preventDefault(); var t = entrada.value.trim(); if (!t) { entrada.focus({ preventScroll: true }); return; } cerrar(t, false); });
     paso.addEventListener('click', function () { cerrar(null, false); });
   }
 
@@ -382,7 +382,7 @@
     TYJ.vaciar(zona).appendChild(caja);
     if (r) rodillo(cuenta, U.miles(r.n));
     TYJ.anunciar(titulo + '. ' + detalle + '.');
-    siguiente.focus();
+    siguiente.focus({ preventScroll: true });
   }
 
   function final() {

@@ -2,11 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://trabajoyjuego.es/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/herramientas/</loc>
     <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/pdf-documentos/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/calculadoras/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/estudiantes/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/conversores/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/imagenes/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/audio/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/texto/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/finanzas/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/negocio/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/comercio/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/fechas/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/informatica/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/herramientas/categoria/utilidades/</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/herramientas/pdf-a-word/</loc>
@@ -826,7 +878,43 @@
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/futbol/</loc>
     <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/palabras/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/logica/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/cultura-general/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/matematicas/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/memoria/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/geografia/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/habilidad/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/arcade/</loc>
+    <lastmod>2026-11-15</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/palabra-infinita/</loc>
@@ -1153,7 +1241,63 @@
     <lastmod>2026-11-20</lastmod>
   </url>
   <url>
+    <loc>https://trabajoyjuego.es/juegos/dardos-de-datos/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/globo-de-cifras/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/a-ojo-de-buen-cubero/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
     <loc>https://trabajoyjuego.es/tests/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/velocidad-clics/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/raton-teclado/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/reaccion-punteria/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/vista-oido/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/memoria-percepcion/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/personalidad/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/relaciones/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/cultura-pop/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/series-cine/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/espanol/</loc>
+    <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/otros-idiomas/</loc>
     <lastmod>2026-11-15</lastmod>
   </url>
   <url>

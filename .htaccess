@@ -29,11 +29,40 @@ ErrorDocument 404 /404.html
   </IfModule>
 </FilesMatch>
 
+# Velocidad (también cuenta para el posicionamiento): se comprimen los archivos de texto y se indica cuánto tiempo puede guardarlos el navegador.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/json application/ld+json application/javascript text/javascript image/svg+xml
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 0 seconds"
+  # Los CSS y JS del sitio llevan «?v=huella» en su dirección: si cambian, cambia la dirección y el navegador los vuelve a pedir enseguida.
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+<IfModule mod_headers.c>
+  # Las páginas, el sitemap y los datos de los juegos se revalidan siempre (si no han cambiado, el servidor responde 304 sin reenviarlas).
+  <FilesMatch "\.(html|xml|json|txt)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   # Un sitio estático solo se lee: cualquier otro método (POST, PUT, DELETE, TRACE...) se rechaza.
   RewriteCond %{REQUEST_METHOD} !^(GET|HEAD|OPTIONS)$
   RewriteRule ^ - [R=405,L]
+  # Una sola dirección por página (si no, Google reparte la fuerza entre copias): «www.» se quita, y «/algo/index.html» pasa a «/algo/».
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?]
+  RewriteRule ^ /%1 [L,R=301]
   # HTTPS obligatorio. La segunda condición evita el bucle de redirecciones si delante hay un proxy (por ejemplo Cloudflare) que ya habla HTTPS.
   RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP:X-Forwarded-Proto} !https

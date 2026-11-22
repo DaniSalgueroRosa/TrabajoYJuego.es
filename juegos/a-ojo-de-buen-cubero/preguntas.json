@@ -1,0 +1,383 @@
+{
+ "_nota": "Preguntas de «A ojo de buen cubero»: p = pregunta, r = valor real (aproximado si la cifra exacta varía según la fuente; el dato d lo dice), min y max = extremos de la barra (r debe quedar dentro), paso = lo que avanza el marcador, u = unidad que se añade al valor (null si es un año), d = frase que se muestra al revelar la respuesta. Para añadir una, agrega una fila con estos campos; el juego da 100 puntos si la apuesta cae a menos del 1 % del recorrido de la barra.",
+ "preguntas": [
+  {
+   "p": "¿Cuánto mide el Teide sobre el nivel del mar?",
+   "r": 3715,
+   "min": 0,
+   "max": 9000,
+   "paso": 25,
+   "u": " m",
+   "d": "Es la montaña más alta de España."
+  },
+  {
+   "p": "¿Cuánto mide el monte Everest?",
+   "r": 8849,
+   "min": 0,
+   "max": 12000,
+   "paso": 50,
+   "u": " m",
+   "d": "Es la altura oficial que acordaron Nepal y China en 2020."
+  },
+  {
+   "p": "¿Cuánto mide el Mont Blanc?",
+   "r": 4806,
+   "min": 0,
+   "max": 9000,
+   "paso": 25,
+   "u": " m",
+   "d": "Es el techo de los Alpes."
+  },
+  {
+   "p": "¿Cuánto mide la Torre Eiffel con sus antenas?",
+   "r": 330,
+   "min": 0,
+   "max": 1000,
+   "paso": 5,
+   "u": " m",
+   "d": "Hasta 1930 fue la estructura más alta del mundo."
+  },
+  {
+   "p": "¿Cuánto mide el rascacielos Burj Khalifa, de Dubái?",
+   "r": 828,
+   "min": 0,
+   "max": 2000,
+   "paso": 10,
+   "u": " m",
+   "d": "Es el edificio más alto del mundo desde 2010."
+  },
+  {
+   "p": "¿Cuánto mide el Salto Ángel, en Venezuela?",
+   "r": 979,
+   "min": 0,
+   "max": 3000,
+   "paso": 25,
+   "u": " m",
+   "d": "Es la caída de agua libre más alta del mundo."
+  },
+  {
+   "p": "¿Qué profundidad tiene el lago Baikal, en Siberia?",
+   "r": 1642,
+   "min": 0,
+   "max": 5000,
+   "paso": 50,
+   "u": " m",
+   "d": "Es el lago más profundo del mundo."
+  },
+  {
+   "p": "¿Qué profundidad tiene el punto más hondo del océano, en la fosa de las Marianas?",
+   "r": 10900,
+   "min": 0,
+   "max": 20000,
+   "paso": 100,
+   "u": " m",
+   "d": "Ronda los 10.900 metros; la cifra exacta cambia según la medición."
+  },
+  {
+   "p": "¿Cuánto mide el río Nilo?",
+   "r": 6650,
+   "min": 0,
+   "max": 10000,
+   "paso": 50,
+   "u": " km",
+   "d": "Es la longitud más citada, aunque el Amazonas la discute."
+  },
+  {
+   "p": "¿Cuánto mide el río Tajo?",
+   "r": 1007,
+   "min": 0,
+   "max": 3000,
+   "paso": 10,
+   "u": " km",
+   "d": "Es el río más largo de la península ibérica."
+  },
+  {
+   "p": "¿Cuánto mide el canal de Panamá?",
+   "r": 82,
+   "min": 0,
+   "max": 500,
+   "paso": 5,
+   "u": " km",
+   "d": "Une el Atlántico con el Pacífico desde 1914."
+  },
+  {
+   "p": "¿Cuánto mide el canal de Suez?",
+   "r": 193,
+   "min": 0,
+   "max": 500,
+   "paso": 5,
+   "u": " km",
+   "d": "Une el Mediterráneo con el mar Rojo desde 1869."
+  },
+  {
+   "p": "¿Qué superficie tiene España, con islas incluidas?",
+   "r": 506000,
+   "min": 0,
+   "max": 2000000,
+   "paso": 10000,
+   "u": " km²",
+   "d": "Son unos 506.000 kilómetros cuadrados."
+  },
+  {
+   "p": "¿Qué superficie tiene Italia?",
+   "r": 301340,
+   "min": 0,
+   "max": 1000000,
+   "paso": 5000,
+   "u": " km²",
+   "d": "Son unos 301.000 kilómetros cuadrados."
+  },
+  {
+   "p": "¿Qué distancia media hay entre la Tierra y la Luna?",
+   "r": 384400,
+   "min": 0,
+   "max": 1000000,
+   "paso": 5000,
+   "u": " km",
+   "d": "La luz tarda algo más de un segundo en recorrerla."
+  },
+  {
+   "p": "¿Qué distancia media hay entre la Tierra y el Sol?",
+   "r": 149.6,
+   "min": 0,
+   "max": 500,
+   "paso": 5,
+   "u": " millones de km",
+   "d": "Esa distancia se llama unidad astronómica."
+  },
+  {
+   "p": "¿A cuántos kilómetros por segundo viaja la luz en el vacío?",
+   "r": 299792,
+   "min": 0,
+   "max": 1000000,
+   "paso": 5000,
+   "u": " km/s",
+   "d": "Casi 300.000 kilómetros por segundo."
+  },
+  {
+   "p": "¿Cuántos millones de años tiene la Tierra?",
+   "r": 4540,
+   "min": 0,
+   "max": 10000,
+   "paso": 100,
+   "u": " millones de años",
+   "d": "Se calcula con la datación de meteoritos y rocas antiguas."
+  },
+  {
+   "p": "¿Cuántos millones de personas viven en el mundo?",
+   "r": 8100,
+   "min": 0,
+   "max": 15000,
+   "paso": 100,
+   "u": " millones de personas",
+   "d": "Se superaron los 8.000 millones en 2022."
+  },
+  {
+   "p": "¿Cuántos millones de habitantes tiene España?",
+   "r": 49,
+   "min": 0,
+   "max": 200,
+   "paso": 1,
+   "u": " millones de personas",
+   "d": "Ronda los 49 millones."
+  },
+  {
+   "p": "¿Cuántos miles de habitantes tiene la ciudad de Madrid?",
+   "r": 3400,
+   "min": 0,
+   "max": 10000,
+   "paso": 50,
+   "u": " miles de habitantes",
+   "d": "Ronda los 3,4 millones."
+  },
+  {
+   "p": "¿Cuánto mide la torre del Big Ben, en Londres?",
+   "r": 96,
+   "min": 0,
+   "max": 500,
+   "paso": 5,
+   "u": " m",
+   "d": "Su nombre oficial es torre Elizabeth."
+  },
+  {
+   "p": "¿Cuánto mide la Estatua de la Libertad, de la base a la antorcha?",
+   "r": 93,
+   "min": 0,
+   "max": 500,
+   "paso": 5,
+   "u": " m",
+   "d": "Sin el pedestal mide unos 46 metros."
+  },
+  {
+   "p": "¿Qué distancia hay en línea recta entre Madrid y Barcelona?",
+   "r": 505,
+   "min": 0,
+   "max": 2000,
+   "paso": 10,
+   "u": " km",
+   "d": "Por carretera son unos 620 kilómetros."
+  },
+  {
+   "p": "¿En qué año nació Wolfgang Amadeus Mozart?",
+   "r": 1756,
+   "min": 1500,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Salzburgo, hoy Austria."
+  },
+  {
+   "p": "¿En qué año nació Ludwig van Beethoven?",
+   "r": 1770,
+   "min": 1500,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Bonn, hoy Alemania."
+  },
+  {
+   "p": "¿En qué año nació Leonardo da Vinci?",
+   "r": 1452,
+   "min": 1300,
+   "max": 1700,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Vinci, cerca de Florencia."
+  },
+  {
+   "p": "¿En qué año nació Vincent van Gogh?",
+   "r": 1853,
+   "min": 1700,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en los Países Bajos."
+  },
+  {
+   "p": "¿En qué año nació Pablo Picasso?",
+   "r": 1881,
+   "min": 1700,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Málaga."
+  },
+  {
+   "p": "¿En qué año nació Napoleón Bonaparte?",
+   "r": 1769,
+   "min": 1600,
+   "max": 1900,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Ajaccio, en Córcega."
+  },
+  {
+   "p": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos, en Atenas?",
+   "r": 1896,
+   "min": 1800,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Participaron atletas de catorce países."
+  },
+  {
+   "p": "¿En qué año se alcanzó por primera vez la cima del Everest?",
+   "r": 1953,
+   "min": 1800,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Lo lograron Edmund Hillary y Tenzing Norgay."
+  },
+  {
+   "p": "¿En qué año puso la Unión Soviética en órbita el Sputnik 1?",
+   "r": 1957,
+   "min": 1900,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Fue el primer satélite artificial."
+  },
+  {
+   "p": "¿En qué año se presentó el primer iPhone?",
+   "r": 2007,
+   "min": 1980,
+   "max": 2030,
+   "paso": 1,
+   "u": null,
+   "d": "Steve Jobs lo enseñó en enero de 2007."
+  },
+  {
+   "p": "¿En qué año se publicó «Cien años de soledad»?",
+   "r": 1967,
+   "min": 1900,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Es la novela más conocida de Gabriel García Márquez."
+  },
+  {
+   "p": "¿En qué año se celebró el primer Tour de Francia?",
+   "r": 1903,
+   "min": 1850,
+   "max": 1950,
+   "paso": 1,
+   "u": null,
+   "d": "Lo ganó Maurice Garin."
+  },
+  {
+   "p": "¿En qué año se disputó la primera temporada de la Liga española de fútbol?",
+   "r": 1929,
+   "min": 1900,
+   "max": 1960,
+   "paso": 1,
+   "u": null,
+   "d": "Fue la temporada 1928-29 y la ganó el FC Barcelona."
+  },
+  {
+   "p": "¿En qué año se jugó la primera Copa de Europa de fútbol?",
+   "r": 1956,
+   "min": 1900,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "La ganó el Real Madrid en la final de 1956."
+  },
+  {
+   "p": "¿En qué año se jugó el primer Mundial de fútbol femenino?",
+   "r": 1991,
+   "min": 1950,
+   "max": 2020,
+   "paso": 1,
+   "u": null,
+   "d": "Se celebró en China y ganó Estados Unidos."
+  },
+  {
+   "p": "¿En qué año patentó Alexander Graham Bell el teléfono?",
+   "r": 1876,
+   "min": 1800,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "La patente se concedió en marzo de 1876."
+  },
+  {
+   "p": "¿En qué año hicieron su primer vuelo los hermanos Wright?",
+   "r": 1903,
+   "min": 1800,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Fue en Kitty Hawk y duró doce segundos."
+  },
+  {
+   "p": "¿En qué año destruyó un terremoto la ciudad de Lisboa?",
+   "r": 1755,
+   "min": 1600,
+   "max": 1900,
+   "paso": 1,
+   "u": null,
+   "d": "Ocurrió el día de Todos los Santos."
+  }
+ ]
+}

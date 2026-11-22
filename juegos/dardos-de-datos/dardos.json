@@ -1,0 +1,1346 @@
+{
+ "_nota": "Datos de «Dardos de datos». Cada categoría: nombre, regla (texto que ve el jugador), ud (unidad que se añade al dato bruto al mostrarlo), div y resta (valor del dardo = redondeo de (dato − resta) / div; en las categorías de años, resta 1800, 1850 o 1900), anio (true si el dato es un año: se muestra sin puntos) e items [nombre, dato bruto]. Para añadir una categoría, copia una existente; pruebas/test_juegos_datos.py comprueba que se puede llegar a menos de 4 de 301 con cinco dardos.",
+ "categorias": [
+  {
+   "id": "paises-habitantes",
+   "nombre": "Países por millones de habitantes",
+   "regla": "Cada dardo resta los millones de habitantes del país (cifras de hacia 2023, redondeadas).",
+   "ud": " millones",
+   "div": 1,
+   "resta": 0,
+   "anio": false,
+   "items": [
+    [
+     "Rusia",
+     144
+    ],
+    [
+     "México",
+     129
+    ],
+    [
+     "Japón",
+     124
+    ],
+    [
+     "Filipinas",
+     117
+    ],
+    [
+     "Egipto",
+     112
+    ],
+    [
+     "Irán",
+     89
+    ],
+    [
+     "Turquía",
+     85
+    ],
+    [
+     "Alemania",
+     84
+    ],
+    [
+     "Tailandia",
+     71
+    ],
+    [
+     "Reino Unido",
+     68
+    ],
+    [
+     "Francia",
+     68
+    ],
+    [
+     "Sudáfrica",
+     60
+    ],
+    [
+     "Italia",
+     59
+    ],
+    [
+     "Colombia",
+     52
+    ],
+    [
+     "España",
+     48
+    ],
+    [
+     "Argentina",
+     46
+    ],
+    [
+     "Canadá",
+     40
+    ],
+    [
+     "Polonia",
+     37
+    ],
+    [
+     "Marruecos",
+     37
+    ],
+    [
+     "Perú",
+     34
+    ],
+    [
+     "Australia",
+     26
+    ],
+    [
+     "Países Bajos",
+     18
+    ],
+    [
+     "Bélgica",
+     12
+    ],
+    [
+     "Portugal",
+     10
+    ],
+    [
+     "Austria",
+     9
+    ],
+    [
+     "Suiza",
+     9
+    ]
+   ]
+  },
+  {
+   "id": "montanas",
+   "nombre": "Montañas por altura",
+   "regla": "Cada dardo resta la altura de la montaña en centenares de metros (redondeada: el Teide, con 3.715 m, resta 37).",
+   "ud": " m",
+   "div": 100,
+   "resta": 0,
+   "anio": false,
+   "items": [
+    [
+     "Everest",
+     8849
+    ],
+    [
+     "K2",
+     8611
+    ],
+    [
+     "Kanchenjunga",
+     8586
+    ],
+    [
+     "Aconcagua",
+     6961
+    ],
+    [
+     "Denali",
+     6190
+    ],
+    [
+     "Kilimanjaro",
+     5895
+    ],
+    [
+     "Elbrús",
+     5642
+    ],
+    [
+     "Ararat",
+     5137
+    ],
+    [
+     "Mont Blanc",
+     4806
+    ],
+    [
+     "Monte Rosa",
+     4634
+    ],
+    [
+     "Cervino",
+     4478
+    ],
+    [
+     "Fuji",
+     3776
+    ],
+    [
+     "Teide",
+     3715
+    ],
+    [
+     "Mulhacén",
+     3479
+    ],
+    [
+     "Aneto",
+     3404
+    ],
+    [
+     "Veleta",
+     3396
+    ],
+    [
+     "Monte Perdido",
+     3355
+    ],
+    [
+     "Torre Cerredo",
+     2650
+    ],
+    [
+     "Almanzor",
+     2592
+    ],
+    [
+     "Naranjo de Bulnes",
+     2519
+    ],
+    [
+     "Moncayo",
+     2314
+    ],
+    [
+     "Olimpo",
+     2917
+    ],
+    [
+     "Vesubio",
+     1281
+    ],
+    [
+     "Ben Nevis",
+     1345
+    ]
+   ]
+  },
+  {
+   "id": "rios",
+   "nombre": "Ríos por longitud",
+   "regla": "Cada dardo resta la longitud del río en centenares de kilómetros (redondeada: el Danubio, con unos 2.850 km, resta 29).",
+   "ud": " km",
+   "div": 100,
+   "resta": 0,
+   "anio": false,
+   "items": [
+    [
+     "Nilo",
+     6650
+    ],
+    [
+     "Amazonas",
+     6400
+    ],
+    [
+     "Yangtsé",
+     6300
+    ],
+    [
+     "Yeniséi",
+     5539
+    ],
+    [
+     "Río Amarillo",
+     5464
+    ],
+    [
+     "Congo",
+     4700
+    ],
+    [
+     "Lena",
+     4400
+    ],
+    [
+     "Ob e Irtish",
+     5410
+    ],
+    [
+     "Paraná",
+     4880
+    ],
+    [
+     "Níger",
+     4180
+    ],
+    [
+     "Mekong",
+     4350
+    ],
+    [
+     "Misuri",
+     3767
+    ],
+    [
+     "Misisipi",
+     3730
+    ],
+    [
+     "Volga",
+     3530
+    ],
+    [
+     "Danubio",
+     2850
+    ],
+    [
+     "Rin",
+     1230
+    ],
+    [
+     "Elba",
+     1094
+    ],
+    [
+     "Tajo",
+     1007
+    ],
+    [
+     "Duero",
+     897
+    ],
+    [
+     "Guadiana",
+     829
+    ],
+    [
+     "Ródano",
+     813
+    ],
+    [
+     "Sena",
+     777
+    ],
+    [
+     "Guadalquivir",
+     657
+    ],
+    [
+     "Po",
+     652
+    ],
+    [
+     "Júcar",
+     498
+    ],
+    [
+     "Támesis",
+     346
+    ],
+    [
+     "Miño",
+     340
+    ],
+    [
+     "Segura",
+     325
+    ]
+   ]
+  },
+  {
+   "id": "peliculas",
+   "nombre": "Películas por año de estreno",
+   "regla": "Cada dardo resta el año de estreno menos 1900 (Titanic, de 1997, resta 97).",
+   "ud": "",
+   "div": 1,
+   "resta": 1900,
+   "anio": true,
+   "items": [
+    [
+     "Ciudadano Kane",
+     1941
+    ],
+    [
+     "Casablanca",
+     1942
+    ],
+    [
+     "Psicosis",
+     1960
+    ],
+    [
+     "2001: Una odisea del espacio",
+     1968
+    ],
+    [
+     "El Padrino",
+     1972
+    ],
+    [
+     "Tiburón",
+     1975
+    ],
+    [
+     "La guerra de las galaxias",
+     1977
+    ],
+    [
+     "Alien",
+     1979
+    ],
+    [
+     "En busca del arca perdida",
+     1981
+    ],
+    [
+     "E.T.",
+     1982
+    ],
+    [
+     "Blade Runner",
+     1982
+    ],
+    [
+     "Los Cazafantasmas",
+     1984
+    ],
+    [
+     "Terminator",
+     1984
+    ],
+    [
+     "Regreso al futuro",
+     1985
+    ],
+    [
+     "Mujeres al borde de un ataque de nervios",
+     1988
+    ],
+    [
+     "Parque Jurásico",
+     1993
+    ],
+    [
+     "Pulp Fiction",
+     1994
+    ],
+    [
+     "El rey león",
+     1994
+    ],
+    [
+     "Forrest Gump",
+     1994
+    ],
+    [
+     "Toy Story",
+     1995
+    ],
+    [
+     "Titanic",
+     1997
+    ],
+    [
+     "Todo sobre mi madre",
+     1999
+    ],
+    [
+     "Matrix",
+     1999
+    ],
+    [
+     "Gladiator",
+     2000
+    ],
+    [
+     "Los otros",
+     2001
+    ],
+    [
+     "Shrek",
+     2001
+    ],
+    [
+     "Mar adentro",
+     2004
+    ],
+    [
+     "El laberinto del fauno",
+     2006
+    ],
+    [
+     "Avatar",
+     2009
+    ],
+    [
+     "Inception",
+     2010
+    ],
+    [
+     "Interstellar",
+     2014
+    ],
+    [
+     "Ocho apellidos vascos",
+     2014
+    ],
+    [
+     "Coco",
+     2017
+    ],
+    [
+     "Parásitos",
+     2019
+    ]
+   ]
+  },
+  {
+   "id": "elementos",
+   "nombre": "Elementos químicos por masa atómica",
+   "regla": "Cada dardo resta la masa atómica del elemento, redondeada al entero (el hierro, con 55,85, resta 56).",
+   "ud": " u",
+   "div": 1,
+   "resta": 0,
+   "anio": false,
+   "items": [
+    [
+     "Hidrógeno",
+     1
+    ],
+    [
+     "Helio",
+     4
+    ],
+    [
+     "Litio",
+     7
+    ],
+    [
+     "Carbono",
+     12
+    ],
+    [
+     "Nitrógeno",
+     14
+    ],
+    [
+     "Oxígeno",
+     16
+    ],
+    [
+     "Flúor",
+     19
+    ],
+    [
+     "Neón",
+     20
+    ],
+    [
+     "Sodio",
+     23
+    ],
+    [
+     "Magnesio",
+     24
+    ],
+    [
+     "Aluminio",
+     27
+    ],
+    [
+     "Silicio",
+     28
+    ],
+    [
+     "Fósforo",
+     31
+    ],
+    [
+     "Azufre",
+     32
+    ],
+    [
+     "Cloro",
+     35
+    ],
+    [
+     "Potasio",
+     39
+    ],
+    [
+     "Calcio",
+     40
+    ],
+    [
+     "Argón",
+     40
+    ],
+    [
+     "Hierro",
+     56
+    ],
+    [
+     "Níquel",
+     59
+    ],
+    [
+     "Cobre",
+     64
+    ],
+    [
+     "Zinc",
+     65
+    ],
+    [
+     "Bromo",
+     80
+    ],
+    [
+     "Plata",
+     108
+    ],
+    [
+     "Estaño",
+     119
+    ],
+    [
+     "Yodo",
+     127
+    ],
+    [
+     "Oro",
+     197
+    ],
+    [
+     "Mercurio",
+     201
+    ],
+    [
+     "Plomo",
+     207
+    ],
+    [
+     "Uranio",
+     238
+    ]
+   ]
+  },
+  {
+   "id": "nacimientos",
+   "nombre": "Personajes por año de nacimiento",
+   "regla": "Cada dardo resta el año de nacimiento menos 1800 (Picasso, nacido en 1881, resta 81).",
+   "ud": "",
+   "div": 1,
+   "resta": 1800,
+   "anio": true,
+   "items": [
+    [
+     "Charles Darwin",
+     1809
+    ],
+    [
+     "Charles Dickens",
+     1812
+    ],
+    [
+     "Lev Tolstói",
+     1828
+    ],
+    [
+     "Julio Verne",
+     1828
+    ],
+    [
+     "Claude Monet",
+     1840
+    ],
+    [
+     "Friedrich Nietzsche",
+     1844
+    ],
+    [
+     "Thomas Edison",
+     1847
+    ],
+    [
+     "Santiago Ramón y Cajal",
+     1852
+    ],
+    [
+     "Antoni Gaudí",
+     1852
+    ],
+    [
+     "Vincent van Gogh",
+     1853
+    ],
+    [
+     "Nikola Tesla",
+     1856
+    ],
+    [
+     "Sigmund Freud",
+     1856
+    ],
+    [
+     "Marie Curie",
+     1867
+    ],
+    [
+     "Mahatma Gandhi",
+     1869
+    ],
+    [
+     "Antonio Machado",
+     1875
+    ],
+    [
+     "Manuel de Falla",
+     1876
+    ],
+    [
+     "Albert Einstein",
+     1879
+    ],
+    [
+     "Pablo Picasso",
+     1881
+    ],
+    [
+     "Alexander Fleming",
+     1881
+    ],
+    [
+     "Igor Stravinski",
+     1882
+    ],
+    [
+     "Charlie Chaplin",
+     1889
+    ],
+    [
+     "Joan Miró",
+     1893
+    ],
+    [
+     "Federico García Lorca",
+     1898
+    ],
+    [
+     "Alfred Hitchcock",
+     1899
+    ],
+    [
+     "Walt Disney",
+     1901
+    ],
+    [
+     "Salvador Dalí",
+     1904
+    ],
+    [
+     "Pablo Neruda",
+     1904
+    ],
+    [
+     "Severo Ochoa",
+     1905
+    ],
+    [
+     "Frida Kahlo",
+     1907
+    ],
+    [
+     "Alan Turing",
+     1912
+    ],
+    [
+     "Gabriel García Márquez",
+     1927
+    ],
+    [
+     "Stanley Kubrick",
+     1928
+    ]
+   ]
+  },
+  {
+   "id": "edificios",
+   "nombre": "Edificios y monumentos por altura",
+   "regla": "Cada dardo resta la altura en decenas de metros (redondeada: la Torre Eiffel, con 330 m, resta 33).",
+   "ud": " m",
+   "div": 10,
+   "resta": 0,
+   "anio": false,
+   "items": [
+    [
+     "Burj Khalifa",
+     828
+    ],
+    [
+     "Torre de Shanghái",
+     632
+    ],
+    [
+     "Torres del Reloj de La Meca",
+     601
+    ],
+    [
+     "Lotte World Tower",
+     555
+    ],
+    [
+     "CN Tower",
+     553
+    ],
+    [
+     "Taipei 101",
+     508
+    ],
+    [
+     "Torres Petronas",
+     452
+    ],
+    [
+     "Empire State",
+     443
+    ],
+    [
+     "Willis Tower",
+     442
+    ],
+    [
+     "Torre Eiffel",
+     330
+    ],
+    [
+     "Burj Al Arab",
+     321
+    ],
+    [
+     "Torre de Collserola",
+     288
+    ],
+    [
+     "Torre Espacio",
+     236
+    ],
+    [
+     "Space Needle",
+     184
+    ],
+    [
+     "Torre Picasso",
+     157
+    ],
+    [
+     "Catedral de Colonia",
+     157
+    ],
+    [
+     "Torre Glòries",
+     144
+    ],
+    [
+     "Gran Pirámide de Guiza",
+     139
+    ],
+    [
+     "Giralda",
+     104
+    ],
+    [
+     "Big Ben",
+     96
+    ],
+    [
+     "Estatua de la Libertad",
+     93
+    ],
+    [
+     "Torre de Pisa",
+     56
+    ],
+    [
+     "Cristo Redentor",
+     38
+    ]
+   ]
+  },
+  {
+   "id": "hitos",
+   "nombre": "Inventos y descubrimientos por año",
+   "regla": "Cada dardo resta el año del hito menos 1850 (la bombilla de Edison, de 1879, resta 29).",
+   "ud": "",
+   "div": 1,
+   "resta": 1850,
+   "anio": true,
+   "items": [
+    [
+     "Teléfono de Bell",
+     1876
+    ],
+    [
+     "Bombilla de Edison",
+     1879
+    ],
+    [
+     "Automóvil de Benz",
+     1886
+    ],
+    [
+     "Rayos X",
+     1895
+    ],
+    [
+     "Cine de los Lumière",
+     1895
+    ],
+    [
+     "Avión de los Wright",
+     1903
+    ],
+    [
+     "Teoría de la relatividad especial",
+     1905
+    ],
+    [
+     "Teoría de la relatividad general",
+     1915
+    ],
+    [
+     "Insulina",
+     1921
+    ],
+    [
+     "Penicilina",
+     1928
+    ],
+    [
+     "Transistor",
+     1947
+    ],
+    [
+     "Doble hélice del ADN",
+     1953
+    ],
+    [
+     "Sputnik 1",
+     1957
+    ],
+    [
+     "Primer humano en el espacio",
+     1961
+    ],
+    [
+     "Primer trasplante de corazón",
+     1967
+    ],
+    [
+     "Llegada a la Luna",
+     1969
+    ],
+    [
+     "Apple I",
+     1976
+    ],
+    [
+     "IBM PC",
+     1981
+    ],
+    [
+     "World Wide Web",
+     1989
+    ],
+    [
+     "Telescopio Hubble",
+     1990
+    ],
+    [
+     "Oveja Dolly",
+     1996
+    ],
+    [
+     "Google",
+     1998
+    ]
+   ]
+  },
+  {
+   "id": "superficies",
+   "nombre": "Países por superficie",
+   "regla": "Cada dardo resta la superficie en decenas de miles de km² (redondeada: España, con unos 506.000 km², resta 51).",
+   "ud": " mil km²",
+   "div": 10,
+   "resta": 0,
+   "anio": false,
+   "items": [
+    [
+     "Perú",
+     1285
+    ],
+    [
+     "Colombia",
+     1142
+    ],
+    [
+     "Bolivia",
+     1099
+    ],
+    [
+     "Venezuela",
+     916
+    ],
+    [
+     "Nigeria",
+     924
+    ],
+    [
+     "Pakistán",
+     882
+    ],
+    [
+     "Turquía",
+     784
+    ],
+    [
+     "Chile",
+     756
+    ],
+    [
+     "Ucrania",
+     604
+    ],
+    [
+     "Madagascar",
+     587
+    ],
+    [
+     "Kenia",
+     580
+    ],
+    [
+     "Tailandia",
+     513
+    ],
+    [
+     "España",
+     506
+    ],
+    [
+     "Suecia",
+     450
+    ],
+    [
+     "Paraguay",
+     407
+    ],
+    [
+     "Japón",
+     378
+    ],
+    [
+     "Alemania",
+     358
+    ],
+    [
+     "Finlandia",
+     338
+    ],
+    [
+     "Vietnam",
+     331
+    ],
+    [
+     "Malasia",
+     331
+    ],
+    [
+     "Polonia",
+     313
+    ],
+    [
+     "Italia",
+     301
+    ],
+    [
+     "Filipinas",
+     300
+    ],
+    [
+     "Ecuador",
+     284
+    ],
+    [
+     "Reino Unido",
+     244
+    ],
+    [
+     "Uruguay",
+     176
+    ],
+    [
+     "Grecia",
+     132
+    ],
+    [
+     "Cuba",
+     110
+    ],
+    [
+     "Islandia",
+     103
+    ],
+    [
+     "Portugal",
+     92
+    ],
+    [
+     "Irlanda",
+     70
+    ]
+   ]
+  },
+  {
+   "id": "albumes",
+   "nombre": "Álbumes por año de publicación",
+   "regla": "Cada dardo resta el año de publicación menos 1900 (Thriller, de 1982, resta 82).",
+   "ud": "",
+   "div": 1,
+   "resta": 1900,
+   "anio": true,
+   "items": [
+    [
+     "Revolver",
+     1966
+    ],
+    [
+     "Sgt. Pepper's",
+     1967
+    ],
+    [
+     "Abbey Road",
+     1969
+    ],
+    [
+     "Led Zeppelin IV",
+     1971
+    ],
+    [
+     "The Dark Side of the Moon",
+     1973
+    ],
+    [
+     "Born to Run",
+     1975
+    ],
+    [
+     "Hotel California",
+     1976
+    ],
+    [
+     "Rumours",
+     1977
+    ],
+    [
+     "The Wall",
+     1979
+    ],
+    [
+     "Back in Black",
+     1980
+    ],
+    [
+     "Thriller",
+     1982
+    ],
+    [
+     "Purple Rain",
+     1984
+    ],
+    [
+     "Born in the U.S.A.",
+     1984
+    ],
+    [
+     "The Joshua Tree",
+     1987
+    ],
+    [
+     "Appetite for Destruction",
+     1987
+    ],
+    [
+     "Descanso dominical (Mecano)",
+     1988
+    ],
+    [
+     "Nevermind",
+     1991
+    ],
+    [
+     "OK Computer",
+     1997
+    ],
+    [
+     "Más (Alejandro Sanz)",
+     1997
+    ],
+    [
+     "Dónde están los ladrones (Shakira)",
+     1998
+    ],
+    [
+     "19 días y 500 noches (Sabina)",
+     1999
+    ],
+    [
+     "Laundry Service",
+     2001
+    ],
+    [
+     "21 (Adele)",
+     2011
+    ],
+    [
+     "El mal querer",
+     2018
+    ],
+    [
+     "Un verano sin ti",
+     2022
+    ]
+   ]
+  },
+  {
+   "id": "deportistas",
+   "nombre": "Deportistas por año de nacimiento",
+   "regla": "Cada dardo resta el año de nacimiento menos 1900 (Rafa Nadal, nacido en 1986, resta 86).",
+   "ud": "",
+   "div": 1,
+   "resta": 1900,
+   "anio": true,
+   "items": [
+    [
+     "Alfredo Di Stéfano",
+     1926
+    ],
+    [
+     "Pelé",
+     1940
+    ],
+    [
+     "Muhammad Ali",
+     1942
+    ],
+    [
+     "Johan Cruyff",
+     1947
+    ],
+    [
+     "Ángel Nieto",
+     1947
+    ],
+    [
+     "Seve Ballesteros",
+     1957
+    ],
+    [
+     "Diego Maradona",
+     1960
+    ],
+    [
+     "Michael Jordan",
+     1963
+    ],
+    [
+     "Miguel Induráin",
+     1964
+    ],
+    [
+     "Zinedine Zidane",
+     1972
+    ],
+    [
+     "Pep Guardiola",
+     1971
+    ],
+    [
+     "Ronaldo Nazário",
+     1976
+    ],
+    [
+     "Raúl",
+     1977
+    ],
+    [
+     "Kobe Bryant",
+     1978
+    ],
+    [
+     "Xavi Hernández",
+     1980
+    ],
+    [
+     "Pau Gasol",
+     1980
+    ],
+    [
+     "Iker Casillas",
+     1981
+    ],
+    [
+     "Roger Federer",
+     1981
+    ],
+    [
+     "Fernando Alonso",
+     1981
+    ],
+    [
+     "Serena Williams",
+     1981
+    ],
+    [
+     "Andrés Iniesta",
+     1984
+    ],
+    [
+     "LeBron James",
+     1984
+    ],
+    [
+     "Cristiano Ronaldo",
+     1985
+    ],
+    [
+     "Michael Phelps",
+     1985
+    ],
+    [
+     "Rafa Nadal",
+     1986
+    ],
+    [
+     "Usain Bolt",
+     1986
+    ],
+    [
+     "Sergio Ramos",
+     1986
+    ],
+    [
+     "Lionel Messi",
+     1987
+    ],
+    [
+     "Marc Márquez",
+     1993
+    ],
+    [
+     "Alexia Putellas",
+     1994
+    ]
+   ]
+  }
+ ]
+}

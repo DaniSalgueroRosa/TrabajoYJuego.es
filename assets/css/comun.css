@@ -217,6 +217,21 @@ main[data-mundo="juego"] .anuncio .anuncio-rotulo { color: var(--tiza-suave); }
   .cabecera-nav li[data-grupo="juego"] a { font-size: 1.25rem; font-size: round(down, 1.25rem, 10px); }
 }
 
+/* ===== comun/categoria/categoria.css ===== */
+/* PÁGINAS DE CATEGORÍA (<sección>/categoria/<id>/): introducción propia, rejilla de tarjetas y enlaces a las demás categorías.
+   El enlace de categorías también sale en los listados («Explora por categoría»). Sirve a todas las secciones; el aspecto de cada una lo pone su CSS. */
+.categoria-intro { display: grid; gap: var(--e4); max-width: var(--ancho-texto); margin-bottom: var(--e6); font-size: var(--t0); line-height: 1.6; }
+.categoria-intro p { margin: 0; }
+.categoria-subtitulo { margin: 0 0 var(--e5); font-size: var(--t2); line-height: 1.25; }
+.categoria-enlaces { margin-top: var(--e7); }
+.categoria-enlaces--listado { margin-top: var(--e8); }
+.categoria-enlaces h2 { margin: 0 0 var(--e4); font-size: var(--t1); line-height: 1.3; }
+.categoria-enlaces ul { display: flex; flex-wrap: wrap; gap: var(--e3); margin: 0; padding: 0; list-style: none; }
+.categoria-enlaces a { display: inline-flex; flex-direction: column; min-width: 8rem; padding: var(--e3) var(--e4); border: 2px solid currentColor; color: inherit; text-decoration: none; font-weight: 700; line-height: 1.25; }
+.categoria-enlaces a span { font-weight: 400; font-size: var(--t-1); opacity: 0.8; }
+.categoria-enlaces a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.categoria-enlaces a:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
+
 /* ===== comun/ficha/ficha.css ===== */
 /* ESTRUCTURA COMÚN DE LA PÁGINA DE UN ELEMENTO (herramienta, guía, juego, test): franja de título + cuerpo.
    El cuerpo es el contenido de su pagina.html. */
