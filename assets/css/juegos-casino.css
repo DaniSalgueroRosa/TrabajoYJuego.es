@@ -1,0 +1,78 @@
+/* ===== juegos/_casino/casino.css ===== */
+/* BIBLIOTECA DEL CASINO: fichas, cartas, tapete y avisos compartidos (la usan los juegos con «usa»: ["casino"]). Estilo retro: esquinas rectas y movimientos a saltos. */
+
+.cs-mesa { --cs-tapete: #1F4D40; padding: var(--e4); background: var(--cs-tapete); box-shadow: 0 0 0 4px var(--noche-linea), inset 0 0 0 4px rgba(0, 0, 0, 0.22); }
+
+/* ---- Aviso de simulación */
+.cs-aviso { display: flex; align-items: flex-start; gap: var(--e3); margin: 0; padding: var(--e3); border: 2px dashed var(--noche-linea); color: var(--tiza-suave); font-size: var(--t-1); }
+.cs-18 { flex: none; padding: 0.15rem 0.45rem; background: var(--sandia-texto); color: #FFFFFF; font: 400 1rem / 1.2 var(--f-pixel); }
+
+/* ---- Fichas */
+.cs-ficha { display: block; width: 100%; height: 100%; shape-rendering: crispEdges; }
+.cs-ch-a { fill: var(--c1); }
+.cs-ch-b { fill: var(--c2); }
+.cs-ch-t { fill: var(--ct); font-family: var(--f-pixel); font-size: 5.2px; text-anchor: middle; }
+.cs-ch-t--3 { font-size: 4.2px; }
+.cs-f1 { --c1: #AFC4BB; --c2: #3A5249; --ct: #14201C; }
+.cs-f5 { --c1: #FF5A7D; --c2: #EAF2EE; --ct: #14201C; }
+.cs-f25 { --c1: #E6F14A; --c2: #14201C; --ct: #14201C; }
+.cs-f100 { --c1: #14201C; --c2: #E6F14A; --ct: #EAF2EE; }
+.cs-fichas { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e3); }
+.cs-ficha-btn { width: 3.25rem; height: 3.25rem; padding: 0; border: 0; background: transparent; cursor: pointer; transition: transform 0.12s steps(2); }
+.cs-ficha-btn:hover { transform: translateY(-2px); }
+.cs-ficha-btn[aria-pressed="true"] { transform: translateY(-6px); filter: drop-shadow(0 4px 0 var(--limon)); }
+.cs-ficha-btn:disabled { opacity: 0.35; cursor: default; transform: none; filter: none; }
+.cs-ficha-btn:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
+
+/* Marca de apuesta (disco con la cifra) */
+.cs-marca { display: inline-grid; place-items: center; min-width: 1.6rem; height: 1.6rem; padding: 0 0.3rem; border-radius: 999px; font: 400 0.8rem / 1 var(--f-pixel); box-shadow: 0 0 0 2px var(--tinta); pointer-events: none; }
+.cs-m1 { background: #AFC4BB; color: #14201C; }
+.cs-m5 { background: #FF5A7D; color: #14201C; }
+.cs-m25 { background: #E6F14A; color: #14201C; }
+.cs-m100 { background: #14201C; color: #EAF2EE; box-shadow: 0 0 0 2px #E6F14A; }
+
+/* ---- Cartas (el tamaño se cambia con --cw en un contenedor) */
+.cs-carta { container-type: inline-size; position: relative; flex: none; width: var(--cw, 4.6rem); aspect-ratio: 5 / 7; background: var(--tiza); color: var(--tinta); box-shadow: 0 0 0 3px var(--tinta), 3px 5px 0 3px rgba(0, 0, 0, 0.35); }
+.cs-roja { color: var(--sandia-texto); }
+.cs-esq { position: absolute; top: 7cqw; left: 8cqw; display: flex; flex-direction: column; align-items: center; gap: 3cqw; line-height: 1; }
+.cs-esq--inv { top: auto; left: auto; right: 8cqw; bottom: 7cqw; transform: rotate(180deg); }
+.cs-rango { font: 400 23cqw / 1 var(--f-pixel); }
+.cs-esq .cs-palo { width: 15cqw; height: auto; }
+.cs-centro { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4cqw; }
+.cs-centro .cs-palo { width: 40cqw; height: auto; }
+.cs-centro .cs-palo--chico { width: 22cqw; }
+.cs-fig { font: 400 38cqw / 1 var(--f-pixel); }
+.cs-palo .cs-px-k { fill: currentColor; }
+.cs-arte { shape-rendering: crispEdges; }
+.cs-carta--dorso { background: var(--sandia-texto); }
+.cs-dorso-dibujo { position: absolute; inset: 8cqw; background: repeating-linear-gradient(45deg, var(--noche-2) 0 5cqw, transparent 5cqw 10cqw), repeating-linear-gradient(-45deg, var(--noche-2) 0 5cqw, transparent 5cqw 10cqw); outline: 2px solid var(--tiza); outline-offset: 2px; }
+@keyframes cs-entra { from { transform: translate(2.5rem, -4rem) rotate(10deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.cs-entra { animation: cs-entra 0.36s steps(6) both; }
+
+/* ---- Cifras que suben */
+.cs-flota { position: absolute; z-index: 3; left: 50%; top: 40%; translate: -50% 0; padding: 0.1rem 0.5rem; background: var(--tinta); font: 400 1.5rem / 1.2 var(--f-pixel); pointer-events: none; white-space: nowrap; animation: cs-sube 1.6s steps(10) both; }
+.cs-flota--ok { color: var(--limon); box-shadow: 0 0 0 3px var(--limon); }
+.cs-flota--mal { color: #FF9DB0; box-shadow: 0 0 0 3px #FF9DB0; }
+@keyframes cs-sube { from { transform: translateY(0); opacity: 1; } 80% { opacity: 1; } to { transform: translateY(-3.5rem); opacity: 0; } }
+
+/* ---- Sin fichas */
+.cs-sin { display: grid; justify-items: center; gap: var(--e3); padding: var(--e5) var(--e4); border: 3px solid var(--sandia); background: var(--noche-2); text-align: center; }
+.cs-sin-t { margin: 0; color: var(--sandia); font: 400 1.65rem / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
+.cs-sin p { margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cs-entra, .cs-flota { animation: none; }
+  .cs-ficha-btn { transition: none; }
+}
+
+/* ---- Puerta de entrada (18+) */
+.cs-puerta { display: grid; gap: var(--e3); max-width: 38rem; margin: var(--e4) auto; padding: var(--e4); background: var(--noche-2); box-shadow: 0 0 0 3px var(--sandia), 6px 8px 0 3px rgba(0, 0, 0, 0.4); }
+.cs-puerta p { margin: 0; }
+.cs-puerta-cab { display: flex; align-items: center; gap: var(--e3); }
+.cs-puerta-t { margin: 0; color: var(--limon); font: 400 1.5rem / 1.3 var(--f-pixel); }
+.cs-18--grande { font-size: 1.5rem; padding: 0.3rem 0.7rem; }
+.cs-mayor { display: flex; align-items: flex-start; gap: var(--e3); padding: var(--e3); border: 2px solid var(--noche-linea); cursor: pointer; }
+.cs-mayor-caja { flex: none; width: 1.6rem; height: 1.6rem; margin: 0; accent-color: var(--limon); cursor: pointer; }
+.cs-mayor:focus-within { outline: 3px solid var(--limon); outline-offset: 2px; }
+.cs-puerta-boton { justify-self: start; }
+.cs-puerta-boton:disabled { background: #2C3B35; color: #E8F0EA; box-shadow: inset 0 0 0 2px var(--noche-linea); border-color: var(--noche-linea); cursor: not-allowed; }

@@ -26,7 +26,7 @@
     var visibles = 0;
     items.forEach(function (li) {
       var texto = li.getAttribute('data-busqueda') || '';
-      var ok = (!categoria || li.getAttribute('data-categoria') === categoria) &&
+      var ok = (!categoria || (' ' + (li.getAttribute('data-categoria') || '') + ' ').indexOf(' ' + categoria + ' ') !== -1) &&
                (!dif || li.getAttribute('data-dificultad') === dif) &&
                terminos.every(function (t) { return texto.indexOf(t) !== -1; });
       li.hidden = !ok;

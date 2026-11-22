@@ -18,6 +18,7 @@
   var usadas = {};          // palabras ya jugadas en esta sesión, por longitud
   var distribucion = [0, 0, 0, 0, 0, 0];
   var longitud = 5;
+  var modo = 'dia';         // «dia»: la palabra de hoy (la misma para todos); «libre»: palabras al azar
   var g = null;             // partida en curso
   var ui = {};
 
@@ -37,6 +38,10 @@
     ui.botonesLongitud = LONGITUDES.map(function (n) {
       return h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', 'aria-pressed': 'false', 'aria-label': n + ' letras',
         onclick: function () { if (n !== longitud || g.terminado || g.filas.length) nuevaPartida(n); } }, String(n));
+    });
+    ui.modos = [['dia', 'Palabra de hoy'], ['libre', 'Partida libre']].map(function (m) {
+      return h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', 'aria-pressed': String(m[0] === modo), 'data-modo': m[0],
+        onclick: function () { if (modo !== m[0]) { modo = m[0]; nuevaPartida(longitud); } } }, m[1]);
     });
     ui.info = h('p', { class: 'pi-info' });
     ui.rendirse = h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', onclick: rendirse }, 'Rendirme');
@@ -59,6 +64,7 @@
     });
 
     raiz.appendChild(h('div', { class: 'pi-controles' },
+      h('div', { class: 'pi-longitud', role: 'group', 'aria-label': 'Modo de juego' }, ui.modos),
       h('div', { class: 'pi-longitud', role: 'group', 'aria-labelledby': 'pi-longitud-etiqueta' },
         h('span', { class: 'pi-longitud-etiqueta', id: 'pi-longitud-etiqueta', texto: 'Letras:' }), ui.botonesLongitud),
       ui.info));
@@ -105,7 +111,8 @@
     ui.mensaje.className = 'mensaje' + (tipo ? ' mensaje--' + tipo : '');
   }
   function actualizarInfo() {
-    ui.info.textContent = g.terminado ? 'Partida terminada' : 'Intento ' + Math.min(g.filas.length + 1, INTENTOS) + ' de ' + INTENTOS;
+    ui.info.textContent = (g.numero ? 'Reto n.º ' + g.numero + ' · ' : '') + (g.terminado ? 'Partida terminada' : 'Intento ' + Math.min(g.filas.length + 1, INTENTOS) + ' de ' + INTENTOS);
+    ui.modos.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-modo') === modo)); });
     ui.botonesLongitud.forEach(function (b, i) { b.setAttribute('aria-pressed', String(LONGITUDES[i] === longitud)); });
     ui.rendirse.hidden = g.terminado;
   }
@@ -137,17 +144,24 @@
     return p;
   }
 
+  /* La palabra de hoy: una por longitud, la misma para todo el mundo (semilla de la fecha de Madrid); cambia a medianoche. */
+  function palabraDeHoy(n) {
+    var r = U.retoDelDia('palabra-infinita-' + n), todas = palabras[n].soluciones;
+    return { p: todas[r.semilla % todas.length], numero: r.numero };
+  }
+
   function nuevaPartida(n) {
     longitud = n || longitud;
-    var p = elegirPalabra(longitud);
-    g = { secreta: p.n, vista: p.v, filas: [], resultados: [], actual: [], teclas: {}, terminado: false, animando: false, pendiente: null };
+    var hoy = modo === 'dia' ? palabraDeHoy(longitud) : null;
+    var p = hoy ? hoy.p : elegirPalabra(longitud);
+    g = { secreta: p.n, vista: p.v, numero: hoy ? hoy.numero : 0, filas: [], resultados: [], actual: [], teclas: {}, terminado: false, animando: false, pendiente: null };
     pintarTablero();
     pintarTeclas();
     ui.panel.hidden = true; TYJ.vaciar(ui.panel);
     ui.teclado.hidden = false;
     aviso('');
     actualizarInfo();
-    TYJ.anunciar('Nueva palabra de ' + longitud + ' letras. Tienes ' + INTENTOS + ' intentos.');
+    TYJ.anunciar((hoy ? 'Palabra de hoy, reto n.º ' + hoy.numero + ', de ' : 'Nueva palabra de ') + longitud + ' letras. Tienes ' + INTENTOS + ' intentos.');
   }
 
   function escribir(letra) {
@@ -217,7 +231,7 @@
   }
 
   function textoParaCompartir(ganada) {
-    var lineas = ['Palabra Infinita · ' + longitud + ' letras · ' + (ganada ? g.filas.length : 'X') + '/' + INTENTOS];
+    var lineas = ['Palabra Infinita' + (g.numero ? ' · reto n.º ' + g.numero : '') + ' · ' + longitud + ' letras · ' + (ganada ? g.filas.length : 'X') + '/' + INTENTOS];
     g.resultados.forEach(function (r) { lineas.push(r.map(function (e) { return EMOJI[e]; }).join('')); });
     return lineas.join('\n');
   }
@@ -235,7 +249,7 @@
       puntos: ganada ? g.filas.length : null, unidad: ganada ? 'de ' + INTENTOS + ' intentos' : null,
       detalles: [(ganada ? 'La palabra era ' : 'La palabra era ') + g.vista.toUpperCase() + '.'],
       compartir: g.filas.length ? textoParaCompartir(ganada) : null,
-      textoRepetir: 'Otra palabra', alRepetir: function () { nuevaPartida(longitud); }
+      textoRepetir: g.numero ? 'Probar una partida libre' : 'Otra palabra', alRepetir: function () { if (g.numero) modo = 'libre'; nuevaPartida(longitud); }
     });
     ui.panel.hidden = false;
   }

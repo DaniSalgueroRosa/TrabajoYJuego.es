@@ -1,0 +1,1104 @@
+{
+ "_nota": "Cuerpos del Sistema Solar para «Sobres del Sistema Solar». n: nombre; t: tipo (estrella, planeta, enano = planeta enano, satelite, cometa); d: diámetro medio redondeado; dato: curiosidad; a: dibujo (color, rx, ry, rot, ox, oy, capas, fuera, anillo, sombra) en un lienzo de 100 × 100.",
+ "cuerpos": [
+  {
+   "id": "sol",
+   "n": "Sol",
+   "t": "estrella",
+   "d": "1.392.700 km",
+   "dato": "Contiene casi el 99,9 % de la masa de todo el Sistema Solar.",
+   "a": {
+    "color": "#FFC93C",
+    "rx": 32,
+    "ry": 32,
+    "fuera": [
+     [
+      "c",
+      50,
+      50,
+      47,
+      "rgba(255,201,60,0.28)"
+     ],
+     [
+      "c",
+      50,
+      50,
+      41,
+      "rgba(255,201,60,0.45)"
+     ]
+    ],
+    "capas": [
+     [
+      "e",
+      40,
+      40,
+      22,
+      16,
+      "#FFE07A"
+     ],
+     [
+      "c",
+      62,
+      60,
+      6,
+      "#FF9E3D"
+     ],
+     [
+      "c",
+      38,
+      64,
+      4,
+      "#FF9E3D"
+     ],
+     [
+      "c",
+      58,
+      36,
+      3,
+      "#FF9E3D"
+     ]
+    ],
+    "sombra": false
+   }
+  },
+  {
+   "id": "mercurio",
+   "n": "Mercurio",
+   "t": "planeta",
+   "d": "4.879 km",
+   "dato": "Un año en Mercurio dura solo 88 días terrestres.",
+   "a": {
+    "color": "#9A8F86",
+    "capas": [
+     [
+      "c",
+      34,
+      38,
+      6,
+      "#7C726B"
+     ],
+     [
+      "c",
+      60,
+      32,
+      4,
+      "#7C726B"
+     ],
+     [
+      "c",
+      56,
+      62,
+      8,
+      "#7C726B"
+     ],
+     [
+      "c",
+      30,
+      64,
+      3,
+      "#7C726B"
+     ],
+     [
+      "c",
+      70,
+      52,
+      3,
+      "#7C726B"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "venus",
+   "n": "Venus",
+   "t": "planeta",
+   "d": "12.104 km",
+   "dato": "Es el planeta más caliente: su superficie ronda los 465 °C.",
+   "a": {
+    "color": "#E8C07A",
+    "capas": [
+     [
+      "r",
+      20,
+      10,
+      "#F2D49B"
+     ],
+     [
+      "r",
+      38,
+      12,
+      "#D9A95C"
+     ],
+     [
+      "r",
+      58,
+      10,
+      "#F2D49B"
+     ],
+     [
+      "r",
+      74,
+      8,
+      "#D9A95C"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "tierra",
+   "n": "Tierra",
+   "t": "planeta",
+   "d": "12.742 km",
+   "dato": "Es el único lugar del Sistema Solar donde sabemos que hay vida.",
+   "a": {
+    "color": "#2F6FD0",
+    "capas": [
+     [
+      "e",
+      38,
+      40,
+      16,
+      12,
+      "#3DBE7A"
+     ],
+     [
+      "e",
+      58,
+      62,
+      12,
+      16,
+      "#3DBE7A"
+     ],
+     [
+      "e",
+      66,
+      34,
+      7,
+      5,
+      "#3DBE7A"
+     ],
+     [
+      "e",
+      46,
+      52,
+      16,
+      3,
+      "rgba(255,255,255,0.75)"
+     ],
+     [
+      "e",
+      60,
+      26,
+      14,
+      3,
+      "rgba(255,255,255,0.75)"
+     ],
+     [
+      "e",
+      36,
+      70,
+      12,
+      3,
+      "rgba(255,255,255,0.75)"
+     ],
+     [
+      "r",
+      10,
+      6,
+      "#EAF2EE"
+     ],
+     [
+      "r",
+      84,
+      6,
+      "#EAF2EE"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "luna",
+   "n": "Luna",
+   "t": "satelite",
+   "d": "3.475 km",
+   "dato": "Se aleja de la Tierra unos 3,8 centímetros cada año.",
+   "a": {
+    "color": "#BDBDB5",
+    "capas": [
+     [
+      "c",
+      36,
+      36,
+      9,
+      "#9A9A92"
+     ],
+     [
+      "c",
+      60,
+      30,
+      5,
+      "#9A9A92"
+     ],
+     [
+      "c",
+      58,
+      58,
+      11,
+      "#9A9A92"
+     ],
+     [
+      "c",
+      34,
+      64,
+      5,
+      "#9A9A92"
+     ],
+     [
+      "c",
+      70,
+      50,
+      4,
+      "#9A9A92"
+     ],
+     [
+      "c",
+      46,
+      50,
+      3,
+      "#9A9A92"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "marte",
+   "n": "Marte",
+   "t": "planeta",
+   "d": "6.779 km",
+   "dato": "Su volcán Monte Olimpo mide unos 22 km de altura, más del doble que el Everest.",
+   "a": {
+    "color": "#C8553D",
+    "capas": [
+     [
+      "e",
+      36,
+      50,
+      14,
+      9,
+      "#A63D2B"
+     ],
+     [
+      "e",
+      62,
+      60,
+      12,
+      8,
+      "#A63D2B"
+     ],
+     [
+      "e",
+      50,
+      26,
+      10,
+      4,
+      "#EAF2EE"
+     ],
+     [
+      "e",
+      50,
+      78,
+      8,
+      3,
+      "#EAF2EE"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "fobos",
+   "n": "Fobos",
+   "t": "satelite",
+   "d": "unos 22 km",
+   "dato": "Da más de tres vueltas a Marte cada día.",
+   "a": {
+    "color": "#8C7D6E",
+    "rx": 34,
+    "ry": 24,
+    "rot": -20,
+    "capas": [
+     [
+      "c",
+      40,
+      44,
+      8,
+      "#6B5D50"
+     ],
+     [
+      "c",
+      60,
+      52,
+      5,
+      "#6B5D50"
+     ],
+     [
+      "c",
+      52,
+      40,
+      3,
+      "#6B5D50"
+     ],
+     [
+      "c",
+      34,
+      56,
+      3,
+      "#6B5D50"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ceres",
+   "n": "Ceres",
+   "t": "enano",
+   "d": "939 km",
+   "dato": "Es el objeto más grande del cinturón de asteroides.",
+   "a": {
+    "color": "#8A8478",
+    "rx": 36,
+    "ry": 36,
+    "capas": [
+     [
+      "c",
+      36,
+      40,
+      7,
+      "#6E695F"
+     ],
+     [
+      "c",
+      62,
+      56,
+      6,
+      "#6E695F"
+     ],
+     [
+      "c",
+      50,
+      66,
+      3,
+      "#6E695F"
+     ],
+     [
+      "c",
+      56,
+      36,
+      4,
+      "#F4F1E8"
+     ],
+     [
+      "c",
+      56,
+      36,
+      2,
+      "#FFFFFF"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "jupiter",
+   "n": "Júpiter",
+   "t": "planeta",
+   "d": "139.822 km",
+   "dato": "Su Gran Mancha Roja es una tormenta más ancha que la Tierra.",
+   "a": {
+    "color": "#D8B98B",
+    "capas": [
+     [
+      "r",
+      16,
+      10,
+      "#B5835A"
+     ],
+     [
+      "r",
+      32,
+      8,
+      "#E9D9BB"
+     ],
+     [
+      "r",
+      44,
+      10,
+      "#A8704A"
+     ],
+     [
+      "r",
+      58,
+      10,
+      "#E9D9BB"
+     ],
+     [
+      "r",
+      72,
+      8,
+      "#B5835A"
+     ],
+     [
+      "e",
+      60,
+      62,
+      10,
+      6,
+      "#C8553D"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "io",
+   "n": "Ío",
+   "t": "satelite",
+   "d": "3.643 km",
+   "dato": "Es el cuerpo con más volcanes activos del Sistema Solar.",
+   "a": {
+    "color": "#E8D36A",
+    "capas": [
+     [
+      "c",
+      36,
+      40,
+      6,
+      "#C86B2E"
+     ],
+     [
+      "c",
+      60,
+      34,
+      4,
+      "#6B3A2A"
+     ],
+     [
+      "c",
+      56,
+      62,
+      7,
+      "#C86B2E"
+     ],
+     [
+      "c",
+      38,
+      66,
+      4,
+      "#6B3A2A"
+     ],
+     [
+      "c",
+      70,
+      52,
+      3,
+      "#6B3A2A"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "europa",
+   "n": "Europa",
+   "t": "satelite",
+   "d": "3.122 km",
+   "dato": "Bajo su costra de hielo se cree que hay un océano de agua líquida.",
+   "a": {
+    "color": "#D9CDB8",
+    "capas": [
+     [
+      "l",
+      14,
+      30,
+      60,
+      70,
+      "#9C6B4A",
+      2
+     ],
+     [
+      "l",
+      30,
+      18,
+      84,
+      60,
+      "#9C6B4A",
+      2
+     ],
+     [
+      "l",
+      20,
+      64,
+      70,
+      36,
+      "#B58A66",
+      2
+     ],
+     [
+      "l",
+      44,
+      12,
+      50,
+      88,
+      "#9C6B4A",
+      2
+     ],
+     [
+      "l",
+      60,
+      20,
+      30,
+      84,
+      "#B58A66",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ganimedes",
+   "n": "Ganímedes",
+   "t": "satelite",
+   "d": "5.268 km",
+   "dato": "Es la luna más grande del Sistema Solar, incluso mayor que Mercurio.",
+   "a": {
+    "color": "#8F8678",
+    "capas": [
+     [
+      "e",
+      36,
+      40,
+      16,
+      10,
+      "#B8AE9C"
+     ],
+     [
+      "e",
+      62,
+      60,
+      14,
+      10,
+      "#B8AE9C"
+     ],
+     [
+      "c",
+      58,
+      32,
+      4,
+      "#6E665A"
+     ],
+     [
+      "c",
+      34,
+      66,
+      5,
+      "#6E665A"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "calisto",
+   "n": "Calisto",
+   "t": "satelite",
+   "d": "4.821 km",
+   "dato": "Tiene una de las superficies con más cráteres del Sistema Solar.",
+   "a": {
+    "color": "#5E5649",
+    "capas": [
+     [
+      "c",
+      34,
+      36,
+      3,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      52,
+      30,
+      2,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      62,
+      44,
+      4,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      44,
+      56,
+      3,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      60,
+      66,
+      3,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      30,
+      58,
+      2,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      70,
+      60,
+      2,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      50,
+      74,
+      2,
+      "#C9C2B0"
+     ],
+     [
+      "c",
+      40,
+      46,
+      2,
+      "#C9C2B0"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "saturno",
+   "n": "Saturno",
+   "t": "planeta",
+   "d": "116.464 km",
+   "dato": "Es menos denso que el agua: flotaría en una bañera lo bastante grande.",
+   "a": {
+    "color": "#E3C98A",
+    "rx": 30,
+    "ry": 30,
+    "capas": [
+     [
+      "r",
+      30,
+      8,
+      "#C9A867"
+     ],
+     [
+      "r",
+      46,
+      8,
+      "#F0DDB0"
+     ],
+     [
+      "r",
+      60,
+      8,
+      "#C9A867"
+     ]
+    ],
+    "anillo": {
+     "color": "#D8C49A",
+     "rx": 48,
+     "ry": 13,
+     "rot": -18,
+     "w": 7
+    }
+   }
+  },
+  {
+   "id": "titan",
+   "n": "Titán",
+   "t": "satelite",
+   "d": "5.150 km",
+   "dato": "Es la única luna del Sistema Solar con una atmósfera espesa.",
+   "a": {
+    "color": "#D9A441",
+    "capas": [
+     [
+      "r",
+      30,
+      10,
+      "#C98E2E"
+     ],
+     [
+      "r",
+      54,
+      8,
+      "#E7BC62"
+     ],
+     [
+      "r",
+      70,
+      8,
+      "#C98E2E"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "encelado",
+   "n": "Encélado",
+   "t": "satelite",
+   "d": "504 km",
+   "dato": "Lanza chorros de vapor de agua al espacio desde su polo sur.",
+   "a": {
+    "color": "#F2F5F7",
+    "capas": [
+     [
+      "l",
+      30,
+      72,
+      44,
+      90,
+      "#8FB0C6",
+      3
+     ],
+     [
+      "l",
+      44,
+      70,
+      52,
+      92,
+      "#8FB0C6",
+      3
+     ],
+     [
+      "l",
+      56,
+      70,
+      62,
+      90,
+      "#8FB0C6",
+      3
+     ],
+     [
+      "l",
+      68,
+      66,
+      78,
+      84,
+      "#8FB0C6",
+      3
+     ],
+     [
+      "c",
+      36,
+      36,
+      4,
+      "#D5E0E8"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "urano",
+   "n": "Urano",
+   "t": "planeta",
+   "d": "50.724 km",
+   "dato": "Gira casi tumbado: su eje está inclinado unos 98 grados.",
+   "a": {
+    "color": "#8FD6D9",
+    "rx": 32,
+    "ry": 32,
+    "capas": [
+     [
+      "r",
+      44,
+      10,
+      "#B5ECEE"
+     ]
+    ],
+    "anillo": {
+     "color": "#BFEFF0",
+     "rx": 46,
+     "ry": 12,
+     "rot": 90,
+     "w": 3
+    }
+   }
+  },
+  {
+   "id": "neptuno",
+   "n": "Neptuno",
+   "t": "planeta",
+   "d": "49.244 km",
+   "dato": "Tiene los vientos más rápidos del Sistema Solar, de más de 2.000 km/h.",
+   "a": {
+    "color": "#3A5FCD",
+    "capas": [
+     [
+      "r",
+      30,
+      10,
+      "#2B47A3"
+     ],
+     [
+      "r",
+      64,
+      8,
+      "#2B47A3"
+     ],
+     [
+      "e",
+      40,
+      54,
+      10,
+      6,
+      "#233B85"
+     ],
+     [
+      "e",
+      62,
+      44,
+      10,
+      2,
+      "rgba(255,255,255,0.7)"
+     ],
+     [
+      "e",
+      50,
+      72,
+      12,
+      2,
+      "rgba(255,255,255,0.6)"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "triton",
+   "n": "Tritón",
+   "t": "satelite",
+   "d": "2.707 km",
+   "dato": "Orbita a Neptuno en sentido contrario al giro del planeta.",
+   "a": {
+    "color": "#D8C7C0",
+    "capas": [
+     [
+      "e",
+      50,
+      24,
+      22,
+      10,
+      "#E9B8B0"
+     ],
+     [
+      "l",
+      30,
+      60,
+      40,
+      80,
+      "#6B5B58",
+      3
+     ],
+     [
+      "l",
+      50,
+      56,
+      56,
+      78,
+      "#6B5B58",
+      3
+     ],
+     [
+      "l",
+      64,
+      62,
+      74,
+      80,
+      "#6B5B58",
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "pluton",
+   "n": "Plutón",
+   "t": "enano",
+   "d": "2.377 km",
+   "dato": "Desde 2006 es un planeta enano.",
+   "a": {
+    "color": "#C9B7A3",
+    "capas": [
+     [
+      "p",
+      "38,40 46,34 50,42 54,34 62,40 62,50 50,64 38,50",
+      "#F1E6D8"
+     ],
+     [
+      "c",
+      64,
+      66,
+      6,
+      "#9A8570"
+     ],
+     [
+      "c",
+      32,
+      64,
+      4,
+      "#9A8570"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "caronte",
+   "n": "Caronte",
+   "t": "satelite",
+   "d": "1.212 km",
+   "dato": "Es tan grande comparado con Plutón que ambos giran alrededor de un punto fuera de Plutón.",
+   "a": {
+    "color": "#A7A7A7",
+    "capas": [
+     [
+      "e",
+      50,
+      22,
+      18,
+      10,
+      "#8A4B3A"
+     ],
+     [
+      "c",
+      40,
+      58,
+      7,
+      "#8C8C8C"
+     ],
+     [
+      "c",
+      62,
+      64,
+      5,
+      "#8C8C8C"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "eris",
+   "n": "Eris",
+   "t": "enano",
+   "d": "2.326 km",
+   "dato": "Su hallazgo, en 2005, ayudó a que se redefiniera qué es un planeta.",
+   "a": {
+    "color": "#E8E8E8",
+    "capas": [
+     [
+      "c",
+      38,
+      42,
+      8,
+      "#CFCFCF"
+     ],
+     [
+      "c",
+      62,
+      58,
+      10,
+      "#CFCFCF"
+     ],
+     [
+      "c",
+      58,
+      30,
+      4,
+      "#D8D8D8"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "makemake",
+   "n": "Makemake",
+   "t": "enano",
+   "d": "1.430 km",
+   "dato": "Se descubrió en 2005 y es uno de los cinco planetas enanos reconocidos.",
+   "a": {
+    "color": "#B5654A",
+    "capas": [
+     [
+      "e",
+      38,
+      40,
+      14,
+      9,
+      "#D99070"
+     ],
+     [
+      "e",
+      62,
+      62,
+      12,
+      8,
+      "#D99070"
+     ],
+     [
+      "c",
+      60,
+      32,
+      4,
+      "#8C4A35"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "halley",
+   "n": "Halley",
+   "t": "cometa",
+   "d": "unos 11 km",
+   "dato": "Vuelve a ser visible desde la Tierra más o menos cada 76 años.",
+   "a": {
+    "color": "#4A4A4A",
+    "rx": 15,
+    "ry": 11,
+    "rot": -15,
+    "ox": 64,
+    "oy": 50,
+    "fuera": [
+     [
+      "p",
+      "60,40 0,18 0,82 60,60",
+      "rgba(150,210,255,0.35)"
+     ],
+     [
+      "p",
+      "60,44 8,32 8,68 60,56",
+      "rgba(190,230,255,0.55)"
+     ],
+     [
+      "c",
+      64,
+      50,
+      24,
+      "rgba(190,230,255,0.4)"
+     ]
+    ],
+    "capas": [
+     [
+      "c",
+      60,
+      46,
+      3,
+      "#2B2B2B"
+     ]
+    ],
+    "sombra": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+/* ABRIR SOBRES: mesa verde con el sobre, cartas que se voltean y un álbum de 24 casillas. Las rarezas se distinguen por color Y por texto (--sb-rc). */
+.sb-r-comun { --sb-rc: #AFC4BB; }
+.sb-r-poco { --sb-rc: #6FD3B8; }
+.sb-r-rara { --sb-rc: #FF5A7D; }
+.sb-r-leg { --sb-rc: #E6F14A; }
+.sb-escena { display: grid; gap: var(--e6); margin-top: var(--e4); }
+.sb-zona[hidden], .sb-mano:empty { display: none; }
+
+/* ---- Mesa y sobre */
+.cs-mesa.sb-mesa { padding: var(--e3); }
+.sb-mesa { display: grid; justify-items: center; align-content: start; gap: var(--e4); min-height: 21rem; }
+.sb-zona { display: grid; place-items: center; padding: var(--e3) 0; }
+.sb-sobre { width: 9.5rem; padding: 0; border: 0; background: transparent; cursor: pointer; filter: drop-shadow(5px 8px 0 rgba(0, 0, 0, 0.38)); }
+.sb-sobre:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
+.sb-sobre:disabled { cursor: default; }
+.sb-sobre-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.sb-sobre-t { fill: var(--tiza); font-family: var(--f-pixel); font-size: 10px; text-anchor: middle; }
+.sb-sobre-t--tapa { fill: var(--tinta); }
+.sb-sobre-tapa, .sb-sobre-cuerpo { transform-box: fill-box; transform-origin: center; transition: transform 0.4s steps(5), opacity 0.4s steps(5); }
+.sb-abierto .sb-sobre-tapa { transform: translate(22px, -34px) rotate(20deg); opacity: 0; }
+.sb-abierto .sb-sobre-cuerpo { transform: translateY(14px) scale(0.9); opacity: 0; }
+@keyframes sb-tiembla {
+  0%, 100% { transform: none; }
+  12% { transform: translate(-5px, 0) rotate(-3deg); }
+  25% { transform: translate(5px, -2px) rotate(3deg); }
+  37% { transform: translate(-4px, 1px) rotate(-2deg); }
+  50% { transform: translate(4px, -1px) rotate(2deg); }
+  62% { transform: translate(-3px, 0) rotate(-2deg); }
+  75% { transform: translate(3px, 1px) rotate(1deg); }
+  87% { transform: translate(-1px, 0); }
+}
+.sb-sacude { animation: sb-tiembla 0.8s steps(1) both; }
+.sb-msg { margin: 0; max-width: 34rem; text-align: center; }
+.sb-mandos { display: flex; justify-content: center; }
+
+/* ---- Cartas del sobre */
+.sb-mano { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.8rem, 7.8rem)); justify-content: center; gap: var(--e5) var(--e3); width: 100%; padding-top: var(--e4); }
+.sb-carta { position: relative; display: block; width: 100%; aspect-ratio: 5 / 8; padding: 0; border: 0; background: transparent; cursor: pointer; perspective: 700px; }
+.sb-carta:focus-visible { outline: 3px solid var(--limon); outline-offset: 6px; }
+.sb-giro { position: absolute; inset: 0; transform-style: preserve-3d; transition: transform 0.45s steps(6); }
+.sb-volteada .sb-giro { transform: rotateY(180deg); }
+.sb-giro .sb-cara { position: absolute; inset: 0; backface-visibility: hidden; }
+.sb-giro .sb-frente { transform: rotateY(180deg); }
+.sb-volteada.sb-r-leg { filter: drop-shadow(0 0 10px var(--sb-rc)); }
+.sb-volteada.sb-r-rara { filter: drop-shadow(0 0 7px var(--sb-rc)); }
+.sb-nueva { position: absolute; z-index: 2; top: -1.1rem; right: -0.4rem; padding: 0.1rem 0.4rem; background: var(--limon); color: var(--tinta); font: 400 1rem / 1.2 var(--f-pixel); box-shadow: 0 0 0 2px var(--tinta); pointer-events: none; }
+.sb-dorso { container-type: inline-size; display: grid; place-items: center; background: var(--sandia-texto); box-shadow: 0 0 0 3px var(--tinta), 3px 5px 0 3px rgba(0, 0, 0, 0.35); }
+.sb-dorso::before { content: ""; position: absolute; inset: 7cqw; background: repeating-linear-gradient(45deg, var(--noche-2) 0 5cqw, transparent 5cqw 10cqw), repeating-linear-gradient(-45deg, var(--noche-2) 0 5cqw, transparent 5cqw 10cqw); opacity: 0.5; }
+.sb-sello { position: relative; width: 56cqw; height: auto; }
+
+/* ---- Cara de una carta (también la usan las casillas del álbum) */
+.sb-cara { position: relative; display: block; }
+.sb-frente { container-type: inline-size; height: 100%; background: var(--noche-2); color: var(--tiza); box-shadow: 0 0 0 3px var(--sb-rc), 0 0 0 5px var(--tinta), 3px 6px 0 5px rgba(0, 0, 0, 0.35); overflow: hidden; }
+.sb-int { display: flex; flex-direction: column; gap: 3cqw; box-sizing: border-box; height: 100%; padding: 5cqw; }
+.sb-banda { display: block; flex: none; padding: 2cqw 0; background: var(--sb-rc); color: var(--tinta); font: 700 max(0.7rem, 10.5cqw) / 1.2 var(--f-trabajo); text-align: center; }
+.sb-lienzo { flex: 1; min-height: 0; display: grid; background: radial-gradient(circle at 30% 25%, #1E3F36, #0D1714); box-shadow: inset 0 0 0 2px var(--noche-linea); }
+.sb-dibujo { display: block; width: 100%; height: 100%; }
+.sb-nombre { display: block; flex: none; font: 700 max(0.8rem, 13cqw) / 1.15 var(--f-trabajo); text-align: center; overflow-wrap: anywhere; }
+.sb-datos { display: grid; flex: none; font: 400 max(0.7rem, 10.5cqw) / 1.25 var(--f-trabajo); color: var(--tiza-suave); text-align: center; }
+@keyframes sb-brilla { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+.sb-r-leg .sb-frente::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, transparent 40%, rgba(255, 255, 255, 0.32) 50%, transparent 60%); animation: sb-brilla 2.6s steps(14) infinite; }
+
+/* ---- Álbum */
+.sb-caja { display: grid; gap: var(--e3); padding: var(--e4); background: var(--noche-2); box-shadow: 0 0 0 3px var(--noche-linea); }
+.sb-completo { box-shadow: 0 0 0 4px var(--limon); }
+.sb-titulo { margin: 0; font: 400 1.65rem / 1.3 var(--f-pixel); font-size: round(down, 1.65rem, 10px); color: var(--limon); }
+.sb-nota { margin: 0; }
+.sb-leyenda { display: flex; flex-wrap: wrap; gap: var(--e2) var(--e4); margin: 0; padding: 0; list-style: none; font-size: var(--t-1); color: var(--tiza-suave); }
+.sb-leyenda li { display: flex; align-items: center; gap: var(--e2); }
+.sb-muestra { flex: none; width: 0.9rem; height: 0.9rem; background: var(--sb-rc); box-shadow: 0 0 0 2px var(--tinta); }
+.sb-album { display: grid; grid-template-columns: repeat(auto-fill, minmax(5.8rem, 1fr)); gap: var(--e5) var(--e3); margin: 0; padding: var(--e4) 0 0; list-style: none; }
+.sb-hueco { position: relative; display: block; width: 100%; aspect-ratio: 5 / 8; padding: 0; border: 0; background: transparent; }
+button.sb-hueco { cursor: pointer; }
+button.sb-hueco:focus-visible { outline: 3px solid var(--limon); outline-offset: 5px; }
+button.sb-hueco .sb-frente { position: absolute; inset: 0; }
+.sb-veces { position: absolute; z-index: 2; top: -0.95rem; right: -0.4rem; padding: 0.05rem 0.35rem; background: var(--tiza); color: var(--tinta); font: 400 0.9rem / 1.2 var(--f-pixel); box-shadow: 0 0 0 2px var(--tinta); pointer-events: none; }
+.sb-vacio { display: grid; place-content: center; justify-items: center; gap: 0.2rem; border: 2px dashed var(--sb-rc); color: var(--tiza-suave); text-align: center; opacity: 0.8; }
+.sb-interro { font: 400 2rem / 1 var(--f-pixel); color: var(--sb-rc); }
+.sb-hueco-n { font: 400 0.9rem / 1.2 var(--f-pixel); }
+.sb-hueco-nombre { padding: 0 0.2rem; font-size: 0.75rem; line-height: 1.15; overflow-wrap: anywhere; }
+.sb-ficha { padding: var(--e3) var(--e4); border: 2px solid var(--noche-linea); background: var(--tinta); min-height: 6rem; }
+.sb-ficha-in { display: flex; align-items: center; gap: var(--e4); }
+.sb-ficha-arte { flex: none; width: 5.5rem; height: 5.5rem; background: radial-gradient(circle at 30% 25%, #1E3F36, #0D1714); box-shadow: 0 0 0 3px var(--sb-rc); }
+.sb-ficha-t { margin: 0 0 var(--e1); color: var(--sb-rc, var(--tiza)); font: 400 1.4rem / 1.3 var(--f-pixel); }
+.sb-ficha-s { margin: 0 0 var(--e1); font-size: var(--t-1); color: var(--tiza-suave); }
+.sb-ficha-d { margin: 0 0 var(--e2); }
+
+@media (min-width: 52rem) {
+  .cs-mesa.sb-mesa { padding: var(--e4); }
+  .sb-escena { gap: var(--e7); }
+  .sb-sobre { width: 11rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sb-giro, .sb-sobre-tapa, .sb-sobre-cuerpo { transition: none; }
+  .sb-sacude, .sb-r-leg .sb-frente::after { animation: none; }
+}

@@ -1,0 +1,71 @@
+/* TRAGAPERRAS: máquina rosa con rótulo, ventana de tres rodillos, línea de pago, palanca y tabla de premios. El tamaño sale de --celda. */
+.sl-escena { display: grid; gap: var(--e5); align-items: start; justify-items: center; }
+.sl-maquina { --celda: 4.6rem; position: relative; display: grid; gap: var(--e3); width: 100%; max-width: 30rem; padding: var(--e4); background: var(--sandia-texto); box-shadow: 0 0 0 4px var(--tinta), 0 0 0 8px var(--sandia), 6px 10px 0 8px rgba(0, 0, 0, 0.4); }
+.sl-rotulo { margin: 0; padding: 0.35rem; background: var(--tinta); color: var(--limon); font: 400 2rem / 1.2 var(--f-pixel); font-size: round(down, 2rem, 10px); text-align: center; }
+.sl-luces { display: flex; justify-content: space-between; }
+.sl-luz { width: 0.7rem; height: 0.7rem; background: var(--tiza); }
+.sl-luz:nth-child(odd) { background: var(--limon); }
+@keyframes sl-parpadeo { 50% { background: var(--tinta); } }
+.sl-gana .sl-luz { animation: sl-parpadeo 0.5s steps(2) 5; }
+.sl-gana .sl-luz:nth-child(even) { animation-delay: 0.25s; }
+.sl-marco { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 3.2rem; align-items: stretch; gap: var(--e3); }
+.sl-ventana { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; padding: 8px; background: var(--tinta); }
+.sl-rodillo { position: relative; height: calc(var(--celda) * 3); overflow: hidden; background: var(--tiza); }
+.sl-rodillo::after { content: ""; position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 14px 12px -8px rgba(0, 0, 0, 0.55), inset 0 -14px 12px -8px rgba(0, 0, 0, 0.55); }
+.sl-cinta { --pos: 0; transform: translateY(calc(var(--celda) * var(--pos) * -1)); will-change: transform; }
+.sl-cinta.sl-anima { transition: transform var(--dur, 2s) cubic-bezier(0.22, 0.9, 0.3, 1.04); }
+.sl-celda { display: grid; place-items: center; height: var(--celda); }
+.sl-sim { width: calc(var(--celda) * 0.82); height: calc(var(--celda) * 0.82); shape-rendering: crispEdges; }
+.sl-sim * { stroke: #14201C; stroke-width: 2.6; stroke-linejoin: round; stroke-linecap: round; }
+.sl-sim .sl-brillo, .sl-sim .sl-semilla { stroke: none; }
+.sl-sim .sl-trazo { fill: none; stroke: #2F8F5B; stroke-width: 3; }
+.sl-rojo { fill: #FF5A7D; }
+.sl-rojo2 { fill: #C21E4A; }
+.sl-verde { fill: #3DBE7A; }
+.sl-amar { fill: #E6F14A; }
+.sl-oro { fill: #FFC93C; }
+.sl-brillo { fill: #FFFFFF; }
+.sl-semilla { fill: #14201C; }
+.sl-linea { position: absolute; left: 3px; right: 3px; top: calc(8px + var(--celda)); height: var(--celda); border: 3px solid var(--sandia); pointer-events: none; }
+.sl-linea::before, .sl-linea::after { content: ""; position: absolute; top: 50%; width: 0; height: 0; margin-top: -8px; border: 8px solid transparent; }
+.sl-linea::before { left: -14px; border-left-color: var(--limon); border-right: 0; }
+.sl-linea::after { right: -14px; border-right-color: var(--limon); border-left: 0; }
+@keyframes sl-linea-parpadeo { 50% { border-color: var(--limon); } }
+.sl-linea--gana { animation: sl-linea-parpadeo 0.5s steps(2) 5; }
+
+/* Palanca */
+.sl-palanca { position: relative; align-self: stretch; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.sl-palanca:disabled { cursor: default; opacity: 0.6; }
+.sl-palanca:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.sl-palanca::before { content: ""; position: absolute; left: 0; top: 8%; bottom: 8%; width: 0.9rem; background: var(--tinta); }
+.sl-palanca-varilla { position: absolute; left: 0.9rem; top: 50%; width: 0.7rem; height: 36%; background: var(--tiza-suave); box-shadow: 0 0 0 3px var(--tinta); transform-origin: 0 100%; transform: translateY(-100%) rotate(0deg); transition: transform 0.18s steps(3); }
+.sl-palanca-bola { position: absolute; left: 50%; top: -1.3rem; width: 1.9rem; height: 1.9rem; margin-left: -0.95rem; background: var(--limon); border-radius: 50%; box-shadow: 0 0 0 3px var(--tinta); }
+.sl-palanca--baja .sl-palanca-varilla { transform: translateY(-100%) rotate(0deg) scaleY(-0.6) translateY(-45%); }
+
+.sl-msg { min-height: 3em; margin: 0; padding: var(--e2) var(--e3); background: var(--tinta); text-align: center; }
+.sl-mandos { display: grid; gap: var(--e3); justify-items: center; }
+.sl-mandos[hidden], .cs-sin[hidden] { display: none; }
+.sl-girar { min-width: 9rem; }
+.sl-maquina .cs-ficha-btn[aria-pressed="true"] { filter: drop-shadow(0 4px 0 var(--limon)); }
+.sl-maquina .cs-fichas { justify-content: center; }
+
+/* Tabla de premios */
+.sl-pagos { width: 100%; max-width: 30rem; padding: var(--e4); background: var(--noche-2); box-shadow: 0 0 0 3px var(--noche-linea); }
+.sl-pagos-t { margin: 0 0 var(--e3); }
+.sl-lista { display: grid; gap: var(--e2); margin: 0; padding: 0; list-style: none; }
+.sl-pago { display: grid; grid-template-columns: 5.2rem minmax(0, 1fr) auto; align-items: center; gap: var(--e3); }
+.sl-pago-s { display: flex; }
+.sl-pago-s .sl-sim { width: 1.7rem; height: 1.7rem; }
+.sl-pago-m { color: var(--limon); font: 400 1.25rem / 1 var(--f-pixel); }
+
+@media (min-width: 58rem) {
+  .sl-escena { grid-template-columns: minmax(0, 30rem) minmax(0, 20rem); justify-content: center; }
+}
+@media (max-width: 26rem) {
+  .sl-maquina { --celda: 3.5rem; padding: var(--e3); }
+  .sl-marco { grid-template-columns: minmax(0, 1fr) 2.4rem; gap: var(--e2); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sl-gana .sl-luz, .sl-linea--gana { animation: none; }
+  .sl-cinta.sl-anima, .sl-palanca-varilla { transition: none; }
+}

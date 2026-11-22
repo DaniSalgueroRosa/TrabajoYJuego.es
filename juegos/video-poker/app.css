@@ -1,0 +1,52 @@
+/* VÍDEO PÓKER: cabina azul con rótulo, pantalla con la tabla de premios y las cinco cartas, botones «Retener» y fichas de apuesta. */
+.vp-maquina { position: relative; display: grid; gap: var(--e3); width: 100%; max-width: 44rem; margin: var(--e4) auto 0; padding: var(--e2); background: #1F3F9A; box-shadow: 0 0 0 4px var(--tinta), 0 0 0 8px #7FA2FF, 6px 10px 0 8px rgba(0, 0, 0, 0.4); }
+.vp-rotulo { margin: 0; padding: 0.35rem; background: var(--tinta); color: var(--limon); font: 400 2rem / 1.2 var(--f-pixel); font-size: round(down, 2rem, 10px); text-align: center; }
+@keyframes vp-parpadeo { 50% { color: var(--sandia); } }
+.vp-gana .vp-rotulo { animation: vp-parpadeo 0.5s steps(2) 6; }
+.vp-pantalla { display: grid; gap: var(--e4); padding: var(--e1); background: #0A1642; box-shadow: inset 0 0 0 3px var(--tinta); }
+
+/* ---- Tabla de premios */
+.vp-tabla { display: grid; gap: var(--e1); }
+.vp-cab, .vp-fila { display: grid; grid-template-columns: minmax(0, 1fr) 3.6rem 6.2rem; gap: var(--e2); align-items: center; margin: 0; padding: 0.15rem var(--e2); }
+.vp-cab { color: var(--tiza-suave); font-size: 0.75rem; }
+.vp-cab span:not(:first-child), .vp-p-mult, .vp-p-ganas { text-align: right; }
+.vp-pagos { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.vp-fila { color: var(--tiza); font-size: var(--t-1); line-height: 1.25; }
+.vp-p-mult { color: var(--limon); font-family: var(--f-pixel); }
+.vp-p-ganas { font-variant-numeric: tabular-nums; }
+.vp-fila--tengo { box-shadow: inset 0 0 0 2px var(--limon); }
+.vp-fila--gana { background: var(--limon); color: var(--tinta); }
+.vp-fila--gana .vp-p-mult { color: var(--tinta); }
+
+/* ---- Cartas */
+.vp-mano { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--e1); padding-top: var(--e3); }
+.vp-pos { display: grid; align-content: start; gap: var(--e2); cursor: pointer; }
+.vp-bloqueada .vp-pos { cursor: default; }
+.vp-carta { transition: transform 0.12s steps(2); }
+.vp-carta .cs-carta { --cw: 100%; width: 100%; }
+.vp-ret .vp-carta { transform: translateY(-0.7rem); }
+.vp-retener { min-height: 2.5rem; padding: 0.2rem 0; overflow: hidden; border: 2px solid var(--tiza-suave); background: transparent; color: var(--tiza); font: 700 0.7rem / 1.1 var(--f-trabajo); cursor: pointer; }
+.vp-retener:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
+.vp-retener:disabled { cursor: default; opacity: 0.55; }
+.vp-retener[aria-pressed="true"] { border-color: var(--limon); background: var(--limon); color: var(--tinta); opacity: 1; }
+
+.vp-msg { margin: 0; min-height: 3.2em; }
+.vp-mandos { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--e3); }
+.vp-boton { min-width: 12rem; }
+.vp-ayuda { margin: 0; font-size: 0.8rem; }
+.vp-maquina .cs-sin { background: #0A1642; }
+
+@media (max-width: 39.99rem) {
+  .vp-maquina { width: calc(100% + 2 * var(--e3)); max-width: none; margin-inline: calc(-1 * var(--e3)); }
+  .vp-cab, .vp-fila { grid-template-columns: minmax(0, 1fr) 2.8rem 4.8rem; }
+}
+@media (min-width: 40rem) {
+  .vp-maquina { padding: var(--e4); }
+  .vp-pantalla { padding: var(--e3); }
+  .vp-mano { gap: var(--e3); }
+  .vp-retener { font-size: 0.85rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vp-gana .vp-rotulo { animation: none; }
+  .vp-carta { transition: none; }
+}

@@ -1,0 +1,34 @@
+/* BLACKJACK: mesa con el crupier arriba y las manos del jugador abajo. El tamaño de las cartas sale de --cw. */
+.bj-mesa { --cw: 4.6rem; position: relative; display: grid; gap: var(--e4); align-content: start; min-height: 32rem; }
+.bj-zona { display: grid; justify-items: center; align-content: start; gap: var(--e2); min-height: calc(var(--cw) * 1.4 + 3.5rem); }
+.bj-cab { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: var(--e2) var(--e4); }
+.bj-etiqueta { color: var(--tiza); font: 400 1.25rem / 1 var(--f-pixel); }
+.bj-zapato { margin: 0; }
+.bj-crupier-zona { display: grid; justify-items: center; min-height: calc(var(--cw) * 1.4 + 3rem); }
+.bj-manos { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--e4) var(--e6); }
+.bj-mano { display: grid; justify-items: center; gap: var(--e3); padding: var(--e2); outline: 3px solid transparent; outline-offset: 2px; }
+.bj-mano.bj-activa { outline-color: var(--limon); }
+.bj-cartas { display: flex; justify-content: center; min-height: calc(var(--cw) * 1.4); padding-right: 5px; }
+.bj-cartas > * + * { margin-left: calc(var(--cw) * -0.5); }
+.bj-pie { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--e2) var(--e3); min-height: 2.2rem; }
+.bj-total { min-width: 2.4rem; padding: 0.15rem 0.55rem; background: var(--tinta); color: var(--limon); font: 400 1.25rem / 1.2 var(--f-pixel); text-align: center; box-shadow: 0 0 0 2px var(--noche-linea); }
+.bj-total[hidden], .bj-estado[hidden] { display: none; }
+.bj-estado { padding: 0.15rem 0.55rem; font: 400 1.1rem / 1.2 var(--f-pixel); color: var(--tinta); background: var(--tiza); }
+.bj-estado--blackjack { background: var(--limon); }
+.bj-estado--gana { background: #8FE3B5; }
+.bj-estado--empate { background: var(--tiza-suave); }
+.bj-estado--pierde, .bj-estado--pasa { background: var(--sandia); }
+.bj-circulo { display: grid; place-items: center; width: 4.6rem; height: 4.6rem; border: 3px dashed rgba(234, 242, 238, 0.55); border-radius: 50%; }
+.bj-circulo[hidden] { display: none; }
+.bj-circulo-t { color: var(--tiza-suave); font-size: var(--t-1); }
+.bj-reglas { margin: 0; text-align: center; }
+.bj-reglas[hidden] { display: none; }
+.bj-msg { min-height: 3em; text-align: center; margin: 0; }
+.bj-mandos { display: grid; gap: var(--e3); justify-items: center; }
+.bj-mandos[hidden], .cs-sin[hidden] { display: none; }
+.bj-mandos .fila { justify-content: center; }
+
+@media (max-width: 40rem) {
+  .bj-mesa { --cw: 3.7rem; padding: var(--e3); }
+  .bj-manos { gap: var(--e3) var(--e4); }
+}

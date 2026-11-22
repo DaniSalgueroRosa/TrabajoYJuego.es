@@ -12,6 +12,7 @@
 
   var PREGUNTAS_POR_PARTIDA = 7, SEGUNDOS = 25, SEGUNDOS_OTRA = 15, BONO_OTRA = 10, META = PREGUNTAS_POR_PARTIDA * 100;
   var banco = null, vistas = {}, sesion = TYJ.Sesion(null, { etiquetaMejor: 'Mejor puntuación: ' }), temporizador = null, rodilloId = null;
+  var modo = 'dia';      // «dia»: las preguntas de hoy (las mismas para todos); «libre»: al azar
   var estado = null, escena = null, figura = null, lectura = null, delta = null, deltaId = null;
 
   /* n = «1 de cada n»; techo = la n más alta de esa pregunta (la respuesta más rara vale 100) */
@@ -36,6 +37,12 @@
       });
     });
     return mejor;
+  }
+
+  /* Reto de hoy: siete preguntas del banco elegidas con la semilla de la fecha de Madrid (las mismas para todo el mundo). */
+  function preguntasDeHoy() {
+    var r = U.retoDelDia('una-entre-un-millon');
+    return { lista: U.barajarCon(U.semilla(r.semilla), banco.preguntas).slice(0, PREGUNTAS_POR_PARTIDA), numero: r.numero };
   }
 
   function elegirPreguntas() {
@@ -263,13 +270,23 @@
     raiz.appendChild(h('h2', { texto: 'Una entre un millón' }));
     raiz.appendChild(h('p', { class: 'texto', texto: 'Una carretera de noche, siete preguntas y 25 segundos para cada una. Nombra algo que casi nadie diría y tu coche acelerará hasta el arco de meta: cada pregunta vale hasta 100 puntos. Si tu respuesta no está en mi lista, te dejo probar otra con 10 puntos seguros.' }));
     raiz.appendChild(figura);
+    var modos = h('div', { class: 'fila', role: 'group', 'aria-label': 'Modo de juego' });
+    [['dia', 'Reto de hoy'], ['libre', 'Partida libre']].forEach(function (m) {
+      modos.appendChild(h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', 'aria-pressed': String(m[0] === modo),
+        onclick: function () { if (modo !== m[0]) { modo = m[0]; inicio(); } } }, m[1]));
+    });
+    raiz.appendChild(modos);
+    raiz.appendChild(h('p', { class: 'texto-suave', texto: modo === 'dia'
+      ? 'Reto n.º ' + U.retoDelDia('una-entre-un-millon').numero + ': las mismas siete preguntas para todo el mundo hoy; cambia a medianoche (hora de Madrid).'
+      : 'Partida libre: preguntas al azar.' }));
     raiz.appendChild(h('div', { class: 'fila' }, h('button', { class: 'boton-retro', type: 'button', onclick: empezar, id: 'uem-empezar' }, 'Empezar')));
     var s = h('div'); raiz.appendChild(s); sesion.montar(s);
   }
 
   function empezar() {
     limpiar(); escena.reiniciar(); ponerRecorrido(0);
-    estado = { preguntas: elegirPreguntas(), i: 0, total: 0, detalle: [], ruta: TYJ.etapas(PREGUNTAS_POR_PARTIDA, []) };
+    var hoy = modo === 'dia' ? preguntasDeHoy() : null;
+    estado = { preguntas: hoy ? hoy.lista : elegirPreguntas(), numero: hoy ? hoy.numero : 0, i: 0, total: 0, detalle: [], ruta: TYJ.etapas(PREGUNTAS_POR_PARTIDA, []) };
     pregunta();
   }
 
@@ -401,8 +418,8 @@
     TYJ.vaciar(raiz).appendChild(contenedor);
     var pct = Math.round(total * 100 / META);
     TYJ.final(contenedor, { titulo: total >= META ? '¡Meta perfecta!' : 'Nivel: ' + nivel, puntos: total, nivel: null,
-      detalles: ['Has recorrido el ' + pct + ' % de la carretera (' + U.miles(total) + ' de ' + U.miles(META) + ' puntos)'], textoRepetir: 'Jugar otra vez', alRepetir: empezar,
-      compartir: 'Una entre un millón · ' + U.miles(total) + ' de ' + U.miles(META) + ' puntos (' + pct + ' % de la carretera) · Nivel ' + nivel });
+      detalles: ['Has recorrido el ' + pct + ' % de la carretera (' + U.miles(total) + ' de ' + U.miles(META) + ' puntos)'], textoRepetir: estado.numero ? 'Probar una partida libre' : 'Jugar otra vez', alRepetir: function () { if (estado.numero) modo = 'libre'; empezar(); },
+      compartir: 'Una entre un millón' + (estado.numero ? ' · reto n.º ' + estado.numero : '') + ' · ' + U.miles(total) + ' de ' + U.miles(META) + ' puntos (' + pct + ' % de la carretera) · Nivel ' + nivel });
     contenedor.insertBefore(figura, contenedor.firstChild);
     contenedor.lastChild.appendChild(lista);
     contenedor.lastChild.appendChild(tabla);

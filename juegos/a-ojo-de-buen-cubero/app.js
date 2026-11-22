@@ -11,7 +11,8 @@
   var RANGOS = [[0, 'Despistado'], [150, 'Aproximado'], [300, 'Buen ojo'], [450, 'Ojo de halcón'], [600, 'Cubero de oro']];
   var calma = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   var sesion = TYJ.Sesion(null, { racha: false });
-  var preguntas = null, t = null, ui = null, timers = [];
+  var CLAVE = 'a-ojo-de-buen-cubero';
+  var preguntas = null, modo = 'dia', t = null, ui = null, timers = [];
 
   /* Número y unidad por separado (la unidad puede ser larga, como «millones de personas») */
   function partes(q, v) {
@@ -58,18 +59,29 @@
     TYJ.vaciar(raiz);
     ui = {};
     ui.est = h('div');
+    ui.modos = h('div', { class: 'fila', role: 'group', 'aria-label': 'Modo de juego' });
+    [['dia', 'Reto de hoy'], ['libre', 'Partida libre']].forEach(function (m) {
+      ui.modos.appendChild(h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', 'aria-pressed': String(m[0] === modo),
+        onclick: function () { if (modo !== m[0]) { modo = m[0]; inicio(); } } }, m[1]));
+    });
+    ui.nota = h('p', { class: 'texto-suave', texto: modo === 'dia'
+      ? 'Reto n.º ' + U.retoDelDia(CLAVE).numero + ': las mismas ' + "siete" + ' preguntas para todo el mundo hoy; cambia a medianoche (hora de Madrid).'
+      : 'Partida libre: preguntas al azar.' });
+
     raiz.appendChild(h('div', { class: 'ao-portada' },
       h('div', { class: 'ao-cubero ao-cubero--mira ao-portada-cubero', 'aria-hidden': 'true' }, dibujarCubero()),
       h('div', { class: 'ao-portada-texto' },
         h('h3', { texto: 'A ojo de buen cubero' }),
         h('p', { class: 'texto', texto: 'Siete preguntas con un número como respuesta. Mueve la aguja por la cinta métrica hasta donde creas que está y pulsa «Colocar». Solo tienes una oportunidad por pregunta.' }),
+        ui.modos, ui.nota,
         h('div', { class: 'fila' }, h('button', { class: 'boton-retro', type: 'button', onclick: empezar }, 'Empezar')))));
     raiz.appendChild(ui.est);
     sesion.montar(ui.est);
   }
 
   function empezar() {
-    t = { lista: U.muestra(preguntas, TOTAL), i: 0, puntos: 0, resultados: [], fase: 'apostando', valor: 0 };
+    var r = U.retoDelDia(CLAVE), dia = modo === 'dia';
+    t = { lista: dia ? U.barajarCon(U.semilla(r.semilla), preguntas).slice(0, TOTAL) : U.muestra(preguntas, TOTAL), numero: dia ? r.numero : 0, i: 0, puntos: 0, resultados: [], fase: 'apostando', valor: 0 };
     montar();
     mostrar();
   }
@@ -218,8 +230,8 @@
     });
     var cercanas = t.resultados.filter(function (r) { return r.pts >= 95; }).length;
     TYJ.final(ui.final.appendChild(h('div')), { titulo: cercanas ? '¡Qué buen ojo!' : 'Partida terminada', nivel: U.nivel(t.puntos, RANGOS), puntos: t.puntos, unidad: 'de 700 puntos',
-      detalles: detalles, compartir: 'A ojo de buen cubero: ' + t.puntos + ' de 700 puntos' + (cercanas ? ', con ' + cercanas + (cercanas === 1 ? ' casi exacta.' : ' casi exactas.') : '.'),
-      textoRepetir: 'Otra partida', alRepetir: empezar });
+      detalles: detalles, compartir: 'A ojo de buen cubero' + (t.numero ? ' · reto n.º ' + t.numero : '') + ': ' + t.puntos + ' de 700 puntos' + (cercanas ? ', con ' + cercanas + (cercanas === 1 ? ' casi exacta.' : ' casi exactas.') : '.'),
+      textoRepetir: t.numero ? 'Probar una partida libre' : 'Otra partida', alRepetir: t.numero ? function () { modo = 'libre'; empezar(); } : empezar });
   }
 
   function arrancar() {

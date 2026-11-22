@@ -1,4 +1,4 @@
-/* ACERTIJOS: uno al día (igual para todos ese día) y modo sin fin. Pista, 3 fallos y solución. Todo en memoria. */
+/* ACERTIJOS: uno al día (igual para todos ese día; cambia a medianoche, hora de Madrid) y modo sin fin. Pista, 3 fallos y solución. Todo en memoria. */
 (function () {
   'use strict';
   var TYJ = window.TYJ, U = TYJ.util, h = TYJ.h;
@@ -16,20 +16,20 @@
     return rs.some(function (r) { var c = U.clave(r); return (' ' + t + ' ').indexOf(' ' + c + ' ') >= 0; });   // «es un mapa» también vale
   }
   function robar() { if (!mazo.length) mazo = U.barajar(lista); return mazo.pop(); }
-  function deldia() { var d = new Date(); return lista[(U.diaDelAnio(d) * 7 + d.getFullYear()) % lista.length]; }
+  function deldia() { var reto = U.retoDelDia('acertijos'); return { r: lista[reto.semilla % lista.length], numero: reto.numero }; }
 
   function inicio() {
     TYJ.vaciar(raiz);
     var est = h('div');
-    raiz.appendChild(h('p', { class: 'mensaje' }, 'Elige cómo quieres jugar. El acertijo del día es el mismo para todo el mundo.'));
+    raiz.appendChild(h('p', { class: 'mensaje' }, 'Elige cómo quieres jugar. El acertijo del día (n.º ' + U.retoDelDia('acertijos').numero + ') es el mismo para todo el mundo y cambia a medianoche, hora de Madrid.'));
     raiz.appendChild(h('div', { class: 'fila fila--centro' },
-      h('button', { class: 'boton-retro', type: 'button', onclick: function () { jugar(deldia(), 'dia'); } }, 'Acertijo del día'),
+      h('button', { class: 'boton-retro', type: 'button', onclick: function () { var d = deldia(); jugar(d.r, 'dia', d.numero); } }, 'Acertijo del día'),
       h('button', { class: 'boton-retro boton-retro--sec', type: 'button', onclick: function () { jugar(robar(), 'sin-fin'); } }, 'Sin fin')));
     raiz.appendChild(est); sesion.montar(est);
   }
 
-  function jugar(r, modo) {
-    a = { r: r, modo: modo, fallos: 0, pista: false, hecho: false };
+  function jugar(r, modo, numero) {
+    a = { r: r, modo: modo, numero: numero, fallos: 0, pista: false, hecho: false };
     TYJ.vaciar(raiz);
     ui = {};
     ui.hud = TYJ.hud([['valor', 'Valen', 100], ['fallos', 'Fallos', '0 de 3']]);
@@ -43,7 +43,7 @@
     ui.form = h('form', { class: 'ac-form', onsubmit: function (ev) { ev.preventDefault(); responder(); } }, ui.campo, ui.enviar);
     ui.acciones = h('div', { class: 'fila fila--centro' }, ui.btnPista, ui.btnRevelar);
     ui.final = h('div'); ui.est = h('div');
-    [ui.hud.nodo, h('p', { class: 'ac-modo', texto: modo === 'dia' ? 'Acertijo del día' : 'Modo sin fin' }), ui.enunciado, ui.form, ui.msg, ui.pista, ui.acciones, ui.final, ui.est].forEach(function (n) { raiz.appendChild(n); });
+    [ui.hud.nodo, h('p', { class: 'ac-modo', texto: modo === 'dia' ? 'Acertijo del día n.º ' + numero : 'Modo sin fin' }), ui.enunciado, ui.form, ui.msg, ui.pista, ui.acciones, ui.final, ui.est].forEach(function (n) { raiz.appendChild(n); });
     sesion.montar(ui.est);
     ui.campo.focus({ preventScroll: true });
   }
@@ -76,7 +76,7 @@
       titulo: acertado ? '¡Correcto!' : (revelado ? 'Solución' : 'Sin intentos'),
       puntos: acertado ? pts : null,
       detalles: acertado ? [a.pista ? 'Con pista' : 'Sin pista', 'Fallos: ' + a.fallos] : [],
-      compartir: a.modo === 'dia' ? 'Acertijo del día · ' + (acertado ? 'resuelto con ' + pts + ' puntos' : 'no lo he resuelto') : 'Acertijos · ' + (acertado ? pts + ' puntos' : 'este se me resistió'),
+      compartir: a.modo === 'dia' ? 'Acertijo del día n.º ' + a.numero + ' · ' + (acertado ? 'resuelto con ' + pts + ' puntos' : 'no lo he resuelto') : 'Acertijos · ' + (acertado ? pts + ' puntos' : 'este se me resistió'),
       textoRepetir: a.modo === 'dia' ? 'Probar en modo sin fin' : 'Siguiente acertijo',
       alRepetir: function () { if (a.modo === 'dia') jugar(robar(), 'sin-fin'); else jugar(robar(), 'sin-fin'); }
     });

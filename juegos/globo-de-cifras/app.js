@@ -12,9 +12,15 @@
   var RANGOS = [[0, 'Sin aire'], [150, 'Soplador'], [300, 'Hinchador'], [420, 'Pulmón de acero'], [520, 'Maestro del globo']];
   var calma = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   var sesion = TYJ.Sesion(null, { racha: false });
-  var preguntas = null, nivel = 'medio', t = null, ui = null, reloj = null;
+  var CLAVE = 'globo-de-cifras';
+  var preguntas = null, nivel = 'medio', modo = 'dia', t = null, ui = null, reloj = null;
 
   function parar() { if (reloj) reloj.parar(); }
+  /* Reto de hoy: las mismas preguntas para todo el mundo ese día (semilla de la fecha de Madrid). Partida libre: al azar. */
+  function sorteo() {
+    var r = U.retoDelDia(CLAVE);
+    return modo === 'dia' ? { lista: U.barajarCon(U.semilla(r.semilla), preguntas).slice(0, TOTAL), numero: r.numero } : { lista: U.muestra(preguntas, TOTAL), numero: 0 };
+  }
 
   /* ---- Dibujo SVG del globo (lienzo de 200 × 270; el hilo cuelga hasta un peso en el suelo) */
   function sv(tag, attrs) {
@@ -72,6 +78,14 @@
     parar();
     TYJ.vaciar(raiz);
     ui = {};
+    ui.modos = h('div', { class: 'fila', role: 'group', 'aria-label': 'Modo de juego' });
+    [['dia', 'Reto de hoy'], ['libre', 'Partida libre']].forEach(function (m) {
+      ui.modos.appendChild(h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', 'aria-pressed': String(m[0] === modo),
+        onclick: function () { if (modo !== m[0]) { modo = m[0]; inicio(); } } }, m[1]));
+    });
+    ui.nota = h('p', { class: 'texto-suave', texto: modo === 'dia'
+      ? 'Reto n.º ' + U.retoDelDia(CLAVE).numero + ': las mismas ' + "cinco" + ' preguntas para todo el mundo hoy; cambia a medianoche (hora de Madrid).'
+      : 'Partida libre: preguntas al azar.' });
     ui.niveles = h('div', { class: 'fila', role: 'group', 'aria-label': 'Nivel' });
     Object.keys(NIVELES).forEach(function (k) {
       ui.niveles.appendChild(h('button', { class: 'boton-retro boton-retro--sec boton-retro--chico', type: 'button', 'aria-pressed': String(k === nivel),
@@ -83,7 +97,7 @@
       h('div', { class: 'gc-portada-texto' },
         h('h3', { texto: 'Globo de cifras' }),
         h('p', { class: 'texto', texto: 'Cinco preguntas con un número exacto como respuesta. Si fallas, te decimos si es más alto o más bajo. Pero el globo se hincha con el tiempo, y si revienta se acabó.' }),
-        ui.niveles,
+        ui.modos, ui.nota, ui.niveles,
         h('div', { class: 'fila' }, h('button', { class: 'boton-retro', type: 'button', onclick: empezar }, 'Inflar el globo'))));
     raiz.appendChild(portada); raiz.appendChild(ui.est);
     sesion.montar(ui.est);
@@ -91,7 +105,8 @@
 
   function empezar() {
     var seg = NIVELES[nivel].seg;
-    t = { lista: U.muestra(preguntas, TOTAL), i: 0, intentos: [], puntos: 0, resultados: [], fase: 'jugando', restante: seg, seg: seg };
+    var s = sorteo();
+    t = { lista: s.lista, numero: s.numero, i: 0, intentos: [], puntos: 0, resultados: [], fase: 'jugando', restante: seg, seg: seg };
     montar();
     reloj = new TYJ.Temporizador({ segundos: seg, alTick: tic, alFin: pum });
     mostrar();
@@ -260,8 +275,8 @@
     if (bonus) detalles.push('Tiempo sobrante: +' + bonus + ' puntos.');
     TYJ.final(ui.final.appendChild(h('div')), { titulo: completo ? '¡Globo a salvo!' : '¡PUM! El globo ha reventado', nivel: U.nivel(total, RANGOS),
       puntos: total, unidad: 'puntos', detalles: detalles,
-      compartir: 'Globo de cifras (' + NIVELES[nivel].nombre.split(' (')[0].toLowerCase() + '): ' + total + ' puntos, ' + exactas + ' de ' + TOTAL + ' exactas' + (completo ? '.' : ', pero el globo reventó.'),
-      textoRepetir: 'Otro globo', alRepetir: inicio });
+      compartir: 'Globo de cifras' + (t.numero ? ' · reto n.º ' + t.numero : '') + ' (' + NIVELES[nivel].nombre.split(' (')[0].toLowerCase() + '): ' + total + ' puntos, ' + exactas + ' de ' + TOTAL + ' exactas' + (completo ? '.' : ', pero el globo reventó.'),
+      textoRepetir: t.numero ? 'Probar una partida libre' : 'Otro globo', alRepetir: t.numero ? function () { modo = 'libre'; inicio(); } : inicio });
   }
 
   function arrancar() {
