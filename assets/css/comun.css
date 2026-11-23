@@ -174,14 +174,40 @@ mark.pendiente { padding: 0 0.25em; background: #FFE9A8; color: #14201C; outline
 /* En las fichas el texto va alineado a la izquierda: el anuncio del final se alinea con él, igual que el del texto. */
 .ficha-cuerpo > .anuncio, .ficha--libre .contenedor > .anuncio { margin-left: 0; margin-right: auto; }
 /* «.anuncio .anuncio-rotulo» (y no solo «.anuncio-rotulo») para ganar a las reglas de párrafo de cada sección (anchos y márgenes del texto). */
-.anuncio .anuncio-rotulo { max-width: none; margin: 0 0 var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
+.anuncio .anuncio-rotulo, .anuncio-lateral .anuncio-rotulo { max-width: none; margin: 0 0 var(--e2); font-size: var(--t-1); color: var(--tinta-suave); text-align: center; }
 .adsbygoogle { display: block; }   /* antes iba en línea (style="display:block"), lo que la política de contenido del sitio no permite */
 .anuncio .adsbygoogle { min-height: 90px; }
 /* Si AdSense no tiene anuncio que mostrar, el hueco desaparece entero (sin rótulo suelto ni espacio vacío). */
 .anuncio:has(.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
 main[data-mundo="juego"] .anuncio { border-top-color: var(--noche-linea); }
-main[data-mundo="juego"] .anuncio .anuncio-rotulo { color: var(--tiza-suave); }
+main[data-mundo="juego"] :is(.anuncio, .anuncio-lateral) .anuncio-rotulo { color: var(--tiza-suave); }
+/* Los elementos con tema propio (los tests) pueden ser oscuros: el rótulo toma el color de texto del tema, que ya contrasta con su fondo. */
+main.con-tema :is(.anuncio, .anuncio-lateral) .anuncio-rotulo { color: var(--t-texto); }
 @media print { .anuncio, .anuncio-marco { display: none; } }
+
+/* ---- Formatos propios --------------------------------------------------------------------------------------------------------------------
+   · in-article (el del texto): ocupa el ancho del texto y AdSense le pone el alto; el centrado que traía su código en línea va aquí.
+   · relacionados (Multiplex): al final de la ficha, tras el anuncio del final, con el mismo ancho y alineación que él.
+   · feed (in-feed): una celda más de la rejilla de tarjetas; copia el estilo de la tarjeta, así que no lleva línea de separación.
+   · lateral: 300×600 a la derecha del texto en pantallas anchas (más de 75 rem); el hueco sigue al lector mientras haya texto al lado. */
+.adsbygoogle--articulo { display: block; text-align: center; }
+.anuncio--relacionados { margin-top: var(--e7); }
+.anuncio-celda { list-style: none; }
+.anuncio--feed { max-width: none; margin: 0; padding-top: 0; border-top: 0; }
+.anuncio-celda:has(.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
+.adsbygoogle--lateral { display: inline-block; width: 300px; height: 600px; min-height: 0; }
+.anuncio-lateral { display: none; }
+.anuncio-lateral .anuncio-rotulo { margin-bottom: var(--e2); }
+.anuncio-lateral:has(.adsbygoogle[data-ad-status="unfilled"]) { display: none !important; }
+/* El contenedor del texto (o, en las guías, todo el cuerpo) es la referencia del lateral. */
+.juego-texto, .herr-texto, .tt-texto, body[data-seccion="recursos"] .ficha-cuerpo { position: relative; }
+@media (min-width: 75rem) {
+  /* «main» y «body» suben la especificidad para ganar a las reglas de las guías («.ficha-cuerpo > *» fija ancho y margen a todo hijo directo). */
+  body main .anuncio-lateral { display: block; position: absolute; top: 0; bottom: 0; left: calc(100% + 2rem); width: 300px; max-width: none; margin: 0; }
+  body[data-seccion="recursos"] main .ficha-cuerpo > .anuncio-lateral { left: calc(var(--ancho-texto) + 4rem); }  /* 2rem del relleno del contenedor + 2rem de hueco */
+  .anuncio-lateral-pegado { position: sticky; top: var(--e4); }
+}
+@media print { .anuncio-lateral, .anuncio-celda { display: none; } }
 
 /* ===== comun/cabecera/cabecera.css ===== */
 /* CABECERA: logo y menú. Los enlaces de «Trabajo» usan la letra formal y subrayan con un barrido suave;

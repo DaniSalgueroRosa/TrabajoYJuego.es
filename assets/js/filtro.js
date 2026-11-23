@@ -5,7 +5,8 @@
   var form = document.querySelector('[data-filtros]');
   var lista = document.querySelector('ul.rejilla');
   if (!form || !lista) return;
-  var items = Array.prototype.slice.call(document.querySelectorAll('ul.rejilla > li'));      // todas las listas: una sola, o una por grupo
+  var items = Array.prototype.slice.call(document.querySelectorAll('ul.rejilla > li:not([data-anuncio])'));   // sin las celdas de anuncio
+  var celdasAnuncio = Array.prototype.slice.call(document.querySelectorAll('ul.rejilla > li[data-anuncio]'));      // todas las listas: una sola, o una por grupo
   var grupos = Array.prototype.slice.call(document.querySelectorAll('[data-bloque]'));
   var campo = form.querySelector('[data-filtro-texto]');
   var dificultad = form.querySelector('[data-filtro-dificultad]');
@@ -32,8 +33,9 @@
       li.hidden = !ok;
       if (ok) visibles++;
     });
-    grupos.forEach(function (g) { g.hidden = !g.querySelector('ul.rejilla > li:not([hidden])'); });
+    grupos.forEach(function (g) { g.hidden = !g.querySelector('ul.rejilla > li:not([hidden]):not([data-anuncio])'); });
     var filtrando = !!(categoria || dif || terminos.length);
+    celdasAnuncio.forEach(function (c) { c.hidden = filtrando; });   // con filtros las tarjetas cambian de sitio: los anuncios entre ellas se quitan
     if (borrar) borrar.hidden = !filtrando;
     if (!estado) return;
     if (visibles === 0) estado.textContent = 'Ningún ' + singular + ' coincide. Prueba con otra palabra o quita algún filtro.';
