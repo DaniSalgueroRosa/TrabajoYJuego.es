@@ -1,4 +1,4 @@
 Contact: mailto:trabajoyjuego.es@gmail.com
-Expires: 2027-11-17T00:00:00Z
+Expires: 2027-11-18T00:00:00Z
 Preferred-Languages: es
 Canonical: https://trabajoyjuego.es/.well-known/security.txt
