@@ -5,439 +5,827 @@
 "p": "Los delfines son mamíferos.",
 "v": true,
 "e": "Respiran aire con pulmones, tienen sangre caliente y amamantan a sus crías.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "Los murciélagos son ciegos.",
 "v": false,
 "e": "Todos los murciélagos ven; muchos, además, se orientan con ecolocalización.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "Los pulpos tienen tres corazones.",
 "v": true,
 "e": "Dos bombean sangre a las branquias y uno al resto del cuerpo.",
-"t": "Animales"
+"t": "Animales",
+"nv": 2
 },
 {
 "p": "Las arañas son insectos.",
 "v": false,
 "e": "Son arácnidos: tienen ocho patas y el cuerpo dividido en dos partes, no en tres como los insectos.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "Los koalas son un tipo de oso.",
 "v": false,
 "e": "Son marsupiales, parientes de los canguros, y no tienen relación con los osos.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "Los pingüinos viven de forma natural en el polo Norte.",
 "v": false,
 "e": "Viven en el hemisferio sur; en el Ártico no hay pingüinos silvestres.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "Las jirafas tienen siete vértebras en el cuello, igual que las personas.",
 "v": true,
 "e": "Las de la jirafa son enormes, pero el número es el mismo que el de la mayoría de los mamíferos.",
-"t": "Animales"
+"t": "Animales",
+"nv": 2
 },
 {
 "p": "Los tiburones son mamíferos.",
 "v": false,
 "e": "Son peces cartilaginosos: respiran por branquias y no amamantan.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "La sangre del pulpo es azul.",
 "v": true,
 "e": "Transporta oxígeno con hemocianina, una proteína con cobre, en lugar de hemoglobina.",
-"t": "Animales"
+"t": "Animales",
+"nv": 2
 },
 {
 "p": "Los camellos guardan agua en sus jorobas.",
 "v": false,
 "e": "Las jorobas almacenan grasa, que sirve de reserva de energía.",
-"t": "Animales"
+"t": "Animales",
+"nv": 2
 },
 {
 "p": "Los camaleones cambian de color solo para esconderse.",
 "v": false,
 "e": "También lo hacen para comunicarse y para regular la temperatura.",
-"t": "Animales"
+"t": "Animales",
+"nv": 2
 },
 {
 "p": "Los gatos siempre caen de pie.",
 "v": false,
 "e": "Tienen un reflejo muy bueno para enderezarse, pero no siempre les da tiempo y pueden hacerse daño.",
-"t": "Animales"
+"t": "Animales",
+"nv": 2
 },
 {
 "p": "Las ballenas son peces.",
 "v": false,
 "e": "Son mamíferos marinos: tienen pulmones y amamantan a sus crías.",
-"t": "Animales"
+"t": "Animales",
+"nv": 1
 },
 {
 "p": "El corazón humano tiene cuatro cavidades.",
 "v": true,
 "e": "Dos aurículas y dos ventrículos.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 1
 },
 {
 "p": "Los humanos usamos solo el 10 % del cerebro.",
 "v": false,
 "e": "Es un mito: usamos todas las zonas del cerebro, aunque no todas a la vez.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 1
 },
 {
 "p": "Un bebé tiene más huesos que un adulto.",
 "v": true,
 "e": "Al nacer tiene en torno a 300 y algunos se van fusionando hasta los 206 del adulto.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 2
 },
 {
 "p": "Los dientes son huesos.",
 "v": false,
 "e": "Parecen huesos, pero están hechos de otros tejidos, como el esmalte y la dentina.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 2
 },
 {
 "p": "El pelo y las uñas siguen creciendo después de la muerte.",
 "v": false,
 "e": "Es una ilusión: la piel se deshidrata y se retrae, y por eso parecen más largos.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 2
 },
 {
 "p": "La piel es el órgano más grande del cuerpo humano.",
 "v": true,
 "e": "Cubre todo el cuerpo y pesa en un adulto en torno a cuatro o cinco kilos.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 1
 },
 {
 "p": "Los seres humanos tenemos solo cinco sentidos.",
 "v": false,
 "e": "Además de vista, oído, olfato, gusto y tacto, tenemos otros, como el equilibrio o la percepción del propio cuerpo.",
-"t": "Cuerpo humano"
+"t": "Cuerpo humano",
+"nv": 2
 },
 {
 "p": "El agua hierve a 100 °C al nivel del mar.",
 "v": true,
 "e": "En la cima de una montaña, con menos presión, hierve a una temperatura más baja.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "La luz viaja más rápido que el sonido.",
 "v": true,
 "e": "Por eso en una tormenta se ve el rayo antes de oír el trueno.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "El sonido se propaga en el vacío.",
 "v": false,
 "e": "Necesita un medio, como el aire, el agua o un sólido, para propagarse.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "El sonido viaja más rápido en el agua que en el aire.",
 "v": true,
 "e": "En el agua va a unos 1.500 m/s; en el aire, a unos 340 m/s.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "Todos los metales son sólidos a temperatura ambiente.",
 "v": false,
 "e": "El mercurio es líquido a temperatura ambiente.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "El hielo flota porque es menos denso que el agua líquida.",
 "v": true,
 "e": "Al congelarse, el agua aumenta de volumen y su densidad baja.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "El diamante está hecho de carbono.",
 "v": true,
 "e": "Es la misma sustancia que el grafito de un lápiz, pero con sus átomos ordenados de otra manera.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "Un rayo nunca cae dos veces en el mismo lugar.",
 "v": false,
 "e": "Los rayos caen con frecuencia en los mismos sitios, sobre todo en los puntos altos.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "Un rayo puede alcanzar una temperatura mayor que la de la superficie del Sol.",
 "v": true,
 "e": "En el canal del rayo el aire llega a decenas de miles de grados.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 3
 },
 {
 "p": "Los tomates son, botánicamente, un fruto.",
 "v": true,
 "e": "Se desarrollan a partir de la flor y contienen las semillas, aunque en la cocina los tratemos como verdura.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "El hierro se oxida en presencia de oxígeno y humedad.",
 "v": true,
 "e": "La herrumbre es óxido de hierro.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "Los diamantes se forman a partir del carbón.",
 "v": false,
 "e": "Se forman a partir de carbono, pero a gran profundidad y desde antes de que existieran las plantas que dieron el carbón.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 3
 },
 {
 "p": "La Luna tiene luz propia.",
 "v": false,
 "e": "Brilla porque refleja la luz del Sol.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "La Luna siempre nos muestra la misma cara.",
 "v": true,
 "e": "Tarda lo mismo en girar sobre sí misma que en dar una vuelta a la Tierra.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 2
 },
 {
 "p": "En el espacio no hay gravedad.",
 "v": false,
 "e": "La gravedad actúa en todas partes; los astronautas flotan porque están en caída libre alrededor de la Tierra.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 2
 },
 {
 "p": "El Sol es una estrella.",
 "v": true,
 "e": "Es la estrella más cercana a la Tierra.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "Venus es el planeta más cercano al Sol.",
 "v": false,
 "e": "El más cercano es Mercurio.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "Plutón es un planeta según la clasificación actual.",
 "v": false,
 "e": "Desde 2006 se considera un planeta enano.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 2
 },
 {
 "p": "Júpiter es más pequeño que la Tierra.",
 "v": false,
 "e": "Es el planeta más grande del sistema solar.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "La Gran Muralla china se ve a simple vista desde la Luna.",
 "v": false,
 "e": "Es muy larga, pero demasiado estrecha para distinguirse desde esa distancia.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "La capital de Australia es Sídney.",
 "v": false,
 "e": "Es Canberra.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "La capital de Brasil es Río de Janeiro.",
 "v": false,
 "e": "Es Brasilia, inaugurada en 1960.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "El Vaticano es el país más pequeño del mundo.",
 "v": true,
 "e": "Tiene menos de medio kilómetro cuadrado.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "Rusia es el país más extenso del mundo.",
 "v": true,
 "e": "Ocupa más de 17 millones de kilómetros cuadrados.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "El Sáhara es el desierto más grande del mundo, contando todos los tipos de desierto.",
 "v": false,
 "e": "El mayor es la Antártida; el Sáhara es el mayor desierto cálido.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 3
 },
 {
 "p": "Groenlandia es la isla más grande del mundo.",
 "v": true,
 "e": "Es una isla; Australia se considera un continente.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "Suiza forma parte de la Unión Europea.",
 "v": false,
 "e": "Está rodeada de países de la Unión, pero no pertenece a ella.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "Turquía está únicamente en el continente asiático.",
 "v": false,
 "e": "Una pequeña parte, que incluye una zona de Estambul, está en Europa.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "Islandia no tiene ejército propio.",
 "v": true,
 "e": "Solo cuenta con guardacostas y fuerzas de policía; su defensa depende de acuerdos con otros países.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 3
 },
 {
 "p": "África es el continente con más países.",
 "v": true,
 "e": "Tiene 54 países reconocidos por la ONU.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "Japón es un archipiélago.",
 "v": true,
 "e": "Está formado por miles de islas; las cuatro principales son Honshu, Hokkaido, Kyushu y Shikoku.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "El Teide, en Tenerife, es el punto más alto de España.",
 "v": true,
 "e": "Mide 3.715 metros, más que el Mulhacén, que es el más alto de la península.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "La Alhambra está en la ciudad de Sevilla.",
 "v": false,
 "e": "Está en Granada.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "El euro es la moneda oficial de todos los países de la Unión Europea.",
 "v": false,
 "e": "Varios países de la Unión, como Polonia, Suecia o Dinamarca, conservan su moneda.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "El español es la segunda lengua del mundo por número de hablantes nativos.",
 "v": true,
 "e": "Solo la supera el chino mandarín.",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 2
 },
 {
 "p": "La letra eñe es propia del alfabeto español y de algunas otras lenguas.",
 "v": true,
 "e": "Es una letra del abecedario español, distinta de la ene.",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 2
 },
 {
 "p": "«Haber» y «a ver» significan lo mismo.",
 "v": false,
 "e": "«Haber» es un verbo; «a ver» es una preposición más un verbo, como en «a ver qué pasa».",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 1
 },
 {
 "p": "La RAE recomienda escribir «solo» sin tilde.",
 "v": true,
 "e": "Desde 2010 se recomienda no ponerla, ni siquiera cuando significa «solamente».",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 3
 },
 {
 "p": "La palabra «agua» lleva tilde.",
 "v": false,
 "e": "Es una palabra llana terminada en vocal, así que no lleva tilde.",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 1
 },
 {
 "p": "La Revolución francesa empezó en 1789.",
 "v": true,
 "e": "Se suele marcar su comienzo con la toma de la Bastilla.",
-"t": "Historia"
+"t": "Historia",
+"nv": 1
 },
 {
 "p": "Los vikingos llevaban cascos con cuernos.",
 "v": false,
 "e": "Es una imagen creada en el siglo XIX; no hay pruebas de que usaran cascos con cuernos.",
-"t": "Historia"
+"t": "Historia",
+"nv": 2
 },
 {
 "p": "Napoleón era extraordinariamente bajo.",
 "v": false,
 "e": "Medía alrededor de 1,68 m, algo más que la media de los franceses de su época.",
-"t": "Historia"
+"t": "Historia",
+"nv": 3
 },
 {
 "p": "Las pirámides de Egipto las construyeron principalmente esclavos.",
 "v": false,
 "e": "Los restos hallados indican que fueron trabajadores organizados, alimentados y alojados cerca de las obras.",
-"t": "Historia"
+"t": "Historia",
+"nv": 3
 },
 {
 "p": "Colón creyó hasta el final que había llegado a Asia.",
 "v": true,
 "e": "Nunca admitió que había llegado a un continente desconocido para los europeos.",
-"t": "Historia"
+"t": "Historia",
+"nv": 2
 },
 {
 "p": "Cleopatra vivió más cerca de la llegada del hombre a la Luna que de la construcción de la Gran Pirámide.",
 "v": true,
 "e": "La pirámide se levantó hace unos 4.500 años y Cleopatra vivió hace unos 2.050.",
-"t": "Historia"
+"t": "Historia",
+"nv": 3
 },
 {
 "p": "El acueducto de Segovia lo construyeron los romanos.",
 "v": true,
 "e": "Se levantó hace unos 1.900 años y sigue en pie sin argamasa.",
-"t": "Historia"
+"t": "Historia",
+"nv": 1
 },
 {
 "p": "El Quijote se publicó antes de que Colón llegara a América.",
 "v": false,
 "e": "Colón llegó en 1492 y el Quijote apareció en 1605.",
-"t": "Historia"
+"t": "Historia",
+"nv": 1
 },
 {
 "p": "Durante la Edad Media la gente creía en general que la Tierra era plana.",
 "v": false,
 "e": "Las personas cultas sabían desde la Antigüedad que la Tierra es esférica.",
-"t": "Historia"
+"t": "Historia",
+"nv": 3
 },
 {
 "p": "La vitamina C previene los resfriados.",
 "v": false,
 "e": "Los estudios no muestran que los prevenga, aunque puede acortarlos algo en ciertos casos.",
-"t": "Salud"
+"t": "Salud",
+"nv": 2
 },
 {
 "p": "Hay que esperar dos horas después de comer para bañarse.",
 "v": false,
 "e": "No hay pruebas de ese riesgo; lo prudente es no hacer esfuerzos intensos con el estómago muy lleno.",
-"t": "Salud"
+"t": "Salud",
+"nv": 2
 },
 {
 "p": "Reírse es bueno para reducir el estrés.",
 "v": true,
 "e": "Relaja los músculos y ayuda a sentirse mejor, aunque no sustituye a otros cuidados.",
-"t": "Salud"
+"t": "Salud",
+"nv": 1
 },
 {
 "p": "Un año bisiesto tiene 366 días.",
 "v": true,
 "e": "Se añade el 29 de febrero.",
-"t": "Cultura"
+"t": "Cultura",
+"nv": 1
 },
 {
 "p": "Un kilómetro tiene 1.000 metros.",
 "v": true,
 "e": "«Kilo» significa mil.",
-"t": "Cultura"
+"t": "Cultura",
+"nv": 1
+},
+{
+"p": "La miel bien conservada puede durar prácticamente indefinidamente.",
+"v": true,
+"e": "Tiene muy poca agua y es ácida, así que los microbios no proliferan.",
+"t": "Alimentación",
+"nv": 2
+},
+{
+"p": "Botánicamente, el plátano es una baya.",
+"v": true,
+"e": "Una baya es un fruto carnoso con las semillas dentro de la pulpa. La fresa, en cambio, no lo es.",
+"t": "Botánica",
+"nv": 3
+},
+{
+"p": "En Venus, un día dura más que un año.",
+"v": true,
+"e": "Venus tarda unos 243 días terrestres en girar sobre sí misma y unos 225 en dar la vuelta al Sol.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "En Australia hay más canguros que habitantes.",
+"v": true,
+"e": "Se calcula que hay decenas de millones de canguros, más que los unos 26 millones de australianos.",
+"t": "Animales",
+"nv": 2
+},
+{
+"p": "Cleopatra vivió más cerca en el tiempo de la llegada a la Luna que de la construcción de la Gran Pirámide.",
+"v": true,
+"e": "La Gran Pirámide tiene unos 4.500 años. Cleopatra murió en el 30 a. C. y el Apolo 11 llegó a la Luna en 1969.",
+"t": "Historia",
+"nv": 3
+},
+{
+"p": "Las huellas dactilares de un koala son casi idénticas a las humanas.",
+"v": true,
+"e": "Incluso al microscopio cuesta distinguirlas. Es un caso de evolución convergente.",
+"t": "Animales",
+"nv": 3
+},
+{
+"p": "Todas las abejas obreras de una colmena son hembras.",
+"v": true,
+"e": "Los zánganos, que son los machos, no trabajan: solo se aparean con la reina.",
+"t": "Animales",
+"nv": 3
+},
+{
+"p": "Los delfines duermen con la mitad del cerebro despierta.",
+"v": true,
+"e": "Así pueden seguir nadando y subir a la superficie a respirar.",
+"t": "Animales",
+"nv": 3
+},
+{
+"p": "El tomate es, botánicamente, un fruto.",
+"v": true,
+"e": "Nace de la flor y contiene las semillas, aunque en la cocina lo tratemos como verdura.",
+"t": "Botánica",
+"nv": 2
+},
+{
+"p": "Napoleón era excepcionalmente bajo.",
+"v": false,
+"e": "Medía alrededor de 1,68-1,70 m, algo más que el francés medio de su época. El mito viene de confundir unidades de medida y de la propaganda británica.",
+"t": "Historia",
+"nv": 2
+},
+{
+"p": "El húmero es el hueso más largo del cuerpo humano.",
+"v": false,
+"e": "El hueso más largo es el fémur, en el muslo. El húmero está en el brazo.",
+"t": "Cuerpo humano",
+"nv": 2
+},
+{
+"p": "Los camaleones cambian de color sobre todo para camuflarse.",
+"v": false,
+"e": "Lo hacen sobre todo para comunicarse y regular su temperatura; el camuflaje es secundario.",
+"t": "Animales",
+"nv": 3
+},
+{
+"p": "Si se mide desde la base hasta la cima, el Everest es la montaña más alta del mundo.",
+"v": false,
+"e": "El Everest es la más alta sobre el nivel del mar. Medido desde su base, en el fondo del océano, el Mauna Kea de Hawái es mayor.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "La Tierra está más cerca del Sol en verano en el hemisferio norte.",
+"v": false,
+"e": "Está más cerca a principios de enero. Las estaciones se deben a la inclinación del eje de la Tierra.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "Las vitaminas aportan energía en forma de calorías.",
+"v": false,
+"e": "Son esenciales, pero no aportan calorías: la energía viene de los hidratos de carbono, las grasas y las proteínas.",
+"t": "Nutrición",
+"nv": 3
+},
+{
+"p": "Solo usamos el 10 % del cerebro.",
+"v": false,
+"e": "Usamos prácticamente todo el cerebro, aunque no todas las zonas a la vez.",
+"t": "Mitos",
+"nv": 2
+},
+{
+"p": "El diamante y el grafito están hechos de elementos distintos.",
+"v": false,
+"e": "Los dos son carbono puro; solo cambia cómo se colocan los átomos.",
+"t": "Química",
+"nv": 2
+},
+{
+"p": "El cuerpo humano tiene unas diez veces más bacterias que células propias.",
+"v": false,
+"e": "Los cálculos recientes apuntan a una proporción cercana a 1 a 1.",
+"t": "Cuerpo humano",
+"nv": 3
+},
+{
+"p": "El Sahara es el desierto más grande del mundo.",
+"v": false,
+"e": "El mayor es la Antártida. El Sahara es el mayor desierto cálido.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "Los vikingos llevaban cascos con cuernos en combate.",
+"v": false,
+"e": "Es un mito popularizado en el siglo XIX; no hay hallazgos que lo respalden.",
+"t": "Historia",
+"nv": 2
+},
+{
+"p": "Una hormiga puede cargar objetos que pesan decenas de veces lo que ella.",
+"v": true,
+"e": "Su cuerpo es muy ligero para su fuerza: algunas especies cargan entre diez y cincuenta veces su peso.",
+"t": "Animales",
+"nv": 1
+},
+{
+"p": "Los pingüinos son aves.",
+"v": true,
+"e": "No vuelan, pero tienen plumas, ponen huevos y sus alas se han convertido en aletas para nadar.",
+"t": "Animales",
+"nv": 1
+},
+{
+"p": "Las vacas tienen un estómago con cuatro compartimentos.",
+"v": true,
+"e": "El rumen, el retículo, el omaso y el abomaso les permiten digerir la hierba en varias etapas.",
+"t": "Animales",
+"nv": 2
+},
+{
+"p": "La ballena azul es el animal más grande que ha existido.",
+"v": true,
+"e": "Puede superar los 25 metros y las 150 toneladas, más que cualquier dinosaurio conocido.",
+"t": "Animales",
+"nv": 2
+},
+{
+"p": "La mayor parte del calor del cuerpo se pierde por la cabeza.",
+"v": false,
+"e": "La cabeza pierde calor en proporción a su superficie, como cualquier otra parte del cuerpo sin abrigo.",
+"t": "Cuerpo humano",
+"nv": 2
+},
+{
+"p": "Hacer crujir los nudillos provoca artrosis.",
+"v": false,
+"e": "Los estudios no han encontrado relación entre el crujido de los nudillos y la artrosis.",
+"t": "Salud",
+"nv": 2
+},
+{
+"p": "El tejido del cerebro no tiene receptores del dolor.",
+"v": true,
+"e": "Los dolores de cabeza vienen de estructuras que rodean el cerebro, como las meninges y los vasos sanguíneos.",
+"t": "Cuerpo humano",
+"nv": 3
+},
+{
+"p": "El corazón de un adulto late de media más de 80.000 veces al día.",
+"v": true,
+"e": "A unas 70 pulsaciones por minuto son cerca de cien mil latidos cada día.",
+"t": "Cuerpo humano",
+"nv": 3
+},
+{
+"p": "El pelo crece más rápido si se corta con frecuencia.",
+"v": false,
+"e": "El corte no cambia el ritmo de crecimiento, que depende del folículo y no de la punta.",
+"t": "Mitos",
+"nv": 1
+},
+{
+"p": "Una persona puede sobrevivir más tiempo sin beber agua que sin comer.",
+"v": false,
+"e": "Se puede pasar semanas sin comer, pero solo unos pocos días sin beber.",
+"t": "Salud",
+"nv": 2
+},
+{
+"p": "El cuerpo de un adulto está formado en más de la mitad por agua.",
+"v": true,
+"e": "El agua supone alrededor del 50-60 % del peso corporal, según la edad y la constitución.",
+"t": "Cuerpo humano",
+"nv": 1
+},
+{
+"p": "El oro es más denso que el plomo.",
+"v": true,
+"e": "El oro pesa unos 19,3 gramos por centímetro cúbico, y el plomo, unos 11,3.",
+"t": "Ciencia",
+"nv": 2
+},
+{
+"p": "Marte tiene dos lunas.",
+"v": true,
+"e": "Se llaman Fobos y Deimos, y son mucho más pequeñas que la Luna.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "Saturno es el único planeta del sistema solar con anillos.",
+"v": false,
+"e": "Júpiter, Urano y Neptuno también los tienen, aunque son mucho más tenues.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "La Tierra tarda exactamente 24 horas en girar sobre sí misma.",
+"v": false,
+"e": "Una vuelta completa respecto a las estrellas dura unas 23 horas y 56 minutos; el día de 24 horas incluye el avance de la Tierra en su órbita.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "El Sol sale exactamente por el este todos los días del año.",
+"v": false,
+"e": "Solo sale justo por el este en los equinoccios; el resto del año sale algo al norte o al sur.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "Mercurio es el planeta más caluroso porque es el más cercano al Sol.",
+"v": false,
+"e": "El más caluroso es Venus, cuya densa atmósfera retiene el calor y supera los 450 °C.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "El mar Mediterráneo está completamente cerrado, sin ninguna salida a otro mar u océano.",
+"v": false,
+"e": "Se comunica con el océano Atlántico por el estrecho de Gibraltar.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "La Antártida es el continente más seco de la Tierra.",
+"v": true,
+"e": "Apenas recibe precipitaciones: casi todo su hielo se ha acumulado durante miles de años.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "El río Nilo desemboca en el mar Mediterráneo.",
+"v": true,
+"e": "Forma un gran delta en el norte de Egipto antes de llegar al mar.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "El ajedrez se inventó en Europa.",
+"v": false,
+"e": "Procede de la India, donde se jugaba una versión antigua llamada chaturanga.",
+"t": "Cultura",
+"nv": 2
+},
+{
+"p": "El papel se inventó en China.",
+"v": true,
+"e": "Se atribuye su invención a Cai Lun, hacia el año 105 de nuestra era.",
+"t": "Historia",
+"nv": 1
+},
+{
+"p": "Leonardo da Vinci pintó el techo de la Capilla Sixtina.",
+"v": false,
+"e": "Lo pintó Miguel Ángel entre 1508 y 1512.",
+"t": "Historia",
+"nv": 1
+},
+{
+"p": "El Titanic se hundió en su viaje de regreso a Southampton.",
+"v": false,
+"e": "Se hundió en su viaje inaugural, que iba de Southampton a Nueva York.",
+"t": "Historia",
+"nv": 2
+},
+{
+"p": "La Gran Muralla china es una única muralla continua.",
+"v": false,
+"e": "Es un conjunto de muros y tramos levantados por distintas dinastías a lo largo de siglos.",
+"t": "Historia",
+"nv": 3
 }
 ]
 }

@@ -27,12 +27,15 @@
 <meta name="twitter:title" content="Palabra Infinita: juego tipo Wordle en español">
 <meta name="twitter:description" content="Juego tipo Wordle en español: la palabra de hoy, igual para todos, y partidas libres. 6 intentos y de 4 a 7 letras. Sin registro.">
 <meta name="twitter:image" content="https://trabajoyjuego.es/assets/img/og.png">
-<link rel="stylesheet" href="../../assets/css/comun.css?v=2c9c8ec9">
-<link rel="stylesheet" href="../../assets/css/juegos.css?v=a37a499e">
+<link rel="preload" href="../../assets/fonts/cuadritos-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../assets/fonts/heros-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b5ee6ec0">
+<link rel="stylesheet" href="../../assets/css/juegos.css?v=f5dc461d">
 <link rel="stylesheet" href="app.css?v=e5b1f30e">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Palabra Infinita: juego tipo Wordle en español","description":"Juego tipo Wordle en español: la palabra de hoy, igual para todos, y partidas libres. 6 intentos y de 4 a 7 letras. Sin registro.","url":"https://trabajoyjuego.es/juegos/palabra-infinita/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","browserRequirements":"Requiere JavaScript","applicationCategory":"GameApplication","datePublished":"2026-11-13","image":"https://trabajoyjuego.es/assets/img/og.png","isPartOf":{"@id":"https://trabajoyjuego.es/#sitio"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"},"keywords":"wordle en español, juego tipo wordle, adivinar palabras, español, un jugador, reto diario"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Juegos","item":"https://trabajoyjuego.es/juegos/"},{"@type":"ListItem","position":3,"name":"Palabras","item":"https://trabajoyjuego.es/juegos/categoria/palabras/"},{"@type":"ListItem","position":4,"name":"Palabra Infinita: juego tipo Wordle en español","item":"https://trabajoyjuego.es/juegos/palabra-infinita/"}]}</script>
-<script src="../../assets/js/analitica.js?v=9a8d918c"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Es lo mismo que Wordle?","acceptedAnswer":{"@type":"Answer","text":"Es del mismo estilo, pero no es Wordle ni está afiliado a él. Las reglas de colores son las que ya conoces de los juegos de este género; aquí, además, puedes elegir la longitud de la palabra y jugar todas las partidas que quieras."}},{"@type":"Question","name":"¿Hay una palabra distinta cada día como en Wordle?","acceptedAnswer":{"@type":"Answer","text":"Sí. Al abrir el juego aparece la palabra de hoy, con un número de reto, igual para todos y distinta por cada longitud. Cambia a medianoche (hora de Madrid). Si quieres más partidas, elige «Partida libre»."}},{"@type":"Question","name":"¿Se puede jugar sin límite de partidas?","acceptedAnswer":{"@type":"Answer","text":"Sí. Cada vez que terminas una palabra puedes empezar otra, y el juego evita repetir las que ya han salido en esa sesión."}},{"@type":"Question","name":"¿Por qué el juego no acepta una palabra que sí existe?","acceptedAnswer":{"@type":"Answer","text":"Puede que sea una palabra muy rara o reciente que el diccionario no recoge. Si se pronuncia como una palabra, pulsa Intro una segunda vez y se usará como intento; si son letras sin sentido, el juego la rechaza sin gastar intento."}},{"@type":"Question","name":"¿Cómo se cuentan las letras repetidas?","acceptedAnswer":{"@type":"Answer","text":"Si la palabra oculta tiene una sola A y tú escribes dos, solo una se pinta de verde o amarillo y la otra queda gris. Si tiene dos, se pintan las dos."}},{"@type":"Question","name":"¿Puedo compartir mi resultado?","acceptedAnswer":{"@type":"Answer","text":"Al acabar, el botón «Compartir resultado» copia un resumen con cuadros de colores y sin la palabra, para que nadie tenga spoilers."}}]}</script>
+<script src="../../assets/js/analitica.js?v=f849f6c7"></script>
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NXS4G4GQ"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9072387937265621" crossorigin="anonymous"></script>
 
@@ -41,7 +44,7 @@
 <a class="salto" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="contenedor cabecera-interior">
-    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52"></a>
     <nav class="cabecera-nav" aria-label="Secciones">
       <ul>
         <li data-grupo="trabajo"><a href="../../herramientas/">Herramientas</a></li>
@@ -132,7 +135,7 @@
   <p>Empieza con una palabra que reúna vocales distintas y consonantes frecuentes en español (R, S, N, L, T, D). Después, aprovecha el gris: una letra descartada no vuelve a hacer falta. Si dudas entre dos letras repetidas, prueba una palabra que las separe para salir de dudas antes de arriesgar.</p>
 
   <h2>Sobre las palabras del juego</h2>
-  <p>Las palabras las ha escrito el equipo a mano y no proceden de un diccionario oficial, así que puede que falte alguna válida. Si escribes una palabra que el juego no conoce, te avisa y puedes pulsar <kbd>Intro</kbd> otra vez para usarla igualmente como intento. Las estadísticas de la partida (jugadas, ganadas y racha) solo se guardan mientras la página siga abierta: al recargarla vuelven a cero, porque el juego no guarda nada en tu dispositivo.</p>
+  <p>Las palabras ocultas las ha escrito el equipo a mano, todas comunes y de uso corriente. Para probar vale cualquier palabra del español: el juego las comprueba con un diccionario de más de seiscientas mil formas, plurales y conjugaciones incluidos. Si escribes algo que no encuentra pero suena a palabra, te avisa y puedes pulsar <kbd>Intro</kbd> otra vez para usarla igualmente como intento; si son letras sin sentido, no la acepta y no gastas intento. Las estadísticas de la partida (jugadas, ganadas y racha) solo se guardan mientras la página siga abierta: al recargarla vuelven a cero, porque el juego no guarda nada en tu dispositivo.</p>
 
   <h2>Preguntas frecuentes</h2>
   <details>
@@ -149,7 +152,7 @@
   </details>
   <details>
     <summary>¿Por qué el juego no acepta una palabra que sí existe?</summary>
-    <p>Porque su lista es limitada. Pulsa Intro una segunda vez con esa misma palabra y se usará como intento.</p>
+    <p>Puede que sea una palabra muy rara o reciente que el diccionario no recoge. Si se pronuncia como una palabra, pulsa Intro una segunda vez y se usará como intento; si son letras sin sentido, el juego la rechaza sin gastar intento.</p>
   </details>
   <details>
     <summary>¿Cómo se cuentan las letras repetidas?</summary>
@@ -182,7 +185,7 @@
 <footer class="pie">
   <div class="contenedor pie-interior">
     <div class="pie-marca">
-      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52" loading="lazy" decoding="async"></a>
       <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
     </div>
     <nav class="pie-nav" aria-label="Secciones, en el pie de página">
@@ -210,14 +213,16 @@
       <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
       <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
       <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../actualizaciones/">Actualizaciones</a></li>
       <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
     </ul>
   </nav>
   <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
 </footer>
 
-<script src="../../assets/js/juegos.js?v=1b9a760d" defer></script>
-<script src="../../assets/js/anuncio.js?v=0d1ec2d9" defer></script>
-<script src="app.js?v=4bef38b7" defer></script>
+<script src="../../assets/js/juegos.js?v=0c229eb8" defer></script>
+<script src="../../assets/js/juegos-diccionario.js?v=128d18a6" defer></script>
+<script src="../../assets/js/anuncio.js?v=e25ae78c" defer></script>
+<script src="app.js?v=138feee4" defer></script>
 </body>
 </html>

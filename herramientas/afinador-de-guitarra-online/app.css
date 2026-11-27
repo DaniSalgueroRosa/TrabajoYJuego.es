@@ -1,15 +1,1 @@
-.afinador { display: grid; gap: var(--e3); justify-items: center; padding: var(--e5); border: 3px solid var(--pizarra); background: var(--papel); text-align: center; }
-.afi-nota { margin: 0; font: 800 clamp(3.2rem, 12vw, 5.5rem) / 1 var(--f-trabajo); }
-.afi-cents { margin: 0; font: 700 var(--t1) / 1 var(--f-trabajo); font-variant-numeric: tabular-nums; min-height: 1.3rem; }
-.afi-veredicto { margin: 0; font-weight: 700; font-size: var(--t1); }
-.afi-veredicto.es-afinada { background: var(--limon); padding: 0 var(--e3); }
-.afi-medidor { position: relative; width: min(100%, 28rem); height: 2.4rem; border: 3px solid var(--pizarra); background: var(--papel-trabajo); }
-.afi-zona { position: absolute; left: 45%; width: 10%; top: 0; bottom: 0; background: var(--limon-claro); }
-.afi-centro { position: absolute; left: 50%; top: -0.5rem; bottom: -0.5rem; width: 2px; background: var(--pizarra); }
-.afi-aguja { position: absolute; top: -0.35rem; bottom: -0.35rem; width: 0.5rem; margin-left: -0.25rem; background: var(--sandia-texto); border: 2px solid var(--pizarra); }
-.afi-medidor.es-afinada .afi-aguja { background: var(--limon); }
-@media (prefers-reduced-motion: no-preference) { .afi-aguja { transition: left 0.12s linear; } }
-.afi-cuerdas { display: flex; flex-wrap: wrap; gap: var(--e3); }
-.afi-cuerda { display: grid; gap: 0; justify-items: center; min-width: 5.5rem; }
-.afi-cuerda-nombre { font-weight: 800; font-size: var(--t1); }
-.afi-cuerda.es-objetivo { background: var(--limon); border-color: var(--pizarra); }
+.afinador{display:grid;gap:var(--e3);justify-items:center;padding:var(--e5);border:3px solid var(--pizarra);background:var(--papel);text-align:center}.afi-nota{margin:0;font:800 clamp(3.2rem,12vw,5.5rem) / 1 var(--f-trabajo)}.afi-cents{margin:0;font:700 var(--t1) / 1 var(--f-trabajo);font-variant-numeric:tabular-nums;min-height:1.3rem}.afi-veredicto{margin:0;font-weight:700;font-size:var(--t1)}.afi-veredicto.es-afinada{background:var(--limon);padding:0 var(--e3)}.afi-medidor{position:relative;width:min(100%,28rem);height:2.4rem;border:3px solid var(--pizarra);background:var(--papel-trabajo)}.afi-zona{position:absolute;left:45%;width:10%;top:0;bottom:0;background:var(--limon-claro)}.afi-centro{position:absolute;left:50%;top:-0.5rem;bottom:-0.5rem;width:2px;background:var(--pizarra)}.afi-aguja{position:absolute;top:-0.35rem;bottom:-0.35rem;width:0.5rem;margin-left:-0.25rem;background:var(--sandia-texto);border:2px solid var(--pizarra)}.afi-medidor.es-afinada .afi-aguja{background:var(--limon)}@media (prefers-reduced-motion:no-preference){.afi-aguja{transition:left 0.12s linear}}.afi-cuerdas{display:flex;flex-wrap:wrap;gap:var(--e3)}.afi-cuerda{display:grid;gap:0;justify-items:center;min-width:5.5rem}.afi-cuerda-nombre{font-weight:800;font-size:var(--t1)}.afi-cuerda.es-objetivo{background:var(--limon);border-color:var(--pizarra)}

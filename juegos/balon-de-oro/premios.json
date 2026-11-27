@@ -1,281 +1,350 @@
 {
- "_nota": "Ganadores del Balón de Oro (France Football) desde 1956. En 2020 no se entregó por la pandemia. Datos hasta la edición de 2025.",
- "premios": [
-  {
-   "a": 1956,
-   "n": "Stanley Matthews"
-  },
-  {
-   "a": 1957,
-   "n": "Alfredo Di Stéfano"
-  },
-  {
-   "a": 1958,
-   "n": "Raymond Kopa"
-  },
-  {
-   "a": 1959,
-   "n": "Alfredo Di Stéfano"
-  },
-  {
-   "a": 1960,
-   "n": "Luis Suárez Miramontes"
-  },
-  {
-   "a": 1961,
-   "n": "Omar Sívori"
-  },
-  {
-   "a": 1962,
-   "n": "Josef Masopust"
-  },
-  {
-   "a": 1963,
-   "n": "Lev Yashin"
-  },
-  {
-   "a": 1964,
-   "n": "Denis Law"
-  },
-  {
-   "a": 1965,
-   "n": "Eusébio"
-  },
-  {
-   "a": 1966,
-   "n": "Bobby Charlton"
-  },
-  {
-   "a": 1967,
-   "n": "Flórián Albert"
-  },
-  {
-   "a": 1968,
-   "n": "George Best"
-  },
-  {
-   "a": 1969,
-   "n": "Gianni Rivera"
-  },
-  {
-   "a": 1970,
-   "n": "Gerd Müller"
-  },
-  {
-   "a": 1971,
-   "n": "Johan Cruyff"
-  },
-  {
-   "a": 1972,
-   "n": "Franz Beckenbauer"
-  },
-  {
-   "a": 1973,
-   "n": "Johan Cruyff"
-  },
-  {
-   "a": 1974,
-   "n": "Johan Cruyff"
-  },
-  {
-   "a": 1975,
-   "n": "Oleg Blokhin"
-  },
-  {
-   "a": 1976,
-   "n": "Franz Beckenbauer"
-  },
-  {
-   "a": 1977,
-   "n": "Allan Simonsen"
-  },
-  {
-   "a": 1978,
-   "n": "Kevin Keegan"
-  },
-  {
-   "a": 1979,
-   "n": "Kevin Keegan"
-  },
-  {
-   "a": 1980,
-   "n": "Karl-Heinz Rummenigge"
-  },
-  {
-   "a": 1981,
-   "n": "Karl-Heinz Rummenigge"
-  },
-  {
-   "a": 1982,
-   "n": "Paolo Rossi"
-  },
-  {
-   "a": 1983,
-   "n": "Michel Platini"
-  },
-  {
-   "a": 1984,
-   "n": "Michel Platini"
-  },
-  {
-   "a": 1985,
-   "n": "Michel Platini"
-  },
-  {
-   "a": 1986,
-   "n": "Igor Belánov"
-  },
-  {
-   "a": 1987,
-   "n": "Ruud Gullit"
-  },
-  {
-   "a": 1988,
-   "n": "Marco van Basten"
-  },
-  {
-   "a": 1989,
-   "n": "Marco van Basten"
-  },
-  {
-   "a": 1990,
-   "n": "Lothar Matthäus"
-  },
-  {
-   "a": 1991,
-   "n": "Jean-Pierre Papin"
-  },
-  {
-   "a": 1992,
-   "n": "Marco van Basten"
-  },
-  {
-   "a": 1993,
-   "n": "Roberto Baggio"
-  },
-  {
-   "a": 1994,
-   "n": "Hristo Stoichkov"
-  },
-  {
-   "a": 1995,
-   "n": "George Weah"
-  },
-  {
-   "a": 1996,
-   "n": "Matthias Sammer"
-  },
-  {
-   "a": 1997,
-   "n": "Ronaldo"
-  },
-  {
-   "a": 1998,
-   "n": "Zinedine Zidane"
-  },
-  {
-   "a": 1999,
-   "n": "Rivaldo"
-  },
-  {
-   "a": 2000,
-   "n": "Luís Figo"
-  },
-  {
-   "a": 2001,
-   "n": "Michael Owen"
-  },
-  {
-   "a": 2002,
-   "n": "Ronaldo"
-  },
-  {
-   "a": 2003,
-   "n": "Pavel Nedvěd"
-  },
-  {
-   "a": 2004,
-   "n": "Andriy Shevchenko"
-  },
-  {
-   "a": 2005,
-   "n": "Ronaldinho"
-  },
-  {
-   "a": 2006,
-   "n": "Fabio Cannavaro"
-  },
-  {
-   "a": 2007,
-   "n": "Kaká"
-  },
-  {
-   "a": 2008,
-   "n": "Cristiano Ronaldo"
-  },
-  {
-   "a": 2009,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2010,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2011,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2012,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2013,
-   "n": "Cristiano Ronaldo"
-  },
-  {
-   "a": 2014,
-   "n": "Cristiano Ronaldo"
-  },
-  {
-   "a": 2015,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2016,
-   "n": "Cristiano Ronaldo"
-  },
-  {
-   "a": 2017,
-   "n": "Cristiano Ronaldo"
-  },
-  {
-   "a": 2018,
-   "n": "Luka Modrić"
-  },
-  {
-   "a": 2019,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2021,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2022,
-   "n": "Karim Benzema"
-  },
-  {
-   "a": 2023,
-   "n": "Lionel Messi"
-  },
-  {
-   "a": 2024,
-   "n": "Rodri"
-  },
-  {
-   "a": 2025,
-   "n": "Ousmane Dembélé"
-  }
- ]
+"_nota": "Ganadores del Balón de Oro (France Football) desde 1956. En 2020 no se entregó por la pandemia. Datos hasta la edición de 2025.",
+"premios": [
+{
+"a": 1956,
+"n": "Stanley Matthews",
+"nv": 3
+},
+{
+"a": 1957,
+"n": "Alfredo Di Stéfano",
+"nv": 2
+},
+{
+"a": 1958,
+"n": "Raymond Kopa",
+"nv": 3
+},
+{
+"a": 1959,
+"n": "Alfredo Di Stéfano",
+"nv": 2
+},
+{
+"a": 1960,
+"n": "Luis Suárez Miramontes",
+"nv": 2
+},
+{
+"a": 1961,
+"n": "Omar Sívori",
+"nv": 3
+},
+{
+"a": 1962,
+"n": "Josef Masopust",
+"nv": 3
+},
+{
+"a": 1963,
+"n": "Lev Yashin",
+"nv": 2
+},
+{
+"a": 1964,
+"n": "Denis Law",
+"nv": 3
+},
+{
+"a": 1965,
+"n": "Eusébio",
+"nv": 2
+},
+{
+"a": 1966,
+"n": "Bobby Charlton",
+"nv": 2
+},
+{
+"a": 1967,
+"n": "Flórián Albert",
+"nv": 3
+},
+{
+"a": 1968,
+"n": "George Best",
+"nv": 2
+},
+{
+"a": 1969,
+"n": "Gianni Rivera",
+"nv": 3
+},
+{
+"a": 1970,
+"n": "Gerd Müller",
+"nv": 2
+},
+{
+"a": 1971,
+"n": "Johan Cruyff",
+"nv": 1
+},
+{
+"a": 1972,
+"n": "Franz Beckenbauer",
+"nv": 2
+},
+{
+"a": 1973,
+"n": "Johan Cruyff",
+"nv": 1
+},
+{
+"a": 1974,
+"n": "Johan Cruyff",
+"nv": 1
+},
+{
+"a": 1975,
+"n": "Oleg Blokhin",
+"nv": 3
+},
+{
+"a": 1976,
+"n": "Franz Beckenbauer",
+"nv": 2
+},
+{
+"a": 1977,
+"n": "Allan Simonsen",
+"nv": 3
+},
+{
+"a": 1978,
+"n": "Kevin Keegan",
+"nv": 3
+},
+{
+"a": 1979,
+"n": "Kevin Keegan",
+"nv": 3
+},
+{
+"a": 1980,
+"n": "Karl-Heinz Rummenigge",
+"nv": 3
+},
+{
+"a": 1981,
+"n": "Karl-Heinz Rummenigge",
+"nv": 3
+},
+{
+"a": 1982,
+"n": "Paolo Rossi",
+"nv": 2
+},
+{
+"a": 1983,
+"n": "Michel Platini",
+"nv": 2
+},
+{
+"a": 1984,
+"n": "Michel Platini",
+"nv": 2
+},
+{
+"a": 1985,
+"n": "Michel Platini",
+"nv": 2
+},
+{
+"a": 1986,
+"n": "Igor Belánov",
+"nv": 3
+},
+{
+"a": 1987,
+"n": "Ruud Gullit",
+"nv": 2
+},
+{
+"a": 1988,
+"n": "Marco van Basten",
+"nv": 2
+},
+{
+"a": 1989,
+"n": "Marco van Basten",
+"nv": 2
+},
+{
+"a": 1990,
+"n": "Lothar Matthäus",
+"nv": 2
+},
+{
+"a": 1991,
+"n": "Jean-Pierre Papin",
+"nv": 3
+},
+{
+"a": 1992,
+"n": "Marco van Basten",
+"nv": 2
+},
+{
+"a": 1993,
+"n": "Roberto Baggio",
+"nv": 2
+},
+{
+"a": 1994,
+"n": "Hristo Stoichkov",
+"nv": 3
+},
+{
+"a": 1995,
+"n": "George Weah",
+"nv": 3
+},
+{
+"a": 1996,
+"n": "Matthias Sammer",
+"nv": 3
+},
+{
+"a": 1997,
+"n": "Ronaldo",
+"nv": 1
+},
+{
+"a": 1998,
+"n": "Zinedine Zidane",
+"nv": 1
+},
+{
+"a": 1999,
+"n": "Rivaldo",
+"nv": 2
+},
+{
+"a": 2000,
+"n": "Luís Figo",
+"nv": 2
+},
+{
+"a": 2001,
+"n": "Michael Owen",
+"nv": 3
+},
+{
+"a": 2002,
+"n": "Ronaldo",
+"nv": 1
+},
+{
+"a": 2003,
+"n": "Pavel Nedvěd",
+"nv": 3
+},
+{
+"a": 2004,
+"n": "Andriy Shevchenko",
+"nv": 2
+},
+{
+"a": 2005,
+"n": "Ronaldinho",
+"nv": 1
+},
+{
+"a": 2006,
+"n": "Fabio Cannavaro",
+"nv": 2
+},
+{
+"a": 2007,
+"n": "Kaká",
+"nv": 2
+},
+{
+"a": 2008,
+"n": "Cristiano Ronaldo",
+"nv": 1
+},
+{
+"a": 2009,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2010,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2011,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2012,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2013,
+"n": "Cristiano Ronaldo",
+"nv": 1
+},
+{
+"a": 2014,
+"n": "Cristiano Ronaldo",
+"nv": 1
+},
+{
+"a": 2015,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2016,
+"n": "Cristiano Ronaldo",
+"nv": 1
+},
+{
+"a": 2017,
+"n": "Cristiano Ronaldo",
+"nv": 1
+},
+{
+"a": 2018,
+"n": "Luka Modrić",
+"nv": 1
+},
+{
+"a": 2019,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2021,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2022,
+"n": "Karim Benzema",
+"nv": 1
+},
+{
+"a": 2023,
+"n": "Lionel Messi",
+"nv": 1
+},
+{
+"a": 2024,
+"n": "Rodri",
+"nv": 1
+},
+{
+"a": 2025,
+"n": "Ousmane Dembélé",
+"nv": 1
+}
+]
 }

@@ -4,562 +4,674 @@
 {
 "p": "Alemania",
 "c": "Berlín",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Austria",
 "c": "Viena",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Bélgica",
 "c": "Bruselas",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Bulgaria",
 "c": "Sofía",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Croacia",
 "c": "Zagreb",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Dinamarca",
 "c": "Copenhague",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Eslovaquia",
 "c": "Bratislava",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Eslovenia",
 "c": "Liubliana",
-"r": "europa"
+"r": "europa",
+"nv": 3
 },
 {
 "p": "España",
 "c": "Madrid",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Estonia",
 "c": "Tallin",
-"r": "europa"
+"r": "europa",
+"nv": 3
 },
 {
 "p": "Finlandia",
 "c": "Helsinki",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Francia",
 "c": "París",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Grecia",
 "c": "Atenas",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Hungría",
 "c": "Budapest",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Irlanda",
 "c": "Dublín",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Islandia",
 "c": "Reikiavik",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Italia",
 "c": "Roma",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Letonia",
 "c": "Riga",
-"r": "europa"
+"r": "europa",
+"nv": 3
 },
 {
 "p": "Lituania",
 "c": "Vilna",
-"r": "europa"
+"r": "europa",
+"nv": 3
 },
 {
 "p": "Noruega",
 "c": "Oslo",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Países Bajos",
 "c": "Ámsterdam",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Polonia",
 "c": "Varsovia",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Portugal",
 "c": "Lisboa",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Reino Unido",
 "c": "Londres",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "República Checa",
 "c": "Praga",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Rumanía",
 "c": "Bucarest",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Serbia",
 "c": "Belgrado",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Suecia",
 "c": "Estocolmo",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Suiza",
 "c": "Berna",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Ucrania",
 "c": "Kiev",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Albania",
 "c": "Tirana",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Bielorrusia",
 "c": "Minsk",
-"r": "europa"
+"r": "europa",
+"nv": 2
 },
 {
 "p": "Malta",
 "c": "La Valeta",
-"r": "europa"
+"r": "europa",
+"nv": 3
 },
 {
 "p": "Chipre",
 "c": "Nicosia",
-"r": "europa"
+"r": "europa",
+"nv": 3
 },
 {
 "p": "Rusia",
 "c": "Moscú",
-"r": "europa"
+"r": "europa",
+"nv": 1
 },
 {
 "p": "Argentina",
 "c": "Buenos Aires",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Brasil",
 "c": "Brasilia",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Canadá",
 "c": "Ottawa",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Chile",
 "c": "Santiago",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Colombia",
 "c": "Bogotá",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Costa Rica",
 "c": "San José",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Cuba",
 "c": "La Habana",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Ecuador",
 "c": "Quito",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "El Salvador",
 "c": "San Salvador",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Estados Unidos",
 "c": "Washington D. C.",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Guatemala",
 "c": "Ciudad de Guatemala",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Honduras",
 "c": "Tegucigalpa",
-"r": "america"
+"r": "america",
+"nv": 3
 },
 {
 "p": "México",
 "c": "Ciudad de México",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Nicaragua",
 "c": "Managua",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Panamá",
 "c": "Ciudad de Panamá",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Paraguay",
 "c": "Asunción",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Perú",
 "c": "Lima",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "República Dominicana",
 "c": "Santo Domingo",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Uruguay",
 "c": "Montevideo",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Venezuela",
 "c": "Caracas",
-"r": "america"
+"r": "america",
+"nv": 1
 },
 {
 "p": "Jamaica",
 "c": "Kingston",
-"r": "america"
+"r": "america",
+"nv": 2
 },
 {
 "p": "Haití",
 "c": "Puerto Príncipe",
-"r": "america"
+"r": "america",
+"nv": 3
 },
 {
 "p": "Arabia Saudí",
 "c": "Riad",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "China",
 "c": "Pekín",
-"r": "asia"
+"r": "asia",
+"nv": 1
 },
 {
 "p": "Corea del Sur",
 "c": "Seúl",
-"r": "asia"
+"r": "asia",
+"nv": 1
 },
 {
 "p": "Filipinas",
 "c": "Manila",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "India",
 "c": "Nueva Delhi",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Indonesia",
 "c": "Yakarta",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Irak",
 "c": "Bagdad",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Irán",
 "c": "Teherán",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Japón",
 "c": "Tokio",
-"r": "asia"
+"r": "asia",
+"nv": 1
 },
 {
 "p": "Jordania",
 "c": "Amán",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Kazajistán",
 "c": "Astaná",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Líbano",
 "c": "Beirut",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Malasia",
 "c": "Kuala Lumpur",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Mongolia",
 "c": "Ulán Bator",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Nepal",
 "c": "Katmandú",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Pakistán",
 "c": "Islamabad",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Siria",
 "c": "Damasco",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Tailandia",
 "c": "Bangkok",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Turquía",
 "c": "Ankara",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Vietnam",
 "c": "Hanói",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Afganistán",
 "c": "Kabul",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Bangladés",
 "c": "Daca",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Camboya",
 "c": "Nom Pen",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Catar",
 "c": "Doha",
-"r": "asia"
+"r": "asia",
+"nv": 2
 },
 {
 "p": "Georgia",
 "c": "Tiflis",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Armenia",
 "c": "Ereván",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Azerbaiyán",
 "c": "Bakú",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Uzbekistán",
 "c": "Taskent",
-"r": "asia"
+"r": "asia",
+"nv": 3
 },
 {
 "p": "Argelia",
 "c": "Argel",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Angola",
 "c": "Luanda",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Camerún",
 "c": "Yaundé",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Egipto",
 "c": "El Cairo",
-"r": "africa"
+"r": "africa",
+"nv": 1
 },
 {
 "p": "Etiopía",
 "c": "Adís Abeba",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Ghana",
 "c": "Acra",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Kenia",
 "c": "Nairobi",
-"r": "africa"
+"r": "africa",
+"nv": 2
 },
 {
 "p": "Libia",
 "c": "Trípoli",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Marruecos",
 "c": "Rabat",
-"r": "africa"
+"r": "africa",
+"nv": 2
 },
 {
 "p": "Mozambique",
 "c": "Maputo",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Nigeria",
 "c": "Abuya",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Senegal",
 "c": "Dakar",
-"r": "africa"
+"r": "africa",
+"nv": 2
 },
 {
 "p": "Túnez",
 "c": "Túnez",
-"r": "africa"
+"r": "africa",
+"nv": 2
 },
 {
 "p": "Uganda",
 "c": "Kampala",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Zimbabue",
 "c": "Harare",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Mali",
 "c": "Bamako",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Madagascar",
 "c": "Antananarivo",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Namibia",
 "c": "Windhoek",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Zambia",
 "c": "Lusaka",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Sudán",
 "c": "Jartum",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Somalia",
 "c": "Mogadiscio",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Ruanda",
 "c": "Kigali",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Botsuana",
 "c": "Gaborone",
-"r": "africa"
+"r": "africa",
+"nv": 3
 },
 {
 "p": "Australia",
 "c": "Canberra",
-"r": "oceania"
+"r": "oceania",
+"nv": 2
 },
 {
 "p": "Nueva Zelanda",
 "c": "Wellington",
-"r": "oceania"
+"r": "oceania",
+"nv": 2
 },
 {
 "p": "Fiyi",
 "c": "Suva",
-"r": "oceania"
+"r": "oceania",
+"nv": 3
 },
 {
 "p": "Papúa Nueva Guinea",
 "c": "Port Moresby",
-"r": "oceania"
+"r": "oceania",
+"nv": 3
 }
 ]
 }

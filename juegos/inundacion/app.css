@@ -1,14 +1,1 @@
-/* INUNDACIÓN: tablero cuadrado de casillas con color y número, y una fila de botones de color. */
-.inu-tablero { display: grid; gap: 2px; width: min(100%, 26rem); padding: 6px; background: var(--noche-linea); }
-.inu-celda { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; font-weight: 700; font-size: clamp(0.6rem, 2.6vw, 0.95rem); color: #0f2a24; }
-.inu-colores { display: flex; flex-wrap: wrap; gap: 8px; }
-.inu-color { display: inline-flex; align-items: center; justify-content: center; min-width: 3.2rem; min-height: 3.2rem; padding: 0; border: 3px solid var(--tinta); border-radius: 0; cursor: pointer; font: inherit; font-weight: 700; font-size: 1.3rem; color: #0f2a24; }
-.inu-color:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
-/* el color que ya tiene la zona inundada no se puede elegir: se marca con rayas claras, no con transparencia, para que el número siga leyéndose bien */
-.inu-color:disabled { cursor: default; background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.6) 0 4px, transparent 4px 8px); }
-.inu-c0 { background: #e6ef3a; }
-.inu-c1 { background: #ff7aa8; }
-.inu-c2 { background: #4fd1e5; }
-.inu-c3 { background: #ffa94d; }
-.inu-c4 { background: #b69cff; }
-.inu-c5 { background: #7be495; }
+.inu-tablero{display:grid;gap:2px;width:min(100%,26rem);padding:6px;background:var(--noche-linea)}.inu-celda{aspect-ratio:1;display:grid;place-items:center;min-width:0;font-weight:700;font-size:clamp(0.6rem,2.6vw,0.95rem);color:#0f2a24}.inu-colores{display:flex;flex-wrap:wrap;gap:8px}.inu-color{display:inline-flex;align-items:center;justify-content:center;min-width:3.2rem;min-height:3.2rem;padding:0;border:3px solid var(--tinta);border-radius:0;cursor:pointer;font:inherit;font-weight:700;font-size:1.3rem;color:#0f2a24}.inu-color:focus-visible{outline:3px solid var(--limon);outline-offset:2px}.inu-color:disabled{cursor:default;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,0.6) 0 4px,transparent 4px 8px)}.inu-c0{background:#e6ef3a}.inu-c1{background:#ff7aa8}.inu-c2{background:#4fd1e5}.inu-c3{background:#ffa94d}.inu-c4{background:#b69cff}.inu-c5{background:#7be495}

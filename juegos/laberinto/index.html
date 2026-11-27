@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src &#x27;self&#x27;; script-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; https:; style-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; https:; img-src &#x27;self&#x27; data: blob: https:; font-src &#x27;self&#x27; data: https:; connect-src &#x27;self&#x27; https:; media-src &#x27;self&#x27; blob: data: https:; worker-src &#x27;self&#x27; blob:; manifest-src &#x27;self&#x27;; frame-src https:; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;self&#x27;">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Laberinto: encuentra la salida | TrabajoYJuego</title>
-<meta name="description" content="Laberinto online que cambia en cada partida: llega desde la esquina superior izquierda hasta la salida con las flechas o los botones del móvil.">
+<meta name="description" content="Laberinto online que cambia en cada partida, de 8×8 a 28×28, con niebla y bucles opcionales: llega a la salida con las flechas o los botones del móvil.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="google-adsense-account" content="ca-pub-9072387937265621">
 <link rel="canonical" href="https://trabajoyjuego.es/juegos/laberinto/">
@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="TrabajoYJuego">
 <meta property="og:locale" content="es_ES">
 <meta property="og:title" content="Laberinto: encuentra la salida | TrabajoYJuego">
-<meta property="og:description" content="Laberinto online que cambia en cada partida: llega desde la esquina superior izquierda hasta la salida con las flechas o los botones del móvil.">
+<meta property="og:description" content="Laberinto online que cambia en cada partida, de 8×8 a 28×28, con niebla y bucles opcionales: llega a la salida con las flechas o los botones del móvil.">
 <meta property="og:url" content="https://trabajoyjuego.es/juegos/laberinto/">
 <meta property="og:image" content="https://trabajoyjuego.es/assets/img/og.png">
 <meta property="og:image:width" content="1200">
@@ -25,14 +25,17 @@
 <meta property="og:image:alt" content="Logotipo de TrabajoYJuego">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Laberinto: encuentra la salida | TrabajoYJuego">
-<meta name="twitter:description" content="Laberinto online que cambia en cada partida: llega desde la esquina superior izquierda hasta la salida con las flechas o los botones del móvil.">
+<meta name="twitter:description" content="Laberinto online que cambia en cada partida, de 8×8 a 28×28, con niebla y bucles opcionales: llega a la salida con las flechas o los botones del móvil.">
 <meta name="twitter:image" content="https://trabajoyjuego.es/assets/img/og.png">
-<link rel="stylesheet" href="../../assets/css/comun.css?v=2c9c8ec9">
-<link rel="stylesheet" href="../../assets/css/juegos.css?v=a37a499e">
-<link rel="stylesheet" href="app.css?v=2f8d5caa">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Laberinto: encuentra la salida","description":"Laberinto online que cambia en cada partida: llega desde la esquina superior izquierda hasta la salida con las flechas o los botones del móvil.","url":"https://trabajoyjuego.es/juegos/laberinto/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","browserRequirements":"Requiere JavaScript","applicationCategory":"GameApplication","datePublished":"2026-11-14","image":"https://trabajoyjuego.es/assets/img/og.png","isPartOf":{"@id":"https://trabajoyjuego.es/#sitio"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"},"keywords":"laberinto, maze, un jugador, camino"}</script>
+<link rel="preload" href="../../assets/fonts/cuadritos-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../assets/fonts/heros-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b5ee6ec0">
+<link rel="stylesheet" href="../../assets/css/juegos.css?v=f5dc461d">
+<link rel="stylesheet" href="app.css?v=a7384c60">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Laberinto: encuentra la salida","description":"Laberinto online que cambia en cada partida, de 8×8 a 28×28, con niebla y bucles opcionales: llega a la salida con las flechas o los botones del móvil.","url":"https://trabajoyjuego.es/juegos/laberinto/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","browserRequirements":"Requiere JavaScript","applicationCategory":"GameApplication","datePublished":"2026-11-14","image":"https://trabajoyjuego.es/assets/img/og.png","isPartOf":{"@id":"https://trabajoyjuego.es/#sitio"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"},"keywords":"laberinto, maze, un jugador, camino"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Juegos","item":"https://trabajoyjuego.es/juegos/"},{"@type":"ListItem","position":3,"name":"Arcade","item":"https://trabajoyjuego.es/juegos/categoria/arcade/"},{"@type":"ListItem","position":4,"name":"Laberinto: encuentra la salida","item":"https://trabajoyjuego.es/juegos/laberinto/"}]}</script>
-<script src="../../assets/js/analitica.js?v=9a8d918c"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Hay límite de tiempo?","acceptedAnswer":{"@type":"Answer","text":"No. El cronómetro empieza al dar el primer paso y solo sirve para que compares partidas."}},{"@type":"Question","name":"¿Por qué no me responden las flechas?","acceptedAnswer":{"@type":"Answer","text":"Hay que dar el foco al laberinto: pulsa sobre él o llega a él con la tecla Tab. Las flechas solo se capturan allí para no impedir que la página se desplace en el resto de la pantalla."}},{"@type":"Question","name":"¿Puedo combinar la niebla y los bucles?","acceptedAnswer":{"@type":"Answer","text":"Sí, y con cualquiera de los cinco tamaños. Cada vez que cambias una opción se genera un laberinto nuevo."}},{"@type":"Question","name":"¿Existe siempre una solución?","acceptedAnswer":{"@type":"Answer","text":"Sí. El laberinto se construye conectando todas las casillas, así que la salida está siempre unida con la entrada."}},{"@type":"Question","name":"¿Puedo retroceder?","acceptedAnswer":{"@type":"Answer","text":"Sí, con las flechas contrarias. Cada paso, también hacia atrás, suma a tu contador."}}]}</script>
+<script src="../../assets/js/analitica.js?v=f849f6c7"></script>
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NXS4G4GQ"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9072387937265621" crossorigin="anonymous"></script>
 
@@ -41,7 +44,7 @@
 <a class="salto" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="contenedor cabecera-interior">
-    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52"></a>
     <nav class="cabecera-nav" aria-label="Secciones">
       <ul>
         <li data-grupo="trabajo"><a href="../../herramientas/">Herramientas</a></li>
@@ -75,7 +78,7 @@
 </nav>
 
       <h1 class="ficha-titulo">Laberinto: encuentra la salida</h1>
-      <p class="ficha-lead">Laberinto online que cambia en cada partida: llega desde la esquina superior izquierda hasta la salida con las flechas o los botones del móvil.</p>
+      <p class="ficha-lead">Laberinto online que cambia en cada partida, de 8×8 a 28×28, con niebla y bucles opcionales: llega a la salida con las flechas o los botones del móvil.</p>
       <div class="ficha-meta">
         <p class="ficha-categoria"><span class="solo-lectores">Categoría: </span>Arcade</p>
         <p class="dificultad" data-nivel="1"><span class="dificultad-pips" aria-hidden="true"><i></i><i></i><i></i></span> <span class="dificultad-texto"><span class="solo-lectores">Dificultad: </span>Fácil</span></p>
@@ -103,7 +106,7 @@
   <h2>Cómo se juega</h2>
   <p>Empiezas en la esquina superior izquierda, marcada con un círculo, y debes llegar a la salida, el cuadrado de la esquina inferior derecha. Muévete con las flechas del teclado o con las letras W, A, S y D después de pulsar sobre el laberinto. En el móvil usa los cuatro botones que hay debajo. No puedes atravesar las paredes.</p>
   <h2>Un laberinto distinto cada vez</h2>
-  <p>Los pasillos se generan al empezar con un algoritmo de búsqueda en profundidad. El resultado es un laberinto perfecto: existe un único camino entre dos puntos cualesquiera, sin bucles. Eso significa que la salida siempre se puede alcanzar y que, si te equivocas, basta con retroceder hasta la última bifurcación.</p>
+  <p>Los pasillos se generan al empezar con un algoritmo de búsqueda en profundidad. Por defecto el resultado es un laberinto perfecto: existe un único camino entre dos puntos cualesquiera, sin bucles (con la opción «Con bucles» deja de serlo, más abajo). Eso significa que la salida siempre se puede alcanzar y que, si te equivocas, basta con retroceder hasta la última bifurcación.</p>
   <aside class="anuncio anuncio--texto" aria-label="Publicidad" data-posicion="texto">
   <p class="anuncio-rotulo">Publicidad</p>
   <ins class="adsbygoogle adsbygoogle--articulo" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-9072387937265621" data-ad-slot="7386689829"></ins>
@@ -111,9 +114,12 @@
 </aside>
 
 <h2>Tamaños y puntuación</h2>
-  <p>Hay tres tamaños: 8×8 para un rato corto, 12×12 como punto medio y 16×16 para los que quieren pensar un poco. Al terminar se compara tu número de pasos con el camino más corto posible. Las casillas por las que ya has pasado se tiñen de un tono más claro para que veas dónde has estado.</p>
+  <p>Hay cinco tamaños: 8×8 para un rato corto, 12×12 como punto medio, 16×16 para los que quieren pensar un poco y los niveles Experto (20×20) y Maestro (28×28) para los que buscan un reto largo. Al terminar se compara tu número de pasos con el camino más corto posible. Las casillas por las que ya has pasado se tiñen de un tono más claro para que veas dónde has estado.</p>
+  <h2>Niebla y bucles</h2>
+  <p>Encima del tamaño puedes activar dos opciones, juntas o por separado. Con «Niebla» solo ves las casillas que tienes a dos pasos de distancia en cualquier dirección. Las que ya has visto se quedan en pantalla, algo apagadas, y las que todavía no, permanecen ocultas. La salida sigue marcada para que sepas hacia dónde ir.</p>
+  <p>Con «Con bucles» el juego abre, además, algunas paredes al azar, más o menos una por cada ocho casillas. El laberinto deja de ser perfecto: hay varios caminos para llegar a la salida y es posible dar vueltas en círculo, así que conviene fijarse en las casillas que ya has pisado. La puntuación compara tus pasos con el camino más corto de todos los posibles.</p>
   <h2>Cómo salir antes</h2>
-  <p>Si te pierdes, una regla clásica funciona en cualquier laberinto perfecto: avanza siempre pegado a la misma pared, la de la derecha o la de la izquierda. Aunque no sea el camino más corto, te llevará a la salida. Si lo que quieres es el mejor resultado, mira primero hacia dónde se abren los pasillos más largos desde el centro.</p>
+  <p>Si te pierdes, una regla clásica funciona en cualquier laberinto perfecto: avanza siempre pegado a la misma pared, la de la derecha o la de la izquierda. Aunque no sea el camino más corto, te llevará a la salida. Esa regla está pensada para laberintos sin bucles: con «Con bucles» activado, prueba otros caminos y apóyate en las casillas ya pisadas. Si lo que quieres es el mejor resultado, mira primero hacia dónde se abren los pasillos más largos desde el centro.</p>
   <h2>Preguntas frecuentes</h2>
   <details>
     <summary>¿Hay límite de tiempo?</summary>
@@ -124,6 +130,10 @@
     <p>Hay que dar el foco al laberinto: pulsa sobre él o llega a él con la tecla Tab. Las flechas solo se capturan allí para no impedir que la página se desplace en el resto de la pantalla.</p>
   </details>
   <details>
+    <summary>¿Puedo combinar la niebla y los bucles?</summary>
+    <p>Sí, y con cualquiera de los cinco tamaños. Cada vez que cambias una opción se genera un laberinto nuevo.</p>
+  </details>
+  <details>
     <summary>¿Existe siempre una solución?</summary>
     <p>Sí. El laberinto se construye conectando todas las casillas, así que la salida está siempre unida con la entrada.</p>
   </details>
@@ -131,6 +141,12 @@
     <summary>¿Puedo retroceder?</summary>
     <p>Sí, con las flechas contrarias. Cada paso, también hacia atrás, suma a tu contador.</p>
   </details>
+<aside class="anuncio-lateral" aria-label="Publicidad" data-posicion="lateral" data-lateral>
+  <div class="anuncio-lateral-pegado">
+    <p class="anuncio-rotulo">Publicidad</p>
+    <ins class="adsbygoogle adsbygoogle--lateral" data-ad-client="ca-pub-9072387937265621" data-ad-slot="6951701865"></ins>
+  </div>
+</aside>
 </div>
 
     <p class="ficha-volver ficha-volver--pie"><a class="boton-retro" href="../../juegos/">Volver a todos los juegos</a></p>
@@ -148,7 +164,7 @@
 <footer class="pie">
   <div class="contenedor pie-interior">
     <div class="pie-marca">
-      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52" loading="lazy" decoding="async"></a>
       <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
     </div>
     <nav class="pie-nav" aria-label="Secciones, en el pie de página">
@@ -176,13 +192,15 @@
       <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
       <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
       <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../actualizaciones/">Actualizaciones</a></li>
       <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
     </ul>
   </nav>
   <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
 </footer>
 
-<script src="../../assets/js/juegos.js?v=1b9a760d" defer></script>
-<script src="app.js?v=900cf0a5" defer></script>
+<script src="../../assets/js/juegos.js?v=0c229eb8" defer></script>
+<script src="../../assets/js/anuncio.js?v=e25ae78c" defer></script>
+<script src="app.js?v=efa7eaa3" defer></script>
 </body>
 </html>

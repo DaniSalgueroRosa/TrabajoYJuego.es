@@ -1,16 +1,1 @@
-/* SUDOKU: tablero de 9×9 con cajas marcadas, casillas relacionadas, números iguales y errores. Contraste ≥ 4.5:1. */
-.sdk-tablero { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); width: min(100%, 28rem); margin: 4px auto; background: var(--noche-linea); border: 3px solid var(--tiza-suave); }
-.sdk-celda { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--noche-2); color: var(--limon);
-  box-shadow: inset 0 0 0 1px var(--noche-linea); font: 400 1.4rem / 1 var(--f-pixel); font-size: round(down, 1.4rem, 10px); }
-.sdk-c3 { border-right: 3px solid var(--tiza-suave); }
-.sdk-f3 { border-bottom: 3px solid var(--tiza-suave); }
-.sdk-fija { color: var(--tiza); }
-.sdk-rel { background: #27403A; }
-.sdk-sel { background: var(--pizarra-media); }
-.sdk-igual { box-shadow: inset 0 0 0 3px var(--limon); }
-.sdk-conf { background: var(--sandia-texto); color: #FFFFFF; }
-.sdk-celda:focus-visible { outline: 3px solid var(--limon); outline-offset: -3px; position: relative; z-index: 1; }
-.sdk-notas { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; height: 100%; color: var(--tiza-suave); font: 400 0.62rem / 1 var(--f-trabajo); place-items: center; }
-.sdk-pad { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; width: min(100%, 28rem); margin: var(--e2) auto; }
-.sdk-num { min-width: 0; min-height: 2.9rem; padding: 0; font-size: 1.2rem; }
-@media (max-width: 24rem) { .sdk-celda { font-size: 1.1rem; } }
+.sdk-tablero{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));width:min(100%,28rem);margin:4px auto;background:var(--noche-linea);border:3px solid var(--tiza-suave)}.sdk-celda{aspect-ratio:1;display:grid;place-items:center;min-width:0;padding:0;border:0;border-radius:0;cursor:pointer;background:var(--noche-2);color:var(--limon);box-shadow:inset 0 0 0 1px var(--noche-linea);font:400 1.4rem / 1 var(--f-pixel);font-size:round(down,1.4rem,10px)}.sdk-c3{border-right:3px solid var(--tiza-suave)}.sdk-f3{border-bottom:3px solid var(--tiza-suave)}.sdk-fija{color:var(--tiza)}.sdk-rel{background:#27403A}.sdk-sel{background:var(--pizarra-media)}.sdk-igual{box-shadow:inset 0 0 0 3px var(--limon)}.sdk-conf{background:var(--sandia-texto);color:#FFFFFF}.sdk-celda:focus-visible{outline:3px solid var(--limon);outline-offset:-3px;position:relative;z-index:1}.sdk-notas{display:grid;grid-template-columns:repeat(3,1fr);width:100%;height:100%;color:var(--tiza-suave);font:400 0.62rem / 1 var(--f-trabajo);place-items:center}.sdk-pad{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;width:min(100%,28rem);margin:var(--e2) auto}.sdk-num{min-width:0;min-height:2.9rem;padding:0;font-size:1.2rem}@media (max-width:24rem){.sdk-celda{font-size:1.1rem}}

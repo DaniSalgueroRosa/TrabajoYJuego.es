@@ -10,7 +10,8 @@
 "no le des de comer"
 ],
 "c": 0,
-"e": "Cuando algo te lo dan gratis, no conviene criticarlo."
+"e": "Cuando algo te lo dan gratis, no conviene criticarlo.",
+"nv": 1
 },
 {
 "p": "Más vale pájaro en mano",
@@ -21,7 +22,8 @@
 "que un vuelo largo"
 ],
 "c": 0,
-"e": "Es mejor tener algo seguro que arriesgarlo por algo mejor que quizá no llegue."
+"e": "Es mejor tener algo seguro que arriesgarlo por algo mejor que quizá no llegue.",
+"nv": 1
 },
 {
 "p": "Quien a buen árbol se arrima,",
@@ -32,7 +34,8 @@
 "buena leña recoge"
 ],
 "c": 0,
-"e": "Si te relacionas con gente influyente o buena, sales beneficiado."
+"e": "Si te relacionas con gente influyente o buena, sales beneficiado.",
+"nv": 2
 },
 {
 "p": "No por mucho madrugar",
@@ -43,7 +46,8 @@
 "se trabaja más"
 ],
 "c": 0,
-"e": "Darse prisa no hace que las cosas salgan antes."
+"e": "Darse prisa no hace que las cosas salgan antes.",
+"nv": 1
 },
 {
 "p": "Al que madruga,",
@@ -54,7 +58,8 @@
 "le sobra el día"
 ],
 "c": 0,
-"e": "Quien empieza pronto sus tareas suele salir ganando."
+"e": "Quien empieza pronto sus tareas suele salir ganando.",
+"nv": 1
 },
 {
 "p": "En casa del herrero,",
@@ -65,7 +70,8 @@
 "fuego de leña"
 ],
 "c": 0,
-"e": "A veces quien se dedica a algo no tiene en casa lo que ofrece a los demás."
+"e": "A veces quien se dedica a algo no tiene en casa lo que ofrece a los demás.",
+"nv": 2
 },
 {
 "p": "Camarón que se duerme,",
@@ -76,7 +82,8 @@
 "sueña con el mar"
 ],
 "c": 0,
-"e": "Quien se descuida pierde las oportunidades."
+"e": "Quien se descuida pierde las oportunidades.",
+"nv": 2
 },
 {
 "p": "Dime con quién andas",
@@ -87,7 +94,8 @@
 "y te contaré un secreto"
 ],
 "c": 0,
-"e": "Las amistades de una persona dicen mucho de cómo es."
+"e": "Las amistades de una persona dicen mucho de cómo es.",
+"nv": 1
 },
 {
 "p": "Ojos que no ven,",
@@ -98,7 +106,8 @@
 "mano que no toca"
 ],
 "c": 0,
-"e": "Lo que no se sabe no hace sufrir."
+"e": "Lo que no se sabe no hace sufrir.",
+"nv": 1
 },
 {
 "p": "A mal tiempo,",
@@ -109,7 +118,8 @@
 "paso corto"
 ],
 "c": 0,
-"e": "Hay que afrontar las dificultades con buen ánimo."
+"e": "Hay que afrontar las dificultades con buen ánimo.",
+"nv": 2
 },
 {
 "p": "Perro ladrador,",
@@ -120,7 +130,8 @@
 "gran amigo"
 ],
 "c": 0,
-"e": "Quien amenaza mucho suele hacer poco."
+"e": "Quien amenaza mucho suele hacer poco.",
+"nv": 1
 },
 {
 "p": "Cuando el río suena,",
@@ -131,7 +142,8 @@
 "frío da"
 ],
 "c": 0,
-"e": "Si corre un rumor, algo de verdad tendrá."
+"e": "Si corre un rumor, algo de verdad tendrá.",
+"nv": 1
 },
 {
 "p": "El que mucho abarca,",
@@ -142,7 +154,8 @@
 "pronto cansa"
 ],
 "c": 0,
-"e": "Quien quiere hacer demasiadas cosas a la vez, las hace mal."
+"e": "Quien quiere hacer demasiadas cosas a la vez, las hace mal.",
+"nv": 2
 },
 {
 "p": "Más sabe el diablo por viejo",
@@ -153,7 +166,8 @@
 "que por rey"
 ],
 "c": 0,
-"e": "La experiencia enseña más que la inteligencia."
+"e": "La experiencia enseña más que la inteligencia.",
+"nv": 2
 },
 {
 "p": "No hay mal",
@@ -164,7 +178,8 @@
 "que no tenga fin"
 ],
 "c": 0,
-"e": "Hasta de los contratiempos puede salir algo bueno."
+"e": "Hasta de los contratiempos puede salir algo bueno.",
+"nv": 2
 },
 {
 "p": "Una golondrina",
@@ -175,7 +190,8 @@
 "anuncia la primavera"
 ],
 "c": 0,
-"e": "Un solo hecho aislado no basta para sacar una conclusión."
+"e": "Un solo hecho aislado no basta para sacar una conclusión.",
+"nv": 2
 },
 {
 "p": "Aunque la mona se vista de seda,",
@@ -186,7 +202,8 @@
 "señora parece"
 ],
 "c": 0,
-"e": "Las apariencias no cambian lo que alguien es en realidad."
+"e": "Las apariencias no cambian lo que alguien es en realidad.",
+"nv": 2
 },
 {
 "p": "De tal palo,",
@@ -197,7 +214,8 @@
 "tal leña"
 ],
 "c": 0,
-"e": "Los hijos suelen parecerse a sus padres."
+"e": "Los hijos suelen parecerse a sus padres.",
+"nv": 1
 },
 {
 "p": "Cría cuervos",
@@ -208,7 +226,8 @@
 "y harás un nido"
 ],
 "c": 0,
-"e": "Quien favorece a alguien puede recibir ingratitud a cambio."
+"e": "Quien favorece a alguien puede recibir ingratitud a cambio.",
+"nv": 2
 },
 {
 "p": "Del dicho al hecho",
@@ -219,7 +238,8 @@
 "hay un puente"
 ],
 "c": 0,
-"e": "Decir que se hará algo es más fácil que hacerlo."
+"e": "Decir que se hará algo es más fácil que hacerlo.",
+"nv": 1
 },
 {
 "p": "El hábito",
@@ -230,7 +250,8 @@
 "esconde al sabio"
 ],
 "c": 0,
-"e": "No hay que juzgar a alguien solo por cómo viste."
+"e": "No hay que juzgar a alguien solo por cómo viste.",
+"nv": 2
 },
 {
 "p": "En boca cerrada",
@@ -241,7 +262,8 @@
 "no caben mentiras"
 ],
 "c": 0,
-"e": "Callar a tiempo evita problemas."
+"e": "Callar a tiempo evita problemas.",
+"nv": 1
 },
 {
 "p": "Genio y figura,",
@@ -252,7 +274,8 @@
 "hasta que llegue el fin"
 ],
 "c": 0,
-"e": "El carácter de una persona apenas cambia con los años."
+"e": "El carácter de una persona apenas cambia con los años.",
+"nv": 3
 },
 {
 "p": "La unión",
@@ -263,7 +286,8 @@
 "evita la guerra"
 ],
 "c": 0,
-"e": "Juntos se logra más que por separado."
+"e": "Juntos se logra más que por separado.",
+"nv": 1
 },
 {
 "p": "Lo que mal empieza,",
@@ -274,7 +298,8 @@
 "no tiene prisa"
 ],
 "c": 0,
-"e": "Un mal comienzo suele traer un mal final."
+"e": "Un mal comienzo suele traer un mal final.",
+"nv": 2
 },
 {
 "p": "Mal de muchos,",
@@ -285,7 +310,8 @@
 "pena de ricos"
 ],
 "c": 0,
-"e": "Que algo malo le pase a mucha gente no debería servir de consuelo."
+"e": "Que algo malo le pase a mucha gente no debería servir de consuelo.",
+"nv": 2
 },
 {
 "p": "No dejes para mañana",
@@ -296,7 +322,8 @@
 "lo que te pida otro"
 ],
 "c": 0,
-"e": "Conviene no aplazar las tareas."
+"e": "Conviene no aplazar las tareas.",
+"nv": 1
 },
 {
 "p": "No hay peor sordo",
@@ -307,7 +334,8 @@
 "que el que duerme"
 ],
 "c": 0,
-"e": "Quien no quiere escuchar no hay forma de convencerlo."
+"e": "Quien no quiere escuchar no hay forma de convencerlo.",
+"nv": 1
 },
 {
 "p": "Por la boca",
@@ -318,7 +346,8 @@
 "se pierde el sabio"
 ],
 "c": 0,
-"e": "Hablar de más puede meterte en problemas."
+"e": "Hablar de más puede meterte en problemas.",
+"nv": 2
 },
 {
 "p": "Quien algo quiere,",
@@ -329,7 +358,8 @@
 "nada le falta"
 ],
 "c": 0,
-"e": "Para conseguir algo hay que esforzarse."
+"e": "Para conseguir algo hay que esforzarse.",
+"nv": 2
 },
 {
 "p": "Quien bien te quiere,",
@@ -340,7 +370,8 @@
 "te dejará en paz"
 ],
 "c": 0,
-"e": "Quien te aprecia de verdad te dirá cosas aunque duelan."
+"e": "Quien te aprecia de verdad te dirá cosas aunque duelan.",
+"nv": 2
 },
 {
 "p": "Quien siembra vientos,",
@@ -351,7 +382,8 @@
 "espera la lluvia"
 ],
 "c": 0,
-"e": "Las malas acciones traen malas consecuencias."
+"e": "Las malas acciones traen malas consecuencias.",
+"nv": 2
 },
 {
 "p": "Ver para",
@@ -362,7 +394,8 @@
 "contar"
 ],
 "c": 0,
-"e": "Hay que comprobar las cosas antes de darlas por ciertas."
+"e": "Hay que comprobar las cosas antes de darlas por ciertas.",
+"nv": 1
 },
 {
 "p": "Cada oveja",
@@ -373,7 +406,8 @@
 "con su pastor"
 ],
 "c": 0,
-"e": "Cada cual se junta con quien se le parece."
+"e": "Cada cual se junta con quien se le parece.",
+"nv": 1
 },
 {
 "p": "A cada cerdo",
@@ -384,7 +418,8 @@
 "le llega su fiesta"
 ],
 "c": 0,
-"e": "Tarde o temprano, a todos les llega su hora, sobre todo a quien se ha portado mal."
+"e": "Tarde o temprano, a todos les llega su hora, sobre todo a quien se ha portado mal.",
+"nv": 3
 },
 {
 "p": "A buen entendedor,",
@@ -395,7 +430,8 @@
 "nada hay que decir"
 ],
 "c": 0,
-"e": "Quien comprende rápido no necesita explicaciones largas."
+"e": "Quien comprende rápido no necesita explicaciones largas.",
+"nv": 2
 },
 {
 "p": "Hecha la ley,",
@@ -406,7 +442,8 @@
 "hecho el mapa"
 ],
 "c": 0,
-"e": "Siempre hay quien encuentra la forma de saltarse las normas."
+"e": "Siempre hay quien encuentra la forma de saltarse las normas.",
+"nv": 2
 },
 {
 "p": "La cabra tira",
@@ -417,7 +454,8 @@
 "a la casa"
 ],
 "c": 0,
-"e": "Cada uno vuelve a su naturaleza o a sus costumbres."
+"e": "Cada uno vuelve a su naturaleza o a sus costumbres.",
+"nv": 2
 },
 {
 "p": "Ande yo caliente,",
@@ -428,7 +466,8 @@
 "cante la gente"
 ],
 "c": 0,
-"e": "Lo importante es estar a gusto, por mucho que opinen los demás."
+"e": "Lo importante es estar a gusto, por mucho que opinen los demás.",
+"nv": 3
 },
 {
 "p": "Antes de que te cases,",
@@ -439,7 +478,8 @@
 "pide un consejo"
 ],
 "c": 0,
-"e": "Conviene pensar bien las decisiones importantes antes de tomarlas."
+"e": "Conviene pensar bien las decisiones importantes antes de tomarlas.",
+"nv": 3
 },
 {
 "p": "Árbol que nace torcido,",
@@ -450,7 +490,8 @@
 "acaba en la leña"
 ],
 "c": 0,
-"e": "Es muy difícil corregir un defecto o un vicio cuando ya está muy arraigado."
+"e": "Es muy difícil corregir un defecto o un vicio cuando ya está muy arraigado.",
+"nv": 2
 },
 {
 "p": "Barriga llena,",
@@ -461,7 +502,8 @@
 "mesa vacía"
 ],
 "c": 0,
-"e": "Con las necesidades cubiertas, es más fácil estar de buen humor."
+"e": "Con las necesidades cubiertas, es más fácil estar de buen humor.",
+"nv": 1
 },
 {
 "p": "Con pan y vino",
@@ -472,7 +514,8 @@
 "se gana el cielo"
 ],
 "c": 0,
-"e": "Con buena comida se tienen fuerzas para seguir adelante."
+"e": "Con buena comida se tienen fuerzas para seguir adelante.",
+"nv": 3
 },
 {
 "p": "Donde manda capitán,",
@@ -483,7 +526,8 @@
 "sopla el viento"
 ],
 "c": 0,
-"e": "Quien tiene la autoridad es quien decide."
+"e": "Quien tiene la autoridad es quien decide.",
+"nv": 2
 },
 {
 "p": "El que a hierro mata,",
@@ -494,7 +538,8 @@
 "a solas queda"
 ],
 "c": 0,
-"e": "Quien usa la violencia suele recibirla."
+"e": "Quien usa la violencia suele recibirla.",
+"nv": 2
 },
 {
 "p": "Éramos pocos",
@@ -505,7 +550,8 @@
 "y cantó el gallo"
 ],
 "c": 0,
-"e": "Se dice cuando a una situación ya complicada se suma otro problema."
+"e": "Se dice cuando a una situación ya complicada se suma otro problema.",
+"nv": 2
 },
 {
 "p": "Más vale tarde",
@@ -516,7 +562,8 @@
 "que después"
 ],
 "c": 0,
-"e": "Es mejor hacer algo con retraso que no hacerlo."
+"e": "Es mejor hacer algo con retraso que no hacerlo.",
+"nv": 1
 },
 {
 "p": "El saber",
@@ -527,7 +574,8 @@
 "pesa poco"
 ],
 "c": 0,
-"e": "Aprender nunca estorba."
+"e": "Aprender nunca estorba.",
+"nv": 1
 },
 {
 "p": "No es oro",
@@ -538,7 +586,8 @@
 "lo que se vende"
 ],
 "c": 0,
-"e": "Las apariencias engañan."
+"e": "Las apariencias engañan.",
+"nv": 1
 },
 {
 "p": "A palabras necias,",
@@ -549,7 +598,8 @@
 "mente despierta"
 ],
 "c": 0,
-"e": "No hay que hacer caso de tonterías o de ofensas."
+"e": "No hay que hacer caso de tonterías o de ofensas.",
+"nv": 3
 },
 {
 "p": "Agua que no has de beber,",
@@ -560,7 +610,8 @@
 "no la pises"
 ],
 "c": 0,
-"e": "No te metas en asuntos que no te conciernen."
+"e": "No te metas en asuntos que no te conciernen.",
+"nv": 2
 },
 {
 "p": "Dios aprieta,",
@@ -571,7 +622,8 @@
 "y no suelta"
 ],
 "c": 0,
-"e": "Los problemas, por duros que sean, tienen salida."
+"e": "Los problemas, por duros que sean, tienen salida.",
+"nv": 2
 },
 {
 "p": "Cuando una puerta se cierra,",
@@ -582,7 +634,8 @@
 "se enciende una luz"
 ],
 "c": 0,
-"e": "Tras un fracaso aparecen nuevas oportunidades."
+"e": "Tras un fracaso aparecen nuevas oportunidades.",
+"nv": 1
 },
 {
 "p": "Más vale solo",
@@ -593,7 +646,8 @@
 "que sin trabajo"
 ],
 "c": 0,
-"e": "Es mejor estar sin compañía que con quien no conviene."
+"e": "Es mejor estar sin compañía que con quien no conviene.",
+"nv": 2
 },
 {
 "p": "Quien tiene boca",
@@ -604,7 +658,8 @@
 "nunca calla"
 ],
 "c": 0,
-"e": "Todos cometemos errores, sobre todo quien actúa o habla."
+"e": "Todos cometemos errores, sobre todo quien actúa o habla.",
+"nv": 2
 },
 {
 "p": "Tanto va el cántaro a la fuente",
@@ -615,7 +670,8 @@
 "que la fuente se seca"
 ],
 "c": 0,
-"e": "Quien se arriesga una y otra vez acaba sufriendo las consecuencias."
+"e": "Quien se arriesga una y otra vez acaba sufriendo las consecuencias.",
+"nv": 2
 },
 {
 "p": "El que ríe el último,",
@@ -626,7 +682,8 @@
 "ríe más fuerte"
 ],
 "c": 0,
-"e": "Lo importante es cómo acaban las cosas, no cómo empiezan."
+"e": "Lo importante es cómo acaban las cosas, no cómo empiezan.",
+"nv": 1
 },
 {
 "p": "En el país de los ciegos,",
@@ -637,7 +694,8 @@
 "nadie manda"
 ],
 "c": 0,
-"e": "Con poca habilidad se destaca entre quienes tienen menos."
+"e": "Con poca habilidad se destaca entre quienes tienen menos.",
+"nv": 2
 },
 {
 "p": "Muerto el perro,",
@@ -648,7 +706,8 @@
 "se fue el miedo"
 ],
 "c": 0,
-"e": "Si desaparece la causa de un problema, desaparece el problema."
+"e": "Si desaparece la causa de un problema, desaparece el problema.",
+"nv": 2
 },
 {
 "p": "Los trapos sucios",
@@ -659,7 +718,8 @@
 "se dejan secar"
 ],
 "c": 0,
-"e": "Los problemas privados hay que resolverlos sin contárselos a todo el mundo."
+"e": "Los problemas privados hay que resolverlos sin contárselos a todo el mundo.",
+"nv": 2
 },
 {
 "p": "Zapatero,",
@@ -670,7 +730,8 @@
 "a tu trabajo"
 ],
 "c": 0,
-"e": "Cada cual debe ocuparse de lo que sabe y no meterse en lo ajeno."
+"e": "Cada cual debe ocuparse de lo que sabe y no meterse en lo ajeno.",
+"nv": 2
 },
 {
 "p": "Cada maestrillo",
@@ -681,7 +742,8 @@
 "tiene su lección"
 ],
 "c": 0,
-"e": "Cada persona tiene su propia forma de hacer las cosas."
+"e": "Cada persona tiene su propia forma de hacer las cosas.",
+"nv": 3
 },
 {
 "p": "A río revuelto,",
@@ -692,7 +754,8 @@
 "tiempo de calma"
 ],
 "c": 0,
-"e": "Los momentos de confusión los aprovechan algunos para sacar beneficio."
+"e": "Los momentos de confusión los aprovechan algunos para sacar beneficio.",
+"nv": 2
 },
 {
 "p": "Poderoso caballero",
@@ -703,7 +766,8 @@
 "es el tiempo"
 ],
 "c": 0,
-"e": "El dinero tiene mucha influencia."
+"e": "El dinero tiene mucha influencia.",
+"nv": 3
 },
 {
 "p": "Ni tanto",
@@ -714,7 +778,380 @@
 "ni tan lejos"
 ],
 "c": 0,
-"e": "Conviene evitar los extremos."
+"e": "Conviene evitar los extremos.",
+"nv": 2
+},
+{
+"p": "Entre col y col,",
+"o": [
+"lechuga",
+"tomate",
+"pimiento",
+"zanahoria"
+],
+"c": 0,
+"e": "Conviene alternar y variar para no cansarse de lo mismo.",
+"nv": 3
+},
+{
+"p": "Quien con lobos anda,",
+"o": [
+"a aullar se enseña",
+"a morder aprende",
+"a cazar se atreve",
+"a correr se acostumbra"
+],
+"c": 0,
+"e": "Quien se junta con malas compañías acaba imitándolas.",
+"nv": 3
+},
+{
+"p": "A falta de pan,",
+"o": [
+"buenas son tortas",
+"buenas son migas",
+"buenas son galletas",
+"buenas son sopas"
+],
+"c": 0,
+"e": "Si no hay lo que queremos, conviene conformarse con lo que hay.",
+"nv": 3
+},
+{
+"p": "El que a buen árbol se arrima,",
+"o": [
+"buena sombra le cobija",
+"buen fruto le da",
+"buen abrigo le presta",
+"buen camino le abre"
+],
+"c": 0,
+"e": "Conviene acercarse a personas influyentes y de bien, que ayudan y protegen.",
+"nv": 3
+},
+{
+"p": "Hasta el mejor escribano",
+"o": [
+"echa un borrón",
+"pierde la pluma",
+"olvida una letra",
+"se queda sin tinta"
+],
+"c": 0,
+"e": "Hasta el más experto se equivoca alguna vez.",
+"nv": 3
+},
+{
+"p": "Al freír",
+"o": [
+"será el reír",
+"será el llorar",
+"será el comer",
+"será el cantar"
+],
+"c": 0,
+"e": "Hay que esperar al resultado final para saber cómo acaba algo.",
+"nv": 3
+},
+{
+"p": "Dime de qué presumes,",
+"o": [
+"y te diré de qué careces",
+"y te diré cuánto tienes",
+"y te diré a quién envidias",
+"y te diré dónde vives"
+],
+"c": 0,
+"e": "Quien alardea mucho de algo suele carecer de ello.",
+"nv": 3
+},
+{
+"p": "Cuando el gato no está,",
+"o": [
+"los ratones bailan",
+"los ratones duermen",
+"los ratones se esconden",
+"los pájaros cantan"
+],
+"c": 0,
+"e": "Si falta quien vigila, los demás se relajan y hacen lo que quieren.",
+"nv": 1
+},
+{
+"p": "Nunca es tarde",
+"o": [
+"si la dicha es buena",
+"si el trabajo es poco",
+"si se llega con calma",
+"si el día es largo"
+],
+"c": 0,
+"e": "Aunque algo tarde en llegar, siempre es bienvenido si es bueno.",
+"nv": 2
+},
+{
+"p": "Más vale prevenir",
+"o": [
+"que curar",
+"que olvidar",
+"que correr",
+"que perder"
+],
+"c": 0,
+"e": "Es mejor evitar un problema a tiempo que arreglarlo cuando ya ha ocurrido.",
+"nv": 1
+},
+{
+"p": "Quien mucho duerme,",
+"o": [
+"poco aprende",
+"poco sueña",
+"poco tarda",
+"poco pierde"
+],
+"c": 0,
+"e": "Quien pierde el tiempo durmiendo no aprovecha las oportunidades de aprender.",
+"nv": 1
+},
+{
+"p": "El que no llora,",
+"o": [
+"no mama",
+"no come",
+"no ríe",
+"no gana"
+],
+"c": 0,
+"e": "Quien no pide lo que necesita difícilmente lo consigue.",
+"nv": 1
+},
+{
+"p": "No hay rosa",
+"o": [
+"sin espinas",
+"sin jardinero",
+"sin primavera",
+"sin perfume"
+],
+"c": 0,
+"e": "Hasta lo más bello o agradable trae alguna dificultad.",
+"nv": 2
+},
+{
+"p": "Cada loco",
+"o": [
+"con su tema",
+"con su cuento",
+"con su camino",
+"con su sombra"
+],
+"c": 0,
+"e": "Cada persona tiene sus manías y sus obsesiones.",
+"nv": 2
+},
+{
+"p": "A la tercera",
+"o": [
+"va la vencida",
+"se acaba la paciencia",
+"se acaba el cuento",
+"llega la suerte"
+],
+"c": 0,
+"e": "Insistir una vez más suele dar buen resultado.",
+"nv": 1
+},
+{
+"p": "Después de la tormenta",
+"o": [
+"viene la calma",
+"viene la lluvia",
+"viene el hambre",
+"viene el trueno"
+],
+"c": 0,
+"e": "Tras un momento difícil llega un tiempo de tranquilidad.",
+"nv": 1
+},
+{
+"p": "Lo cortés",
+"o": [
+"no quita lo valiente",
+"no gana batallas",
+"no llena el bolsillo",
+"no impide la prisa"
+],
+"c": 0,
+"e": "Ser educado no está reñido con ser firme y decidido.",
+"nv": 2
+},
+{
+"p": "Donde fueres,",
+"o": [
+"haz lo que vieres",
+"verás lo que quieres",
+"pide lo que puedas",
+"ve donde te llamen"
+],
+"c": 0,
+"e": "Conviene adaptarse a las costumbres del lugar en el que estás.",
+"nv": 2
+},
+{
+"p": "Más vale maña",
+"o": [
+"que fuerza",
+"que dinero",
+"que suerte",
+"que prisa"
+],
+"c": 0,
+"e": "La habilidad y la astucia suelen conseguir más que la fuerza bruta.",
+"nv": 2
+},
+{
+"p": "La avaricia",
+"o": [
+"rompe el saco",
+"llena la mesa",
+"vacía el saco",
+"pierde el camino"
+],
+"c": 0,
+"e": "Querer acaparar demasiado puede acabar haciéndote perder todo.",
+"nv": 3
+},
+{
+"p": "El que espera,",
+"o": [
+"desespera",
+"se cansa",
+"acaba ganando",
+"se queda a oscuras"
+],
+"c": 0,
+"e": "Esperar con ansiedad se hace muy largo y difícil de aguantar.",
+"nv": 2
+},
+{
+"p": "Para muestra,",
+"o": [
+"basta un botón",
+"basta una palabra",
+"sobra la costura",
+"vale un hilo"
+],
+"c": 0,
+"e": "Con un ejemplo pequeño se puede juzgar el conjunto.",
+"nv": 2
+},
+{
+"p": "Agua pasada",
+"o": [
+"no mueve molino",
+"no apaga la sed",
+"no vuelve atrás",
+"no llena el pozo"
+],
+"c": 0,
+"e": "Lo que ya ocurrió no sirve para el presente; no hay que darle vueltas.",
+"nv": 2
+},
+{
+"p": "Cuando el hambre entra por la puerta,",
+"o": [
+"el amor sale por la ventana",
+"la paz se queda en casa",
+"la alegría llama al vecino",
+"el hogar se llena de risas"
+],
+"c": 0,
+"e": "Las dificultades económicas pueden acabar con la armonía de una pareja.",
+"nv": 3
+},
+{
+"p": "En abril,",
+"o": [
+"aguas mil",
+"flores mil",
+"vientos mil",
+"nubes mil"
+],
+"c": 0,
+"e": "Abril es un mes de lluvias frecuentes, y eso favorece el campo.",
+"nv": 2
+},
+{
+"p": "El pez grande",
+"o": [
+"se come al chico",
+"no pesca solo",
+"nada en el fondo",
+"busca el anzuelo"
+],
+"c": 0,
+"e": "El más poderoso se aprovecha del más débil.",
+"nv": 1
+},
+{
+"p": "Del árbol caído",
+"o": [
+"todos hacen leña",
+"todos recogen frutos",
+"nadie quiere la sombra",
+"nadie cuenta los años"
+],
+"c": 0,
+"e": "Cuando alguien cae en desgracia, muchos se aprovechan de ello.",
+"nv": 3
+},
+{
+"p": "A Dios rogando",
+"o": [
+"y con el mazo dando",
+"y el pan esperando",
+"y el campo labrando",
+"y el tiempo pasando"
+],
+"c": 0,
+"e": "No basta con desear algo: hay que esforzarse para lograrlo.",
+"nv": 2
+},
+{
+"p": "No es tan fiero el león",
+"o": [
+"como lo pintan",
+"como lo cuentan",
+"como parece de lejos",
+"cuando tiene hambre"
+],
+"c": 0,
+"e": "Las cosas no suelen ser tan malas como las imaginamos o como nos las cuentan.",
+"nv": 2
+},
+{
+"p": "Dos no pelean",
+"o": [
+"si uno no quiere",
+"si ambos se callan",
+"si hay testigos",
+"si hay buen vino"
+],
+"c": 0,
+"e": "Para que haya una discusión hace falta que las dos partes entren en ella.",
+"nv": 2
+},
+{
+"p": "Quien canta",
+"o": [
+"su mal espanta",
+"su pena duerme",
+"su sed olvida",
+"su miedo aumenta"
+],
+"c": 0,
+"e": "Cantar o buscar el lado alegre ayuda a sobrellevar las preocupaciones.",
+"nv": 1
 }
 ]
 }

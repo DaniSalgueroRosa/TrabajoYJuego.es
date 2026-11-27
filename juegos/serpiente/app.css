@@ -1,7 +1,1 @@
-/* SERPIENTE: lienzo cuadrado que se adapta al ancho; los botones de dirección son para pantallas táctiles. */
-.sp-zona { width: min(100%, 25rem); margin: 4px auto; touch-action: none; user-select: none; -webkit-user-select: none; box-shadow: 0 0 0 4px var(--noche-linea); line-height: 0; }
-.sp-zona:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
-.sp-lienzo { display: block; width: 100%; height: auto; aspect-ratio: 1; image-rendering: pixelated; }
-.sp-pad { display: grid; grid-template-columns: repeat(3, 3.4rem); grid-template-areas: ". arr ." "izq abj der"; gap: 6px; justify-content: center; margin: var(--e2) auto; }
-.sp-dir { min-width: 0; padding: 0; height: 3rem; font-size: 1.3rem; }
-.sp-dir--arr { grid-area: arr; } .sp-dir--izq { grid-area: izq; } .sp-dir--abj { grid-area: abj; } .sp-dir--der { grid-area: der; }
+.sp-zona{width:min(100%,25rem);margin:4px auto;touch-action:none;user-select:none;-webkit-user-select:none;box-shadow:0 0 0 4px var(--noche-linea);line-height:0}.sp-zona:focus-visible{outline:3px solid var(--limon);outline-offset:8px}.sp-lienzo{display:block;width:100%;height:auto;aspect-ratio:1;image-rendering:pixelated}.sp-pad{display:grid;grid-template-columns:repeat(3,3.4rem);grid-template-areas:". arr ." "izq abj der";gap:6px;justify-content:center;margin:var(--e2) auto}.sp-dir{min-width:0;padding:0;height:3rem;font-size:1.3rem}.sp-dir--arr{grid-area:arr}.sp-dir--izq{grid-area:izq}.sp-dir--abj{grid-area:abj}.sp-dir--der{grid-area:der}

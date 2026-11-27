@@ -1,10 +1,1 @@
-/* TEST DE MECANOGRAFÍA: el texto a copiar se muestra en tipografía monoespaciada con el carácter actual subrayado y los fallos en rojo. */
-.mc-controles { display: flex; flex-direction: column; gap: var(--e2); margin-bottom: var(--e3); }
-.mc-texto { margin: var(--e3) 0; padding: var(--e3); max-height: 9.5rem; overflow-y: auto; font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: clamp(1rem, 3.6vw, 1.3rem); line-height: 1.75; white-space: pre-wrap; overflow-wrap: anywhere; background: var(--tinta); color: var(--tiza-suave); border: 4px solid var(--noche-linea); border-radius: 10px; }
-.mc-c { border-radius: 2px; }
-.mc-ok { color: var(--limon); }
-.mc-mal { color: var(--tinta); background: var(--sandia); }
-.mc-cursor { color: var(--tiza); background: var(--noche-linea); box-shadow: 0 2px 0 var(--limon); }
-.mc-entrada { display: block; width: 100%; padding: var(--e3); font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 1.05rem; color: var(--tinta); background: var(--papel); border: 3px solid var(--tinta); border-radius: 6px; }
-.mc-entrada:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
-.mc-entrada:disabled { background: var(--linea); }
+.mc-controles{display:flex;flex-direction:column;gap:var(--e2);margin-bottom:var(--e3)}.mc-texto{margin:var(--e3) 0;padding:var(--e3);max-height:9.5rem;overflow-y:auto;font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;font-size:clamp(1rem,3.6vw,1.3rem);line-height:1.75;white-space:pre-wrap;overflow-wrap:anywhere;background:var(--tinta);color:var(--tiza-suave);border:4px solid var(--noche-linea);border-radius:10px}.mc-c{border-radius:2px}.mc-ok{color:var(--limon)}.mc-mal{color:var(--tinta);background:var(--sandia)}.mc-cursor{color:var(--tiza);background:var(--noche-linea);box-shadow:0 2px 0 var(--limon)}.mc-entrada{display:block;width:100%;padding:var(--e3);font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;font-size:1.05rem;color:var(--tinta);background:var(--papel);border:3px solid var(--tinta);border-radius:6px}.mc-entrada:focus-visible{outline:3px solid var(--limon);outline-offset:2px}.mc-entrada:disabled{background:var(--linea)}

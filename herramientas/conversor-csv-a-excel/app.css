@@ -1,3 +1,1 @@
-.csvx-tabla td.csvx-num { text-align: right; font-variant-numeric: tabular-nums; }
-.csvx-tabla td.csvx-fecha { text-align: right; white-space: nowrap; }
-.csvx-tabla td, .csvx-tabla th { max-width: 16rem; overflow-wrap: anywhere; }
+.csvx-tabla td.csvx-num{text-align:right;font-variant-numeric:tabular-nums}.csvx-tabla td.csvx-fecha{text-align:right;white-space:nowrap}.csvx-tabla td,.csvx-tabla th{max-width:16rem;overflow-wrap:anywhere}

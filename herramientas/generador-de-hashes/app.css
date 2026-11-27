@@ -1,1 +1,1 @@
-.herr-res dd[data-k=md5], .herr-res dd[data-k=sha1], .herr-res dd[data-k=sha256], .herr-res dd[data-k=sha384], .herr-res dd[data-k=sha512] { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.88rem; overflow-wrap: anywhere; word-break: break-all; }
+.herr-res dd[data-k=md5],.herr-res dd[data-k=sha1],.herr-res dd[data-k=sha256],.herr-res dd[data-k=sha384],.herr-res dd[data-k=sha512]{font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;font-size:0.88rem;overflow-wrap:anywhere;word-break:break-all}

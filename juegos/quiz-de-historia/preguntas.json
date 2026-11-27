@@ -11,7 +11,8 @@
 ],
 "c": 0,
 "e": "El 12 de octubre de 1492 la expedición de Colón avistó tierra en las Bahamas.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 1
 },
 {
 "p": "¿Quién completó la primera vuelta al mundo después de la muerte de Magallanes?",
@@ -23,7 +24,8 @@
 ],
 "c": 0,
 "e": "Elcano tomó el mando de la expedición y regresó a Sanlúcar de Barrameda en 1522.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 2
 },
 {
 "p": "¿Quién conquistó el Imperio azteca?",
@@ -35,7 +37,8 @@
 ],
 "c": 0,
 "e": "Cortés llegó a México en 1519 y tomó Tenochtitlan en 1521 con ayuda de pueblos indígenas enemigos de los aztecas.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 1
 },
 {
 "p": "¿Quién lideró la conquista del Imperio inca?",
@@ -47,7 +50,8 @@
 ],
 "c": 0,
 "e": "Pizarro capturó al emperador Atahualpa en Cajamarca en 1532.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 1
 },
 {
 "p": "¿Qué tratado de 1494 repartió las tierras por descubrir entre España y Portugal?",
@@ -59,7 +63,8 @@
 ],
 "c": 0,
 "e": "Fijó una línea a 370 leguas al oeste de las islas de Cabo Verde.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 2
 },
 {
 "p": "¿Quién fue el primer europeo en ver el océano Pacífico desde América en 1513?",
@@ -71,7 +76,8 @@
 ],
 "c": 0,
 "e": "Balboa lo divisó tras cruzar el istmo de Panamá y lo llamó «mar del Sur».",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 3
 },
 {
 "p": "¿En qué año cayó el último reino musulmán de la península, el de Granada?",
@@ -83,7 +89,8 @@
 ],
 "c": 0,
 "e": "Los Reyes Católicos tomaron Granada el 2 de enero de 1492, al rendirse Boabdil.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿Qué reyes unieron las coronas de Castilla y Aragón con su matrimonio?",
@@ -95,7 +102,8 @@
 ],
 "c": 0,
 "e": "Se casaron en 1469 y son conocidos como los Reyes Católicos.",
-"t": "España"
+"t": "España",
+"nv": 1
 },
 {
 "p": "¿Qué rey mandó construir el monasterio de El Escorial?",
@@ -107,7 +115,8 @@
 ],
 "c": 0,
 "e": "La obra se empezó en 1563 y se terminó en 1584.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿Cómo se llamaba la gran flota que Felipe II envió contra Inglaterra en 1588?",
@@ -119,7 +128,8 @@
 ],
 "c": 0,
 "e": "Los temporales y la acción inglesa la derrotaron y muchos barcos no volvieron.",
-"t": "España"
+"t": "España",
+"nv": 1
 },
 {
 "p": "¿Qué dinastía llegó al trono de España con Felipe V en el siglo XVIII?",
@@ -131,7 +141,8 @@
 ],
 "c": 0,
 "e": "Felipe V, nieto de Luis XIV, fue el primer Borbón en reinar en España.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿En qué año se publicó la primera parte de «Don Quijote de la Mancha»?",
@@ -143,7 +154,8 @@
 ],
 "c": 0,
 "e": "La segunda parte apareció diez años después, en 1615.",
-"t": "España"
+"t": "España",
+"nv": 3
 },
 {
 "p": "¿En qué año perdió España Cuba, Puerto Rico y Filipinas?",
@@ -155,7 +167,8 @@
 ],
 "c": 0,
 "e": "Tras la guerra con Estados Unidos, el Tratado de París puso fin al imperio colonial español.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿En qué año se proclamó la Segunda República española?",
@@ -167,7 +180,8 @@
 ],
 "c": 0,
 "e": "Fue el 14 de abril de 1931, tras unas elecciones municipales.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿En qué año empezó la Guerra Civil española?",
@@ -179,7 +193,8 @@
 ],
 "c": 0,
 "e": "Comenzó en julio de 1936 con el golpe de Estado contra el Gobierno de la República.",
-"t": "España"
+"t": "España",
+"nv": 1
 },
 {
 "p": "¿En qué año terminó la Guerra Civil española?",
@@ -191,7 +206,8 @@
 ],
 "c": 0,
 "e": "La guerra acabó el 1 de abril de 1939 con la victoria del bando sublevado.",
-"t": "España"
+"t": "España",
+"nv": 1
 },
 {
 "p": "¿Quién fue jefe del Estado español entre 1939 y 1975?",
@@ -203,7 +219,8 @@
 ],
 "c": 0,
 "e": "Gobernó hasta su muerte, en noviembre de 1975.",
-"t": "España"
+"t": "España",
+"nv": 1
 },
 {
 "p": "¿En qué año se aprobó la Constitución española vigente?",
@@ -215,7 +232,8 @@
 ],
 "c": 0,
 "e": "Fue aprobada en referéndum el 6 de diciembre de 1978.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿Qué político presidió el Gobierno durante buena parte de la Transición, entre 1976 y 1981?",
@@ -227,7 +245,8 @@
 ],
 "c": 0,
 "e": "Dirigió el paso de la dictadura a la democracia.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿En qué año entró España en la actual Unión Europea, entonces Comunidad Económica Europea?",
@@ -239,7 +258,8 @@
 ],
 "c": 0,
 "e": "Entró el 1 de enero de 1986 junto con Portugal.",
-"t": "España"
+"t": "España",
+"nv": 2
 },
 {
 "p": "¿Qué civilización construyó las pirámides de Guiza?",
@@ -251,7 +271,8 @@
 ],
 "c": 0,
 "e": "La Gran Pirámide se levantó hace más de 4.500 años como tumba del faraón Keops.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 1
 },
 {
 "p": "¿Qué faraón niño tiene una tumba cuyo tesoro se encontró casi intacto en 1922?",
@@ -263,7 +284,8 @@
 ],
 "c": 0,
 "e": "Howard Carter descubrió su tumba en el Valle de los Reyes.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 1
 },
 {
 "p": "¿Qué escritura inventaron los sumerios en Mesopotamia?",
@@ -275,7 +297,8 @@
 ],
 "c": 0,
 "e": "Se hacía con una caña con forma de cuña sobre tablillas de arcilla.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 2
 },
 {
 "p": "¿En qué ciudad nació la democracia en el siglo V a. C.?",
@@ -287,7 +310,8 @@
 ],
 "c": 0,
 "e": "Los ciudadanos atenienses votaban las leyes en la asamblea, aunque mujeres, esclavos y extranjeros no podían.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 2
 },
 {
 "p": "¿Qué filósofo fue maestro de Alejandro Magno?",
@@ -299,7 +323,8 @@
 ],
 "c": 0,
 "e": "Aristóteles educó a Alejandro en Macedonia cuando este era un adolescente.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 2
 },
 {
 "p": "¿Qué gran imperio conquistó Alejandro Magno en el siglo IV a. C.?",
@@ -311,7 +336,8 @@
 ],
 "c": 0,
 "e": "Venció al rey Darío III y llegó hasta la India.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 3
 },
 {
 "p": "¿Qué general cartaginés cruzó los Alpes con elefantes para atacar Roma?",
@@ -323,7 +349,8 @@
 ],
 "c": 0,
 "e": "Lo hizo en el año 218 a. C., durante la segunda guerra púnica.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 2
 },
 {
 "p": "¿Quién fue el primer emperador romano?",
@@ -335,7 +362,8 @@
 ],
 "c": 0,
 "e": "Octaviano recibió el título de Augusto en el año 27 a. C.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 2
 },
 {
 "p": "¿Quién fue asesinado en los idus de marzo del año 44 a. C.?",
@@ -347,7 +375,8 @@
 ],
 "c": 0,
 "e": "Lo apuñalaron en el Senado un grupo de conspiradores.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 1
 },
 {
 "p": "¿Qué ciudad romana quedó sepultada por la erupción del Vesubio en el año 79?",
@@ -359,7 +388,8 @@
 ],
 "c": 0,
 "e": "La ceniza la conservó y hoy se puede visitar.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 1
 },
 {
 "p": "¿Qué siglo vio caer el Imperio romano de Occidente?",
@@ -371,7 +401,8 @@
 ],
 "c": 0,
 "e": "La fecha tradicional es el año 476, cuando fue depuesto Rómulo Augústulo.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 3
 },
 {
 "p": "¿Qué ciudad era la capital del Imperio bizantino?",
@@ -383,7 +414,8 @@
 ],
 "c": 0,
 "e": "Es la actual Estambul.",
-"t": "Edad Media"
+"t": "Edad Media",
+"nv": 2
 },
 {
 "p": "¿En qué año tomaron los otomanos Constantinopla?",
@@ -395,7 +427,8 @@
 ],
 "c": 0,
 "e": "Su caída suele marcar el fin de la Edad Media.",
-"t": "Edad Media"
+"t": "Edad Media",
+"nv": 2
 },
 {
 "p": "¿Qué rey inglés firmó la Carta Magna en 1215?",
@@ -407,7 +440,8 @@
 ],
 "c": 0,
 "e": "El documento limitó el poder del rey y es un antecedente de las libertades modernas.",
-"t": "Edad Media"
+"t": "Edad Media",
+"nv": 3
 },
 {
 "p": "¿Qué imperio fundó Gengis Kan?",
@@ -419,7 +453,8 @@
 ],
 "c": 0,
 "e": "Llegó a ser el imperio terrestre continuo más grande de la historia.",
-"t": "Edad Media"
+"t": "Edad Media",
+"nv": 2
 },
 {
 "p": "¿Qué invento de Gutenberg cambió la difusión del saber en Europa a mediados del siglo XV?",
@@ -431,7 +466,8 @@
 ],
 "c": 0,
 "e": "Permitió hacer libros más baratos y en mucha mayor cantidad.",
-"t": "Edad Moderna"
+"t": "Edad Moderna",
+"nv": 1
 },
 {
 "p": "¿En qué país nació el Renacimiento?",
@@ -443,7 +479,8 @@
 ],
 "c": 0,
 "e": "Empezó en ciudades como Florencia en el siglo XV.",
-"t": "Edad Moderna"
+"t": "Edad Moderna",
+"nv": 1
 },
 {
 "p": "¿Quién pintó el techo de la Capilla Sixtina?",
@@ -455,7 +492,8 @@
 ],
 "c": 0,
 "e": "Lo pintó entre 1508 y 1512 por encargo del papa Julio II.",
-"t": "Edad Moderna"
+"t": "Edad Moderna",
+"nv": 1
 },
 {
 "p": "¿Quién publicó en 1543 la teoría de que los planetas giran alrededor del Sol?",
@@ -467,7 +505,8 @@
 ],
 "c": 0,
 "e": "Su libro «Sobre las revoluciones de las esferas celestes» abrió la revolución científica.",
-"t": "Edad Moderna"
+"t": "Edad Moderna",
+"nv": 2
 },
 {
 "p": "¿Qué rey francés fue conocido como el Rey Sol?",
@@ -479,7 +518,8 @@
 ],
 "c": 0,
 "e": "Reinó 72 años y mandó construir el palacio de Versalles.",
-"t": "Edad Moderna"
+"t": "Edad Moderna",
+"nv": 2
 },
 {
 "p": "¿Qué reina de Inglaterra gobernó entre 1558 y 1603?",
@@ -491,7 +531,8 @@
 ],
 "c": 0,
 "e": "Su reinado fue una época de esplendor cultural y de enfrentamiento con España.",
-"t": "Edad Moderna"
+"t": "Edad Moderna",
+"nv": 2
 },
 {
 "p": "¿En qué año se declaró la independencia de los Estados Unidos?",
@@ -503,7 +544,8 @@
 ],
 "c": 0,
 "e": "La Declaración de Independencia se aprobó el 4 de julio de 1776.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿Quién fue el primer presidente de Estados Unidos?",
@@ -515,7 +557,8 @@
 ],
 "c": 0,
 "e": "Presidió el país de 1789 a 1797.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿En qué año comenzó la Revolución Francesa?",
@@ -527,7 +570,8 @@
 ],
 "c": 0,
 "e": "Se suele fijar su comienzo con la toma de la Bastilla, el 14 de julio de 1789.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿En qué batalla fue derrotado definitivamente Napoleón en 1815?",
@@ -539,7 +583,8 @@
 ],
 "c": 0,
 "e": "Fue en la actual Bélgica, contra ingleses y prusianos.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿En qué guerra se libró la batalla naval de Trafalgar, en 1805?",
@@ -551,7 +596,8 @@
 ],
 "c": 0,
 "e": "La flota británica de Nelson derrotó a la franco-española.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 3
 },
 {
 "p": "¿En qué barco viajó Charles Darwin durante su famoso viaje de cinco años?",
@@ -563,7 +609,8 @@
 ],
 "c": 0,
 "e": "En las islas Galápagos reunió observaciones que le ayudaron a formular la teoría de la evolución.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿En qué año se hundió el Titanic?",
@@ -575,7 +622,8 @@
 ],
 "c": 0,
 "e": "Chocó con un iceberg en su viaje inaugural, en abril de 1912.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿En qué año empezó la Primera Guerra Mundial?",
@@ -587,7 +635,8 @@
 ],
 "c": 0,
 "e": "El asesinato del archiduque Francisco Fernando en Sarajevo desencadenó el conflicto.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿Qué tratado puso fin formal a la Primera Guerra Mundial con Alemania?",
@@ -599,7 +648,8 @@
 ],
 "c": 0,
 "e": "Se firmó en 1919.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿Quién lideró la Revolución rusa de octubre de 1917?",
@@ -611,7 +661,8 @@
 ],
 "c": 0,
 "e": "Vladímir Lenin dirigió a los bolcheviques, que tomaron el poder.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿Quién fue el último zar de Rusia?",
@@ -623,7 +674,8 @@
 ],
 "c": 0,
 "e": "Abdicó en 1917 y fue ejecutado junto a su familia en 1918.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿En qué año terminó la Segunda Guerra Mundial?",
@@ -635,7 +687,8 @@
 ],
 "c": 0,
 "e": "Acabó en Europa en mayo y en Asia en septiembre de 1945.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿Qué ciudad japonesa sufrió en 1945 el primer ataque con bomba atómica?",
@@ -647,7 +700,8 @@
 ],
 "c": 0,
 "e": "Tres días después fue atacada Nagasaki.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿Qué dos potencias protagonizaron la Guerra Fría?",
@@ -659,7 +713,8 @@
 ],
 "c": 0,
 "e": "Fue una rivalidad política, económica y militar sin enfrentamiento directo entre ambas.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿Quién fue el primer ser humano en viajar al espacio?",
@@ -671,7 +726,8 @@
 ],
 "c": 0,
 "e": "El soviético Gagarin dio una vuelta a la Tierra el 12 de abril de 1961.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿En qué año pisó por primera vez la Luna un ser humano?",
@@ -683,7 +739,8 @@
 ],
 "c": 0,
 "e": "Neil Armstrong lo hizo el 20 de julio de 1969, durante la misión Apolo 11.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿En qué año cayó el Muro de Berlín?",
@@ -695,7 +752,8 @@
 ],
 "c": 0,
 "e": "Se abrió el 9 de noviembre de 1989 y un año después Alemania se reunificó.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿En qué año se disolvió la Unión Soviética?",
@@ -707,7 +765,8 @@
 ],
 "c": 0,
 "e": "En diciembre de 1991 dejó de existir y surgieron quince países independientes.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
 },
 {
 "p": "¿Qué líder impulsó en la India la resistencia no violenta contra el dominio británico?",
@@ -719,7 +778,8 @@
 ],
 "c": 0,
 "e": "La India logró la independencia en 1947.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 1
 },
 {
 "p": "¿Qué cultura construyó la ciudad de Machu Picchu?",
@@ -731,7 +791,8 @@
 ],
 "c": 0,
 "e": "Se levantó en los Andes peruanos en el siglo XV.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 1
 },
 {
 "p": "¿Qué cultura construyó la pirámide de Chichén Itzá?",
@@ -743,7 +804,8 @@
 ],
 "c": 0,
 "e": "Está en la península de Yucatán, en México.",
-"t": "Antigüedad"
+"t": "Antigüedad",
+"nv": 1
 },
 {
 "p": "¿Cuál era la capital del Imperio inca?",
@@ -755,7 +817,8 @@
 ],
 "c": 0,
 "e": "Cuzco significa «ombligo» en quechua y estaba en los Andes del actual Perú.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 2
 },
 {
 "p": "¿Qué ciudad era la capital del Imperio azteca?",
@@ -767,7 +830,8 @@
 ],
 "c": 0,
 "e": "Se levantaba sobre un lago, donde hoy está la Ciudad de México.",
-"t": "Descubrimientos"
+"t": "Descubrimientos",
+"nv": 2
 },
 {
 "p": "¿En qué año se introdujeron las monedas y billetes en euros?",
@@ -779,7 +843,723 @@
 ],
 "c": 0,
 "e": "El euro existía desde 1999 como moneda de cuenta, pero las monedas y billetes llegaron el 1 de enero de 2002.",
-"t": "Edad Contemporánea"
+"t": "Edad Contemporánea",
+"nv": 2
+},
+{
+"p": "¿Qué reina de Egipto se alió con Julio César y después con Marco Antonio?",
+"o": [
+"Cleopatra",
+"Nefertiti",
+"Hatshepsut",
+"Isis"
+],
+"c": 0,
+"e": "Cleopatra VII fue la última reina del Egipto ptolemaico.",
+"t": "Antiguo Egipto",
+"nv": 1
+},
+{
+"p": "¿Qué epidemia mató a cerca de un tercio de la población europea en el siglo XIV?",
+"o": [
+"La peste negra",
+"La viruela",
+"El cólera",
+"La gripe española"
+],
+"c": 0,
+"e": "La peste negra llegó a Europa hacia 1347 desde Asia.",
+"t": "Edad Media",
+"nv": 1
+},
+{
+"p": "¿Qué presidente de Estados Unidos abolió la esclavitud durante la Guerra de Secesión?",
+"o": [
+"Abraham Lincoln",
+"George Washington",
+"Ulysses Grant",
+"Thomas Jefferson"
+],
+"c": 0,
+"e": "Lincoln proclamó la emancipación en 1863 y la 13.ª enmienda abolió la esclavitud en 1865.",
+"t": "Estados Unidos",
+"nv": 1
+},
+{
+"p": "¿Qué ataque llevó a Estados Unidos a entrar en la Segunda Guerra Mundial?",
+"o": [
+"El ataque a Pearl Harbor",
+"El desembarco de Normandía",
+"El bombardeo de Dresde",
+"El hundimiento del Lusitania"
+],
+"c": 0,
+"e": "Japón atacó la base de Pearl Harbor el 7 de diciembre de 1941.",
+"t": "Segunda Guerra Mundial",
+"nv": 1
+},
+{
+"p": "¿En qué año empezó la invasión musulmana de la península ibérica?",
+"o": [
+"711",
+"622",
+"732",
+"1085"
+],
+"c": 0,
+"e": "En 711 las tropas de Tariq vencieron al rey visigodo Rodrigo en la batalla de Guadalete.",
+"t": "Edad Media en España",
+"nv": 2
+},
+{
+"p": "¿En qué batalla de 1212 una coalición cristiana derrotó a los almohades?",
+"o": [
+"Las Navas de Tolosa",
+"Covadonga",
+"Guadalete",
+"Clavijo"
+],
+"c": 0,
+"e": "La victoria de Las Navas de Tolosa abrió el camino a la conquista cristiana de Andalucía.",
+"t": "Edad Media en España",
+"nv": 2
+},
+{
+"p": "¿Qué rey de Castilla fue apodado «el Sabio» y promovió la Escuela de Traductores de Toledo?",
+"o": [
+"Alfonso X",
+"Fernando III",
+"Alfonso VIII",
+"Sancho IV"
+],
+"c": 0,
+"e": "Alfonso X impulsó traducciones, leyes y obras científicas en castellano.",
+"t": "Edad Media en España",
+"nv": 2
+},
+{
+"p": "¿Qué rey español es recordado como «el mejor alcalde de Madrid»?",
+"o": [
+"Carlos III",
+"Felipe V",
+"Carlos IV",
+"Fernando VII"
+],
+"c": 0,
+"e": "Carlos III reformó la capital: la empedró, la iluminó y creó el paseo del Prado.",
+"t": "España moderna",
+"nv": 2
+},
+{
+"p": "¿Qué Cortes aprobaron la Constitución de 1812, conocida como «la Pepa»?",
+"o": [
+"Las Cortes de Cádiz",
+"Las Cortes de Madrid",
+"Las Cortes de Toro",
+"Las Cortes de Valladolid"
+],
+"c": 0,
+"e": "Se aprobó el 19 de marzo de 1812, día de San José, y de ahí viene el apodo.",
+"t": "España contemporánea",
+"nv": 2
+},
+{
+"p": "¿Qué emperador romano legalizó el cristianismo con el Edicto de Milán, en 313?",
+"o": [
+"Constantino",
+"Nerón",
+"Augusto",
+"Diocleciano"
+],
+"c": 0,
+"e": "Lo dictó junto a Licinio. Teodosio hizo del cristianismo la religión oficial en 380.",
+"t": "Roma",
+"nv": 2
+},
+{
+"p": "¿Cómo se llaman las guerras que enfrentaron a Roma y a Cartago?",
+"o": [
+"Guerras Púnicas",
+"Guerras Médicas",
+"Guerras Samnitas",
+"Guerras Gálicas"
+],
+"c": 0,
+"e": "Fueron tres y acabaron con la destrucción de Cartago en el año 146 a. C.",
+"t": "Roma",
+"nv": 2
+},
+{
+"p": "¿Qué heroína francesa fue quemada en la hoguera en 1431?",
+"o": [
+"Juana de Arco",
+"María Antonieta",
+"Leonor de Aquitania",
+"Catalina de Médici"
+],
+"c": 0,
+"e": "Juana de Arco ayudó a Francia a levantar el asedio de Orleans durante la guerra contra Inglaterra.",
+"t": "Edad Media",
+"nv": 2
+},
+{
+"p": "¿Cómo se llama el conflicto entre Francia e Inglaterra que duró de 1337 a 1453?",
+"o": [
+"Guerra de los Cien Años",
+"Guerra de las Dos Rosas",
+"Guerra de los Treinta Años",
+"Guerra de Sucesión"
+],
+"c": 0,
+"e": "En realidad duró 116 años, con periodos de paz.",
+"t": "Edad Media",
+"nv": 2
+},
+{
+"p": "¿Qué monje alemán inició la Reforma protestante en 1517?",
+"o": [
+"Martín Lutero",
+"Juan Calvino",
+"Erasmo de Róterdam",
+"Ulrico Zuinglio"
+],
+"c": 0,
+"e": "Según la tradición, clavó sus 95 tesis en la puerta de la iglesia de Wittenberg.",
+"t": "Edad Moderna",
+"nv": 2
+},
+{
+"p": "¿A qué isla fue desterrado Napoleón tras Waterloo, donde murió en 1821?",
+"o": [
+"Santa Elena",
+"Elba",
+"Córcega",
+"Malta"
+],
+"c": 0,
+"e": "Antes, en 1814, ya lo habían desterrado a la isla de Elba.",
+"t": "Época napoleónica",
+"nv": 2
+},
+{
+"p": "¿Qué crisis de 1962 llevó al mundo al borde de una guerra nuclear entre Estados Unidos y la URSS?",
+"o": [
+"La crisis de los misiles de Cuba",
+"El bloqueo de Berlín",
+"La guerra de Corea",
+"La crisis de Suez"
+],
+"c": 0,
+"e": "Duró trece días, en octubre de 1962.",
+"t": "Guerra Fría",
+"nv": 2
+},
+{
+"p": "¿Qué dictador chileno derrocó a Salvador Allende en 1973?",
+"o": [
+"Augusto Pinochet",
+"Jorge Videla",
+"Alfredo Stroessner",
+"Francisco Franco"
+],
+"c": 0,
+"e": "El golpe de Estado del 11 de septiembre de 1973 inició una dictadura que duró hasta 1990.",
+"t": "Siglo XX",
+"nv": 2
+},
+{
+"p": "¿En qué año fue el desembarco de Normandía, el «Día D»?",
+"o": [
+"1944",
+"1942",
+"1943",
+"1945"
+],
+"c": 0,
+"e": "Tuvo lugar el 6 de junio de 1944.",
+"t": "Segunda Guerra Mundial",
+"nv": 2
+},
+{
+"p": "¿Qué caudillo visigodo saqueó Roma en el año 410?",
+"o": [
+"Alarico",
+"Atila",
+"Odoacro",
+"Teodorico"
+],
+"c": 0,
+"e": "Fue la primera vez en casi ocho siglos que la ciudad caía en manos de un enemigo.",
+"t": "Antigüedad tardía",
+"nv": 3
+},
+{
+"p": "¿Qué emperador romano repartió el Imperio entre sus hijos al morir, en el año 395?",
+"o": [
+"Teodosio I",
+"Constantino",
+"Diocleciano",
+"Trajano"
+],
+"c": 0,
+"e": "Desde entonces, el Imperio quedó dividido en Oriente y Occidente.",
+"t": "Roma",
+"nv": 3
+},
+{
+"p": "¿Qué paz puso fin a la guerra de los Treinta Años en 1648?",
+"o": [
+"Paz de Westfalia",
+"Paz de Utrecht",
+"Paz de Versalles",
+"Congreso de Viena"
+],
+"c": 0,
+"e": "Los tratados de Westfalia sentaron las bases de la soberanía de los Estados europeos.",
+"t": "Edad Moderna",
+"nv": 3
+},
+{
+"p": "¿En qué año ocurrió el Gran Incendio de Londres?",
+"o": [
+"1666",
+"1588",
+"1707",
+"1776"
+],
+"c": 0,
+"e": "El fuego duró cuatro días y destruyó buena parte de la ciudad medieval.",
+"t": "Edad Moderna",
+"nv": 3
+},
+{
+"p": "¿Qué pensador ilustrado escribió «El contrato social», publicado en 1762?",
+"o": [
+"Jean-Jacques Rousseau",
+"Voltaire",
+"Montesquieu",
+"John Locke"
+],
+"c": 0,
+"e": "Rousseau defendió que la autoridad nace del acuerdo entre los ciudadanos.",
+"t": "Ilustración",
+"nv": 3
+},
+{
+"p": "¿Qué líderes se reunieron en la conferencia de Yalta, en 1945?",
+"o": [
+"Roosevelt, Churchill y Stalin",
+"Truman, Churchill y Stalin",
+"Roosevelt, De Gaulle y Stalin",
+"Hitler, Mussolini y Hirohito"
+],
+"c": 0,
+"e": "Truman ya había sustituido a Roosevelt cuando se celebró la conferencia de Potsdam, unos meses después.",
+"t": "Segunda Guerra Mundial",
+"nv": 3
+},
+{
+"p": "¿Qué revolución de 1974 acabó con la dictadura portuguesa?",
+"o": [
+"La Revolución de los Claveles",
+"La Revolución Naranja",
+"La Revolución de Terciopelo",
+"La Revolución Rosa"
+],
+"c": 0,
+"e": "Comenzó el 25 de abril de 1974 y los soldados llevaban claveles en sus fusiles.",
+"t": "Siglo XX",
+"nv": 3
+},
+{
+"p": "¿Qué rey de Aragón conquistó Mallorca y Valencia en el siglo XIII?",
+"o": [
+"Jaime I",
+"Pedro III",
+"Alfonso V",
+"Fernando II"
+],
+"c": 0,
+"e": "Jaime I tomó Mallorca en 1229 y Valencia en 1238.",
+"t": "Edad Media en España",
+"nv": 3
+},
+{
+"p": "¿Qué tratado de 1713 cedió Gibraltar y Menorca a Gran Bretaña?",
+"o": [
+"Tratado de Utrecht",
+"Tratado de Westfalia",
+"Tratado de Tordesillas",
+"Tratado de Versalles"
+],
+"c": 0,
+"e": "Menorca volvió a España en 1802. Gibraltar sigue siendo británico.",
+"t": "España moderna",
+"nv": 3
+},
+{
+"p": "¿Qué general español venció a las tropas de Napoleón en la batalla de Bailén, en 1808?",
+"o": [
+"Francisco Javier Castaños",
+"José de Palafox",
+"Rafael del Riego",
+"Baldomero Espartero"
+],
+"c": 0,
+"e": "Fue la primera gran derrota de un ejército napoleónico en campo abierto.",
+"t": "España contemporánea",
+"nv": 3
+},
+{
+"p": "¿Quién fue el primer emperador de la China unificada, en el año 221 a. C.?",
+"o": [
+"Qin Shi Huang",
+"Kublai Kan",
+"Han Gaozu",
+"Sun Yat-sen"
+],
+"c": 0,
+"e": "Qin Shi Huang unificó China y mandó levantar el Ejército de Terracota.",
+"t": "Antigua China",
+"nv": 3
+},
+{
+"p": "¿Qué ciudad fue la capital del Imperio de Carlomagno?",
+"o": [
+"Aquisgrán",
+"París",
+"Roma",
+"Colonia"
+],
+"c": 0,
+"e": "Aquisgrán, hoy en Alemania, fue su residencia y está enterrado en su catedral.",
+"t": "Edad Media",
+"nv": 3
+},
+{
+"p": "¿En honor a qué diosa se construyó el Partenón de Atenas?",
+"o": [
+"Atenea",
+"Afrodita",
+"Hera",
+"Artemisa"
+],
+"c": 0,
+"e": "Atenea era la diosa protectora de la ciudad, que lleva su nombre.",
+"t": "Antigüedad",
+"nv": 1
+},
+{
+"p": "¿Qué batalla del año 490 a. C. dio nombre a la carrera del maratón?",
+"o": [
+"Maratón",
+"Salamina",
+"Termópilas",
+"Platea"
+],
+"c": 0,
+"e": "Según la tradición, un mensajero corrió desde Maratón hasta Atenas para anunciar la victoria sobre los persas.",
+"t": "Antigüedad",
+"nv": 2
+},
+{
+"p": "¿Qué rey de Esparta murió defendiendo el paso de las Termópilas en el año 480 a. C.?",
+"o": [
+"Leónidas",
+"Pericles",
+"Temístocles",
+"Milcíades"
+],
+"c": 0,
+"e": "Resistió con unos trescientos espartanos y sus aliados frente al enorme ejército persa de Jerjes.",
+"t": "Antigüedad",
+"nv": 2
+},
+{
+"p": "¿Qué emperador romano mandó levantar un muro de piedra en el norte de Britania a partir del año 122?",
+"o": [
+"Adriano",
+"Trajano",
+"Augusto",
+"Constantino"
+],
+"c": 0,
+"e": "El Muro de Adriano cruza el norte de Inglaterra de costa a costa.",
+"t": "Roma",
+"nv": 2
+},
+{
+"p": "¿Quiénes fueron, según la leyenda, los hermanos fundadores de Roma?",
+"o": [
+"Rómulo y Remo",
+"Rómulo y Numa",
+"Escipión y Aníbal",
+"Aquiles y Héctor"
+],
+"c": 0,
+"e": "La leyenda cuenta que una loba los amamantó de bebés y que Rómulo dio nombre a la ciudad.",
+"t": "Roma",
+"nv": 1
+},
+{
+"p": "¿Qué emperador romano, nacido en Itálica, cerca de Sevilla, gobernó entre los años 98 y 117?",
+"o": [
+"Trajano",
+"Augusto",
+"Nerón",
+"Marco Aurelio"
+],
+"c": 0,
+"e": "Fue el primer emperador nacido fuera de Italia y bajo su mando el Imperio alcanzó su mayor extensión.",
+"t": "Roma",
+"nv": 2
+},
+{
+"p": "¿Qué rey visigodo se convirtió al catolicismo en el III Concilio de Toledo, en el año 589?",
+"o": [
+"Recaredo",
+"Leovigildo",
+"Wamba",
+"Rodrigo"
+],
+"c": 0,
+"e": "Su conversión unió religiosamente a visigodos e hispanorromanos.",
+"t": "Edad Media en España",
+"nv": 3
+},
+{
+"p": "¿Quién lideró a los cristianos en la batalla de Covadonga, hacia el año 722?",
+"o": [
+"Pelayo",
+"Rodrigo",
+"Tariq",
+"Abderramán"
+],
+"c": 0,
+"e": "La victoria de Pelayo se considera el origen del reino de Asturias y el inicio simbólico de la Reconquista.",
+"t": "Edad Media en España",
+"nv": 2
+},
+{
+"p": "¿Cuál era el verdadero nombre del Cid Campeador?",
+"o": [
+"Rodrigo Díaz de Vivar",
+"Fernán González",
+"Álvar Fáñez",
+"Pelayo Pérez"
+],
+"c": 0,
+"e": "Nació cerca de Burgos hacia 1043 y conquistó Valencia en 1094.",
+"t": "Edad Media en España",
+"nv": 2
+},
+{
+"p": "¿Qué reina financió el primer viaje de Colón a América?",
+"o": [
+"Isabel I de Castilla",
+"Juana la Loca",
+"Catalina de Aragón",
+"Isabel II"
+],
+"c": 0,
+"e": "Isabel y Fernando firmaron con Colón las Capitulaciones de Santa Fe en 1492.",
+"t": "Descubrimientos",
+"nv": 1
+},
+{
+"p": "¿Qué rey de España abdicó en 1556 y repartió sus dominios entre su hijo y su hermano?",
+"o": [
+"Carlos I",
+"Felipe II",
+"Felipe III",
+"Fernando el Católico"
+],
+"c": 0,
+"e": "Felipe II heredó España, Italia y América, y su tío Fernando los territorios austríacos.",
+"t": "España moderna",
+"nv": 3
+},
+{
+"p": "¿Qué rey español era conocido como «el Prudente»?",
+"o": [
+"Felipe II",
+"Carlos II",
+"Felipe IV",
+"Carlos III"
+],
+"c": 0,
+"e": "Gobernó entre 1556 y 1598 y controlaba los asuntos del reino desde sus despachos.",
+"t": "España moderna",
+"nv": 2
+},
+{
+"p": "¿Qué rey de la casa de Austria murió sin hijos en 1700 y desencadenó la guerra de Sucesión?",
+"o": [
+"Carlos II",
+"Felipe IV",
+"Felipe III",
+"Carlos III"
+],
+"c": 0,
+"e": "Conocido como «el Hechizado», nombró heredero a Felipe de Anjou, y la guerra enfrentó a este con el archiduque Carlos.",
+"t": "España moderna",
+"nv": 3
+},
+{
+"p": "¿En qué año se produjo en Madrid el levantamiento del Dos de Mayo contra las tropas francesas?",
+"o": [
+"1808",
+"1805",
+"1812",
+"1814"
+],
+"c": 0,
+"e": "Fue el comienzo de la Guerra de la Independencia española.",
+"t": "España contemporánea",
+"nv": 2
+},
+{
+"p": "¿Qué rey de origen italiano reinó en España entre 1871 y 1873?",
+"o": [
+"Amadeo I de Saboya",
+"Alfonso XII",
+"Fernando VII",
+"Carlos IV"
+],
+"c": 0,
+"e": "Renunció al trono en 1873 y poco después se proclamó la Primera República.",
+"t": "España contemporánea",
+"nv": 3
+},
+{
+"p": "¿Qué rey de España abdicó en junio de 2014 a favor de su hijo?",
+"o": [
+"Juan Carlos I",
+"Alfonso XIII",
+"Alfonso XII",
+"Felipe VI"
+],
+"c": 0,
+"e": "Su hijo, Felipe VI, fue proclamado rey el 19 de junio de 2014.",
+"t": "España contemporánea",
+"nv": 1
+},
+{
+"p": "¿Qué ocurrió en el Congreso de los Diputados el 23 de febrero de 1981?",
+"o": [
+"Un intento de golpe de Estado",
+"La aprobación de la Constitución",
+"Las primeras elecciones democráticas",
+"La disolución de las Cortes"
+],
+"c": 0,
+"e": "Guardias civiles armados asaltaron el Congreso y el golpe fracasó esa misma noche.",
+"t": "España contemporánea",
+"nv": 2
+},
+{
+"p": "¿Qué zarina gobernó Rusia entre 1762 y 1796 y fue llamada «la Grande»?",
+"o": [
+"Catalina II",
+"Isabel I",
+"Ana Ivanovna",
+"Alejandra Fiódorovna"
+],
+"c": 0,
+"e": "Amplió el imperio hacia el mar Negro y fue una gran mecenas de las artes.",
+"t": "Ilustración",
+"nv": 3
+},
+{
+"p": "¿Qué ciudad alemana fue dividida en cuatro sectores por los aliados tras la Segunda Guerra Mundial?",
+"o": [
+"Berlín",
+"Múnich",
+"Hamburgo",
+"Fráncfort"
+],
+"c": 0,
+"e": "Estados Unidos, el Reino Unido, Francia y la Unión Soviética se repartieron la ciudad, que acabó dividida en Berlín Este y Berlín Oeste.",
+"t": "Guerra Fría",
+"nv": 2
+},
+{
+"p": "¿Qué transatlántico británico hundió un submarino alemán en 1915 con muchos civiles a bordo?",
+"o": [
+"El Lusitania",
+"El Titanic",
+"El Queen Mary",
+"El Britannic"
+],
+"c": 0,
+"e": "Murieron más de mil personas, y el hecho aumentó el rechazo a Alemania en Estados Unidos.",
+"t": "Primera Guerra Mundial",
+"nv": 3
+},
+{
+"p": "¿Quién fue elegido presidente de Sudáfrica en 1994 tras pasar 27 años en prisión?",
+"o": [
+"Nelson Mandela",
+"Desmond Tutu",
+"Steve Biko",
+"Frederik de Klerk"
+],
+"c": 0,
+"e": "Fue el primer presidente elegido en elecciones abiertas a todas las razas, tras el fin del apartheid.",
+"t": "Siglo XX",
+"nv": 1
+},
+{
+"p": "¿Qué tratado de 1992 dio nombre y forma a la Unión Europea?",
+"o": [
+"El Tratado de Maastricht",
+"El Tratado de Roma",
+"El Tratado de Lisboa",
+"El Acuerdo de Schengen"
+],
+"c": 0,
+"e": "Se firmó en la ciudad neerlandesa de Maastricht y entró en vigor en 1993.",
+"t": "Siglo XX",
+"nv": 3
+},
+{
+"p": "¿Qué rey de Francia fue guillotinado en 1793, durante la Revolución?",
+"o": [
+"Luis XVI",
+"Luis XIV",
+"Carlos X",
+"Luis XVIII"
+],
+"c": 0,
+"e": "Fue ejecutado en enero de 1793; su esposa, María Antonieta, murió el mismo año.",
+"t": "Edad Contemporánea",
+"nv": 1
+},
+{
+"p": "¿Qué navegante portugués llegó por mar a la India en 1498?",
+"o": [
+"Vasco da Gama",
+"Bartolomeu Dias",
+"Fernando de Magallanes",
+"Américo Vespucio"
+],
+"c": 0,
+"e": "Rodeó África y llegó a Calicut, abriendo la ruta marítima de las especias.",
+"t": "Descubrimientos",
+"nv": 2
+},
+{
+"p": "¿Qué país fue el primero en conceder el voto a las mujeres en elecciones nacionales, en 1893?",
+"o": [
+"Nueva Zelanda",
+"Reino Unido",
+"Estados Unidos",
+"Francia"
+],
+"c": 0,
+"e": "Las mujeres votaron por primera vez en unas elecciones nacionales ese mismo año.",
+"t": "Edad Contemporánea",
+"nv": 3
 }
 ]
 }

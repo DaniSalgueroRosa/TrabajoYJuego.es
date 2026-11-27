@@ -1,2 +1,1 @@
-.recorte { display: grid; gap: var(--e4); }
-.onda { width: 100%; height: auto; aspect-ratio: 1000 / 150; border: 3px solid var(--pizarra); background: var(--papel); cursor: crosshair; touch-action: manipulation; }
+.recorte{display:grid;gap:var(--e4)}.onda{width:100%;height:auto;aspect-ratio:1000 / 150;border:3px solid var(--pizarra);background:var(--papel);cursor:crosshair;touch-action:manipulation}

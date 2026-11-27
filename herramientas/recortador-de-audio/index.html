@@ -27,12 +27,15 @@
 <meta name="twitter:title" content="Recortador de audio | TrabajoYJuego">
 <meta name="twitter:description" content="Recorta un audio en tu navegador: elige el inicio y el final sobre la onda, escucha el resultado y guárdalo en MP3, WAV, FLAC u Ogg Opus.">
 <meta name="twitter:image" content="https://trabajoyjuego.es/assets/img/og.png">
-<link rel="stylesheet" href="../../assets/css/comun.css?v=2c9c8ec9">
-<link rel="stylesheet" href="../../assets/css/herramientas.css?v=be44dd49">
+<link rel="preload" href="../../assets/fonts/cuadritos-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../assets/fonts/heros-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b5ee6ec0">
+<link rel="stylesheet" href="../../assets/css/herramientas.css?v=2ef23fd3">
 <link rel="stylesheet" href="app.css?v=57a881b1">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Recortador de audio","description":"Recorta un audio en tu navegador: elige el inicio y el final sobre la onda, escucha el resultado y guárdalo en MP3, WAV, FLAC u Ogg Opus.","url":"https://trabajoyjuego.es/herramientas/recortador-de-audio/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","browserRequirements":"Requiere JavaScript","applicationCategory":"UtilitiesApplication","datePublished":"2026-11-14","image":"https://trabajoyjuego.es/assets/img/og.png","isPartOf":{"@id":"https://trabajoyjuego.es/#sitio"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"},"keywords":"audio, recortar, cortar"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Herramientas","item":"https://trabajoyjuego.es/herramientas/"},{"@type":"ListItem","position":3,"name":"Audio y sonido","item":"https://trabajoyjuego.es/herramientas/categoria/audio/"},{"@type":"ListItem","position":4,"name":"Recortador de audio","item":"https://trabajoyjuego.es/herramientas/recortador-de-audio/"}]}</script>
-<script src="../../assets/js/analitica.js?v=9a8d918c"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Puedo recortar con más precisión que una décima de segundo?","acceptedAnswer":{"@type":"Answer","text":"Los tiempos que escribes se interpretan con todos los decimales que pongas; el cuadro de texto muestra décimas, pero un valor como 12,345 se respeta al cortar."}},{"@type":"Question","name":"¿Qué pasa con la calidad del audio?","acceptedAnswer":{"@type":"Answer","text":"Si guardas en WAV o FLAC, el tramo conservado es idéntico al original decodificado. Si el original era un MP3, el recorte sonará igual que el MP3, no mejor."}},{"@type":"Question","name":"¿Puedo recortar un vídeo?","acceptedAnswer":{"@type":"Answer","text":"Puedes cargar el audio de un vídeo MP4 o WebM y recortarlo, pero el resultado será solo audio. Para sacar todo el sonido de un vídeo, usa la herramienta de extraer audio."}},{"@type":"Question","name":"¿El recorte funciona con audios largos?","acceptedAnswer":{"@type":"Answer","text":"Sí, mientras el navegador tenga memoria para decodificarlos. Dibujar la onda de un audio de una hora lleva solo unos segundos."}}]}</script>
+<script src="../../assets/js/analitica.js?v=f849f6c7"></script>
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NXS4G4GQ"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9072387937265621" crossorigin="anonymous"></script>
 
@@ -41,7 +44,7 @@
 <a class="salto" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="contenedor cabecera-interior">
-    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52"></a>
     <nav class="cabecera-nav" aria-label="Secciones">
       <ul>
         <li data-grupo="trabajo"><a href="../../herramientas/" aria-current="page">Herramientas</a></li>
@@ -143,7 +146,7 @@
 <footer class="pie">
   <div class="contenedor pie-interior">
     <div class="pie-marca">
-      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52" loading="lazy" decoding="async"></a>
       <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
     </div>
     <nav class="pie-nav" aria-label="Secciones, en el pie de página">
@@ -171,13 +174,14 @@
       <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
       <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
       <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../actualizaciones/">Actualizaciones</a></li>
       <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
     </ul>
   </nav>
   <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
 </footer>
 
-<script src="../../assets/js/herramientas.js?v=0a5f0806" defer></script>
+<script src="../../assets/js/herramientas.js?v=b4cba451" defer></script>
 <script src="app.js?v=e2b48018" defer></script>
 </body>
 </html>

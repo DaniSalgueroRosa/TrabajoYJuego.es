@@ -1,6 +1,1 @@
-.grab-panel { display: grid; gap: var(--e3); justify-items: start; }
-.grab-tiempo { margin: 0; font: 800 clamp(2.6rem, 9vw, 4rem) / 1 var(--f-trabajo); font-variant-numeric: tabular-nums; }
-.grab-nivel { width: min(100%, 28rem); height: 1rem; border: 3px solid var(--pizarra); background: var(--papel); }
-.grab-barra { display: block; height: 100%; width: 0; background: var(--pizarra-media); }
-.grab-resultado { display: grid; gap: var(--e3); padding: var(--e4); border: 3px solid var(--pizarra); background: var(--papel); }
-.grab-resultado audio { width: 100%; }
+.grab-panel{display:grid;gap:var(--e3);justify-items:start}.grab-tiempo{margin:0;font:800 clamp(2.6rem,9vw,4rem) / 1 var(--f-trabajo);font-variant-numeric:tabular-nums}.grab-nivel{width:min(100%,28rem);height:1rem;border:3px solid var(--pizarra);background:var(--papel)}.grab-barra{display:block;height:100%;width:0;background:var(--pizarra-media)}.grab-resultado{display:grid;gap:var(--e3);padding:var(--e4);border:3px solid var(--pizarra);background:var(--papel)}.grab-resultado audio{width:100%}

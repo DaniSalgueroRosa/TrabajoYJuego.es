@@ -11,7 +11,8 @@
 ],
 "c": 0,
 "e": "El Tajo mide unos 1.007 km. El Ebro (unos 910 km) es el más largo que corre entero por España.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "¿En qué año llegó Cristóbal Colón a América por primera vez?",
@@ -23,7 +24,8 @@
 ],
 "c": 0,
 "e": "La expedición de las tres carabelas tocó tierra el 12 de octubre de 1492.",
-"t": "Historia"
+"t": "Historia",
+"nv": 1
 },
 {
 "p": "¿Cuántos huesos tiene el cuerpo de una persona adulta?",
@@ -35,7 +37,8 @@
 ],
 "c": 0,
 "e": "Un recién nacido tiene más (unos 300) porque muchos huesos se sueldan al crecer.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Cuál es el planeta más grande del sistema solar?",
@@ -47,7 +50,8 @@
 ],
 "c": 0,
 "e": "Júpiter tiene más del doble de masa que todos los demás planetas juntos.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Quién escribió «Don Quijote de la Mancha»?",
@@ -59,7 +63,8 @@
 ],
 "c": 0,
 "e": "La primera parte se publicó en 1605 y la segunda en 1615.",
-"t": "Literatura"
+"t": "Literatura",
+"nv": 1
 },
 {
 "p": "¿Cuál es la capital de Australia?",
@@ -71,7 +76,8 @@
 ],
 "c": 0,
 "e": "Sídney y Melbourne son más grandes, pero la capital es Canberra.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
@@ -83,7 +89,8 @@
 ],
 "c": 0,
 "e": "El aire tiene cerca de un 78 % de nitrógeno y un 21 % de oxígeno.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Cuál es el símbolo químico del oro?",
@@ -95,7 +102,8 @@
 ],
 "c": 0,
 "e": "Viene del latín «aurum».",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Quién pintó «Las meninas»?",
@@ -107,7 +115,8 @@
 ],
 "c": 0,
 "e": "Velázquez la pintó en 1656; se conserva en el Museo del Prado.",
-"t": "Arte"
+"t": "Arte",
+"nv": 1
 },
 {
 "p": "¿Cuál es el desierto cálido más grande del mundo?",
@@ -119,7 +128,8 @@
 ],
 "c": 0,
 "e": "El Sáhara ocupa unos 9 millones de km². El mayor desierto de todos es la Antártida.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Cuántos jugadores de un mismo equipo están en pista a la vez en baloncesto?",
@@ -131,7 +141,8 @@
 ],
 "c": 0,
 "e": "Cada equipo juega con cinco jugadores en pista.",
-"t": "Deporte"
+"t": "Deporte",
+"nv": 1
 },
 {
 "p": "¿Cuál es el océano más grande?",
@@ -143,7 +154,8 @@
 ],
 "c": 0,
 "e": "El Pacífico cubre cerca de un tercio de la superficie del planeta.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Quién formuló la teoría de la relatividad?",
@@ -155,7 +167,8 @@
 ],
 "c": 0,
 "e": "La relatividad especial es de 1905 y la general de 1915.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿En qué año cayó el Muro de Berlín?",
@@ -167,7 +180,8 @@
 ],
 "c": 0,
 "e": "Cayó en la noche del 9 de noviembre de 1989.",
-"t": "Historia"
+"t": "Historia",
+"nv": 2
 },
 {
 "p": "¿Cuál es el hueso más largo del cuerpo humano?",
@@ -179,7 +193,8 @@
 ],
 "c": 0,
 "e": "El fémur está en el muslo y supone aproximadamente una cuarta parte de la estatura.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Qué planeta se conoce como «el planeta rojo»?",
@@ -191,7 +206,8 @@
 ],
 "c": 0,
 "e": "Su color se debe al óxido de hierro de su superficie.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Cuál es la montaña más alta del mundo sobre el nivel del mar?",
@@ -203,7 +219,8 @@
 ],
 "c": 0,
 "e": "El Everest mide 8.849 m.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Qué lengua tiene más hablantes nativos del mundo?",
@@ -215,7 +232,8 @@
 ],
 "c": 0,
 "e": "El español es la segunda lengua con más hablantes nativos.",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 2
 },
 {
 "p": "¿Quién compuso «Las cuatro estaciones»?",
@@ -227,7 +245,8 @@
 ],
 "c": 0,
 "e": "Es un conjunto de cuatro conciertos para violín compuestos hacia 1720.",
-"t": "Música"
+"t": "Música",
+"nv": 2
 },
 {
 "p": "¿Cuál es el mamífero más grande que existe?",
@@ -239,7 +258,8 @@
 ],
 "c": 0,
 "e": "Puede superar los 25 metros y las 100 toneladas.",
-"t": "Naturaleza"
+"t": "Naturaleza",
+"nv": 1
 },
 {
 "p": "¿Cuál es la capital de Canadá?",
@@ -251,7 +271,8 @@
 ],
 "c": 0,
 "e": "Toronto es la ciudad más poblada, pero la capital es Ottawa.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "¿Qué vitamina produce la piel con la luz del sol?",
@@ -263,7 +284,8 @@
 ],
 "c": 0,
 "e": "La luz ultravioleta ayuda a que el cuerpo la fabrique.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Cuál es el río más largo de Europa?",
@@ -275,7 +297,8 @@
 ],
 "c": 0,
 "e": "El Volga mide unos 3.530 km y desemboca en el mar Caspio.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 3
 },
 {
 "p": "¿En qué año se aprobó la Constitución española vigente?",
@@ -287,7 +310,8 @@
 ],
 "c": 0,
 "e": "Se aprobó en referéndum el 6 de diciembre de 1978.",
-"t": "Historia"
+"t": "Historia",
+"nv": 2
 },
 {
 "p": "¿Quién es el autor de «Cien años de soledad»?",
@@ -299,7 +323,8 @@
 ],
 "c": 0,
 "e": "Se publicó en 1967 y narra la historia de la familia Buendía.",
-"t": "Literatura"
+"t": "Literatura",
+"nv": 1
 },
 {
 "p": "¿Qué metal es líquido a temperatura ambiente?",
@@ -311,7 +336,8 @@
 ],
 "c": 0,
 "e": "Se funde a unos −39 °C.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Qué país es el más extenso del mundo?",
@@ -323,7 +349,8 @@
 ],
 "c": 0,
 "e": "Rusia ocupa más de 17 millones de km².",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Qué ciudad fue sede de los Juegos Olímpicos de verano de 1992?",
@@ -335,7 +362,8 @@
 ],
 "c": 0,
 "e": "Los Juegos de Barcelona 92 se celebraron del 25 de julio al 9 de agosto.",
-"t": "Deporte"
+"t": "Deporte",
+"nv": 1
 },
 {
 "p": "¿Cuántos minutos dura el tiempo reglamentario de un partido de fútbol?",
@@ -347,7 +375,8 @@
 ],
 "c": 0,
 "e": "Son dos partes de 45 minutos, sin contar el tiempo añadido.",
-"t": "Deporte"
+"t": "Deporte",
+"nv": 1
 },
 {
 "p": "¿Cuántas teclas tiene un piano estándar?",
@@ -359,7 +388,8 @@
 ],
 "c": 0,
 "e": "Tiene 52 teclas blancas y 36 negras.",
-"t": "Música"
+"t": "Música",
+"nv": 2
 },
 {
 "p": "¿Quién fue la primera persona en pisar la Luna?",
@@ -371,7 +401,8 @@
 ],
 "c": 0,
 "e": "Ocurrió el 20 de julio de 1969, durante la misión Apolo 11.",
-"t": "Historia"
+"t": "Historia",
+"nv": 1
 },
 {
 "p": "¿Quién creó al detective Sherlock Holmes?",
@@ -383,7 +414,8 @@
 ],
 "c": 0,
 "e": "Apareció por primera vez en 1887.",
-"t": "Literatura"
+"t": "Literatura",
+"nv": 2
 },
 {
 "p": "¿En qué ciudad está la Sagrada Familia?",
@@ -395,7 +427,8 @@
 ],
 "c": 0,
 "e": "Antoni Gaudí empezó a dirigir las obras en 1883.",
-"t": "Arte"
+"t": "Arte",
+"nv": 1
 },
 {
 "p": "¿Cuál es el planeta más cercano al Sol?",
@@ -407,7 +440,8 @@
 ],
 "c": 0,
 "e": "Tarda solo 88 días terrestres en dar una vuelta al Sol.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Quién pintó «La noche estrellada»?",
@@ -419,7 +453,8 @@
 ],
 "c": 0,
 "e": "La pintó en 1889 desde el sanatorio de Saint-Rémy.",
-"t": "Arte"
+"t": "Arte",
+"nv": 1
 },
 {
 "p": "¿En qué país está Machu Picchu?",
@@ -431,7 +466,8 @@
 ],
 "c": 0,
 "e": "Es una ciudadela inca de los Andes peruanos.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Cuál es el animal terrestre más rápido?",
@@ -443,7 +479,8 @@
 ],
 "c": 0,
 "e": "Puede superar los 100 km/h en carreras cortas.",
-"t": "Naturaleza"
+"t": "Naturaleza",
+"nv": 1
 },
 {
 "p": "¿Qué elemento químico tiene el símbolo Fe?",
@@ -455,7 +492,8 @@
 ],
 "c": 0,
 "e": "Viene del latín «ferrum».",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Quién escribió «La Odisea»?",
@@ -467,7 +505,8 @@
 ],
 "c": 0,
 "e": "Se atribuye a Homero y cuenta el regreso de Ulises a Ítaca.",
-"t": "Literatura"
+"t": "Literatura",
+"nv": 2
 },
 {
 "p": "¿En qué año comenzó la Primera Guerra Mundial?",
@@ -479,7 +518,8 @@
 ],
 "c": 0,
 "e": "Comenzó en julio de 1914 y terminó en noviembre de 1918.",
-"t": "Historia"
+"t": "Historia",
+"nv": 2
 },
 {
 "p": "¿Cuál es la capital de Turquía?",
@@ -491,7 +531,8 @@
 ],
 "c": 0,
 "e": "Estambul es la ciudad más grande, pero la capital es Ankara.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "¿Qué parte de la célula contiene el material genético?",
@@ -503,7 +544,8 @@
 ],
 "c": 0,
 "e": "El ADN de las células con núcleo se guarda en él.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Cuál es la isla más grande del mar Mediterráneo?",
@@ -515,7 +557,8 @@
 ],
 "c": 0,
 "e": "Sicilia tiene unos 25.700 km²; Cerdeña, unos 24.100.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 3
 },
 {
 "p": "¿Qué deporte se juega en Wimbledon?",
@@ -527,7 +570,8 @@
 ],
 "c": 0,
 "e": "El torneo de Wimbledon se juega sobre hierba desde 1877.",
-"t": "Deporte"
+"t": "Deporte",
+"nv": 1
 },
 {
 "p": "¿Quién descubrió la penicilina?",
@@ -539,7 +583,8 @@
 ],
 "c": 0,
 "e": "La descubrió en 1928 al observar un moho que mataba bacterias.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Quién pintó los frescos del techo de la Capilla Sixtina?",
@@ -551,7 +596,8 @@
 ],
 "c": 0,
 "e": "Los pintó entre 1508 y 1512.",
-"t": "Arte"
+"t": "Arte",
+"nv": 2
 },
 {
 "p": "¿Qué gas absorben las plantas en la fotosíntesis?",
@@ -563,7 +609,8 @@
 ],
 "c": 0,
 "e": "Con la luz, lo convierten en azúcares y liberan oxígeno.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Qué cordillera separa España de Francia?",
@@ -575,7 +622,8 @@
 ],
 "c": 0,
 "e": "Se extiende de mar a mar, del Cantábrico al Mediterráneo.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Cuál es el idioma oficial de Brasil?",
@@ -587,7 +635,8 @@
 ],
 "c": 0,
 "e": "Brasil es el país más grande donde se habla portugués.",
-"t": "Lengua"
+"t": "Lengua",
+"nv": 1
 },
 {
 "p": "¿Qué planeta tiene los anillos más visibles?",
@@ -599,7 +648,8 @@
 ],
 "c": 0,
 "e": "Sus anillos son de hielo y roca, y se ven con un telescopio pequeño.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿Cuántas cuerdas tiene una guitarra clásica?",
@@ -611,7 +661,8 @@
 ],
 "c": 0,
 "e": "Se afinan, de grave a aguda, mi-la-re-sol-si-mi.",
-"t": "Música"
+"t": "Música",
+"nv": 1
 },
 {
 "p": "¿Qué ciudad se conoce como «la Ciudad Eterna»?",
@@ -623,7 +674,8 @@
 ],
 "c": 0,
 "e": "El apodo viene de la idea de que Roma perduraría para siempre.",
-"t": "Historia"
+"t": "Historia",
+"nv": 1
 },
 {
 "p": "¿Cuál es el metal sólido más ligero?",
@@ -635,7 +687,8 @@
 ],
 "c": 0,
 "e": "Su densidad es casi la mitad que la del agua.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 3
 },
 {
 "p": "¿En qué país nació Pablo Picasso?",
@@ -647,7 +700,8 @@
 ],
 "c": 0,
 "e": "Nació en Málaga en 1881.",
-"t": "Arte"
+"t": "Arte",
+"nv": 1
 },
 {
 "p": "¿Cuál es la capital de Marruecos?",
@@ -659,7 +713,8 @@
 ],
 "c": 0,
 "e": "Casablanca es la ciudad más grande, pero la capital es Rabat.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 2
 },
 {
 "p": "¿De qué país procede el haiku?",
@@ -671,7 +726,8 @@
 ],
 "c": 0,
 "e": "Es un poema muy breve, de tres versos.",
-"t": "Literatura"
+"t": "Literatura",
+"nv": 2
 },
 {
 "p": "¿Cuántos corazones tiene un pulpo?",
@@ -683,7 +739,8 @@
 ],
 "c": 0,
 "e": "Dos bombean sangre a las branquias y uno al resto del cuerpo.",
-"t": "Naturaleza"
+"t": "Naturaleza",
+"nv": 3
 },
 {
 "p": "¿Cuál es la capital de Egipto?",
@@ -695,7 +752,8 @@
 ],
 "c": 0,
 "e": "Está a orillas del Nilo.",
-"t": "Geografía"
+"t": "Geografía",
+"nv": 1
 },
 {
 "p": "¿Cuántos lados tiene un hexágono?",
@@ -707,7 +765,8 @@
 ],
 "c": 0,
 "e": "«Hexa» significa seis en griego.",
-"t": "Matemáticas"
+"t": "Matemáticas",
+"nv": 1
 },
 {
 "p": "¿Cuántos grados suman los ángulos de un triángulo?",
@@ -719,7 +778,8 @@
 ],
 "c": 0,
 "e": "En un plano, siempre suman 180 grados.",
-"t": "Matemáticas"
+"t": "Matemáticas",
+"nv": 1
 },
 {
 "p": "¿Cuál es el resultado de 12 × 12?",
@@ -731,7 +791,8 @@
 ],
 "c": 0,
 "e": "Doce docenas forman una gruesa: 144.",
-"t": "Matemáticas"
+"t": "Matemáticas",
+"nv": 1
 },
 {
 "p": "¿Qué estación empieza en el solsticio de junio en el hemisferio norte?",
@@ -743,7 +804,8 @@
 ],
 "c": 0,
 "e": "El solsticio de verano es hacia el 21 de junio.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 1
 },
 {
 "p": "¿De qué color es la sangre oxigenada que circula por las arterias?",
@@ -755,7 +817,8 @@
 ],
 "c": 0,
 "e": "Con oxígeno, la hemoglobina se ve rojo vivo.",
-"t": "Ciencia"
+"t": "Ciencia",
+"nv": 2
 },
 {
 "p": "¿Quién pintó «Guernica»?",
@@ -767,7 +830,723 @@
 ],
 "c": 0,
 "e": "Lo pintó en 1937 para el pabellón español de la Exposición de París.",
-"t": "Arte"
+"t": "Arte",
+"nv": 1
+},
+{
+"p": "¿Quién pintó «La Gioconda»?",
+"o": [
+"Leonardo da Vinci",
+"Rafael",
+"Miguel Ángel",
+"Botticelli"
+],
+"c": 0,
+"e": "La pintó Leonardo da Vinci a comienzos del siglo XVI y hoy se conserva en el Museo del Louvre, en París.",
+"t": "Arte",
+"nv": 1
+},
+{
+"p": "¿Cuál es la moneda oficial de Japón?",
+"o": [
+"Yen",
+"Won",
+"Yuan",
+"Baht"
+],
+"c": 0,
+"e": "El yen es la moneda japonesa; el won es la de Corea y el yuan (renminbi), la de China.",
+"t": "Geografía",
+"nv": 1
+},
+{
+"p": "¿Qué estrecho separa España de África?",
+"o": [
+"Estrecho de Gibraltar",
+"Estrecho del Bósforo",
+"Estrecho de Magallanes",
+"Estrecho de Ormuz"
+],
+"c": 0,
+"e": "En su punto más estrecho, el estrecho de Gibraltar mide unos 14 km.",
+"t": "Geografía",
+"nv": 1
+},
+{
+"p": "¿Cuál es el país más pequeño del mundo por superficie?",
+"o": [
+"Ciudad del Vaticano",
+"Mónaco",
+"San Marino",
+"Liechtenstein"
+],
+"c": 0,
+"e": "El Vaticano ocupa unas 44 hectáreas, menos de medio kilómetro cuadrado.",
+"t": "Geografía",
+"nv": 1
+},
+{
+"p": "¿Quién creó a Harry Potter?",
+"o": [
+"J. K. Rowling",
+"Roald Dahl",
+"C. S. Lewis",
+"J. R. R. Tolkien"
+],
+"c": 0,
+"e": "Joanne «J. K.» Rowling publicó el primer libro de la saga en 1997.",
+"t": "Literatura",
+"nv": 1
+},
+{
+"p": "¿Cuál es la capital de Nueva Zelanda?",
+"o": [
+"Wellington",
+"Auckland",
+"Christchurch",
+"Queenstown"
+],
+"c": 0,
+"e": "Auckland es la ciudad más poblada, pero la capital del país es Wellington.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Quién escribió la novela «1984»?",
+"o": [
+"George Orwell",
+"Aldous Huxley",
+"Ray Bradbury",
+"Franz Kafka"
+],
+"c": 0,
+"e": "Orwell la publicó en 1949; «Un mundo feliz» es de Huxley.",
+"t": "Literatura",
+"nv": 2
+},
+{
+"p": "¿Qué país tiene más habitantes del mundo?",
+"o": [
+"India",
+"China",
+"Estados Unidos",
+"Indonesia"
+],
+"c": 0,
+"e": "India superó a China en 2023, según las estimaciones de la ONU.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Quién compuso la ópera «El barbero de Sevilla»?",
+"o": [
+"Gioachino Rossini",
+"Wolfgang Amadeus Mozart",
+"Giuseppe Verdi",
+"Giacomo Puccini"
+],
+"c": 0,
+"e": "Rossini la estrenó en 1816. Mozart compuso «Las bodas de Fígaro», que cuenta lo que ocurre después con los mismos personajes.",
+"t": "Música",
+"nv": 2
+},
+{
+"p": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+"o": [
+"Estribo",
+"Yunque",
+"Martillo",
+"Falange"
+],
+"c": 0,
+"e": "El estribo, en el oído medio, mide unos 3 milímetros.",
+"t": "Cuerpo humano",
+"nv": 2
+},
+{
+"p": "¿Cuál es la capital de Suiza?",
+"o": [
+"Berna",
+"Zúrich",
+"Ginebra",
+"Basilea"
+],
+"c": 0,
+"e": "Zúrich es la ciudad más grande, pero la capital federal es Berna.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Cuál es la capital de Brasil?",
+"o": [
+"Brasilia",
+"Río de Janeiro",
+"São Paulo",
+"Salvador de Bahía"
+],
+"c": 0,
+"e": "Brasilia es la capital desde 1960; antes lo fue Río de Janeiro.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Cuál es la montaña más alta de España?",
+"o": [
+"El Teide",
+"El Mulhacén",
+"El Aneto",
+"El Veleta"
+],
+"c": 0,
+"e": "El Teide (Tenerife) mide 3.715 m. El Mulhacén (3.479 m) es la más alta de la península.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Quién pintó «La persistencia de la memoria», el cuadro de los relojes blandos?",
+"o": [
+"Salvador Dalí",
+"Joan Miró",
+"Pablo Picasso",
+"René Magritte"
+],
+"c": 0,
+"e": "Dalí lo pintó en 1931; es una de las obras más conocidas del surrealismo.",
+"t": "Arte",
+"nv": 2
+},
+{
+"p": "¿Qué idioma habla más gente en el mundo si se cuentan también quienes lo usan como segunda lengua?",
+"o": [
+"Inglés",
+"Chino mandarín",
+"Español",
+"Hindi"
+],
+"c": 0,
+"e": "El inglés suma unos 1.500 millones de hablantes. El mandarín tiene más hablantes nativos.",
+"t": "Lengua",
+"nv": 2
+},
+{
+"p": "¿Cuál es el río más largo de Sudamérica?",
+"o": [
+"El Amazonas",
+"El Orinoco",
+"El Paraná",
+"El Magdalena"
+],
+"c": 0,
+"e": "El Amazonas mide unos 6.400 km.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Quién escribió «Crimen y castigo»?",
+"o": [
+"Fiódor Dostoyevski",
+"León Tolstói",
+"Antón Chéjov",
+"Nikolái Gógol"
+],
+"c": 0,
+"e": "Dostoyevski publicó la novela en 1866.",
+"t": "Literatura",
+"nv": 2
+},
+{
+"p": "¿Cuántos países forman el Reino Unido?",
+"o": [
+"Cuatro",
+"Tres",
+"Cinco",
+"Seis"
+],
+"c": 0,
+"e": "Inglaterra, Escocia, Gales e Irlanda del Norte.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Cuál es el lago más profundo del mundo?",
+"o": [
+"Baikal",
+"Tanganica",
+"Victoria",
+"Superior"
+],
+"c": 0,
+"e": "El lago Baikal, en Rusia, supera los 1.600 metros de profundidad.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Qué escritor español ganó el Premio Nobel de Literatura en 1989?",
+"o": [
+"Camilo José Cela",
+"Juan Ramón Jiménez",
+"Vicente Aleixandre",
+"Jacinto Benavente"
+],
+"c": 0,
+"e": "Cela lo ganó en 1989. Jiménez lo ganó en 1956, Aleixandre en 1977 y Benavente en 1922.",
+"t": "Literatura",
+"nv": 3
+},
+{
+"p": "¿En qué país está la ciudad de Petra?",
+"o": [
+"Jordania",
+"Egipto",
+"Siria",
+"Israel"
+],
+"c": 0,
+"e": "Petra, la ciudad nabatea excavada en la roca, está en Jordania.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Qué país tiene más islas del mundo?",
+"o": [
+"Suecia",
+"Indonesia",
+"Filipinas",
+"Canadá"
+],
+"c": 0,
+"e": "Según los recuentos habituales, Suecia tiene más de 260.000 islas, casi todas diminutas.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Cuál es la capital de Kazajistán?",
+"o": [
+"Astaná",
+"Almatý",
+"Taskent",
+"Biskek"
+],
+"c": 0,
+"e": "Se llamó Nursultán entre 2019 y 2022. Almatý es la ciudad más grande del país.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Quién escribió «La Regenta»?",
+"o": [
+"Leopoldo Alas «Clarín»",
+"Benito Pérez Galdós",
+"Emilia Pardo Bazán",
+"Pío Baroja"
+],
+"c": 0,
+"e": "Se publicó en 1884 y 1885 y transcurre en Vetusta, una ciudad inventada que recuerda a Oviedo.",
+"t": "Literatura",
+"nv": 3
+},
+{
+"p": "¿Cómo se llama el miedo a las alturas?",
+"o": [
+"Acrofobia",
+"Claustrofobia",
+"Agorafobia",
+"Hidrofobia"
+],
+"c": 0,
+"e": "La claustrofobia es el miedo a los espacios cerrados y la agorafobia, a los espacios abiertos.",
+"t": "Lengua",
+"nv": 3
+},
+{
+"p": "¿Quién compuso «El Mesías», que incluye el famoso «Aleluya»?",
+"o": [
+"Georg Friedrich Händel",
+"Johann Sebastian Bach",
+"Antonio Vivaldi",
+"Joseph Haydn"
+],
+"c": 0,
+"e": "Händel lo estrenó en Dublín en 1742.",
+"t": "Música",
+"nv": 3
+},
+{
+"p": "¿Cuál es el país más extenso de África?",
+"o": [
+"Argelia",
+"República Democrática del Congo",
+"Sudán",
+"Libia"
+],
+"c": 0,
+"e": "Desde la independencia de Sudán del Sur, en 2011, Argelia es el país más extenso de África.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Qué país tiene más husos horarios si se cuentan sus territorios de ultramar?",
+"o": [
+"Francia",
+"Rusia",
+"Estados Unidos",
+"Reino Unido"
+],
+"c": 0,
+"e": "Francia abarca 12 husos horarios (13 con su reclamación en la Antártida); Rusia tiene 11.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿En qué ciudad nació Cristóbal Colón según la tesis más respaldada por los documentos?",
+"o": [
+"Génova",
+"Lisboa",
+"Sevilla",
+"Palos de la Frontera"
+],
+"c": 0,
+"e": "La tesis genovesa es la más aceptada por los historiadores.",
+"t": "Historia",
+"nv": 3
+},
+{
+"p": "¿Quién pintó «El jardín de las delicias»?",
+"o": [
+"El Bosco",
+"Brueghel el Viejo",
+"Alberto Durero",
+"Jan van Eyck"
+],
+"c": 0,
+"e": "Hieronymus Bosch, «El Bosco», lo pintó hacia 1500; se conserva en el Museo del Prado.",
+"t": "Arte",
+"nv": 3
+},
+{
+"p": "¿Cuál es la capital de Portugal?",
+"o": [
+"Lisboa",
+"Oporto",
+"Coímbra",
+"Faro"
+],
+"c": 0,
+"e": "Lisboa está en la desembocadura del Tajo, en el océano Atlántico.",
+"t": "Geografía",
+"nv": 1
+},
+{
+"p": "¿Cuál es la capital de Mongolia?",
+"o": [
+"Ulán Bator",
+"Pekín",
+"Astaná",
+"Taskent"
+],
+"c": 0,
+"e": "Es la ciudad más poblada del país y una de las capitales más frías del mundo.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Cuál es la capital de Polonia?",
+"o": [
+"Varsovia",
+"Cracovia",
+"Praga",
+"Budapest"
+],
+"c": 0,
+"e": "Varsovia es la capital desde finales del siglo XVI.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Cuál es la capital de Noruega?",
+"o": [
+"Oslo",
+"Estocolmo",
+"Copenhague",
+"Helsinki"
+],
+"c": 0,
+"e": "Oslo está en el fondo de un fiordo en el sur del país.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Cuál es la capital de Tailandia?",
+"o": [
+"Bangkok",
+"Hanói",
+"Yakarta",
+"Manila"
+],
+"c": 0,
+"e": "En tailandés se llama Krung Thep, «ciudad de los ángeles».",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Cuál es la capital de Etiopía?",
+"o": [
+"Adís Abeba",
+"Nairobi",
+"Jartum",
+"Lagos"
+],
+"c": 0,
+"e": "Es la sede de la Unión Africana y una de las capitales más altas del mundo.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Cuál es la capital de Nigeria?",
+"o": [
+"Abuya",
+"Lagos",
+"Kano",
+"Accra"
+],
+"c": 0,
+"e": "Sustituyó a Lagos como capital en 1991, aunque Lagos sigue siendo la ciudad más grande.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿Qué río atraviesa París?",
+"o": [
+"El Sena",
+"El Támesis",
+"El Rin",
+"El Loira"
+],
+"c": 0,
+"e": "El Sena cruza la capital francesa y desemboca en el canal de la Mancha.",
+"t": "Geografía",
+"nv": 1
+},
+{
+"p": "¿Qué río atraviesa la ciudad de Zaragoza?",
+"o": [
+"El Ebro",
+"El Tajo",
+"El Duero",
+"El Guadalquivir"
+],
+"c": 0,
+"e": "El Ebro es el río más caudaloso de España y desemboca en el Mediterráneo.",
+"t": "Geografía",
+"nv": 2
+},
+{
+"p": "¿Qué país tiene un cedro en el centro de su bandera?",
+"o": [
+"El Líbano",
+"Chipre",
+"Siria",
+"Jordania"
+],
+"c": 0,
+"e": "El cedro es el símbolo del país desde la Antigüedad.",
+"t": "Geografía",
+"nv": 3
+},
+{
+"p": "¿En qué ciudad se celebraron los Juegos Olímpicos de 2016?",
+"o": [
+"Río de Janeiro",
+"Londres",
+"Tokio",
+"Pekín"
+],
+"c": 0,
+"e": "Fueron los primeros Juegos Olímpicos celebrados en Sudamérica.",
+"t": "Deporte",
+"nv": 2
+},
+{
+"p": "¿Cuántos anillos tiene la bandera olímpica?",
+"o": [
+"Cinco",
+"Tres",
+"Cuatro",
+"Seis"
+],
+"c": 0,
+"e": "Representan los cinco continentes unidos por el deporte.",
+"t": "Deporte",
+"nv": 1
+},
+{
+"p": "¿Quién escribió «El Principito»?",
+"o": [
+"Antoine de Saint-Exupéry",
+"Julio Verne",
+"Víctor Hugo",
+"Albert Camus"
+],
+"c": 0,
+"e": "Lo publicó en 1943 y es uno de los libros más traducidos de la historia.",
+"t": "Literatura",
+"nv": 2
+},
+{
+"p": "¿Quién escribió «Platero y yo»?",
+"o": [
+"Juan Ramón Jiménez",
+"Antonio Machado",
+"Federico García Lorca",
+"Miguel Hernández"
+],
+"c": 0,
+"e": "Ganó el Premio Nobel de Literatura en 1956.",
+"t": "Literatura",
+"nv": 2
+},
+{
+"p": "¿Quién escribió «Rimas y leyendas»?",
+"o": [
+"Gustavo Adolfo Bécquer",
+"Federico García Lorca",
+"Antonio Machado",
+"José de Espronceda"
+],
+"c": 0,
+"e": "Es una de las obras clave del Romanticismo español.",
+"t": "Literatura",
+"nv": 2
+},
+{
+"p": "¿Quién escribió la novela «Fortunata y Jacinta»?",
+"o": [
+"Benito Pérez Galdós",
+"Leopoldo Alas «Clarín»",
+"Emilia Pardo Bazán",
+"Pío Baroja"
+],
+"c": 0,
+"e": "Es una de las grandes novelas del realismo español del siglo XIX.",
+"t": "Literatura",
+"nv": 3
+},
+{
+"p": "¿Quién pintó «El grito»?",
+"o": [
+"Edvard Munch",
+"Vincent van Gogh",
+"Gustav Klimt",
+"Salvador Dalí"
+],
+"c": 0,
+"e": "El pintor noruego lo pintó en 1893 y hay varias versiones.",
+"t": "Arte",
+"nv": 2
+},
+{
+"p": "¿Quién esculpió el «David» de Florencia?",
+"o": [
+"Miguel Ángel",
+"Donatello",
+"Leonardo da Vinci",
+"Bernini"
+],
+"c": 0,
+"e": "La escultura mide unos cinco metros y se talló en un solo bloque de mármol.",
+"t": "Arte",
+"nv": 2
+},
+{
+"p": "¿Quién compuso la Novena sinfonía, que incluye el «Himno a la alegría»?",
+"o": [
+"Ludwig van Beethoven",
+"Wolfgang Amadeus Mozart",
+"Johann Sebastian Bach",
+"Franz Schubert"
+],
+"c": 0,
+"e": "Beethoven la estrenó en 1824, cuando ya estaba completamente sordo.",
+"t": "Música",
+"nv": 1
+},
+{
+"p": "¿Cuál es el animal terrestre más grande?",
+"o": [
+"El elefante africano",
+"El rinoceronte blanco",
+"El hipopótamo",
+"El oso polar"
+],
+"c": 0,
+"e": "Puede pesar más de seis toneladas.",
+"t": "Naturaleza",
+"nv": 1
+},
+{
+"p": "¿En qué comunidad autónoma nació la paella?",
+"o": [
+"Comunidad Valenciana",
+"Andalucía",
+"Cataluña",
+"Murcia"
+],
+"c": 0,
+"e": "Nació en la zona de la Albufera de Valencia, con arroz, verduras y carne.",
+"t": "Cultura",
+"nv": 2
+},
+{
+"p": "¿Qué fiesta de Valencia termina con la «cremà» de enormes figuras de cartón y madera?",
+"o": [
+"Las Fallas",
+"San Fermín",
+"La Tomatina",
+"La Feria de Abril"
+],
+"c": 0,
+"e": "Se celebra en marzo y acaba la noche del 19 con la quema de las fallas.",
+"t": "Cultura",
+"nv": 1
+},
+{
+"p": "¿Qué número representa la letra L en los números romanos?",
+"o": [
+"50",
+"5",
+"100",
+"500"
+],
+"c": 0,
+"e": "La I vale 1, la V 5, la X 10, la L 50, la C 100, la D 500 y la M 1.000.",
+"t": "Matemáticas",
+"nv": 2
+},
+{
+"p": "¿Cuál es el número primo más pequeño?",
+"o": [
+"2",
+"1",
+"3",
+"0"
+],
+"c": 0,
+"e": "Es también el único número primo par.",
+"t": "Matemáticas",
+"nv": 2
+},
+{
+"p": "¿Cuál es el idioma oficial de Austria?",
+"o": [
+"Alemán",
+"Austríaco",
+"Húngaro",
+"Checo"
+],
+"c": 0,
+"e": "No existe una lengua «austríaca»: se habla alemán con variedades propias.",
+"t": "Lengua",
+"nv": 2
 }
 ]
 }

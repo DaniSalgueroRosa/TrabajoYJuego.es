@@ -1,18 +1,1 @@
-/* AHORCADO: dibujo de la horca (las partes aparecen con cada fallo), huecos de la palabra y teclado de letras con la Ñ. Contraste ≥ 4.5:1. */
-.ah-zona { display: grid; gap: var(--e4); justify-items: center; }
-.ah-dibujo { width: min(60%, 11rem); height: auto; }
-.ah-horca { stroke: var(--tiza-suave); }
-.ah-parte { stroke: var(--limon); opacity: 0; }
-.ah-parte--on { opacity: 1; }
-.ah-palabra { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 0; }
-.ah-letra { display: grid; place-items: center; width: 2.2rem; height: 2.8rem; border-bottom: 4px solid var(--tiza); color: var(--limon); font: 400 1.65rem / 1 var(--f-pixel); font-size: round(down, 1.65rem, 10px); }
-.ah-letra--falta { color: #FF9DB0; }
-.ah-teclado { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px; width: min(100%, 30rem); margin: 0 auto; }
-.ah-tecla { min-width: 0; min-height: 2.75rem; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--tinta); color: var(--tiza); font: 400 1.15rem / 1 var(--f-pixel);
-  box-shadow: 0 0 0 2px var(--noche-linea); }
-.ah-tecla:hover:not(:disabled) { box-shadow: 0 0 0 2px var(--sandia); }
-.ah-tecla:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
-.ah-tecla:disabled { cursor: default; }
-.ah-tecla.ok { background: var(--pizarra-media); }
-.ah-tecla.mal { background: var(--sandia-texto); color: #FFFFFF; }
-@media (max-width: 28rem) { .ah-letra { width: 1.9rem; height: 2.5rem; } .ah-teclado { gap: 4px; } }
+.ah-zona{display:grid;gap:var(--e4);justify-items:center}.ah-dibujo{width:min(60%,11rem);height:auto}.ah-horca{stroke:var(--tiza-suave)}.ah-parte{stroke:var(--limon);opacity:0}.ah-parte--on{opacity:1}.ah-palabra{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:0}.ah-letra{display:grid;place-items:center;width:2.2rem;height:2.8rem;border-bottom:4px solid var(--tiza);color:var(--limon);font:400 1.65rem / 1 var(--f-pixel);font-size:round(down,1.65rem,10px)}.ah-letra--falta{color:#FF9DB0}.ah-teclado{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:6px;width:min(100%,30rem);margin:0 auto}.ah-tecla{min-width:0;min-height:2.75rem;padding:0;border:0;border-radius:0;cursor:pointer;background:var(--tinta);color:var(--tiza);font:400 1.15rem / 1 var(--f-pixel);box-shadow:0 0 0 2px var(--noche-linea)}.ah-tecla:hover:not(:disabled){box-shadow:0 0 0 2px var(--sandia)}.ah-tecla:focus-visible{outline:3px solid var(--limon);outline-offset:3px}.ah-tecla:disabled{cursor:default}.ah-tecla.ok{background:var(--pizarra-media)}.ah-tecla.mal{background:var(--sandia-texto);color:#FFFFFF}@media (max-width:28rem){.ah-letra{width:1.9rem;height:2.5rem}.ah-teclado{gap:4px}}

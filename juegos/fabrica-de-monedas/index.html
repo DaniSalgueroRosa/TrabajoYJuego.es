@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src &#x27;self&#x27;; script-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; https:; style-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; https:; img-src &#x27;self&#x27; data: blob: https:; font-src &#x27;self&#x27; data: https:; connect-src &#x27;self&#x27; https:; media-src &#x27;self&#x27; blob: data: https:; worker-src &#x27;self&#x27; blob:; manifest-src &#x27;self&#x27;; frame-src https:; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;self&#x27;">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fábrica de monedas: el juego de pulsar y mejorar</title>
+<meta name="description" content="Pulsa la moneda, compra obreros, cintas y minas y mira cómo suben los números. Un juego de mejoras que engancha, sin guardar nada.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="google-adsense-account" content="ca-pub-9072387937265621">
+<link rel="canonical" href="https://trabajoyjuego.es/juegos/fabrica-de-monedas/">
+<meta name="theme-color" content="#1D3A34">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TrabajoYJuego">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Fábrica de monedas: el juego de pulsar y mejorar">
+<meta property="og:description" content="Pulsa la moneda, compra obreros, cintas y minas y mira cómo suben los números. Un juego de mejoras que engancha, sin guardar nada.">
+<meta property="og:url" content="https://trabajoyjuego.es/juegos/fabrica-de-monedas/">
+<meta property="og:image" content="https://trabajoyjuego.es/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logotipo de TrabajoYJuego">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fábrica de monedas: el juego de pulsar y mejorar">
+<meta name="twitter:description" content="Pulsa la moneda, compra obreros, cintas y minas y mira cómo suben los números. Un juego de mejoras que engancha, sin guardar nada.">
+<meta name="twitter:image" content="https://trabajoyjuego.es/assets/img/og.png">
+<link rel="preload" href="../../assets/fonts/cuadritos-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../assets/fonts/heros-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b5ee6ec0">
+<link rel="stylesheet" href="../../assets/css/juegos.css?v=f5dc461d">
+<link rel="stylesheet" href="app.css?v=f144c02b">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Fábrica de monedas: el juego de pulsar y mejorar","description":"Pulsa la moneda, compra obreros, cintas y minas y mira cómo suben los números. Un juego de mejoras que engancha, sin guardar nada.","url":"https://trabajoyjuego.es/juegos/fabrica-de-monedas/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","browserRequirements":"Requiere JavaScript","applicationCategory":"GameApplication","datePublished":"2026-11-26","image":"https://trabajoyjuego.es/assets/img/og.png","isPartOf":{"@id":"https://trabajoyjuego.es/#sitio"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"},"keywords":"clicker, idle, mejoras, adictivo, satisfactorio, un jugador"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Juegos","item":"https://trabajoyjuego.es/juegos/"},{"@type":"ListItem","position":3,"name":"Arcade","item":"https://trabajoyjuego.es/juegos/categoria/arcade/"},{"@type":"ListItem","position":4,"name":"Fábrica de monedas: el juego de pulsar y mejorar","item":"https://trabajoyjuego.es/juegos/fabrica-de-monedas/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Se guarda mi fábrica si cierro la página?","acceptedAnswer":{"@type":"Answer","text":"No. El juego no guarda nada en tu dispositivo, así que cada visita empieza desde cero. Es una partida pensada para un rato, no para semanas."}},{"@type":"Question","name":"¿Sigue produciendo con la pestaña en segundo plano?","acceptedAnswer":{"@type":"Answer","text":"No. Mientras la pestaña no se ve, el juego se detiene y no cuenta el tiempo que has estado fuera."}},{"@type":"Question","name":"¿Qué conviene comprar primero?","acceptedAnswer":{"@type":"Answer","text":"Un par de dedos de oro y varios obreros. Cuando el obrero ya se haya encarecido, prueba con la cinta transportadora: empieza con su precio base y rinde ocho veces más que un obrero."}},{"@type":"Question","name":"¿Hay un final?","acceptedAnswer":{"@type":"Answer","text":"No hay final ni puntuación: es un juego de relajarse viendo crecer los números. Si quieres volver a empezar, hay un botón para ello."}}]}</script>
+<script src="../../assets/js/analitica.js?v=f849f6c7"></script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NXS4G4GQ"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9072387937265621" crossorigin="anonymous"></script>
+
+</head>
+<body data-seccion="juegos" data-item="fabrica-de-monedas">
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera-interior">
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52"></a>
+    <nav class="cabecera-nav" aria-label="Secciones">
+      <ul>
+        <li data-grupo="trabajo"><a href="../../herramientas/">Herramientas</a></li>
+        <li data-grupo="trabajo"><a href="../../recursos/">Recursos</a></li>
+        <li data-grupo="juego" class="cabecera-cambio"><a href="../../juegos/" aria-current="page">Juegos</a></li>
+        <li data-grupo="juego"><a href="../../tests/">Tests</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido" tabindex="-1" data-mundo="juego">
+<div class="contenedor anuncio-marco">
+  <aside class="anuncio anuncio--cabecera" aria-label="Publicidad" data-posicion="cabecera">
+    <p class="anuncio-rotulo">Publicidad</p>
+    <ins class="adsbygoogle" data-ad-client="ca-pub-9072387937265621" data-ad-slot="4594885858" data-ad-format="horizontal" data-full-width-responsive="false"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </aside>
+</div>
+
+<article class="ficha">
+  <header class="ficha-cabecera">
+    <div class="contenedor">
+      <nav class="migas" aria-label="Ruta de navegación">
+  <ol>
+    <li><a href="../../">Inicio</a></li>
+    <li><a href="../../juegos/">Juegos</a></li>
+    <li><a href="../../juegos/categoria/arcade/">Arcade</a></li>
+    <li><span aria-current="page">Fábrica de monedas: el juego de pulsar y mejorar</span></li>
+  </ol>
+</nav>
+
+      <h1 class="ficha-titulo">Fábrica de monedas: el juego de pulsar y mejorar</h1>
+      <p class="ficha-lead">Pulsa la moneda, compra obreros, cintas y minas y mira cómo suben los números. Un juego de mejoras que engancha, sin guardar nada.</p>
+      <div class="ficha-meta">
+        <p class="ficha-categoria"><span class="solo-lectores">Categoría: </span>Arcade</p>
+        <p class="dificultad" data-nivel="1"><span class="dificultad-pips" aria-hidden="true"><i></i><i></i><i></i></span> <span class="dificultad-texto"><span class="solo-lectores">Dificultad: </span>Fácil</span></p>
+        <p class="ficha-duracion"><span class="solo-lectores">Duración: </span>5+ min</p>
+        <p class="ficha-fecha">Publicado el <time datetime="2026-11-26">26 de noviembre de 2026</time></p>
+        <ul class="ficha-etiquetas" aria-label="Etiquetas">
+          <li>clicker</li>
+          <li>idle</li>
+          <li>mejoras</li>
+          <li>adictivo</li>
+          <li>satisfactorio</li>
+          <li>un jugador</li>
+        </ul>
+      </div>
+      <p class="ficha-volver"><a class="boton-retro boton-retro--sec boton-retro--chico" href="../../juegos/">Volver a todos los juegos</a></p>
+    </div>
+  </header>
+  <div class="contenedor ficha-cuerpo">
+<div class="juego" data-juego="fabrica-de-monedas">
+  <div class="pantalla" id="fm">
+    <noscript><p class="juego-aviso">Este juego necesita JavaScript. Actívalo en tu navegador y recarga la página.</p></noscript>
+    <p class="juego-aviso">Cargando el juego…</p>
+  </div>
+</div>
+
+<div class="juego-texto">
+  <h2>Cómo se juega</h2>
+  <p>Empiezas con una sola moneda grande y las manos vacías. Cada pulsación te da una moneda; con ellas compras mejoras que ganan monedas por ti. Al principio cuesta ver el avance, pero basta un par de minutos para que las cifras empiecen a multiplicarse sin que toques nada.</p>
+  <h2>Las seis mejoras</h2>
+  <p>El dedo de oro aumenta lo que ganas con cada pulsación. El obrero, la cinta transportadora, la fundición, el banco y la mina de oro producen monedas por segundo, cada uno bastante más que el anterior pero también más caro. Cada vez que compras la misma mejora, su precio sube un quince por ciento, así que conviene repartir las compras en lugar de acumular una sola.</p>
+  <aside class="anuncio anuncio--texto" aria-label="Publicidad" data-posicion="texto">
+  <p class="anuncio-rotulo">Publicidad</p>
+  <ins class="adsbygoogle adsbygoogle--articulo" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-9072387937265621" data-ad-slot="7386689829"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</aside>
+
+<h2>El frenesí</h2>
+  <p>Si pulsas la moneda seis veces en menos de dos segundos entras en frenesí: durante seis segundos todo lo que ganas, a mano y por segundo, vale el doble. Una barra te enseña cuánto te queda. Es la parte más activa del juego y la mejor forma de arrancar cuando todavía tienes pocas mejoras.</p>
+  <h2>Hitos</h2>
+  <p>Cuando tu total ganado llega a cien, mil, diez mil, cien mil, un millón o diez millones de monedas, la fábrica se ilumina y se anuncia el hito. Los hitos no dan premios: sirven para marcar el camino y darte la satisfacción de ver que has llegado lejos.</p>
+  <h2>Preguntas frecuentes</h2>
+  <details>
+    <summary>¿Se guarda mi fábrica si cierro la página?</summary>
+    <p>No. El juego no guarda nada en tu dispositivo, así que cada visita empieza desde cero. Es una partida pensada para un rato, no para semanas.</p>
+  </details>
+  <details>
+    <summary>¿Sigue produciendo con la pestaña en segundo plano?</summary>
+    <p>No. Mientras la pestaña no se ve, el juego se detiene y no cuenta el tiempo que has estado fuera.</p>
+  </details>
+  <details>
+    <summary>¿Qué conviene comprar primero?</summary>
+    <p>Un par de dedos de oro y varios obreros. Cuando el obrero ya se haya encarecido, prueba con la cinta transportadora: empieza con su precio base y rinde ocho veces más que un obrero.</p>
+  </details>
+  <details>
+    <summary>¿Hay un final?</summary>
+    <p>No hay final ni puntuación: es un juego de relajarse viendo crecer los números. Si quieres volver a empezar, hay un botón para ello.</p>
+  </details>
+</div>
+
+    <p class="ficha-volver ficha-volver--pie"><a class="boton-retro" href="../../juegos/">Volver a todos los juegos</a></p>
+    
+    <aside class="anuncio anuncio--relacionados" aria-label="Publicidad" data-posicion="relacionados">
+  <p class="anuncio-rotulo">Publicidad</p>
+  <ins class="adsbygoogle" data-ad-format="autorelaxed" data-matched-content-ui-type="image_stacked" data-matched-content-rows-num="2,1" data-matched-content-columns-num="1,3" data-ad-client="ca-pub-9072387937265621" data-ad-slot="2068794861"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</aside>
+
+  </div>
+</article>
+
+</main>
+<footer class="pie">
+  <div class="contenedor pie-interior">
+    <div class="pie-marca">
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52" loading="lazy" decoding="async"></a>
+      <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
+    </div>
+    <nav class="pie-nav" aria-label="Secciones, en el pie de página">
+      <div class="pie-grupo" data-grupo="trabajo">
+        <h2 class="pie-grupo-titulo">Trabajo</h2>
+        <ul>
+          <li><a href="../../herramientas/">Herramientas</a></li>
+          <li><a href="../../recursos/">Recursos</a></li>
+        </ul>
+      </div>
+      <div class="pie-grupo" data-grupo="juego">
+        <h2 class="pie-grupo-titulo">Juego</h2>
+        <ul>
+          <li><a href="../../juegos/">Juegos</a></li>
+          <li><a href="../../tests/">Tests</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <nav class="contenedor pie-legales" aria-label="Información legal">
+    <ul>
+      <li><a href="../../legal/aviso-legal/">Aviso legal</a></li>
+      <li><a href="../../legal/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="../../legal/politica-de-cookies/">Política de cookies</a></li>
+      <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
+      <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
+      <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../actualizaciones/">Actualizaciones</a></li>
+      <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
+    </ul>
+  </nav>
+  <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
+</footer>
+
+<script src="../../assets/js/juegos.js?v=0c229eb8" defer></script>
+<script src="app.js?v=32b04aa4" defer></script>
+</body>
+</html>

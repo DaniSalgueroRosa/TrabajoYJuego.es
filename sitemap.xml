@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://trabajoyjuego.es/</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/herramientas/</loc>
@@ -878,7 +878,7 @@
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/diarios/</loc>
@@ -886,7 +886,7 @@
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/futbol/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/palabras/</loc>
@@ -894,7 +894,7 @@
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/logica/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/cultura-general/</loc>
@@ -914,11 +914,23 @@
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/habilidad/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/arcade/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/dos-jugadores/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/batallas/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/categoria/satisfactorios/</loc>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/juegos/categoria/casino-azar/</loc>
@@ -1281,8 +1293,56 @@
     <lastmod>2026-11-22</lastmod>
   </url>
   <url>
+    <loc>https://trabajoyjuego.es/juegos/raspa-y-gana/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/adivina-el-tiempo/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/malabares-con-el-balon/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/el-portero/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/fabrica-de-monedas/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/explosion-en-cadena/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/duelo-de-heroes/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/cartas-de-batalla/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/tira-y-afloja/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/mancala/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/pop-it/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/juegos/arena-de-colores/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
     <loc>https://trabajoyjuego.es/tests/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/tests/categoria/velocidad-clics/</loc>
@@ -1309,6 +1369,10 @@
     <lastmod>2026-11-15</lastmod>
   </url>
   <url>
+    <loc>https://trabajoyjuego.es/tests/categoria/tdah/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
     <loc>https://trabajoyjuego.es/tests/categoria/relaciones/</loc>
     <lastmod>2026-11-15</lastmod>
   </url>
@@ -1318,7 +1382,7 @@
   </url>
   <url>
     <loc>https://trabajoyjuego.es/tests/categoria/series-cine/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-26</lastmod>
   </url>
   <url>
     <loc>https://trabajoyjuego.es/tests/categoria/espanol/</loc>
@@ -1565,6 +1629,30 @@
     <lastmod>2026-11-15</lastmod>
   </url>
   <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-marvel/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-harry-potter/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-star-wars/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-stranger-things/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-breaking-bad/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-los-simpson/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
     <loc>https://trabajoyjuego.es/tests/test-de-nivel-de-vocabulario-de-espanol/</loc>
     <lastmod>2026-11-15</lastmod>
   </url>
@@ -1601,6 +1689,22 @@
     <lastmod>2026-11-15</lastmod>
   </url>
   <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-tdah-en-adultos/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-tda-inatencion/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-hiperactividad-e-impulsividad/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/tests/test-de-tdah-en-ninos/</loc>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
     <loc>https://trabajoyjuego.es/legal/</loc>
     <lastmod>2026-11-13</lastmod>
   </url>
@@ -1615,5 +1719,13 @@
   <url>
     <loc>https://trabajoyjuego.es/legal/publicidad-y-transparencia/</loc>
     <lastmod>2026-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/actualizaciones/</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://trabajoyjuego.es/actualizaciones/version-1-1/</loc>
+    <lastmod>2026-11-25</lastmod>
   </url>
 </urlset>

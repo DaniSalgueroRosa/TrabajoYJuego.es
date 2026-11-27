@@ -1,3 +1,1 @@
-body[data-item="polling-rate-del-mouse"] .pr-zona { min-height: 20rem; cursor: crosshair; touch-action: none; }
-body[data-item="polling-rate-del-mouse"] .pr-zona:focus-visible { outline: 4px solid var(--t-texto); outline-offset: 3px; }
-body[data-item="polling-rate-del-mouse"] .pr-zona small { font-size: var(--t-1); color: var(--tt-suave); }
+body[data-item="polling-rate-del-mouse"] .pr-zona{min-height:20rem;cursor:crosshair;touch-action:none}body[data-item="polling-rate-del-mouse"] .pr-zona:focus-visible{outline:4px solid var(--t-texto);outline-offset:3px}body[data-item="polling-rate-del-mouse"] .pr-zona small{font-size:var(--t-1);color:var(--tt-suave)}

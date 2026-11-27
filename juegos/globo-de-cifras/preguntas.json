@@ -378,6 +378,181 @@
    "min": 1500,
    "max": 3500,
    "d": "Suma las centenas, las decenas y las unidades por separado."
+  },
+  {
+   "p": "¿En qué año nació Lionel Messi?",
+   "r": 1987,
+   "min": 1960,
+   "max": 2010,
+   "d": "Nació en Rosario el 24 de junio."
+  },
+  {
+   "p": "¿En qué año nació Cristiano Ronaldo?",
+   "r": 1985,
+   "min": 1960,
+   "max": 2010,
+   "d": "Nació en la isla de Madeira, en Portugal, el 5 de febrero."
+  },
+  {
+   "p": "¿En qué año empezó la Segunda Guerra Mundial?",
+   "r": 1939,
+   "min": 1900,
+   "max": 1960,
+   "d": "Empezó el 1 de septiembre, con la invasión alemana de Polonia."
+  },
+  {
+   "p": "¿En qué año murió Miguel de Cervantes?",
+   "r": 1616,
+   "min": 1500,
+   "max": 1700,
+   "d": "Murió en Madrid el 22 de abril, el mismo año que Shakespeare."
+  },
+  {
+   "p": "¿En qué año se fundó la empresa Apple?",
+   "r": 1976,
+   "min": 1950,
+   "max": 2000,
+   "d": "La fundaron Steve Jobs, Steve Wozniak y Ronald Wayne el 1 de abril."
+  },
+  {
+   "p": "¿En qué año se fundó la empresa Microsoft?",
+   "r": 1975,
+   "min": 1950,
+   "max": 2000,
+   "d": "La fundaron Bill Gates y Paul Allen en Albuquerque."
+  },
+  {
+   "p": "¿En qué año se abrió el parque Disneyland de California?",
+   "r": 1955,
+   "min": 1930,
+   "max": 1990,
+   "d": "Abrió el 17 de julio en Anaheim."
+  },
+  {
+   "p": "¿En qué año se estrenó «Toy Story», la primera película de animación hecha por ordenador?",
+   "r": 1995,
+   "min": 1970,
+   "max": 2010,
+   "d": "La produjo Pixar y se estrenó a finales de noviembre."
+  },
+  {
+   "p": "¿En qué año salió a la venta la consola Nintendo Switch?",
+   "r": 2017,
+   "min": 2000,
+   "max": 2025,
+   "d": "Salió el 3 de marzo."
+  },
+  {
+   "p": "¿En qué año se lanzó en Japón el primer videojuego «Super Mario Bros.»?",
+   "r": 1985,
+   "min": 1970,
+   "max": 2000,
+   "d": "Se lanzó en septiembre para la consola Famicom."
+  },
+  {
+   "p": "¿En qué año salió a la venta la primera consola PlayStation en Japón?",
+   "r": 1994,
+   "min": 1980,
+   "max": 2010,
+   "d": "Salió el 3 de diciembre."
+  },
+  {
+   "p": "¿En qué año se inauguró el estadio Santiago Bernabéu?",
+   "r": 1947,
+   "min": 1900,
+   "max": 1980,
+   "d": "Se inauguró el 14 de diciembre con un partido contra el Os Belenenses."
+  },
+  {
+   "p": "¿En qué año se inauguró el estadio Camp Nou del FC Barcelona?",
+   "r": 1957,
+   "min": 1900,
+   "max": 1990,
+   "d": "Se inauguró en septiembre, y sustituyó al viejo campo de Les Corts."
+  },
+  {
+   "p": "¿En qué año se inauguró el metro de Madrid?",
+   "r": 1919,
+   "min": 1880,
+   "max": 1960,
+   "d": "Abrió el 17 de octubre con la línea de Sol a Cuatro Caminos."
+  },
+  {
+   "p": "¿En qué año cayó el Imperio romano de Occidente?",
+   "r": 476,
+   "min": 200,
+   "max": 800,
+   "d": "Se suele fijar esa fecha en la deposición del emperador Rómulo Augústulo."
+  },
+  {
+   "p": "¿Cuántos minutos tiene un día completo?",
+   "r": 1440,
+   "min": 500,
+   "max": 3000,
+   "d": "Son 24 horas por 60 minutos."
+  },
+  {
+   "p": "¿Cuántos segundos tiene una hora?",
+   "r": 3600,
+   "min": 1000,
+   "max": 6000,
+   "d": "Son 60 minutos de 60 segundos cada uno."
+  },
+  {
+   "p": "¿Cuántos metros mide una milla marina?",
+   "r": 1852,
+   "min": 1000,
+   "max": 3000,
+   "d": "Es la distancia que equivale a un minuto de arco de latitud."
+  },
+  {
+   "p": "¿Cuántas fichas tiene un juego de dominó doble seis?",
+   "r": 28,
+   "min": 10,
+   "max": 60,
+   "d": "Cada ficha lleva dos números de 0 a 6 y no hay ninguna repetida."
+  },
+  {
+   "p": "¿Cuántas cartas tiene una baraja española?",
+   "r": 40,
+   "min": 20,
+   "max": 60,
+   "d": "Hay cuatro palos de diez cartas, del 1 al 7 y las tres figuras."
+  },
+  {
+   "p": "¿Cuántas cartas tiene una baraja francesa sin comodines?",
+   "r": 52,
+   "min": 30,
+   "max": 80,
+   "d": "Son cuatro palos de trece cartas."
+  },
+  {
+   "p": "¿Cuántos jugadores tiene un equipo de rugby a quince sobre el campo?",
+   "r": 15,
+   "min": 5,
+   "max": 30,
+   "d": "Ocho delanteros y siete tres cuartos."
+  },
+  {
+   "p": "¿Cuántos dientes de leche tiene un niño cuando le han salido todos?",
+   "r": 20,
+   "min": 10,
+   "max": 40,
+   "d": "Son diez en cada mandíbula."
+  },
+  {
+   "p": "¿Cuántos países son miembros de las Naciones Unidas?",
+   "r": 193,
+   "min": 100,
+   "max": 250,
+   "d": "La cifra está estable desde la entrada de Sudán del Sur, en 2011."
+  },
+  {
+   "p": "¿Cuántos huesos tiene un pie humano?",
+   "r": 26,
+   "min": 10,
+   "max": 60,
+   "d": "Son siete del tarso, cinco metatarsianos y catorce falanges."
   }
  ]
 }

@@ -1,7 +1,1 @@
-.cr { display: grid; gap: var(--e4); min-width: 0; }
-.cr-reloj { display: grid; gap: var(--e3); padding: var(--e5); background: var(--pizarra); color: var(--tiza); min-width: 0; }
-.cr-tiempo { margin: 0; font-size: clamp(3rem, 1.4rem + 9vw, 6.5rem); font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.cr-reloj .boton--secundario { background: transparent; color: var(--tiza); border-color: var(--tiza); }
-.cr-reloj .boton--secundario:hover { color: var(--tinta); }
-.cr-reloj .boton[disabled] { opacity: 0.55; }
-.cr-vueltas[hidden] { display: none; }
+.cr{display:grid;gap:var(--e4);min-width:0}.cr-reloj{display:grid;gap:var(--e3);padding:var(--e5);background:var(--pizarra);color:var(--tiza);min-width:0}.cr-tiempo{margin:0;font-size:clamp(3rem,1.4rem + 9vw,6.5rem);font-weight:800;line-height:1;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.cr-reloj .boton--secundario{background:transparent;color:var(--tiza);border-color:var(--tiza)}.cr-reloj .boton--secundario:hover{color:var(--tinta)}.cr-reloj .boton[disabled]{opacity:0.55}.cr-vueltas[hidden]{display:none}

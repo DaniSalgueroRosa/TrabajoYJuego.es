@@ -1,10 +1,1 @@
-/* BLOQUES QUE CAEN: tablero estrecho a la izquierda y la pieza siguiente a la derecha; los botones táctiles ocupan una fila. */
-.bq-area { display: flex; gap: var(--e3); justify-content: center; align-items: flex-start; margin: 4px auto; }
-.bq-zona { width: min(56vw, 15rem); flex: none; touch-action: none; user-select: none; -webkit-user-select: none; line-height: 0; box-shadow: 0 0 0 4px var(--noche-linea); }
-.bq-zona:focus-visible { outline: 3px solid var(--limon); outline-offset: 8px; }
-.bq-lienzo { display: block; width: 100%; height: auto; aspect-ratio: 1 / 2; }
-.bq-lado { width: 5.5rem; flex: none; text-align: center; }
-.bq-etiqueta { margin: 0 0 var(--e1); font-family: var(--f-pixel); font-size: var(--t-1); color: var(--tiza-suave); }
-.bq-sig-lienzo { display: block; width: 5.5rem; height: 5.5rem; box-shadow: 0 0 0 3px var(--noche-linea); }
-.bq-pad { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: var(--e2) auto; }
-.bq-btn { min-width: 3.2rem; height: 3rem; padding: 0 var(--e2); font-size: 1.25rem; touch-action: manipulation; }
+.bq-area{display:flex;gap:var(--e3);justify-content:center;align-items:flex-start;margin:4px auto}.bq-zona{width:min(56vw,15rem);flex:none;touch-action:none;user-select:none;-webkit-user-select:none;line-height:0;box-shadow:0 0 0 4px var(--noche-linea)}.bq-zona:focus-visible{outline:3px solid var(--limon);outline-offset:8px}.bq-lienzo{display:block;width:100%;height:auto;aspect-ratio:1 / 2}.bq-lado{width:5.5rem;flex:none;text-align:center}.bq-etiqueta{margin:0 0 var(--e1);font-family:var(--f-pixel);font-size:var(--t-1);color:var(--tiza-suave)}.bq-sig-lienzo{display:block;width:5.5rem;height:5.5rem;box-shadow:0 0 0 3px var(--noche-linea)}.bq-pad{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:var(--e2) auto}.bq-btn{min-width:3.2rem;height:3rem;padding:0 var(--e2);font-size:1.25rem;touch-action:manipulation}

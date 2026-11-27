@@ -378,6 +378,231 @@
    "paso": 1,
    "u": null,
    "d": "Ocurrió el día de Todos los Santos."
+  },
+  {
+   "p": "¿Cuánto mide el vano central del puente Golden Gate, en San Francisco?",
+   "r": 1280,
+   "min": 0,
+   "max": 3000,
+   "paso": 10,
+   "u": " m",
+   "d": "Fue el puente colgante más largo del mundo desde su apertura, en 1937, hasta 1964."
+  },
+  {
+   "p": "¿Qué altura tenía la Gran Pirámide de Guiza cuando se construyó?",
+   "r": 147,
+   "min": 0,
+   "max": 400,
+   "paso": 1,
+   "u": " m",
+   "d": "Hoy mide unos ocho metros menos por la pérdida de las piedras de la cima y del revestimiento."
+  },
+  {
+   "p": "¿Cuánto mide el Empire State Building, de Nueva York, con su antena?",
+   "r": 443,
+   "min": 0,
+   "max": 1000,
+   "paso": 5,
+   "u": " m",
+   "d": "Sin la antena, su azotea está a unos 381 metros."
+  },
+  {
+   "p": "¿Cuánto mide la torre CN de Toronto?",
+   "r": 553,
+   "min": 0,
+   "max": 1000,
+   "paso": 5,
+   "u": " m",
+   "d": "Fue la estructura autoportante más alta del mundo durante más de treinta años, desde 1975."
+  },
+  {
+   "p": "¿Cuánto mide la torre inclinada de Pisa?",
+   "r": 56,
+   "min": 0,
+   "max": 150,
+   "paso": 1,
+   "u": " m",
+   "d": "Mide algo menos por el lado hundido y algo más por el lado alto."
+  },
+  {
+   "p": "¿Cuánto mide la Gran Muralla china, sumando todos sus tramos?",
+   "r": 21000,
+   "min": 0,
+   "max": 60000,
+   "paso": 100,
+   "u": " km",
+   "d": "La medición oficial de 2012 dio 21.196 kilómetros contando todos los tramos de todas las dinastías."
+  },
+  {
+   "p": "¿Cuántos kilómetros hay en línea recta entre Madrid y Sevilla?",
+   "r": 390,
+   "min": 0,
+   "max": 1000,
+   "paso": 5,
+   "u": " km",
+   "d": "Por carretera son algo más: unos 530 kilómetros."
+  },
+  {
+   "p": "¿Cuánto mide la circunferencia de la Tierra en el ecuador?",
+   "r": 40075,
+   "min": 0,
+   "max": 100000,
+   "paso": 100,
+   "u": " km",
+   "d": "La Tierra no es una esfera perfecta: está algo achatada por los polos."
+  },
+  {
+   "p": "¿Cuánto mide el diámetro de la Tierra en el ecuador?",
+   "r": 12756,
+   "min": 0,
+   "max": 30000,
+   "paso": 50,
+   "u": " km",
+   "d": "El diámetro de polo a polo es unos 43 kilómetros menor."
+  },
+  {
+   "p": "¿Cuánto mide el diámetro de la Luna?",
+   "r": 3474,
+   "min": 0,
+   "max": 10000,
+   "paso": 25,
+   "u": " km",
+   "d": "Es algo más de una cuarta parte del diámetro de la Tierra."
+  },
+  {
+   "p": "¿A cuántos grados centígrados está la superficie del Sol?",
+   "r": 5500,
+   "min": 0,
+   "max": 20000,
+   "paso": 50,
+   "u": " °C",
+   "d": "Es la temperatura de su superficie; en el núcleo supera los quince millones de grados."
+  },
+  {
+   "p": "¿Cuánto mide de largo un campo de fútbol para partidos internacionales, según las medidas más habituales?",
+   "r": 105,
+   "min": 0,
+   "max": 200,
+   "paso": 1,
+   "u": " m",
+   "d": "El ancho habitual es de 68 metros."
+  },
+  {
+   "p": "¿En qué año nació Charles Darwin?",
+   "r": 1809,
+   "min": 1700,
+   "max": 1900,
+   "paso": 1,
+   "u": null,
+   "d": "Nació el mismo día que Abraham Lincoln: el 12 de febrero."
+  },
+  {
+   "p": "¿En qué año nació Marie Curie?",
+   "r": 1867,
+   "min": 1750,
+   "max": 1950,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Varsovia y es la única persona con premios Nobel en dos ciencias distintas."
+  },
+  {
+   "p": "¿En qué año nació Antoni Gaudí?",
+   "r": 1852,
+   "min": 1750,
+   "max": 1950,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en la provincia de Tarragona; su obra más famosa es la Sagrada Familia."
+  },
+  {
+   "p": "¿En qué año nació el pintor Diego Velázquez?",
+   "r": 1599,
+   "min": 1500,
+   "max": 1700,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Sevilla y fue pintor de cámara de Felipe IV."
+  },
+  {
+   "p": "¿En qué año nació Salvador Dalí?",
+   "r": 1904,
+   "min": 1800,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Figueres, en Girona."
+  },
+  {
+   "p": "¿En qué año nació Nelson Mandela?",
+   "r": 1918,
+   "min": 1850,
+   "max": 1990,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en un pueblo de la actual provincia sudafricana del Cabo Oriental."
+  },
+  {
+   "p": "¿En qué año nació Pelé?",
+   "r": 1940,
+   "min": 1900,
+   "max": 1990,
+   "paso": 1,
+   "u": null,
+   "d": "Nació en Três Corações, en el estado brasileño de Minas Gerais."
+  },
+  {
+   "p": "¿En qué año se fundó la Organización de las Naciones Unidas?",
+   "r": 1945,
+   "min": 1900,
+   "max": 2000,
+   "paso": 1,
+   "u": null,
+   "d": "Entró en vigor su Carta el 24 de octubre."
+  },
+  {
+   "p": "¿En qué año se inauguró el canal de Suez?",
+   "r": 1869,
+   "min": 1800,
+   "max": 1950,
+   "paso": 1,
+   "u": null,
+   "d": "Une el mar Mediterráneo y el mar Rojo."
+  },
+  {
+   "p": "¿En qué año se inauguró la Estatua de la Libertad en Nueva York?",
+   "r": 1886,
+   "min": 1800,
+   "max": 1950,
+   "paso": 1,
+   "u": null,
+   "d": "Fue un regalo de Francia a los Estados Unidos."
+  },
+  {
+   "p": "¿En qué año se colocó la primera piedra de la Sagrada Familia?",
+   "r": 1882,
+   "min": 1800,
+   "max": 1950,
+   "paso": 1,
+   "u": null,
+   "d": "El proyecto pasó pronto a manos de Gaudí, que trabajó en él hasta su muerte."
+  },
+  {
+   "p": "¿En qué año se inauguró el Museo del Prado?",
+   "r": 1819,
+   "min": 1750,
+   "max": 1900,
+   "paso": 1,
+   "u": null,
+   "d": "Se abrió al público el 19 de noviembre, con unas trescientas obras."
+  },
+  {
+   "p": "¿En qué año empezó a funcionar el AVE entre Madrid y Sevilla?",
+   "r": 1992,
+   "min": 1950,
+   "max": 2020,
+   "paso": 1,
+   "u": null,
+   "d": "Se puso en marcha en abril de 1992, coincidiendo con la apertura de la Exposición Universal de Sevilla."
   }
  ]
 }

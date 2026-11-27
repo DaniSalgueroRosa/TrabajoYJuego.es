@@ -1,5 +1,1 @@
-body[data-item="vision-del-color"] .vc-zona { display: grid; justify-items: center; align-content: center; gap: var(--e4); }
-body[data-item="vision-del-color"] .vc-mensaje { margin: 0; max-width: 36rem; font-weight: 700; line-height: 1.45; }
-body[data-item="vision-del-color"] .vc-juego { display: grid; justify-items: center; gap: var(--e3); width: 100%; }
-body[data-item="vision-del-color"] .vc-lienzo { width: min(100%, 20rem); aspect-ratio: 1; border-radius: 50%; background: #E9E4DA; }
-body[data-item="vision-del-color"] .vc-entrada { width: 7rem; text-align: center; font-size: 1.8rem; }
+body[data-item="vision-del-color"] .vc-zona{display:grid;justify-items:center;align-content:center;gap:var(--e4)}body[data-item="vision-del-color"] .vc-mensaje{margin:0;max-width:36rem;font-weight:700;line-height:1.45}body[data-item="vision-del-color"] .vc-juego{display:grid;justify-items:center;gap:var(--e3);width:100%}body[data-item="vision-del-color"] .vc-lienzo{width:min(100%,20rem);aspect-ratio:1;border-radius:50%;background:#E9E4DA}body[data-item="vision-del-color"] .vc-entrada{width:7rem;text-align:center;font-size:1.8rem}

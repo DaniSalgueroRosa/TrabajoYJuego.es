@@ -1,3 +1,1 @@
-.herr-bloque { padding: var(--e4); border: 1px solid var(--linea); background: var(--papel); }
-.herr-bloque + .herr-bloque { margin-top: 0; }
-.herr-bloque-titulo { margin: 0 0 var(--e3); font-size: var(--t1); color: var(--pizarra); }
+.herr-bloque{padding:var(--e4);border:1px solid var(--linea);background:var(--papel)}.herr-bloque + .herr-bloque{margin-top:0}.herr-bloque-titulo{margin:0 0 var(--e3);font-size:var(--t1);color:var(--pizarra)}

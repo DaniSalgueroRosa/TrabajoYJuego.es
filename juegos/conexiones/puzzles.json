@@ -1,96 +1,6 @@
 {
-"_nota": "Puzzles de «Conexiones». Cada puzzle tiene 4 grupos (el primero es el más fácil y el último el más difícil), con n (nombre del grupo), p (4 palabras) y e (explicación). Las 16 palabras de un puzzle deben ser distintas. Para ampliar: añade puzzles con el mismo formato.",
+"_nota": "Puzzles de «Conexiones». Cada puzzle tiene un nivel (1 fácil, 2 medio, 3 difícil) y 4 grupos (el primero es el más fácil y el último el más difícil), con n (nombre del grupo), p (4 palabras) y e (explicación). Las 16 palabras de un puzzle deben ser distintas. Para ampliar: añade puzzles con el mismo formato.",
 "puzzles": [
-{
-"id": "c01",
-"grupos": [
-{
-"n": "Palos de la baraja española",
-"p": [
-"oros",
-"copas",
-"espadas",
-"bastos"
-],
-"e": "Los cuatro palos de la baraja española."
-},
-{
-"n": "Partes de un zapato",
-"p": [
-"suela",
-"tacón",
-"cordón",
-"lengüeta"
-],
-"e": "Piezas que forman un zapato."
-},
-{
-"n": "Tipos de pan",
-"p": [
-"baguete",
-"chapata",
-"pita",
-"centeno"
-],
-"e": "Distintos panes, por su forma o su harina."
-},
-{
-"n": "Se pueden «romper»",
-"p": [
-"hielo",
-"récord",
-"silencio",
-"promesa"
-],
-"e": "Se rompe el hielo, un récord, el silencio y una promesa."
-}
-]
-},
-{
-"id": "c02",
-"grupos": [
-{
-"n": "Planetas",
-"p": [
-"Marte",
-"Venus",
-"Saturno",
-"Urano"
-],
-"e": "Cuatro planetas del sistema solar."
-},
-{
-"n": "Instrumentos de percusión",
-"p": [
-"caja",
-"bombo",
-"platillo",
-"triángulo"
-],
-"e": "Instrumentos que se golpean."
-},
-{
-"n": "Metales",
-"p": [
-"cobre",
-"plomo",
-"estaño",
-"zinc"
-],
-"e": "Cuatro metales. «Hierro» tentaba, pero encajaba mejor en el golf."
-},
-{
-"n": "Palos de golf",
-"p": [
-"hierro",
-"madera",
-"putter",
-"wedge"
-],
-"e": "Hierro y madera son tipos de palo de golf, aunque también sean materiales."
-}
-]
-},
 {
 "id": "c03",
 "grupos": [
@@ -134,7 +44,8 @@
 ],
 "e": "Capitales de provincia de Andalucía."
 }
-]
+],
+"nivel": 1
 },
 {
 "id": "c04",
@@ -179,52 +90,8 @@
 ],
 "e": "Legumbres que se cocinan en guiso o ensalada."
 }
-]
-},
-{
-"id": "c05",
-"grupos": [
-{
-"n": "Huesos",
-"p": [
-"fémur",
-"tibia",
-"costilla",
-"húmero"
 ],
-"e": "Huesos del esqueleto humano."
-},
-{
-"n": "Músculos",
-"p": [
-"bíceps",
-"tríceps",
-"glúteo",
-"deltoides"
-],
-"e": "Músculos del cuerpo."
-},
-{
-"n": "Órganos internos",
-"p": [
-"hígado",
-"riñón",
-"pulmón",
-"bazo"
-],
-"e": "Órganos del interior del cuerpo."
-},
-{
-"n": "Partes del ojo",
-"p": [
-"pupila",
-"iris",
-"retina",
-"córnea"
-],
-"e": "Estructuras del ojo."
-}
-]
+"nivel": 1
 },
 {
 "id": "c06",
@@ -269,7 +136,376 @@
 ],
 "e": "Dos rivales se enfrentan cuerpo a cuerpo o con armas deportivas."
 }
+],
+"nivel": 1
+},
+{
+"id": "c12",
+"grupos": [
+{
+"n": "Ropa de verano",
+"p": [
+"bañador",
+"sandalias",
+"camiseta",
+"gorra"
+],
+"e": "Prendas para el calor."
+},
+{
+"n": "Ropa de invierno",
+"p": [
+"bufanda",
+"guantes",
+"abrigo",
+"gorro"
+],
+"e": "Prendas para el frío."
+},
+{
+"n": "Para la lluvia",
+"p": [
+"paraguas",
+"impermeable",
+"katiuskas",
+"chubasquero"
+],
+"e": "Para no mojarse."
+},
+{
+"n": "Para hacer deporte",
+"p": [
+"chándal",
+"zapatillas",
+"mallas",
+"muñequera"
+],
+"e": "Ropa deportiva."
+}
+],
+"nivel": 1
+},
+{
+"id": "c13",
+"nivel": 1,
+"grupos": [
+{
+"n": "Frutas",
+"p": [
+"manzana",
+"pera",
+"plátano",
+"fresa"
+],
+"e": "Cuatro frutas muy comunes."
+},
+{
+"n": "Verduras",
+"p": [
+"zanahoria",
+"lechuga",
+"cebolla",
+"pimiento"
+],
+"e": "Cuatro hortalizas que se comen en ensalada, guisadas o asadas."
+},
+{
+"n": "Bebidas",
+"p": [
+"agua",
+"leche",
+"zumo",
+"refresco"
+],
+"e": "Cuatro cosas que se beben."
+},
+{
+"n": "Postres",
+"p": [
+"flan",
+"helado",
+"tarta",
+"natillas"
+],
+"e": "Cuatro dulces que se toman al final de la comida."
+}
 ]
+},
+{
+"id": "c14",
+"nivel": 1,
+"grupos": [
+{
+"n": "Insectos",
+"p": [
+"mosca",
+"hormiga",
+"abeja",
+"mariposa"
+],
+"e": "Cuatro insectos: seis patas y el cuerpo en tres partes."
+},
+{
+"n": "Animales de granja",
+"p": [
+"vaca",
+"cerdo",
+"oveja",
+"cabra"
+],
+"e": "Cuatro animales que se crían en una granja."
+},
+{
+"n": "Animales marinos",
+"p": [
+"delfín",
+"tiburón",
+"pulpo",
+"medusa"
+],
+"e": "Cuatro animales que viven en el mar."
+},
+{
+"n": "Aves",
+"p": [
+"águila",
+"loro",
+"cigüeña",
+"búho"
+],
+"e": "Cuatro aves con plumas y alas."
+}
+]
+},
+{
+"id": "c15",
+"nivel": 1,
+"grupos": [
+{
+"n": "Vehículos",
+"p": [
+"coche",
+"tren",
+"avión",
+"barco"
+],
+"e": "Cuatro medios de transporte."
+},
+{
+"n": "Muebles",
+"p": [
+"sofá",
+"mesa",
+"armario",
+"cama"
+],
+"e": "Cuatro muebles de una casa."
+},
+{
+"n": "Electrodomésticos",
+"p": [
+"lavadora",
+"nevera",
+"horno",
+"microondas"
+],
+"e": "Cuatro aparatos que se usan en el hogar."
+},
+{
+"n": "Herramientas",
+"p": [
+"martillo",
+"destornillador",
+"alicates",
+"taladro"
+],
+"e": "Cuatro herramientas de bricolaje."
+}
+]
+},
+{
+"id": "c16",
+"nivel": 1,
+"grupos": [
+{
+"n": "Estaciones del año",
+"p": [
+"primavera",
+"verano",
+"otoño",
+"invierno"
+],
+"e": "Las cuatro estaciones."
+},
+{
+"n": "Momentos del día",
+"p": [
+"mañana",
+"tarde",
+"noche",
+"madrugada"
+],
+"e": "Cuatro partes en que se divide el día."
+},
+{
+"n": "Días de la semana",
+"p": [
+"lunes",
+"martes",
+"jueves",
+"domingo"
+],
+"e": "Cuatro de los siete días de la semana."
+},
+{
+"n": "Meses del año",
+"p": [
+"enero",
+"mayo",
+"agosto",
+"octubre"
+],
+"e": "Cuatro de los doce meses del año."
+}
+]
+},
+{
+"id": "c01",
+"grupos": [
+{
+"n": "Palos de la baraja española",
+"p": [
+"oros",
+"copas",
+"espadas",
+"bastos"
+],
+"e": "Los cuatro palos de la baraja española."
+},
+{
+"n": "Partes de un zapato",
+"p": [
+"suela",
+"tacón",
+"cordón",
+"lengüeta"
+],
+"e": "Piezas que forman un zapato."
+},
+{
+"n": "Tipos de pan",
+"p": [
+"baguete",
+"chapata",
+"pita",
+"centeno"
+],
+"e": "Distintos panes, por su forma o su harina."
+},
+{
+"n": "Se pueden «romper»",
+"p": [
+"hielo",
+"récord",
+"silencio",
+"promesa"
+],
+"e": "Se rompe el hielo, un récord, el silencio y una promesa."
+}
+],
+"nivel": 2
+},
+{
+"id": "c02",
+"grupos": [
+{
+"n": "Planetas",
+"p": [
+"Marte",
+"Venus",
+"Saturno",
+"Urano"
+],
+"e": "Cuatro planetas del sistema solar."
+},
+{
+"n": "Instrumentos de percusión",
+"p": [
+"caja",
+"bombo",
+"platillo",
+"triángulo"
+],
+"e": "Instrumentos que se golpean."
+},
+{
+"n": "Metales",
+"p": [
+"cobre",
+"plomo",
+"estaño",
+"zinc"
+],
+"e": "Cuatro metales. «Hierro» tentaba, pero encajaba mejor en el golf."
+},
+{
+"n": "Palos de golf",
+"p": [
+"hierro",
+"madera",
+"putter",
+"wedge"
+],
+"e": "Hierro y madera son tipos de palo de golf, aunque también sean materiales."
+}
+],
+"nivel": 2
+},
+{
+"id": "c05",
+"grupos": [
+{
+"n": "Huesos",
+"p": [
+"fémur",
+"tibia",
+"costilla",
+"húmero"
+],
+"e": "Huesos del esqueleto humano."
+},
+{
+"n": "Músculos",
+"p": [
+"bíceps",
+"tríceps",
+"glúteo",
+"deltoides"
+],
+"e": "Músculos del cuerpo."
+},
+{
+"n": "Órganos internos",
+"p": [
+"hígado",
+"riñón",
+"pulmón",
+"bazo"
+],
+"e": "Órganos del interior del cuerpo."
+},
+{
+"n": "Partes del ojo",
+"p": [
+"pupila",
+"iris",
+"retina",
+"córnea"
+],
+"e": "Estructuras del ojo."
+}
+],
+"nivel": 2
 },
 {
 "id": "c07",
@@ -313,6 +549,191 @@
 "clave"
 ],
 "e": "Se tocan con teclas. El clave es el antecesor del piano; el órgano, además, es una víscera."
+}
+],
+"nivel": 2
+},
+{
+"id": "c17",
+"nivel": 2,
+"grupos": [
+{
+"n": "Monedas",
+"p": [
+"euro",
+"dólar",
+"yen",
+"peso"
+],
+"e": "Euro, dólar, yen y peso son monedas. «Libra» también lo es, pero la necesitabas en el grupo de los signos del zodiaco."
+},
+{
+"n": "Idiomas",
+"p": [
+"ruso",
+"árabe",
+"chino",
+"griego"
+],
+"e": "Cuatro lenguas del mundo."
+},
+{
+"n": "Dioses griegos",
+"p": [
+"Zeus",
+"Apolo",
+"Atenea",
+"Hermes"
+],
+"e": "Cuatro dioses de la mitología griega."
+},
+{
+"n": "Signos del zodiaco",
+"p": [
+"aries",
+"tauro",
+"géminis",
+"libra"
+],
+"e": "Aries, tauro, géminis y libra son signos del zodiaco; libra era la que podía confundirse con una moneda."
+}
+]
+},
+{
+"id": "c18",
+"nivel": 2,
+"grupos": [
+{
+"n": "Partes de un libro",
+"p": [
+"portada",
+"índice",
+"capítulo",
+"prólogo"
+],
+"e": "Cuatro partes que se encuentran en un libro."
+},
+{
+"n": "Partes de una planta",
+"p": [
+"raíz",
+"tallo",
+"pétalo",
+"semilla"
+],
+"e": "Cuatro partes de una planta con flores."
+},
+{
+"n": "Partes de un ordenador",
+"p": [
+"teclado",
+"ratón",
+"pantalla",
+"procesador"
+],
+"e": "Cuatro componentes de un ordenador; el ratón de este grupo no tiene pelo."
+},
+{
+"n": "Partes de un coche",
+"p": [
+"volante",
+"embrague",
+"maletero",
+"parachoques"
+],
+"e": "Cuatro piezas de un automóvil."
+}
+]
+},
+{
+"id": "c19",
+"nivel": 2,
+"grupos": [
+{
+"n": "Árboles",
+"p": [
+"pino",
+"roble",
+"encina",
+"olmo"
+],
+"e": "Cuatro árboles."
+},
+{
+"n": "Oficios",
+"p": [
+"panadero",
+"fontanero",
+"albañil",
+"carpintero"
+],
+"e": "Cuatro profesiones manuales."
+},
+{
+"n": "Materiales de construcción",
+"p": [
+"ladrillo",
+"cemento",
+"hormigón",
+"yeso"
+],
+"e": "Cuatro materiales que se usan para construir."
+},
+{
+"n": "Herramientas de jardín",
+"p": [
+"rastrillo",
+"azada",
+"podadora",
+"regadera"
+],
+"e": "Cuatro útiles para cuidar un jardín o un huerto."
+}
+]
+},
+{
+"id": "c20",
+"nivel": 2,
+"grupos": [
+{
+"n": "Géneros de cine",
+"p": [
+"terror",
+"comedia",
+"western",
+"musical"
+],
+"e": "Cuatro géneros cinematográficos."
+},
+{
+"n": "Estilos de música",
+"p": [
+"rock",
+"jazz",
+"reggae",
+"punk"
+],
+"e": "Cuatro estilos musicales."
+},
+{
+"n": "Estilos de baile",
+"p": [
+"vals",
+"tango",
+"salsa",
+"ballet"
+],
+"e": "Cuatro bailes. Aunque el vals, el tango o la salsa también son músicas, aquí se agrupan por su baile."
+},
+{
+"n": "Movimientos artísticos",
+"p": [
+"cubismo",
+"barroco",
+"gótico",
+"impresionismo"
+],
+"e": "Cuatro estilos de la historia del arte."
 }
 ]
 },
@@ -359,7 +780,8 @@
 ],
 "e": "Cuatro amarillos."
 }
-]
+],
+"nivel": 3
 },
 {
 "id": "c09",
@@ -404,7 +826,8 @@
 ],
 "e": "Agujas de reloj, de brújula, de pino y de jeringuilla."
 }
-]
+],
+"nivel": 3
 },
 {
 "id": "c10",
@@ -449,7 +872,8 @@
 ],
 "e": "Países de Asia."
 }
-]
+],
+"nivel": 3
 },
 {
 "id": "c11",
@@ -494,50 +918,190 @@
 ],
 "e": "Palabras para algo desagradable de ver."
 }
+],
+"nivel": 3
+},
+{
+"id": "c21",
+"nivel": 3,
+"grupos": [
+{
+"n": "Científicos",
+"p": [
+"Newton",
+"Darwin",
+"Curie",
+"Einstein"
+],
+"e": "Cuatro científicos que cambiaron la ciencia."
+},
+{
+"n": "Pintores españoles",
+"p": [
+"Goya",
+"Velázquez",
+"Dalí",
+"Murillo"
+],
+"e": "Cuatro pintores españoles."
+},
+{
+"n": "Compositores",
+"p": [
+"Mozart",
+"Beethoven",
+"Chopin",
+"Vivaldi"
+],
+"e": "Cuatro compositores de música clásica."
+},
+{
+"n": "Escritores españoles",
+"p": [
+"Cervantes",
+"Lorca",
+"Quevedo",
+"Unamuno"
+],
+"e": "Cuatro autores de la literatura española."
+}
 ]
 },
 {
-"id": "c12",
+"id": "c22",
+"nivel": 3,
 "grupos": [
 {
-"n": "Ropa de verano",
+"n": "Tienen cuello",
 "p": [
-"bañador",
-"sandalias",
-"camiseta",
-"gorra"
+"botella",
+"camisa",
+"jirafa",
+"guitarra"
 ],
-"e": "Prendas para el calor."
+"e": "Una botella, una camisa, una jirafa y una guitarra tienen cuello; la botella también tiene boca, pero el grupo del cuello la necesitaba."
 },
 {
-"n": "Ropa de invierno",
+"n": "Tienen pie",
 "p": [
-"bufanda",
-"guantes",
-"abrigo",
-"gorro"
+"montaña",
+"cama",
+"página",
+"fotografía"
 ],
-"e": "Prendas para el frío."
+"e": "Se habla del pie de la montaña, de la cama, de la página y de una fotografía."
 },
 {
-"n": "Para la lluvia",
+"n": "Tienen boca",
 "p": [
-"paraguas",
-"impermeable",
-"katiuskas",
-"chubasquero"
+"río",
+"volcán",
+"metro",
+"cueva"
 ],
-"e": "Para no mojarse."
+"e": "Un río, un volcán, el metro y una cueva tienen boca."
 },
 {
-"n": "Para hacer deporte",
+"n": "Tienen ala",
 "p": [
-"chándal",
-"zapatillas",
-"mallas",
-"muñequera"
+"avión",
+"edificio",
+"sombrero",
+"mariposa"
 ],
-"e": "Ropa deportiva."
+"e": "Un avión, un edificio, un sombrero y una mariposa tienen alas."
+}
+]
+},
+{
+"id": "c23",
+"nivel": 3,
+"grupos": [
+{
+"n": "Palabras de origen árabe",
+"p": [
+"aceite",
+"azúcar",
+"almohada",
+"alcalde"
+],
+"e": "Cuatro palabras que el español tomó del árabe."
+},
+{
+"n": "Palabras de origen quechua",
+"p": [
+"puma",
+"cóndor",
+"papa",
+"llama"
+],
+"e": "Cuatro palabras que llegaron del quechua, la lengua de los incas."
+},
+{
+"n": "Palabras de origen náhuatl",
+"p": [
+"chocolate",
+"tomate",
+"aguacate",
+"chicle"
+],
+"e": "Cuatro palabras que vienen del náhuatl, la lengua de los aztecas."
+},
+{
+"n": "Palabras de origen taíno",
+"p": [
+"hamaca",
+"huracán",
+"canoa",
+"maíz"
+],
+"e": "Cuatro palabras que vienen del taíno, lengua de las Antillas."
+}
+]
+},
+{
+"id": "c24",
+"nivel": 3,
+"grupos": [
+{
+"n": "Tiempos verbales",
+"p": [
+"presente",
+"pretérito",
+"futuro",
+"condicional"
+],
+"e": "Cuatro tiempos de la conjugación verbal."
+},
+{
+"n": "Signos de puntuación",
+"p": [
+"coma",
+"paréntesis",
+"comillas",
+"guion"
+],
+"e": "Cuatro signos que se usan al escribir."
+},
+{
+"n": "Figuras literarias",
+"p": [
+"metáfora",
+"hipérbole",
+"símil",
+"ironía"
+],
+"e": "Cuatro recursos del lenguaje literario."
+},
+{
+"n": "Clases de palabras",
+"p": [
+"sustantivo",
+"adjetivo",
+"adverbio",
+"preposición"
+],
+"e": "Cuatro categorías gramaticales."
 }
 ]
 }

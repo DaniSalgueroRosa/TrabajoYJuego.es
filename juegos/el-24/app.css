@@ -1,7 +1,1 @@
-/* CALCULA 24: cartas con los números y cuatro botones de operación. */
-.c24-cartas { display: flex; flex-wrap: wrap; gap: 8px; min-height: 5.2rem; }
-.c24-carta { min-width: 4.4rem; min-height: 4.4rem; padding: 0.3rem 0.7rem; font: inherit; font-size: 1.6rem; font-weight: 700; color: var(--tinta); background: var(--tiza); border: 3px solid var(--tinta); border-radius: 0; cursor: pointer; }
-.c24-carta[aria-pressed="true"] { background: var(--limon); box-shadow: 0 0 0 3px var(--sandia); }
-.c24-carta:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
-.c24-ops { display: flex; flex-wrap: wrap; gap: 8px; }
-.c24-ops .boton-retro { min-width: 3.4rem; font-size: 1.4rem; }
+.c24-cartas{display:flex;flex-wrap:wrap;gap:8px;min-height:5.2rem}.c24-carta{min-width:4.4rem;min-height:4.4rem;padding:0.3rem 0.7rem;font:inherit;font-size:1.6rem;font-weight:700;color:var(--tinta);background:var(--tiza);border:3px solid var(--tinta);border-radius:0;cursor:pointer}.c24-carta[aria-pressed="true"]{background:var(--limon);box-shadow:0 0 0 3px var(--sandia)}.c24-carta:focus-visible{outline:3px solid var(--limon);outline-offset:2px}.c24-ops{display:flex;flex-wrap:wrap;gap:8px}.c24-ops .boton-retro{min-width:3.4rem;font-size:1.4rem}

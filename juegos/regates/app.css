@@ -1,5 +1,1 @@
-/* REGATES: lienzo vertical pixelado de 192 × 256 y mandos grandes para el móvil */
-.rg-escena { width: min(100%, 22rem); margin: 8px auto; background: var(--tinta); box-shadow: 0 0 0 4px var(--tinta), 0 0 0 8px var(--noche-linea); touch-action: manipulation; }
-.rg-lienzo { display: block; width: 100%; height: auto; aspect-ratio: 192 / 256; image-rendering: pixelated; cursor: pointer; touch-action: manipulation; }
-.rg-mandos { display: flex; justify-content: center; align-items: center; gap: var(--e4); }
-.rg-boton { min-width: 5rem; min-height: 3.2rem; }
+.rg-escena{width:min(100%,22rem);margin:8px auto;background:var(--tinta);box-shadow:0 0 0 4px var(--tinta),0 0 0 8px var(--noche-linea);touch-action:manipulation}.rg-lienzo{display:block;width:100%;height:auto;aspect-ratio:192 / 256;image-rendering:pixelated;cursor:pointer;touch-action:manipulation}.rg-mandos{display:flex;justify-content:center;align-items:center;gap:var(--e4)}.rg-boton{min-width:5rem;min-height:3.2rem}

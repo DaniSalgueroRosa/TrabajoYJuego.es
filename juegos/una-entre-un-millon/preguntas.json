@@ -288,6 +288,30 @@
 "Liechtenstein"
 ],
 "n": 800000
+},
+{
+"t": [
+"Rusia"
+],
+"n": 50
+},
+{
+"t": [
+"Chipre"
+],
+"n": 150000
+},
+{
+"t": [
+"Turquía"
+],
+"n": 20000
+},
+{
+"t": [
+"Bielorrusia"
+],
+"n": 40000
 }
 ]
 },
@@ -460,7 +484,8 @@
 {
 "t": [
 "Fútbol",
-"futbol"
+"futbol",
+"futbol sala"
 ],
 "n": 2
 },
@@ -1113,25 +1138,29 @@
 "respuestas": [
 {
 "t": [
-"Ebro"
+"Ebro",
+"río ebro"
 ],
 "n": 4
 },
 {
 "t": [
-"Tajo"
+"Tajo",
+"río tajo"
 ],
 "n": 5
 },
 {
 "t": [
-"Duero"
+"Duero",
+"río duero"
 ],
 "n": 8
 },
 {
 "t": [
-"Guadalquivir"
+"Guadalquivir",
+"río guadalquivir"
 ],
 "n": 10
 },
@@ -1322,7 +1351,8 @@
 {
 "t": [
 "Plutón",
-"pluton"
+"pluton",
+"planeta plutón"
 ],
 "n": 30
 },
@@ -2276,7 +2306,8 @@
 },
 {
 "t": [
-"Tungsteno"
+"Tungsteno",
+"wolframio"
 ],
 "n": 25000
 },
@@ -2315,6 +2346,78 @@
 "Disprosio"
 ],
 "n": 900000
+},
+{
+"t": [
+"Flúor"
+],
+"n": 800
+},
+{
+"t": [
+"Yodo"
+],
+"n": 900
+},
+{
+"t": [
+"Titanio"
+],
+"n": 1200
+},
+{
+"t": [
+"Cromo"
+],
+"n": 1500
+},
+{
+"t": [
+"Manganeso"
+],
+"n": 3000
+},
+{
+"t": [
+"Arsénico"
+],
+"n": 4000
+},
+{
+"t": [
+"Plutonio"
+],
+"n": 4000
+},
+{
+"t": [
+"Radio"
+],
+"n": 5000
+},
+{
+"t": [
+"Bromo"
+],
+"n": 6000
+},
+{
+"t": [
+"Bario"
+],
+"n": 20000
+},
+{
+"t": [
+"Cesio"
+],
+"n": 70000
+},
+{
+"t": [
+"Torio"
+],
+"n": 150000
 }
 ]
 },
@@ -2575,6 +2678,79 @@
 "Rimac"
 ],
 "n": 400000
+},
+{
+"t": [
+"Cupra"
+],
+"n": 250
+},
+{
+"t": [
+"Jeep"
+],
+"n": 600
+},
+{
+"t": [
+"Rolls-Royce",
+"rolls royce"
+],
+"n": 1000
+},
+{
+"t": [
+"McLaren"
+],
+"n": 4000
+},
+{
+"t": [
+"Lotus"
+],
+"n": 6000
+},
+{
+"t": [
+"Dodge"
+],
+"n": 5000
+},
+{
+"t": [
+"Smart"
+],
+"n": 3000
+},
+{
+"t": [
+"Chrysler"
+],
+"n": 4000
+},
+{
+"t": [
+"Infiniti"
+],
+"n": 20000
+},
+{
+"t": [
+"Hummer"
+],
+"n": 7000
+},
+{
+"t": [
+"Isuzu"
+],
+"n": 30000
+},
+{
+"t": [
+"Mercury"
+],
+"n": 60000
 }
 ]
 },
@@ -2834,6 +3010,86 @@
 "Georgiano"
 ],
 "n": 300000
+},
+{
+"t": [
+"Valenciano"
+],
+"n": 300
+},
+{
+"t": [
+"Croata"
+],
+"n": 4000
+},
+{
+"t": [
+"Ucraniano"
+],
+"n": 3500
+},
+{
+"t": [
+"Checo"
+],
+"n": 5000
+},
+{
+"t": [
+"Tailandés"
+],
+"n": 6000
+},
+{
+"t": [
+"Serbio"
+],
+"n": 7000
+},
+{
+"t": [
+"Bengalí"
+],
+"n": 8000
+},
+{
+"t": [
+"Búlgaro"
+],
+"n": 8000
+},
+{
+"t": [
+"Indonesio"
+],
+"n": 12000
+},
+{
+"t": [
+"Asturiano",
+"bable"
+],
+"n": 12000
+},
+{
+"t": [
+"Irlandés",
+"gaélico"
+],
+"n": 15000
+},
+{
+"t": [
+"Eslovaco"
+],
+"n": 20000
+},
+{
+"t": [
+"Lituano"
+],
+"n": 50000
 }
 ]
 },
@@ -3053,6 +3309,87 @@
 "Strudel"
 ],
 "n": 25000
+},
+{
+"t": [
+"Tarta de chocolate",
+"chocolate"
+],
+"n": 35
+},
+{
+"t": [
+"Fresas con nata"
+],
+"n": 100
+},
+{
+"t": [
+"Crepes",
+"crepe",
+"creps"
+],
+"n": 130
+},
+{
+"t": [
+"Gofre",
+"gofres",
+"waffle"
+],
+"n": 250
+},
+{
+"t": [
+"Donut",
+"donuts"
+],
+"n": 400
+},
+{
+"t": [
+"Cupcake",
+"cupcakes"
+],
+"n": 800
+},
+{
+"t": [
+"Rosquillas",
+"rosquilla"
+],
+"n": 1500
+},
+{
+"t": [
+"Pestiños"
+],
+"n": 2000
+},
+{
+"t": [
+"Roscón de Reyes",
+"roscón"
+],
+"n": 3000
+},
+{
+"t": [
+"Éclair"
+],
+"n": 3000
+},
+{
+"t": [
+"Tocino de cielo"
+],
+"n": 6000
+},
+{
+"t": [
+"Quesada"
+],
+"n": 30000
 }
 ]
 },
@@ -3308,6 +3645,31 @@
 "monaco"
 ],
 "n": 300000
+},
+{
+"t": [
+"Moscú"
+],
+"n": 100
+},
+{
+"t": [
+"Kiev",
+"kyiv"
+],
+"n": 400
+},
+{
+"t": [
+"Minsk"
+],
+"n": 6000
+},
+{
+"t": [
+"Nicosia"
+],
+"n": 40000
 }
 ]
 },
@@ -3536,6 +3898,153 @@
 "Curtidor"
 ],
 "n": 90000
+},
+{
+"t": [
+"Camarero",
+"camarera"
+],
+"n": 25
+},
+{
+"t": [
+"Veterinario",
+"veterinaria"
+],
+"n": 45
+},
+{
+"t": [
+"Informático"
+],
+"n": 100
+},
+{
+"t": [
+"Dentista"
+],
+"n": 120
+},
+{
+"t": [
+"Programador",
+"programadora"
+],
+"n": 150
+},
+{
+"t": [
+"Actor",
+"actriz"
+],
+"n": 200
+},
+{
+"t": [
+"Agricultor",
+"granjero",
+"agricultora"
+],
+"n": 200
+},
+{
+"t": [
+"Pescador"
+],
+"n": 300
+},
+{
+"t": [
+"Juez",
+"jueza"
+],
+"n": 400
+},
+{
+"t": [
+"Cantante"
+],
+"n": 400
+},
+{
+"t": [
+"Psicólogo",
+"psicóloga"
+],
+"n": 500
+},
+{
+"t": [
+"Farmacéutico",
+"farmacéutica"
+],
+"n": 600
+},
+{
+"t": [
+"Conductor",
+"conductora"
+],
+"n": 600
+},
+{
+"t": [
+"Dependiente",
+"dependienta"
+],
+"n": 700
+},
+{
+"t": [
+"Ganadero"
+],
+"n": 900
+},
+{
+"t": [
+"Escritor",
+"escritora"
+],
+"n": 1000
+},
+{
+"t": [
+"Fotógrafo",
+"fotógrafa"
+],
+"n": 1200
+},
+{
+"t": [
+"Notario"
+],
+"n": 1800
+},
+{
+"t": [
+"Barrendero"
+],
+"n": 2000
+},
+{
+"t": [
+"Basurero"
+],
+"n": 2500
+},
+{
+"t": [
+"Traductor",
+"traductora"
+],
+"n": 3000
+},
+{
+"t": [
+"Cajero",
+"cajera"
+],
+"n": 5000
 }
 ]
 },
@@ -3758,6 +4267,24 @@
 "bufalo"
 ],
 "n": 25000
+},
+{
+"t": [
+"Cordero"
+],
+"n": 2000
+},
+{
+"t": [
+"Ternero"
+],
+"n": 9000
+},
+{
+"t": [
+"Rata"
+],
+"n": 15000
 }
 ]
 },
@@ -3768,48 +4295,58 @@
 {
 "t": [
 "Atlántico",
-"atlantico"
+"atlantico",
+"océano atlántico",
+"mar atlántico"
 ],
 "n": 3
 },
 {
 "t": [
 "Pacífico",
-"pacifico"
+"pacifico",
+"océano pacífico"
 ],
 "n": 4
 },
 {
 "t": [
 "Mediterráneo",
-"mediterraneo"
+"mediterraneo",
+"mar mediterráneo"
 ],
 "n": 5
 },
 {
 "t": [
 "Índico",
-"indico"
+"indico",
+"océano índico"
 ],
 "n": 12
 },
 {
 "t": [
 "Ártico",
-"artico"
+"artico",
+"océano ártico",
+"glacial ártico",
+"océano glacial ártico"
 ],
 "n": 15
 },
 {
 "t": [
 "Cantábrico",
-"cantabrico"
+"cantabrico",
+"mar cantábrico"
 ],
 "n": 30
 },
 {
 "t": [
-"Caribe"
+"Caribe",
+"mar caribe"
 ],
 "n": 20
 },
@@ -3830,7 +4367,9 @@
 {
 "t": [
 "Antártico",
-"antartico"
+"antartico",
+"océano antártico",
+"glacial antártico"
 ],
 "n": 150
 },
@@ -3850,7 +4389,8 @@
 {
 "t": [
 "Báltico",
-"baltico"
+"baltico",
+"mar báltico"
 ],
 "n": 400
 },
@@ -4177,6 +4717,140 @@
 "Felisberto Hernández"
 ],
 "n": 500000
+},
+{
+"t": [
+"Arturo Pérez-Reverte",
+"perez reverte",
+"perez-reverte"
+],
+"n": 150
+},
+{
+"t": [
+"Miguel Delibes",
+"delibes"
+],
+"n": 400
+},
+{
+"t": [
+"Gloria Fuertes"
+],
+"n": 600
+},
+{
+"t": [
+"Miguel Hernández"
+],
+"n": 700
+},
+{
+"t": [
+"Eduardo Mendoza"
+],
+"n": 800
+},
+{
+"t": [
+"Pío Baroja",
+"baroja"
+],
+"n": 900
+},
+{
+"t": [
+"Rafael Alberti",
+"alberti"
+],
+"n": 1000
+},
+{
+"t": [
+"Ildefonso Falcones",
+"falcones"
+],
+"n": 1200
+},
+{
+"t": [
+"Valle-Inclán",
+"valle inclan"
+],
+"n": 1500
+},
+{
+"t": [
+"Calderón de la Barca",
+"calderón"
+],
+"n": 1500
+},
+{
+"t": [
+"Javier Marías"
+],
+"n": 2500
+},
+{
+"t": [
+"Eduardo Galeano",
+"galeano"
+],
+"n": 3000
+},
+{
+"t": [
+"Carlos Fuentes"
+],
+"n": 3000
+},
+{
+"t": [
+"Roberto Bolaño",
+"bolaño"
+],
+"n": 3500
+},
+{
+"t": [
+"Garcilaso de la Vega",
+"garcilaso"
+],
+"n": 5000
+},
+{
+"t": [
+"Laura Esquivel"
+],
+"n": 5000
+},
+{
+"t": [
+"Góngora",
+"luis de góngora"
+],
+"n": 6000
+},
+{
+"t": [
+"Luis Cernuda",
+"cernuda"
+],
+"n": 8000
+},
+{
+"t": [
+"Tirso de Molina"
+],
+"n": 12000
+},
+{
+"t": [
+"Sor Juana Inés de la Cruz",
+"sor juana"
+],
+"n": 12000
 }
 ]
 },
@@ -4417,6 +5091,55 @@
 "Ofiura"
 ],
 "n": 500000
+},
+{
+"t": [
+"León marino",
+"lobo marino"
+],
+"n": 800
+},
+{
+"t": [
+"Gamba"
+],
+"n": 1200
+},
+{
+"t": [
+"Ostra"
+],
+"n": 1500
+},
+{
+"t": [
+"Mejillón"
+],
+"n": 2500
+},
+{
+"t": [
+"Almeja"
+],
+"n": 3000
+},
+{
+"t": [
+"Pez vela"
+],
+"n": 12000
+},
+{
+"t": [
+"Barracuda"
+],
+"n": 20000
+},
+{
+"t": [
+"Nutria marina"
+],
+"n": 20000
 }
 ]
 },
@@ -4680,6 +5403,105 @@
 "Felipe V"
 ],
 "n": 2000
+},
+{
+"t": [
+"Felipe González"
+],
+"n": 250
+},
+{
+"t": [
+"Adolfo Suárez"
+],
+"n": 80
+},
+{
+"t": [
+"Santiago Ramón y Cajal",
+"ramón y cajal",
+"cajal"
+],
+"n": 300
+},
+{
+"t": [
+"Picasso"
+],
+"n": 500
+},
+{
+"t": [
+"Lope de Vega"
+],
+"n": 800
+},
+{
+"t": [
+"Juan Sebastián Elcano",
+"elcano"
+],
+"n": 600
+},
+{
+"t": [
+"Quevedo"
+],
+"n": 2000
+},
+{
+"t": [
+"Clara Campoamor",
+"campoamor"
+],
+"n": 2500
+},
+{
+"t": [
+"Dolores Ibárruri",
+"la pasionaria",
+"pasionaria"
+],
+"n": 3500
+},
+{
+"t": [
+"Ponce de León"
+],
+"n": 4000
+},
+{
+"t": [
+"Felipe IV"
+],
+"n": 4000
+},
+{
+"t": [
+"Emilia Pardo Bazán",
+"pardo bazan"
+],
+"n": 5000
+},
+{
+"t": [
+"Don Juan de Austria",
+"juan de austria"
+],
+"n": 5000
+},
+{
+"t": [
+"Carlos II el Hechizado",
+"carlos ii"
+],
+"n": 6000
+},
+{
+"t": [
+"Concepción Arenal"
+],
+"n": 12000
 }
 ]
 },
@@ -5040,6 +5862,19734 @@
 "Elche"
 ],
 "n": 5000
+},
+{
+"t": [
+"Santiago de Compostela",
+"santiago"
+],
+"n": 150
+},
+{
+"t": [
+"A Coruña",
+"la coruña",
+"coruña"
+],
+"n": 90
+},
+{
+"t": [
+"Las Palmas",
+"las palmas de gran canaria"
+],
+"n": 120
+},
+{
+"t": [
+"Santa Cruz de Tenerife"
+],
+"n": 900
+},
+{
+"t": [
+"Pontevedra"
+],
+"n": 600
+},
+{
+"t": [
+"Marbella"
+],
+"n": 2200
+},
+{
+"t": [
+"Benidorm"
+],
+"n": 1500
+},
+{
+"t": [
+"Hospitalet",
+"l'hospitalet",
+"hospitalet de llobregat"
+],
+"n": 3000
+},
+{
+"t": [
+"Torremolinos"
+],
+"n": 3000
+},
+{
+"t": [
+"Badalona"
+],
+"n": 3500
+},
+{
+"t": [
+"Sabadell"
+],
+"n": 4000
+},
+{
+"t": [
+"Móstoles"
+],
+"n": 4000
+},
+{
+"t": [
+"Alcalá de Henares"
+],
+"n": 4000
+},
+{
+"t": [
+"Alcorcón"
+],
+"n": 5000
+},
+{
+"t": [
+"Gandía"
+],
+"n": 5000
+},
+{
+"t": [
+"Ferrol"
+],
+"n": 5000
+},
+{
+"t": [
+"Terrassa",
+"tarrasa"
+],
+"n": 6000
+},
+{
+"t": [
+"Fuenlabrada"
+],
+"n": 6000
+},
+{
+"t": [
+"Getafe"
+],
+"n": 5500
+},
+{
+"t": [
+"Fuengirola"
+],
+"n": 7000
+},
+{
+"t": [
+"Aranjuez"
+],
+"n": 7000
+},
+{
+"t": [
+"Lorca"
+],
+"n": 8000
+},
+{
+"t": [
+"Talavera de la Reina",
+"talavera"
+],
+"n": 9000
+},
+{
+"t": [
+"Mataró"
+],
+"n": 12000
+},
+{
+"t": [
+"Torrejón de Ardoz",
+"torrejon"
+],
+"n": 12000
+}
+]
+},
+{
+"id": "p23",
+"pregunta": "Nombra una ciudad de Estados Unidos",
+"respuestas": [
+{
+"t": [
+"Nueva York",
+"new york"
+],
+"n": 3
+},
+{
+"t": [
+"Los Ángeles"
+],
+"n": 4
+},
+{
+"t": [
+"Chicago"
+],
+"n": 5
+},
+{
+"t": [
+"Miami"
+],
+"n": 7
+},
+{
+"t": [
+"Las Vegas"
+],
+"n": 9
+},
+{
+"t": [
+"San Francisco"
+],
+"n": 12
+},
+{
+"t": [
+"Washington",
+"washington dc"
+],
+"n": 15
+},
+{
+"t": [
+"Boston"
+],
+"n": 20
+},
+{
+"t": [
+"Houston"
+],
+"n": 26
+},
+{
+"t": [
+"Dallas"
+],
+"n": 34
+},
+{
+"t": [
+"Filadelfia",
+"philadelphia"
+],
+"n": 45
+},
+{
+"t": [
+"Seattle"
+],
+"n": 58
+},
+{
+"t": [
+"Atlanta"
+],
+"n": 77
+},
+{
+"t": [
+"San Diego"
+],
+"n": 100
+},
+{
+"t": [
+"Orlando"
+],
+"n": 130
+},
+{
+"t": [
+"Phoenix"
+],
+"n": 170
+},
+{
+"t": [
+"Denver"
+],
+"n": 230
+},
+{
+"t": [
+"Detroit"
+],
+"n": 300
+},
+{
+"t": [
+"Nueva Orleans",
+"new orleans"
+],
+"n": 390
+},
+{
+"t": [
+"Austin"
+],
+"n": 510
+},
+{
+"t": [
+"Nashville"
+],
+"n": 810
+},
+{
+"t": [
+"San Antonio"
+],
+"n": 1300
+},
+{
+"t": [
+"Baltimore"
+],
+"n": 2100
+},
+{
+"t": [
+"Portland"
+],
+"n": 3300
+},
+{
+"t": [
+"Pittsburgh"
+],
+"n": 5300
+},
+{
+"t": [
+"Minneapolis"
+],
+"n": 8400
+},
+{
+"t": [
+"Memphis"
+],
+"n": 13000
+},
+{
+"t": [
+"Salt Lake City"
+],
+"n": 21000
+},
+{
+"t": [
+"Cleveland"
+],
+"n": 34000
+},
+{
+"t": [
+"Kansas City"
+],
+"n": 54000
+},
+{
+"t": [
+"Charlotte"
+],
+"n": 87000
+},
+{
+"t": [
+"Honolulu"
+],
+"n": 140000
+},
+{
+"t": [
+"Anchorage"
+],
+"n": 220000
+},
+{
+"t": [
+"Santa Fe"
+],
+"n": 350000
+},
+{
+"t": [
+"Cincinnati"
+],
+"n": 560000
+},
+{
+"t": [
+"Tampa"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p24",
+"pregunta": "Nombra un país de América",
+"respuestas": [
+{
+"t": [
+"México"
+],
+"n": 3
+},
+{
+"t": [
+"Estados Unidos",
+"eeuu",
+"ee uu",
+"usa"
+],
+"n": 4
+},
+{
+"t": [
+"Argentina"
+],
+"n": 5
+},
+{
+"t": [
+"Brasil"
+],
+"n": 7
+},
+{
+"t": [
+"Colombia"
+],
+"n": 9
+},
+{
+"t": [
+"Chile"
+],
+"n": 12
+},
+{
+"t": [
+"Perú"
+],
+"n": 15
+},
+{
+"t": [
+"Canadá"
+],
+"n": 20
+},
+{
+"t": [
+"Cuba"
+],
+"n": 26
+},
+{
+"t": [
+"Venezuela"
+],
+"n": 34
+},
+{
+"t": [
+"Ecuador"
+],
+"n": 45
+},
+{
+"t": [
+"Bolivia"
+],
+"n": 58
+},
+{
+"t": [
+"Uruguay"
+],
+"n": 77
+},
+{
+"t": [
+"Paraguay"
+],
+"n": 100
+},
+{
+"t": [
+"Costa Rica"
+],
+"n": 130
+},
+{
+"t": [
+"Panamá"
+],
+"n": 170
+},
+{
+"t": [
+"República Dominicana",
+"rep dominicana"
+],
+"n": 230
+},
+{
+"t": [
+"Guatemala"
+],
+"n": 300
+},
+{
+"t": [
+"Honduras"
+],
+"n": 390
+},
+{
+"t": [
+"El Salvador"
+],
+"n": 510
+},
+{
+"t": [
+"Nicaragua"
+],
+"n": 810
+},
+{
+"t": [
+"Puerto Rico"
+],
+"n": 150
+},
+{
+"t": [
+"Jamaica"
+],
+"n": 2100
+},
+{
+"t": [
+"Haití"
+],
+"n": 3300
+},
+{
+"t": [
+"Bahamas"
+],
+"n": 5300
+},
+{
+"t": [
+"Trinidad y Tobago"
+],
+"n": 8400
+},
+{
+"t": [
+"Belice"
+],
+"n": 13000
+},
+{
+"t": [
+"Guyana"
+],
+"n": 21000
+},
+{
+"t": [
+"Surinam"
+],
+"n": 34000
+},
+{
+"t": [
+"Barbados"
+],
+"n": 54000
+},
+{
+"t": [
+"Granada"
+],
+"n": 87000
+},
+{
+"t": [
+"Santa Lucía"
+],
+"n": 140000
+},
+{
+"t": [
+"Dominica"
+],
+"n": 220000
+},
+{
+"t": [
+"San Cristóbal y Nieves"
+],
+"n": 350000
+},
+{
+"t": [
+"Antigua y Barbuda"
+],
+"n": 560000
+},
+{
+"t": [
+"San Vicente y las Granadinas"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p25",
+"pregunta": "Nombra un país de África",
+"respuestas": [
+{
+"t": [
+"Egipto"
+],
+"n": 3
+},
+{
+"t": [
+"Marruecos"
+],
+"n": 4
+},
+{
+"t": [
+"Sudáfrica"
+],
+"n": 5
+},
+{
+"t": [
+"Nigeria"
+],
+"n": 7
+},
+{
+"t": [
+"Kenia",
+"kenya"
+],
+"n": 9
+},
+{
+"t": [
+"Argelia"
+],
+"n": 12
+},
+{
+"t": [
+"Senegal"
+],
+"n": 15
+},
+{
+"t": [
+"Etiopía"
+],
+"n": 20
+},
+{
+"t": [
+"Túnez"
+],
+"n": 26
+},
+{
+"t": [
+"Ghana"
+],
+"n": 34
+},
+{
+"t": [
+"Camerún"
+],
+"n": 45
+},
+{
+"t": [
+"Tanzania"
+],
+"n": 58
+},
+{
+"t": [
+"Libia"
+],
+"n": 77
+},
+{
+"t": [
+"Angola"
+],
+"n": 100
+},
+{
+"t": [
+"Mozambique"
+],
+"n": 130
+},
+{
+"t": [
+"Uganda"
+],
+"n": 170
+},
+{
+"t": [
+"Mali"
+],
+"n": 230
+},
+{
+"t": [
+"Costa de Marfil"
+],
+"n": 300
+},
+{
+"t": [
+"Congo",
+"república democrática del congo",
+"rd congo"
+],
+"n": 390
+},
+{
+"t": [
+"Sudán"
+],
+"n": 510
+},
+{
+"t": [
+"Zimbabue"
+],
+"n": 710
+},
+{
+"t": [
+"Namibia"
+],
+"n": 1000
+},
+{
+"t": [
+"Botsuana"
+],
+"n": 1400
+},
+{
+"t": [
+"Somalia"
+],
+"n": 2000
+},
+{
+"t": [
+"Madagascar"
+],
+"n": 2800
+},
+{
+"t": [
+"Guinea Ecuatorial"
+],
+"n": 3900
+},
+{
+"t": [
+"Zambia"
+],
+"n": 5500
+},
+{
+"t": [
+"Ruanda"
+],
+"n": 7700
+},
+{
+"t": [
+"Níger"
+],
+"n": 11000
+},
+{
+"t": [
+"Chad"
+],
+"n": 15000
+},
+{
+"t": [
+"Gabón"
+],
+"n": 21000
+},
+{
+"t": [
+"Mauritania"
+],
+"n": 30000
+},
+{
+"t": [
+"Malaui"
+],
+"n": 42000
+},
+{
+"t": [
+"Eritrea"
+],
+"n": 59000
+},
+{
+"t": [
+"Liberia"
+],
+"n": 83000
+},
+{
+"t": [
+"Seychelles"
+],
+"n": 120000
+},
+{
+"t": [
+"Cabo Verde"
+],
+"n": 160000
+},
+{
+"t": [
+"Lesoto"
+],
+"n": 230000
+},
+{
+"t": [
+"Esuatini",
+"suazilandia"
+],
+"n": 320000
+},
+{
+"t": [
+"Yibuti"
+],
+"n": 460000
+},
+{
+"t": [
+"Comoras"
+],
+"n": 640000
+},
+{
+"t": [
+"Santo Tomé y Príncipe"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p26",
+"pregunta": "Nombra un país de Asia",
+"respuestas": [
+{
+"t": [
+"China"
+],
+"n": 3
+},
+{
+"t": [
+"Japón"
+],
+"n": 4
+},
+{
+"t": [
+"India"
+],
+"n": 5
+},
+{
+"t": [
+"Tailandia"
+],
+"n": 7
+},
+{
+"t": [
+"Corea del Sur"
+],
+"n": 9
+},
+{
+"t": [
+"Vietnam"
+],
+"n": 12
+},
+{
+"t": [
+"Indonesia"
+],
+"n": 15
+},
+{
+"t": [
+"Filipinas"
+],
+"n": 20
+},
+{
+"t": [
+"Arabia Saudí",
+"arabia saudita"
+],
+"n": 26
+},
+{
+"t": [
+"Irán"
+],
+"n": 34
+},
+{
+"t": [
+"Irak"
+],
+"n": 45
+},
+{
+"t": [
+"Israel"
+],
+"n": 58
+},
+{
+"t": [
+"Pakistán"
+],
+"n": 77
+},
+{
+"t": [
+"Corea del Norte"
+],
+"n": 100
+},
+{
+"t": [
+"Malasia"
+],
+"n": 130
+},
+{
+"t": [
+"Singapur"
+],
+"n": 170
+},
+{
+"t": [
+"Nepal"
+],
+"n": 230
+},
+{
+"t": [
+"Camboya"
+],
+"n": 300
+},
+{
+"t": [
+"Afganistán"
+],
+"n": 390
+},
+{
+"t": [
+"Siria"
+],
+"n": 510
+},
+{
+"t": [
+"Líbano"
+],
+"n": 700
+},
+{
+"t": [
+"Jordania"
+],
+"n": 970
+},
+{
+"t": [
+"Emiratos Árabes Unidos",
+"emiratos",
+"emiratos arabes"
+],
+"n": 1300
+},
+{
+"t": [
+"Catar",
+"qatar"
+],
+"n": 1900
+},
+{
+"t": [
+"Bangladés",
+"bangladesh"
+],
+"n": 2600
+},
+{
+"t": [
+"Sri Lanka"
+],
+"n": 3600
+},
+{
+"t": [
+"Mongolia"
+],
+"n": 4900
+},
+{
+"t": [
+"Kazajistán",
+"kazajstan"
+],
+"n": 6800
+},
+{
+"t": [
+"Uzbekistán"
+],
+"n": 9500
+},
+{
+"t": [
+"Birmania",
+"myanmar"
+],
+"n": 13000
+},
+{
+"t": [
+"Laos"
+],
+"n": 18000
+},
+{
+"t": [
+"Taiwán"
+],
+"n": 25000
+},
+{
+"t": [
+"Turquía"
+],
+"n": 35000
+},
+{
+"t": [
+"Kuwait"
+],
+"n": 48000
+},
+{
+"t": [
+"Omán"
+],
+"n": 67000
+},
+{
+"t": [
+"Yemen"
+],
+"n": 92000
+},
+{
+"t": [
+"Bután"
+],
+"n": 130000
+},
+{
+"t": [
+"Brunéi"
+],
+"n": 180000
+},
+{
+"t": [
+"Maldivas"
+],
+"n": 240000
+},
+{
+"t": [
+"Tayikistán"
+],
+"n": 340000
+},
+{
+"t": [
+"Kirguistán"
+],
+"n": 470000
+},
+{
+"t": [
+"Turkmenistán"
+],
+"n": 650000
+},
+{
+"t": [
+"Timor Oriental"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p27",
+"pregunta": "Nombra una comunidad autónoma de España",
+"respuestas": [
+{
+"t": [
+"Andalucía"
+],
+"n": 3
+},
+{
+"t": [
+"Cataluña",
+"catalunya"
+],
+"n": 4
+},
+{
+"t": [
+"Madrid",
+"comunidad de madrid"
+],
+"n": 5
+},
+{
+"t": [
+"Galicia"
+],
+"n": 7
+},
+{
+"t": [
+"País Vasco",
+"euskadi"
+],
+"n": 9
+},
+{
+"t": [
+"Comunidad Valenciana",
+"valencia",
+"c valenciana"
+],
+"n": 12
+},
+{
+"t": [
+"Castilla y León"
+],
+"n": 15
+},
+{
+"t": [
+"Castilla-La Mancha",
+"castilla la mancha"
+],
+"n": 20
+},
+{
+"t": [
+"Canarias",
+"islas canarias"
+],
+"n": 26
+},
+{
+"t": [
+"Aragón"
+],
+"n": 34
+},
+{
+"t": [
+"Asturias",
+"principado de asturias"
+],
+"n": 45
+},
+{
+"t": [
+"Murcia",
+"región de murcia"
+],
+"n": 58
+},
+{
+"t": [
+"Extremadura"
+],
+"n": 77
+},
+{
+"t": [
+"Baleares",
+"islas baleares",
+"illes balears"
+],
+"n": 100
+},
+{
+"t": [
+"Navarra"
+],
+"n": 130
+},
+{
+"t": [
+"Cantabria"
+],
+"n": 170
+},
+{
+"t": [
+"La Rioja",
+"rioja"
+],
+"n": 230
+},
+{
+"t": [
+"Ceuta"
+],
+"n": 3500
+},
+{
+"t": [
+"Melilla"
+],
+"n": 5000
+}
+]
+},
+{
+"id": "p28",
+"pregunta": "Nombra una provincia de España",
+"respuestas": [
+{
+"t": [
+"Madrid"
+],
+"n": 4
+},
+{
+"t": [
+"Barcelona"
+],
+"n": 5
+},
+{
+"t": [
+"Valencia"
+],
+"n": 7
+},
+{
+"t": [
+"Sevilla"
+],
+"n": 9
+},
+{
+"t": [
+"Málaga"
+],
+"n": 12
+},
+{
+"t": [
+"Alicante"
+],
+"n": 15
+},
+{
+"t": [
+"Zaragoza"
+],
+"n": 20
+},
+{
+"t": [
+"Murcia"
+],
+"n": 26
+},
+{
+"t": [
+"Cádiz"
+],
+"n": 35
+},
+{
+"t": [
+"Córdoba"
+],
+"n": 45
+},
+{
+"t": [
+"Granada"
+],
+"n": 60
+},
+{
+"t": [
+"A Coruña",
+"la coruña",
+"coruña"
+],
+"n": 78
+},
+{
+"t": [
+"Pontevedra"
+],
+"n": 100
+},
+{
+"t": [
+"Asturias"
+],
+"n": 130
+},
+{
+"t": [
+"Navarra"
+],
+"n": 180
+},
+{
+"t": [
+"Badajoz"
+],
+"n": 230
+},
+{
+"t": [
+"Toledo"
+],
+"n": 300
+},
+{
+"t": [
+"Valladolid"
+],
+"n": 390
+},
+{
+"t": [
+"Burgos"
+],
+"n": 520
+},
+{
+"t": [
+"León"
+],
+"n": 680
+},
+{
+"t": [
+"Salamanca"
+],
+"n": 860
+},
+{
+"t": [
+"Almería"
+],
+"n": 1100
+},
+{
+"t": [
+"Huelva"
+],
+"n": 1400
+},
+{
+"t": [
+"Jaén"
+],
+"n": 1800
+},
+{
+"t": [
+"Tarragona"
+],
+"n": 2200
+},
+{
+"t": [
+"Girona",
+"gerona"
+],
+"n": 2800
+},
+{
+"t": [
+"Lleida",
+"lérida"
+],
+"n": 3600
+},
+{
+"t": [
+"Castellón"
+],
+"n": 4600
+},
+{
+"t": [
+"Albacete"
+],
+"n": 5900
+},
+{
+"t": [
+"Álava"
+],
+"n": 7400
+},
+{
+"t": [
+"Guipúzcoa"
+],
+"n": 9500
+},
+{
+"t": [
+"Vizcaya",
+"bizkaia"
+],
+"n": 12000
+},
+{
+"t": [
+"Cantabria"
+],
+"n": 15000
+},
+{
+"t": [
+"La Rioja"
+],
+"n": 19000
+},
+{
+"t": [
+"Cáceres"
+],
+"n": 25000
+},
+{
+"t": [
+"Ciudad Real"
+],
+"n": 31000
+},
+{
+"t": [
+"Cuenca"
+],
+"n": 40000
+},
+{
+"t": [
+"Guadalajara"
+],
+"n": 51000
+},
+{
+"t": [
+"Segovia"
+],
+"n": 64000
+},
+{
+"t": [
+"Ávila"
+],
+"n": 82000
+},
+{
+"t": [
+"Zamora"
+],
+"n": 100000
+},
+{
+"t": [
+"Palencia"
+],
+"n": 130000
+},
+{
+"t": [
+"Huesca"
+],
+"n": 170000
+},
+{
+"t": [
+"Teruel"
+],
+"n": 210000
+},
+{
+"t": [
+"Soria"
+],
+"n": 270000
+},
+{
+"t": [
+"Lugo"
+],
+"n": 340000
+},
+{
+"t": [
+"Ourense",
+"orense"
+],
+"n": 440000
+},
+{
+"t": [
+"Las Palmas"
+],
+"n": 560000
+},
+{
+"t": [
+"Santa Cruz de Tenerife"
+],
+"n": 710000
+},
+{
+"t": [
+"Baleares"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p29",
+"pregunta": "Nombra una montaña o una cordillera",
+"respuestas": [
+{
+"t": [
+"Everest"
+],
+"n": 3
+},
+{
+"t": [
+"Alpes"
+],
+"n": 4
+},
+{
+"t": [
+"Pirineos"
+],
+"n": 5
+},
+{
+"t": [
+"Himalaya"
+],
+"n": 7
+},
+{
+"t": [
+"Andes"
+],
+"n": 9
+},
+{
+"t": [
+"Teide"
+],
+"n": 12
+},
+{
+"t": [
+"Mont Blanc",
+"montblanc"
+],
+"n": 15
+},
+{
+"t": [
+"Kilimanjaro"
+],
+"n": 20
+},
+{
+"t": [
+"Mulhacén"
+],
+"n": 26
+},
+{
+"t": [
+"Picos de Europa"
+],
+"n": 34
+},
+{
+"t": [
+"Sierra Nevada"
+],
+"n": 45
+},
+{
+"t": [
+"Montañas Rocosas",
+"rocosas",
+"rocky mountains"
+],
+"n": 58
+},
+{
+"t": [
+"K2"
+],
+"n": 77
+},
+{
+"t": [
+"Aconcagua"
+],
+"n": 100
+},
+{
+"t": [
+"Montserrat"
+],
+"n": 130
+},
+{
+"t": [
+"Fuji",
+"monte fuji"
+],
+"n": 170
+},
+{
+"t": [
+"Matterhorn",
+"cervino"
+],
+"n": 230
+},
+{
+"t": [
+"Gredos",
+"sierra de gredos"
+],
+"n": 300
+},
+{
+"t": [
+"Guadarrama",
+"sierra de guadarrama"
+],
+"n": 390
+},
+{
+"t": [
+"Aneto"
+],
+"n": 510
+},
+{
+"t": [
+"Monte Perdido"
+],
+"n": 750
+},
+{
+"t": [
+"Urales"
+],
+"n": 1100
+},
+{
+"t": [
+"Apeninos"
+],
+"n": 1700
+},
+{
+"t": [
+"Cárpatos"
+],
+"n": 2400
+},
+{
+"t": [
+"Atlas"
+],
+"n": 3600
+},
+{
+"t": [
+"Denali"
+],
+"n": 5400
+},
+{
+"t": [
+"Olimpo",
+"monte olimpo"
+],
+"n": 8000
+},
+{
+"t": [
+"Ararat"
+],
+"n": 12000
+},
+{
+"t": [
+"Etna"
+],
+"n": 18000
+},
+{
+"t": [
+"Sinaí"
+],
+"n": 26000
+},
+{
+"t": [
+"Cordillera Cantábrica"
+],
+"n": 39000
+},
+{
+"t": [
+"Sierra Morena"
+],
+"n": 57000
+},
+{
+"t": [
+"Sistema Ibérico"
+],
+"n": 85000
+},
+{
+"t": [
+"Naranjo de Bulnes"
+],
+"n": 130000
+},
+{
+"t": [
+"Torre de Cerredo"
+],
+"n": 190000
+},
+{
+"t": [
+"Annapurna"
+],
+"n": 280000
+},
+{
+"t": [
+"Eiger"
+],
+"n": 410000
+},
+{
+"t": [
+"Kangchenjunga"
+],
+"n": 610000
+},
+{
+"t": [
+"Elbrús"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p30",
+"pregunta": "Nombra una isla",
+"respuestas": [
+{
+"t": [
+"Mallorca"
+],
+"n": 3
+},
+{
+"t": [
+"Tenerife"
+],
+"n": 4
+},
+{
+"t": [
+"Ibiza"
+],
+"n": 5
+},
+{
+"t": [
+"Cuba"
+],
+"n": 7
+},
+{
+"t": [
+"Menorca"
+],
+"n": 9
+},
+{
+"t": [
+"Gran Canaria"
+],
+"n": 12
+},
+{
+"t": [
+"Sicilia"
+],
+"n": 15
+},
+{
+"t": [
+"Cerdeña"
+],
+"n": 20
+},
+{
+"t": [
+"Córcega"
+],
+"n": 26
+},
+{
+"t": [
+"Madagascar"
+],
+"n": 34
+},
+{
+"t": [
+"Hawái"
+],
+"n": 45
+},
+{
+"t": [
+"Jamaica"
+],
+"n": 58
+},
+{
+"t": [
+"Lanzarote"
+],
+"n": 77
+},
+{
+"t": [
+"Fuerteventura"
+],
+"n": 100
+},
+{
+"t": [
+"Formentera"
+],
+"n": 130
+},
+{
+"t": [
+"La Palma"
+],
+"n": 170
+},
+{
+"t": [
+"Creta"
+],
+"n": 230
+},
+{
+"t": [
+"Irlanda"
+],
+"n": 300
+},
+{
+"t": [
+"Gran Bretaña"
+],
+"n": 390
+},
+{
+"t": [
+"Groenlandia"
+],
+"n": 510
+},
+{
+"t": [
+"Puerto Rico"
+],
+"n": 680
+},
+{
+"t": [
+"Bali"
+],
+"n": 900
+},
+{
+"t": [
+"Java"
+],
+"n": 1200
+},
+{
+"t": [
+"Malta"
+],
+"n": 1600
+},
+{
+"t": [
+"Chipre"
+],
+"n": 2100
+},
+{
+"t": [
+"Santorini"
+],
+"n": 2900
+},
+{
+"t": [
+"Mykonos"
+],
+"n": 3800
+},
+{
+"t": [
+"Capri"
+],
+"n": 5100
+},
+{
+"t": [
+"Maldivas"
+],
+"n": 6800
+},
+{
+"t": [
+"La Gomera"
+],
+"n": 9000
+},
+{
+"t": [
+"El Hierro"
+],
+"n": 12000
+},
+{
+"t": [
+"Tahití"
+],
+"n": 16000
+},
+{
+"t": [
+"Isla de Pascua",
+"pascua"
+],
+"n": 21000
+},
+{
+"t": [
+"Galápagos"
+],
+"n": 28000
+},
+{
+"t": [
+"Islandia"
+],
+"n": 38000
+},
+{
+"t": [
+"Tasmania"
+],
+"n": 51000
+},
+{
+"t": [
+"Nueva Zelanda"
+],
+"n": 68000
+},
+{
+"t": [
+"Borneo"
+],
+"n": 90000
+},
+{
+"t": [
+"Sumatra"
+],
+"n": 120000
+},
+{
+"t": [
+"Mauricio"
+],
+"n": 160000
+},
+{
+"t": [
+"Zanzíbar"
+],
+"n": 210000
+},
+{
+"t": [
+"Rodas"
+],
+"n": 280000
+},
+{
+"t": [
+"Corfú"
+],
+"n": 380000
+},
+{
+"t": [
+"Ons"
+],
+"n": 510000
+},
+{
+"t": [
+"Cíes",
+"islas cies"
+],
+"n": 670000
+},
+{
+"t": [
+"Alborán"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p31",
+"pregunta": "Nombra un ave",
+"respuestas": [
+{
+"t": [
+"Águila"
+],
+"n": 3
+},
+{
+"t": [
+"Paloma"
+],
+"n": 4
+},
+{
+"t": [
+"Gorrión"
+],
+"n": 5
+},
+{
+"t": [
+"Loro"
+],
+"n": 7
+},
+{
+"t": [
+"Búho"
+],
+"n": 9
+},
+{
+"t": [
+"Pato"
+],
+"n": 12
+},
+{
+"t": [
+"Cuervo"
+],
+"n": 15
+},
+{
+"t": [
+"Halcón"
+],
+"n": 20
+},
+{
+"t": [
+"Cigüeña"
+],
+"n": 26
+},
+{
+"t": [
+"Pingüino"
+],
+"n": 34
+},
+{
+"t": [
+"Golondrina"
+],
+"n": 45
+},
+{
+"t": [
+"Flamenco"
+],
+"n": 58
+},
+{
+"t": [
+"Pavo real"
+],
+"n": 77
+},
+{
+"t": [
+"Cisne"
+],
+"n": 100
+},
+{
+"t": [
+"Gaviota"
+],
+"n": 130
+},
+{
+"t": [
+"Colibrí"
+],
+"n": 170
+},
+{
+"t": [
+"Canario"
+],
+"n": 230
+},
+{
+"t": [
+"Avestruz"
+],
+"n": 300
+},
+{
+"t": [
+"Tucán"
+],
+"n": 390
+},
+{
+"t": [
+"Ruiseñor"
+],
+"n": 510
+},
+{
+"t": [
+"Mirlo"
+],
+"n": 680
+},
+{
+"t": [
+"Buitre"
+],
+"n": 900
+},
+{
+"t": [
+"Pelícano"
+],
+"n": 1200
+},
+{
+"t": [
+"Lechuza"
+],
+"n": 1600
+},
+{
+"t": [
+"Cóndor"
+],
+"n": 2100
+},
+{
+"t": [
+"Pájaro carpintero"
+],
+"n": 2900
+},
+{
+"t": [
+"Garza"
+],
+"n": 3800
+},
+{
+"t": [
+"Periquito"
+],
+"n": 5100
+},
+{
+"t": [
+"Petirrojo"
+],
+"n": 6800
+},
+{
+"t": [
+"Jilguero"
+],
+"n": 9000
+},
+{
+"t": [
+"Urraca"
+],
+"n": 12000
+},
+{
+"t": [
+"Abubilla"
+],
+"n": 16000
+},
+{
+"t": [
+"Kiwi"
+],
+"n": 21000
+},
+{
+"t": [
+"Quetzal"
+],
+"n": 28000
+},
+{
+"t": [
+"Albatros"
+],
+"n": 38000
+},
+{
+"t": [
+"Cormorán"
+],
+"n": 51000
+},
+{
+"t": [
+"Faisán"
+],
+"n": 68000
+},
+{
+"t": [
+"Gallo"
+],
+"n": 90000
+},
+{
+"t": [
+"Pavo"
+],
+"n": 120000
+},
+{
+"t": [
+"Ganso"
+],
+"n": 160000
+},
+{
+"t": [
+"Cacatúa"
+],
+"n": 210000
+},
+{
+"t": [
+"Guacamayo"
+],
+"n": 280000
+},
+{
+"t": [
+"Vencejo"
+],
+"n": 380000
+},
+{
+"t": [
+"Cernícalo"
+],
+"n": 510000
+},
+{
+"t": [
+"Alondra"
+],
+"n": 670000
+},
+{
+"t": [
+"Martín pescador"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p32",
+"pregunta": "Nombra un insecto o bicho pequeño",
+"respuestas": [
+{
+"t": [
+"Hormiga"
+],
+"n": 3
+},
+{
+"t": [
+"Mosca"
+],
+"n": 4
+},
+{
+"t": [
+"Abeja"
+],
+"n": 5
+},
+{
+"t": [
+"Mosquito"
+],
+"n": 7
+},
+{
+"t": [
+"Mariposa"
+],
+"n": 9
+},
+{
+"t": [
+"Araña"
+],
+"n": 12
+},
+{
+"t": [
+"Cucaracha"
+],
+"n": 15
+},
+{
+"t": [
+"Avispa"
+],
+"n": 20
+},
+{
+"t": [
+"Escarabajo"
+],
+"n": 26
+},
+{
+"t": [
+"Saltamontes"
+],
+"n": 34
+},
+{
+"t": [
+"Mariquita"
+],
+"n": 45
+},
+{
+"t": [
+"Libélula"
+],
+"n": 58
+},
+{
+"t": [
+"Grillo"
+],
+"n": 77
+},
+{
+"t": [
+"Pulga"
+],
+"n": 100
+},
+{
+"t": [
+"Luciérnaga"
+],
+"n": 130
+},
+{
+"t": [
+"Polilla"
+],
+"n": 170
+},
+{
+"t": [
+"Termita"
+],
+"n": 230
+},
+{
+"t": [
+"Garrapata"
+],
+"n": 300
+},
+{
+"t": [
+"Piojo"
+],
+"n": 390
+},
+{
+"t": [
+"Chinche"
+],
+"n": 510
+},
+{
+"t": [
+"Abejorro"
+],
+"n": 770
+},
+{
+"t": [
+"Cigarra"
+],
+"n": 1200
+},
+{
+"t": [
+"Mantis religiosa",
+"mantis"
+],
+"n": 1800
+},
+{
+"t": [
+"Tijereta"
+],
+"n": 2700
+},
+{
+"t": [
+"Gusano"
+],
+"n": 4100
+},
+{
+"t": [
+"Oruga"
+],
+"n": 6100
+},
+{
+"t": [
+"Escorpión"
+],
+"n": 9300
+},
+{
+"t": [
+"Ciempiés"
+],
+"n": 14000
+},
+{
+"t": [
+"Caracol"
+],
+"n": 21000
+},
+{
+"t": [
+"Babosa"
+],
+"n": 32000
+},
+{
+"t": [
+"Tábano"
+],
+"n": 49000
+},
+{
+"t": [
+"Cochinilla",
+"bicho bola"
+],
+"n": 74000
+},
+{
+"t": [
+"Pececillo de plata"
+],
+"n": 110000
+},
+{
+"t": [
+"Langosta"
+],
+"n": 170000
+},
+{
+"t": [
+"Zancudo"
+],
+"n": 260000
+},
+{
+"t": [
+"Moscardón"
+],
+"n": 390000
+},
+{
+"t": [
+"Chicharra"
+],
+"n": 590000
+},
+{
+"t": [
+"Cochinilla de la humedad"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p33",
+"pregunta": "Nombra una raza de perro",
+"respuestas": [
+{
+"t": [
+"Pastor alemán"
+],
+"n": 3
+},
+{
+"t": [
+"Labrador"
+],
+"n": 4
+},
+{
+"t": [
+"Bulldog",
+"buldog"
+],
+"n": 5
+},
+{
+"t": [
+"Chihuahua"
+],
+"n": 7
+},
+{
+"t": [
+"Caniche",
+"poodle"
+],
+"n": 9
+},
+{
+"t": [
+"Golden retriever",
+"golden"
+],
+"n": 12
+},
+{
+"t": [
+"Pug",
+"carlino"
+],
+"n": 15
+},
+{
+"t": [
+"Beagle"
+],
+"n": 20
+},
+{
+"t": [
+"Husky",
+"husky siberiano"
+],
+"n": 26
+},
+{
+"t": [
+"Yorkshire",
+"yorkshire terrier"
+],
+"n": 34
+},
+{
+"t": [
+"Rottweiler"
+],
+"n": 45
+},
+{
+"t": [
+"Dálmata"
+],
+"n": 58
+},
+{
+"t": [
+"Doberman"
+],
+"n": 77
+},
+{
+"t": [
+"Bóxer"
+],
+"n": 100
+},
+{
+"t": [
+"Mastín"
+],
+"n": 130
+},
+{
+"t": [
+"Pitbull",
+"pit bull"
+],
+"n": 170
+},
+{
+"t": [
+"Cocker",
+"cocker spaniel"
+],
+"n": 230
+},
+{
+"t": [
+"Teckel",
+"salchicha"
+],
+"n": 300
+},
+{
+"t": [
+"San Bernardo"
+],
+"n": 390
+},
+{
+"t": [
+"Border collie"
+],
+"n": 510
+},
+{
+"t": [
+"Podenco"
+],
+"n": 680
+},
+{
+"t": [
+"Galgo"
+],
+"n": 920
+},
+{
+"t": [
+"Shar pei"
+],
+"n": 1200
+},
+{
+"t": [
+"Pomerania"
+],
+"n": 1700
+},
+{
+"t": [
+"Schnauzer",
+"chnauzer"
+],
+"n": 2300
+},
+{
+"t": [
+"Gran danés"
+],
+"n": 3100
+},
+{
+"t": [
+"Bichón"
+],
+"n": 4100
+},
+{
+"t": [
+"Setter"
+],
+"n": 5600
+},
+{
+"t": [
+"Pointer"
+],
+"n": 7500
+},
+{
+"t": [
+"Akita"
+],
+"n": 10000
+},
+{
+"t": [
+"Samoyedo"
+],
+"n": 14000
+},
+{
+"t": [
+"Malamute"
+],
+"n": 18000
+},
+{
+"t": [
+"Basset hound",
+"basset"
+],
+"n": 25000
+},
+{
+"t": [
+"Bernés de la montaña",
+"berner"
+],
+"n": 33000
+},
+{
+"t": [
+"Maltés"
+],
+"n": 45000
+},
+{
+"t": [
+"Jack Russell"
+],
+"n": 61000
+},
+{
+"t": [
+"Shih tzu"
+],
+"n": 82000
+},
+{
+"t": [
+"Collie"
+],
+"n": 110000
+},
+{
+"t": [
+"Pastor belga"
+],
+"n": 150000
+},
+{
+"t": [
+"Bulldog francés"
+],
+"n": 200000
+},
+{
+"t": [
+"Cane corso"
+],
+"n": 270000
+},
+{
+"t": [
+"Spaniel"
+],
+"n": 370000
+},
+{
+"t": [
+"Whippet"
+],
+"n": 490000
+},
+{
+"t": [
+"Terranova"
+],
+"n": 670000
+},
+{
+"t": [
+"Fox terrier"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p34",
+"pregunta": "Nombra una flor",
+"respuestas": [
+{
+"t": [
+"Rosa"
+],
+"n": 3
+},
+{
+"t": [
+"Margarita"
+],
+"n": 4
+},
+{
+"t": [
+"Tulipán"
+],
+"n": 5
+},
+{
+"t": [
+"Girasol"
+],
+"n": 7
+},
+{
+"t": [
+"Clavel"
+],
+"n": 9
+},
+{
+"t": [
+"Lirio"
+],
+"n": 12
+},
+{
+"t": [
+"Orquídea"
+],
+"n": 15
+},
+{
+"t": [
+"Amapola"
+],
+"n": 20
+},
+{
+"t": [
+"Violeta"
+],
+"n": 26
+},
+{
+"t": [
+"Jazmín"
+],
+"n": 34
+},
+{
+"t": [
+"Geranio"
+],
+"n": 45
+},
+{
+"t": [
+"Lavanda"
+],
+"n": 58
+},
+{
+"t": [
+"Azucena"
+],
+"n": 77
+},
+{
+"t": [
+"Narciso"
+],
+"n": 100
+},
+{
+"t": [
+"Dalia"
+],
+"n": 130
+},
+{
+"t": [
+"Crisantemo"
+],
+"n": 170
+},
+{
+"t": [
+"Gladiolo"
+],
+"n": 230
+},
+{
+"t": [
+"Petunia"
+],
+"n": 300
+},
+{
+"t": [
+"Hortensia"
+],
+"n": 390
+},
+{
+"t": [
+"Gardenia"
+],
+"n": 510
+},
+{
+"t": [
+"Camelia"
+],
+"n": 680
+},
+{
+"t": [
+"Peonía"
+],
+"n": 920
+},
+{
+"t": [
+"Lila"
+],
+"n": 1200
+},
+{
+"t": [
+"Nenúfar"
+],
+"n": 1700
+},
+{
+"t": [
+"Loto"
+],
+"n": 2300
+},
+{
+"t": [
+"Begonia"
+],
+"n": 3100
+},
+{
+"t": [
+"Pensamiento"
+],
+"n": 4100
+},
+{
+"t": [
+"Edelweiss"
+],
+"n": 5600
+},
+{
+"t": [
+"Ranúnculo"
+],
+"n": 7500
+},
+{
+"t": [
+"Mimosa"
+],
+"n": 10000
+},
+{
+"t": [
+"Malva"
+],
+"n": 14000
+},
+{
+"t": [
+"Aciano"
+],
+"n": 18000
+},
+{
+"t": [
+"Anémona"
+],
+"n": 25000
+},
+{
+"t": [
+"Prímula"
+],
+"n": 33000
+},
+{
+"t": [
+"Fresia"
+],
+"n": 45000
+},
+{
+"t": [
+"Alhelí"
+],
+"n": 61000
+},
+{
+"t": [
+"Caléndula"
+],
+"n": 82000
+},
+{
+"t": [
+"Jacinto"
+],
+"n": 110000
+},
+{
+"t": [
+"Dientes de león",
+"diente de leon"
+],
+"n": 150000
+},
+{
+"t": [
+"Flor de loto"
+],
+"n": 200000
+},
+{
+"t": [
+"Buganvilla"
+],
+"n": 270000
+},
+{
+"t": [
+"Adelfa"
+],
+"n": 370000
+},
+{
+"t": [
+"Madreselva"
+],
+"n": 490000
+},
+{
+"t": [
+"Rododendro"
+],
+"n": 670000
+},
+{
+"t": [
+"Azalea"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p35",
+"pregunta": "Nombra un árbol",
+"respuestas": [
+{
+"t": [
+"Pino"
+],
+"n": 3
+},
+{
+"t": [
+"Roble"
+],
+"n": 4
+},
+{
+"t": [
+"Encina"
+],
+"n": 5
+},
+{
+"t": [
+"Olivo"
+],
+"n": 7
+},
+{
+"t": [
+"Abeto"
+],
+"n": 9
+},
+{
+"t": [
+"Sauce"
+],
+"n": 12
+},
+{
+"t": [
+"Álamo"
+],
+"n": 15
+},
+{
+"t": [
+"Haya"
+],
+"n": 20
+},
+{
+"t": [
+"Cedro"
+],
+"n": 26
+},
+{
+"t": [
+"Palmera"
+],
+"n": 34
+},
+{
+"t": [
+"Naranjo"
+],
+"n": 45
+},
+{
+"t": [
+"Castaño"
+],
+"n": 58
+},
+{
+"t": [
+"Chopo"
+],
+"n": 77
+},
+{
+"t": [
+"Fresno"
+],
+"n": 100
+},
+{
+"t": [
+"Olmo"
+],
+"n": 130
+},
+{
+"t": [
+"Ciprés"
+],
+"n": 170
+},
+{
+"t": [
+"Nogal"
+],
+"n": 230
+},
+{
+"t": [
+"Eucalipto"
+],
+"n": 300
+},
+{
+"t": [
+"Almendro"
+],
+"n": 390
+},
+{
+"t": [
+"Higuera"
+],
+"n": 510
+},
+{
+"t": [
+"Alcornoque"
+],
+"n": 650
+},
+{
+"t": [
+"Baobab"
+],
+"n": 830
+},
+{
+"t": [
+"Secuoya"
+],
+"n": 1100
+},
+{
+"t": [
+"Arce"
+],
+"n": 1400
+},
+{
+"t": [
+"Abedul"
+],
+"n": 1800
+},
+{
+"t": [
+"Limonero"
+],
+"n": 2300
+},
+{
+"t": [
+"Manzano"
+],
+"n": 2900
+},
+{
+"t": [
+"Cerezo"
+],
+"n": 3700
+},
+{
+"t": [
+"Magnolio"
+],
+"n": 4800
+},
+{
+"t": [
+"Acacia"
+],
+"n": 6100
+},
+{
+"t": [
+"Tilo"
+],
+"n": 7900
+},
+{
+"t": [
+"Plátano"
+],
+"n": 10000
+},
+{
+"t": [
+"Sándalo"
+],
+"n": 13000
+},
+{
+"t": [
+"Teca"
+],
+"n": 17000
+},
+{
+"t": [
+"Jacaranda"
+],
+"n": 21000
+},
+{
+"t": [
+"Ceiba"
+],
+"n": 27000
+},
+{
+"t": [
+"Algarrobo"
+],
+"n": 35000
+},
+{
+"t": [
+"Pino piñonero"
+],
+"n": 45000
+},
+{
+"t": [
+"Madroño"
+],
+"n": 58000
+},
+{
+"t": [
+"Melocotonero"
+],
+"n": 74000
+},
+{
+"t": [
+"Peral"
+],
+"n": 95000
+},
+{
+"t": [
+"Granado"
+],
+"n": 120000
+},
+{
+"t": [
+"Mimosa"
+],
+"n": 160000
+},
+{
+"t": [
+"Baobab africano"
+],
+"n": 200000
+},
+{
+"t": [
+"Sabina"
+],
+"n": 260000
+},
+{
+"t": [
+"Tejo"
+],
+"n": 330000
+},
+{
+"t": [
+"Quejigo"
+],
+"n": 430000
+},
+{
+"t": [
+"Ginkgo"
+],
+"n": 550000
+},
+{
+"t": [
+"Avellano"
+],
+"n": 700000
+},
+{
+"t": [
+"Sequoia"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p36",
+"pregunta": "Nombra una bebida",
+"respuestas": [
+{
+"t": [
+"Agua"
+],
+"n": 3
+},
+{
+"t": [
+"Coca-Cola",
+"coca cola"
+],
+"n": 4
+},
+{
+"t": [
+"Cerveza"
+],
+"n": 5
+},
+{
+"t": [
+"Vino"
+],
+"n": 7
+},
+{
+"t": [
+"Café"
+],
+"n": 9
+},
+{
+"t": [
+"Zumo",
+"jugo"
+],
+"n": 12
+},
+{
+"t": [
+"Leche"
+],
+"n": 15
+},
+{
+"t": [
+"Té"
+],
+"n": 20
+},
+{
+"t": [
+"Refresco"
+],
+"n": 26
+},
+{
+"t": [
+"Fanta"
+],
+"n": 34
+},
+{
+"t": [
+"Limonada"
+],
+"n": 45
+},
+{
+"t": [
+"Sprite"
+],
+"n": 58
+},
+{
+"t": [
+"Whisky"
+],
+"n": 77
+},
+{
+"t": [
+"Ron"
+],
+"n": 100
+},
+{
+"t": [
+"Vodka"
+],
+"n": 130
+},
+{
+"t": [
+"Ginebra"
+],
+"n": 170
+},
+{
+"t": [
+"Cava",
+"champán",
+"champagne"
+],
+"n": 230
+},
+{
+"t": [
+"Sangría"
+],
+"n": 300
+},
+{
+"t": [
+"Batido"
+],
+"n": 390
+},
+{
+"t": [
+"Horchata"
+],
+"n": 510
+},
+{
+"t": [
+"Tinto de verano"
+],
+"n": 680
+},
+{
+"t": [
+"Mojito"
+],
+"n": 900
+},
+{
+"t": [
+"Tónica"
+],
+"n": 1200
+},
+{
+"t": [
+"Cacao",
+"colacao"
+],
+"n": 1600
+},
+{
+"t": [
+"Pepsi"
+],
+"n": 2100
+},
+{
+"t": [
+"Aquarius"
+],
+"n": 2900
+},
+{
+"t": [
+"Nestea"
+],
+"n": 3800
+},
+{
+"t": [
+"Sidra"
+],
+"n": 5100
+},
+{
+"t": [
+"Licor"
+],
+"n": 6800
+},
+{
+"t": [
+"Tequila"
+],
+"n": 9000
+},
+{
+"t": [
+"Kéfir"
+],
+"n": 12000
+},
+{
+"t": [
+"Kombucha"
+],
+"n": 16000
+},
+{
+"t": [
+"Anís"
+],
+"n": 21000
+},
+{
+"t": [
+"Vermut"
+],
+"n": 28000
+},
+{
+"t": [
+"Gin tonic"
+],
+"n": 38000
+},
+{
+"t": [
+"Cubata"
+],
+"n": 51000
+},
+{
+"t": [
+"Margarita"
+],
+"n": 68000
+},
+{
+"t": [
+"Piña colada"
+],
+"n": 90000
+},
+{
+"t": [
+"Cóctel"
+],
+"n": 120000
+},
+{
+"t": [
+"Chocolate caliente"
+],
+"n": 160000
+},
+{
+"t": [
+"Granizado"
+],
+"n": 210000
+},
+{
+"t": [
+"Smoothie"
+],
+"n": 280000
+},
+{
+"t": [
+"Red Bull"
+],
+"n": 380000
+},
+{
+"t": [
+"Monster"
+],
+"n": 510000
+},
+{
+"t": [
+"Infusión"
+],
+"n": 670000
+},
+{
+"t": [
+"Sake"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p37",
+"pregunta": "Nombra un plato típico español",
+"respuestas": [
+{
+"t": [
+"Paella"
+],
+"n": 2
+},
+{
+"t": [
+"Tortilla de patatas",
+"tortilla española",
+"tortilla"
+],
+"n": 3
+},
+{
+"t": [
+"Gazpacho"
+],
+"n": 3
+},
+{
+"t": [
+"Croquetas"
+],
+"n": 4
+},
+{
+"t": [
+"Cocido"
+],
+"n": 6
+},
+{
+"t": [
+"Fabada"
+],
+"n": 8
+},
+{
+"t": [
+"Salmorejo"
+],
+"n": 10
+},
+{
+"t": [
+"Patatas bravas",
+"bravas"
+],
+"n": 13
+},
+{
+"t": [
+"Calamares",
+"calamares a la romana"
+],
+"n": 17
+},
+{
+"t": [
+"Pulpo a la gallega",
+"pulpo"
+],
+"n": 23
+},
+{
+"t": [
+"Migas"
+],
+"n": 30
+},
+{
+"t": [
+"Lentejas"
+],
+"n": 39
+},
+{
+"t": [
+"Callos"
+],
+"n": 51
+},
+{
+"t": [
+"Pisto"
+],
+"n": 67
+},
+{
+"t": [
+"Ensaladilla rusa",
+"ensaladilla"
+],
+"n": 88
+},
+{
+"t": [
+"Albóndigas"
+],
+"n": 110
+},
+{
+"t": [
+"Rabo de toro"
+],
+"n": 150
+},
+{
+"t": [
+"Pimientos de Padrón",
+"padrón"
+],
+"n": 200
+},
+{
+"t": [
+"Cochinillo"
+],
+"n": 260
+},
+{
+"t": [
+"Fideuá"
+],
+"n": 340
+},
+{
+"t": [
+"Marmitako"
+],
+"n": 460
+},
+{
+"t": [
+"Pan con tomate"
+],
+"n": 620
+},
+{
+"t": [
+"Huevos rotos"
+],
+"n": 840
+},
+{
+"t": [
+"Gambas al ajillo"
+],
+"n": 1100
+},
+{
+"t": [
+"Caldo gallego"
+],
+"n": 1500
+},
+{
+"t": [
+"Ajoblanco"
+],
+"n": 2100
+},
+{
+"t": [
+"Escalivada"
+],
+"n": 2800
+},
+{
+"t": [
+"Morcilla"
+],
+"n": 3800
+},
+{
+"t": [
+"Cocido madrileño"
+],
+"n": 5200
+},
+{
+"t": [
+"Jamón ibérico"
+],
+"n": 7000
+},
+{
+"t": [
+"Empanada gallega",
+"empanada"
+],
+"n": 9500
+},
+{
+"t": [
+"Cachopo"
+],
+"n": 13000
+},
+{
+"t": [
+"Flamenquín"
+],
+"n": 17000
+},
+{
+"t": [
+"Pinchos"
+],
+"n": 24000
+},
+{
+"t": [
+"Zarangollo"
+],
+"n": 32000
+},
+{
+"t": [
+"Berenjenas con miel"
+],
+"n": 43000
+},
+{
+"t": [
+"Sopa de ajo"
+],
+"n": 59000
+},
+{
+"t": [
+"Arroz negro"
+],
+"n": 79000
+},
+{
+"t": [
+"Pulpo á feira"
+],
+"n": 110000
+},
+{
+"t": [
+"Bacalao al pil pil",
+"pil pil"
+],
+"n": 150000
+},
+{
+"t": [
+"Txangurro"
+],
+"n": 200000
+},
+{
+"t": [
+"Olla podrida"
+],
+"n": 270000
+},
+{
+"t": [
+"Gachas"
+],
+"n": 360000
+},
+{
+"t": [
+"Fideos a la cazuela"
+],
+"n": 490000
+},
+{
+"t": [
+"Cordero asado"
+],
+"n": 660000
+},
+{
+"t": [
+"Lacón con grelos"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p38",
+"pregunta": "Nombra un plato de la cocina italiana",
+"respuestas": [
+{
+"t": [
+"Pizza"
+],
+"n": 2
+},
+{
+"t": [
+"Espaguetis",
+"spaghetti",
+"espagueti"
+],
+"n": 3
+},
+{
+"t": [
+"Lasaña",
+"lasagna"
+],
+"n": 3
+},
+{
+"t": [
+"Macarrones"
+],
+"n": 4
+},
+{
+"t": [
+"Carbonara",
+"espaguetis carbonara"
+],
+"n": 6
+},
+{
+"t": [
+"Risotto",
+"rissoto"
+],
+"n": 8
+},
+{
+"t": [
+"Raviolis",
+"ravioli"
+],
+"n": 10
+},
+{
+"t": [
+"Tortellini"
+],
+"n": 13
+},
+{
+"t": [
+"Ñoquis",
+"gnocchi"
+],
+"n": 17
+},
+{
+"t": [
+"Canelones"
+],
+"n": 23
+},
+{
+"t": [
+"Tagliatelle"
+],
+"n": 30
+},
+{
+"t": [
+"Fettuccine"
+],
+"n": 39
+},
+{
+"t": [
+"Penne"
+],
+"n": 51
+},
+{
+"t": [
+"Ossobuco"
+],
+"n": 67
+},
+{
+"t": [
+"Minestrone"
+],
+"n": 88
+},
+{
+"t": [
+"Bruschetta"
+],
+"n": 110
+},
+{
+"t": [
+"Focaccia"
+],
+"n": 150
+},
+{
+"t": [
+"Carpaccio"
+],
+"n": 200
+},
+{
+"t": [
+"Parmigiana"
+],
+"n": 260
+},
+{
+"t": [
+"Boloñesa",
+"espaguetis a la boloñesa"
+],
+"n": 340
+},
+{
+"t": [
+"Calzone"
+],
+"n": 490
+},
+{
+"t": [
+"Pesto"
+],
+"n": 720
+},
+{
+"t": [
+"Polenta"
+],
+"n": 1000
+},
+{
+"t": [
+"Saltimbocca"
+],
+"n": 1500
+},
+{
+"t": [
+"Arancini"
+],
+"n": 2200
+},
+{
+"t": [
+"Tiramisú"
+],
+"n": 3200
+},
+{
+"t": [
+"Panna cotta"
+],
+"n": 4700
+},
+{
+"t": [
+"Caprese",
+"ensalada caprese"
+],
+"n": 6800
+},
+{
+"t": [
+"Cacio e pepe"
+],
+"n": 9900
+},
+{
+"t": [
+"Amatriciana"
+],
+"n": 14000
+},
+{
+"t": [
+"Pizza margarita"
+],
+"n": 21000
+},
+{
+"t": [
+"Vitello tonnato"
+],
+"n": 31000
+},
+{
+"t": [
+"Gelato"
+],
+"n": 45000
+},
+{
+"t": [
+"Cannoli"
+],
+"n": 65000
+},
+{
+"t": [
+"Pasta"
+],
+"n": 95000
+},
+{
+"t": [
+"Lasagne"
+],
+"n": 140000
+},
+{
+"t": [
+"Trofie"
+],
+"n": 200000
+},
+{
+"t": [
+"Orecchiette"
+],
+"n": 290000
+},
+{
+"t": [
+"Cappelletti"
+],
+"n": 420000
+},
+{
+"t": [
+"Panzanella"
+],
+"n": 620000
+},
+{
+"t": [
+"Pizza cuatro quesos"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p39",
+"pregunta": "Nombra un queso",
+"respuestas": [
+{
+"t": [
+"Manchego"
+],
+"n": 3
+},
+{
+"t": [
+"Mozzarella",
+"mozarela"
+],
+"n": 4
+},
+{
+"t": [
+"Parmesano"
+],
+"n": 5
+},
+{
+"t": [
+"Cheddar"
+],
+"n": 7
+},
+{
+"t": [
+"Brie"
+],
+"n": 9
+},
+{
+"t": [
+"Gouda"
+],
+"n": 12
+},
+{
+"t": [
+"Camembert"
+],
+"n": 15
+},
+{
+"t": [
+"Roquefort"
+],
+"n": 20
+},
+{
+"t": [
+"Emmental"
+],
+"n": 26
+},
+{
+"t": [
+"Gruyère"
+],
+"n": 34
+},
+{
+"t": [
+"Gorgonzola"
+],
+"n": 45
+},
+{
+"t": [
+"Edam"
+],
+"n": 58
+},
+{
+"t": [
+"Feta"
+],
+"n": 77
+},
+{
+"t": [
+"Cabrales"
+],
+"n": 100
+},
+{
+"t": [
+"Idiazábal"
+],
+"n": 130
+},
+{
+"t": [
+"Tetilla"
+],
+"n": 170
+},
+{
+"t": [
+"Mahón"
+],
+"n": 230
+},
+{
+"t": [
+"Ricotta"
+],
+"n": 300
+},
+{
+"t": [
+"Provolone"
+],
+"n": 390
+},
+{
+"t": [
+"Havarti"
+],
+"n": 510
+},
+{
+"t": [
+"Burgos",
+"queso de burgos"
+],
+"n": 680
+},
+{
+"t": [
+"Zamorano"
+],
+"n": 920
+},
+{
+"t": [
+"Philadelphia"
+],
+"n": 1200
+},
+{
+"t": [
+"Mascarpone"
+],
+"n": 1700
+},
+{
+"t": [
+"Halloumi"
+],
+"n": 2300
+},
+{
+"t": [
+"Pecorino"
+],
+"n": 3100
+},
+{
+"t": [
+"Cottage"
+],
+"n": 4100
+},
+{
+"t": [
+"Torta del Casar"
+],
+"n": 5600
+},
+{
+"t": [
+"Payoyo"
+],
+"n": 7500
+},
+{
+"t": [
+"Maasdam"
+],
+"n": 10000
+},
+{
+"t": [
+"Stilton"
+],
+"n": 14000
+},
+{
+"t": [
+"Raclette"
+],
+"n": 18000
+},
+{
+"t": [
+"Fontina"
+],
+"n": 25000
+},
+{
+"t": [
+"Queso de cabra"
+],
+"n": 33000
+},
+{
+"t": [
+"Queso azul"
+],
+"n": 45000
+},
+{
+"t": [
+"Queso fresco"
+],
+"n": 61000
+},
+{
+"t": [
+"Queso en lonchas"
+],
+"n": 82000
+},
+{
+"t": [
+"Queso rallado"
+],
+"n": 110000
+},
+{
+"t": [
+"Afuega'l pitu"
+],
+"n": 150000
+},
+{
+"t": [
+"Majorero"
+],
+"n": 200000
+},
+{
+"t": [
+"Garrotxa"
+],
+"n": 270000
+},
+{
+"t": [
+"Ibores"
+],
+"n": 370000
+},
+{
+"t": [
+"Cantal"
+],
+"n": 490000
+},
+{
+"t": [
+"Reblochon"
+],
+"n": 670000
+},
+{
+"t": [
+"Mimolette"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p40",
+"pregunta": "Nombra un embutido o fiambre",
+"respuestas": [
+{
+"t": [
+"Jamón"
+],
+"n": 3
+},
+{
+"t": [
+"Chorizo"
+],
+"n": 4
+},
+{
+"t": [
+"Salchichón"
+],
+"n": 5
+},
+{
+"t": [
+"Lomo"
+],
+"n": 7
+},
+{
+"t": [
+"Morcilla"
+],
+"n": 9
+},
+{
+"t": [
+"Salchicha"
+],
+"n": 12
+},
+{
+"t": [
+"Mortadela"
+],
+"n": 15
+},
+{
+"t": [
+"Fuet"
+],
+"n": 20
+},
+{
+"t": [
+"Butifarra",
+"botifarra"
+],
+"n": 26
+},
+{
+"t": [
+"Sobrasada"
+],
+"n": 34
+},
+{
+"t": [
+"Chopped"
+],
+"n": 45
+},
+{
+"t": [
+"Panceta",
+"bacon",
+"beicon"
+],
+"n": 58
+},
+{
+"t": [
+"Longaniza"
+],
+"n": 77
+},
+{
+"t": [
+"Cecina"
+],
+"n": 100
+},
+{
+"t": [
+"Pavo"
+],
+"n": 130
+},
+{
+"t": [
+"Jamón York"
+],
+"n": 170
+},
+{
+"t": [
+"Paté"
+],
+"n": 230
+},
+{
+"t": [
+"Morcón"
+],
+"n": 300
+},
+{
+"t": [
+"Chistorra"
+],
+"n": 390
+},
+{
+"t": [
+"Cabeza de jabalí"
+],
+"n": 510
+},
+{
+"t": [
+"Sorra"
+],
+"n": 770
+},
+{
+"t": [
+"Mortadela de Bolonia"
+],
+"n": 1200
+},
+{
+"t": [
+"Salami"
+],
+"n": 1800
+},
+{
+"t": [
+"Pastrami"
+],
+"n": 2700
+},
+{
+"t": [
+"Bresaola"
+],
+"n": 4100
+},
+{
+"t": [
+"Pepperoni"
+],
+"n": 6100
+},
+{
+"t": [
+"Lacón"
+],
+"n": 9300
+},
+{
+"t": [
+"Cecina de León"
+],
+"n": 14000
+},
+{
+"t": [
+"Jamón serrano"
+],
+"n": 21000
+},
+{
+"t": [
+"Jamón ibérico"
+],
+"n": 32000
+},
+{
+"t": [
+"Foie"
+],
+"n": 49000
+},
+{
+"t": [
+"Queso de cerdo"
+],
+"n": 74000
+},
+{
+"t": [
+"Androlla"
+],
+"n": 110000
+},
+{
+"t": [
+"Botillo"
+],
+"n": 170000
+},
+{
+"t": [
+"Mojama"
+],
+"n": 260000
+},
+{
+"t": [
+"Blanquet"
+],
+"n": 390000
+},
+{
+"t": [
+"Fiambre de pollo"
+],
+"n": 590000
+},
+{
+"t": [
+"Pechuga de pavo"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p41",
+"pregunta": "Nombra un pescado",
+"respuestas": [
+{
+"t": [
+"Salmón"
+],
+"n": 4
+},
+{
+"t": [
+"Merluza"
+],
+"n": 5
+},
+{
+"t": [
+"Atún"
+],
+"n": 7
+},
+{
+"t": [
+"Bacalao"
+],
+"n": 9
+},
+{
+"t": [
+"Sardina"
+],
+"n": 12
+},
+{
+"t": [
+"Lubina"
+],
+"n": 15
+},
+{
+"t": [
+"Dorada"
+],
+"n": 20
+},
+{
+"t": [
+"Trucha"
+],
+"n": 26
+},
+{
+"t": [
+"Besugo"
+],
+"n": 35
+},
+{
+"t": [
+"Boquerón"
+],
+"n": 45
+},
+{
+"t": [
+"Rape"
+],
+"n": 60
+},
+{
+"t": [
+"Lenguado"
+],
+"n": 78
+},
+{
+"t": [
+"Pez espada"
+],
+"n": 100
+},
+{
+"t": [
+"Caballa"
+],
+"n": 130
+},
+{
+"t": [
+"Rodaballo"
+],
+"n": 180
+},
+{
+"t": [
+"Gallo"
+],
+"n": 230
+},
+{
+"t": [
+"Anchoa"
+],
+"n": 300
+},
+{
+"t": [
+"Pescadilla"
+],
+"n": 390
+},
+{
+"t": [
+"Mero"
+],
+"n": 520
+},
+{
+"t": [
+"Salmonete"
+],
+"n": 680
+},
+{
+"t": [
+"Bonito"
+],
+"n": 900
+},
+{
+"t": [
+"Anguila"
+],
+"n": 1200
+},
+{
+"t": [
+"Carpa"
+],
+"n": 1600
+},
+{
+"t": [
+"Lucio"
+],
+"n": 2100
+},
+{
+"t": [
+"Abadejo"
+],
+"n": 2800
+},
+{
+"t": [
+"Jurel"
+],
+"n": 3800
+},
+{
+"t": [
+"Arenque"
+],
+"n": 5100
+},
+{
+"t": [
+"Pargo"
+],
+"n": 6800
+},
+{
+"t": [
+"Tilapia"
+],
+"n": 9000
+},
+{
+"t": [
+"Panga"
+],
+"n": 12000
+},
+{
+"t": [
+"Bacaladilla"
+],
+"n": 16000
+},
+{
+"t": [
+"Congrio"
+],
+"n": 21000
+},
+{
+"t": [
+"Lamprea"
+],
+"n": 28000
+},
+{
+"t": [
+"Sargo"
+],
+"n": 38000
+},
+{
+"t": [
+"Palometa"
+],
+"n": 51000
+},
+{
+"t": [
+"Fletán"
+],
+"n": 68000
+},
+{
+"t": [
+"Pez gato"
+],
+"n": 90000
+},
+{
+"t": [
+"Perca"
+],
+"n": 120000
+},
+{
+"t": [
+"Esturión"
+],
+"n": 160000
+},
+{
+"t": [
+"Tiburón"
+],
+"n": 210000
+},
+{
+"t": [
+"Raya"
+],
+"n": 280000
+},
+{
+"t": [
+"Sábalo"
+],
+"n": 380000
+},
+{
+"t": [
+"Bagre"
+],
+"n": 510000
+},
+{
+"t": [
+"Trucha arcoíris"
+],
+"n": 670000
+},
+{
+"t": [
+"Atún rojo"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p42",
+"pregunta": "Nombra un marisco",
+"respuestas": [
+{
+"t": [
+"Gambas"
+],
+"n": 3
+},
+{
+"t": [
+"Langostinos"
+],
+"n": 4
+},
+{
+"t": [
+"Mejillones"
+],
+"n": 5
+},
+{
+"t": [
+"Almejas"
+],
+"n": 7
+},
+{
+"t": [
+"Cangrejo"
+],
+"n": 9
+},
+{
+"t": [
+"Langosta"
+],
+"n": 12
+},
+{
+"t": [
+"Percebes"
+],
+"n": 15
+},
+{
+"t": [
+"Ostras"
+],
+"n": 20
+},
+{
+"t": [
+"Calamares"
+],
+"n": 26
+},
+{
+"t": [
+"Pulpo"
+],
+"n": 34
+},
+{
+"t": [
+"Berberechos"
+],
+"n": 45
+},
+{
+"t": [
+"Navajas"
+],
+"n": 58
+},
+{
+"t": [
+"Bogavante"
+],
+"n": 77
+},
+{
+"t": [
+"Cigalas"
+],
+"n": 100
+},
+{
+"t": [
+"Centollo"
+],
+"n": 130
+},
+{
+"t": [
+"Vieiras"
+],
+"n": 170
+},
+{
+"t": [
+"Nécora"
+],
+"n": 230
+},
+{
+"t": [
+"Camarones"
+],
+"n": 300
+},
+{
+"t": [
+"Buey de mar"
+],
+"n": 390
+},
+{
+"t": [
+"Coquinas"
+],
+"n": 510
+},
+{
+"t": [
+"Chipirones"
+],
+"n": 750
+},
+{
+"t": [
+"Sepia"
+],
+"n": 1100
+},
+{
+"t": [
+"Zamburiñas"
+],
+"n": 1700
+},
+{
+"t": [
+"Erizo de mar"
+],
+"n": 2400
+},
+{
+"t": [
+"Cangrejo de río"
+],
+"n": 3600
+},
+{
+"t": [
+"Cañaíllas",
+"canailla"
+],
+"n": 5400
+},
+{
+"t": [
+"Ostiones"
+],
+"n": 8000
+},
+{
+"t": [
+"Carabineros"
+],
+"n": 12000
+},
+{
+"t": [
+"Cigala"
+],
+"n": 18000
+},
+{
+"t": [
+"Quisquilla"
+],
+"n": 26000
+},
+{
+"t": [
+"Bígaros"
+],
+"n": 39000
+},
+{
+"t": [
+"Cañadilla"
+],
+"n": 57000
+},
+{
+"t": [
+"Lapas"
+],
+"n": 85000
+},
+{
+"t": [
+"Caracoles de mar"
+],
+"n": 130000
+},
+{
+"t": [
+"Almeja de carril"
+],
+"n": 190000
+},
+{
+"t": [
+"Berberecho"
+],
+"n": 280000
+},
+{
+"t": [
+"Langostino tigre"
+],
+"n": 410000
+},
+{
+"t": [
+"Gamba roja"
+],
+"n": 610000
+},
+{
+"t": [
+"Camarón"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p43",
+"pregunta": "Nombra una marca de ropa",
+"respuestas": [
+{
+"t": [
+"Zara"
+],
+"n": 3
+},
+{
+"t": [
+"Nike"
+],
+"n": 4
+},
+{
+"t": [
+"Adidas"
+],
+"n": 5
+},
+{
+"t": [
+"Levi's"
+],
+"n": 7
+},
+{
+"t": [
+"H&M",
+"h y m"
+],
+"n": 9
+},
+{
+"t": [
+"Mango"
+],
+"n": 12
+},
+{
+"t": [
+"Pull&Bear",
+"pull and bear",
+"pull bear"
+],
+"n": 15
+},
+{
+"t": [
+"Bershka"
+],
+"n": 20
+},
+{
+"t": [
+"Stradivarius"
+],
+"n": 26
+},
+{
+"t": [
+"Puma"
+],
+"n": 34
+},
+{
+"t": [
+"Lacoste"
+],
+"n": 45
+},
+{
+"t": [
+"Gucci"
+],
+"n": 58
+},
+{
+"t": [
+"Massimo Dutti"
+],
+"n": 77
+},
+{
+"t": [
+"Primark"
+],
+"n": 100
+},
+{
+"t": [
+"Springfield"
+],
+"n": 130
+},
+{
+"t": [
+"Desigual"
+],
+"n": 170
+},
+{
+"t": [
+"Tommy Hilfiger",
+"tommy"
+],
+"n": 230
+},
+{
+"t": [
+"Calvin Klein"
+],
+"n": 300
+},
+{
+"t": [
+"Ralph Lauren"
+],
+"n": 390
+},
+{
+"t": [
+"Chanel"
+],
+"n": 510
+},
+{
+"t": [
+"Louis Vuitton"
+],
+"n": 630
+},
+{
+"t": [
+"Prada"
+],
+"n": 780
+},
+{
+"t": [
+"Armani"
+],
+"n": 960
+},
+{
+"t": [
+"Versace"
+],
+"n": 1200
+},
+{
+"t": [
+"Dior"
+],
+"n": 1500
+},
+{
+"t": [
+"Decathlon"
+],
+"n": 1800
+},
+{
+"t": [
+"Reebok"
+],
+"n": 2300
+},
+{
+"t": [
+"Converse"
+],
+"n": 2800
+},
+{
+"t": [
+"Vans"
+],
+"n": 3500
+},
+{
+"t": [
+"Under Armour"
+],
+"n": 4300
+},
+{
+"t": [
+"The North Face",
+"north face"
+],
+"n": 5300
+},
+{
+"t": [
+"Pepe Jeans"
+],
+"n": 6600
+},
+{
+"t": [
+"Hollister"
+],
+"n": 8200
+},
+{
+"t": [
+"Superdry"
+],
+"n": 10000
+},
+{
+"t": [
+"Cortefiel"
+],
+"n": 13000
+},
+{
+"t": [
+"Loewe"
+],
+"n": 16000
+},
+{
+"t": [
+"Burberry"
+],
+"n": 19000
+},
+{
+"t": [
+"Balenciaga"
+],
+"n": 24000
+},
+{
+"t": [
+"Kappa"
+],
+"n": 29000
+},
+{
+"t": [
+"Lee"
+],
+"n": 36000
+},
+{
+"t": [
+"Wrangler"
+],
+"n": 45000
+},
+{
+"t": [
+"Fila"
+],
+"n": 56000
+},
+{
+"t": [
+"Hugo Boss",
+"boss"
+],
+"n": 69000
+},
+{
+"t": [
+"New Balance"
+],
+"n": 86000
+},
+{
+"t": [
+"Quiksilver"
+],
+"n": 110000
+},
+{
+"t": [
+"Oysho"
+],
+"n": 130000
+},
+{
+"t": [
+"Women'secret"
+],
+"n": 160000
+},
+{
+"t": [
+"Lefties"
+],
+"n": 200000
+},
+{
+"t": [
+"Sfera"
+],
+"n": 250000
+},
+{
+"t": [
+"Scalpers"
+],
+"n": 310000
+},
+{
+"t": [
+"Silbon"
+],
+"n": 380000
+},
+{
+"t": [
+"El Ganso"
+],
+"n": 470000
+},
+{
+"t": [
+"Uniqlo"
+],
+"n": 590000
+},
+{
+"t": [
+"Shein"
+],
+"n": 730000
+},
+{
+"t": [
+"Asics"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p44",
+"pregunta": "Nombra una marca de móviles o de tecnología",
+"respuestas": [
+{
+"t": [
+"Apple",
+"iphone"
+],
+"n": 3
+},
+{
+"t": [
+"Samsung"
+],
+"n": 4
+},
+{
+"t": [
+"Xiaomi"
+],
+"n": 5
+},
+{
+"t": [
+"Huawei"
+],
+"n": 7
+},
+{
+"t": [
+"Sony"
+],
+"n": 9
+},
+{
+"t": [
+"LG"
+],
+"n": 12
+},
+{
+"t": [
+"Google",
+"pixel"
+],
+"n": 15
+},
+{
+"t": [
+"Motorola"
+],
+"n": 20
+},
+{
+"t": [
+"Nokia"
+],
+"n": 26
+},
+{
+"t": [
+"Oppo"
+],
+"n": 34
+},
+{
+"t": [
+"Microsoft"
+],
+"n": 45
+},
+{
+"t": [
+"HP"
+],
+"n": 58
+},
+{
+"t": [
+"Dell"
+],
+"n": 77
+},
+{
+"t": [
+"Lenovo"
+],
+"n": 100
+},
+{
+"t": [
+"Asus"
+],
+"n": 130
+},
+{
+"t": [
+"Acer"
+],
+"n": 170
+},
+{
+"t": [
+"Intel"
+],
+"n": 230
+},
+{
+"t": [
+"Nvidia"
+],
+"n": 300
+},
+{
+"t": [
+"Amazon"
+],
+"n": 390
+},
+{
+"t": [
+"Realme"
+],
+"n": 510
+},
+{
+"t": [
+"OnePlus",
+"one plus"
+],
+"n": 620
+},
+{
+"t": [
+"Philips"
+],
+"n": 770
+},
+{
+"t": [
+"Canon"
+],
+"n": 950
+},
+{
+"t": [
+"Panasonic"
+],
+"n": 1200
+},
+{
+"t": [
+"Toshiba"
+],
+"n": 1400
+},
+{
+"t": [
+"Logitech"
+],
+"n": 1800
+},
+{
+"t": [
+"Razer"
+],
+"n": 2200
+},
+{
+"t": [
+"Garmin"
+],
+"n": 2700
+},
+{
+"t": [
+"BQ"
+],
+"n": 3300
+},
+{
+"t": [
+"Alcatel"
+],
+"n": 4100
+},
+{
+"t": [
+"Vivo"
+],
+"n": 5000
+},
+{
+"t": [
+"ZTE"
+],
+"n": 6100
+},
+{
+"t": [
+"Honor"
+],
+"n": 7600
+},
+{
+"t": [
+"IBM"
+],
+"n": 9300
+},
+{
+"t": [
+"AMD"
+],
+"n": 11000
+},
+{
+"t": [
+"Nintendo"
+],
+"n": 14000
+},
+{
+"t": [
+"Blackberry"
+],
+"n": 17000
+},
+{
+"t": [
+"Siemens"
+],
+"n": 21000
+},
+{
+"t": [
+"Sharp"
+],
+"n": 26000
+},
+{
+"t": [
+"Fujitsu"
+],
+"n": 32000
+},
+{
+"t": [
+"Nikon"
+],
+"n": 40000
+},
+{
+"t": [
+"GoPro"
+],
+"n": 49000
+},
+{
+"t": [
+"JBL"
+],
+"n": 60000
+},
+{
+"t": [
+"Bose"
+],
+"n": 74000
+},
+{
+"t": [
+"Dyson"
+],
+"n": 92000
+},
+{
+"t": [
+"Tesla"
+],
+"n": 110000
+},
+{
+"t": [
+"Meta"
+],
+"n": 140000
+},
+{
+"t": [
+"Hisense"
+],
+"n": 170000
+},
+{
+"t": [
+"TCL"
+],
+"n": 210000
+},
+{
+"t": [
+"Cecotec"
+],
+"n": 260000
+},
+{
+"t": [
+"Sennheiser"
+],
+"n": 320000
+},
+{
+"t": [
+"Kingston"
+],
+"n": 390000
+},
+{
+"t": [
+"Western Digital"
+],
+"n": 480000
+},
+{
+"t": [
+"Seagate"
+],
+"n": 590000
+},
+{
+"t": [
+"Epson"
+],
+"n": 730000
+},
+{
+"t": [
+"Brother"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p45",
+"pregunta": "Nombra una red social o una aplicación",
+"respuestas": [
+{
+"t": [
+"WhatsApp",
+"wasap"
+],
+"n": 3
+},
+{
+"t": [
+"Instagram",
+"insta"
+],
+"n": 4
+},
+{
+"t": [
+"Facebook"
+],
+"n": 5
+},
+{
+"t": [
+"TikTok",
+"tik tok"
+],
+"n": 7
+},
+{
+"t": [
+"YouTube",
+"you tube"
+],
+"n": 9
+},
+{
+"t": [
+"Twitter",
+"x"
+],
+"n": 12
+},
+{
+"t": [
+"Telegram"
+],
+"n": 15
+},
+{
+"t": [
+"Snapchat"
+],
+"n": 20
+},
+{
+"t": [
+"Spotify"
+],
+"n": 26
+},
+{
+"t": [
+"LinkedIn"
+],
+"n": 34
+},
+{
+"t": [
+"Pinterest"
+],
+"n": 45
+},
+{
+"t": [
+"Netflix"
+],
+"n": 58
+},
+{
+"t": [
+"Twitch"
+],
+"n": 77
+},
+{
+"t": [
+"Discord"
+],
+"n": 100
+},
+{
+"t": [
+"Google Maps",
+"maps"
+],
+"n": 130
+},
+{
+"t": [
+"Gmail"
+],
+"n": 170
+},
+{
+"t": [
+"Skype"
+],
+"n": 230
+},
+{
+"t": [
+"Tinder"
+],
+"n": 300
+},
+{
+"t": [
+"Reddit"
+],
+"n": 390
+},
+{
+"t": [
+"Uber"
+],
+"n": 510
+},
+{
+"t": [
+"Wallapop"
+],
+"n": 630
+},
+{
+"t": [
+"Amazon"
+],
+"n": 790
+},
+{
+"t": [
+"Shazam"
+],
+"n": 980
+},
+{
+"t": [
+"Zoom"
+],
+"n": 1200
+},
+{
+"t": [
+"Duolingo"
+],
+"n": 1500
+},
+{
+"t": [
+"Bizum"
+],
+"n": 1900
+},
+{
+"t": [
+"Vinted"
+],
+"n": 2400
+},
+{
+"t": [
+"Threads"
+],
+"n": 2900
+},
+{
+"t": [
+"Signal"
+],
+"n": 3700
+},
+{
+"t": [
+"BeReal"
+],
+"n": 4600
+},
+{
+"t": [
+"Tumblr"
+],
+"n": 5700
+},
+{
+"t": [
+"Strava"
+],
+"n": 7100
+},
+{
+"t": [
+"Waze"
+],
+"n": 8900
+},
+{
+"t": [
+"Deliveroo"
+],
+"n": 11000
+},
+{
+"t": [
+"Glovo"
+],
+"n": 14000
+},
+{
+"t": [
+"Just Eat"
+],
+"n": 17000
+},
+{
+"t": [
+"Booking"
+],
+"n": 21000
+},
+{
+"t": [
+"Airbnb"
+],
+"n": 27000
+},
+{
+"t": [
+"Fotocasa"
+],
+"n": 33000
+},
+{
+"t": [
+"Idealista"
+],
+"n": 41000
+},
+{
+"t": [
+"Disney+",
+"disney plus"
+],
+"n": 52000
+},
+{
+"t": [
+"HBO"
+],
+"n": 64000
+},
+{
+"t": [
+"Prime Video"
+],
+"n": 80000
+},
+{
+"t": [
+"Google"
+],
+"n": 100000
+},
+{
+"t": [
+"Chrome"
+],
+"n": 120000
+},
+{
+"t": [
+"Teams"
+],
+"n": 150000
+},
+{
+"t": [
+"Meet"
+],
+"n": 190000
+},
+{
+"t": [
+"Canva"
+],
+"n": 240000
+},
+{
+"t": [
+"Notion"
+],
+"n": 300000
+},
+{
+"t": [
+"Bumble"
+],
+"n": 370000
+},
+{
+"t": [
+"Clash Royale"
+],
+"n": 470000
+},
+{
+"t": [
+"Pokémon Go"
+],
+"n": 580000
+},
+{
+"t": [
+"Shein"
+],
+"n": 720000
+},
+{
+"t": [
+"Temu"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p46",
+"pregunta": "Nombra un supermercado de España",
+"respuestas": [
+{
+"t": [
+"Mercadona"
+],
+"n": 3
+},
+{
+"t": [
+"Carrefour"
+],
+"n": 4
+},
+{
+"t": [
+"Lidl"
+],
+"n": 5
+},
+{
+"t": [
+"Dia",
+"supermercados dia"
+],
+"n": 7
+},
+{
+"t": [
+"Alcampo"
+],
+"n": 9
+},
+{
+"t": [
+"Aldi"
+],
+"n": 12
+},
+{
+"t": [
+"Eroski"
+],
+"n": 15
+},
+{
+"t": [
+"El Corte Inglés",
+"corte ingles"
+],
+"n": 20
+},
+{
+"t": [
+"Consum"
+],
+"n": 26
+},
+{
+"t": [
+"Hipercor"
+],
+"n": 34
+},
+{
+"t": [
+"Caprabo"
+],
+"n": 45
+},
+{
+"t": [
+"Bonpreu",
+"bon preu"
+],
+"n": 58
+},
+{
+"t": [
+"Condis"
+],
+"n": 77
+},
+{
+"t": [
+"Ahorramas"
+],
+"n": 100
+},
+{
+"t": [
+"Gadis"
+],
+"n": 130
+},
+{
+"t": [
+"Supersol"
+],
+"n": 170
+},
+{
+"t": [
+"Froiz"
+],
+"n": 230
+},
+{
+"t": [
+"BM",
+"bm supermercados"
+],
+"n": 300
+},
+{
+"t": [
+"Simply"
+],
+"n": 390
+},
+{
+"t": [
+"Spar"
+],
+"n": 510
+},
+{
+"t": [
+"Coviran"
+],
+"n": 710
+},
+{
+"t": [
+"Charter"
+],
+"n": 1000
+},
+{
+"t": [
+"Makro"
+],
+"n": 1400
+},
+{
+"t": [
+"Costco"
+],
+"n": 2000
+},
+{
+"t": [
+"Veritas"
+],
+"n": 2800
+},
+{
+"t": [
+"Alimerka"
+],
+"n": 3900
+},
+{
+"t": [
+"Masymas",
+"mas y mas"
+],
+"n": 5500
+},
+{
+"t": [
+"Plenus"
+],
+"n": 7700
+},
+{
+"t": [
+"Supeco"
+],
+"n": 11000
+},
+{
+"t": [
+"Maxi Dia"
+],
+"n": 15000
+},
+{
+"t": [
+"Sorli"
+],
+"n": 21000
+},
+{
+"t": [
+"Cash Fresh"
+],
+"n": 30000
+},
+{
+"t": [
+"Mercamadrid"
+],
+"n": 42000
+},
+{
+"t": [
+"Familia"
+],
+"n": 59000
+},
+{
+"t": [
+"Cash Converters"
+],
+"n": 83000
+},
+{
+"t": [
+"E.Leclerc",
+"leclerc"
+],
+"n": 120000
+},
+{
+"t": [
+"Aprovisionamientos"
+],
+"n": 160000
+},
+{
+"t": [
+"Bipa"
+],
+"n": 230000
+},
+{
+"t": [
+"La Plaza de Dia",
+"la plaza"
+],
+"n": 320000
+},
+{
+"t": [
+"Ecoalimenta"
+],
+"n": 460000
+},
+{
+"t": [
+"Biocoop"
+],
+"n": 640000
+},
+{
+"t": [
+"Alcosto"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p47",
+"pregunta": "Nombra un equipo de fútbol español",
+"respuestas": [
+{
+"t": [
+"Real Madrid",
+"madrid"
+],
+"n": 2
+},
+{
+"t": [
+"Barcelona",
+"fc barcelona",
+"barça"
+],
+"n": 3
+},
+{
+"t": [
+"Atlético de Madrid",
+"atleti",
+"atlético"
+],
+"n": 3
+},
+{
+"t": [
+"Sevilla"
+],
+"n": 4
+},
+{
+"t": [
+"Valencia"
+],
+"n": 6
+},
+{
+"t": [
+"Betis",
+"real betis"
+],
+"n": 8
+},
+{
+"t": [
+"Athletic Club",
+"athletic de bilbao",
+"athletic"
+],
+"n": 10
+},
+{
+"t": [
+"Real Sociedad",
+"la real"
+],
+"n": 13
+},
+{
+"t": [
+"Villarreal"
+],
+"n": 17
+},
+{
+"t": [
+"Celta",
+"celta de vigo"
+],
+"n": 23
+},
+{
+"t": [
+"Getafe"
+],
+"n": 30
+},
+{
+"t": [
+"Osasuna"
+],
+"n": 39
+},
+{
+"t": [
+"Espanyol"
+],
+"n": 51
+},
+{
+"t": [
+"Mallorca"
+],
+"n": 67
+},
+{
+"t": [
+"Girona"
+],
+"n": 88
+},
+{
+"t": [
+"Rayo Vallecano",
+"rayo"
+],
+"n": 110
+},
+{
+"t": [
+"Deportivo",
+"deportivo de la coruña",
+"depor"
+],
+"n": 150
+},
+{
+"t": [
+"Las Palmas"
+],
+"n": 200
+},
+{
+"t": [
+"Alavés"
+],
+"n": 260
+},
+{
+"t": [
+"Granada"
+],
+"n": 340
+},
+{
+"t": [
+"Cádiz"
+],
+"n": 440
+},
+{
+"t": [
+"Almería"
+],
+"n": 570
+},
+{
+"t": [
+"Elche"
+],
+"n": 740
+},
+{
+"t": [
+"Levante"
+],
+"n": 970
+},
+{
+"t": [
+"Real Zaragoza",
+"zaragoza"
+],
+"n": 1300
+},
+{
+"t": [
+"Sporting de Gijón",
+"sporting"
+],
+"n": 1600
+},
+{
+"t": [
+"Málaga"
+],
+"n": 2100
+},
+{
+"t": [
+"Valladolid"
+],
+"n": 2800
+},
+{
+"t": [
+"Real Oviedo",
+"oviedo"
+],
+"n": 3600
+},
+{
+"t": [
+"Tenerife"
+],
+"n": 4700
+},
+{
+"t": [
+"Leganés"
+],
+"n": 6100
+},
+{
+"t": [
+"Eibar"
+],
+"n": 7900
+},
+{
+"t": [
+"Racing de Santander",
+"racing"
+],
+"n": 10000
+},
+{
+"t": [
+"Huesca"
+],
+"n": 13000
+},
+{
+"t": [
+"Albacete"
+],
+"n": 17000
+},
+{
+"t": [
+"Numancia"
+],
+"n": 23000
+},
+{
+"t": [
+"Córdoba"
+],
+"n": 30000
+},
+{
+"t": [
+"Hércules"
+],
+"n": 38000
+},
+{
+"t": [
+"Cultural Leonesa"
+],
+"n": 50000
+},
+{
+"t": [
+"Castellón"
+],
+"n": 65000
+},
+{
+"t": [
+"Lugo"
+],
+"n": 84000
+},
+{
+"t": [
+"Sabadell"
+],
+"n": 110000
+},
+{
+"t": [
+"Burgos"
+],
+"n": 140000
+},
+{
+"t": [
+"Mirandés"
+],
+"n": 190000
+},
+{
+"t": [
+"Cartagena"
+],
+"n": 240000
+},
+{
+"t": [
+"Ponferradina"
+],
+"n": 310000
+},
+{
+"t": [
+"Logroñés"
+],
+"n": 410000
+},
+{
+"t": [
+"Compostela"
+],
+"n": 530000
+},
+{
+"t": [
+"Extremadura"
+],
+"n": 690000
+},
+{
+"t": [
+"Recreativo de Huelva",
+"recreativo"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p48",
+"pregunta": "Nombra un equipo de fútbol europeo que no sea español",
+"respuestas": [
+{
+"t": [
+"Manchester United",
+"man united"
+],
+"n": 3
+},
+{
+"t": [
+"Bayern de Múnich",
+"bayern",
+"bayern munich"
+],
+"n": 4
+},
+{
+"t": [
+"Juventus",
+"juve"
+],
+"n": 5
+},
+{
+"t": [
+"Liverpool"
+],
+"n": 7
+},
+{
+"t": [
+"PSG",
+"paris saint germain",
+"paris saint-germain"
+],
+"n": 9
+},
+{
+"t": [
+"Milan",
+"ac milan"
+],
+"n": 12
+},
+{
+"t": [
+"Inter",
+"inter de milán"
+],
+"n": 15
+},
+{
+"t": [
+"Chelsea"
+],
+"n": 20
+},
+{
+"t": [
+"Arsenal"
+],
+"n": 26
+},
+{
+"t": [
+"Manchester City",
+"city",
+"man city"
+],
+"n": 34
+},
+{
+"t": [
+"Borussia Dortmund",
+"dortmund"
+],
+"n": 45
+},
+{
+"t": [
+"Ajax"
+],
+"n": 58
+},
+{
+"t": [
+"Benfica"
+],
+"n": 77
+},
+{
+"t": [
+"Oporto",
+"porto"
+],
+"n": 100
+},
+{
+"t": [
+"Tottenham",
+"spurs"
+],
+"n": 130
+},
+{
+"t": [
+"Napoli",
+"nápoles"
+],
+"n": 170
+},
+{
+"t": [
+"Roma"
+],
+"n": 230
+},
+{
+"t": [
+"Lazio"
+],
+"n": 300
+},
+{
+"t": [
+"Marsella",
+"olympique de marsella"
+],
+"n": 390
+},
+{
+"t": [
+"Lyon",
+"olympique de lyon"
+],
+"n": 510
+},
+{
+"t": [
+"Mónaco"
+],
+"n": 640
+},
+{
+"t": [
+"Celtic"
+],
+"n": 800
+},
+{
+"t": [
+"Rangers"
+],
+"n": 1000
+},
+{
+"t": [
+"Sporting de Portugal",
+"sporting cp"
+],
+"n": 1300
+},
+{
+"t": [
+"Leverkusen",
+"bayer leverkusen"
+],
+"n": 1600
+},
+{
+"t": [
+"Schalke"
+],
+"n": 2000
+},
+{
+"t": [
+"Galatasaray"
+],
+"n": 2500
+},
+{
+"t": [
+"Fenerbahçe"
+],
+"n": 3100
+},
+{
+"t": [
+"Shakhtar"
+],
+"n": 3900
+},
+{
+"t": [
+"Leicester"
+],
+"n": 4900
+},
+{
+"t": [
+"Everton"
+],
+"n": 6100
+},
+{
+"t": [
+"Newcastle"
+],
+"n": 7700
+},
+{
+"t": [
+"Aston Villa"
+],
+"n": 9700
+},
+{
+"t": [
+"West Ham"
+],
+"n": 12000
+},
+{
+"t": [
+"PSV"
+],
+"n": 15000
+},
+{
+"t": [
+"Feyenoord"
+],
+"n": 19000
+},
+{
+"t": [
+"Anderlecht"
+],
+"n": 24000
+},
+{
+"t": [
+"Olympiacos"
+],
+"n": 30000
+},
+{
+"t": [
+"Zenit"
+],
+"n": 38000
+},
+{
+"t": [
+"Dinamo de Kiev"
+],
+"n": 47000
+},
+{
+"t": [
+"Salzburgo"
+],
+"n": 59000
+},
+{
+"t": [
+"Atalanta"
+],
+"n": 74000
+},
+{
+"t": [
+"Fiorentina"
+],
+"n": 93000
+},
+{
+"t": [
+"Hamburgo"
+],
+"n": 120000
+},
+{
+"t": [
+"Werder Bremen",
+"bremen"
+],
+"n": 150000
+},
+{
+"t": [
+"Eintracht Frankfurt",
+"eintracht"
+],
+"n": 180000
+},
+{
+"t": [
+"Leeds"
+],
+"n": 230000
+},
+{
+"t": [
+"Nottingham Forest"
+],
+"n": 290000
+},
+{
+"t": [
+"Lille"
+],
+"n": 360000
+},
+{
+"t": [
+"Braga"
+],
+"n": 460000
+},
+{
+"t": [
+"Basilea"
+],
+"n": 570000
+},
+{
+"t": [
+"Copenhague"
+],
+"n": 720000
+},
+{
+"t": [
+"Estrella Roja"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p49",
+"pregunta": "Nombra un futbolista",
+"respuestas": [
+{
+"t": [
+"Messi",
+"lionel messi"
+],
+"n": 3
+},
+{
+"t": [
+"Cristiano Ronaldo",
+"cristiano",
+"cr7",
+"ronaldo"
+],
+"n": 4
+},
+{
+"t": [
+"Mbappé"
+],
+"n": 5
+},
+{
+"t": [
+"Neymar"
+],
+"n": 7
+},
+{
+"t": [
+"Maradona"
+],
+"n": 9
+},
+{
+"t": [
+"Pelé"
+],
+"n": 12
+},
+{
+"t": [
+"Haaland"
+],
+"n": 15
+},
+{
+"t": [
+"Benzema"
+],
+"n": 20
+},
+{
+"t": [
+"Iniesta"
+],
+"n": 26
+},
+{
+"t": [
+"Xavi"
+],
+"n": 34
+},
+{
+"t": [
+"Sergio Ramos",
+"ramos"
+],
+"n": 45
+},
+{
+"t": [
+"Casillas",
+"iker casillas"
+],
+"n": 58
+},
+{
+"t": [
+"Zidane"
+],
+"n": 77
+},
+{
+"t": [
+"Ronaldinho"
+],
+"n": 100
+},
+{
+"t": [
+"Modrić"
+],
+"n": 130
+},
+{
+"t": [
+"Lamine Yamal",
+"yamal"
+],
+"n": 170
+},
+{
+"t": [
+"Vinicius",
+"vini jr"
+],
+"n": 230
+},
+{
+"t": [
+"Bellingham"
+],
+"n": 300
+},
+{
+"t": [
+"Salah"
+],
+"n": 390
+},
+{
+"t": [
+"Kane"
+],
+"n": 510
+},
+{
+"t": [
+"Lewandowski"
+],
+"n": 590
+},
+{
+"t": [
+"Raúl"
+],
+"n": 690
+},
+{
+"t": [
+"Puyol"
+],
+"n": 810
+},
+{
+"t": [
+"Piqué"
+],
+"n": 950
+},
+{
+"t": [
+"Busquets"
+],
+"n": 1100
+},
+{
+"t": [
+"Buffon"
+],
+"n": 1300
+},
+{
+"t": [
+"Cruyff",
+"cruiff"
+],
+"n": 1500
+},
+{
+"t": [
+"Beckham"
+],
+"n": 1800
+},
+{
+"t": [
+"Ronaldo Nazário",
+"el fenómeno"
+],
+"n": 2100
+},
+{
+"t": [
+"Henry"
+],
+"n": 2400
+},
+{
+"t": [
+"De Bruyne"
+],
+"n": 2800
+},
+{
+"t": [
+"Pedri"
+],
+"n": 3300
+},
+{
+"t": [
+"Gavi"
+],
+"n": 3800
+},
+{
+"t": [
+"Rodri"
+],
+"n": 4500
+},
+{
+"t": [
+"Courtois"
+],
+"n": 5300
+},
+{
+"t": [
+"Griezmann"
+],
+"n": 6100
+},
+{
+"t": [
+"Di Stéfano"
+],
+"n": 7200
+},
+{
+"t": [
+"Eusébio"
+],
+"n": 8400
+},
+{
+"t": [
+"Platini"
+],
+"n": 9800
+},
+{
+"t": [
+"Beckenbauer"
+],
+"n": 11000
+},
+{
+"t": [
+"Figo"
+],
+"n": 13000
+},
+{
+"t": [
+"Kaká"
+],
+"n": 16000
+},
+{
+"t": [
+"Luis Suárez",
+"suarez"
+],
+"n": 18000
+},
+{
+"t": [
+"Falcao"
+],
+"n": 21000
+},
+{
+"t": [
+"James Rodríguez",
+"james"
+],
+"n": 25000
+},
+{
+"t": [
+"Xabi Alonso"
+],
+"n": 29000
+},
+{
+"t": [
+"Torres",
+"fernando torres"
+],
+"n": 34000
+},
+{
+"t": [
+"Villa",
+"david villa"
+],
+"n": 40000
+},
+{
+"t": [
+"Morata"
+],
+"n": 47000
+},
+{
+"t": [
+"Oyarzabal"
+],
+"n": 54000
+},
+{
+"t": [
+"Carvajal"
+],
+"n": 64000
+},
+{
+"t": [
+"Valverde"
+],
+"n": 74000
+},
+{
+"t": [
+"Kroos"
+],
+"n": 87000
+},
+{
+"t": [
+"Müller"
+],
+"n": 100000
+},
+{
+"t": [
+"Neuer"
+],
+"n": 120000
+},
+{
+"t": [
+"Ter Stegen"
+],
+"n": 140000
+},
+{
+"t": [
+"Hazard"
+],
+"n": 160000
+},
+{
+"t": [
+"Ibrahimović",
+"ibra"
+],
+"n": 190000
+},
+{
+"t": [
+"Totti"
+],
+"n": 220000
+},
+{
+"t": [
+"Pirlo"
+],
+"n": 260000
+},
+{
+"t": [
+"Maldini"
+],
+"n": 300000
+},
+{
+"t": [
+"Baggio"
+],
+"n": 350000
+},
+{
+"t": [
+"Romário"
+],
+"n": 410000
+},
+{
+"t": [
+"Cantona"
+],
+"n": 480000
+},
+{
+"t": [
+"Rooney"
+],
+"n": 560000
+},
+{
+"t": [
+"Gerrard"
+],
+"n": 660000
+},
+{
+"t": [
+"Lampard"
+],
+"n": 770000
+},
+{
+"t": [
+"Drogba"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p50",
+"pregunta": "Nombra un deportista español",
+"respuestas": [
+{
+"t": [
+"Rafa Nadal",
+"nadal",
+"rafael nadal"
+],
+"n": 3
+},
+{
+"t": [
+"Fernando Alonso",
+"alonso"
+],
+"n": 4
+},
+{
+"t": [
+"Pau Gasol",
+"gasol"
+],
+"n": 5
+},
+{
+"t": [
+"Carlos Alcaraz",
+"alcaraz"
+],
+"n": 7
+},
+{
+"t": [
+"Marc Márquez",
+"marquez"
+],
+"n": 9
+},
+{
+"t": [
+"Miguel Induráin",
+"indurain"
+],
+"n": 12
+},
+{
+"t": [
+"Iker Casillas",
+"casillas"
+],
+"n": 15
+},
+{
+"t": [
+"Mireia Belmonte",
+"belmonte"
+],
+"n": 20
+},
+{
+"t": [
+"Alberto Contador",
+"contador"
+],
+"n": 26
+},
+{
+"t": [
+"Jorge Lorenzo"
+],
+"n": 34
+},
+{
+"t": [
+"Seve Ballesteros",
+"severiano ballesteros",
+"seve"
+],
+"n": 45
+},
+{
+"t": [
+"Ángel Nieto"
+],
+"n": 58
+},
+{
+"t": [
+"Carolina Marín"
+],
+"n": 77
+},
+{
+"t": [
+"Sergio García"
+],
+"n": 100
+},
+{
+"t": [
+"Jon Rahm",
+"rahm"
+],
+"n": 130
+},
+{
+"t": [
+"Lamine Yamal",
+"yamal"
+],
+"n": 170
+},
+{
+"t": [
+"Andrés Iniesta",
+"iniesta"
+],
+"n": 230
+},
+{
+"t": [
+"Xavi Hernández",
+"xavi"
+],
+"n": 300
+},
+{
+"t": [
+"Sergio Ramos"
+],
+"n": 390
+},
+{
+"t": [
+"Marc Gasol"
+],
+"n": 510
+},
+{
+"t": [
+"Dani Pedrosa",
+"pedrosa"
+],
+"n": 660
+},
+{
+"t": [
+"Carlos Sainz",
+"sainz"
+],
+"n": 870
+},
+{
+"t": [
+"Javier Gómez Noya",
+"gomez noya"
+],
+"n": 1100
+},
+{
+"t": [
+"Ricky Rubio",
+"rubio"
+],
+"n": 1500
+},
+{
+"t": [
+"Alexia Putellas",
+"alexia"
+],
+"n": 1900
+},
+{
+"t": [
+"Aitana Bonmatí",
+"bonmati"
+],
+"n": 2500
+},
+{
+"t": [
+"Teresa Perales"
+],
+"n": 3300
+},
+{
+"t": [
+"Garbiñe Muguruza",
+"muguruza"
+],
+"n": 4300
+},
+{
+"t": [
+"Paula Badosa",
+"badosa"
+],
+"n": 5600
+},
+{
+"t": [
+"Fernando Torres"
+],
+"n": 7300
+},
+{
+"t": [
+"Ruth Beitia",
+"beitia"
+],
+"n": 9600
+},
+{
+"t": [
+"Joan Mir"
+],
+"n": 13000
+},
+{
+"t": [
+"Arantxa Sánchez Vicario",
+"arantxa"
+],
+"n": 16000
+},
+{
+"t": [
+"Gemma Mengual"
+],
+"n": 21000
+},
+{
+"t": [
+"Lydia Valentín"
+],
+"n": 28000
+},
+{
+"t": [
+"Rudy Fernández",
+"rudy"
+],
+"n": 36000
+},
+{
+"t": [
+"Juan Carlos Navarro",
+"navarro"
+],
+"n": 48000
+},
+{
+"t": [
+"Paco Gento",
+"gento"
+],
+"n": 62000
+},
+{
+"t": [
+"Raúl González",
+"raul"
+],
+"n": 81000
+},
+{
+"t": [
+"Pedro Rodríguez"
+],
+"n": 110000
+},
+{
+"t": [
+"Perico Delgado",
+"pedro delgado"
+],
+"n": 140000
+},
+{
+"t": [
+"Joane Somarriba"
+],
+"n": 180000
+},
+{
+"t": [
+"Sandra Sánchez"
+],
+"n": 240000
+},
+{
+"t": [
+"David Ferrer",
+"ferrer"
+],
+"n": 310000
+},
+{
+"t": [
+"Conchita Martínez"
+],
+"n": 400000
+},
+{
+"t": [
+"Carlos Moyà",
+"moya"
+],
+"n": 530000
+},
+{
+"t": [
+"Albert Costa"
+],
+"n": 690000
+},
+{
+"t": [
+"Pol Espargaró"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p51",
+"pregunta": "Nombra un cantante o grupo español",
+"respuestas": [
+{
+"t": [
+"Alejandro Sanz"
+],
+"n": 3
+},
+{
+"t": [
+"Enrique Iglesias"
+],
+"n": 4
+},
+{
+"t": [
+"Julio Iglesias"
+],
+"n": 5
+},
+{
+"t": [
+"Rosalía"
+],
+"n": 7
+},
+{
+"t": [
+"Estopa"
+],
+"n": 9
+},
+{
+"t": [
+"Camilo Sesto"
+],
+"n": 12
+},
+{
+"t": [
+"Raphael"
+],
+"n": 15
+},
+{
+"t": [
+"Joaquín Sabina",
+"sabina"
+],
+"n": 20
+},
+{
+"t": [
+"Mecano"
+],
+"n": 26
+},
+{
+"t": [
+"El Canto del Loco"
+],
+"n": 34
+},
+{
+"t": [
+"Amaral"
+],
+"n": 45
+},
+{
+"t": [
+"Manolo García"
+],
+"n": 58
+},
+{
+"t": [
+"Pablo Alborán",
+"alboran"
+],
+"n": 77
+},
+{
+"t": [
+"Melendi"
+],
+"n": 100
+},
+{
+"t": [
+"La Oreja de Van Gogh"
+],
+"n": 130
+},
+{
+"t": [
+"Hombres G"
+],
+"n": 170
+},
+{
+"t": [
+"Los Secretos"
+],
+"n": 230
+},
+{
+"t": [
+"Bunbury",
+"enrique bunbury"
+],
+"n": 300
+},
+{
+"t": [
+"Fito y Fitipaldis",
+"fito"
+],
+"n": 390
+},
+{
+"t": [
+"Vetusta Morla"
+],
+"n": 510
+},
+{
+"t": [
+"Aitana"
+],
+"n": 630
+},
+{
+"t": [
+"Rosario"
+],
+"n": 780
+},
+{
+"t": [
+"David Bisbal",
+"bisbal"
+],
+"n": 960
+},
+{
+"t": [
+"Malú"
+],
+"n": 1200
+},
+{
+"t": [
+"Dani Martín"
+],
+"n": 1500
+},
+{
+"t": [
+"Antonio Orozco"
+],
+"n": 1800
+},
+{
+"t": [
+"Miguel Bosé",
+"bose"
+],
+"n": 2300
+},
+{
+"t": [
+"Joan Manuel Serrat",
+"serrat"
+],
+"n": 2800
+},
+{
+"t": [
+"Ana Belén"
+],
+"n": 3500
+},
+{
+"t": [
+"Rocío Jurado"
+],
+"n": 4300
+},
+{
+"t": [
+"Isabel Pantoja"
+],
+"n": 5300
+},
+{
+"t": [
+"Lola Flores"
+],
+"n": 6600
+},
+{
+"t": [
+"Manuel Carrasco"
+],
+"n": 8200
+},
+{
+"t": [
+"Paco de Lucía"
+],
+"n": 10000
+},
+{
+"t": [
+"Camarón de la Isla",
+"camaron"
+],
+"n": 13000
+},
+{
+"t": [
+"El Último de la Fila"
+],
+"n": 16000
+},
+{
+"t": [
+"Quevedo"
+],
+"n": 19000
+},
+{
+"t": [
+"C. Tangana",
+"tangana"
+],
+"n": 24000
+},
+{
+"t": [
+"Nena Daconte"
+],
+"n": 29000
+},
+{
+"t": [
+"Marta Sánchez"
+],
+"n": 36000
+},
+{
+"t": [
+"Los Chunguitos"
+],
+"n": 45000
+},
+{
+"t": [
+"Los del Río"
+],
+"n": 56000
+},
+{
+"t": [
+"Mojinos Escozíos"
+],
+"n": 69000
+},
+{
+"t": [
+"Extremoduro"
+],
+"n": 86000
+},
+{
+"t": [
+"Platero y Tú"
+],
+"n": 110000
+},
+{
+"t": [
+"Barón Rojo"
+],
+"n": 130000
+},
+{
+"t": [
+"Medina Azahara"
+],
+"n": 160000
+},
+{
+"t": [
+"Dover"
+],
+"n": 200000
+},
+{
+"t": [
+"Los Planetas"
+],
+"n": 250000
+},
+{
+"t": [
+"Love of Lesbian"
+],
+"n": 310000
+},
+{
+"t": [
+"Izal"
+],
+"n": 380000
+},
+{
+"t": [
+"Sidonie"
+],
+"n": 470000
+},
+{
+"t": [
+"Taburete"
+],
+"n": 590000
+},
+{
+"t": [
+"Álvaro Soler"
+],
+"n": 730000
+},
+{
+"t": [
+"Sebastián Yatra"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p52",
+"pregunta": "Nombra un cantante o grupo internacional",
+"respuestas": [
+{
+"t": [
+"Michael Jackson"
+],
+"n": 3
+},
+{
+"t": [
+"Queen"
+],
+"n": 4
+},
+{
+"t": [
+"The Beatles",
+"beatles"
+],
+"n": 5
+},
+{
+"t": [
+"Madonna"
+],
+"n": 7
+},
+{
+"t": [
+"Shakira"
+],
+"n": 9
+},
+{
+"t": [
+"Beyoncé"
+],
+"n": 12
+},
+{
+"t": [
+"Rihanna"
+],
+"n": 15
+},
+{
+"t": [
+"Taylor Swift"
+],
+"n": 20
+},
+{
+"t": [
+"Ed Sheeran"
+],
+"n": 26
+},
+{
+"t": [
+"Coldplay"
+],
+"n": 34
+},
+{
+"t": [
+"Elvis Presley",
+"elvis"
+],
+"n": 45
+},
+{
+"t": [
+"Bruno Mars"
+],
+"n": 58
+},
+{
+"t": [
+"Adele"
+],
+"n": 77
+},
+{
+"t": [
+"Lady Gaga"
+],
+"n": 100
+},
+{
+"t": [
+"U2"
+],
+"n": 130
+},
+{
+"t": [
+"AC DC",
+"acdc"
+],
+"n": 170
+},
+{
+"t": [
+"Metallica"
+],
+"n": 230
+},
+{
+"t": [
+"Bad Bunny"
+],
+"n": 300
+},
+{
+"t": [
+"Justin Bieber"
+],
+"n": 390
+},
+{
+"t": [
+"Eminem"
+],
+"n": 510
+},
+{
+"t": [
+"Katy Perry"
+],
+"n": 610
+},
+{
+"t": [
+"Britney Spears"
+],
+"n": 720
+},
+{
+"t": [
+"The Rolling Stones",
+"rolling stones"
+],
+"n": 870
+},
+{
+"t": [
+"Pink Floyd"
+],
+"n": 1000
+},
+{
+"t": [
+"Bob Marley"
+],
+"n": 1200
+},
+{
+"t": [
+"Prince"
+],
+"n": 1500
+},
+{
+"t": [
+"David Bowie"
+],
+"n": 1800
+},
+{
+"t": [
+"ABBA"
+],
+"n": 2100
+},
+{
+"t": [
+"Maroon 5"
+],
+"n": 2500
+},
+{
+"t": [
+"Bon Jovi"
+],
+"n": 3000
+},
+{
+"t": [
+"Nirvana"
+],
+"n": 3600
+},
+{
+"t": [
+"Guns N' Roses",
+"guns and roses"
+],
+"n": 4300
+},
+{
+"t": [
+"Oasis"
+],
+"n": 5100
+},
+{
+"t": [
+"Drake"
+],
+"n": 6100
+},
+{
+"t": [
+"The Weeknd",
+"weeknd"
+],
+"n": 7300
+},
+{
+"t": [
+"Billie Eilish"
+],
+"n": 8800
+},
+{
+"t": [
+"Dua Lipa"
+],
+"n": 10000
+},
+{
+"t": [
+"Harry Styles"
+],
+"n": 13000
+},
+{
+"t": [
+"Ariana Grande"
+],
+"n": 15000
+},
+{
+"t": [
+"Selena Gomez"
+],
+"n": 18000
+},
+{
+"t": [
+"Shawn Mendes"
+],
+"n": 21000
+},
+{
+"t": [
+"Ricky Martin"
+],
+"n": 26000
+},
+{
+"t": [
+"Jennifer Lopez"
+],
+"n": 31000
+},
+{
+"t": [
+"Daddy Yankee"
+],
+"n": 36000
+},
+{
+"t": [
+"Maluma"
+],
+"n": 44000
+},
+{
+"t": [
+"J Balvin"
+],
+"n": 52000
+},
+{
+"t": [
+"Karol G"
+],
+"n": 62000
+},
+{
+"t": [
+"Whitney Houston"
+],
+"n": 74000
+},
+{
+"t": [
+"Celine Dion"
+],
+"n": 89000
+},
+{
+"t": [
+"Frank Sinatra"
+],
+"n": 110000
+},
+{
+"t": [
+"Led Zeppelin"
+],
+"n": 130000
+},
+{
+"t": [
+"Linkin Park"
+],
+"n": 150000
+},
+{
+"t": [
+"Green Day"
+],
+"n": 180000
+},
+{
+"t": [
+"Red Hot Chili Peppers"
+],
+"n": 220000
+},
+{
+"t": [
+"Imagine Dragons"
+],
+"n": 260000
+},
+{
+"t": [
+"Aerosmith"
+],
+"n": 310000
+},
+{
+"t": [
+"Bee Gees"
+],
+"n": 370000
+},
+{
+"t": [
+"Bob Dylan"
+],
+"n": 440000
+},
+{
+"t": [
+"Elton John"
+],
+"n": 530000
+},
+{
+"t": [
+"Phil Collins"
+],
+"n": 630000
+},
+{
+"t": [
+"Sting"
+],
+"n": 750000
+},
+{
+"t": [
+"Mariah Carey"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p53",
+"pregunta": "Nombra una película animada",
+"respuestas": [
+{
+"t": [
+"El Rey León",
+"rey leon"
+],
+"n": 3
+},
+{
+"t": [
+"Toy Story"
+],
+"n": 4
+},
+{
+"t": [
+"Frozen"
+],
+"n": 5
+},
+{
+"t": [
+"Shrek"
+],
+"n": 7
+},
+{
+"t": [
+"Buscando a Nemo",
+"nemo"
+],
+"n": 9
+},
+{
+"t": [
+"Los Increíbles"
+],
+"n": 12
+},
+{
+"t": [
+"Coco"
+],
+"n": 15
+},
+{
+"t": [
+"Ratatouille"
+],
+"n": 20
+},
+{
+"t": [
+"Cars"
+],
+"n": 26
+},
+{
+"t": [
+"Up"
+],
+"n": 34
+},
+{
+"t": [
+"Aladdín"
+],
+"n": 45
+},
+{
+"t": [
+"La Bella y la Bestia"
+],
+"n": 58
+},
+{
+"t": [
+"La Sirenita"
+],
+"n": 77
+},
+{
+"t": [
+"Monstruos S.A.",
+"monstruos"
+],
+"n": 100
+},
+{
+"t": [
+"Madagascar"
+],
+"n": 130
+},
+{
+"t": [
+"Ice Age",
+"la era de hielo"
+],
+"n": 170
+},
+{
+"t": [
+"Bambi"
+],
+"n": 230
+},
+{
+"t": [
+"Dumbo"
+],
+"n": 300
+},
+{
+"t": [
+"Mulán"
+],
+"n": 390
+},
+{
+"t": [
+"Pocahontas"
+],
+"n": 510
+},
+{
+"t": [
+"Tarzán"
+],
+"n": 620
+},
+{
+"t": [
+"Vaiana",
+"moana"
+],
+"n": 770
+},
+{
+"t": [
+"Encanto"
+],
+"n": 950
+},
+{
+"t": [
+"Del revés",
+"inside out"
+],
+"n": 1200
+},
+{
+"t": [
+"Kung Fu Panda"
+],
+"n": 1400
+},
+{
+"t": [
+"Cómo entrenar a tu dragón"
+],
+"n": 1800
+},
+{
+"t": [
+"Mi villano favorito"
+],
+"n": 2200
+},
+{
+"t": [
+"El viaje de Chihiro",
+"chihiro"
+],
+"n": 2700
+},
+{
+"t": [
+"Mi vecino Totoro",
+"totoro"
+],
+"n": 3300
+},
+{
+"t": [
+"Wall-E"
+],
+"n": 4100
+},
+{
+"t": [
+"Blancanieves"
+],
+"n": 5000
+},
+{
+"t": [
+"Cenicienta"
+],
+"n": 6100
+},
+{
+"t": [
+"Peter Pan"
+],
+"n": 7600
+},
+{
+"t": [
+"La dama y el vagabundo"
+],
+"n": 9300
+},
+{
+"t": [
+"101 dálmatas",
+"los 101 dálmatas"
+],
+"n": 11000
+},
+{
+"t": [
+"Rio"
+],
+"n": 14000
+},
+{
+"t": [
+"Ralph el demoledor"
+],
+"n": 17000
+},
+{
+"t": [
+"Zootrópolis",
+"zootopia"
+],
+"n": 21000
+},
+{
+"t": [
+"Minions"
+],
+"n": 26000
+},
+{
+"t": [
+"Los Croods"
+],
+"n": 32000
+},
+{
+"t": [
+"Hotel Transilvania"
+],
+"n": 40000
+},
+{
+"t": [
+"Bichos"
+],
+"n": 49000
+},
+{
+"t": [
+"Hércules"
+],
+"n": 60000
+},
+{
+"t": [
+"Anastasia"
+],
+"n": 74000
+},
+{
+"t": [
+"Spirit"
+],
+"n": 92000
+},
+{
+"t": [
+"El gigante de hierro"
+],
+"n": 110000
+},
+{
+"t": [
+"Lilo y Stitch",
+"lilo & stitch"
+],
+"n": 140000
+},
+{
+"t": [
+"Brave",
+"valiente"
+],
+"n": 170000
+},
+{
+"t": [
+"Soul"
+],
+"n": 210000
+},
+{
+"t": [
+"Luca"
+],
+"n": 260000
+},
+{
+"t": [
+"Turning Red"
+],
+"n": 320000
+},
+{
+"t": [
+"Spider-Man: Un nuevo universo",
+"spiderverse"
+],
+"n": 390000
+},
+{
+"t": [
+"El Gato con Botas",
+"gato con botas"
+],
+"n": 480000
+},
+{
+"t": [
+"Tiana y el sapo"
+],
+"n": 590000
+},
+{
+"t": [
+"Enredados",
+"rapunzel"
+],
+"n": 730000
+},
+{
+"t": [
+"Los Pitufos"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p54",
+"pregunta": "Nombra un actor o actriz",
+"respuestas": [
+{
+"t": [
+"Brad Pitt"
+],
+"n": 3
+},
+{
+"t": [
+"Leonardo DiCaprio",
+"di caprio"
+],
+"n": 4
+},
+{
+"t": [
+"Tom Cruise"
+],
+"n": 5
+},
+{
+"t": [
+"Johnny Depp"
+],
+"n": 7
+},
+{
+"t": [
+"Angelina Jolie"
+],
+"n": 9
+},
+{
+"t": [
+"Will Smith"
+],
+"n": 12
+},
+{
+"t": [
+"Robert De Niro",
+"de niro"
+],
+"n": 15
+},
+{
+"t": [
+"Al Pacino"
+],
+"n": 20
+},
+{
+"t": [
+"Antonio Banderas",
+"banderas"
+],
+"n": 26
+},
+{
+"t": [
+"Penélope Cruz"
+],
+"n": 34
+},
+{
+"t": [
+"Javier Bardem",
+"bardem"
+],
+"n": 45
+},
+{
+"t": [
+"Jennifer Lawrence"
+],
+"n": 58
+},
+{
+"t": [
+"Scarlett Johansson"
+],
+"n": 77
+},
+{
+"t": [
+"Julia Roberts"
+],
+"n": 100
+},
+{
+"t": [
+"Meryl Streep"
+],
+"n": 130
+},
+{
+"t": [
+"Tom Hanks"
+],
+"n": 170
+},
+{
+"t": [
+"Morgan Freeman"
+],
+"n": 230
+},
+{
+"t": [
+"Jackie Chan"
+],
+"n": 300
+},
+{
+"t": [
+"Arnold Schwarzenegger",
+"schwarzenegger"
+],
+"n": 390
+},
+{
+"t": [
+"Sylvester Stallone",
+"stallone"
+],
+"n": 510
+},
+{
+"t": [
+"Harrison Ford"
+],
+"n": 610
+},
+{
+"t": [
+"Clint Eastwood"
+],
+"n": 740
+},
+{
+"t": [
+"Jim Carrey"
+],
+"n": 900
+},
+{
+"t": [
+"Robert Downey Jr.",
+"downey jr"
+],
+"n": 1100
+},
+{
+"t": [
+"Keanu Reeves"
+],
+"n": 1300
+},
+{
+"t": [
+"Charlize Theron"
+],
+"n": 1600
+},
+{
+"t": [
+"Nicole Kidman"
+],
+"n": 1900
+},
+{
+"t": [
+"Emma Watson"
+],
+"n": 2400
+},
+{
+"t": [
+"Ryan Reynolds"
+],
+"n": 2900
+},
+{
+"t": [
+"Dwayne Johnson",
+"la roca"
+],
+"n": 3500
+},
+{
+"t": [
+"Jack Nicholson"
+],
+"n": 4200
+},
+{
+"t": [
+"Marilyn Monroe"
+],
+"n": 5100
+},
+{
+"t": [
+"Audrey Hepburn"
+],
+"n": 6100
+},
+{
+"t": [
+"Anne Hathaway"
+],
+"n": 7400
+},
+{
+"t": [
+"Úrsula Corberó"
+],
+"n": 9000
+},
+{
+"t": [
+"Mario Casas"
+],
+"n": 11000
+},
+{
+"t": [
+"Paco León"
+],
+"n": 13000
+},
+{
+"t": [
+"Hugh Jackman"
+],
+"n": 16000
+},
+{
+"t": [
+"Chris Hemsworth"
+],
+"n": 19000
+},
+{
+"t": [
+"Margot Robbie"
+],
+"n": 24000
+},
+{
+"t": [
+"Emma Stone"
+],
+"n": 28000
+},
+{
+"t": [
+"Zendaya"
+],
+"n": 35000
+},
+{
+"t": [
+"Timothée Chalamet",
+"chalamet"
+],
+"n": 42000
+},
+{
+"t": [
+"Tom Holland"
+],
+"n": 51000
+},
+{
+"t": [
+"Natalie Portman"
+],
+"n": 61000
+},
+{
+"t": [
+"Eddie Murphy"
+],
+"n": 74000
+},
+{
+"t": [
+"Adam Sandler"
+],
+"n": 90000
+},
+{
+"t": [
+"Ben Stiller"
+],
+"n": 110000
+},
+{
+"t": [
+"Bruce Willis"
+],
+"n": 130000
+},
+{
+"t": [
+"Mel Gibson"
+],
+"n": 160000
+},
+{
+"t": [
+"Anthony Hopkins"
+],
+"n": 190000
+},
+{
+"t": [
+"Denzel Washington"
+],
+"n": 230000
+},
+{
+"t": [
+"Dustin Hoffman"
+],
+"n": 280000
+},
+{
+"t": [
+"Marlon Brando"
+],
+"n": 340000
+},
+{
+"t": [
+"Elizabeth Taylor"
+],
+"n": 420000
+},
+{
+"t": [
+"Sandra Bullock"
+],
+"n": 510000
+},
+{
+"t": [
+"Cameron Diaz"
+],
+"n": 610000
+},
+{
+"t": [
+"Jennifer Aniston"
+],
+"n": 740000
+},
+{
+"t": [
+"Rowan Atkinson",
+"mr bean"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p55",
+"pregunta": "Nombra un superhéroe",
+"respuestas": [
+{
+"t": [
+"Superman"
+],
+"n": 3
+},
+{
+"t": [
+"Batman"
+],
+"n": 4
+},
+{
+"t": [
+"Spider-Man",
+"hombre araña"
+],
+"n": 5
+},
+{
+"t": [
+"Iron Man",
+"ironman",
+"hombre de hierro"
+],
+"n": 7
+},
+{
+"t": [
+"Hulk"
+],
+"n": 9
+},
+{
+"t": [
+"Capitán América"
+],
+"n": 12
+},
+{
+"t": [
+"Thor"
+],
+"n": 15
+},
+{
+"t": [
+"Wonder Woman",
+"mujer maravilla"
+],
+"n": 20
+},
+{
+"t": [
+"Flash"
+],
+"n": 26
+},
+{
+"t": [
+"Aquaman"
+],
+"n": 34
+},
+{
+"t": [
+"Lobezno",
+"wolverine"
+],
+"n": 45
+},
+{
+"t": [
+"Viuda Negra",
+"black widow"
+],
+"n": 58
+},
+{
+"t": [
+"Pantera Negra",
+"black panther"
+],
+"n": 77
+},
+{
+"t": [
+"Ant-Man",
+"hombre hormiga"
+],
+"n": 100
+},
+{
+"t": [
+"Doctor Strange",
+"doctor extraño"
+],
+"n": 130
+},
+{
+"t": [
+"Capitana Marvel",
+"captain marvel"
+],
+"n": 170
+},
+{
+"t": [
+"Linterna Verde",
+"green lantern"
+],
+"n": 230
+},
+{
+"t": [
+"Daredevil"
+],
+"n": 300
+},
+{
+"t": [
+"Deadpool"
+],
+"n": 390
+},
+{
+"t": [
+"Cíclope"
+],
+"n": 510
+},
+{
+"t": [
+"Supergirl"
+],
+"n": 640
+},
+{
+"t": [
+"Flecha Verde",
+"green arrow"
+],
+"n": 810
+},
+{
+"t": [
+"Ojo de Halcón",
+"hawkeye"
+],
+"n": 1000
+},
+{
+"t": [
+"Los 4 Fantásticos",
+"cuatro fantásticos",
+"los cuatro fantásticos"
+],
+"n": 1300
+},
+{
+"t": [
+"Tormenta",
+"storm"
+],
+"n": 1600
+},
+{
+"t": [
+"Gambito"
+],
+"n": 2100
+},
+{
+"t": [
+"Groot"
+],
+"n": 2600
+},
+{
+"t": [
+"Star-Lord",
+"star lord"
+],
+"n": 3300
+},
+{
+"t": [
+"Visión"
+],
+"n": 4200
+},
+{
+"t": [
+"Bruja Escarlata",
+"scarlet witch"
+],
+"n": 5300
+},
+{
+"t": [
+"Robin"
+],
+"n": 6600
+},
+{
+"t": [
+"Batgirl"
+],
+"n": 8400
+},
+{
+"t": [
+"Spider-Gwen",
+"spider gwen"
+],
+"n": 11000
+},
+{
+"t": [
+"Capitán Marvel",
+"shazam"
+],
+"n": 13000
+},
+{
+"t": [
+"Cyborg"
+],
+"n": 17000
+},
+{
+"t": [
+"Mujer Invisible"
+],
+"n": 21000
+},
+{
+"t": [
+"Antorcha Humana"
+],
+"n": 27000
+},
+{
+"t": [
+"La Cosa"
+],
+"n": 34000
+},
+{
+"t": [
+"Rocket"
+],
+"n": 43000
+},
+{
+"t": [
+"Falcon"
+],
+"n": 54000
+},
+{
+"t": [
+"Soldado de Invierno"
+],
+"n": 69000
+},
+{
+"t": [
+"Namor"
+],
+"n": 87000
+},
+{
+"t": [
+"Blade"
+],
+"n": 110000
+},
+{
+"t": [
+"Punisher",
+"castigador"
+],
+"n": 140000
+},
+{
+"t": [
+"Elektra"
+],
+"n": 180000
+},
+{
+"t": [
+"Silver Surfer"
+],
+"n": 220000
+},
+{
+"t": [
+"Nova"
+],
+"n": 280000
+},
+{
+"t": [
+"Luke Cage"
+],
+"n": 350000
+},
+{
+"t": [
+"Iron Fist"
+],
+"n": 450000
+},
+{
+"t": [
+"Jessica Jones"
+],
+"n": 560000
+},
+{
+"t": [
+"Moon Knight"
+],
+"n": 710000
+},
+{
+"t": [
+"Ms. Marvel"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p56",
+"pregunta": "Nombra un videojuego",
+"respuestas": [
+{
+"t": [
+"Mario Bros",
+"super mario",
+"mario"
+],
+"n": 3
+},
+{
+"t": [
+"Minecraft"
+],
+"n": 4
+},
+{
+"t": [
+"FIFA",
+"ea fc",
+"ea sports fc"
+],
+"n": 5
+},
+{
+"t": [
+"Fortnite"
+],
+"n": 7
+},
+{
+"t": [
+"Zelda",
+"the legend of zelda"
+],
+"n": 9
+},
+{
+"t": [
+"Pokémon"
+],
+"n": 12
+},
+{
+"t": [
+"Tetris"
+],
+"n": 15
+},
+{
+"t": [
+"Call of Duty",
+"cod"
+],
+"n": 20
+},
+{
+"t": [
+"GTA",
+"grand theft auto"
+],
+"n": 26
+},
+{
+"t": [
+"Pac-Man"
+],
+"n": 34
+},
+{
+"t": [
+"Sonic"
+],
+"n": 45
+},
+{
+"t": [
+"League of Legends",
+"lol"
+],
+"n": 58
+},
+{
+"t": [
+"Candy Crush"
+],
+"n": 77
+},
+{
+"t": [
+"Among Us"
+],
+"n": 100
+},
+{
+"t": [
+"Los Sims",
+"sims"
+],
+"n": 130
+},
+{
+"t": [
+"Counter-Strike",
+"counter strike",
+"cs go"
+],
+"n": 170
+},
+{
+"t": [
+"Roblox"
+],
+"n": 230
+},
+{
+"t": [
+"Halo"
+],
+"n": 300
+},
+{
+"t": [
+"Street Fighter"
+],
+"n": 390
+},
+{
+"t": [
+"Mortal Kombat"
+],
+"n": 510
+},
+{
+"t": [
+"Pro Evolution Soccer",
+"pes"
+],
+"n": 590
+},
+{
+"t": [
+"Assassin's Creed"
+],
+"n": 690
+},
+{
+"t": [
+"God of War"
+],
+"n": 810
+},
+{
+"t": [
+"The Last of Us",
+"last of us"
+],
+"n": 950
+},
+{
+"t": [
+"Red Dead Redemption",
+"red dead"
+],
+"n": 1100
+},
+{
+"t": [
+"Skyrim"
+],
+"n": 1300
+},
+{
+"t": [
+"The Witcher",
+"witcher"
+],
+"n": 1500
+},
+{
+"t": [
+"Overwatch"
+],
+"n": 1800
+},
+{
+"t": [
+"Valorant"
+],
+"n": 2100
+},
+{
+"t": [
+"Animal Crossing"
+],
+"n": 2400
+},
+{
+"t": [
+"Super Smash Bros",
+"smash bros"
+],
+"n": 2800
+},
+{
+"t": [
+"Donkey Kong"
+],
+"n": 3300
+},
+{
+"t": [
+"Crash Bandicoot"
+],
+"n": 3800
+},
+{
+"t": [
+"Fallout"
+],
+"n": 4500
+},
+{
+"t": [
+"Resident Evil"
+],
+"n": 5300
+},
+{
+"t": [
+"Metal Gear"
+],
+"n": 6100
+},
+{
+"t": [
+"Final Fantasy"
+],
+"n": 7200
+},
+{
+"t": [
+"Dark Souls"
+],
+"n": 8400
+},
+{
+"t": [
+"Cyberpunk 2077",
+"cyberpunk"
+],
+"n": 9800
+},
+{
+"t": [
+"Clash of Clans"
+],
+"n": 11000
+},
+{
+"t": [
+"Clash Royale"
+],
+"n": 13000
+},
+{
+"t": [
+"Brawl Stars"
+],
+"n": 16000
+},
+{
+"t": [
+"Pong"
+],
+"n": 18000
+},
+{
+"t": [
+"Space Invaders"
+],
+"n": 21000
+},
+{
+"t": [
+"Doom"
+],
+"n": 25000
+},
+{
+"t": [
+"Tomb Raider"
+],
+"n": 29000
+},
+{
+"t": [
+"Uncharted"
+],
+"n": 34000
+},
+{
+"t": [
+"Elden Ring"
+],
+"n": 40000
+},
+{
+"t": [
+"Hollow Knight"
+],
+"n": 47000
+},
+{
+"t": [
+"Stardew Valley"
+],
+"n": 54000
+},
+{
+"t": [
+"Rocket League"
+],
+"n": 64000
+},
+{
+"t": [
+"Apex Legends"
+],
+"n": 74000
+},
+{
+"t": [
+"PUBG"
+],
+"n": 87000
+},
+{
+"t": [
+"Free Fire"
+],
+"n": 100000
+},
+{
+"t": [
+"Wii Sports"
+],
+"n": 120000
+},
+{
+"t": [
+"Just Dance"
+],
+"n": 140000
+},
+{
+"t": [
+"Kirby"
+],
+"n": 160000
+},
+{
+"t": [
+"Splatoon"
+],
+"n": 190000
+},
+{
+"t": [
+"Mario Kart"
+],
+"n": 220000
+},
+{
+"t": [
+"Age of Empires"
+],
+"n": 260000
+},
+{
+"t": [
+"Warcraft",
+"world of warcraft"
+],
+"n": 300000
+},
+{
+"t": [
+"Diablo"
+],
+"n": 350000
+},
+{
+"t": [
+"Hearthstone"
+],
+"n": 410000
+},
+{
+"t": [
+"Portal"
+],
+"n": 480000
+},
+{
+"t": [
+"Half-Life",
+"half life"
+],
+"n": 560000
+},
+{
+"t": [
+"Bioshock"
+],
+"n": 660000
+},
+{
+"t": [
+"Mass Effect"
+],
+"n": 770000
+},
+{
+"t": [
+"Fall Guys"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p57",
+"pregunta": "Nombra un personaje de dibujos animados",
+"respuestas": [
+{
+"t": [
+"Mickey Mouse",
+"mickey"
+],
+"n": 3
+},
+{
+"t": [
+"Bob Esponja",
+"spongebob"
+],
+"n": 4
+},
+{
+"t": [
+"Bugs Bunny"
+],
+"n": 5
+},
+{
+"t": [
+"Homer Simpson",
+"homer"
+],
+"n": 7
+},
+{
+"t": [
+"Pato Donald",
+"donald"
+],
+"n": 9
+},
+{
+"t": [
+"Goku"
+],
+"n": 12
+},
+{
+"t": [
+"Doraemon"
+],
+"n": 15
+},
+{
+"t": [
+"Pikachu"
+],
+"n": 20
+},
+{
+"t": [
+"Tom y Jerry",
+"tom",
+"jerry"
+],
+"n": 26
+},
+{
+"t": [
+"Scooby-Doo",
+"scooby doo",
+"scooby"
+],
+"n": 34
+},
+{
+"t": [
+"Pluto"
+],
+"n": 45
+},
+{
+"t": [
+"Pitufos",
+"los pitufos"
+],
+"n": 58
+},
+{
+"t": [
+"Popeye"
+],
+"n": 77
+},
+{
+"t": [
+"Betty Boop"
+],
+"n": 100
+},
+{
+"t": [
+"Piolín"
+],
+"n": 130
+},
+{
+"t": [
+"Silvestre"
+],
+"n": 170
+},
+{
+"t": [
+"Correcaminos"
+],
+"n": 230
+},
+{
+"t": [
+"Pantera Rosa"
+],
+"n": 300
+},
+{
+"t": [
+"Shin Chan",
+"shin-chan"
+],
+"n": 390
+},
+{
+"t": [
+"Peppa Pig",
+"peppa"
+],
+"n": 510
+},
+{
+"t": [
+"Patricio Estrella",
+"patricio"
+],
+"n": 610
+},
+{
+"t": [
+"Heidi"
+],
+"n": 720
+},
+{
+"t": [
+"Candy Candy"
+],
+"n": 870
+},
+{
+"t": [
+"Naruto"
+],
+"n": 1000
+},
+{
+"t": [
+"Luffy"
+],
+"n": 1200
+},
+{
+"t": [
+"Dora la exploradora",
+"dora"
+],
+"n": 1500
+},
+{
+"t": [
+"Bart Simpson",
+"bart"
+],
+"n": 1800
+},
+{
+"t": [
+"Marge Simpson",
+"marge"
+],
+"n": 2100
+},
+{
+"t": [
+"Tintín"
+],
+"n": 2500
+},
+{
+"t": [
+"Astérix"
+],
+"n": 3000
+},
+{
+"t": [
+"Obélix"
+],
+"n": 3600
+},
+{
+"t": [
+"Snoopy"
+],
+"n": 4300
+},
+{
+"t": [
+"Charlie Brown"
+],
+"n": 5100
+},
+{
+"t": [
+"Garfield"
+],
+"n": 6100
+},
+{
+"t": [
+"Mafalda"
+],
+"n": 7300
+},
+{
+"t": [
+"Pocoyó"
+],
+"n": 8800
+},
+{
+"t": [
+"Minnie"
+],
+"n": 10000
+},
+{
+"t": [
+"Goofy",
+"tribilín"
+],
+"n": 13000
+},
+{
+"t": [
+"Daffy Duck",
+"lucas"
+],
+"n": 15000
+},
+{
+"t": [
+"Porky"
+],
+"n": 18000
+},
+{
+"t": [
+"Elmer Gruñón",
+"elmer"
+],
+"n": 21000
+},
+{
+"t": [
+"Mortadelo y Filemón",
+"mortadelo",
+"filemon"
+],
+"n": 26000
+},
+{
+"t": [
+"Sonic"
+],
+"n": 31000
+},
+{
+"t": [
+"Winnie the Pooh",
+"winnie pooh",
+"winnie"
+],
+"n": 36000
+},
+{
+"t": [
+"Tigger"
+],
+"n": 44000
+},
+{
+"t": [
+"Bamby",
+"bambi"
+],
+"n": 52000
+},
+{
+"t": [
+"Dumbo"
+],
+"n": 62000
+},
+{
+"t": [
+"Simba"
+],
+"n": 74000
+},
+{
+"t": [
+"Buzz Lightyear",
+"buzz"
+],
+"n": 89000
+},
+{
+"t": [
+"Woody"
+],
+"n": 110000
+},
+{
+"t": [
+"Shrek"
+],
+"n": 130000
+},
+{
+"t": [
+"Elsa"
+],
+"n": 150000
+},
+{
+"t": [
+"Olaf"
+],
+"n": 180000
+},
+{
+"t": [
+"Lisa Simpson",
+"lisa"
+],
+"n": 220000
+},
+{
+"t": [
+"Peter Griffin",
+"peter"
+],
+"n": 260000
+},
+{
+"t": [
+"Stewie"
+],
+"n": 310000
+},
+{
+"t": [
+"Cartman"
+],
+"n": 370000
+},
+{
+"t": [
+"Kenny"
+],
+"n": 440000
+},
+{
+"t": [
+"Rick y Morty",
+"rick",
+"morty"
+],
+"n": 530000
+},
+{
+"t": [
+"Vegeta"
+],
+"n": 630000
+},
+{
+"t": [
+"Sakura"
+],
+"n": 750000
+},
+{
+"t": [
+"Ash Ketchum",
+"ash"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p58",
+"pregunta": "Nombra una serie de televisión",
+"respuestas": [
+{
+"t": [
+"Los Simpson",
+"simpsons"
+],
+"n": 3
+},
+{
+"t": [
+"Friends"
+],
+"n": 4
+},
+{
+"t": [
+"Juego de Tronos",
+"game of thrones"
+],
+"n": 5
+},
+{
+"t": [
+"Breaking Bad"
+],
+"n": 7
+},
+{
+"t": [
+"La Casa de Papel",
+"casa de papel"
+],
+"n": 9
+},
+{
+"t": [
+"Stranger Things"
+],
+"n": 12
+},
+{
+"t": [
+"The Big Bang Theory",
+"big bang theory"
+],
+"n": 15
+},
+{
+"t": [
+"Padre de familia",
+"family guy"
+],
+"n": 20
+},
+{
+"t": [
+"Cuéntame"
+],
+"n": 26
+},
+{
+"t": [
+"Aquí no hay quien viva"
+],
+"n": 34
+},
+{
+"t": [
+"Los Serrano"
+],
+"n": 45
+},
+{
+"t": [
+"Médico de familia"
+],
+"n": 58
+},
+{
+"t": [
+"El Ministerio del Tiempo"
+],
+"n": 77
+},
+{
+"t": [
+"Aída"
+],
+"n": 100
+},
+{
+"t": [
+"La que se avecina"
+],
+"n": 130
+},
+{
+"t": [
+"Black Mirror"
+],
+"n": 170
+},
+{
+"t": [
+"The Walking Dead",
+"walking dead"
+],
+"n": 230
+},
+{
+"t": [
+"Anatomía de Grey",
+"grey's anatomy"
+],
+"n": 300
+},
+{
+"t": [
+"Dr. House",
+"house"
+],
+"n": 390
+},
+{
+"t": [
+"Perdidos",
+"lost"
+],
+"n": 510
+},
+{
+"t": [
+"Sherlock"
+],
+"n": 620
+},
+{
+"t": [
+"The Office"
+],
+"n": 770
+},
+{
+"t": [
+"Narcos"
+],
+"n": 950
+},
+{
+"t": [
+"Élite"
+],
+"n": 1200
+},
+{
+"t": [
+"Merlí"
+],
+"n": 1400
+},
+{
+"t": [
+"Verano azul"
+],
+"n": 1800
+},
+{
+"t": [
+"Los Soprano",
+"soprano"
+],
+"n": 2200
+},
+{
+"t": [
+"The Crown"
+],
+"n": 2700
+},
+{
+"t": [
+"Gossip Girl"
+],
+"n": 3300
+},
+{
+"t": [
+"Cómo conocí a vuestra madre",
+"how i met your mother"
+],
+"n": 4100
+},
+{
+"t": [
+"Modern Family"
+],
+"n": 5000
+},
+{
+"t": [
+"Los Protegidos"
+],
+"n": 6100
+},
+{
+"t": [
+"Física o Química"
+],
+"n": 7600
+},
+{
+"t": [
+"El Barco"
+],
+"n": 9300
+},
+{
+"t": [
+"Vikingos",
+"vikings"
+],
+"n": 11000
+},
+{
+"t": [
+"Peaky Blinders"
+],
+"n": 14000
+},
+{
+"t": [
+"Dark"
+],
+"n": 17000
+},
+{
+"t": [
+"El juego del calamar",
+"squid game"
+],
+"n": 21000
+},
+{
+"t": [
+"Bola de Dragón",
+"dragon ball"
+],
+"n": 26000
+},
+{
+"t": [
+"Wednesday",
+"miércoles"
+],
+"n": 32000
+},
+{
+"t": [
+"The Mandalorian",
+"mandalorian"
+],
+"n": 40000
+},
+{
+"t": [
+"Chernobyl"
+],
+"n": 49000
+},
+{
+"t": [
+"The Last of Us"
+],
+"n": 60000
+},
+{
+"t": [
+"Succession"
+],
+"n": 74000
+},
+{
+"t": [
+"Ted Lasso"
+],
+"n": 92000
+},
+{
+"t": [
+"The Boys"
+],
+"n": 110000
+},
+{
+"t": [
+"Euphoria"
+],
+"n": 140000
+},
+{
+"t": [
+"Sex Education"
+],
+"n": 170000
+},
+{
+"t": [
+"Ozark"
+],
+"n": 210000
+},
+{
+"t": [
+"Better Call Saul"
+],
+"n": 260000
+},
+{
+"t": [
+"Downton Abbey"
+],
+"n": 320000
+},
+{
+"t": [
+"Los Pazos de Ulloa"
+],
+"n": 390000
+},
+{
+"t": [
+"Cuéntame cómo pasó"
+],
+"n": 480000
+},
+{
+"t": [
+"Gran Hotel"
+],
+"n": 590000
+},
+{
+"t": [
+"Las chicas del cable",
+"chicas del cable"
+],
+"n": 730000
+},
+{
+"t": [
+"Vis a vis"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p59",
+"pregunta": "Nombra un pintor",
+"respuestas": [
+{
+"t": [
+"Picasso"
+],
+"n": 3
+},
+{
+"t": [
+"Dalí",
+"salvador dali"
+],
+"n": 4
+},
+{
+"t": [
+"Velázquez"
+],
+"n": 5
+},
+{
+"t": [
+"Goya"
+],
+"n": 7
+},
+{
+"t": [
+"Van Gogh",
+"vincent van gogh"
+],
+"n": 9
+},
+{
+"t": [
+"Leonardo da Vinci",
+"da vinci",
+"leonardo"
+],
+"n": 12
+},
+{
+"t": [
+"Miguel Ángel"
+],
+"n": 15
+},
+{
+"t": [
+"Rembrandt"
+],
+"n": 20
+},
+{
+"t": [
+"Monet"
+],
+"n": 26
+},
+{
+"t": [
+"Miró",
+"joan miro"
+],
+"n": 34
+},
+{
+"t": [
+"Frida Kahlo",
+"kahlo"
+],
+"n": 45
+},
+{
+"t": [
+"Murillo"
+],
+"n": 58
+},
+{
+"t": [
+"Rafael",
+"rafael sanzio",
+"rafaello"
+],
+"n": 77
+},
+{
+"t": [
+"Botticelli"
+],
+"n": 100
+},
+{
+"t": [
+"Vermeer"
+],
+"n": 130
+},
+{
+"t": [
+"Renoir"
+],
+"n": 170
+},
+{
+"t": [
+"Cézanne"
+],
+"n": 230
+},
+{
+"t": [
+"Gauguin"
+],
+"n": 300
+},
+{
+"t": [
+"Munch"
+],
+"n": 390
+},
+{
+"t": [
+"Klimt"
+],
+"n": 510
+},
+{
+"t": [
+"Warhol",
+"andy warhol"
+],
+"n": 610
+},
+{
+"t": [
+"Rubens"
+],
+"n": 740
+},
+{
+"t": [
+"El Greco",
+"greco"
+],
+"n": 900
+},
+{
+"t": [
+"Zurbarán"
+],
+"n": 1100
+},
+{
+"t": [
+"Sorolla"
+],
+"n": 1300
+},
+{
+"t": [
+"Manet"
+],
+"n": 1600
+},
+{
+"t": [
+"Degas"
+],
+"n": 1900
+},
+{
+"t": [
+"Kandinsky"
+],
+"n": 2400
+},
+{
+"t": [
+"Mondrian"
+],
+"n": 2900
+},
+{
+"t": [
+"Magritte"
+],
+"n": 3500
+},
+{
+"t": [
+"Caravaggio"
+],
+"n": 4200
+},
+{
+"t": [
+"Tiziano"
+],
+"n": 5100
+},
+{
+"t": [
+"Durero"
+],
+"n": 6100
+},
+{
+"t": [
+"El Bosco",
+"bosco"
+],
+"n": 7400
+},
+{
+"t": [
+"Banksy"
+],
+"n": 9000
+},
+{
+"t": [
+"Botero",
+"fernando botero"
+],
+"n": 11000
+},
+{
+"t": [
+"Diego Rivera"
+],
+"n": 13000
+},
+{
+"t": [
+"Hopper",
+"edward hopper"
+],
+"n": 16000
+},
+{
+"t": [
+"Pollock",
+"jackson pollock"
+],
+"n": 19000
+},
+{
+"t": [
+"Turner"
+],
+"n": 24000
+},
+{
+"t": [
+"Constable"
+],
+"n": 28000
+},
+{
+"t": [
+"Tàpies"
+],
+"n": 35000
+},
+{
+"t": [
+"Matisse"
+],
+"n": 42000
+},
+{
+"t": [
+"Toulouse-Lautrec",
+"lautrec"
+],
+"n": 51000
+},
+{
+"t": [
+"Pissarro"
+],
+"n": 61000
+},
+{
+"t": [
+"Seurat"
+],
+"n": 74000
+},
+{
+"t": [
+"Modigliani"
+],
+"n": 90000
+},
+{
+"t": [
+"Chagall"
+],
+"n": 110000
+},
+{
+"t": [
+"Rothko"
+],
+"n": 130000
+},
+{
+"t": [
+"Basquiat"
+],
+"n": 160000
+},
+{
+"t": [
+"Lichtenstein"
+],
+"n": 190000
+},
+{
+"t": [
+"Juan Gris"
+],
+"n": 230000
+},
+{
+"t": [
+"Sempere"
+],
+"n": 280000
+},
+{
+"t": [
+"Fortuny"
+],
+"n": 340000
+},
+{
+"t": [
+"Madrazo"
+],
+"n": 420000
+},
+{
+"t": [
+"Ribera"
+],
+"n": 510000
+},
+{
+"t": [
+"Zuloaga"
+],
+"n": 610000
+},
+{
+"t": [
+"Antonio López"
+],
+"n": 740000
+},
+{
+"t": [
+"Barceló"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p60",
+"pregunta": "Nombra un compositor",
+"respuestas": [
+{
+"t": [
+"Mozart"
+],
+"n": 3
+},
+{
+"t": [
+"Beethoven"
+],
+"n": 4
+},
+{
+"t": [
+"Bach"
+],
+"n": 5
+},
+{
+"t": [
+"Chopin"
+],
+"n": 7
+},
+{
+"t": [
+"Vivaldi"
+],
+"n": 9
+},
+{
+"t": [
+"Tchaikovsky",
+"chaikovski",
+"tchaikovski"
+],
+"n": 12
+},
+{
+"t": [
+"Wagner"
+],
+"n": 15
+},
+{
+"t": [
+"Schubert"
+],
+"n": 20
+},
+{
+"t": [
+"Liszt"
+],
+"n": 26
+},
+{
+"t": [
+"Brahms"
+],
+"n": 34
+},
+{
+"t": [
+"Verdi"
+],
+"n": 45
+},
+{
+"t": [
+"Strauss"
+],
+"n": 58
+},
+{
+"t": [
+"Haydn"
+],
+"n": 77
+},
+{
+"t": [
+"Händel"
+],
+"n": 100
+},
+{
+"t": [
+"Debussy"
+],
+"n": 130
+},
+{
+"t": [
+"Rossini"
+],
+"n": 170
+},
+{
+"t": [
+"Puccini"
+],
+"n": 230
+},
+{
+"t": [
+"Falla",
+"manuel de falla"
+],
+"n": 300
+},
+{
+"t": [
+"Albéniz"
+],
+"n": 390
+},
+{
+"t": [
+"Granados"
+],
+"n": 510
+},
+{
+"t": [
+"Rodrigo",
+"joaquín rodrigo"
+],
+"n": 600
+},
+{
+"t": [
+"Ravel"
+],
+"n": 720
+},
+{
+"t": [
+"Mahler"
+],
+"n": 850
+},
+{
+"t": [
+"Schumann"
+],
+"n": 1000
+},
+{
+"t": [
+"Satie"
+],
+"n": 1200
+},
+{
+"t": [
+"Paganini"
+],
+"n": 1400
+},
+{
+"t": [
+"Stravinski",
+"stravinsky"
+],
+"n": 1700
+},
+{
+"t": [
+"Prokófiev"
+],
+"n": 2000
+},
+{
+"t": [
+"Rachmaninov"
+],
+"n": 2400
+},
+{
+"t": [
+"Dvořák"
+],
+"n": 2900
+},
+{
+"t": [
+"Mendelssohn"
+],
+"n": 3400
+},
+{
+"t": [
+"Bizet"
+],
+"n": 4100
+},
+{
+"t": [
+"Offenbach"
+],
+"n": 4900
+},
+{
+"t": [
+"Sibelius"
+],
+"n": 5800
+},
+{
+"t": [
+"Grieg"
+],
+"n": 6900
+},
+{
+"t": [
+"Shostakóvich"
+],
+"n": 8200
+},
+{
+"t": [
+"Monteverdi"
+],
+"n": 9800
+},
+{
+"t": [
+"Purcell"
+],
+"n": 12000
+},
+{
+"t": [
+"Bruckner"
+],
+"n": 14000
+},
+{
+"t": [
+"Berlioz"
+],
+"n": 16000
+},
+{
+"t": [
+"Gershwin"
+],
+"n": 20000
+},
+{
+"t": [
+"Ennio Morricone",
+"morricone"
+],
+"n": 23000
+},
+{
+"t": [
+"John Williams"
+],
+"n": 28000
+},
+{
+"t": [
+"Hans Zimmer",
+"zimmer"
+],
+"n": 33000
+},
+{
+"t": [
+"Pablo Sarasate",
+"sarasate"
+],
+"n": 39000
+},
+{
+"t": [
+"Isaac Albéniz"
+],
+"n": 47000
+},
+{
+"t": [
+"Tomás Luis de Victoria"
+],
+"n": 56000
+},
+{
+"t": [
+"Joaquín Turina",
+"turina"
+],
+"n": 66000
+},
+{
+"t": [
+"Xavier Montsalvatge"
+],
+"n": 79000
+},
+{
+"t": [
+"Cristóbal Halffter"
+],
+"n": 94000
+},
+{
+"t": [
+"Glass",
+"philip glass"
+],
+"n": 110000
+},
+{
+"t": [
+"Vangelis"
+],
+"n": 130000
+},
+{
+"t": [
+"Piazzolla",
+"astor piazzolla"
+],
+"n": 160000
+},
+{
+"t": [
+"Villa-Lobos"
+],
+"n": 190000
+},
+{
+"t": [
+"Copland"
+],
+"n": 220000
+},
+{
+"t": [
+"Bernstein"
+],
+"n": 270000
+},
+{
+"t": [
+"Ligeti"
+],
+"n": 320000
+},
+{
+"t": [
+"Pärt"
+],
+"n": 380000
+},
+{
+"t": [
+"Bartók"
+],
+"n": 450000
+},
+{
+"t": [
+"Janáček"
+],
+"n": 530000
+},
+{
+"t": [
+"Elgar"
+],
+"n": 640000
+},
+{
+"t": [
+"Britten"
+],
+"n": 760000
+},
+{
+"t": [
+"Holst"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p61",
+"pregunta": "Nombra un científico",
+"respuestas": [
+{
+"t": [
+"Einstein"
+],
+"n": 3
+},
+{
+"t": [
+"Newton"
+],
+"n": 4
+},
+{
+"t": [
+"Galileo"
+],
+"n": 5
+},
+{
+"t": [
+"Marie Curie",
+"curie"
+],
+"n": 7
+},
+{
+"t": [
+"Darwin"
+],
+"n": 9
+},
+{
+"t": [
+"Hawking",
+"stephen hawking"
+],
+"n": 12
+},
+{
+"t": [
+"Pasteur"
+],
+"n": 15
+},
+{
+"t": [
+"Tesla",
+"nikola tesla"
+],
+"n": 20
+},
+{
+"t": [
+"Edison"
+],
+"n": 26
+},
+{
+"t": [
+"Copérnico"
+],
+"n": 34
+},
+{
+"t": [
+"Arquímedes"
+],
+"n": 45
+},
+{
+"t": [
+"Fleming"
+],
+"n": 58
+},
+{
+"t": [
+"Ramón y Cajal",
+"cajal",
+"santiago ramon y cajal"
+],
+"n": 77
+},
+{
+"t": [
+"Freud"
+],
+"n": 100
+},
+{
+"t": [
+"Kepler"
+],
+"n": 130
+},
+{
+"t": [
+"Mendel"
+],
+"n": 170
+},
+{
+"t": [
+"Faraday"
+],
+"n": 230
+},
+{
+"t": [
+"Pitágoras"
+],
+"n": 300
+},
+{
+"t": [
+"Hipócrates"
+],
+"n": 390
+},
+{
+"t": [
+"Humboldt"
+],
+"n": 510
+},
+{
+"t": [
+"Oppenheimer"
+],
+"n": 600
+},
+{
+"t": [
+"Bohr"
+],
+"n": 710
+},
+{
+"t": [
+"Heisenberg"
+],
+"n": 830
+},
+{
+"t": [
+"Schrödinger"
+],
+"n": 990
+},
+{
+"t": [
+"Maxwell"
+],
+"n": 1200
+},
+{
+"t": [
+"Lavoisier"
+],
+"n": 1400
+},
+{
+"t": [
+"Mendeléyev",
+"mendeleiev"
+],
+"n": 1600
+},
+{
+"t": [
+"Linneo"
+],
+"n": 1900
+},
+{
+"t": [
+"Jenner"
+],
+"n": 2300
+},
+{
+"t": [
+"Severo Ochoa"
+],
+"n": 2700
+},
+{
+"t": [
+"Margarita Salas"
+],
+"n": 3200
+},
+{
+"t": [
+"Rosalind Franklin"
+],
+"n": 3700
+},
+{
+"t": [
+"Carl Sagan",
+"sagan"
+],
+"n": 4400
+},
+{
+"t": [
+"Alan Turing",
+"turing"
+],
+"n": 5200
+},
+{
+"t": [
+"Ada Lovelace"
+],
+"n": 6100
+},
+{
+"t": [
+"Kelvin"
+],
+"n": 7200
+},
+{
+"t": [
+"Volta"
+],
+"n": 8600
+},
+{
+"t": [
+"Ohm"
+],
+"n": 10000
+},
+{
+"t": [
+"Planck"
+],
+"n": 12000
+},
+{
+"t": [
+"Rutherford"
+],
+"n": 14000
+},
+{
+"t": [
+"Fermi"
+],
+"n": 17000
+},
+{
+"t": [
+"Higgs"
+],
+"n": 20000
+},
+{
+"t": [
+"Euclides"
+],
+"n": 23000
+},
+{
+"t": [
+"Aristóteles"
+],
+"n": 27000
+},
+{
+"t": [
+"Leonardo da Vinci"
+],
+"n": 32000
+},
+{
+"t": [
+"Alexander Graham Bell",
+"graham bell"
+],
+"n": 38000
+},
+{
+"t": [
+"Marconi"
+],
+"n": 45000
+},
+{
+"t": [
+"Hubble"
+],
+"n": 53000
+},
+{
+"t": [
+"Tycho Brahe"
+],
+"n": 63000
+},
+{
+"t": [
+"Lamarck"
+],
+"n": 74000
+},
+{
+"t": [
+"Koch"
+],
+"n": 88000
+},
+{
+"t": [
+"Salk"
+],
+"n": 100000
+},
+{
+"t": [
+"Watson y Crick",
+"watson"
+],
+"n": 120000
+},
+{
+"t": [
+"Crick"
+],
+"n": 140000
+},
+{
+"t": [
+"Feynman"
+],
+"n": 170000
+},
+{
+"t": [
+"Dirac"
+],
+"n": 200000
+},
+{
+"t": [
+"Gauss"
+],
+"n": 240000
+},
+{
+"t": [
+"Euler"
+],
+"n": 280000
+},
+{
+"t": [
+"Descartes"
+],
+"n": 330000
+},
+{
+"t": [
+"Leibniz"
+],
+"n": 390000
+},
+{
+"t": [
+"Pascal"
+],
+"n": 460000
+},
+{
+"t": [
+"Boyle"
+],
+"n": 550000
+},
+{
+"t": [
+"Dalton"
+],
+"n": 650000
+},
+{
+"t": [
+"Avogadro"
+],
+"n": 760000
+},
+{
+"t": [
+"Becquerel"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p62",
+"pregunta": "Nombra un invento",
+"respuestas": [
+{
+"t": [
+"Rueda"
+],
+"n": 3
+},
+{
+"t": [
+"Bombilla",
+"lámpara incandescente",
+"bombilla eléctrica"
+],
+"n": 4
+},
+{
+"t": [
+"Teléfono"
+],
+"n": 5
+},
+{
+"t": [
+"Imprenta"
+],
+"n": 7
+},
+{
+"t": [
+"Avión"
+],
+"n": 9
+},
+{
+"t": [
+"Ordenador",
+"computadora"
+],
+"n": 12
+},
+{
+"t": [
+"Brújula"
+],
+"n": 15
+},
+{
+"t": [
+"Televisión",
+"tele"
+],
+"n": 20
+},
+{
+"t": [
+"Radio"
+],
+"n": 26
+},
+{
+"t": [
+"Coche",
+"automóvil"
+],
+"n": 34
+},
+{
+"t": [
+"Pólvora"
+],
+"n": 45
+},
+{
+"t": [
+"Papel"
+],
+"n": 58
+},
+{
+"t": [
+"Internet"
+],
+"n": 77
+},
+{
+"t": [
+"Telescopio"
+],
+"n": 100
+},
+{
+"t": [
+"Máquina de vapor"
+],
+"n": 130
+},
+{
+"t": [
+"Penicilina"
+],
+"n": 170
+},
+{
+"t": [
+"Reloj"
+],
+"n": 230
+},
+{
+"t": [
+"Microscopio"
+],
+"n": 300
+},
+{
+"t": [
+"Cámara de fotos",
+"fotografía"
+],
+"n": 390
+},
+{
+"t": [
+"Telégrafo"
+],
+"n": 510
+},
+{
+"t": [
+"Pararrayos"
+],
+"n": 640
+},
+{
+"t": [
+"Paracaídas"
+],
+"n": 810
+},
+{
+"t": [
+"Bicicleta"
+],
+"n": 1000
+},
+{
+"t": [
+"Submarino"
+],
+"n": 1300
+},
+{
+"t": [
+"Cohete"
+],
+"n": 1600
+},
+{
+"t": [
+"Pila",
+"batería"
+],
+"n": 2100
+},
+{
+"t": [
+"Microondas"
+],
+"n": 2600
+},
+{
+"t": [
+"Cine",
+"cinematógrafo"
+],
+"n": 3300
+},
+{
+"t": [
+"Gramófono"
+],
+"n": 4200
+},
+{
+"t": [
+"Cremallera"
+],
+"n": 5300
+},
+{
+"t": [
+"Escritura"
+],
+"n": 6600
+},
+{
+"t": [
+"Fuego"
+],
+"n": 8400
+},
+{
+"t": [
+"Vacuna"
+],
+"n": 11000
+},
+{
+"t": [
+"Anestesia"
+],
+"n": 13000
+},
+{
+"t": [
+"Rayos X"
+],
+"n": 17000
+},
+{
+"t": [
+"Dinamita"
+],
+"n": 21000
+},
+{
+"t": [
+"Locomotora",
+"tren"
+],
+"n": 27000
+},
+{
+"t": [
+"Ascensor"
+],
+"n": 34000
+},
+{
+"t": [
+"Lavadora"
+],
+"n": 43000
+},
+{
+"t": [
+"Nevera",
+"frigorífico"
+],
+"n": 54000
+},
+{
+"t": [
+"Aspiradora"
+],
+"n": 69000
+},
+{
+"t": [
+"Teléfono móvil",
+"móvil"
+],
+"n": 87000
+},
+{
+"t": [
+"Láser"
+],
+"n": 110000
+},
+{
+"t": [
+"Transistor"
+],
+"n": 140000
+},
+{
+"t": [
+"Chip"
+],
+"n": 180000
+},
+{
+"t": [
+"Velcro"
+],
+"n": 220000
+},
+{
+"t": [
+"Imán"
+],
+"n": 280000
+},
+{
+"t": [
+"Moneda"
+],
+"n": 350000
+},
+{
+"t": [
+"Tetrabrik"
+],
+"n": 450000
+},
+{
+"t": [
+"Lápiz"
+],
+"n": 560000
+},
+{
+"t": [
+"Cerillas",
+"fósforos"
+],
+"n": 710000
+},
+{
+"t": [
+"Gafas"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p63",
+"pregunta": "Nombra un político español",
+"respuestas": [
+{
+"t": [
+"Pedro Sánchez",
+"sanchez"
+],
+"n": 3
+},
+{
+"t": [
+"Mariano Rajoy",
+"rajoy"
+],
+"n": 4
+},
+{
+"t": [
+"Zapatero",
+"josé luis rodríguez zapatero"
+],
+"n": 5
+},
+{
+"t": [
+"Felipe González"
+],
+"n": 7
+},
+{
+"t": [
+"José María Aznar",
+"aznar"
+],
+"n": 9
+},
+{
+"t": [
+"Adolfo Suárez",
+"suárez"
+],
+"n": 12
+},
+{
+"t": [
+"Santiago Abascal",
+"abascal"
+],
+"n": 15
+},
+{
+"t": [
+"Pablo Iglesias"
+],
+"n": 20
+},
+{
+"t": [
+"Albert Rivera",
+"rivera"
+],
+"n": 26
+},
+{
+"t": [
+"Yolanda Díaz"
+],
+"n": 34
+},
+{
+"t": [
+"Isabel Díaz Ayuso",
+"ayuso"
+],
+"n": 45
+},
+{
+"t": [
+"Alberto Núñez Feijóo",
+"feijóo"
+],
+"n": 58
+},
+{
+"t": [
+"Carles Puigdemont",
+"puigdemont"
+],
+"n": 77
+},
+{
+"t": [
+"Íñigo Errejón",
+"errejon"
+],
+"n": 100
+},
+{
+"t": [
+"Pablo Casado",
+"casado"
+],
+"n": 130
+},
+{
+"t": [
+"Susana Díaz"
+],
+"n": 170
+},
+{
+"t": [
+"Manuela Carmena",
+"carmena"
+],
+"n": 230
+},
+{
+"t": [
+"Ada Colau",
+"colau"
+],
+"n": 300
+},
+{
+"t": [
+"Alfonso Guerra"
+],
+"n": 390
+},
+{
+"t": [
+"Santiago Carrillo",
+"carrillo"
+],
+"n": 510
+},
+{
+"t": [
+"Manuel Fraga",
+"fraga"
+],
+"n": 650
+},
+{
+"t": [
+"Arnaldo Otegi",
+"otegi"
+],
+"n": 830
+},
+{
+"t": [
+"Artur Mas"
+],
+"n": 1100
+},
+{
+"t": [
+"Jordi Pujol",
+"pujol"
+],
+"n": 1400
+},
+{
+"t": [
+"Irene Montero"
+],
+"n": 1800
+},
+{
+"t": [
+"Mónica García"
+],
+"n": 2300
+},
+{
+"t": [
+"Ione Belarra",
+"belarra"
+],
+"n": 2900
+},
+{
+"t": [
+"Inés Arrimadas",
+"arrimadas"
+],
+"n": 3700
+},
+{
+"t": [
+"Cristina Cifuentes",
+"cifuentes"
+],
+"n": 4800
+},
+{
+"t": [
+"Esperanza Aguirre",
+"aguirre"
+],
+"n": 6100
+},
+{
+"t": [
+"Rita Barberá",
+"barbera"
+],
+"n": 7900
+},
+{
+"t": [
+"José Bono",
+"bono"
+],
+"n": 10000
+},
+{
+"t": [
+"Leopoldo Calvo-Sotelo",
+"calvo sotelo"
+],
+"n": 13000
+},
+{
+"t": [
+"Alfredo Pérez Rubalcaba",
+"rubalcaba"
+],
+"n": 17000
+},
+{
+"t": [
+"Francesc Homs"
+],
+"n": 21000
+},
+{
+"t": [
+"Oriol Junqueras",
+"junqueras"
+],
+"n": 27000
+},
+{
+"t": [
+"Gabriel Rufián",
+"rufian"
+],
+"n": 35000
+},
+{
+"t": [
+"Cayetana Álvarez de Toledo"
+],
+"n": 45000
+},
+{
+"t": [
+"Teresa Rodríguez"
+],
+"n": 58000
+},
+{
+"t": [
+"Alberto Garzón",
+"garzon"
+],
+"n": 74000
+},
+{
+"t": [
+"Javier Maroto"
+],
+"n": 95000
+},
+{
+"t": [
+"Carmen Calvo"
+],
+"n": 120000
+},
+{
+"t": [
+"María Teresa Fernández de la Vega",
+"fernandez de la vega"
+],
+"n": 160000
+},
+{
+"t": [
+"Soraya Sáenz de Santamaría",
+"soraya"
+],
+"n": 200000
+},
+{
+"t": [
+"Josep Borrell",
+"borrell"
+],
+"n": 260000
+},
+{
+"t": [
+"Miguel Ángel Revilla",
+"revilla"
+],
+"n": 330000
+},
+{
+"t": [
+"Juanma Moreno"
+],
+"n": 430000
+},
+{
+"t": [
+"Salvador Illa",
+"illa"
+],
+"n": 550000
+},
+{
+"t": [
+"Emiliano García-Page",
+"page"
+],
+"n": 700000
+},
+{
+"t": [
+"Fernández Vara"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p64",
+"pregunta": "Nombra un rey o una reina de España",
+"respuestas": [
+{
+"t": [
+"Juan Carlos I",
+"juan carlos"
+],
+"n": 4
+},
+{
+"t": [
+"Felipe VI",
+"felipe 6",
+"felipe sexto"
+],
+"n": 5
+},
+{
+"t": [
+"Isabel II"
+],
+"n": 7
+},
+{
+"t": [
+"Alfonso XIII"
+],
+"n": 9
+},
+{
+"t": [
+"Felipe II"
+],
+"n": 12
+},
+{
+"t": [
+"Carlos III"
+],
+"n": 15
+},
+{
+"t": [
+"Fernando VII"
+],
+"n": 20
+},
+{
+"t": [
+"Isabel la Católica",
+"isabel i"
+],
+"n": 26
+},
+{
+"t": [
+"Carlos I",
+"carlos v",
+"carlos quinto"
+],
+"n": 35
+},
+{
+"t": [
+"Felipe V"
+],
+"n": 45
+},
+{
+"t": [
+"Alfonso XII"
+],
+"n": 60
+},
+{
+"t": [
+"Alfonso X el Sabio",
+"alfonso x"
+],
+"n": 78
+},
+{
+"t": [
+"Fernando el Católico",
+"fernando ii"
+],
+"n": 100
+},
+{
+"t": [
+"Carlos IV"
+],
+"n": 130
+},
+{
+"t": [
+"Felipe III"
+],
+"n": 180
+},
+{
+"t": [
+"Felipe IV"
+],
+"n": 230
+},
+{
+"t": [
+"Carlos II el Hechizado",
+"carlos ii"
+],
+"n": 300
+},
+{
+"t": [
+"Amadeo de Saboya",
+"amadeo i",
+"amadeo"
+],
+"n": 390
+},
+{
+"t": [
+"Juana la Loca",
+"juana i"
+],
+"n": 520
+},
+{
+"t": [
+"Fernando VI"
+],
+"n": 680
+},
+{
+"t": [
+"Luis I"
+],
+"n": 940
+},
+{
+"t": [
+"José I Bonaparte",
+"jose bonaparte",
+"pepe botella"
+],
+"n": 1300
+},
+{
+"t": [
+"Alfonso XI"
+],
+"n": 1800
+},
+{
+"t": [
+"Pedro I el Cruel",
+"pedro el cruel"
+],
+"n": 2500
+},
+{
+"t": [
+"Enrique IV"
+],
+"n": 3500
+},
+{
+"t": [
+"Felipe I el Hermoso",
+"felipe el hermoso"
+],
+"n": 4800
+},
+{
+"t": [
+"Fernando III el Santo",
+"fernando iii"
+],
+"n": 6700
+},
+{
+"t": [
+"Jaime I el Conquistador",
+"jaime el conquistador"
+],
+"n": 9200
+},
+{
+"t": [
+"Alfonso VIII"
+],
+"n": 13000
+},
+{
+"t": [
+"Leovigildo"
+],
+"n": 18000
+},
+{
+"t": [
+"Recaredo"
+],
+"n": 25000
+},
+{
+"t": [
+"Pelayo"
+],
+"n": 34000
+},
+{
+"t": [
+"Alfonso VI"
+],
+"n": 47000
+},
+{
+"t": [
+"Sancho III el Mayor"
+],
+"n": 66000
+},
+{
+"t": [
+"Alfonso II el Casto"
+],
+"n": 91000
+},
+{
+"t": [
+"Enrique II"
+],
+"n": 130000
+},
+{
+"t": [
+"Juan II"
+],
+"n": 180000
+},
+{
+"t": [
+"Fernando I"
+],
+"n": 240000
+},
+{
+"t": [
+"Ramiro II"
+],
+"n": 340000
+},
+{
+"t": [
+"Alfonso V el Magnánimo"
+],
+"n": 470000
+},
+{
+"t": [
+"Sancho IV"
+],
+"n": 650000
+},
+{
+"t": [
+"Ordoño II"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p65",
+"pregunta": "Nombra un personaje de la historia universal",
+"respuestas": [
+{
+"t": [
+"Napoleón",
+"napoleón bonaparte"
+],
+"n": 3
+},
+{
+"t": [
+"Julio César"
+],
+"n": 4
+},
+{
+"t": [
+"Hitler"
+],
+"n": 5
+},
+{
+"t": [
+"Cleopatra"
+],
+"n": 7
+},
+{
+"t": [
+"Alejandro Magno"
+],
+"n": 9
+},
+{
+"t": [
+"Gandhi"
+],
+"n": 12
+},
+{
+"t": [
+"Churchill"
+],
+"n": 15
+},
+{
+"t": [
+"Abraham Lincoln",
+"lincoln"
+],
+"n": 20
+},
+{
+"t": [
+"Leonardo da Vinci"
+],
+"n": 26
+},
+{
+"t": [
+"Mandela",
+"nelson mandela"
+],
+"n": 34
+},
+{
+"t": [
+"Stalin"
+],
+"n": 45
+},
+{
+"t": [
+"Lenin"
+],
+"n": 58
+},
+{
+"t": [
+"Carlomagno"
+],
+"n": 77
+},
+{
+"t": [
+"Gengis Kan",
+"gengis khan"
+],
+"n": 100
+},
+{
+"t": [
+"Atila"
+],
+"n": 130
+},
+{
+"t": [
+"Nerón"
+],
+"n": 170
+},
+{
+"t": [
+"Augusto",
+"octavio augusto"
+],
+"n": 230
+},
+{
+"t": [
+"Marco Aurelio"
+],
+"n": 300
+},
+{
+"t": [
+"George Washington",
+"washington"
+],
+"n": 390
+},
+{
+"t": [
+"Martin Luther King",
+"luther king"
+],
+"n": 510
+},
+{
+"t": [
+"Che Guevara",
+"che"
+],
+"n": 610
+},
+{
+"t": [
+"Mussolini"
+],
+"n": 740
+},
+{
+"t": [
+"Mao",
+"mao zedong"
+],
+"n": 900
+},
+{
+"t": [
+"Juana de Arco"
+],
+"n": 1100
+},
+{
+"t": [
+"Simón Bolívar",
+"bolívar"
+],
+"n": 1300
+},
+{
+"t": [
+"Isabel I de Inglaterra"
+],
+"n": 1600
+},
+{
+"t": [
+"Catalina la Grande",
+"catalina ii"
+],
+"n": 1900
+},
+{
+"t": [
+"Luis XIV",
+"rey sol"
+],
+"n": 2400
+},
+{
+"t": [
+"María Antonieta"
+],
+"n": 2900
+},
+{
+"t": [
+"Robespierre"
+],
+"n": 3500
+},
+{
+"t": [
+"Aníbal"
+],
+"n": 4200
+},
+{
+"t": [
+"Pericles"
+],
+"n": 5100
+},
+{
+"t": [
+"Sócrates"
+],
+"n": 6100
+},
+{
+"t": [
+"Platón"
+],
+"n": 7400
+},
+{
+"t": [
+"Ramsés II",
+"ramses"
+],
+"n": 9000
+},
+{
+"t": [
+"Tutankamón"
+],
+"n": 11000
+},
+{
+"t": [
+"Marco Polo"
+],
+"n": 13000
+},
+{
+"t": [
+"Magallanes"
+],
+"n": 16000
+},
+{
+"t": [
+"Kennedy",
+"john f kennedy",
+"jfk"
+],
+"n": 19000
+},
+{
+"t": [
+"Roosevelt"
+],
+"n": 24000
+},
+{
+"t": [
+"De Gaulle"
+],
+"n": 28000
+},
+{
+"t": [
+"Fidel Castro",
+"castro"
+],
+"n": 35000
+},
+{
+"t": [
+"Karl Marx",
+"marx"
+],
+"n": 42000
+},
+{
+"t": [
+"Ho Chi Minh"
+],
+"n": 51000
+},
+{
+"t": [
+"Colón",
+"cristóbal colón"
+],
+"n": 61000
+},
+{
+"t": [
+"Hernán Cortés"
+],
+"n": 74000
+},
+{
+"t": [
+"Pizarro"
+],
+"n": 90000
+},
+{
+"t": [
+"Espartaco"
+],
+"n": 110000
+},
+{
+"t": [
+"Pompeyo"
+],
+"n": 130000
+},
+{
+"t": [
+"Constantino"
+],
+"n": 160000
+},
+{
+"t": [
+"Justiniano"
+],
+"n": 190000
+},
+{
+"t": [
+"Saladino"
+],
+"n": 230000
+},
+{
+"t": [
+"Ricardo Corazón de León",
+"corazon de leon"
+],
+"n": 280000
+},
+{
+"t": [
+"Enrique VIII"
+],
+"n": 340000
+},
+{
+"t": [
+"Victoria",
+"reina victoria"
+],
+"n": 420000
+},
+{
+"t": [
+"Nelson"
+],
+"n": 510000
+},
+{
+"t": [
+"Wellington"
+],
+"n": 610000
+},
+{
+"t": [
+"Bismarck"
+],
+"n": 740000
+},
+{
+"t": [
+"Gorbachov",
+"gorbachev"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p66",
+"pregunta": "Nombra un dios o una diosa de la mitología griega o romana",
+"respuestas": [
+{
+"t": [
+"Zeus"
+],
+"n": 3
+},
+{
+"t": [
+"Poseidón"
+],
+"n": 4
+},
+{
+"t": [
+"Hades"
+],
+"n": 5
+},
+{
+"t": [
+"Apolo"
+],
+"n": 7
+},
+{
+"t": [
+"Afrodita"
+],
+"n": 9
+},
+{
+"t": [
+"Atenea"
+],
+"n": 12
+},
+{
+"t": [
+"Ares"
+],
+"n": 15
+},
+{
+"t": [
+"Hermes"
+],
+"n": 20
+},
+{
+"t": [
+"Artemisa"
+],
+"n": 26
+},
+{
+"t": [
+"Dioniso"
+],
+"n": 34
+},
+{
+"t": [
+"Hera"
+],
+"n": 45
+},
+{
+"t": [
+"Hefesto"
+],
+"n": 58
+},
+{
+"t": [
+"Deméter"
+],
+"n": 77
+},
+{
+"t": [
+"Cupido",
+"eros"
+],
+"n": 100
+},
+{
+"t": [
+"Júpiter"
+],
+"n": 130
+},
+{
+"t": [
+"Marte"
+],
+"n": 170
+},
+{
+"t": [
+"Venus"
+],
+"n": 230
+},
+{
+"t": [
+"Neptuno"
+],
+"n": 300
+},
+{
+"t": [
+"Minerva"
+],
+"n": 390
+},
+{
+"t": [
+"Mercurio"
+],
+"n": 510
+},
+{
+"t": [
+"Diana"
+],
+"n": 600
+},
+{
+"t": [
+"Saturno"
+],
+"n": 700
+},
+{
+"t": [
+"Plutón"
+],
+"n": 830
+},
+{
+"t": [
+"Juno"
+],
+"n": 970
+},
+{
+"t": [
+"Baco"
+],
+"n": 1100
+},
+{
+"t": [
+"Vulcano"
+],
+"n": 1300
+},
+{
+"t": [
+"Cronos"
+],
+"n": 1600
+},
+{
+"t": [
+"Hestia"
+],
+"n": 1900
+},
+{
+"t": [
+"Perséfone"
+],
+"n": 2200
+},
+{
+"t": [
+"Gea"
+],
+"n": 2600
+},
+{
+"t": [
+"Urano"
+],
+"n": 3000
+},
+{
+"t": [
+"Hécate"
+],
+"n": 3600
+},
+{
+"t": [
+"Nike"
+],
+"n": 4200
+},
+{
+"t": [
+"Morfeo"
+],
+"n": 4900
+},
+{
+"t": [
+"Tánatos"
+],
+"n": 5800
+},
+{
+"t": [
+"Pan"
+],
+"n": 6800
+},
+{
+"t": [
+"Éolo"
+],
+"n": 8100
+},
+{
+"t": [
+"Ceres"
+],
+"n": 9500
+},
+{
+"t": [
+"Vesta"
+],
+"n": 11000
+},
+{
+"t": [
+"Jano"
+],
+"n": 13000
+},
+{
+"t": [
+"Febo"
+],
+"n": 15000
+},
+{
+"t": [
+"Hipnos"
+],
+"n": 18000
+},
+{
+"t": [
+"Iris"
+],
+"n": 21000
+},
+{
+"t": [
+"Némesis"
+],
+"n": 25000
+},
+{
+"t": [
+"Fortuna"
+],
+"n": 30000
+},
+{
+"t": [
+"Aurora"
+],
+"n": 35000
+},
+{
+"t": [
+"Flora"
+],
+"n": 41000
+},
+{
+"t": [
+"Fauno"
+],
+"n": 48000
+},
+{
+"t": [
+"Bóreas"
+],
+"n": 57000
+},
+{
+"t": [
+"Eos"
+],
+"n": 67000
+},
+{
+"t": [
+"Helios"
+],
+"n": 78000
+},
+{
+"t": [
+"Selene"
+],
+"n": 92000
+},
+{
+"t": [
+"Tritón"
+],
+"n": 110000
+},
+{
+"t": [
+"Anfitrite"
+],
+"n": 130000
+},
+{
+"t": [
+"Nereo"
+],
+"n": 150000
+},
+{
+"t": [
+"Proteo"
+],
+"n": 180000
+},
+{
+"t": [
+"Prometeo"
+],
+"n": 210000
+},
+{
+"t": [
+"Pandora"
+],
+"n": 240000
+},
+{
+"t": [
+"Mnemósine"
+],
+"n": 290000
+},
+{
+"t": [
+"Temis"
+],
+"n": 340000
+},
+{
+"t": [
+"Rea"
+],
+"n": 400000
+},
+{
+"t": [
+"Océano"
+],
+"n": 470000
+},
+{
+"t": [
+"Tetis"
+],
+"n": 550000
+},
+{
+"t": [
+"Hiperión"
+],
+"n": 650000
+},
+{
+"t": [
+"Atlas"
+],
+"n": 760000
+},
+{
+"t": [
+"Epimeteo"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p67",
+"pregunta": "Nombra una enfermedad",
+"respuestas": [
+{
+"t": [
+"Gripe"
+],
+"n": 3
+},
+{
+"t": [
+"Cáncer"
+],
+"n": 4
+},
+{
+"t": [
+"Diabetes"
+],
+"n": 5
+},
+{
+"t": [
+"Covid",
+"covid-19",
+"coronavirus",
+"covid 19"
+],
+"n": 7
+},
+{
+"t": [
+"Resfriado",
+"catarro"
+],
+"n": 9
+},
+{
+"t": [
+"Varicela"
+],
+"n": 12
+},
+{
+"t": [
+"Sarampión"
+],
+"n": 15
+},
+{
+"t": [
+"Asma"
+],
+"n": 20
+},
+{
+"t": [
+"Alzhéimer"
+],
+"n": 26
+},
+{
+"t": [
+"Neumonía"
+],
+"n": 34
+},
+{
+"t": [
+"Hipertensión"
+],
+"n": 45
+},
+{
+"t": [
+"Tuberculosis"
+],
+"n": 58
+},
+{
+"t": [
+"Sida",
+"vih"
+],
+"n": 77
+},
+{
+"t": [
+"Malaria",
+"paludismo"
+],
+"n": 100
+},
+{
+"t": [
+"Cólera"
+],
+"n": 130
+},
+{
+"t": [
+"Peste"
+],
+"n": 170
+},
+{
+"t": [
+"Lepra"
+],
+"n": 230
+},
+{
+"t": [
+"Rubéola"
+],
+"n": 300
+},
+{
+"t": [
+"Paperas"
+],
+"n": 390
+},
+{
+"t": [
+"Hepatitis"
+],
+"n": 510
+},
+{
+"t": [
+"Bronquitis"
+],
+"n": 600
+},
+{
+"t": [
+"Anemia"
+],
+"n": 700
+},
+{
+"t": [
+"Migraña"
+],
+"n": 830
+},
+{
+"t": [
+"Depresión"
+],
+"n": 970
+},
+{
+"t": [
+"Artrosis"
+],
+"n": 1100
+},
+{
+"t": [
+"Osteoporosis"
+],
+"n": 1300
+},
+{
+"t": [
+"Parkinson"
+],
+"n": 1600
+},
+{
+"t": [
+"Esclerosis múltiple"
+],
+"n": 1900
+},
+{
+"t": [
+"Epilepsia"
+],
+"n": 2200
+},
+{
+"t": [
+"Gastroenteritis"
+],
+"n": 2600
+},
+{
+"t": [
+"Amigdalitis"
+],
+"n": 3000
+},
+{
+"t": [
+"Conjuntivitis"
+],
+"n": 3600
+},
+{
+"t": [
+"Otitis"
+],
+"n": 4200
+},
+{
+"t": [
+"Fibromialgia"
+],
+"n": 4900
+},
+{
+"t": [
+"Celiaquía"
+],
+"n": 5800
+},
+{
+"t": [
+"Colesterol"
+],
+"n": 6800
+},
+{
+"t": [
+"Ébola"
+],
+"n": 8100
+},
+{
+"t": [
+"Viruela"
+],
+"n": 9500
+},
+{
+"t": [
+"Polio"
+],
+"n": 11000
+},
+{
+"t": [
+"Tétanos"
+],
+"n": 13000
+},
+{
+"t": [
+"Rabia"
+],
+"n": 15000
+},
+{
+"t": [
+"Dengue"
+],
+"n": 18000
+},
+{
+"t": [
+"Zika"
+],
+"n": 21000
+},
+{
+"t": [
+"Escarlatina"
+],
+"n": 25000
+},
+{
+"t": [
+"Gota"
+],
+"n": 30000
+},
+{
+"t": [
+"Reuma",
+"reumatismo"
+],
+"n": 35000
+},
+{
+"t": [
+"Ictus"
+],
+"n": 41000
+},
+{
+"t": [
+"Infarto"
+],
+"n": 48000
+},
+{
+"t": [
+"Alergia"
+],
+"n": 57000
+},
+{
+"t": [
+"Eczema"
+],
+"n": 67000
+},
+{
+"t": [
+"Psoriasis"
+],
+"n": 78000
+},
+{
+"t": [
+"Sinusitis"
+],
+"n": 92000
+},
+{
+"t": [
+"Faringitis"
+],
+"n": 110000
+},
+{
+"t": [
+"Apendicitis"
+],
+"n": 130000
+},
+{
+"t": [
+"Cistitis"
+],
+"n": 150000
+},
+{
+"t": [
+"Salmonelosis"
+],
+"n": 180000
+},
+{
+"t": [
+"Legionela"
+],
+"n": 210000
+},
+{
+"t": [
+"Lupus"
+],
+"n": 240000
+},
+{
+"t": [
+"ELA",
+"esclerosis lateral amiotrófica"
+],
+"n": 290000
+},
+{
+"t": [
+"Cataratas"
+],
+"n": 340000
+},
+{
+"t": [
+"Glaucoma"
+],
+"n": 400000
+},
+{
+"t": [
+"Hernia"
+],
+"n": 470000
+},
+{
+"t": [
+"Cirrosis"
+],
+"n": 550000
+},
+{
+"t": [
+"Escoliosis"
+],
+"n": 650000
+},
+{
+"t": [
+"Autismo"
+],
+"n": 760000
+},
+{
+"t": [
+"Tos ferina"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p68",
+"pregunta": "Nombra una parte del cuerpo humano",
+"respuestas": [
+{
+"t": [
+"Cabeza"
+],
+"n": 3
+},
+{
+"t": [
+"Mano"
+],
+"n": 4
+},
+{
+"t": [
+"Pie"
+],
+"n": 5
+},
+{
+"t": [
+"Brazo"
+],
+"n": 7
+},
+{
+"t": [
+"Pierna"
+],
+"n": 9
+},
+{
+"t": [
+"Ojo"
+],
+"n": 12
+},
+{
+"t": [
+"Nariz"
+],
+"n": 15
+},
+{
+"t": [
+"Boca"
+],
+"n": 20
+},
+{
+"t": [
+"Oreja"
+],
+"n": 26
+},
+{
+"t": [
+"Pelo",
+"cabello"
+],
+"n": 34
+},
+{
+"t": [
+"Dedo"
+],
+"n": 45
+},
+{
+"t": [
+"Rodilla"
+],
+"n": 58
+},
+{
+"t": [
+"Cuello"
+],
+"n": 77
+},
+{
+"t": [
+"Espalda"
+],
+"n": 100
+},
+{
+"t": [
+"Codo"
+],
+"n": 130
+},
+{
+"t": [
+"Hombro"
+],
+"n": 170
+},
+{
+"t": [
+"Barriga",
+"tripa",
+"abdomen",
+"vientre"
+],
+"n": 230
+},
+{
+"t": [
+"Pecho"
+],
+"n": 300
+},
+{
+"t": [
+"Cara"
+],
+"n": 390
+},
+{
+"t": [
+"Lengua"
+],
+"n": 510
+},
+{
+"t": [
+"Diente"
+],
+"n": 610
+},
+{
+"t": [
+"Uña"
+],
+"n": 740
+},
+{
+"t": [
+"Tobillo"
+],
+"n": 890
+},
+{
+"t": [
+"Muñeca"
+],
+"n": 1100
+},
+{
+"t": [
+"Cintura"
+],
+"n": 1300
+},
+{
+"t": [
+"Cadera"
+],
+"n": 1600
+},
+{
+"t": [
+"Frente"
+],
+"n": 1900
+},
+{
+"t": [
+"Mejilla"
+],
+"n": 2300
+},
+{
+"t": [
+"Ceja"
+],
+"n": 2700
+},
+{
+"t": [
+"Pestaña"
+],
+"n": 3300
+},
+{
+"t": [
+"Barbilla"
+],
+"n": 4000
+},
+{
+"t": [
+"Talón"
+],
+"n": 4800
+},
+{
+"t": [
+"Muslo"
+],
+"n": 5800
+},
+{
+"t": [
+"Pantorrilla",
+"gemelo"
+],
+"n": 7000
+},
+{
+"t": [
+"Axila"
+],
+"n": 8400
+},
+{
+"t": [
+"Ombligo"
+],
+"n": 10000
+},
+{
+"t": [
+"Nuca"
+],
+"n": 12000
+},
+{
+"t": [
+"Garganta"
+],
+"n": 15000
+},
+{
+"t": [
+"Glúteo",
+"culo",
+"trasero"
+],
+"n": 18000
+},
+{
+"t": [
+"Párpado"
+],
+"n": 21000
+},
+{
+"t": [
+"Lóbulo"
+],
+"n": 26000
+},
+{
+"t": [
+"Úvula"
+],
+"n": 31000
+},
+{
+"t": [
+"Labio"
+],
+"n": 37000
+},
+{
+"t": [
+"Sien"
+],
+"n": 45000
+},
+{
+"t": [
+"Nudillo"
+],
+"n": 54000
+},
+{
+"t": [
+"Palma"
+],
+"n": 66000
+},
+{
+"t": [
+"Planta del pie",
+"planta"
+],
+"n": 79000
+},
+{
+"t": [
+"Dedo gordo"
+],
+"n": 95000
+},
+{
+"t": [
+"Meñique"
+],
+"n": 120000
+},
+{
+"t": [
+"Pulgar"
+],
+"n": 140000
+},
+{
+"t": [
+"Índice"
+],
+"n": 170000
+},
+{
+"t": [
+"Corazón"
+],
+"n": 200000
+},
+{
+"t": [
+"Cerebro"
+],
+"n": 240000
+},
+{
+"t": [
+"Pulmón"
+],
+"n": 290000
+},
+{
+"t": [
+"Estómago"
+],
+"n": 350000
+},
+{
+"t": [
+"Hígado"
+],
+"n": 430000
+},
+{
+"t": [
+"Riñón"
+],
+"n": 510000
+},
+{
+"t": [
+"Columna"
+],
+"n": 620000
+},
+{
+"t": [
+"Costillas"
+],
+"n": 750000
+},
+{
+"t": [
+"Entrepierna"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p69",
+"pregunta": "Nombra un medio de transporte",
+"respuestas": [
+{
+"t": [
+"Coche",
+"carro",
+"automóvil"
+],
+"n": 3
+},
+{
+"t": [
+"Avión"
+],
+"n": 4
+},
+{
+"t": [
+"Tren"
+],
+"n": 5
+},
+{
+"t": [
+"Autobús",
+"bus"
+],
+"n": 7
+},
+{
+"t": [
+"Barco"
+],
+"n": 9
+},
+{
+"t": [
+"Bicicleta",
+"bici"
+],
+"n": 12
+},
+{
+"t": [
+"Moto",
+"motocicleta"
+],
+"n": 15
+},
+{
+"t": [
+"Metro"
+],
+"n": 20
+},
+{
+"t": [
+"Taxi"
+],
+"n": 26
+},
+{
+"t": [
+"Camión"
+],
+"n": 34
+},
+{
+"t": [
+"Tranvía"
+],
+"n": 45
+},
+{
+"t": [
+"Helicóptero"
+],
+"n": 58
+},
+{
+"t": [
+"Patinete"
+],
+"n": 77
+},
+{
+"t": [
+"Furgoneta"
+],
+"n": 100
+},
+{
+"t": [
+"Globo aerostático",
+"globo"
+],
+"n": 130
+},
+{
+"t": [
+"Cohete"
+],
+"n": 170
+},
+{
+"t": [
+"Ferry",
+"transbordador"
+],
+"n": 230
+},
+{
+"t": [
+"Submarino"
+],
+"n": 300
+},
+{
+"t": [
+"Teleférico"
+],
+"n": 390
+},
+{
+"t": [
+"Caballo"
+],
+"n": 510
+},
+{
+"t": [
+"Burro"
+],
+"n": 630
+},
+{
+"t": [
+"Trineo"
+],
+"n": 790
+},
+{
+"t": [
+"Monopatín",
+"skate"
+],
+"n": 980
+},
+{
+"t": [
+"Yate"
+],
+"n": 1200
+},
+{
+"t": [
+"Velero"
+],
+"n": 1500
+},
+{
+"t": [
+"Canoa"
+],
+"n": 1900
+},
+{
+"t": [
+"Segway"
+],
+"n": 2400
+},
+{
+"t": [
+"Carreta",
+"carro de caballos"
+],
+"n": 2900
+},
+{
+"t": [
+"Autocaravana",
+"caravana"
+],
+"n": 3700
+},
+{
+"t": [
+"Tuk-tuk",
+"tuk tuk"
+],
+"n": 4600
+},
+{
+"t": [
+"Góndola"
+],
+"n": 5700
+},
+{
+"t": [
+"Funicular"
+],
+"n": 7100
+},
+{
+"t": [
+"Ambulancia"
+],
+"n": 8900
+},
+{
+"t": [
+"Dirigible",
+"zepelín",
+"zeppelin"
+],
+"n": 11000
+},
+{
+"t": [
+"Cercanías"
+],
+"n": 14000
+},
+{
+"t": [
+"AVE",
+"tren de alta velocidad"
+],
+"n": 17000
+},
+{
+"t": [
+"Crucero"
+],
+"n": 21000
+},
+{
+"t": [
+"Piragua"
+],
+"n": 27000
+},
+{
+"t": [
+"Kayak"
+],
+"n": 33000
+},
+{
+"t": [
+"Lancha"
+],
+"n": 41000
+},
+{
+"t": [
+"Patines"
+],
+"n": 52000
+},
+{
+"t": [
+"Remolque"
+],
+"n": 64000
+},
+{
+"t": [
+"Moto acuática",
+"moto de agua"
+],
+"n": 80000
+},
+{
+"t": [
+"Hovercraft"
+],
+"n": 100000
+},
+{
+"t": [
+"Tractor"
+],
+"n": 120000
+},
+{
+"t": [
+"Camello"
+],
+"n": 150000
+},
+{
+"t": [
+"Elefante"
+],
+"n": 190000
+},
+{
+"t": [
+"Rickshaw"
+],
+"n": 240000
+},
+{
+"t": [
+"Bus turístico"
+],
+"n": 300000
+},
+{
+"t": [
+"Tren de vapor"
+],
+"n": 370000
+},
+{
+"t": [
+"Ala delta"
+],
+"n": 470000
+},
+{
+"t": [
+"Parapente"
+],
+"n": 580000
+},
+{
+"t": [
+"Hoverboard"
+],
+"n": 720000
+},
+{
+"t": [
+"Bicicleta eléctrica",
+"bici electrica"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p70",
+"pregunta": "Nombra una herramienta",
+"respuestas": [
+{
+"t": [
+"Martillo"
+],
+"n": 3
+},
+{
+"t": [
+"Destornillador"
+],
+"n": 4
+},
+{
+"t": [
+"Alicates"
+],
+"n": 5
+},
+{
+"t": [
+"Sierra"
+],
+"n": 7
+},
+{
+"t": [
+"Taladro"
+],
+"n": 9
+},
+{
+"t": [
+"Llave inglesa",
+"llave"
+],
+"n": 12
+},
+{
+"t": [
+"Pala"
+],
+"n": 15
+},
+{
+"t": [
+"Rastrillo"
+],
+"n": 20
+},
+{
+"t": [
+"Cinta métrica",
+"metro",
+"flexómetro"
+],
+"n": 26
+},
+{
+"t": [
+"Lima"
+],
+"n": 34
+},
+{
+"t": [
+"Cincel"
+],
+"n": 45
+},
+{
+"t": [
+"Serrucho"
+],
+"n": 58
+},
+{
+"t": [
+"Nivel"
+],
+"n": 77
+},
+{
+"t": [
+"Hacha"
+],
+"n": 100
+},
+{
+"t": [
+"Pico"
+],
+"n": 130
+},
+{
+"t": [
+"Azada"
+],
+"n": 170
+},
+{
+"t": [
+"Brocha"
+],
+"n": 230
+},
+{
+"t": [
+"Espátula"
+],
+"n": 300
+},
+{
+"t": [
+"Cúter",
+"cutter"
+],
+"n": 390
+},
+{
+"t": [
+"Tenazas"
+],
+"n": 510
+},
+{
+"t": [
+"Escuadra"
+],
+"n": 650
+},
+{
+"t": [
+"Llana"
+],
+"n": 820
+},
+{
+"t": [
+"Soldador"
+],
+"n": 1000
+},
+{
+"t": [
+"Lijadora"
+],
+"n": 1300
+},
+{
+"t": [
+"Cepillo"
+],
+"n": 1700
+},
+{
+"t": [
+"Berbiquí"
+],
+"n": 2200
+},
+{
+"t": [
+"Formón"
+],
+"n": 2700
+},
+{
+"t": [
+"Gato hidráulico",
+"gato"
+],
+"n": 3500
+},
+{
+"t": [
+"Martillo neumático"
+],
+"n": 4500
+},
+{
+"t": [
+"Maza"
+],
+"n": 5700
+},
+{
+"t": [
+"Pinzas"
+],
+"n": 7200
+},
+{
+"t": [
+"Polea"
+],
+"n": 9200
+},
+{
+"t": [
+"Palanca"
+],
+"n": 12000
+},
+{
+"t": [
+"Remachadora"
+],
+"n": 15000
+},
+{
+"t": [
+"Radial"
+],
+"n": 19000
+},
+{
+"t": [
+"Garlopa"
+],
+"n": 24000
+},
+{
+"t": [
+"Plomada"
+],
+"n": 31000
+},
+{
+"t": [
+"Compás"
+],
+"n": 39000
+},
+{
+"t": [
+"Tijeras de podar",
+"tijeras"
+],
+"n": 50000
+},
+{
+"t": [
+"Podadora"
+],
+"n": 63000
+},
+{
+"t": [
+"Cortacésped"
+],
+"n": 81000
+},
+{
+"t": [
+"Sierra de calar",
+"caladora"
+],
+"n": 100000
+},
+{
+"t": [
+"Fresadora"
+],
+"n": 130000
+},
+{
+"t": [
+"Torno"
+],
+"n": 170000
+},
+{
+"t": [
+"Yunque"
+],
+"n": 210000
+},
+{
+"t": [
+"Fuelle"
+],
+"n": 270000
+},
+{
+"t": [
+"Hoz"
+],
+"n": 340000
+},
+{
+"t": [
+"Guadaña"
+],
+"n": 440000
+},
+{
+"t": [
+"Hachuela"
+],
+"n": 560000
+},
+{
+"t": [
+"Barrena"
+],
+"n": 710000
+},
+{
+"t": [
+"Gubia"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p71",
+"pregunta": "Nombra un electrodoméstico",
+"respuestas": [
+{
+"t": [
+"Nevera",
+"frigorífico"
+],
+"n": 3
+},
+{
+"t": [
+"Lavadora"
+],
+"n": 4
+},
+{
+"t": [
+"Televisión",
+"tele"
+],
+"n": 5
+},
+{
+"t": [
+"Microondas"
+],
+"n": 7
+},
+{
+"t": [
+"Horno"
+],
+"n": 9
+},
+{
+"t": [
+"Lavavajillas"
+],
+"n": 12
+},
+{
+"t": [
+"Aspiradora"
+],
+"n": 15
+},
+{
+"t": [
+"Plancha"
+],
+"n": 20
+},
+{
+"t": [
+"Tostadora"
+],
+"n": 26
+},
+{
+"t": [
+"Batidora"
+],
+"n": 34
+},
+{
+"t": [
+"Cafetera"
+],
+"n": 45
+},
+{
+"t": [
+"Secadora"
+],
+"n": 58
+},
+{
+"t": [
+"Secador",
+"secador de pelo"
+],
+"n": 77
+},
+{
+"t": [
+"Ventilador"
+],
+"n": 100
+},
+{
+"t": [
+"Aire acondicionado"
+],
+"n": 130
+},
+{
+"t": [
+"Radio"
+],
+"n": 170
+},
+{
+"t": [
+"Licuadora"
+],
+"n": 230
+},
+{
+"t": [
+"Freidora de aire",
+"freidora",
+"airfryer"
+],
+"n": 300
+},
+{
+"t": [
+"Robot de cocina",
+"thermomix"
+],
+"n": 390
+},
+{
+"t": [
+"Cocina",
+"vitrocerámica"
+],
+"n": 510
+},
+{
+"t": [
+"Campana extractora",
+"campana"
+],
+"n": 640
+},
+{
+"t": [
+"Hervidor"
+],
+"n": 800
+},
+{
+"t": [
+"Exprimidor"
+],
+"n": 1000
+},
+{
+"t": [
+"Calefactor",
+"estufa"
+],
+"n": 1300
+},
+{
+"t": [
+"Congelador"
+],
+"n": 1600
+},
+{
+"t": [
+"Robot aspirador",
+"roomba"
+],
+"n": 2000
+},
+{
+"t": [
+"Picadora"
+],
+"n": 2500
+},
+{
+"t": [
+"Olla a presión",
+"olla"
+],
+"n": 3100
+},
+{
+"t": [
+"Arrocera"
+],
+"n": 3900
+},
+{
+"t": [
+"Yogurtera"
+],
+"n": 4900
+},
+{
+"t": [
+"Gofrera"
+],
+"n": 6100
+},
+{
+"t": [
+"Sandwichera"
+],
+"n": 7700
+},
+{
+"t": [
+"Humidificador"
+],
+"n": 9700
+},
+{
+"t": [
+"Deshumidificador"
+],
+"n": 12000
+},
+{
+"t": [
+"Ordenador"
+],
+"n": 15000
+},
+{
+"t": [
+"Altavoz"
+],
+"n": 19000
+},
+{
+"t": [
+"Cuchillo eléctrico"
+],
+"n": 24000
+},
+{
+"t": [
+"Afeitadora"
+],
+"n": 30000
+},
+{
+"t": [
+"Depiladora"
+],
+"n": 38000
+},
+{
+"t": [
+"Plancha de pelo"
+],
+"n": 47000
+},
+{
+"t": [
+"Cargador"
+],
+"n": 59000
+},
+{
+"t": [
+"Radiador"
+],
+"n": 74000
+},
+{
+"t": [
+"Termo eléctrico",
+"termo"
+],
+"n": 93000
+},
+{
+"t": [
+"Fondue"
+],
+"n": 120000
+},
+{
+"t": [
+"Heladera"
+],
+"n": 150000
+},
+{
+"t": [
+"Panificadora"
+],
+"n": 180000
+},
+{
+"t": [
+"Máquina de coser"
+],
+"n": 230000
+},
+{
+"t": [
+"Cortapelos"
+],
+"n": 290000
+},
+{
+"t": [
+"Cepillo eléctrico"
+],
+"n": 360000
+},
+{
+"t": [
+"Plancha de vapor"
+],
+"n": 460000
+},
+{
+"t": [
+"Batidora de vaso"
+],
+"n": 570000
+},
+{
+"t": [
+"Molinillo de café"
+],
+"n": 720000
+},
+{
+"t": [
+"Extractor"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p72",
+"pregunta": "Nombra una prenda de ropa",
+"respuestas": [
+{
+"t": [
+"Camiseta"
+],
+"n": 3
+},
+{
+"t": [
+"Pantalón"
+],
+"n": 4
+},
+{
+"t": [
+"Camisa"
+],
+"n": 5
+},
+{
+"t": [
+"Calcetines",
+"calcetín"
+],
+"n": 7
+},
+{
+"t": [
+"Falda"
+],
+"n": 9
+},
+{
+"t": [
+"Vestido"
+],
+"n": 12
+},
+{
+"t": [
+"Chaqueta"
+],
+"n": 15
+},
+{
+"t": [
+"Jersey"
+],
+"n": 20
+},
+{
+"t": [
+"Abrigo"
+],
+"n": 26
+},
+{
+"t": [
+"Sudadera"
+],
+"n": 34
+},
+{
+"t": [
+"Vaqueros",
+"jeans",
+"tejanos"
+],
+"n": 45
+},
+{
+"t": [
+"Bufanda"
+],
+"n": 58
+},
+{
+"t": [
+"Gorro"
+],
+"n": 77
+},
+{
+"t": [
+"Guantes"
+],
+"n": 100
+},
+{
+"t": [
+"Bragas"
+],
+"n": 130
+},
+{
+"t": [
+"Calzoncillos"
+],
+"n": 170
+},
+{
+"t": [
+"Sombrero"
+],
+"n": 230
+},
+{
+"t": [
+"Corbata"
+],
+"n": 300
+},
+{
+"t": [
+"Pijama"
+],
+"n": 390
+},
+{
+"t": [
+"Bañador"
+],
+"n": 510
+},
+{
+"t": [
+"Bikini",
+"biquini"
+],
+"n": 620
+},
+{
+"t": [
+"Chándal"
+],
+"n": 750
+},
+{
+"t": [
+"Cazadora"
+],
+"n": 920
+},
+{
+"t": [
+"Gabardina"
+],
+"n": 1100
+},
+{
+"t": [
+"Chaleco"
+],
+"n": 1400
+},
+{
+"t": [
+"Leotardos",
+"medias"
+],
+"n": 1700
+},
+{
+"t": [
+"Cinturón"
+],
+"n": 2000
+},
+{
+"t": [
+"Bermudas"
+],
+"n": 2400
+},
+{
+"t": [
+"Shorts",
+"pantalón corto"
+],
+"n": 3000
+},
+{
+"t": [
+"Mono"
+],
+"n": 3600
+},
+{
+"t": [
+"Peto"
+],
+"n": 4400
+},
+{
+"t": [
+"Blusa"
+],
+"n": 5400
+},
+{
+"t": [
+"Traje"
+],
+"n": 6600
+},
+{
+"t": [
+"Poncho"
+],
+"n": 8000
+},
+{
+"t": [
+"Pañuelo"
+],
+"n": 9700
+},
+{
+"t": [
+"Capa"
+],
+"n": 12000
+},
+{
+"t": [
+"Impermeable"
+],
+"n": 14000
+},
+{
+"t": [
+"Delantal",
+"babi"
+],
+"n": 18000
+},
+{
+"t": [
+"Kimono"
+],
+"n": 21000
+},
+{
+"t": [
+"Sujetador"
+],
+"n": 26000
+},
+{
+"t": [
+"Camiseta de tirantes",
+"tirantes"
+],
+"n": 32000
+},
+{
+"t": [
+"Polo"
+],
+"n": 39000
+},
+{
+"t": [
+"Parka"
+],
+"n": 47000
+},
+{
+"t": [
+"Anorak"
+],
+"n": 57000
+},
+{
+"t": [
+"Plumas",
+"plumífero"
+],
+"n": 70000
+},
+{
+"t": [
+"Mallas"
+],
+"n": 85000
+},
+{
+"t": [
+"Body"
+],
+"n": 100000
+},
+{
+"t": [
+"Top"
+],
+"n": 130000
+},
+{
+"t": [
+"Pichi"
+],
+"n": 150000
+},
+{
+"t": [
+"Cárdigan"
+],
+"n": 190000
+},
+{
+"t": [
+"Pantalón vaquero"
+],
+"n": 230000
+},
+{
+"t": [
+"Albornoz"
+],
+"n": 280000
+},
+{
+"t": [
+"Camisón"
+],
+"n": 340000
+},
+{
+"t": [
+"Batín"
+],
+"n": 410000
+},
+{
+"t": [
+"Uniforme"
+],
+"n": 500000
+},
+{
+"t": [
+"Toga"
+],
+"n": 610000
+},
+{
+"t": [
+"Sari"
+],
+"n": 740000
+},
+{
+"t": [
+"Chilaba"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p73",
+"pregunta": "Nombra una piedra preciosa",
+"respuestas": [
+{
+"t": [
+"Diamante"
+],
+"n": 3
+},
+{
+"t": [
+"Rubí"
+],
+"n": 4
+},
+{
+"t": [
+"Esmeralda"
+],
+"n": 5
+},
+{
+"t": [
+"Zafiro"
+],
+"n": 7
+},
+{
+"t": [
+"Amatista"
+],
+"n": 9
+},
+{
+"t": [
+"Perla"
+],
+"n": 12
+},
+{
+"t": [
+"Ópalo"
+],
+"n": 15
+},
+{
+"t": [
+"Topacio"
+],
+"n": 20
+},
+{
+"t": [
+"Turquesa"
+],
+"n": 26
+},
+{
+"t": [
+"Jade"
+],
+"n": 34
+},
+{
+"t": [
+"Granate"
+],
+"n": 45
+},
+{
+"t": [
+"Aguamarina"
+],
+"n": 58
+},
+{
+"t": [
+"Ámbar"
+],
+"n": 77
+},
+{
+"t": [
+"Cuarzo"
+],
+"n": 100
+},
+{
+"t": [
+"Ónix"
+],
+"n": 130
+},
+{
+"t": [
+"Citrino"
+],
+"n": 170
+},
+{
+"t": [
+"Lapislázuli"
+],
+"n": 230
+},
+{
+"t": [
+"Circón"
+],
+"n": 300
+},
+{
+"t": [
+"Obsidiana"
+],
+"n": 390
+},
+{
+"t": [
+"Jaspe"
+],
+"n": 510
+},
+{
+"t": [
+"Peridoto"
+],
+"n": 640
+},
+{
+"t": [
+"Coral"
+],
+"n": 810
+},
+{
+"t": [
+"Malaquita"
+],
+"n": 1000
+},
+{
+"t": [
+"Azabache"
+],
+"n": 1300
+},
+{
+"t": [
+"Alejandrita"
+],
+"n": 1600
+},
+{
+"t": [
+"Tanzanita"
+],
+"n": 2100
+},
+{
+"t": [
+"Berilo"
+],
+"n": 2600
+},
+{
+"t": [
+"Turmalina"
+],
+"n": 3300
+},
+{
+"t": [
+"Piedra luna",
+"piedra de la luna"
+],
+"n": 4200
+},
+{
+"t": [
+"Ojo de tigre"
+],
+"n": 5300
+},
+{
+"t": [
+"Cornalina"
+],
+"n": 6600
+},
+{
+"t": [
+"Agata"
+],
+"n": 8400
+},
+{
+"t": [
+"Heliotropo"
+],
+"n": 11000
+},
+{
+"t": [
+"Espinela"
+],
+"n": 13000
+},
+{
+"t": [
+"Moissanita"
+],
+"n": 17000
+},
+{
+"t": [
+"Rodocrosita"
+],
+"n": 21000
+},
+{
+"t": [
+"Larimar"
+],
+"n": 27000
+},
+{
+"t": [
+"Sodalita"
+],
+"n": 34000
+},
+{
+"t": [
+"Fluorita"
+],
+"n": 43000
+},
+{
+"t": [
+"Pirita"
+],
+"n": 54000
+},
+{
+"t": [
+"Hematita"
+],
+"n": 69000
+},
+{
+"t": [
+"Cuarzo rosa"
+],
+"n": 87000
+},
+{
+"t": [
+"Amazonita"
+],
+"n": 110000
+},
+{
+"t": [
+"Kunzita"
+],
+"n": 140000
+},
+{
+"t": [
+"Morganita"
+],
+"n": 180000
+},
+{
+"t": [
+"Crisoberilo"
+],
+"n": 220000
+},
+{
+"t": [
+"Crisoprasa"
+],
+"n": 280000
+},
+{
+"t": [
+"Calcedonia"
+],
+"n": 350000
+},
+{
+"t": [
+"Labradorita"
+],
+"n": 450000
+},
+{
+"t": [
+"Moldavita"
+],
+"n": 560000
+},
+{
+"t": [
+"Cianita"
+],
+"n": 710000
+},
+{
+"t": [
+"Sugilita"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p74",
+"pregunta": "Nombra una fiesta o tradición de España",
+"respuestas": [
+{
+"t": [
+"Navidad"
+],
+"n": 3
+},
+{
+"t": [
+"Semana Santa"
+],
+"n": 4
+},
+{
+"t": [
+"Las Fallas",
+"fallas"
+],
+"n": 5
+},
+{
+"t": [
+"San Fermín",
+"sanfermines"
+],
+"n": 7
+},
+{
+"t": [
+"Feria de Abril",
+"la feria de abril",
+"feria"
+],
+"n": 9
+},
+{
+"t": [
+"Tomatina",
+"la tomatina"
+],
+"n": 12
+},
+{
+"t": [
+"Nochevieja",
+"fin de año"
+],
+"n": 15
+},
+{
+"t": [
+"Reyes Magos",
+"día de reyes",
+"reyes"
+],
+"n": 20
+},
+{
+"t": [
+"Carnaval"
+],
+"n": 26
+},
+{
+"t": [
+"El Rocío",
+"rocio"
+],
+"n": 34
+},
+{
+"t": [
+"San Juan",
+"noche de san juan"
+],
+"n": 45
+},
+{
+"t": [
+"Moros y Cristianos"
+],
+"n": 58
+},
+{
+"t": [
+"Romería"
+],
+"n": 77
+},
+{
+"t": [
+"Corpus Christi"
+],
+"n": 100
+},
+{
+"t": [
+"Magosto"
+],
+"n": 130
+},
+{
+"t": [
+"Semana Grande"
+],
+"n": 170
+},
+{
+"t": [
+"Todos los Santos"
+],
+"n": 230
+},
+{
+"t": [
+"Halloween"
+],
+"n": 300
+},
+{
+"t": [
+"Castellers",
+"castells"
+],
+"n": 390
+},
+{
+"t": [
+"Cabalgata de Reyes",
+"cabalgata"
+],
+"n": 510
+},
+{
+"t": [
+"Cuaresma"
+],
+"n": 660
+},
+{
+"t": [
+"Fiestas del Pilar",
+"el pilar",
+"pilar"
+],
+"n": 850
+},
+{
+"t": [
+"Aste Nagusia"
+],
+"n": 1100
+},
+{
+"t": [
+"La Mercè"
+],
+"n": 1400
+},
+{
+"t": [
+"Sant Jordi"
+],
+"n": 1800
+},
+{
+"t": [
+"Batalla del Vino",
+"batalla del vino de haro"
+],
+"n": 2400
+},
+{
+"t": [
+"Encierros",
+"encierro"
+],
+"n": 3100
+},
+{
+"t": [
+"Feria de Málaga"
+],
+"n": 4000
+},
+{
+"t": [
+"Hogueras",
+"hogueras de san juan"
+],
+"n": 5200
+},
+{
+"t": [
+"Día de la Hispanidad",
+"hispanidad",
+"12 de octubre"
+],
+"n": 6700
+},
+{
+"t": [
+"Quema de Judas"
+],
+"n": 8700
+},
+{
+"t": [
+"Carnaval de Cádiz"
+],
+"n": 11000
+},
+{
+"t": [
+"Carnaval de Tenerife"
+],
+"n": 15000
+},
+{
+"t": [
+"Fiesta de la Vendimia",
+"vendimia"
+],
+"n": 19000
+},
+{
+"t": [
+"San Isidro"
+],
+"n": 24000
+},
+{
+"t": [
+"Feria de San Isidro"
+],
+"n": 31000
+},
+{
+"t": [
+"Corrida de toros",
+"toros"
+],
+"n": 41000
+},
+{
+"t": [
+"Mayos"
+],
+"n": 53000
+},
+{
+"t": [
+"Batalla de flores"
+],
+"n": 68000
+},
+{
+"t": [
+"Fiesta del Cordero"
+],
+"n": 88000
+},
+{
+"t": [
+"Fiesta del Agua"
+],
+"n": 110000
+},
+{
+"t": [
+"Lunes de Pascua"
+],
+"n": 150000
+},
+{
+"t": [
+"Día de la Constitución"
+],
+"n": 190000
+},
+{
+"t": [
+"Los Santos Inocentes",
+"inocentes"
+],
+"n": 250000
+},
+{
+"t": [
+"Noche de los Mayos"
+],
+"n": 320000
+},
+{
+"t": [
+"Cascamorras"
+],
+"n": 420000
+},
+{
+"t": [
+"Danza del Escudo"
+],
+"n": 540000
+},
+{
+"t": [
+"Fiestas de la Virgen Blanca"
+],
+"n": 700000
+},
+{
+"t": [
+"Mareas"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p75",
+"pregunta": "Nombra un nombre de mujer",
+"respuestas": [
+{
+"t": [
+"María"
+],
+"n": 4
+},
+{
+"t": [
+"Laura"
+],
+"n": 5
+},
+{
+"t": [
+"Ana"
+],
+"n": 7
+},
+{
+"t": [
+"Lucía"
+],
+"n": 9
+},
+{
+"t": [
+"Marta"
+],
+"n": 12
+},
+{
+"t": [
+"Carmen"
+],
+"n": 15
+},
+{
+"t": [
+"Paula"
+],
+"n": 20
+},
+{
+"t": [
+"Sara"
+],
+"n": 26
+},
+{
+"t": [
+"Elena"
+],
+"n": 35
+},
+{
+"t": [
+"Sofía"
+],
+"n": 45
+},
+{
+"t": [
+"Isabel"
+],
+"n": 60
+},
+{
+"t": [
+"Andrea"
+],
+"n": 78
+},
+{
+"t": [
+"Cristina"
+],
+"n": 100
+},
+{
+"t": [
+"Patricia"
+],
+"n": 130
+},
+{
+"t": [
+"Raquel"
+],
+"n": 180
+},
+{
+"t": [
+"Alba"
+],
+"n": 230
+},
+{
+"t": [
+"Claudia"
+],
+"n": 300
+},
+{
+"t": [
+"Julia"
+],
+"n": 390
+},
+{
+"t": [
+"Noelia"
+],
+"n": 520
+},
+{
+"t": [
+"Beatriz"
+],
+"n": 680
+},
+{
+"t": [
+"Pilar"
+],
+"n": 780
+},
+{
+"t": [
+"Rosa"
+],
+"n": 900
+},
+{
+"t": [
+"Irene"
+],
+"n": 1000
+},
+{
+"t": [
+"Silvia"
+],
+"n": 1200
+},
+{
+"t": [
+"Eva"
+],
+"n": 1400
+},
+{
+"t": [
+"Natalia"
+],
+"n": 1600
+},
+{
+"t": [
+"Sandra"
+],
+"n": 1900
+},
+{
+"t": [
+"Lorena"
+],
+"n": 2100
+},
+{
+"t": [
+"Mónica"
+],
+"n": 2500
+},
+{
+"t": [
+"Inés"
+],
+"n": 2800
+},
+{
+"t": [
+"Teresa"
+],
+"n": 3300
+},
+{
+"t": [
+"Nuria"
+],
+"n": 3800
+},
+{
+"t": [
+"Rocío"
+],
+"n": 4400
+},
+{
+"t": [
+"Alicia"
+],
+"n": 5100
+},
+{
+"t": [
+"Lidia"
+],
+"n": 5900
+},
+{
+"t": [
+"Victoria"
+],
+"n": 6800
+},
+{
+"t": [
+"Emma"
+],
+"n": 7800
+},
+{
+"t": [
+"Valeria"
+],
+"n": 9000
+},
+{
+"t": [
+"Daniela"
+],
+"n": 10000
+},
+{
+"t": [
+"Martina"
+],
+"n": 12000
+},
+{
+"t": [
+"Carla"
+],
+"n": 14000
+},
+{
+"t": [
+"Ainhoa"
+],
+"n": 16000
+},
+{
+"t": [
+"Aitana"
+],
+"n": 18000
+},
+{
+"t": [
+"Nerea"
+],
+"n": 21000
+},
+{
+"t": [
+"Marina"
+],
+"n": 25000
+},
+{
+"t": [
+"Jimena"
+],
+"n": 28000
+},
+{
+"t": [
+"Olivia"
+],
+"n": 33000
+},
+{
+"t": [
+"Lola"
+],
+"n": 38000
+},
+{
+"t": [
+"Manuela"
+],
+"n": 44000
+},
+{
+"t": [
+"Gloria"
+],
+"n": 51000
+},
+{
+"t": [
+"Verónica"
+],
+"n": 58000
+},
+{
+"t": [
+"Esther"
+],
+"n": 68000
+},
+{
+"t": [
+"Miriam"
+],
+"n": 78000
+},
+{
+"t": [
+"Celia"
+],
+"n": 90000
+},
+{
+"t": [
+"Blanca"
+],
+"n": 100000
+},
+{
+"t": [
+"Cecilia"
+],
+"n": 120000
+},
+{
+"t": [
+"Amparo"
+],
+"n": 140000
+},
+{
+"t": [
+"Concepción",
+"concha"
+],
+"n": 160000
+},
+{
+"t": [
+"Dolores"
+],
+"n": 180000
+},
+{
+"t": [
+"Encarnación",
+"encarna"
+],
+"n": 210000
+},
+{
+"t": [
+"Mercedes"
+],
+"n": 250000
+},
+{
+"t": [
+"Montserrat",
+"montse"
+],
+"n": 280000
+},
+{
+"t": [
+"Soledad"
+],
+"n": 330000
+},
+{
+"t": [
+"Almudena"
+],
+"n": 380000
+},
+{
+"t": [
+"Yolanda"
+],
+"n": 440000
+},
+{
+"t": [
+"Susana"
+],
+"n": 510000
+},
+{
+"t": [
+"Rebeca"
+],
+"n": 580000
+},
+{
+"t": [
+"Ángela"
+],
+"n": 670000
+},
+{
+"t": [
+"Leyre"
+],
+"n": 780000
+},
+{
+"t": [
+"Itziar"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p76",
+"pregunta": "Nombra un nombre de hombre",
+"respuestas": [
+{
+"t": [
+"Juan"
+],
+"n": 4
+},
+{
+"t": [
+"Pedro"
+],
+"n": 5
+},
+{
+"t": [
+"Antonio"
+],
+"n": 7
+},
+{
+"t": [
+"José"
+],
+"n": 9
+},
+{
+"t": [
+"Manuel"
+],
+"n": 12
+},
+{
+"t": [
+"Carlos"
+],
+"n": 15
+},
+{
+"t": [
+"David"
+],
+"n": 20
+},
+{
+"t": [
+"Javier"
+],
+"n": 26
+},
+{
+"t": [
+"Miguel"
+],
+"n": 35
+},
+{
+"t": [
+"Pablo"
+],
+"n": 45
+},
+{
+"t": [
+"Daniel"
+],
+"n": 60
+},
+{
+"t": [
+"Alejandro"
+],
+"n": 78
+},
+{
+"t": [
+"Luis"
+],
+"n": 100
+},
+{
+"t": [
+"Jorge"
+],
+"n": 130
+},
+{
+"t": [
+"Álvaro"
+],
+"n": 180
+},
+{
+"t": [
+"Sergio"
+],
+"n": 230
+},
+{
+"t": [
+"Francisco",
+"paco",
+"fran"
+],
+"n": 300
+},
+{
+"t": [
+"Fernando"
+],
+"n": 390
+},
+{
+"t": [
+"Rafael"
+],
+"n": 520
+},
+{
+"t": [
+"Ángel"
+],
+"n": 680
+},
+{
+"t": [
+"Adrián"
+],
+"n": 790
+},
+{
+"t": [
+"Alberto"
+],
+"n": 930
+},
+{
+"t": [
+"Diego"
+],
+"n": 1100
+},
+{
+"t": [
+"Raúl"
+],
+"n": 1300
+},
+{
+"t": [
+"Iván"
+],
+"n": 1500
+},
+{
+"t": [
+"Rubén"
+],
+"n": 1800
+},
+{
+"t": [
+"Óscar"
+],
+"n": 2100
+},
+{
+"t": [
+"Hugo"
+],
+"n": 2400
+},
+{
+"t": [
+"Mario"
+],
+"n": 2800
+},
+{
+"t": [
+"Marcos"
+],
+"n": 3300
+},
+{
+"t": [
+"Mateo"
+],
+"n": 3900
+},
+{
+"t": [
+"Martín"
+],
+"n": 4600
+},
+{
+"t": [
+"Lucas"
+],
+"n": 5400
+},
+{
+"t": [
+"Gonzalo"
+],
+"n": 6300
+},
+{
+"t": [
+"Víctor"
+],
+"n": 7400
+},
+{
+"t": [
+"Andrés"
+],
+"n": 8700
+},
+{
+"t": [
+"Ismael"
+],
+"n": 10000
+},
+{
+"t": [
+"Joaquín"
+],
+"n": 12000
+},
+{
+"t": [
+"Enrique"
+],
+"n": 14000
+},
+{
+"t": [
+"Ricardo"
+],
+"n": 17000
+},
+{
+"t": [
+"Roberto"
+],
+"n": 19000
+},
+{
+"t": [
+"Eduardo"
+],
+"n": 23000
+},
+{
+"t": [
+"Santiago"
+],
+"n": 27000
+},
+{
+"t": [
+"Ignacio",
+"nacho"
+],
+"n": 31000
+},
+{
+"t": [
+"Jesús"
+],
+"n": 37000
+},
+{
+"t": [
+"Guillermo"
+],
+"n": 43000
+},
+{
+"t": [
+"Samuel"
+],
+"n": 51000
+},
+{
+"t": [
+"Tomás"
+],
+"n": 59000
+},
+{
+"t": [
+"Nicolás"
+],
+"n": 70000
+},
+{
+"t": [
+"Aitor"
+],
+"n": 82000
+},
+{
+"t": [
+"Unai"
+],
+"n": 96000
+},
+{
+"t": [
+"Iker"
+],
+"n": 110000
+},
+{
+"t": [
+"Jon"
+],
+"n": 130000
+},
+{
+"t": [
+"Gabriel"
+],
+"n": 160000
+},
+{
+"t": [
+"Félix"
+],
+"n": 180000
+},
+{
+"t": [
+"Alfonso"
+],
+"n": 210000
+},
+{
+"t": [
+"Ramón"
+],
+"n": 250000
+},
+{
+"t": [
+"Vicente"
+],
+"n": 290000
+},
+{
+"t": [
+"Julián"
+],
+"n": 340000
+},
+{
+"t": [
+"Jaime"
+],
+"n": 400000
+},
+{
+"t": [
+"Ernesto"
+],
+"n": 470000
+},
+{
+"t": [
+"Emilio"
+],
+"n": 560000
+},
+{
+"t": [
+"Cristian"
+],
+"n": 650000
+},
+{
+"t": [
+"Borja"
+],
+"n": 770000
+},
+{
+"t": [
+"Íñigo"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p77",
+"pregunta": "Nombra un apellido español",
+"respuestas": [
+{
+"t": [
+"García"
+],
+"n": 3
+},
+{
+"t": [
+"Rodríguez"
+],
+"n": 4
+},
+{
+"t": [
+"González"
+],
+"n": 5
+},
+{
+"t": [
+"Fernández"
+],
+"n": 7
+},
+{
+"t": [
+"López"
+],
+"n": 9
+},
+{
+"t": [
+"Martínez"
+],
+"n": 12
+},
+{
+"t": [
+"Sánchez"
+],
+"n": 15
+},
+{
+"t": [
+"Pérez"
+],
+"n": 20
+},
+{
+"t": [
+"Gómez"
+],
+"n": 26
+},
+{
+"t": [
+"Martín"
+],
+"n": 34
+},
+{
+"t": [
+"Jiménez"
+],
+"n": 45
+},
+{
+"t": [
+"Ruiz"
+],
+"n": 58
+},
+{
+"t": [
+"Hernández"
+],
+"n": 77
+},
+{
+"t": [
+"Díaz"
+],
+"n": 100
+},
+{
+"t": [
+"Moreno"
+],
+"n": 130
+},
+{
+"t": [
+"Muñoz"
+],
+"n": 170
+},
+{
+"t": [
+"Álvarez"
+],
+"n": 230
+},
+{
+"t": [
+"Romero"
+],
+"n": 300
+},
+{
+"t": [
+"Alonso"
+],
+"n": 390
+},
+{
+"t": [
+"Gutiérrez"
+],
+"n": 510
+},
+{
+"t": [
+"Navarro"
+],
+"n": 580
+},
+{
+"t": [
+"Torres"
+],
+"n": 670
+},
+{
+"t": [
+"Domínguez"
+],
+"n": 760
+},
+{
+"t": [
+"Vázquez"
+],
+"n": 870
+},
+{
+"t": [
+"Ramos"
+],
+"n": 1000
+},
+{
+"t": [
+"Gil"
+],
+"n": 1100
+},
+{
+"t": [
+"Ramírez"
+],
+"n": 1300
+},
+{
+"t": [
+"Serrano"
+],
+"n": 1500
+},
+{
+"t": [
+"Blanco"
+],
+"n": 1700
+},
+{
+"t": [
+"Molina"
+],
+"n": 2000
+},
+{
+"t": [
+"Morales"
+],
+"n": 2300
+},
+{
+"t": [
+"Suárez"
+],
+"n": 2600
+},
+{
+"t": [
+"Ortega"
+],
+"n": 3000
+},
+{
+"t": [
+"Delgado"
+],
+"n": 3400
+},
+{
+"t": [
+"Castro"
+],
+"n": 3900
+},
+{
+"t": [
+"Ortiz"
+],
+"n": 4500
+},
+{
+"t": [
+"Rubio"
+],
+"n": 5100
+},
+{
+"t": [
+"Marín"
+],
+"n": 5900
+},
+{
+"t": [
+"Sanz"
+],
+"n": 6700
+},
+{
+"t": [
+"Iglesias"
+],
+"n": 7700
+},
+{
+"t": [
+"Núñez"
+],
+"n": 8800
+},
+{
+"t": [
+"Medina"
+],
+"n": 10000
+},
+{
+"t": [
+"Garrido"
+],
+"n": 12000
+},
+{
+"t": [
+"Cortés"
+],
+"n": 13000
+},
+{
+"t": [
+"Castillo"
+],
+"n": 15000
+},
+{
+"t": [
+"Santos"
+],
+"n": 17000
+},
+{
+"t": [
+"Lozano"
+],
+"n": 20000
+},
+{
+"t": [
+"Guerrero"
+],
+"n": 23000
+},
+{
+"t": [
+"Cano"
+],
+"n": 26000
+},
+{
+"t": [
+"Prieto"
+],
+"n": 30000
+},
+{
+"t": [
+"Méndez"
+],
+"n": 34000
+},
+{
+"t": [
+"Cruz"
+],
+"n": 39000
+},
+{
+"t": [
+"Calvo"
+],
+"n": 45000
+},
+{
+"t": [
+"Gallego"
+],
+"n": 52000
+},
+{
+"t": [
+"Vidal"
+],
+"n": 59000
+},
+{
+"t": [
+"León"
+],
+"n": 68000
+},
+{
+"t": [
+"Márquez"
+],
+"n": 78000
+},
+{
+"t": [
+"Herrera"
+],
+"n": 89000
+},
+{
+"t": [
+"Peña"
+],
+"n": 100000
+},
+{
+"t": [
+"Flores"
+],
+"n": 120000
+},
+{
+"t": [
+"Cabrera"
+],
+"n": 130000
+},
+{
+"t": [
+"Campos"
+],
+"n": 150000
+},
+{
+"t": [
+"Vega"
+],
+"n": 180000
+},
+{
+"t": [
+"Fuentes"
+],
+"n": 200000
+},
+{
+"t": [
+"Carrasco"
+],
+"n": 230000
+},
+{
+"t": [
+"Diez"
+],
+"n": 260000
+},
+{
+"t": [
+"Caballero"
+],
+"n": 300000
+},
+{
+"t": [
+"Nieto"
+],
+"n": 350000
+},
+{
+"t": [
+"Reyes"
+],
+"n": 400000
+},
+{
+"t": [
+"Aguilar"
+],
+"n": 460000
+},
+{
+"t": [
+"Pascual"
+],
+"n": 520000
+},
+{
+"t": [
+"Santana"
+],
+"n": 600000
+},
+{
+"t": [
+"Herrero"
+],
+"n": 690000
+},
+{
+"t": [
+"Lorenzo"
+],
+"n": 790000
+},
+{
+"t": [
+"Hidalgo"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p78",
+"pregunta": "Nombra un juego de mesa",
+"respuestas": [
+{
+"t": [
+"Monopoly",
+"monopoli"
+],
+"n": 3
+},
+{
+"t": [
+"Parchís"
+],
+"n": 4
+},
+{
+"t": [
+"Ajedrez"
+],
+"n": 5
+},
+{
+"t": [
+"Oca",
+"juego de la oca"
+],
+"n": 7
+},
+{
+"t": [
+"Cluedo"
+],
+"n": 9
+},
+{
+"t": [
+"Risk"
+],
+"n": 12
+},
+{
+"t": [
+"Scrabble"
+],
+"n": 15
+},
+{
+"t": [
+"Trivial",
+"trivial pursuit"
+],
+"n": 20
+},
+{
+"t": [
+"Dominó"
+],
+"n": 26
+},
+{
+"t": [
+"Damas"
+],
+"n": 34
+},
+{
+"t": [
+"Catán",
+"colonos de catán"
+],
+"n": 45
+},
+{
+"t": [
+"Jenga"
+],
+"n": 58
+},
+{
+"t": [
+"Uno"
+],
+"n": 77
+},
+{
+"t": [
+"Pictionary"
+],
+"n": 100
+},
+{
+"t": [
+"Twister"
+],
+"n": 130
+},
+{
+"t": [
+"Tabú"
+],
+"n": 170
+},
+{
+"t": [
+"Party"
+],
+"n": 230
+},
+{
+"t": [
+"Mastermind"
+],
+"n": 300
+},
+{
+"t": [
+"Dixit"
+],
+"n": 390
+},
+{
+"t": [
+"Carcassonne"
+],
+"n": 510
+},
+{
+"t": [
+"Pandemic",
+"pandemia"
+],
+"n": 630
+},
+{
+"t": [
+"Ticket to Ride",
+"aventureros al tren"
+],
+"n": 790
+},
+{
+"t": [
+"Hundir la flota"
+],
+"n": 980
+},
+{
+"t": [
+"Cuatro en raya"
+],
+"n": 1200
+},
+{
+"t": [
+"Rummikub"
+],
+"n": 1500
+},
+{
+"t": [
+"Backgammon"
+],
+"n": 1900
+},
+{
+"t": [
+"Go"
+],
+"n": 2400
+},
+{
+"t": [
+"Dobble"
+],
+"n": 2900
+},
+{
+"t": [
+"Código Secreto"
+],
+"n": 3700
+},
+{
+"t": [
+"Exploding Kittens"
+],
+"n": 4600
+},
+{
+"t": [
+"Sushi Go"
+],
+"n": 5700
+},
+{
+"t": [
+"Los hombres lobo de Castronegro",
+"hombres lobo"
+],
+"n": 7100
+},
+{
+"t": [
+"Ludo"
+],
+"n": 8900
+},
+{
+"t": [
+"Bingo"
+],
+"n": 11000
+},
+{
+"t": [
+"Cartas",
+"baraja"
+],
+"n": 14000
+},
+{
+"t": [
+"Intelect"
+],
+"n": 17000
+},
+{
+"t": [
+"Time's Up"
+],
+"n": 21000
+},
+{
+"t": [
+"Master Mind"
+],
+"n": 27000
+},
+{
+"t": [
+"Magic"
+],
+"n": 33000
+},
+{
+"t": [
+"Rol",
+"dungeons and dragons",
+"dnd"
+],
+"n": 41000
+},
+{
+"t": [
+"Cranium"
+],
+"n": 52000
+},
+{
+"t": [
+"Imagínate"
+],
+"n": 64000
+},
+{
+"t": [
+"Fantasma Blitz"
+],
+"n": 80000
+},
+{
+"t": [
+"Labyrinth",
+"laberinto"
+],
+"n": 100000
+},
+{
+"t": [
+"Stratego"
+],
+"n": 120000
+},
+{
+"t": [
+"Azul"
+],
+"n": 150000
+},
+{
+"t": [
+"Splendor"
+],
+"n": 190000
+},
+{
+"t": [
+"Wingspan"
+],
+"n": 240000
+},
+{
+"t": [
+"7 Wonders"
+],
+"n": 300000
+},
+{
+"t": [
+"Puerto Rico"
+],
+"n": 370000
+},
+{
+"t": [
+"Agricola"
+],
+"n": 470000
+},
+{
+"t": [
+"Gloomhaven"
+],
+"n": 580000
+},
+{
+"t": [
+"Munchkin"
+],
+"n": 720000
+},
+{
+"t": [
+"Dungeons & Dragons"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p79",
+"pregunta": "Nombra un monumento o lugar turístico de España",
+"respuestas": [
+{
+"t": [
+"Alhambra"
+],
+"n": 3
+},
+{
+"t": [
+"Sagrada Familia"
+],
+"n": 4
+},
+{
+"t": [
+"Mezquita de Córdoba",
+"mezquita"
+],
+"n": 5
+},
+{
+"t": [
+"Museo del Prado",
+"prado"
+],
+"n": 7
+},
+{
+"t": [
+"Giralda",
+"catedral de sevilla"
+],
+"n": 9
+},
+{
+"t": [
+"Acueducto de Segovia",
+"acueducto"
+],
+"n": 12
+},
+{
+"t": [
+"Alcázar de Segovia"
+],
+"n": 15
+},
+{
+"t": [
+"Plaza Mayor"
+],
+"n": 20
+},
+{
+"t": [
+"Parque Güell",
+"park güell"
+],
+"n": 26
+},
+{
+"t": [
+"Guggenheim",
+"museo guggenheim"
+],
+"n": 34
+},
+{
+"t": [
+"Ciudad de las Artes y las Ciencias",
+"ciudad de las artes"
+],
+"n": 45
+},
+{
+"t": [
+"Catedral de Santiago",
+"catedral de santiago de compostela"
+],
+"n": 58
+},
+{
+"t": [
+"Torre del Oro"
+],
+"n": 77
+},
+{
+"t": [
+"El Escorial",
+"monasterio de el escorial"
+],
+"n": 100
+},
+{
+"t": [
+"Teide"
+],
+"n": 130
+},
+{
+"t": [
+"Picos de Europa"
+],
+"n": 170
+},
+{
+"t": [
+"Alcázar de Sevilla",
+"real alcázar"
+],
+"n": 230
+},
+{
+"t": [
+"Plaza de España"
+],
+"n": 300
+},
+{
+"t": [
+"Puerta de Alcalá"
+],
+"n": 390
+},
+{
+"t": [
+"Cibeles"
+],
+"n": 510
+},
+{
+"t": [
+"Palacio Real"
+],
+"n": 660
+},
+{
+"t": [
+"Casa Batlló"
+],
+"n": 850
+},
+{
+"t": [
+"La Pedrera",
+"casa mila"
+],
+"n": 1100
+},
+{
+"t": [
+"Monasterio de Montserrat",
+"montserrat"
+],
+"n": 1400
+},
+{
+"t": [
+"Alcázar de Toledo",
+"alcazar"
+],
+"n": 1800
+},
+{
+"t": [
+"Cuevas de Altamira",
+"altamira"
+],
+"n": 2400
+},
+{
+"t": [
+"Catedral de Burgos"
+],
+"n": 3100
+},
+{
+"t": [
+"Catedral de León"
+],
+"n": 4000
+},
+{
+"t": [
+"Costa Brava"
+],
+"n": 5200
+},
+{
+"t": [
+"Islas Cíes"
+],
+"n": 6700
+},
+{
+"t": [
+"Doñana",
+"parque de doñana"
+],
+"n": 8700
+},
+{
+"t": [
+"Valle de los Caídos",
+"cuelgamuros"
+],
+"n": 11000
+},
+{
+"t": [
+"Puente Nuevo de Ronda",
+"puente nuevo"
+],
+"n": 15000
+},
+{
+"t": [
+"Cabo de Gata"
+],
+"n": 19000
+},
+{
+"t": [
+"Monasterio de Poblet"
+],
+"n": 24000
+},
+{
+"t": [
+"Ciudad Encantada"
+],
+"n": 31000
+},
+{
+"t": [
+"Las Médulas"
+],
+"n": 41000
+},
+{
+"t": [
+"Torre de Hércules"
+],
+"n": 53000
+},
+{
+"t": [
+"Roque Nublo"
+],
+"n": 68000
+},
+{
+"t": [
+"Parque Nacional del Teide"
+],
+"n": 88000
+},
+{
+"t": [
+"Monasterio de Piedra"
+],
+"n": 110000
+},
+{
+"t": [
+"Puerta del Sol"
+],
+"n": 150000
+},
+{
+"t": [
+"Retiro",
+"parque del retiro"
+],
+"n": 190000
+},
+{
+"t": [
+"Templo de Debod"
+],
+"n": 250000
+},
+{
+"t": [
+"La Rambla",
+"las ramblas"
+],
+"n": 320000
+},
+{
+"t": [
+"Montjuïc"
+],
+"n": 420000
+},
+{
+"t": [
+"Playa de la Concha",
+"la concha"
+],
+"n": 540000
+},
+{
+"t": [
+"Caminito del Rey"
+],
+"n": 700000
+},
+{
+"t": [
+"Santa María del Naranco"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p80",
+"pregunta": "Nombra un monumento famoso del mundo",
+"respuestas": [
+{
+"t": [
+"Torre Eiffel"
+],
+"n": 3
+},
+{
+"t": [
+"Coliseo",
+"coliseo romano"
+],
+"n": 4
+},
+{
+"t": [
+"Pirámides de Guiza",
+"piramides"
+],
+"n": 5
+},
+{
+"t": [
+"Gran Muralla China",
+"muralla china",
+"la gran muralla"
+],
+"n": 7
+},
+{
+"t": [
+"Taj Mahal"
+],
+"n": 9
+},
+{
+"t": [
+"Machu Picchu"
+],
+"n": 12
+},
+{
+"t": [
+"Estatua de la Libertad"
+],
+"n": 15
+},
+{
+"t": [
+"Chichén Itzá"
+],
+"n": 20
+},
+{
+"t": [
+"Cristo Redentor"
+],
+"n": 26
+},
+{
+"t": [
+"Petra"
+],
+"n": 34
+},
+{
+"t": [
+"Big Ben"
+],
+"n": 45
+},
+{
+"t": [
+"Partenón",
+"acrópolis"
+],
+"n": 58
+},
+{
+"t": [
+"Torre de Pisa"
+],
+"n": 77
+},
+{
+"t": [
+"Stonehenge"
+],
+"n": 100
+},
+{
+"t": [
+"Arco del Triunfo"
+],
+"n": 130
+},
+{
+"t": [
+"Puerta de Brandeburgo"
+],
+"n": 170
+},
+{
+"t": [
+"Angkor Wat"
+],
+"n": 230
+},
+{
+"t": [
+"Empire State"
+],
+"n": 300
+},
+{
+"t": [
+"Kremlin",
+"plaza roja"
+],
+"n": 390
+},
+{
+"t": [
+"Torre de Londres"
+],
+"n": 510
+},
+{
+"t": [
+"Burj Khalifa"
+],
+"n": 640
+},
+{
+"t": [
+"Casa Blanca"
+],
+"n": 800
+},
+{
+"t": [
+"Ópera de Sídney"
+],
+"n": 1000
+},
+{
+"t": [
+"Monte Rushmore"
+],
+"n": 1300
+},
+{
+"t": [
+"Santa Sofía"
+],
+"n": 1600
+},
+{
+"t": [
+"Notre Dame",
+"notre-dame"
+],
+"n": 2000
+},
+{
+"t": [
+"Versalles",
+"palacio de versalles"
+],
+"n": 2500
+},
+{
+"t": [
+"Louvre",
+"museo del louvre"
+],
+"n": 3100
+},
+{
+"t": [
+"Tower Bridge"
+],
+"n": 3900
+},
+{
+"t": [
+"Golden Gate"
+],
+"n": 4900
+},
+{
+"t": [
+"Moáis"
+],
+"n": 6100
+},
+{
+"t": [
+"Fontana de Trevi",
+"fuente de trevi"
+],
+"n": 7700
+},
+{
+"t": [
+"Basílica de San Pedro",
+"san pedro"
+],
+"n": 9700
+},
+{
+"t": [
+"Sagrada Familia"
+],
+"n": 12000
+},
+{
+"t": [
+"Alhambra"
+],
+"n": 15000
+},
+{
+"t": [
+"Buda gigante"
+],
+"n": 19000
+},
+{
+"t": [
+"Templo de Karnak"
+],
+"n": 24000
+},
+{
+"t": [
+"Esfinge"
+],
+"n": 30000
+},
+{
+"t": [
+"Foro Romano"
+],
+"n": 38000
+},
+{
+"t": [
+"Puente de Londres"
+],
+"n": 47000
+},
+{
+"t": [
+"Castillo de Neuschwanstein",
+"neuschwanstein"
+],
+"n": 59000
+},
+{
+"t": [
+"Mont Saint-Michel"
+],
+"n": 74000
+},
+{
+"t": [
+"Ciudad Prohibida"
+],
+"n": 93000
+},
+{
+"t": [
+"Templo de Borobudur"
+],
+"n": 120000
+},
+{
+"t": [
+"Castillo de Edimburgo"
+],
+"n": 150000
+},
+{
+"t": [
+"Panteón",
+"pantheon"
+],
+"n": 180000
+},
+{
+"t": [
+"Plaza de San Marcos"
+],
+"n": 230000
+},
+{
+"t": [
+"Space Needle"
+],
+"n": 290000
+},
+{
+"t": [
+"CN Tower"
+],
+"n": 360000
+},
+{
+"t": [
+"Torre de Tokio"
+],
+"n": 460000
+},
+{
+"t": [
+"Torre de Pekín"
+],
+"n": 570000
+},
+{
+"t": [
+"Atomium"
+],
+"n": 720000
+},
+{
+"t": [
+"Sirenita de Copenhague",
+"la sirenita"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p81",
+"pregunta": "Nombra un dulce o una golosina",
+"respuestas": [
+{
+"t": [
+"Chocolate"
+],
+"n": 3
+},
+{
+"t": [
+"Caramelo"
+],
+"n": 4
+},
+{
+"t": [
+"Chicle"
+],
+"n": 5
+},
+{
+"t": [
+"Gominolas",
+"gominola",
+"golosinas"
+],
+"n": 7
+},
+{
+"t": [
+"Piruleta",
+"chupa chups",
+"chupachups"
+],
+"n": 9
+},
+{
+"t": [
+"Regaliz"
+],
+"n": 12
+},
+{
+"t": [
+"Bombón"
+],
+"n": 15
+},
+{
+"t": [
+"Turrón"
+],
+"n": 20
+},
+{
+"t": [
+"Polvorón"
+],
+"n": 26
+},
+{
+"t": [
+"Nube",
+"nubes"
+],
+"n": 34
+},
+{
+"t": [
+"Algodón de azúcar"
+],
+"n": 45
+},
+{
+"t": [
+"Mazapán"
+],
+"n": 58
+},
+{
+"t": [
+"Kinder",
+"kinder bueno",
+"kinder sorpresa"
+],
+"n": 77
+},
+{
+"t": [
+"Lacasitos"
+],
+"n": 100
+},
+{
+"t": [
+"Conguitos"
+],
+"n": 130
+},
+{
+"t": [
+"Kit Kat",
+"kitkat"
+],
+"n": 170
+},
+{
+"t": [
+"Snickers"
+],
+"n": 230
+},
+{
+"t": [
+"Twix"
+],
+"n": 300
+},
+{
+"t": [
+"M&M's"
+],
+"n": 390
+},
+{
+"t": [
+"Haribo"
+],
+"n": 510
+},
+{
+"t": [
+"Peta Zetas",
+"petazetas"
+],
+"n": 630
+},
+{
+"t": [
+"Sugus"
+],
+"n": 790
+},
+{
+"t": [
+"Mentos"
+],
+"n": 980
+},
+{
+"t": [
+"Smarties"
+],
+"n": 1200
+},
+{
+"t": [
+"Ferrero Rocher"
+],
+"n": 1500
+},
+{
+"t": [
+"Toblerone"
+],
+"n": 1900
+},
+{
+"t": [
+"Milka"
+],
+"n": 2400
+},
+{
+"t": [
+"Nutella"
+],
+"n": 2900
+},
+{
+"t": [
+"Yemas de Santa Teresa"
+],
+"n": 3700
+},
+{
+"t": [
+"Guirlache"
+],
+"n": 4600
+},
+{
+"t": [
+"Marrón glacé"
+],
+"n": 5700
+},
+{
+"t": [
+"Bolsa de chuches",
+"chuches"
+],
+"n": 7100
+},
+{
+"t": [
+"Palote"
+],
+"n": 8900
+},
+{
+"t": [
+"Fresquito"
+],
+"n": 11000
+},
+{
+"t": [
+"Chupete de caramelo"
+],
+"n": 14000
+},
+{
+"t": [
+"Palmera de chocolate"
+],
+"n": 17000
+},
+{
+"t": [
+"Oreo"
+],
+"n": 21000
+},
+{
+"t": [
+"Donut"
+],
+"n": 27000
+},
+{
+"t": [
+"Trufas"
+],
+"n": 33000
+},
+{
+"t": [
+"Barrita de cereales"
+],
+"n": 41000
+},
+{
+"t": [
+"Bola de coco"
+],
+"n": 52000
+},
+{
+"t": [
+"Cocos"
+],
+"n": 64000
+},
+{
+"t": [
+"Torta"
+],
+"n": 80000
+},
+{
+"t": [
+"Mantecados"
+],
+"n": 100000
+},
+{
+"t": [
+"Peladillas"
+],
+"n": 120000
+},
+{
+"t": [
+"Garrapiñadas"
+],
+"n": 150000
+},
+{
+"t": [
+"Crocanti"
+],
+"n": 190000
+},
+{
+"t": [
+"Piña de chocolate"
+],
+"n": 240000
+},
+{
+"t": [
+"Chocolatina"
+],
+"n": 300000
+},
+{
+"t": [
+"Bola de nieve"
+],
+"n": 370000
+},
+{
+"t": [
+"Mikado"
+],
+"n": 470000
+},
+{
+"t": [
+"Pocky"
+],
+"n": 580000
+},
+{
+"t": [
+"Skittles"
+],
+"n": 720000
+},
+{
+"t": [
+"Pez de gominola"
+],
+"n": 900000
+}
+]
+},
+{
+"id": "p82",
+"pregunta": "Nombra una asignatura del colegio",
+"respuestas": [
+{
+"t": [
+"Matemáticas",
+"mates"
+],
+"n": 3
+},
+{
+"t": [
+"Lengua"
+],
+"n": 4
+},
+{
+"t": [
+"Inglés"
+],
+"n": 5
+},
+{
+"t": [
+"Historia"
+],
+"n": 7
+},
+{
+"t": [
+"Educación Física",
+"gimnasia"
+],
+"n": 9
+},
+{
+"t": [
+"Ciencias Naturales",
+"naturales"
+],
+"n": 12
+},
+{
+"t": [
+"Geografía"
+],
+"n": 15
+},
+{
+"t": [
+"Música"
+],
+"n": 20
+},
+{
+"t": [
+"Plástica",
+"dibujo",
+"educación plástica"
+],
+"n": 26
+},
+{
+"t": [
+"Física"
+],
+"n": 34
+},
+{
+"t": [
+"Química"
+],
+"n": 45
+},
+{
+"t": [
+"Biología"
+],
+"n": 58
+},
+{
+"t": [
+"Religión"
+],
+"n": 77
+},
+{
+"t": [
+"Filosofía"
+],
+"n": 100
+},
+{
+"t": [
+"Tecnología"
+],
+"n": 130
+},
+{
+"t": [
+"Francés"
+],
+"n": 170
+},
+{
+"t": [
+"Latín"
+],
+"n": 230
+},
+{
+"t": [
+"Informática"
+],
+"n": 300
+},
+{
+"t": [
+"Ciencias Sociales",
+"sociales"
+],
+"n": 390
+},
+{
+"t": [
+"Conocimiento del Medio",
+"conocimiento"
+],
+"n": 510
+},
+{
+"t": [
+"Economía"
+],
+"n": 650
+},
+{
+"t": [
+"Griego"
+],
+"n": 820
+},
+{
+"t": [
+"Valores",
+"valores cívicos"
+],
+"n": 1000
+},
+{
+"t": [
+"Ética"
+],
+"n": 1300
+},
+{
+"t": [
+"Literatura"
+],
+"n": 1700
+},
+{
+"t": [
+"Geología"
+],
+"n": 2200
+},
+{
+"t": [
+"Dibujo Técnico"
+],
+"n": 2700
+},
+{
+"t": [
+"Alemán"
+],
+"n": 3500
+},
+{
+"t": [
+"Psicología"
+],
+"n": 4500
+},
+{
+"t": [
+"Cultura Clásica"
+],
+"n": 5700
+},
+{
+"t": [
+"Educación para la Ciudadanía",
+"ciudadania"
+],
+"n": 7200
+},
+{
+"t": [
+"Robótica"
+],
+"n": 9200
+},
+{
+"t": [
+"Lengua y Literatura"
+],
+"n": 12000
+},
+{
+"t": [
+"Historia del Arte",
+"arte"
+],
+"n": 15000
+},
+{
+"t": [
+"Estadística"
+],
+"n": 19000
+},
+{
+"t": [
+"Cálculo"
+],
+"n": 24000
+},
+{
+"t": [
+"Ciencias"
+],
+"n": 31000
+},
+{
+"t": [
+"Álgebra"
+],
+"n": 39000
+},
+{
+"t": [
+"Trigonometría"
+],
+"n": 50000
+},
+{
+"t": [
+"Catalán"
+],
+"n": 63000
+},
+{
+"t": [
+"Gallego"
+],
+"n": 81000
+},
+{
+"t": [
+"Euskera"
+],
+"n": 100000
+},
+{
+"t": [
+"Valenciano"
+],
+"n": 130000
+},
+{
+"t": [
+"Ciencias de la Tierra"
+],
+"n": 170000
+},
+{
+"t": [
+"Anatomía"
+],
+"n": 210000
+},
+{
+"t": [
+"Mecanografía"
+],
+"n": 270000
+},
+{
+"t": [
+"Teatro"
+],
+"n": 340000
+},
+{
+"t": [
+"Cocina"
+],
+"n": 440000
+},
+{
+"t": [
+"Taller"
+],
+"n": 560000
+},
+{
+"t": [
+"Costura"
+],
+"n": 710000
+},
+{
+"t": [
+"Labores"
+],
+"n": 900000
 }
 ]
 }

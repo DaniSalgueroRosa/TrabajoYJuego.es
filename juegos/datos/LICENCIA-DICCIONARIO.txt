@@ -1,0 +1,13 @@
+DICCIONARIO DE LOS JUEGOS DE PALABRAS (diccionario.bin)
+
+El archivo diccionario.bin es una lista de palabras derivada de los diccionarios ortográficos del proyecto RLA-ES
+(Recursos Lingüísticos Abiertos del Español), creados por Santiago Bosio y colaboradores:
+https://github.com/sbosio/rla-es
+Se han unido las variantes es_ES, es_MX, es_AR, es_CO, es_CL, es_US, es_PE, es_VE, es_UY, es_EC, es_CU y es_GT (versión de la carpeta «es»
+de https://github.com/LibreOffice/dictionaries), se han generado todas las formas con sus reglas de afijos, se han quitado tildes, nombres propios
+y siglas, y se han guardado en un formato compacto (grafo de palabras). Se han añadido a mano unas pocas palabras de la RAE que RLA-ES no recoge
+(docs/diccionario/complemento.txt).
+
+Licencia original: triple licencia disjunta, GNU GPL 3 o posterior, GNU LGPL 3 o posterior, o MPL 1.1 o posterior. Aquí se usa bajo la
+GNU LGPL 3 o posterior (https://www.gnu.org/licenses/lgpl-3.0.html). Este archivo de datos es una obra derivada: puedes reutilizarlo con la misma
+licencia. El generador (docs/diccionario/construir.py) y las fuentes originales permiten rehacerlo.

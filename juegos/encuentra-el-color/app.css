@@ -1,4 +1,1 @@
-/* TEST DE COLORES: cuadrícula cuadrada de casillas pulsables; el color se pone desde el script. */
-.col-tablero { display: grid; gap: 4px; width: min(100%, 24rem); aspect-ratio: 1; padding: 6px; background: var(--noche-linea); }
-.col-celda { min-width: 0; min-height: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; }
-.col-celda:focus-visible { outline: 3px solid var(--tiza); outline-offset: -3px; }
+.col-tablero{display:grid;gap:4px;width:min(100%,24rem);aspect-ratio:1;padding:6px;background:var(--noche-linea)}.col-celda{min-width:0;min-height:0;padding:0;border:0;border-radius:0;cursor:pointer}.col-celda:focus-visible{outline:3px solid var(--tiza);outline-offset:-3px}

@@ -1,5 +1,1 @@
-.qr { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 22rem); gap: var(--e5); align-items: start; }
-@media (max-width: 52rem) { .qr { grid-template-columns: minmax(0, 1fr); } }
-.qr-datos, .qr-resultado { display: grid; gap: var(--e4); }
-.qr-lienzo { max-width: 100%; height: auto; image-rendering: pixelated; border: 1px solid var(--linea); justify-self: start; }
-.qr-contenido { overflow-wrap: anywhere; font-weight: 400; }
+.qr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,22rem);gap:var(--e5);align-items:start}@media (max-width:52rem){.qr{grid-template-columns:minmax(0,1fr)}}.qr-datos,.qr-resultado{display:grid;gap:var(--e4)}.qr-lienzo{max-width:100%;height:auto;image-rendering:pixelated;border:1px solid var(--linea);justify-self:start}.qr-contenido{overflow-wrap:anywhere;font-weight:400}

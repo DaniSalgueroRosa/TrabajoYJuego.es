@@ -1,16 +1,1 @@
-/* CUATRO EN RAYA: tablero azul-pizarra con huecos; las fichas se distinguen por color (amarillo y rosa) y por forma (la rosa lleva un hueco en el centro). */
-.c4-columnas, .c4-tablero { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; width: min(100%, 27rem); margin: 0 auto; }
-.c4-columnas { margin-bottom: -6px; }
-.c4-soltar { min-height: 2.75rem; min-width: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--noche-2); color: var(--limon); font: 400 1.1rem / 1 var(--f-pixel); box-shadow: 0 0 0 2px var(--noche-linea); }
-.c4-soltar:hover:not(:disabled) { background: var(--noche-linea); }
-.c4-soltar:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; }
-.c4-soltar:disabled { cursor: default; color: var(--tiza-suave); }
-.c4-tablero { padding: 8px; background: var(--pizarra-media); margin-top: 6px; box-shadow: 0 0 0 4px var(--noche-linea); }
-.c4-celda { aspect-ratio: 1; display: grid; place-items: center; background: var(--tinta); border-radius: 50%; cursor: pointer; overflow: hidden; }
-.c4-ficha { display: block; width: 84%; height: 84%; border-radius: 50%; }
-.c4-j1 .c4-ficha { background: var(--limon); }
-.c4-j2 .c4-ficha { background: radial-gradient(circle, var(--tinta) 0 22%, var(--sandia) 24% 100%); }
-.c4-gana { box-shadow: 0 0 0 3px var(--tiza); }
-.c4-nueva { animation: c4-cae 0.3s steps(5) 1; }
-@keyframes c4-cae { from { transform: translateY(calc(var(--caida) * -110%)); } to { transform: translateY(0); } }
-@media (prefers-reduced-motion: reduce) { .c4-nueva { animation: none; } }
+.c4-columnas,.c4-tablero{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;width:min(100%,27rem);margin:0 auto}.c4-columnas{margin-bottom:-6px}.c4-soltar{min-height:2.75rem;min-width:0;padding:0;border:0;border-radius:0;cursor:pointer;background:var(--noche-2);color:var(--limon);font:400 1.1rem / 1 var(--f-pixel);box-shadow:0 0 0 2px var(--noche-linea)}.c4-soltar:hover:not(:disabled){background:var(--noche-linea)}.c4-soltar:focus-visible{outline:3px solid var(--limon);outline-offset:2px}.c4-soltar:disabled{cursor:default;color:var(--tiza-suave)}.c4-tablero{padding:8px;background:var(--pizarra-media);margin-top:6px;box-shadow:0 0 0 4px var(--noche-linea)}.c4-celda{aspect-ratio:1;display:grid;place-items:center;background:var(--tinta);border-radius:50%;cursor:pointer;overflow:hidden}.c4-ficha{display:block;width:84%;height:84%;border-radius:50%}.c4-j1 .c4-ficha{background:var(--limon)}.c4-j2 .c4-ficha{background:radial-gradient(circle,var(--tinta) 0 22%,var(--sandia) 24% 100%)}.c4-gana{box-shadow:0 0 0 3px var(--tiza)}.c4-nueva{animation:c4-cae 0.3s steps(5) 1}@keyframes c4-cae{from{transform:translateY(calc(var(--caida) * -110%))}to{transform:translateY(0)}}@media (prefers-reduced-motion:reduce){.c4-nueva{animation:none}}

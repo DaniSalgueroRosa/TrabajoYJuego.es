@@ -27,12 +27,15 @@
 <meta name="twitter:title" content="Generador de hashes | TrabajoYJuego">
 <meta name="twitter:description" content="Calcula el hash MD5, SHA-1, SHA-256, SHA-384 y SHA-512 de cualquier texto al instante, en hexadecimal o Base64, y comprueba si coincide con otro hash.">
 <meta name="twitter:image" content="https://trabajoyjuego.es/assets/img/og.png">
-<link rel="stylesheet" href="../../assets/css/comun.css?v=2c9c8ec9">
-<link rel="stylesheet" href="../../assets/css/herramientas.css?v=be44dd49">
+<link rel="preload" href="../../assets/fonts/cuadritos-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../assets/fonts/heros-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="../../assets/css/comun.css?v=b5ee6ec0">
+<link rel="stylesheet" href="../../assets/css/herramientas.css?v=2ef23fd3">
 <link rel="stylesheet" href="app.css?v=fe0dacbb">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Generador de hashes","description":"Calcula el hash MD5, SHA-1, SHA-256, SHA-384 y SHA-512 de cualquier texto al instante, en hexadecimal o Base64, y comprueba si coincide con otro hash.","url":"https://trabajoyjuego.es/herramientas/generador-de-hashes/","inLanguage":"es","isAccessibleForFree":true,"operatingSystem":"Any","browserRequirements":"Requiere JavaScript","applicationCategory":"UtilitiesApplication","datePublished":"2026-11-14","image":"https://trabajoyjuego.es/assets/img/og.png","isPartOf":{"@id":"https://trabajoyjuego.es/#sitio"},"publisher":{"@id":"https://trabajoyjuego.es/#organizacion"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://trabajoyjuego.es/"},{"@type":"ListItem","position":2,"name":"Herramientas","item":"https://trabajoyjuego.es/herramientas/"},{"@type":"ListItem","position":3,"name":"Informática y programación","item":"https://trabajoyjuego.es/herramientas/categoria/informatica/"},{"@type":"ListItem","position":4,"name":"Generador de hashes","item":"https://trabajoyjuego.es/herramientas/generador-de-hashes/"}]}</script>
-<script src="../../assets/js/analitica.js?v=9a8d918c"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Puedo recuperar el texto a partir del hash?","acceptedAnswer":{"@type":"Answer","text":"No. Un hash es una función de un solo sentido. Solo se puede intentar adivinar el texto probando muchas posibilidades, por eso los hashes de contraseñas sencillas son poco seguros."}},{"@type":"Question","name":"¿Por qué mi hash no coincide con el de otro programa?","acceptedAnswer":{"@type":"Answer","text":"Lo más habitual es que haya un espacio, un salto de línea final o una codificación distinta. Esta herramienta usa UTF-8 y cuenta un salto de línea como un solo carácter."}},{"@type":"Question","name":"¿Qué longitud tiene cada hash?","acceptedAnswer":{"@type":"Answer","text":"MD5 tiene 32 cifras hexadecimales, SHA-1 tiene 40, SHA-256 tiene 64, SHA-384 tiene 96 y SHA-512 tiene 128."}},{"@type":"Question","name":"¿Se puede calcular el hash de un archivo?","acceptedAnswer":{"@type":"Answer","text":"Esta herramienta trabaja con texto. Para archivos, usa el comando sha256sum en Linux y macOS o Get-FileHash en Windows PowerShell."}}]}</script>
+<script src="../../assets/js/analitica.js?v=f849f6c7"></script>
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NXS4G4GQ"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9072387937265621" crossorigin="anonymous"></script>
 
@@ -41,7 +44,7 @@
 <a class="salto" href="#contenido">Saltar al contenido</a>
 <header class="cabecera">
   <div class="contenedor cabecera-interior">
-    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+    <a class="cabecera-marca" href="../../"><img src="../../assets/img/logo.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52"></a>
     <nav class="cabecera-nav" aria-label="Secciones">
       <ul>
         <li data-grupo="trabajo"><a href="../../herramientas/" aria-current="page">Herramientas</a></li>
@@ -142,7 +145,7 @@
 <footer class="pie">
   <div class="contenedor pie-interior">
     <div class="pie-marca">
-      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="213" height="34"></a>
+      <a class="pie-logo" href="../../"><img src="../../assets/img/logo-claro.svg" alt="TrabajoYJuego, ir a la portada" width="311" height="52" loading="lazy" decoding="async"></a>
       <p class="pie-lema">Herramientas y guías para trabajar. Juegos y tests para parar.</p>
     </div>
     <nav class="pie-nav" aria-label="Secciones, en el pie de página">
@@ -170,14 +173,15 @@
       <li><a href="../../legal/condiciones-de-uso/">Condiciones de uso</a></li>
       <li><a href="../../legal/publicidad-y-transparencia/">Publicidad y transparencia</a></li>
       <li><a href="../../legal/contacto/">Contacto</a></li>
+      <li><a href="../../actualizaciones/">Actualizaciones</a></li>
       <li><a href="../../legal/politica-de-cookies/#configurar">Configurar cookies</a></li>
     </ul>
   </nav>
   <p class="contenedor pie-legal">© 2026 TrabajoYJuego</p>
 </footer>
 
-<script src="../../assets/js/herramientas.js?v=0a5f0806" defer></script>
-<script src="../../assets/js/anuncio.js?v=0d1ec2d9" defer></script>
+<script src="../../assets/js/herramientas.js?v=b4cba451" defer></script>
+<script src="../../assets/js/anuncio.js?v=e25ae78c" defer></script>
 <script src="app.js?v=7ad87564" defer></script>
 </body>
 </html>

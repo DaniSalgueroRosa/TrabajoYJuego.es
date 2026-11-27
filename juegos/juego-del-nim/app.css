@@ -1,5 +1,1 @@
-/* JUEGO DE LOS PALILLOS (NIM): los palillos que quedan se ven llenos y los retirados, apagados. */
-.nim-palillos { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px; background: var(--noche-linea); width: min(100%, 34rem); }
-.nim-palillo { width: 10px; height: 2.4rem; background: var(--limon); border: 0; }
-.nim-quitado { background: var(--noche-2); opacity: 0.55; }
-.nim-acciones { display: flex; flex-wrap: wrap; gap: 8px; }
+.nim-palillos{display:flex;flex-wrap:wrap;gap:6px;padding:10px;background:var(--noche-linea);width:min(100%,34rem)}.nim-palillo{width:10px;height:2.4rem;background:var(--limon);border:0}.nim-quitado{background:var(--noche-2);opacity:0.55}.nim-acciones{display:flex;flex-wrap:wrap;gap:8px}

@@ -1,13 +1,1 @@
-/* BUSCAMINAS: casillas en relieve sin descubrir y casillas planas al descubrirlas; los números llevan colores claros sobre fondo oscuro (contraste ≥ 4.5:1). */
-.bm-tablero { display: grid; grid-template-columns: repeat(var(--c), minmax(0, 1fr)); gap: 2px; width: min(100%, calc(var(--c) * 2.6rem)); margin: 4px auto; padding: 4px; background: var(--noche-linea); user-select: none; -webkit-user-select: none; touch-action: manipulation; }
-.bm-celda { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; min-height: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--pizarra-media); color: var(--tiza);
-  box-shadow: inset 3px 3px 0 0 #4C9A84, inset -3px -3px 0 0 #1D3A34; font: 700 1.05rem / 1 var(--f-trabajo); -webkit-touch-callout: none; }
-.bm-celda:focus-visible { outline: 3px solid var(--limon); outline-offset: 1px; position: relative; z-index: 1; }
-.bm-abierta { background: var(--tinta); box-shadow: none; cursor: default; }
-.bm-icono { width: 70%; height: 70%; }
-.bm-n1 { color: #6EC1FF; } .bm-n2 { color: #8FD694; } .bm-n3 { color: #FF8A8A; } .bm-n4 { color: #B9A0F5; }
-.bm-n5 { color: #FFB86B; } .bm-n6 { color: #5ED6D0; } .bm-n7 { color: #EAF2EE; } .bm-n8 { color: #AFC4BB; }
-.bm-mina { background: var(--noche-2); }
-.bm-mina .bm-icono { filter: invert(1) hue-rotate(180deg); }
-.bm-explota { background: var(--sandia-texto); }
-.bm-falsa { background: var(--sandia-texto); }
+.bm-tablero{display:grid;grid-template-columns:repeat(var(--c),minmax(0,1fr));gap:2px;width:min(100%,calc(var(--c) * 2.6rem));margin:4px auto;padding:4px;background:var(--noche-linea);user-select:none;-webkit-user-select:none;touch-action:manipulation}.bm-celda{aspect-ratio:1;display:grid;place-items:center;min-width:0;min-height:0;padding:0;border:0;border-radius:0;cursor:pointer;background:var(--pizarra-media);color:var(--tiza);box-shadow:inset 3px 3px 0 0 #4C9A84,inset -3px -3px 0 0 #1D3A34;font:700 1.05rem / 1 var(--f-trabajo);-webkit-touch-callout:none}.bm-celda:focus-visible{outline:3px solid var(--limon);outline-offset:1px;position:relative;z-index:1}.bm-abierta{background:var(--tinta);box-shadow:none;cursor:default}.bm-icono{width:70%;height:70%}.bm-n1{color:#6EC1FF}.bm-n2{color:#8FD694}.bm-n3{color:#FF8A8A}.bm-n4{color:#B9A0F5}.bm-n5{color:#FFB86B}.bm-n6{color:#5ED6D0}.bm-n7{color:#EAF2EE}.bm-n8{color:#AFC4BB}.bm-mina{background:var(--noche-2)}.bm-mina .bm-icono{filter:invert(1) hue-rotate(180deg)}.bm-explota{background:var(--sandia-texto)}.bm-falsa{background:var(--sandia-texto)}

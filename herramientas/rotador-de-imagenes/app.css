@@ -1,3 +1,1 @@
-.rot { display: grid; gap: var(--e4); }
-.rot-marco { display: grid; place-items: center; padding: var(--e3); min-height: 8rem; background-color: #e9e9e9; background-image: conic-gradient(#d4d4d4 25%, transparent 0 50%, #d4d4d4 0 75%, transparent 0); background-size: 20px 20px; overflow: auto; }
-.rot-lienzo { display: block; max-width: 100%; height: auto; max-height: 70vh; width: auto; }
+.rot{display:grid;gap:var(--e4)}.rot-marco{display:grid;place-items:center;padding:var(--e3);min-height:8rem;background-color:#e9e9e9;background-image:conic-gradient(#d4d4d4 25%,transparent 0 50%,#d4d4d4 0 75%,transparent 0);background-size:20px 20px;overflow:auto}.rot-lienzo{display:block;max-width:100%;height:auto;max-height:70vh;width:auto}

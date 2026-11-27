@@ -11,7 +11,8 @@
 ],
 "c": 0,
 "e": "Júpiter mide unos 140.000 km de diámetro, más de once veces el de la Tierra.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "¿Qué planeta se conoce como «el planeta rojo»?",
@@ -23,7 +24,8 @@
 ],
 "c": 0,
 "e": "El óxido de hierro que cubre su superficie le da el color rojizo.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "¿Cuánto tarda la luz del Sol en llegar a la Tierra?",
@@ -35,7 +37,8 @@
 ],
 "c": 0,
 "e": "La luz recorre unos 300.000 km por segundo y el Sol está a unos 150 millones de kilómetros: tarda algo más de ocho minutos.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 2
 },
 {
 "p": "¿Cómo se llama la galaxia en la que está el sistema solar?",
@@ -47,7 +50,8 @@
 ],
 "c": 0,
 "e": "Nuestro sistema solar está en un brazo de la Vía Láctea, una galaxia espiral con cientos de miles de millones de estrellas.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "¿Qué planeta es famoso por sus anillos visibles con un telescopio pequeño?",
@@ -59,7 +63,8 @@
 ],
 "c": 0,
 "e": "Otros planetas gigantes tienen anillos, pero los de Saturno son los más grandes y brillantes.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "¿Cuál es el planeta más cercano al Sol?",
@@ -71,7 +76,8 @@
 ],
 "c": 0,
 "e": "Mercurio orbita a unos 58 millones de kilómetros del Sol y tarda 88 días terrestres en darle una vuelta.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "¿Cuántos planetas tiene el sistema solar?",
@@ -83,7 +89,8 @@
 ],
 "c": 0,
 "e": "Desde 2006 Plutón se clasifica como planeta enano, así que los planetas son ocho.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 1
 },
 {
 "p": "¿Qué provoca principalmente las mareas en la Tierra?",
@@ -95,7 +102,8 @@
 ],
 "c": 0,
 "e": "La gravedad de la Luna (y, en menor medida, la del Sol) estira los océanos y produce dos mareas altas al día en la mayoría de las costas.",
-"t": "Astronomía"
+"t": "Astronomía",
+"nv": 2
 },
 {
 "p": "¿Cuál es la unidad de fuerza en el Sistema Internacional?",
@@ -107,7 +115,8 @@
 ],
 "c": 0,
 "e": "Un newton es la fuerza que acelera un kilogramo a un metro por segundo cada segundo.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Quién formuló la ley de la gravitación universal?",
@@ -119,7 +128,8 @@
 ],
 "c": 0,
 "e": "Newton la publicó en 1687 en sus «Principia».",
-"t": "Física"
+"t": "Física",
+"nv": 1
 },
 {
 "p": "¿A qué velocidad viaja la luz en el vacío?",
@@ -131,7 +141,8 @@
 ],
 "c": 0,
 "e": "Son casi 300.000 kilómetros por segundo, el límite de velocidad del universo.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Cómo se llama la energía que tiene un cuerpo por estar en movimiento?",
@@ -143,7 +154,8 @@
 ],
 "c": 0,
 "e": "La energía cinética depende de la masa y del cuadrado de la velocidad.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Qué instrumento mide la presión atmosférica?",
@@ -155,7 +167,8 @@
 ],
 "c": 0,
 "e": "El barómetro mide la presión del aire; el higrómetro, la humedad; y el anemómetro, la velocidad del viento.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Cómo se llama el paso de un gas a líquido?",
@@ -167,7 +180,8 @@
 ],
 "c": 0,
 "e": "Es lo que ocurre cuando el vapor de agua se enfría y forma gotas, como en un espejo empañado.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Cuál es la unidad de energía en el Sistema Internacional?",
@@ -179,7 +193,8 @@
 ],
 "c": 0,
 "e": "El julio es el trabajo que hace una fuerza de un newton al mover un cuerpo un metro.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Qué fenómeno explica que veamos el arcoíris?",
@@ -191,7 +206,8 @@
 ],
 "c": 0,
 "e": "Las gotas de lluvia desvían y separan la luz blanca del Sol en sus colores.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Cuál de estos materiales es mejor conductor de la electricidad?",
@@ -203,7 +219,8 @@
 ],
 "c": 0,
 "e": "El cobre se usa en los cables porque conduce muy bien la corriente.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿A qué temperatura hierve el agua pura al nivel del mar?",
@@ -215,7 +232,8 @@
 ],
 "c": 0,
 "e": "A mayor altitud, la presión baja y el agua hierve a menos de 100 °C.",
-"t": "Física"
+"t": "Física",
+"nv": 1
 },
 {
 "p": "¿Quién propuso la teoría de la relatividad?",
@@ -227,7 +245,8 @@
 ],
 "c": 0,
 "e": "La relatividad especial es de 1905 y la general, de 1915.",
-"t": "Física"
+"t": "Física",
+"nv": 1
 },
 {
 "p": "¿En cuál de estos medios no se propaga el sonido?",
@@ -239,7 +258,8 @@
 ],
 "c": 0,
 "e": "El sonido necesita un medio material para propagarse; en el vacío del espacio no hay nada que vibre.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Cómo se llama la unidad de resistencia eléctrica?",
@@ -251,7 +271,8 @@
 ],
 "c": 0,
 "e": "Su símbolo es la letra griega omega mayúscula (Ω).",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Qué magnitud mide el amperio?",
@@ -263,7 +284,8 @@
 ],
 "c": 0,
 "e": "Un amperio equivale a un culombio de carga por segundo.",
-"t": "Física"
+"t": "Física",
+"nv": 2
 },
 {
 "p": "¿Qué ley de Newton dice que a toda acción corresponde una reacción igual y de sentido contrario?",
@@ -275,7 +297,8 @@
 ],
 "c": 0,
 "e": "Por eso un cohete avanza al expulsar gases hacia atrás.",
-"t": "Física"
+"t": "Física",
+"nv": 3
 },
 {
 "p": "¿Cuál es el símbolo químico del oro?",
@@ -287,7 +310,8 @@
 ],
 "c": 0,
 "e": "Viene del latín «aurum». Ag, la plata, viene de «argentum».",
-"t": "Química"
+"t": "Química",
+"nv": 1
 },
 {
 "p": "¿Cuál es el símbolo químico del hierro?",
@@ -299,7 +323,8 @@
 ],
 "c": 0,
 "e": "Viene del latín «ferrum».",
-"t": "Química"
+"t": "Química",
+"nv": 1
 },
 {
 "p": "¿Cuál es el símbolo químico del sodio?",
@@ -311,7 +336,8 @@
 ],
 "c": 0,
 "e": "Viene del latín «natrium». La S es el azufre.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Qué gas necesitamos para respirar?",
@@ -323,7 +349,8 @@
 ],
 "c": 0,
 "e": "Usamos el oxígeno para obtener energía de los alimentos en las células.",
-"t": "Química"
+"t": "Química",
+"nv": 1
 },
 {
 "p": "¿Cuál es la fórmula química del agua?",
@@ -335,7 +362,8 @@
 ],
 "c": 0,
 "e": "Cada molécula tiene dos átomos de hidrógeno y uno de oxígeno.",
-"t": "Química"
+"t": "Química",
+"nv": 1
 },
 {
 "p": "¿Cuál es el elemento más abundante del universo?",
@@ -347,7 +375,8 @@
 ],
 "c": 0,
 "e": "El hidrógeno constituye aproximadamente tres cuartas partes de la materia ordinaria del universo.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Qué gas forma la mayor parte de la atmósfera terrestre?",
@@ -359,7 +388,8 @@
 ],
 "c": 0,
 "e": "El nitrógeno supone cerca del 78 % del aire; el oxígeno, el 21 %.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Cuál es el pH de una disolución neutra a 25 °C?",
@@ -371,7 +401,8 @@
 ],
 "c": 0,
 "e": "Por debajo de 7 las disoluciones son ácidas y por encima, básicas.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Qué elemento tiene número atómico 1?",
@@ -383,7 +414,8 @@
 ],
 "c": 0,
 "e": "El número atómico es la cantidad de protones del núcleo, y el hidrógeno tiene uno.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Cómo se llama el proceso con el que las plantas fabrican su alimento usando la luz?",
@@ -395,7 +427,8 @@
 ],
 "c": 0,
 "e": "Con luz, agua y dióxido de carbono producen glucosa y liberan oxígeno.",
-"t": "Química"
+"t": "Química",
+"nv": 1
 },
 {
 "p": "¿Qué metal es líquido a temperatura ambiente?",
@@ -407,7 +440,8 @@
 ],
 "c": 0,
 "e": "El mercurio se funde a −39 °C. Es tóxico y por eso se ha dejado de usar en muchos termómetros.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Cómo se llama químicamente la sal común de mesa?",
@@ -419,7 +453,8 @@
 ],
 "c": 0,
 "e": "Su fórmula es NaCl.",
-"t": "Química"
+"t": "Química",
+"nv": 2
 },
 {
 "p": "¿Qué gas se desprende al mezclar bicarbonato con vinagre?",
@@ -431,7 +466,8 @@
 ],
 "c": 0,
 "e": "Las burbujas de la mezcla son dióxido de carbono, el mismo gas de las bebidas con gas.",
-"t": "Química"
+"t": "Química",
+"nv": 3
 },
 {
 "p": "¿Cuál es el órgano más grande del cuerpo humano?",
@@ -443,7 +479,8 @@
 ],
 "c": 0,
 "e": "En un adulto la piel cubre cerca de dos metros cuadrados.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Cuántos huesos tiene un adulto?",
@@ -455,7 +492,8 @@
 ],
 "c": 0,
 "e": "Los bebés nacen con más, pero algunos se fusionan durante el crecimiento.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Qué molécula contiene la información genética de los seres vivos?",
@@ -467,7 +505,8 @@
 ],
 "c": 0,
 "e": "El ADN, ácido desoxirribonucleico, tiene la forma de una doble hélice.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Dónde está el material genético de una célula humana?",
@@ -479,7 +518,8 @@
 ],
 "c": 0,
 "e": "Una pequeña parte del ADN está también en las mitocondrias, pero casi todo está en el núcleo.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Qué orgánulo produce la mayor parte de la energía de la célula?",
@@ -491,7 +531,8 @@
 ],
 "c": 0,
 "e": "Se la llama «central energética» de la célula.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Qué vitamina fabrica la piel con la luz del sol?",
@@ -503,7 +544,8 @@
 ],
 "c": 0,
 "e": "Ayuda a fijar el calcio en los huesos.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Cuál es el mamífero más grande que existe?",
@@ -515,7 +557,8 @@
 ],
 "c": 0,
 "e": "La ballena azul puede superar los 25 metros de largo y las 100 toneladas.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Cuántas cavidades tiene el corazón humano?",
@@ -527,7 +570,8 @@
 ],
 "c": 0,
 "e": "Dos aurículas arriba y dos ventrículos abajo.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Qué grupo sanguíneo puede donar glóbulos rojos a cualquier persona?",
@@ -539,7 +583,8 @@
 ],
 "c": 0,
 "e": "Los glóbulos rojos O negativo no tienen antígenos A, B ni Rh, por eso se llaman «donante universal».",
-"t": "Biología"
+"t": "Biología",
+"nv": 3
 },
 {
 "p": "¿Qué gas toman las plantas del aire para hacer la fotosíntesis?",
@@ -551,7 +596,8 @@
 ],
 "c": 0,
 "e": "Lo absorben por unos poros de las hojas llamados estomas.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Qué células de la sangre transportan el oxígeno?",
@@ -563,7 +609,8 @@
 ],
 "c": 0,
 "e": "Contienen hemoglobina, que se une al oxígeno.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Cuál es el hueso más largo del cuerpo humano?",
@@ -575,7 +622,8 @@
 ],
 "c": 0,
 "e": "Está en el muslo y mide en torno a una cuarta parte de la altura de la persona.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Quién descubrió las leyes de la herencia estudiando guisantes?",
@@ -587,7 +635,8 @@
 ],
 "c": 0,
 "e": "Mendel, un monje austríaco, publicó sus resultados en 1866.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Quién descubrió la penicilina?",
@@ -599,7 +648,8 @@
 ],
 "c": 0,
 "e": "Fleming observó en 1928 que un moho mataba las bacterias de su cultivo.",
-"t": "Biología"
+"t": "Biología",
+"nv": 2
 },
 {
 "p": "¿Quién propuso la teoría de la evolución por selección natural?",
@@ -611,7 +661,8 @@
 ],
 "c": 0,
 "e": "La publicó en «El origen de las especies» en 1859. Alfred Russel Wallace llegó a ideas parecidas por su cuenta.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Cuántos pares de cromosomas tiene una célula humana normal?",
@@ -623,7 +674,8 @@
 ],
 "c": 0,
 "e": "Son 46 cromosomas en total, agrupados en 23 pares.",
-"t": "Biología"
+"t": "Biología",
+"nv": 3
 },
 {
 "p": "¿Qué tipo de animal es una ballena?",
@@ -635,7 +687,8 @@
 ],
 "c": 0,
 "e": "Respira aire con pulmones, amamanta a sus crías y tiene sangre caliente.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Cómo se llama el proceso por el que una oruga se convierte en mariposa?",
@@ -647,7 +700,8 @@
 ],
 "c": 0,
 "e": "Pasa por las fases de huevo, larva (oruga), pupa (crisálida) y adulto.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Qué parte de la planta absorbe el agua y las sales minerales del suelo?",
@@ -659,7 +713,8 @@
 ],
 "c": 0,
 "e": "Además de absorber, la raíz sujeta la planta al suelo.",
-"t": "Biología"
+"t": "Biología",
+"nv": 1
 },
 {
 "p": "¿Cuál es la capa más externa y fina de la Tierra?",
@@ -671,7 +726,8 @@
 ],
 "c": 0,
 "e": "Su grosor va de unos 5 km bajo los océanos a unos 70 km bajo las montañas más altas.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 2
 },
 {
 "p": "¿Qué escala sirve para medir la dureza de los minerales?",
@@ -683,7 +739,8 @@
 ],
 "c": 0,
 "e": "Va del 1 (talco) al 10 (diamante).",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 3
 },
 {
 "p": "¿Qué escala se ha usado tradicionalmente para medir la magnitud de los terremotos?",
@@ -695,7 +752,8 @@
 ],
 "c": 0,
 "e": "Hoy se usa más la magnitud de momento, pero la de Richter sigue siendo la más conocida.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 2
 },
 {
 "p": "¿Cuál es el océano más grande?",
@@ -707,7 +765,8 @@
 ],
 "c": 0,
 "e": "Ocupa cerca de un tercio de la superficie del planeta.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 1
 },
 {
 "p": "¿Cuál es el mineral más duro de la escala de Mohs?",
@@ -719,7 +778,8 @@
 ],
 "c": 0,
 "e": "Tiene dureza 10, la máxima de la escala.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 2
 },
 {
 "p": "¿Qué gas emitido al quemar combustibles fósiles es el principal responsable del cambio climático actual?",
@@ -731,7 +791,8 @@
 ],
 "c": 0,
 "e": "El dióxido de carbono retiene calor en la atmósfera y su concentración ha aumentado mucho desde la Revolución Industrial.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 2
 },
 {
 "p": "¿Cómo se llamaba el supercontinente que reunía casi todas las tierras emergidas hace más de 200 millones de años?",
@@ -743,7 +804,8 @@
 ],
 "c": 0,
 "e": "Pangea se fue fragmentando hasta formar los continentes actuales.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 2
 },
 {
 "p": "¿Cuál es el desierto cálido más grande del mundo?",
@@ -755,7 +817,8 @@
 ],
 "c": 0,
 "e": "Ocupa buena parte del norte de África. El desierto más grande de todos, contando los de hielo, es la Antártida.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 1
 },
 {
 "p": "¿Qué instrumento mide la velocidad del viento?",
@@ -767,7 +830,8 @@
 ],
 "c": 0,
 "e": "El pluviómetro mide la lluvia caída.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 3
 },
 {
 "p": "¿A qué se debe el cambio de estaciones en la Tierra?",
@@ -779,7 +843,723 @@
 ],
 "c": 0,
 "e": "Como el eje está inclinado unos 23,5°, cada hemisferio recibe más o menos luz directa según la época del año.",
-"t": "Tierra"
+"t": "Tierra",
+"nv": 2
+},
+{
+"p": "¿Qué gas, más ligero que el aire y no inflamable, se usa para inflar globos que flotan?",
+"o": [
+"Helio",
+"Hidrógeno",
+"Neón",
+"Argón"
+],
+"c": 0,
+"e": "El helio es muy ligero y no arde. El hidrógeno también flota, pero es inflamable.",
+"t": "Química",
+"nv": 1
+},
+{
+"p": "¿Qué partícula del átomo tiene carga eléctrica negativa?",
+"o": [
+"Electrón",
+"Protón",
+"Neutrón",
+"Fotón"
+],
+"c": 0,
+"e": "Los protones tienen carga positiva y los neutrones no tienen carga.",
+"t": "Física",
+"nv": 1
+},
+{
+"p": "¿Qué mamífero es capaz de volar de verdad, batiendo las alas?",
+"o": [
+"Murciélago",
+"Ardilla voladora",
+"Petauro del azúcar",
+"Colugo"
+],
+"c": 0,
+"e": "Los murciélagos son los únicos mamíferos que vuelan; los otros solo planean.",
+"t": "Zoología",
+"nv": 1
+},
+{
+"p": "¿Cómo se llama la capa de gas que protege de gran parte de la radiación ultravioleta del Sol?",
+"o": [
+"Capa de ozono",
+"Troposfera",
+"Ionosfera",
+"Magnetosfera"
+],
+"c": 0,
+"e": "El ozono (O₃) absorbe la mayor parte de la radiación ultravioleta más dañina.",
+"t": "Medio ambiente",
+"nv": 1
+},
+{
+"p": "¿Qué células de la sangre ayudan a defender al organismo de las infecciones?",
+"o": [
+"Glóbulos blancos",
+"Glóbulos rojos",
+"Plaquetas",
+"Plasma"
+],
+"c": 0,
+"e": "Los glóbulos blancos también se llaman leucocitos.",
+"t": "Biología",
+"nv": 1
+},
+{
+"p": "¿Cuál es el planeta más caluroso del sistema solar?",
+"o": [
+"Venus",
+"Mercurio",
+"Marte",
+"Júpiter"
+],
+"c": 0,
+"e": "Venus ronda los 465 °C por el efecto invernadero de su atmósfera. Mercurio está más cerca del Sol, pero se enfría de noche.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Qué mide un año luz?",
+"o": [
+"Una distancia",
+"Un tiempo",
+"Una velocidad",
+"Una masa"
+],
+"c": 0,
+"e": "Es lo que recorre la luz en un año: unos 9,46 billones de kilómetros.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Qué planeta tarda más en dar una vuelta al Sol?",
+"o": [
+"Neptuno",
+"Urano",
+"Saturno",
+"Júpiter"
+],
+"c": 0,
+"e": "Neptuno tarda unos 165 años terrestres en completar una órbita.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Qué tipo de estrella es el Sol?",
+"o": [
+"Enana amarilla",
+"Gigante roja",
+"Enana blanca",
+"Supergigante azul"
+],
+"c": 0,
+"e": "Es una estrella mediana, de tipo G, en plena madurez: tiene unos 4.600 millones de años.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Cuál es el símbolo químico de la plata?",
+"o": [
+"Ag",
+"Pt",
+"Pb",
+"Sn"
+],
+"c": 0,
+"e": "Ag viene del latín «argentum».",
+"t": "Química",
+"nv": 2
+},
+{
+"p": "¿Qué tipo de enlace se forma cuando dos átomos comparten electrones?",
+"o": [
+"Covalente",
+"Iónico",
+"Nuclear",
+"Magnético"
+],
+"c": 0,
+"e": "El agua y el dióxido de carbono tienen enlaces covalentes. En el enlace iónico los electrones se transfieren.",
+"t": "Química",
+"nv": 2
+},
+{
+"p": "¿Qué científica descubrió el polonio y el radio junto a su marido Pierre?",
+"o": [
+"Marie Curie",
+"Lise Meitner",
+"Rosalind Franklin",
+"Ada Lovelace"
+],
+"c": 0,
+"e": "Marie Curie ganó dos premios Nobel: el de Física en 1903 y el de Química en 1911.",
+"t": "Historia de la ciencia",
+"nv": 2
+},
+{
+"p": "¿Qué descubrió Wilhelm Röntgen en 1895?",
+"o": [
+"Los rayos X",
+"La radiactividad",
+"El electrón",
+"La penicilina"
+],
+"c": 0,
+"e": "Les puso «X» porque no sabía qué eran. Recibió el primer Nobel de Física, en 1901.",
+"t": "Historia de la ciencia",
+"nv": 2
+},
+{
+"p": "¿Cuál es la unidad de frecuencia en el Sistema Internacional?",
+"o": [
+"Hercio",
+"Vatio",
+"Pascal",
+"Decibelio"
+],
+"c": 0,
+"e": "Un hercio equivale a un ciclo por segundo.",
+"t": "Física",
+"nv": 2
+},
+{
+"p": "¿Qué órgano produce la insulina?",
+"o": [
+"Páncreas",
+"Hígado",
+"Riñón",
+"Tiroides"
+],
+"c": 0,
+"e": "Las células beta del páncreas segregan insulina, que regula el azúcar en sangre.",
+"t": "Cuerpo humano",
+"nv": 2
+},
+{
+"p": "¿Cuántos dientes tiene un adulto con la dentición completa, contando las muelas del juicio?",
+"o": [
+"32",
+"28",
+"30",
+"36"
+],
+"c": 0,
+"e": "Son 8 incisivos, 4 caninos, 8 premolares y 12 molares.",
+"t": "Cuerpo humano",
+"nv": 2
+},
+{
+"p": "¿Qué vitamina previene el escorbuto?",
+"o": [
+"Vitamina C",
+"Vitamina A",
+"Vitamina D",
+"Vitamina K"
+],
+"c": 0,
+"e": "La vitamina C abunda en los cítricos, los pimientos y el kiwi.",
+"t": "Nutrición",
+"nv": 2
+},
+{
+"p": "¿Cuál es el animal más rápido del mundo?",
+"o": [
+"Halcón peregrino",
+"Guepardo",
+"Águila real",
+"Vencejo"
+],
+"c": 0,
+"e": "En picado supera los 300 km/h. El guepardo es el más rápido en tierra.",
+"t": "Zoología",
+"nv": 2
+},
+{
+"p": "¿Cómo se llama la luna más grande de Júpiter, que es la mayor del sistema solar?",
+"o": [
+"Ganímedes",
+"Ío",
+"Europa",
+"Calisto"
+],
+"c": 0,
+"e": "Ganímedes es incluso más grande que el planeta Mercurio.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "¿Qué planeta tiene más lunas conocidas?",
+"o": [
+"Saturno",
+"Júpiter",
+"Urano",
+"Neptuno"
+],
+"c": 0,
+"e": "Saturno supera con diferencia a Júpiter, con más de 200 lunas confirmadas, y la cifra sigue creciendo.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+"o": [
+"Oxígeno",
+"Silicio",
+"Aluminio",
+"Hierro"
+],
+"c": 0,
+"e": "El oxígeno supone casi la mitad de la masa de la corteza; el silicio es el segundo.",
+"t": "Geología",
+"nv": 3
+},
+{
+"p": "¿Cuál es el símbolo químico del potasio?",
+"o": [
+"K",
+"P",
+"Po",
+"Pt"
+],
+"c": 0,
+"e": "K viene del latín «kalium».",
+"t": "Química",
+"nv": 3
+},
+{
+"p": "¿Cuál es el elemento más electronegativo de la tabla periódica?",
+"o": [
+"Flúor",
+"Oxígeno",
+"Cloro",
+"Nitrógeno"
+],
+"c": 0,
+"e": "El flúor es el elemento que más atrae los electrones en un enlace.",
+"t": "Química",
+"nv": 3
+},
+{
+"p": "¿Quién propuso un modelo atómico con electrones en órbitas de energía definida?",
+"o": [
+"Niels Bohr",
+"Ernest Rutherford",
+"J. J. Thomson",
+"John Dalton"
+],
+"c": 0,
+"e": "Bohr lo planteó en 1913 para explicar el espectro del hidrógeno.",
+"t": "Física",
+"nv": 3
+},
+{
+"p": "¿Quién descubrió la radiactividad natural en 1896?",
+"o": [
+"Henri Becquerel",
+"Marie Curie",
+"Wilhelm Röntgen",
+"Ernest Rutherford"
+],
+"c": 0,
+"e": "Becquerel la observó con sales de uranio y compartió el Nobel de Física de 1903 con los Curie.",
+"t": "Historia de la ciencia",
+"nv": 3
+},
+{
+"p": "¿Cuánto vale el cero absoluto en grados Celsius?",
+"o": [
+"−273,15 °C",
+"−100 °C",
+"−373,15 °C",
+"−459,67 °C"
+],
+"c": 0,
+"e": "Equivale a 0 kelvin. −459,67 son los grados Fahrenheit.",
+"t": "Física",
+"nv": 3
+},
+{
+"p": "¿Cuál es el músculo más grande del cuerpo humano?",
+"o": [
+"Glúteo mayor",
+"Cuádriceps",
+"Dorsal ancho",
+"Bíceps"
+],
+"c": 0,
+"e": "El glúteo mayor es el músculo con más volumen del cuerpo.",
+"t": "Cuerpo humano",
+"nv": 3
+},
+{
+"p": "¿Qué tipo de roca es el mármol?",
+"o": [
+"Metamórfica",
+"Ígnea",
+"Sedimentaria",
+"Volcánica"
+],
+"c": 0,
+"e": "El mármol se forma cuando la caliza se transforma por la presión y el calor.",
+"t": "Geología",
+"nv": 3
+},
+{
+"p": "¿Quién inventó la pila eléctrica en 1800?",
+"o": [
+"Alessandro Volta",
+"Luigi Galvani",
+"Michael Faraday",
+"Thomas Edison"
+],
+"c": 0,
+"e": "La pila voltaica fue la primera fuente de corriente continua. El voltio lleva su nombre.",
+"t": "Historia de la ciencia",
+"nv": 3
+},
+{
+"p": "¿Qué astrónomo observó en 1929 que las galaxias se alejan y que el universo se expande?",
+"o": [
+"Edwin Hubble",
+"Albert Einstein",
+"Johannes Kepler",
+"Carl Sagan"
+],
+"c": 0,
+"e": "Hubble comprobó que las galaxias se alejan más deprisa cuanto más lejos están.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "¿Qué fase tiene la Luna cuando se sitúa entre la Tierra y el Sol?",
+"o": [
+"Luna nueva",
+"Luna llena",
+"Cuarto creciente",
+"Cuarto menguante"
+],
+"c": 0,
+"e": "En luna nueva su cara iluminada mira al Sol y desde la Tierra apenas se ve.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Quién fue la primera persona que pisó la Luna?",
+"o": [
+"Neil Armstrong",
+"Buzz Aldrin",
+"Yuri Gagarin",
+"Michael Collins"
+],
+"c": 0,
+"e": "Lo hizo el 20 de julio de 1969, durante la misión Apolo 11.",
+"t": "Astronomía",
+"nv": 1
+},
+{
+"p": "¿Qué cometa famoso vuelve a verse desde la Tierra cada 75 o 76 años?",
+"o": [
+"El cometa Halley",
+"El cometa Hale-Bopp",
+"El cometa Encke",
+"El cometa Hyakutake"
+],
+"c": 0,
+"e": "Su última visita fue en 1986 y volverá en 2061.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Qué tipo de onda es la luz visible?",
+"o": [
+"Electromagnética",
+"Mecánica",
+"Sonora",
+"Sísmica"
+],
+"c": 0,
+"e": "La luz es una onda electromagnética y, a diferencia del sonido, puede viajar por el vacío.",
+"t": "Física",
+"nv": 2
+},
+{
+"p": "¿Qué color de luz visible tiene la longitud de onda más corta?",
+"o": [
+"Violeta",
+"Rojo",
+"Verde",
+"Amarillo"
+],
+"c": 0,
+"e": "El violeta mide unos 400 nanómetros; el rojo, unos 700.",
+"t": "Física",
+"nv": 3
+},
+{
+"p": "¿Qué estado de la materia tiene volumen fijo pero adopta la forma del recipiente?",
+"o": [
+"Líquido",
+"Sólido",
+"Gas",
+"Plasma"
+],
+"c": 0,
+"e": "Los líquidos no se comprimen casi nada y fluyen hasta ocupar el fondo del recipiente.",
+"t": "Física",
+"nv": 2
+},
+{
+"p": "¿Qué gas noble se usa en los letreros luminosos de color rojo anaranjado?",
+"o": [
+"Neón",
+"Argón",
+"Helio",
+"Criptón"
+],
+"c": 0,
+"e": "Al pasar la electricidad por un tubo con neón, el gas emite una luz rojiza.",
+"t": "Química",
+"nv": 2
+},
+{
+"p": "¿Cuál es el símbolo químico del cobre?",
+"o": [
+"Cu",
+"Co",
+"Cr",
+"Cb"
+],
+"c": 0,
+"e": "Viene del latín «cuprum», que alude a la isla de Chipre, de donde los romanos sacaban mucho cobre.",
+"t": "Química",
+"nv": 2
+},
+{
+"p": "¿Cuál es el símbolo químico del plomo?",
+"o": [
+"Pb",
+"Pl",
+"Po",
+"Pm"
+],
+"c": 0,
+"e": "Viene del latín «plumbum».",
+"t": "Química",
+"nv": 3
+},
+{
+"p": "¿Quién ordenó los elementos químicos en la primera tabla periódica, en 1869?",
+"o": [
+"Dmitri Mendeléyev",
+"Antoine Lavoisier",
+"John Dalton",
+"Niels Bohr"
+],
+"c": 0,
+"e": "Dejó huecos para elementos que aún no se conocían y acertó al predecir sus propiedades.",
+"t": "Química",
+"nv": 2
+},
+{
+"p": "¿Qué órgano del cuerpo filtra la sangre y produce la orina?",
+"o": [
+"El riñón",
+"El hígado",
+"El páncreas",
+"El bazo"
+],
+"c": 0,
+"e": "Cada persona suele tener dos riñones, y cada uno filtra la sangre las veinticuatro horas del día.",
+"t": "Cuerpo humano",
+"nv": 1
+},
+{
+"p": "¿Cómo se llaman las ramificaciones de una neurona que reciben las señales de otras neuronas?",
+"o": [
+"Dendritas",
+"Axones",
+"Sinapsis",
+"Vainas de mielina"
+],
+"c": 0,
+"e": "El axón, en cambio, es la prolongación larga que envía la señal a la neurona siguiente.",
+"t": "Cuerpo humano",
+"nv": 3
+},
+{
+"p": "¿Qué pigmento da color a la piel y al pelo?",
+"o": [
+"La melanina",
+"La clorofila",
+"La hemoglobina",
+"La queratina"
+],
+"c": 0,
+"e": "Cuanta más melanina produce el cuerpo, más oscura es la piel y mejor protege del sol.",
+"t": "Biología",
+"nv": 2
+},
+{
+"p": "¿Qué parte del ojo regula la cantidad de luz que entra ajustando el tamaño de la pupila?",
+"o": [
+"El iris",
+"La córnea",
+"El cristalino",
+"La retina"
+],
+"c": 0,
+"e": "El iris es la parte de color del ojo: se cierra con mucha luz y se abre con poca.",
+"t": "Cuerpo humano",
+"nv": 2
+},
+{
+"p": "¿Qué mamífero australiano pone huevos y tiene el hocico parecido a un pico de pato?",
+"o": [
+"El ornitorrinco",
+"El koala",
+"El canguro",
+"El demonio de Tasmania"
+],
+"c": 0,
+"e": "Es uno de los pocos mamíferos que ponen huevos, junto con los equidnas.",
+"t": "Zoología",
+"nv": 2
+},
+{
+"p": "¿Qué científico italiano observó con un telescopio los cuatro satélites mayores de Júpiter?",
+"o": [
+"Galileo Galilei",
+"Giovanni Cassini",
+"Evangelista Torricelli",
+"Alessandro Volta"
+],
+"c": 0,
+"e": "Los vio en 1610 y comprobó que no todo giraba alrededor de la Tierra.",
+"t": "Historia de la ciencia",
+"nv": 2
+},
+{
+"p": "¿Qué capa de la atmósfera contiene la mayor parte del aire y es donde ocurre el tiempo meteorológico?",
+"o": [
+"La troposfera",
+"La estratosfera",
+"La mesosfera",
+"La termosfera"
+],
+"c": 0,
+"e": "Mide entre 7 y 17 kilómetros de altura según la latitud y en ella se forman las nubes y la lluvia.",
+"t": "Tierra",
+"nv": 3
+},
+{
+"p": "¿Cómo se llama el punto de la superficie terrestre situado justo encima del foco de un terremoto?",
+"o": [
+"Epicentro",
+"Hipocentro",
+"Magnitud",
+"Réplica"
+],
+"c": 0,
+"e": "El foco, bajo tierra, se llama hipocentro; el epicentro es su proyección en la superficie.",
+"t": "Geología",
+"nv": 2
+},
+{
+"p": "¿Qué vitamina interviene en la coagulación de la sangre?",
+"o": [
+"La vitamina K",
+"La vitamina A",
+"La vitamina C",
+"La vitamina B12"
+],
+"c": 0,
+"e": "Abunda en las verduras de hoja verde y permite al cuerpo cerrar las heridas.",
+"t": "Nutrición",
+"nv": 3
+},
+{
+"p": "¿En qué unidad se mide la intensidad del sonido?",
+"o": [
+"Decibelio",
+"Hercio",
+"Vatio",
+"Pascal"
+],
+"c": 0,
+"e": "Una conversación normal ronda los 60 decibelios y un concierto de rock supera los 100.",
+"t": "Física",
+"nv": 2
+},
+{
+"p": "¿Qué ciencia estudia los fósiles?",
+"o": [
+"La paleontología",
+"La geología",
+"La arqueología",
+"La antropología"
+],
+"c": 0,
+"e": "Reconstruye cómo eran los seres vivos del pasado a partir de huesos, conchas o huellas conservadas en las rocas.",
+"t": "Historia de la ciencia",
+"nv": 2
+},
+{
+"p": "¿Cómo se llama el movimiento de la Tierra alrededor del Sol?",
+"o": [
+"Traslación",
+"Rotación",
+"Precesión",
+"Oscilación"
+],
+"c": 0,
+"e": "Dura algo más de 365 días; la rotación es el giro de la Tierra sobre sí misma.",
+"t": "Astronomía",
+"nv": 1
+},
+{
+"p": "¿Qué es un agujero negro?",
+"o": [
+"Una región con tanta gravedad que ni la luz puede escapar",
+"Una estrella apagada y muy fría",
+"Un planeta sin atmósfera",
+"Un hueco vacío en el espacio"
+],
+"c": 0,
+"e": "Se forma cuando una estrella muy masiva colapsa; su límite se llama horizonte de sucesos.",
+"t": "Astronomía",
+"nv": 2
+},
+{
+"p": "¿Cuál es la estrella más cercana a la Tierra después del Sol?",
+"o": [
+"Próxima Centauri",
+"Sirio",
+"Betelgeuse",
+"Polaris"
+],
+"c": 0,
+"e": "Está a poco más de cuatro años luz y es una pequeña enana roja.",
+"t": "Astronomía",
+"nv": 3
+},
+{
+"p": "¿A qué temperatura se congela el agua pura a presión normal?",
+"o": [
+"0 °C",
+"−10 °C",
+"4 °C",
+"10 °C"
+],
+"c": 0,
+"e": "A 0 °C el agua pasa de líquida a sólida; a 4 °C es cuando el agua líquida es más densa.",
+"t": "Física",
+"nv": 1
 }
 ]
 }

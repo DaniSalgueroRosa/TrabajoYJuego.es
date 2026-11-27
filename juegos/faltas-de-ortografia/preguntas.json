@@ -10,7 +10,8 @@
 "ha ver"
 ],
 "c": 0,
-"e": "«A ver» es preposición más verbo («vamos a ver»). «Haber» es el verbo auxiliar o el que indica existencia."
+"e": "«A ver» es preposición más verbo («vamos a ver»). «Haber» es el verbo auxiliar o el que indica existencia.",
+"nv": 1
 },
 {
 "p": "Deberías ___ avisado antes.",
@@ -21,7 +22,8 @@
 "a haber"
 ],
 "c": 0,
-"e": "Tras «deberías» va un infinitivo compuesto: «haber avisado»."
+"e": "Tras «deberías» va un infinitivo compuesto: «haber avisado».",
+"nv": 1
 },
 {
 "p": "Ayer ___ muchas personas en la plaza.",
@@ -32,7 +34,8 @@
 "habia"
 ],
 "c": 0,
-"e": "Cuando «haber» indica existencia es impersonal y se queda en singular: «había muchas personas»."
+"e": "Cuando «haber» indica existencia es impersonal y se queda en singular: «había muchas personas».",
+"nv": 2
 },
 {
 "p": "Esta tarde ___ mucho que hacer.",
@@ -43,7 +46,8 @@
 "ahy"
 ],
 "c": 0,
-"e": "«Hay» es el verbo haber en presente («hay mucho»). «Ahí» es un lugar y «ay» es una interjección."
+"e": "«Hay» es el verbo haber en presente («hay mucho»). «Ahí» es un lugar y «ay» es una interjección.",
+"nv": 1
 },
 {
 "p": "Pon el libro ___, en la mesa.",
@@ -54,7 +58,8 @@
 "ahi"
 ],
 "c": 0,
-"e": "«Ahí» es un adverbio de lugar y lleva tilde por ser un hiato con acento en la «i»."
+"e": "«Ahí» es un adverbio de lugar y lleva tilde por ser un hiato con acento en la «i».",
+"nv": 1
 },
 {
 "p": "Mira, el libro está ___.",
@@ -65,7 +70,8 @@
 "hallí"
 ],
 "c": 0,
-"e": "«Allí» lleva tilde porque el acento recae en la «i» y la palabra termina en vocal."
+"e": "«Allí» lleva tilde porque el acento recae en la «i» y la palabra termina en vocal.",
+"nv": 1
 },
 {
 "p": "¿___ no has venido a clase?",
@@ -76,7 +82,8 @@
 "Por que"
 ],
 "c": 0,
-"e": "En una pregunta directa se escribe en dos palabras y con tilde: «¿Por qué?»."
+"e": "En una pregunta directa se escribe en dos palabras y con tilde: «¿Por qué?».",
+"nv": 1
 },
 {
 "p": "No sé ___ lo ha hecho.",
@@ -87,7 +94,8 @@
 "por que"
 ],
 "c": 0,
-"e": "También en las preguntas indirectas se escribe «por qué», en dos palabras y con tilde."
+"e": "También en las preguntas indirectas se escribe «por qué», en dos palabras y con tilde.",
+"nv": 2
 },
 {
 "p": "Lo hizo ___ le apetecía.",
@@ -98,7 +106,8 @@
 "por que"
 ],
 "c": 0,
-"e": "«Porque» es la conjunción que da la causa y se escribe sin tilde y en una sola palabra."
+"e": "«Porque» es la conjunción que da la causa y se escribe sin tilde y en una sola palabra.",
+"nv": 1
 },
 {
 "p": "Nadie entiende el ___ de su decisión.",
@@ -109,7 +118,8 @@
 "por que"
 ],
 "c": 0,
-"e": "«Porqué» es un sustantivo que significa «causa» y puede llevar artículo: «el porqué»."
+"e": "«Porqué» es un sustantivo que significa «causa» y puede llevar artículo: «el porqué».",
+"nv": 3
 },
 {
 "p": "No quiero té ___ café.",
@@ -120,7 +130,8 @@
 "si-no"
 ],
 "c": 0,
-"e": "«Sino» expresa contraste («no esto, sino aquello»). «Si no» es la conjunción «si» más el adverbio «no»."
+"e": "«Sino» expresa contraste («no esto, sino aquello»). «Si no» es la conjunción «si» más el adverbio «no».",
+"nv": 2
 },
 {
 "p": "___ llueve, saldremos de excursión.",
@@ -131,7 +142,8 @@
 "Sin o"
 ],
 "c": 0,
-"e": "Aquí «si» es condicional y «no» niega: «si no llueve». Se escribe en dos palabras."
+"e": "Aquí «si» es condicional y «no» niega: «si no llueve». Se escribe en dos palabras.",
+"nv": 2
 },
 {
 "p": "¿Quieres venir ___?",
@@ -142,7 +154,8 @@
 "comigo"
 ],
 "c": 0,
-"e": "«Conmigo» se escribe siempre en una palabra, igual que «contigo» y «consigo»."
+"e": "«Conmigo» se escribe siempre en una palabra, igual que «contigo» y «consigo».",
+"nv": 1
 },
 {
 "p": "Que te ___ muy bien en el examen.",
@@ -153,7 +166,8 @@
 "balla"
 ],
 "c": 0,
-"e": "«Vaya» es una forma del verbo «ir». «Valla» es una cerca y «baya» es un fruto."
+"e": "«Vaya» es una forma del verbo «ir». «Valla» es una cerca y «baya» es un fruto.",
+"nv": 2
 },
 {
 "p": "Han pintado la ___ del jardín.",
@@ -164,7 +178,8 @@
 "balla"
 ],
 "c": 0,
-"e": "«Valla» es una cerca o un vallado."
+"e": "«Valla» es una cerca o un vallado.",
+"nv": 2
 },
 {
 "p": "Las moras y los arándanos son un tipo de ___.",
@@ -175,7 +190,8 @@
 "balla"
 ],
 "c": 0,
-"e": "«Baya» es un fruto carnoso y pequeño, con semillas."
+"e": "«Baya» es un fruto carnoso y pequeño, con semillas.",
+"nv": 3
 },
 {
 "p": "Te ___ de menos cuando no estás.",
@@ -186,7 +202,8 @@
 "hecó"
 ],
 "c": 0,
-"e": "«Echar de menos» lleva el verbo echar, que se escribe sin hache en esta forma."
+"e": "«Echar de menos» lleva el verbo echar, que se escribe sin hache en esta forma.",
+"nv": 2
 },
 {
 "p": "Ya está todo ___.",
@@ -197,7 +214,8 @@
 "heco"
 ],
 "c": 0,
-"e": "«Hecho» es el participio de «hacer» y empieza por hache."
+"e": "«Hecho» es el participio de «hacer» y empieza por hache.",
+"nv": 1
 },
 {
 "p": "Estudié ___ muy tarde.",
@@ -208,7 +226,8 @@
 "hazta"
 ],
 "c": 0,
-"e": "«Hasta» es una preposición. «Asta» es el palo de una bandera o el cuerno de un toro."
+"e": "«Hasta» es una preposición. «Asta» es el palo de una bandera o el cuerno de un toro.",
+"nv": 1
 },
 {
 "p": "La bandera ondeaba en el ___.",
@@ -219,7 +238,8 @@
 "ata"
 ],
 "c": 0,
-"e": "«Asta» es el palo donde se coloca una bandera."
+"e": "«Asta» es el palo donde se coloca una bandera.",
+"nv": 3
 },
 {
 "p": "Espero que ___ buen tiempo mañana.",
@@ -230,7 +250,8 @@
 "allá"
 ],
 "c": 0,
-"e": "«Haya» es una forma del verbo haber; «halla» es una forma de hallar y «allá» es un adverbio."
+"e": "«Haya» es una forma del verbo haber; «halla» es una forma de hallar y «allá» es un adverbio.",
+"nv": 2
 },
 {
 "p": "Mi hermana siempre ___ lo que busca.",
@@ -241,7 +262,8 @@
 "alla"
 ],
 "c": 0,
-"e": "«Halla» es una forma del verbo «hallar», que significa encontrar."
+"e": "«Halla» es una forma del verbo «hallar», que significa encontrar.",
+"nv": 3
 },
 {
 "p": "Deja el paquete ___, junto a la puerta.",
@@ -252,7 +274,8 @@
 "alla"
 ],
 "c": 0,
-"e": "«Allá» es un adverbio de lugar y lleva tilde por ser aguda terminada en vocal."
+"e": "«Allá» es un adverbio de lugar y lleva tilde por ser aguda terminada en vocal.",
+"nv": 3
 },
 {
 "p": "El fotógrafo va a ___ las fotos.",
@@ -263,7 +286,8 @@
 "reveler"
 ],
 "c": 0,
-"e": "«Revelar» es descubrir o sacar a la luz. «Rebelar» es sublevar."
+"e": "«Revelar» es descubrir o sacar a la luz. «Rebelar» es sublevar.",
+"nv": 2
 },
 {
 "p": "El ejército se ___ contra el rey.",
@@ -274,7 +298,8 @@
 "rebelló"
 ],
 "c": 0,
-"e": "«Rebelarse» es levantarse contra una autoridad."
+"e": "«Rebelarse» es levantarse contra una autoridad.",
+"nv": 2
 },
 {
 "p": "El niño se ___ de la bici.",
@@ -285,7 +310,8 @@
 "caió"
 ],
 "c": 0,
-"e": "«Cayó» viene de caer. «Calló» viene de callar."
+"e": "«Cayó» viene de caer. «Calló» viene de callar.",
+"nv": 2
 },
 {
 "p": "Ante la pregunta, se ___ y no dijo nada.",
@@ -296,7 +322,8 @@
 "cayo"
 ],
 "c": 0,
-"e": "«Calló» viene de callar."
+"e": "«Calló» viene de callar.",
+"nv": 2
 },
 {
 "p": "Ayer ___ fiebre toda la tarde.",
@@ -307,7 +334,8 @@
 "tubó"
 ],
 "c": 0,
-"e": "«Tuvo» es del verbo tener. «Tubo» es un cilindro hueco."
+"e": "«Tuvo» es del verbo tener. «Tubo» es un cilindro hueco.",
+"nv": 2
 },
 {
 "p": "Necesito un ___ de ensayo para el experimento.",
@@ -318,7 +346,8 @@
 "tuvó"
 ],
 "c": 0,
-"e": "«Tubo» es el cilindro hueco. No confundir con «tuvo» (verbo tener)."
+"e": "«Tubo» es el cilindro hueco. No confundir con «tuvo» (verbo tener).",
+"nv": 2
 },
 {
 "p": "Una gran ___ rompió contra el espigón.",
@@ -329,7 +358,8 @@
 "ohla"
 ],
 "c": 0,
-"e": "«Ola» es la onda del agua. «Hola» es un saludo y «olla» es un recipiente."
+"e": "«Ola» es la onda del agua. «Hola» es un saludo y «olla» es un recipiente.",
+"nv": 1
 },
 {
 "p": "Voy a ___ una canción con el móvil.",
@@ -340,7 +370,8 @@
 "grabbar"
 ],
 "c": 0,
-"e": "«Grabar» es registrar sonidos o imágenes. «Gravar» es imponer un impuesto."
+"e": "«Grabar» es registrar sonidos o imágenes. «Gravar» es imponer un impuesto.",
+"nv": 2
 },
 {
 "p": "El Gobierno quiere ___ los productos de lujo.",
@@ -351,7 +382,8 @@
 "gravá"
 ],
 "c": 0,
-"e": "«Gravar» es imponer una carga o un impuesto."
+"e": "«Gravar» es imponer una carga o un impuesto.",
+"nv": 3
 },
 {
 "p": "Mañana vamos a ___ en las elecciones.",
@@ -362,7 +394,8 @@
 "botár"
 ],
 "c": 0,
-"e": "«Votar» es emitir un voto. «Botar» es hacer rebotar o lanzar un barco al agua."
+"e": "«Votar» es emitir un voto. «Botar» es hacer rebotar o lanzar un barco al agua.",
+"nv": 2
 },
 {
 "p": "Fueron a ___ conejos al monte.",
@@ -373,7 +406,8 @@
 "caçar"
 ],
 "c": 0,
-"e": "«Cazar» es perseguir animales. «Casar» es contraer matrimonio."
+"e": "«Cazar» es perseguir animales. «Casar» es contraer matrimonio.",
+"nv": 2
 },
 {
 "p": "Se van a ___ en junio.",
@@ -384,7 +418,8 @@
 "caçar"
 ],
 "c": 0,
-"e": "«Casarse» es contraer matrimonio."
+"e": "«Casarse» es contraer matrimonio.",
+"nv": 2
 },
 {
 "p": "Si me lo hubieras dicho, ___ ido contigo.",
@@ -395,7 +430,8 @@
 "abriá"
 ],
 "c": 0,
-"e": "«Habría» es el condicional del verbo haber y lleva hache."
+"e": "«Habría» es el condicional del verbo haber y lleva hache.",
+"nv": 2
 },
 {
 "p": "Yo ___ la respuesta.",
@@ -406,7 +442,8 @@
 "cé"
 ],
 "c": 0,
-"e": "«Sé» (del verbo saber) lleva tilde para diferenciarlo del pronombre «se»."
+"e": "«Sé» (del verbo saber) lleva tilde para diferenciarlo del pronombre «se».",
+"nv": 2
 },
 {
 "p": "Eso es para ___.",
@@ -417,7 +454,8 @@
 "mï"
 ],
 "c": 0,
-"e": "Como pronombre personal, «mí» lleva tilde. Como posesivo («mi casa») no."
+"e": "Como pronombre personal, «mí» lleva tilde. Como posesivo («mi casa») no.",
+"nv": 3
 },
 {
 "p": "¿Cómo estás ___?",
@@ -428,7 +466,8 @@
 "tü"
 ],
 "c": 0,
-"e": "El pronombre «tú» lleva tilde. El posesivo («tu casa») no."
+"e": "El pronombre «tú» lleva tilde. El posesivo («tu casa») no.",
+"nv": 2
 },
 {
 "p": "¿Quieres un ___ caliente?",
@@ -439,7 +478,8 @@
 "tè"
 ],
 "c": 0,
-"e": "«Té» es la infusión y lleva tilde. «Te» es un pronombre."
+"e": "«Té» es la infusión y lleva tilde. «Te» es un pronombre.",
+"nv": 1
 },
 {
 "p": "Me gusta ___ el café con leche.",
@@ -450,7 +490,8 @@
 "mass"
 ],
 "c": 0,
-"e": "«Más» indica cantidad y lleva tilde. «Mas» es una conjunción como «pero»."
+"e": "«Más» indica cantidad y lleva tilde. «Mas» es una conjunción como «pero».",
+"nv": 2
 },
 {
 "p": "___ no ha llegado el autobús.",
@@ -461,7 +502,8 @@
 "Haún"
 ],
 "c": 0,
-"e": "«Aún» lleva tilde cuando equivale a «todavía»."
+"e": "«Aún» lleva tilde cuando equivale a «todavía».",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -472,7 +514,8 @@
 "canciòn"
 ],
 "c": 0,
-"e": "Es aguda, termina en «n» y por eso lleva tilde en la «o»."
+"e": "Es aguda, termina en «n» y por eso lleva tilde en la «o».",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -483,7 +526,8 @@
 "láspiz"
 ],
 "c": 0,
-"e": "Es llana y no termina en vocal, «n» ni «s», así que lleva tilde en la «á»."
+"e": "Es llana y no termina en vocal, «n» ni «s», así que lleva tilde en la «á».",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -494,7 +538,8 @@
 "dificill"
 ],
 "c": 0,
-"e": "Es llana y termina en «l», por eso lleva tilde en la «í»."
+"e": "Es llana y termina en «l», por eso lleva tilde en la «í».",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -505,7 +550,8 @@
 "ingléz"
 ],
 "c": 0,
-"e": "Es aguda y termina en «s», por eso lleva tilde."
+"e": "Es aguda y termina en «s», por eso lleva tilde.",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -516,7 +562,8 @@
 "teléfonó"
 ],
 "c": 0,
-"e": "Es esdrújula y todas las esdrújulas llevan tilde."
+"e": "Es esdrújula y todas las esdrújulas llevan tilde.",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -527,7 +574,8 @@
 "tambén"
 ],
 "c": 0,
-"e": "Es aguda y termina en «n», así que lleva tilde en la «é»."
+"e": "Es aguda y termina en «n», así que lleva tilde en la «é».",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -538,7 +586,8 @@
 "exámenez"
 ],
 "c": 0,
-"e": "En plural «exámenes» es esdrújula y lleva tilde; el singular, «examen», no la lleva."
+"e": "En plural «exámenes» es esdrújula y lleva tilde; el singular, «examen», no la lleva.",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -549,7 +598,8 @@
 "ehxibir"
 ],
 "c": 0,
-"e": "«Exhibir» se escribe con «x», con hache y con «b»."
+"e": "«Exhibir» se escribe con «x», con hache y con «b».",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -560,7 +610,8 @@
 "excepcion"
 ],
 "c": 0,
-"e": "Se escribe con «xc» y lleva tilde en la «ó»."
+"e": "Se escribe con «xc» y lleva tilde en la «ó».",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -571,7 +622,8 @@
 "adoleszente"
 ],
 "c": 0,
-"e": "Lleva «sc», igual que «crecer» o «nacer»."
+"e": "Lleva «sc», igual que «crecer» o «nacer».",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -582,7 +634,8 @@
 "innecessario"
 ],
 "c": 0,
-"e": "Se forma con el prefijo «in-» más «necesario», así que se duplica la «n»."
+"e": "Se forma con el prefijo «in-» más «necesario», así que se duplica la «n».",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -593,7 +646,8 @@
 "expontaneo"
 ],
 "c": 0,
-"e": "Se escribe con «s»: viene de «espontaneidad», no de «exponer»."
+"e": "Se escribe con «s»: viene de «espontaneidad», no de «exponer».",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -604,7 +658,8 @@
 "extrayer"
 ],
 "c": 0,
-"e": "Se escribe con «x» y lleva el prefijo «ex-»."
+"e": "Se escribe con «x» y lleva el prefijo «ex-».",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -615,7 +670,8 @@
 "jirrafa"
 ],
 "c": 0,
-"e": "«Jirafa» se escribe con jota."
+"e": "«Jirafa» se escribe con jota.",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -626,7 +682,8 @@
 "ingeneria"
 ],
 "c": 0,
-"e": "Va con «g» y lleva tilde en la «í» por el hiato."
+"e": "Va con «g» y lleva tilde en la «í» por el hiato.",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -637,7 +694,8 @@
 "bagavundo"
 ],
 "c": 0,
-"e": "Se escribe con «v» y con «b» en la tercera sílaba: «va-ga-bun-do»."
+"e": "Se escribe con «v» y con «b» en la tercera sílaba: «va-ga-bun-do».",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -648,7 +706,8 @@
 "biscocho"
 ],
 "c": 0,
-"e": "Se escribe con «b» al principio y con «z»."
+"e": "Se escribe con «b» al principio y con «z».",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -659,7 +718,8 @@
 "hevo"
 ],
 "c": 0,
-"e": "Empieza por hache y no se escribe con «g»."
+"e": "Empieza por hache y no se escribe con «g».",
+"nv": 1
 },
 {
 "p": "Palabra bien escrita:",
@@ -670,7 +730,8 @@
 "dessahogo"
 ],
 "c": 0,
-"e": "Se forma con «des-» y «ahogo», así que mantiene la hache."
+"e": "Se forma con «des-» y «ahogo», así que mantiene la hache.",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -681,7 +742,8 @@
 "obstáclo"
 ],
 "c": 0,
-"e": "Lleva «bs» y tilde, por ser esdrújula."
+"e": "Lleva «bs» y tilde, por ser esdrújula.",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -692,7 +754,8 @@
 "subrallar"
 ],
 "c": 0,
-"e": "Viene de «raya» con el prefijo «sub-»."
+"e": "Viene de «raya» con el prefijo «sub-».",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -703,7 +766,8 @@
 "sensacion"
 ],
 "c": 0,
-"e": "Se escribe con «s» y lleva tilde en la «ó»."
+"e": "Se escribe con «s» y lleva tilde en la «ó».",
+"nv": 2
 },
 {
 "p": "Palabra bien escrita:",
@@ -714,7 +778,8 @@
 "hazia"
 ],
 "c": 0,
-"e": "«Hacia» indica dirección. Se escribe con hache y con «c»."
+"e": "«Hacia» indica dirección. Se escribe con hache y con «c».",
+"nv": 3
 },
 {
 "p": "Palabra bien escrita:",
@@ -725,7 +790,8 @@
 "paragüas"
 ],
 "c": 0,
-"e": "Es llana y termina en «s» precedida de vocal, así que no lleva tilde."
+"e": "Es llana y termina en «s» precedida de vocal, así que no lleva tilde.",
+"nv": 3
 }
 ]
 }

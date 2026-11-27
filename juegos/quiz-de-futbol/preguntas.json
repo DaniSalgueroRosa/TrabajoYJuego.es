@@ -1,75 +1,1630 @@
 {
-  "_nota": "Preguntas del quiz de fútbol: en «o» la respuesta correcta va siempre primero (el juego baraja las opciones al mostrarlas). «c» es siempre 0. «t» es el bloque temático. Datos hasta julio de 2026.",
-  "preguntas": [
-    {"p": "¿Qué selección ganó el primer Mundial, el de 1930?", "o": ["Uruguay", "Argentina", "Brasil", "Italia"], "c": 0, "e": "Uruguay organizó el torneo y venció 4-2 a Argentina en la final, en Montevideo.", "t": "Mundiales"},
-    {"p": "¿Qué selección ha ganado más Copas del Mundo?", "o": ["Brasil", "Alemania", "Italia", "Argentina"], "c": 0, "e": "Brasil ganó en 1958, 1962, 1970, 1994 y 2002: cinco títulos.", "t": "Mundiales"},
-    {"p": "¿Quién marcó el gol de la final del Mundial de 2010?", "o": ["Andrés Iniesta", "David Villa", "Fernando Torres", "Xavi Hernández"], "c": 0, "e": "Iniesta marcó en el minuto 116, en la prórroga, y España venció 1-0 a Países Bajos en Johannesburgo.", "t": "Mundiales"},
-    {"p": "¿Contra qué selección jugó España la final del Mundial de 2010?", "o": ["Países Bajos", "Alemania", "Uruguay", "Ghana"], "c": 0, "e": "La final de Sudáfrica 2010 fue España-Países Bajos (1-0 tras la prórroga).", "t": "Mundiales"},
-    {"p": "¿Qué país organizó el Mundial de 1982, que ganó Italia?", "o": ["España", "Italia", "México", "Argentina"], "c": 0, "e": "El Mundial de 1982 se jugó en España, con la final en el Santiago Bernabéu.", "t": "Mundiales"},
-    {"p": "¿Cómo se llamaba la mascota del Mundial de España 1982?", "o": ["Naranjito", "Pique", "Ciao", "Footix"], "c": 0, "e": "Naranjito, una naranja con la camiseta de España, fue la mascota del torneo.", "t": "Mundiales"},
-    {"p": "¿Qué selección ganó el Mundial de México 1986?", "o": ["Argentina", "Alemania Occidental", "Bélgica", "Francia"], "c": 0, "e": "Argentina de Maradona venció 3-2 a Alemania Occidental en la final.", "t": "Mundiales"},
-    {"p": "¿Cómo se conoce el gol que Maradona marcó a Inglaterra con la mano en 1986?", "o": ["La mano de Dios", "El gol fantasma", "La chilena de oro", "El gol olímpico"], "c": 0, "e": "En ese mismo partido marcó también el llamado «gol del siglo», tras driblar a media Inglaterra.", "t": "Mundiales"},
-    {"p": "¿Qué selección ganó el Mundial de 2006 en una final decidida por penaltis?", "o": ["Italia", "Francia", "Alemania", "Portugal"], "c": 0, "e": "Italia venció a Francia en los penaltis (5-3) tras un 1-1 en Berlín.", "t": "Mundiales"},
-    {"p": "¿Qué jugador fue expulsado en la final de 2006 tras un cabezazo a Materazzi?", "o": ["Zinedine Zidane", "Thierry Henry", "Franck Ribéry", "Patrick Vieira"], "c": 0, "e": "Zidane vio la roja en la prórroga, en su último partido como profesional.", "t": "Mundiales"},
-    {"p": "¿Qué dos países organizaron conjuntamente el Mundial de 2002?", "o": ["Corea del Sur y Japón", "China y Japón", "Corea del Sur y Corea del Norte", "Japón y Tailandia"], "c": 0, "e": "Fue el primer Mundial en Asia y el primero con dos sedes. Ganó Brasil.", "t": "Mundiales"},
-    {"p": "¿Qué selección ganó el Mundial de 2014 con un gol en la prórroga en el Maracaná?", "o": ["Alemania", "Argentina", "Brasil", "Países Bajos"], "c": 0, "e": "Alemania venció 1-0 a Argentina con un gol de Mario Götze.", "t": "Mundiales"},
-    {"p": "¿Qué país organizó el Mundial de 2018, ganado por Francia?", "o": ["Rusia", "Catar", "Brasil", "Alemania"], "c": 0, "e": "Francia venció 4-2 a Croacia en la final, jugada en Moscú.", "t": "Mundiales"},
-    {"p": "¿Qué jugador marcó tres goles en la final de 2022 y aun así perdió?", "o": ["Kylian Mbappé", "Lionel Messi", "Antoine Griezmann", "Olivier Giroud"], "c": 0, "e": "Mbappé hizo un hat-trick, pero Argentina ganó en los penaltis tras un 3-3.", "t": "Mundiales"},
-    {"p": "¿Cómo se decidió la final de Catar 2022 entre Argentina y Francia?", "o": ["En una tanda de penaltis tras un 3-3", "Con un gol en la prórroga", "Con un 2-1 en el tiempo reglamentario", "Con un gol de oro"], "c": 0, "e": "Terminó 3-3 tras la prórroga y Argentina ganó 4-2 en los penaltis.", "t": "Mundiales"},
-    {"p": "¿Cuántas selecciones disputaron el Mundial de 2026, el primero con este formato?", "o": ["48", "32", "40", "64"], "c": 0, "e": "La ampliación de 32 a 48 selecciones se estrenó en 2026.", "t": "Mundiales"},
-    {"p": "¿Qué tres países organizaron el Mundial de 2026?", "o": ["Estados Unidos, México y Canadá", "Estados Unidos, México y Costa Rica", "Estados Unidos y Canadá", "México, Brasil y Argentina"], "c": 0, "e": "Fue el primer Mundial con tres anfitriones.", "t": "Mundiales"},
-    {"p": "¿Qué selección ganó el Mundial de 2026?", "o": ["España", "Argentina", "Francia", "Inglaterra"], "c": 0, "e": "España venció 1-0 a Argentina en la final del 19 de julio de 2026, con gol en la prórroga de Ferran Torres. Fue su segundo título, tras el de 2010.", "t": "Mundiales"},
-    {"p": "¿Qué selección ganó su único Mundial en 1966, jugando en casa?", "o": ["Inglaterra", "Alemania Occidental", "Brasil", "Portugal"], "c": 0, "e": "Inglaterra venció 4-2 a Alemania Occidental en Wembley.", "t": "Mundiales"},
-    {"p": "¿Qué fue el «Maracanazo» de 1950?", "o": ["La victoria de Uruguay sobre Brasil en su propio estadio", "La victoria de Brasil sobre Uruguay en la final", "El 7-1 de Alemania a Brasil", "El primer Mundial ganado por Brasil"], "c": 0, "e": "Uruguay ganó 2-1 a Brasil en el Maracaná, con el estadio abarrotado, y se proclamó campeón.", "t": "Mundiales"},
-    {"p": "¿Con qué resultado ganó Alemania a Brasil en la semifinal de 2014?", "o": ["7-1", "5-0", "4-1", "6-2"], "c": 0, "e": "Fue una de las mayores goleadas de la historia de las semifinales mundialistas, en Belo Horizonte.", "t": "Mundiales"},
-    {"p": "¿Qué jugador ha ganado tres Copas del Mundo como futbolista?", "o": ["Pelé", "Diego Maradona", "Cafú", "Ronaldo Nazário"], "c": 0, "e": "Pelé fue campeón en 1958, 1962 y 1970 con Brasil.", "t": "Mundiales"},
-    {"p": "¿Qué delantero marcó 13 goles en un solo Mundial, el de 1958?", "o": ["Just Fontaine", "Pelé", "Gerd Müller", "Eusébio"], "c": 0, "e": "El francés Just Fontaine sigue teniendo el récord de goles en una sola edición.", "t": "Mundiales"},
-    {"p": "¿Cuántas Eurocopas ha ganado España, que es la selección más laureada?", "o": ["Cuatro", "Tres", "Dos", "Cinco"], "c": 0, "e": "España ganó en 1964, 2008, 2012 y 2024.", "t": "Eurocopa"},
-    {"p": "¿Quién marcó el gol de la final de la Eurocopa de 2008?", "o": ["Fernando Torres", "David Villa", "Xavi Hernández", "Cesc Fàbregas"], "c": 0, "e": "Torres marcó el 1-0 contra Alemania en Viena.", "t": "Eurocopa"},
-    {"p": "¿Contra qué selección ganó España la final de la Eurocopa 2024?", "o": ["Inglaterra", "Francia", "Alemania", "Italia"], "c": 0, "e": "España ganó 2-1 con goles de Nico Williams y Mikel Oyarzabal.", "t": "Eurocopa"},
-    {"p": "¿En qué estadio se jugó la final de la Eurocopa 2024?", "o": ["Estadio Olímpico de Berlín", "Allianz Arena", "Signal Iduna Park", "Wembley"], "c": 0, "e": "La final se jugó en Berlín el 14 de julio de 2024.", "t": "Eurocopa"},
-    {"p": "¿Qué selección ganó la Eurocopa 2016 con un gol de Éder en la prórroga?", "o": ["Portugal", "Francia", "Alemania", "Gales"], "c": 0, "e": "Portugal venció 1-0 a Francia en París; Cristiano Ronaldo se lesionó en el primer tiempo.", "t": "Eurocopa"},
-    {"p": "¿Quién ganó la Eurocopa jugada en 2021, en una final que se decidió en Wembley por penaltis?", "o": ["Italia", "Inglaterra", "España", "Dinamarca"], "c": 0, "e": "Italia venció a Inglaterra en la tanda de penaltis tras un 1-1.", "t": "Eurocopa"},
-    {"p": "¿Qué selección dio la sorpresa y ganó la Eurocopa de 2004?", "o": ["Grecia", "Portugal", "República Checa", "Letonia"], "c": 0, "e": "Grecia venció 1-0 a Portugal en la final, en Lisboa.", "t": "Eurocopa"},
-    {"p": "¿Qué selección ganó la Eurocopa de 1992 tras entrar a última hora por la exclusión de Yugoslavia?", "o": ["Dinamarca", "Suecia", "Países Bajos", "Escocia"], "c": 0, "e": "Los daneses se enteraron semanas antes de que jugarían y acabaron campeones.", "t": "Eurocopa"},
-    {"p": "¿Quién fue elegido mejor jugador de la Eurocopa 2024?", "o": ["Rodri", "Lamine Yamal", "Nico Williams", "Dani Olmo"], "c": 0, "e": "Rodri fue el mejor jugador del torneo y Lamine Yamal, el mejor joven.", "t": "Eurocopa"},
-    {"p": "¿Dónde se jugará la Eurocopa de 2028?", "o": ["Reino Unido e Irlanda", "Alemania", "Turquía e Italia", "España y Portugal"], "c": 0, "e": "La sede será compartida por Inglaterra, Escocia, Gales, Irlanda del Norte e Irlanda.", "t": "Eurocopa"},
-    {"p": "¿Qué club ha ganado más Copas de Europa (Champions League)?", "o": ["Real Madrid", "AC Milan", "Liverpool", "Bayern de Múnich"], "c": 0, "e": "El Real Madrid suma quince títulos, muy por delante del Milan.", "t": "Champions League"},
-    {"p": "¿Qué club ganó la primera Copa de Europa, en 1956?", "o": ["Real Madrid", "Stade de Reims", "Benfica", "AC Milan"], "c": 0, "e": "El Real Madrid venció 4-3 al Stade de Reims en París.", "t": "Champions League"},
-    {"p": "¿Cómo se conoce popularmente el trofeo de la Champions League?", "o": ["La Orejona", "La Dama", "La Copita", "El Calderón"], "c": 0, "e": "Se le llama «la Orejona» por las asas, que parecen orejas.", "t": "Champions League"},
-    {"p": "¿Qué equipo remontó un 0-3 al Milan en la final de 2005 y ganó en los penaltis?", "o": ["Liverpool", "Chelsea", "Manchester United", "Arsenal"], "c": 0, "e": "Fue el «milagro de Estambul»: 3-3 y victoria del Liverpool en la tanda.", "t": "Champions League"},
-    {"p": "¿Qué equipo ganó «La Décima» en 2014 al Atlético de Madrid en Lisboa?", "o": ["Real Madrid", "FC Barcelona", "Bayern de Múnich", "Chelsea"], "c": 0, "e": "El Real Madrid ganó 4-1 en la prórroga, tras el gol de Sergio Ramos en el minuto 93.", "t": "Champions League"},
-    {"p": "¿Qué club ganó su primera Champions League en 2025 con un 5-0 en la final?", "o": ["Paris Saint-Germain", "Inter de Milán", "FC Barcelona", "Bayern de Múnich"], "c": 0, "e": "El PSG goleó al Inter en Múnich y repitió título en 2026.", "t": "Champions League"},
-    {"p": "¿Qué ciudad acogió la final de la Champions League 2025-26, que ganó el PSG en los penaltis al Arsenal?", "o": ["Budapest", "Londres", "Múnich", "Estambul"], "c": 0, "e": "La final se jugó el 30 de mayo de 2026 en el Puskás Aréna de Budapest (1-1 y penaltis).", "t": "Champions League"},
-    {"p": "¿Qué equipo inglés ganó por primera vez la Champions League en 2023?", "o": ["Manchester City", "Chelsea", "Arsenal", "Tottenham"], "c": 0, "e": "El City venció 1-0 al Inter en Estambul.", "t": "Champions League"},
-    {"p": "¿Qué equipo ganó la Champions de 1999 con dos goles en el tiempo añadido en el Camp Nou?", "o": ["Manchester United", "Bayern de Múnich", "Juventus", "Real Madrid"], "c": 0, "e": "El United remontó al Bayern (2-1) con goles de Sheringham y Solskjaer.", "t": "Champions League"},
-    {"p": "¿Quién es el máximo goleador histórico de la Champions League?", "o": ["Cristiano Ronaldo", "Lionel Messi", "Robert Lewandowski", "Karim Benzema"], "c": 0, "e": "Cristiano Ronaldo supera los 140 goles en la competición.", "t": "Champions League"},
-    {"p": "¿Qué obra clásica inspira el himno de la Champions League?", "o": ["«Zadok the Priest» de Händel", "La «Oda a la alegría» de Beethoven", "«Carmina Burana» de Orff", "«Las cuatro estaciones» de Vivaldi"], "c": 0, "e": "Tony Britten compuso el himno en 1992 inspirándose en esa obra de Händel.", "t": "Champions League"},
-    {"p": "¿Qué equipo ganó la Premier League 2015-16 como gran sorpresa?", "o": ["Leicester City", "Tottenham", "Everton", "West Ham"], "c": 0, "e": "El Leicester ganó su primera liga inglesa con Claudio Ranieri en el banquillo.", "t": "Clubes y ligas"},
-    {"p": "¿Qué equipo inglés terminó invicto la Premier League 2003-04?", "o": ["Arsenal", "Manchester United", "Chelsea", "Liverpool"], "c": 0, "e": "Los «Invencibles» de Arsène Wenger no perdieron ningún partido de liga.", "t": "Clubes y ligas"},
-    {"p": "¿Qué club español ha ganado más veces la Europa League (antes Copa de la UEFA)?", "o": ["Sevilla", "Atlético de Madrid", "Valencia", "Villarreal"], "c": 0, "e": "El Sevilla la ha ganado siete veces, un récord.", "t": "Clubes y ligas"},
-    {"p": "¿Qué trofeo premia al máximo goleador de la Liga española?", "o": ["Pichichi", "Zamora", "Zarra", "Di Stéfano"], "c": 0, "e": "Debe su nombre a Rafael Moreno «Pichichi», delantero del Athletic de principios del siglo XX.", "t": "Clubes y ligas"},
-    {"p": "¿Qué trofeo premia al portero menos goleado de la Liga?", "o": ["Zamora", "Pichichi", "Zarra", "Yashin"], "c": 0, "e": "El Trofeo Zamora homenajea a Ricardo Zamora, portero de los años veinte y treinta.", "t": "Clubes y ligas"},
-    {"p": "¿Quién es el máximo goleador histórico de la Liga española?", "o": ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Raúl González"], "c": 0, "e": "Messi anotó 474 goles en Primera con el Barcelona.", "t": "Clubes y ligas"},
-    {"p": "¿Qué equipo ganó la Liga 1999-2000 y fue apodado «Superdépor»?", "o": ["Deportivo de La Coruña", "Celta de Vigo", "Valencia", "Real Zaragoza"], "c": 0, "e": "Fue el único título de liga del Deportivo en su historia.", "t": "Clubes y ligas"},
-    {"p": "¿Qué dos equipos juegan el «Old Firm», el derbi de Glasgow?", "o": ["Celtic y Rangers", "Hearts y Hibernian", "Aberdeen y Dundee", "Liverpool y Everton"], "c": 0, "e": "Celtic y Rangers son los dos grandes de Escocia.", "t": "Clubes y ligas"},
-    {"p": "¿Cómo se llama el clásico alemán entre el Bayern de Múnich y el Borussia Dortmund?", "o": ["Der Klassiker", "El Superclásico", "El derbi de la Madonnina", "El Clásico"], "c": 0, "e": "«Der Klassiker» enfrenta a los dos clubes más exitosos del fútbol alemán actual.", "t": "Clubes y ligas"},
-    {"p": "¿Qué dos clubes disputan el «Superclásico» argentino?", "o": ["Boca Juniors y River Plate", "Racing e Independiente", "San Lorenzo y Huracán", "Rosario Central y Newell’s"], "c": 0, "e": "Boca y River son los dos clubes con más hinchas de Argentina.", "t": "Clubes y ligas"},
-    {"p": "¿Qué equipo ganó la Copa del Rey de 2022 en los penaltis?", "o": ["Real Betis", "Valencia", "Athletic Club", "Sevilla"], "c": 0, "e": "El Betis venció al Valencia en La Cartuja tras empatar 1-1.", "t": "Clubes y ligas"},
-    {"p": "¿Cuántos equipos juegan en la Primera División de España?", "o": ["20", "18", "22", "24"], "c": 0, "e": "Son veinte equipos y se juegan treinta y ocho jornadas.", "t": "Clubes y ligas"},
-    {"p": "¿Cuántos Balones de Oro ha ganado Lionel Messi?", "o": ["Ocho", "Siete", "Seis", "Cinco"], "c": 0, "e": "Los ganó en 2009, 2010, 2011, 2012, 2015, 2019, 2021 y 2023.", "t": "Jugadores"},
-    {"p": "¿Quién ganó el Balón de Oro en 2024?", "o": ["Rodri", "Vinícius Jr.", "Jude Bellingham", "Lamine Yamal"], "c": 0, "e": "Rodri, del Manchester City y de la selección española, se llevó el premio.", "t": "Jugadores"},
-    {"p": "¿Cuántos Balones de Oro tiene Cristiano Ronaldo?", "o": ["Cinco", "Cuatro", "Seis", "Tres"], "c": 0, "e": "Los ganó en 2008, 2013, 2014, 2016 y 2017.", "t": "Jugadores"},
-    {"p": "¿Quién es el único portero que ha ganado el Balón de Oro?", "o": ["Lev Yashin", "Gianluigi Buffon", "Iker Casillas", "Manuel Neuer"], "c": 0, "e": "El soviético Yashin lo ganó en 1963 y era conocido como «la Araña Negra».", "t": "Jugadores"},
-    {"p": "¿Quién ganó el primer Balón de Oro femenino, en 2018?", "o": ["Ada Hegerberg", "Marta", "Megan Rapinoe", "Alexia Putellas"], "c": 0, "e": "La noruega Hegerberg fue la primera ganadora de este premio.", "t": "Jugadores"},
-    {"p": "¿Qué jugadora española ganó el Balón de Oro en 2021 y en 2022?", "o": ["Alexia Putellas", "Aitana Bonmatí", "Jenni Hermoso", "Irene Paredes"], "c": 0, "e": "Alexia Putellas, del Barcelona, lo ganó dos años seguidos; Aitana Bonmatí lo ganó en 2023 y 2024.", "t": "Jugadores"},
-    {"p": "¿Qué selección ganó el Mundial femenino de 2023?", "o": ["España", "Inglaterra", "Estados Unidos", "Suecia"], "c": 0, "e": "España venció 1-0 a Inglaterra en la final de Sídney.", "t": "Jugadores"},
-    {"p": "¿Quién marcó el gol de la final del Mundial femenino de 2023?", "o": ["Olga Carmona", "Aitana Bonmatí", "Jenni Hermoso", "Salma Paralluelo"], "c": 0, "e": "Carmona, lateral, marcó el único gol del partido.", "t": "Jugadores"},
-    {"p": "¿Quién es el máximo goleador histórico de la selección española masculina?", "o": ["David Villa", "Raúl González", "Fernando Torres", "Álvaro Morata"], "c": 0, "e": "David Villa anotó 59 goles con la Roja.", "t": "Jugadores"},
-    {"p": "¿Qué apodo tenía Alfredo Di Stéfano?", "o": ["La Saeta Rubia", "El Pibe de Oro", "El Kaiser", "El Fenómeno"], "c": 0, "e": "Di Stéfano ganó cinco Copas de Europa seguidas con el Real Madrid (1956-1960).", "t": "Jugadores"},
-    {"p": "¿Qué futbolista brasileño es conocido como «el Fenómeno»?", "o": ["Ronaldo Nazário", "Ronaldinho", "Romário", "Rivaldo"], "c": 0, "e": "Ronaldo fue campeón del mundo en 2002 y ganó dos Balones de Oro (1997 y 2002).", "t": "Jugadores"},
-    {"p": "¿Qué jugador alemán era conocido como «el Káiser»?", "o": ["Franz Beckenbauer", "Gerd Müller", "Lothar Matthäus", "Karl-Heinz Rummenigge"], "c": 0, "e": "Beckenbauer ganó el Mundial como jugador (1974) y como seleccionador (1990).", "t": "Jugadores"},
-    {"p": "¿Qué futbolista brasileño es apodado «O Rei»?", "o": ["Pelé", "Garrincha", "Zico", "Romário"], "c": 0, "e": "Su nombre real era Edson Arantes do Nascimento.", "t": "Jugadores"},
-    {"p": "¿Quién marcó en el minuto 93 de la final de la Champions 2014 para forzar la prórroga?", "o": ["Sergio Ramos", "Cristiano Ronaldo", "Gareth Bale", "Karim Benzema"], "c": 0, "e": "Su cabezazo en el descuento llevó la final del Real Madrid contra el Atlético a la prórroga.", "t": "Jugadores"}
-  ]
+"_nota": "Preguntas del quiz de fútbol: en «o» la respuesta correcta va siempre primero (el juego baraja las opciones al mostrarlas). «c» es siempre 0. «t» es el bloque temático. Datos hasta julio de 2026.",
+"preguntas": [
+{
+"p": "¿Qué selección ganó el primer Mundial, el de 1930?",
+"o": [
+"Uruguay",
+"Argentina",
+"Brasil",
+"Italia"
+],
+"c": 0,
+"e": "Uruguay organizó el torneo y venció 4-2 a Argentina en la final, en Montevideo.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué selección ha ganado más Copas del Mundo?",
+"o": [
+"Brasil",
+"Alemania",
+"Italia",
+"Argentina"
+],
+"c": 0,
+"e": "Brasil ganó en 1958, 1962, 1970, 1994 y 2002: cinco títulos.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Quién marcó el gol de la final del Mundial de 2010?",
+"o": [
+"Andrés Iniesta",
+"David Villa",
+"Fernando Torres",
+"Xavi Hernández"
+],
+"c": 0,
+"e": "Iniesta marcó en el minuto 116, en la prórroga, y España venció 1-0 a Países Bajos en Johannesburgo.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Contra qué selección jugó España la final del Mundial de 2010?",
+"o": [
+"Países Bajos",
+"Alemania",
+"Uruguay",
+"Ghana"
+],
+"c": 0,
+"e": "La final de Sudáfrica 2010 fue España-Países Bajos (1-0 tras la prórroga).",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué país organizó el Mundial de 1982, que ganó Italia?",
+"o": [
+"España",
+"Italia",
+"México",
+"Argentina"
+],
+"c": 0,
+"e": "El Mundial de 1982 se jugó en España, con la final en el Santiago Bernabéu.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Cómo se llamaba la mascota del Mundial de España 1982?",
+"o": [
+"Naranjito",
+"Pique",
+"Ciao",
+"Footix"
+],
+"c": 0,
+"e": "Naranjito, una naranja con la camiseta de España, fue la mascota del torneo.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó el Mundial de México 1986?",
+"o": [
+"Argentina",
+"Alemania Occidental",
+"Bélgica",
+"Francia"
+],
+"c": 0,
+"e": "Argentina de Maradona venció 3-2 a Alemania Occidental en la final.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Cómo se conoce el gol que Maradona marcó a Inglaterra con la mano en 1986?",
+"o": [
+"La mano de Dios",
+"El gol fantasma",
+"La chilena de oro",
+"El gol olímpico"
+],
+"c": 0,
+"e": "En ese mismo partido marcó también el llamado «gol del siglo», tras driblar a media Inglaterra.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué selección ganó el Mundial de 2006 en una final decidida por penaltis?",
+"o": [
+"Italia",
+"Francia",
+"Alemania",
+"Portugal"
+],
+"c": 0,
+"e": "Italia venció a Francia en los penaltis (5-3) tras un 1-1 en Berlín.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué jugador fue expulsado en la final de 2006 tras un cabezazo a Materazzi?",
+"o": [
+"Zinedine Zidane",
+"Thierry Henry",
+"Franck Ribéry",
+"Patrick Vieira"
+],
+"c": 0,
+"e": "Zidane vio la roja en la prórroga, en su último partido como profesional.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué dos países organizaron conjuntamente el Mundial de 2002?",
+"o": [
+"Corea del Sur y Japón",
+"China y Japón",
+"Corea del Sur y Corea del Norte",
+"Japón y Tailandia"
+],
+"c": 0,
+"e": "Fue el primer Mundial en Asia y el primero con dos sedes. Ganó Brasil.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó el Mundial de 2014 con un gol en la prórroga en el Maracaná?",
+"o": [
+"Alemania",
+"Argentina",
+"Brasil",
+"Países Bajos"
+],
+"c": 0,
+"e": "Alemania venció 1-0 a Argentina con un gol de Mario Götze.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué país organizó el Mundial de 2018, ganado por Francia?",
+"o": [
+"Rusia",
+"Catar",
+"Brasil",
+"Alemania"
+],
+"c": 0,
+"e": "Francia venció 4-2 a Croacia en la final, jugada en Moscú.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué jugador marcó tres goles en la final de 2022 y aun así perdió?",
+"o": [
+"Kylian Mbappé",
+"Lionel Messi",
+"Antoine Griezmann",
+"Olivier Giroud"
+],
+"c": 0,
+"e": "Mbappé hizo un hat-trick, pero Argentina ganó en los penaltis tras un 3-3.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Cómo se decidió la final de Catar 2022 entre Argentina y Francia?",
+"o": [
+"En una tanda de penaltis tras un 3-3",
+"Con un gol en la prórroga",
+"Con un 2-1 en el tiempo reglamentario",
+"Con un gol de oro"
+],
+"c": 0,
+"e": "Terminó 3-3 tras la prórroga y Argentina ganó 4-2 en los penaltis.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Cuántas selecciones disputaron el Mundial de 2026, el primero con este formato?",
+"o": [
+"48",
+"32",
+"40",
+"64"
+],
+"c": 0,
+"e": "La ampliación de 32 a 48 selecciones se estrenó en 2026.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué tres países organizaron el Mundial de 2026?",
+"o": [
+"Estados Unidos, México y Canadá",
+"Estados Unidos, México y Costa Rica",
+"Estados Unidos y Canadá",
+"México, Brasil y Argentina"
+],
+"c": 0,
+"e": "Fue el primer Mundial con tres anfitriones.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué selección ganó el Mundial de 2026?",
+"o": [
+"España",
+"Argentina",
+"Francia",
+"Inglaterra"
+],
+"c": 0,
+"e": "España venció 1-0 a Argentina en la final del 19 de julio de 2026, con gol en la prórroga de Ferran Torres. Fue su segundo título, tras el de 2010.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó su único Mundial en 1966, jugando en casa?",
+"o": [
+"Inglaterra",
+"Alemania Occidental",
+"Brasil",
+"Portugal"
+],
+"c": 0,
+"e": "Inglaterra venció 4-2 a Alemania Occidental en Wembley.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué fue el «Maracanazo» de 1950?",
+"o": [
+"La victoria de Uruguay sobre Brasil en su propio estadio",
+"La victoria de Brasil sobre Uruguay en la final",
+"El 7-1 de Alemania a Brasil",
+"El primer Mundial ganado por Brasil"
+],
+"c": 0,
+"e": "Uruguay ganó 2-1 a Brasil en el Maracaná, con el estadio abarrotado, y se proclamó campeón.",
+"t": "Mundiales",
+"nv": 3
+},
+{
+"p": "¿Con qué resultado ganó Alemania a Brasil en la semifinal de 2014?",
+"o": [
+"7-1",
+"5-0",
+"4-1",
+"6-2"
+],
+"c": 0,
+"e": "Fue una de las mayores goleadas de la historia de las semifinales mundialistas, en Belo Horizonte.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué jugador ha ganado tres Copas del Mundo como futbolista?",
+"o": [
+"Pelé",
+"Diego Maradona",
+"Cafú",
+"Ronaldo Nazário"
+],
+"c": 0,
+"e": "Pelé fue campeón en 1958, 1962 y 1970 con Brasil.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué delantero marcó 13 goles en un solo Mundial, el de 1958?",
+"o": [
+"Just Fontaine",
+"Pelé",
+"Gerd Müller",
+"Eusébio"
+],
+"c": 0,
+"e": "El francés Just Fontaine sigue teniendo el récord de goles en una sola edición.",
+"t": "Mundiales",
+"nv": 3
+},
+{
+"p": "¿Cuántas Eurocopas ha ganado España, que es la selección más laureada?",
+"o": [
+"Cuatro",
+"Tres",
+"Dos",
+"Cinco"
+],
+"c": 0,
+"e": "España ganó en 1964, 2008, 2012 y 2024.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Quién marcó el gol de la final de la Eurocopa de 2008?",
+"o": [
+"Fernando Torres",
+"David Villa",
+"Xavi Hernández",
+"Cesc Fàbregas"
+],
+"c": 0,
+"e": "Torres marcó el 1-0 contra Alemania en Viena.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Contra qué selección ganó España la final de la Eurocopa 2024?",
+"o": [
+"Inglaterra",
+"Francia",
+"Alemania",
+"Italia"
+],
+"c": 0,
+"e": "España ganó 2-1 con goles de Nico Williams y Mikel Oyarzabal.",
+"t": "Eurocopa",
+"nv": 1
+},
+{
+"p": "¿En qué estadio se jugó la final de la Eurocopa 2024?",
+"o": [
+"Estadio Olímpico de Berlín",
+"Allianz Arena",
+"Signal Iduna Park",
+"Wembley"
+],
+"c": 0,
+"e": "La final se jugó en Berlín el 14 de julio de 2024.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Qué selección ganó la Eurocopa 2016 con un gol de Éder en la prórroga?",
+"o": [
+"Portugal",
+"Francia",
+"Alemania",
+"Gales"
+],
+"c": 0,
+"e": "Portugal venció 1-0 a Francia en París; Cristiano Ronaldo se lesionó en el primer tiempo.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Quién ganó la Eurocopa jugada en 2021, en una final que se decidió en Wembley por penaltis?",
+"o": [
+"Italia",
+"Inglaterra",
+"España",
+"Dinamarca"
+],
+"c": 0,
+"e": "Italia venció a Inglaterra en la tanda de penaltis tras un 1-1.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Qué selección dio la sorpresa y ganó la Eurocopa de 2004?",
+"o": [
+"Grecia",
+"Portugal",
+"República Checa",
+"Letonia"
+],
+"c": 0,
+"e": "Grecia venció 1-0 a Portugal en la final, en Lisboa.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó la Eurocopa de 1992 tras entrar a última hora por la exclusión de Yugoslavia?",
+"o": [
+"Dinamarca",
+"Suecia",
+"Países Bajos",
+"Escocia"
+],
+"c": 0,
+"e": "Los daneses se enteraron semanas antes de que jugarían y acabaron campeones.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Quién fue elegido mejor jugador de la Eurocopa 2024?",
+"o": [
+"Rodri",
+"Lamine Yamal",
+"Nico Williams",
+"Dani Olmo"
+],
+"c": 0,
+"e": "Rodri fue el mejor jugador del torneo y Lamine Yamal, el mejor joven.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Dónde se jugará la Eurocopa de 2028?",
+"o": [
+"Reino Unido e Irlanda",
+"Alemania",
+"Turquía e Italia",
+"España y Portugal"
+],
+"c": 0,
+"e": "La sede será compartida por Inglaterra, Escocia, Gales, Irlanda del Norte e Irlanda.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Qué club ha ganado más Copas de Europa (Champions League)?",
+"o": [
+"Real Madrid",
+"AC Milan",
+"Liverpool",
+"Bayern de Múnich"
+],
+"c": 0,
+"e": "El Real Madrid suma quince títulos, muy por delante del Milan.",
+"t": "Champions League",
+"nv": 1
+},
+{
+"p": "¿Qué club ganó la primera Copa de Europa, en 1956?",
+"o": [
+"Real Madrid",
+"Stade de Reims",
+"Benfica",
+"AC Milan"
+],
+"c": 0,
+"e": "El Real Madrid venció 4-3 al Stade de Reims en París.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Cómo se conoce popularmente el trofeo de la Champions League?",
+"o": [
+"La Orejona",
+"La Dama",
+"La Copita",
+"El Calderón"
+],
+"c": 0,
+"e": "Se le llama «la Orejona» por las asas, que parecen orejas.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué equipo remontó un 0-3 al Milan en la final de 2005 y ganó en los penaltis?",
+"o": [
+"Liverpool",
+"Chelsea",
+"Manchester United",
+"Arsenal"
+],
+"c": 0,
+"e": "Fue el «milagro de Estambul»: 3-3 y victoria del Liverpool en la tanda.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó «La Décima» en 2014 al Atlético de Madrid en Lisboa?",
+"o": [
+"Real Madrid",
+"FC Barcelona",
+"Bayern de Múnich",
+"Chelsea"
+],
+"c": 0,
+"e": "El Real Madrid ganó 4-1 en la prórroga, tras el gol de Sergio Ramos en el minuto 93.",
+"t": "Champions League",
+"nv": 1
+},
+{
+"p": "¿Qué club ganó su primera Champions League en 2025 con un 5-0 en la final?",
+"o": [
+"Paris Saint-Germain",
+"Inter de Milán",
+"FC Barcelona",
+"Bayern de Múnich"
+],
+"c": 0,
+"e": "El PSG goleó al Inter en Múnich y repitió título en 2026.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué ciudad acogió la final de la Champions League 2025-26, que ganó el PSG en los penaltis al Arsenal?",
+"o": [
+"Budapest",
+"Londres",
+"Múnich",
+"Estambul"
+],
+"c": 0,
+"e": "La final se jugó el 30 de mayo de 2026 en el Puskás Aréna de Budapest (1-1 y penaltis).",
+"t": "Champions League",
+"nv": 3
+},
+{
+"p": "¿Qué equipo inglés ganó por primera vez la Champions League en 2023?",
+"o": [
+"Manchester City",
+"Chelsea",
+"Arsenal",
+"Tottenham"
+],
+"c": 0,
+"e": "El City venció 1-0 al Inter en Estambul.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó la Champions de 1999 con dos goles en el tiempo añadido en el Camp Nou?",
+"o": [
+"Manchester United",
+"Bayern de Múnich",
+"Juventus",
+"Real Madrid"
+],
+"c": 0,
+"e": "El United remontó al Bayern (2-1) con goles de Sheringham y Solskjaer.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Quién es el máximo goleador histórico de la Champions League?",
+"o": [
+"Cristiano Ronaldo",
+"Lionel Messi",
+"Robert Lewandowski",
+"Karim Benzema"
+],
+"c": 0,
+"e": "Cristiano Ronaldo supera los 140 goles en la competición.",
+"t": "Champions League",
+"nv": 1
+},
+{
+"p": "¿Qué obra clásica inspira el himno de la Champions League?",
+"o": [
+"«Zadok the Priest» de Händel",
+"La «Oda a la alegría» de Beethoven",
+"«Carmina Burana» de Orff",
+"«Las cuatro estaciones» de Vivaldi"
+],
+"c": 0,
+"e": "Tony Britten compuso el himno en 1992 inspirándose en esa obra de Händel.",
+"t": "Champions League",
+"nv": 3
+},
+{
+"p": "¿Qué equipo ganó la Premier League 2015-16 como gran sorpresa?",
+"o": [
+"Leicester City",
+"Tottenham",
+"Everton",
+"West Ham"
+],
+"c": 0,
+"e": "El Leicester ganó su primera liga inglesa con Claudio Ranieri en el banquillo.",
+"t": "Clubes y ligas",
+"nv": 1
+},
+{
+"p": "¿Qué equipo inglés terminó invicto la Premier League 2003-04?",
+"o": [
+"Arsenal",
+"Manchester United",
+"Chelsea",
+"Liverpool"
+],
+"c": 0,
+"e": "Los «Invencibles» de Arsène Wenger no perdieron ningún partido de liga.",
+"t": "Clubes y ligas",
+"nv": 2
+},
+{
+"p": "¿Qué club español ha ganado más veces la Europa League (antes Copa de la UEFA)?",
+"o": [
+"Sevilla",
+"Atlético de Madrid",
+"Valencia",
+"Villarreal"
+],
+"c": 0,
+"e": "El Sevilla la ha ganado siete veces, un récord.",
+"t": "Clubes y ligas",
+"nv": 1
+},
+{
+"p": "¿Qué trofeo premia al máximo goleador de la Liga española?",
+"o": [
+"Pichichi",
+"Zamora",
+"Zarra",
+"Di Stéfano"
+],
+"c": 0,
+"e": "Debe su nombre a Rafael Moreno «Pichichi», delantero del Athletic de principios del siglo XX.",
+"t": "Clubes y ligas",
+"nv": 1
+},
+{
+"p": "¿Qué trofeo premia al portero menos goleado de la Liga?",
+"o": [
+"Zamora",
+"Pichichi",
+"Zarra",
+"Yashin"
+],
+"c": 0,
+"e": "El Trofeo Zamora homenajea a Ricardo Zamora, portero de los años veinte y treinta.",
+"t": "Clubes y ligas",
+"nv": 2
+},
+{
+"p": "¿Quién es el máximo goleador histórico de la Liga española?",
+"o": [
+"Lionel Messi",
+"Cristiano Ronaldo",
+"Telmo Zarra",
+"Raúl González"
+],
+"c": 0,
+"e": "Messi anotó 474 goles en Primera con el Barcelona.",
+"t": "Clubes y ligas",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó la Liga 1999-2000 y fue apodado «Superdépor»?",
+"o": [
+"Deportivo de La Coruña",
+"Celta de Vigo",
+"Valencia",
+"Real Zaragoza"
+],
+"c": 0,
+"e": "Fue el único título de liga del Deportivo en su historia.",
+"t": "Clubes y ligas",
+"nv": 2
+},
+{
+"p": "¿Qué dos equipos juegan el «Old Firm», el derbi de Glasgow?",
+"o": [
+"Celtic y Rangers",
+"Hearts y Hibernian",
+"Aberdeen y Dundee",
+"Liverpool y Everton"
+],
+"c": 0,
+"e": "Celtic y Rangers son los dos grandes de Escocia.",
+"t": "Clubes y ligas",
+"nv": 2
+},
+{
+"p": "¿Cómo se llama el clásico alemán entre el Bayern de Múnich y el Borussia Dortmund?",
+"o": [
+"Der Klassiker",
+"El Superclásico",
+"El derbi de la Madonnina",
+"El Clásico"
+],
+"c": 0,
+"e": "«Der Klassiker» enfrenta a los dos clubes más exitosos del fútbol alemán actual.",
+"t": "Clubes y ligas",
+"nv": 3
+},
+{
+"p": "¿Qué dos clubes disputan el «Superclásico» argentino?",
+"o": [
+"Boca Juniors y River Plate",
+"Racing e Independiente",
+"San Lorenzo y Huracán",
+"Rosario Central y Newell’s"
+],
+"c": 0,
+"e": "Boca y River son los dos clubes con más hinchas de Argentina.",
+"t": "Clubes y ligas",
+"nv": 1
+},
+{
+"p": "¿Qué equipo ganó la Copa del Rey de 2022 en los penaltis?",
+"o": [
+"Real Betis",
+"Valencia",
+"Athletic Club",
+"Sevilla"
+],
+"c": 0,
+"e": "El Betis venció al Valencia en La Cartuja tras empatar 1-1.",
+"t": "Clubes y ligas",
+"nv": 2
+},
+{
+"p": "¿Cuántos equipos juegan en la Primera División de España?",
+"o": [
+"20",
+"18",
+"22",
+"24"
+],
+"c": 0,
+"e": "Son veinte equipos y se juegan treinta y ocho jornadas.",
+"t": "Clubes y ligas",
+"nv": 1
+},
+{
+"p": "¿Cuántos Balones de Oro ha ganado Lionel Messi?",
+"o": [
+"Ocho",
+"Siete",
+"Seis",
+"Cinco"
+],
+"c": 0,
+"e": "Los ganó en 2009, 2010, 2011, 2012, 2015, 2019, 2021 y 2023.",
+"t": "Jugadores",
+"nv": 1
+},
+{
+"p": "¿Quién ganó el Balón de Oro en 2024?",
+"o": [
+"Rodri",
+"Vinícius Jr.",
+"Jude Bellingham",
+"Lamine Yamal"
+],
+"c": 0,
+"e": "Rodri, del Manchester City y de la selección española, se llevó el premio.",
+"t": "Jugadores",
+"nv": 1
+},
+{
+"p": "¿Cuántos Balones de Oro tiene Cristiano Ronaldo?",
+"o": [
+"Cinco",
+"Cuatro",
+"Seis",
+"Tres"
+],
+"c": 0,
+"e": "Los ganó en 2008, 2013, 2014, 2016 y 2017.",
+"t": "Jugadores",
+"nv": 1
+},
+{
+"p": "¿Quién es el único portero que ha ganado el Balón de Oro?",
+"o": [
+"Lev Yashin",
+"Gianluigi Buffon",
+"Iker Casillas",
+"Manuel Neuer"
+],
+"c": 0,
+"e": "El soviético Yashin lo ganó en 1963 y era conocido como «la Araña Negra».",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Quién ganó el primer Balón de Oro femenino, en 2018?",
+"o": [
+"Ada Hegerberg",
+"Marta",
+"Megan Rapinoe",
+"Alexia Putellas"
+],
+"c": 0,
+"e": "La noruega Hegerberg fue la primera ganadora de este premio.",
+"t": "Jugadores",
+"nv": 3
+},
+{
+"p": "¿Qué jugadora española ganó el Balón de Oro en 2021 y en 2022?",
+"o": [
+"Alexia Putellas",
+"Aitana Bonmatí",
+"Jenni Hermoso",
+"Irene Paredes"
+],
+"c": 0,
+"e": "Alexia Putellas, del Barcelona, lo ganó dos años seguidos; Aitana Bonmatí lo ganó en 2023 y 2024.",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó el Mundial femenino de 2023?",
+"o": [
+"España",
+"Inglaterra",
+"Estados Unidos",
+"Suecia"
+],
+"c": 0,
+"e": "España venció 1-0 a Inglaterra en la final de Sídney.",
+"t": "Jugadores",
+"nv": 1
+},
+{
+"p": "¿Quién marcó el gol de la final del Mundial femenino de 2023?",
+"o": [
+"Olga Carmona",
+"Aitana Bonmatí",
+"Jenni Hermoso",
+"Salma Paralluelo"
+],
+"c": 0,
+"e": "Carmona, lateral, marcó el único gol del partido.",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Quién es el máximo goleador histórico de la selección española masculina?",
+"o": [
+"David Villa",
+"Raúl González",
+"Fernando Torres",
+"Álvaro Morata"
+],
+"c": 0,
+"e": "David Villa anotó 59 goles con la Roja.",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Qué apodo tenía Alfredo Di Stéfano?",
+"o": [
+"La Saeta Rubia",
+"El Pibe de Oro",
+"El Kaiser",
+"El Fenómeno"
+],
+"c": 0,
+"e": "Di Stéfano ganó cinco Copas de Europa seguidas con el Real Madrid (1956-1960).",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Qué futbolista brasileño es conocido como «el Fenómeno»?",
+"o": [
+"Ronaldo Nazário",
+"Ronaldinho",
+"Romário",
+"Rivaldo"
+],
+"c": 0,
+"e": "Ronaldo fue campeón del mundo en 2002 y ganó dos Balones de Oro (1997 y 2002).",
+"t": "Jugadores",
+"nv": 1
+},
+{
+"p": "¿Qué jugador alemán era conocido como «el Káiser»?",
+"o": [
+"Franz Beckenbauer",
+"Gerd Müller",
+"Lothar Matthäus",
+"Karl-Heinz Rummenigge"
+],
+"c": 0,
+"e": "Beckenbauer ganó el Mundial como jugador (1974) y como seleccionador (1990).",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Qué futbolista brasileño es apodado «O Rei»?",
+"o": [
+"Pelé",
+"Garrincha",
+"Zico",
+"Romário"
+],
+"c": 0,
+"e": "Su nombre real era Edson Arantes do Nascimento.",
+"t": "Jugadores",
+"nv": 1
+},
+{
+"p": "¿Quién marcó en el minuto 93 de la final de la Champions 2014 para forzar la prórroga?",
+"o": [
+"Sergio Ramos",
+"Cristiano Ronaldo",
+"Gareth Bale",
+"Karim Benzema"
+],
+"c": 0,
+"e": "Su cabezazo en el descuento llevó la final del Real Madrid contra el Atlético a la prórroga.",
+"t": "Jugadores",
+"nv": 2
+},
+{
+"p": "¿Qué portero español ganó la Eurocopa 2008, el Mundial 2010 y la Eurocopa 2012?",
+"o": [
+"Iker Casillas",
+"Víctor Valdés",
+"Pepe Reina",
+"David de Gea"
+],
+"c": 0,
+"e": "Casillas fue el capitán de aquella generación.",
+"t": "Selección española",
+"nv": 1
+},
+{
+"p": "¿Quién entrenaba al Real Madrid cuando ganó tres Champions seguidas, de 2016 a 2018?",
+"o": [
+"Zinedine Zidane",
+"Carlo Ancelotti",
+"José Mourinho",
+"Rafa Benítez"
+],
+"c": 0,
+"e": "Zidane las ganó contra Atlético, Juventus y Liverpool.",
+"t": "Entrenadores",
+"nv": 1
+},
+{
+"p": "¿Quién es el máximo goleador histórico del FC Barcelona?",
+"o": [
+"Lionel Messi",
+"Luis Suárez",
+"César Rodríguez",
+"Samuel Eto'o"
+],
+"c": 0,
+"e": "Messi marcó 672 goles con el Barça.",
+"t": "Barcelona",
+"nv": 1
+},
+{
+"p": "¿Quién entrenaba al Barcelona cuando ganó su primer triplete, en 2009?",
+"o": [
+"Pep Guardiola",
+"Frank Rijkaard",
+"Luis Enrique",
+"Tito Vilanova"
+],
+"c": 0,
+"e": "Ganó la Liga, la Copa del Rey y la Champions en la misma temporada.",
+"t": "Entrenadores",
+"nv": 1
+},
+{
+"p": "¿Qué selección ganó la Copa América 2024?",
+"o": [
+"Argentina",
+"Colombia",
+"Brasil",
+"Uruguay"
+],
+"c": 0,
+"e": "Venció 1-0 a Colombia en la prórroga, con gol de Lautaro Martínez.",
+"t": "Copa América",
+"nv": 2
+},
+{
+"p": "¿Qué jugador italiano falló el último penalti de la final del Mundial de 1994?",
+"o": [
+"Roberto Baggio",
+"Franco Baresi",
+"Daniele Massaro",
+"Paolo Maldini"
+],
+"c": 0,
+"e": "Brasil ganó 3-2 en la tanda de penaltis, tras un 0-0 en el tiempo reglamentario y la prórroga.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó el Mundial de Clubes de 2025, el primero con 32 equipos?",
+"o": [
+"Chelsea",
+"Paris Saint-Germain",
+"Real Madrid",
+"Manchester City"
+],
+"c": 0,
+"e": "El Chelsea venció 3-0 al PSG en la final, disputada en Nueva Jersey.",
+"t": "Mundial de Clubes",
+"nv": 2
+},
+{
+"p": "¿A qué equipo ganó el Real Madrid la final de la Champions de 2024, en Wembley?",
+"o": [
+"Borussia Dortmund",
+"Liverpool",
+"Bayern de Múnich",
+"Manchester City"
+],
+"c": 0,
+"e": "Ganó 2-0, con goles de Carvajal y Vinícius.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó la Europa League 2024-25, en la final de San Mamés?",
+"o": [
+"Tottenham",
+"Manchester United",
+"Athletic Club",
+"Chelsea"
+],
+"c": 0,
+"e": "El Tottenham ganó 1-0 al Manchester United, con gol de Brennan Johnson.",
+"t": "Europa League",
+"nv": 2
+},
+{
+"p": "¿Qué entrenador ha ganado cinco Champions League, dos con el Milan y tres con el Real Madrid?",
+"o": [
+"Carlo Ancelotti",
+"Pep Guardiola",
+"Zinedine Zidane",
+"Bob Paisley"
+],
+"c": 0,
+"e": "Las ganó en 2003 y 2007 con el Milan, y en 2014, 2022 y 2024 con el Real Madrid.",
+"t": "Entrenadores",
+"nv": 2
+},
+{
+"p": "¿Con qué equipo ganó Johan Cruyff tres Copas de Europa seguidas, de 1971 a 1973?",
+"o": [
+"Ajax",
+"Feyenoord",
+"Bayern de Múnich",
+"FC Barcelona"
+],
+"c": 0,
+"e": "Cruyff dejó el Ajax en 1973 para fichar por el Barcelona.",
+"t": "Historia",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó tres Copas de Europa seguidas entre 1974 y 1976?",
+"o": [
+"Bayern de Múnich",
+"Ajax",
+"Liverpool",
+"Benfica"
+],
+"c": 0,
+"e": "El Bayern de Beckenbauer, Müller y Maier dominó Europa a mediados de los años setenta.",
+"t": "Historia",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó la Premier League 2024-25?",
+"o": [
+"Liverpool",
+"Arsenal",
+"Manchester City",
+"Chelsea"
+],
+"c": 0,
+"e": "Fue el título número 20 del Liverpool, en la primera temporada de Arne Slot.",
+"t": "Premier League",
+"nv": 2
+},
+{
+"p": "¿Qué equipo ganó la Bundesliga 2023-24 sin perder ningún partido?",
+"o": [
+"Bayer Leverkusen",
+"Bayern de Múnich",
+"Borussia Dortmund",
+"RB Leipzig"
+],
+"c": 0,
+"e": "El equipo de Xabi Alonso acabó invicto y cortó la racha de once títulos seguidos del Bayern.",
+"t": "Bundesliga",
+"nv": 2
+},
+{
+"p": "¿Qué jugadora ganó el Balón de Oro femenino tres años seguidos, de 2023 a 2025?",
+"o": [
+"Aitana Bonmatí",
+"Alexia Putellas",
+"Mariona Caldentey",
+"Alessia Russo"
+],
+"c": 0,
+"e": "Alexia Putellas lo había ganado en 2021 y 2022.",
+"t": "Fútbol femenino",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó la Eurocopa femenina de 2025, tras una final contra España?",
+"o": [
+"Inglaterra",
+"Alemania",
+"Francia",
+"Suecia"
+],
+"c": 0,
+"e": "Inglaterra ganó en los penaltis tras empatar 1-1.",
+"t": "Fútbol femenino",
+"nv": 2
+},
+{
+"p": "¿Quién marcó el gol que dio la victoria a España en la final de la Eurocopa 2024?",
+"o": [
+"Mikel Oyarzabal",
+"Nico Williams",
+"Álvaro Morata",
+"Dani Olmo"
+],
+"c": 0,
+"e": "Oyarzabal marcó en el minuto 86 el 2-1 contra Inglaterra.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Quién marcó 36 goles en la Premier League 2022-23, un récord en un campeonato de 38 jornadas?",
+"o": [
+"Erling Haaland",
+"Harry Kane",
+"Mohamed Salah",
+"Son Heung-min"
+],
+"c": 0,
+"e": "Superó los 32 goles de Salah en 2017-18, el anterior récord en 38 jornadas.",
+"t": "Premier League",
+"nv": 2
+},
+{
+"p": "¿Quién marcó el gol de la final de la Champions 2023 entre el Manchester City y el Inter?",
+"o": [
+"Rodri",
+"Erling Haaland",
+"Kevin De Bruyne",
+"Phil Foden"
+],
+"c": 0,
+"e": "Rodri marcó el 1-0 en Estambul y dio al City su primera Champions.",
+"t": "Champions League",
+"nv": 3
+},
+{
+"p": "¿Qué equipo ganó la Champions League femenina 2024-25 al Barcelona en la final?",
+"o": [
+"Arsenal",
+"Olympique de Lyon",
+"Chelsea",
+"Wolfsburgo"
+],
+"c": 0,
+"e": "El Arsenal ganó 1-0 en Lisboa.",
+"t": "Fútbol femenino",
+"nv": 3
+},
+{
+"p": "¿Qué club ganó la Serie A 2022-23, su primer título en 33 años?",
+"o": [
+"Nápoles",
+"Inter",
+"Milan",
+"Lazio"
+],
+"c": 0,
+"e": "El Nápoles de Spalletti y Osimhen ganó el scudetto con holgura.",
+"t": "Serie A",
+"nv": 3
+},
+{
+"p": "¿Qué club francés ganó la Champions League en 1993?",
+"o": [
+"Olympique de Marsella",
+"Paris Saint-Germain",
+"Mónaco",
+"Olympique de Lyon"
+],
+"c": 0,
+"e": "Venció 1-0 al Milan, con gol de Basile Boli.",
+"t": "Champions League",
+"nv": 3
+},
+{
+"p": "¿Qué equipo ganó la Champions League de 2004 con José Mourinho en el banquillo?",
+"o": [
+"Oporto",
+"Mónaco",
+"Deportivo de La Coruña",
+"Chelsea"
+],
+"c": 0,
+"e": "El Oporto venció 3-0 al Mónaco en la final de Gelsenkirchen.",
+"t": "Champions League",
+"nv": 3
+},
+{
+"p": "¿Qué equipo ganó la FA Cup de 2025, el primer gran título de su historia?",
+"o": [
+"Crystal Palace",
+"Manchester City",
+"Aston Villa",
+"Tottenham"
+],
+"c": 0,
+"e": "Ganó 1-0 al Manchester City en Wembley, con gol de Eberechi Eze.",
+"t": "Copas inglesas",
+"nv": 3
+},
+{
+"p": "¿Qué club brasileño ganó la Copa Libertadores 2024?",
+"o": [
+"Botafogo",
+"Flamengo",
+"Atlético Mineiro",
+"Palmeiras"
+],
+"c": 0,
+"e": "Venció 3-1 al Atlético Mineiro en la final de Buenos Aires.",
+"t": "Copa Libertadores",
+"nv": 3
+},
+{
+"p": "¿Qué selección ganó la Copa África de 2023, disputada en 2024?",
+"o": [
+"Costa de Marfil",
+"Nigeria",
+"Senegal",
+"Egipto"
+],
+"c": 0,
+"e": "Venció 2-1 a Nigeria en la final, jugada en Abiyán.",
+"t": "Copa África",
+"nv": 3
+},
+{
+"p": "¿Qué delantero holandés era conocido como «el Cisne de Utrecht»?",
+"o": [
+"Marco van Basten",
+"Dennis Bergkamp",
+"Ruud Gullit",
+"Patrick Kluivert"
+],
+"c": 0,
+"e": "Van Basten ganó tres Balones de Oro con el Milan.",
+"t": "Apodos",
+"nv": 3
+},
+{
+"p": "¿Cuántos goles marcó Ronaldo Nazário en el Mundial de 2002?",
+"o": [
+"8",
+"6",
+"7",
+"5"
+],
+"c": 0,
+"e": "Fue el máximo goleador del torneo y Brasil ganó su quinta Copa del Mundo.",
+"t": "Mundiales",
+"nv": 3
+},
+{
+"p": "¿Quién es el máximo goleador histórico de la selección de Brasil?",
+"o": [
+"Neymar",
+"Pelé",
+"Ronaldo Nazário",
+"Romário"
+],
+"c": 0,
+"e": "Neymar superó en 2023 los 77 goles de Pelé.",
+"t": "Selecciones",
+"nv": 3
+},
+{
+"p": "¿Qué equipo ganó la primera Conference League, en 2022?",
+"o": [
+"Roma",
+"Feyenoord",
+"Leicester City",
+"Olympique de Marsella"
+],
+"c": 0,
+"e": "La Roma de Mourinho venció 1-0 al Feyenoord en la final de Tirana.",
+"t": "Conference League",
+"nv": 3
+},
+{
+"p": "¿Qué selección ganó el Mundial de 1998 jugando como anfitriona?",
+"o": [
+"Francia",
+"Brasil",
+"Italia",
+"Alemania"
+],
+"c": 0,
+"e": "Francia venció 3-0 a Brasil en la final, en el Stade de France, con dos goles de Zidane.",
+"t": "Mundiales",
+"nv": 1
+},
+{
+"p": "¿Qué país organizó el Mundial de 1994?",
+"o": [
+"Estados Unidos",
+"México",
+"Italia",
+"Japón"
+],
+"c": 0,
+"e": "La final se jugó en el Rose Bowl de Pasadena y Brasil superó a Italia en los penaltis.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué animal era Zakumi, la mascota del Mundial de 2010?",
+"o": [
+"Un leopardo",
+"Un león",
+"Un elefante",
+"Una cebra"
+],
+"c": 0,
+"e": "Zakumi era un leopardo de pelo verde y camiseta amarilla, los colores de Sudáfrica, el país anfitrión.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué Mundial fue el primero en usar el videoarbitraje (VAR)?",
+"o": [
+"Rusia 2018",
+"Brasil 2014",
+"Sudáfrica 2010",
+"Alemania 2006"
+],
+"c": 0,
+"e": "El VAR se estrenó en una Copa del Mundo en Rusia 2018, el torneo que ganó Francia.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó el Mundial de 1978 jugando como anfitriona?",
+"o": [
+"Argentina",
+"Brasil",
+"Países Bajos",
+"Alemania Occidental"
+],
+"c": 0,
+"e": "Argentina venció 3-1 a Países Bajos en la prórroga de la final, jugada en Buenos Aires.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Qué selección perdió las finales de 1974 y 1978 contra el país anfitrión?",
+"o": [
+"Países Bajos",
+"Hungría",
+"Checoslovaquia",
+"Suecia"
+],
+"c": 0,
+"e": "Perdió con Alemania Occidental en 1974 y con Argentina en 1978, las dos veces jugando fuera de casa.",
+"t": "Mundiales",
+"nv": 3
+},
+{
+"p": "¿Cuántos Mundiales masculinos ha ganado Alemania, contando los de Alemania Occidental?",
+"o": [
+"Cuatro",
+"Tres",
+"Cinco",
+"Dos"
+],
+"c": 0,
+"e": "Ganó en 1954, 1974, 1990 y 2014.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Con cuántos años ganó Pelé su primer Mundial, en 1958?",
+"o": [
+"17",
+"19",
+"21",
+"23"
+],
+"c": 0,
+"e": "Tenía 17 años y marcó dos goles en la final, que Brasil ganó 5-2 a Suecia.",
+"t": "Mundiales",
+"nv": 2
+},
+{
+"p": "¿Quién marcó el gol de la victoria de España en la final de la Eurocopa de 1964?",
+"o": [
+"Marcelino",
+"Amancio",
+"Luis Suárez",
+"Del Sol"
+],
+"c": 0,
+"e": "Marcelino marcó en el minuto 84 y España ganó 2-1 a la Unión Soviética en el Bernabéu.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Con qué resultado ganó España la final de la Eurocopa de 2012 contra Italia?",
+"o": [
+"4-0",
+"3-0",
+"2-0",
+"1-0"
+],
+"c": 0,
+"e": "En Kiev marcaron Silva, Jordi Alba, Torres y Mata, y España revalidó su título.",
+"t": "Eurocopa",
+"nv": 2
+},
+{
+"p": "¿Qué selección ganó la primera Eurocopa, en 1960?",
+"o": [
+"Unión Soviética",
+"Yugoslavia",
+"Francia",
+"Checoslovaquia"
+],
+"c": 0,
+"e": "Venció 2-1 a Yugoslavia en la prórroga de la final, jugada en París.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Qué selección ganó la Eurocopa de 1996 con un «gol de oro» en la final?",
+"o": [
+"Alemania",
+"República Checa",
+"Inglaterra",
+"Francia"
+],
+"c": 0,
+"e": "Bierhoff marcó en la prórroga y Alemania ganó 2-1 a la República Checa en Wembley.",
+"t": "Eurocopa",
+"nv": 3
+},
+{
+"p": "¿Qué club inglés ganó la final de la Champions League de 2019 al Tottenham en Madrid?",
+"o": [
+"Liverpool",
+"Manchester City",
+"Chelsea",
+"Arsenal"
+],
+"c": 0,
+"e": "El Liverpool ganó 2-0 en el estadio Metropolitano, con goles de Salah, de penalti, y de Origi.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Quién marcó el único gol de la final de la Champions de 2022 entre el Real Madrid y el Liverpool?",
+"o": [
+"Vinícius Júnior",
+"Karim Benzema",
+"Rodrygo",
+"Fede Valverde"
+],
+"c": 0,
+"e": "Vinícius marcó en el minuto 59 en el Stade de France, y Courtois fue clave con nueve paradas.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué club ganó la Champions de 2012 en el estadio de su rival, el Allianz Arena?",
+"o": [
+"Chelsea",
+"Bayern de Múnich",
+"Barcelona",
+"Real Madrid"
+],
+"c": 0,
+"e": "El Chelsea empató 1-1 con el Bayern y ganó en los penaltis, con el último lanzado por Drogba.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Cuántos goles marcó el Barcelona al PSG en la «remontada» de 2017 en el Camp Nou?",
+"o": [
+"Seis",
+"Cinco",
+"Cuatro",
+"Siete"
+],
+"c": 0,
+"e": "Ganó 6-1 tras perder 4-0 en la ida, con el gol de Sergi Roberto en el minuto 95.",
+"t": "Champions League",
+"nv": 2
+},
+{
+"p": "¿Qué entrenador ganó con el Valencia las Ligas de 2002 y 2004?",
+"o": [
+"Rafa Benítez",
+"Claudio Ranieri",
+"Héctor Cúper",
+"Quique Sánchez Flores"
+],
+"c": 0,
+"e": "Benítez ganó además la Copa de la UEFA de 2004 con el Valencia, antes de irse al Liverpool.",
+"t": "Clubes y ligas",
+"nv": 3
+},
+{
+"p": "¿En qué estadio se proclamó campeón de Liga el Atlético de Madrid en 2014?",
+"o": [
+"Camp Nou",
+"Vicente Calderón",
+"Santiago Bernabéu",
+"Mestalla"
+],
+"c": 0,
+"e": "Empató 1-1 con el Barcelona en la última jornada y ganó su décima Liga.",
+"t": "Clubes y ligas",
+"nv": 3
+},
+{
+"p": "¿Qué selección ha ganado más Copas América hasta 2024?",
+"o": [
+"Argentina",
+"Uruguay",
+"Brasil",
+"Chile"
+],
+"c": 0,
+"e": "Argentina suma 16 títulos tras ganar la edición de 2024; Uruguay tiene 15.",
+"t": "Copa América",
+"nv": 3
+},
+{
+"p": "¿Cómo se llama el trofeo del Balón de Oro que premia al mejor portero?",
+"o": [
+"Trofeo Yashin",
+"Trofeo Zamora",
+"Trofeo Buffon",
+"Trofeo Neuer"
+],
+"c": 0,
+"e": "Lleva el nombre del portero soviético Lev Yashin, el único guardameta que ganó el Balón de Oro.",
+"t": "Jugadores",
+"nv": 3
+},
+{
+"p": "¿Qué selección es conocida como «la Albiceleste»?",
+"o": [
+"Argentina",
+"Uruguay",
+"Honduras",
+"Grecia"
+],
+"c": 0,
+"e": "El apodo viene de los colores celeste y blanco de su camiseta.",
+"t": "Apodos",
+"nv": 1
+},
+{
+"p": "¿Qué selección es conocida como «la Mannschaft»?",
+"o": [
+"Alemania",
+"Austria",
+"Suiza",
+"Países Bajos"
+],
+"c": 0,
+"e": "En alemán significa «el equipo»; así llaman a su selección nacional.",
+"t": "Apodos",
+"nv": 1
+},
+{
+"p": "¿Quién era el seleccionador de España cuando ganó el Mundial de 2010?",
+"o": [
+"Vicente del Bosque",
+"Luis Aragonés",
+"Julen Lopetegui",
+"Luis Enrique"
+],
+"c": 0,
+"e": "Del Bosque dirigió a la selección entre 2008 y 2016 y ganó también la Eurocopa de 2012.",
+"t": "Entrenadores",
+"nv": 1
+},
+{
+"p": "¿Quién era el seleccionador de España cuando ganó la Eurocopa de 2008?",
+"o": [
+"Luis Aragonés",
+"Vicente del Bosque",
+"Javier Clemente",
+"José Antonio Camacho"
+],
+"c": 0,
+"e": "Aragonés apostó por un juego de toque y puso fin a 44 años sin títulos de la selección.",
+"t": "Entrenadores",
+"nv": 2
+},
+{
+"p": "¿Qué dos clubes juegan sus partidos en el estadio de San Siro, en Milán?",
+"o": [
+"Milan e Inter",
+"Juventus y Torino",
+"Roma y Lazio",
+"Nápoles y Salernitana"
+],
+"c": 0,
+"e": "Los dos clubes de la ciudad comparten el estadio, cuyo nombre oficial es Giuseppe Meazza.",
+"t": "Clubes y ligas",
+"nv": 2
+}
+]
 }

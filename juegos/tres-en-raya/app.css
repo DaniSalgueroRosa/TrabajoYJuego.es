@@ -1,10 +1,1 @@
-/* TRES EN RAYA: cuadrícula de 3×3 con la X en rosa y la O en lima (además de la letra, así no depende solo del color). */
-.tr-tablero { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; width: min(100%, 20rem); margin: 4px auto; padding: 8px; background: var(--noche-linea); }
-.tr-celda { aspect-ratio: 1; display: grid; place-items: center; min-width: 0; padding: 0; border: 0; border-radius: 0; cursor: pointer; background: var(--tinta); color: var(--tiza); font: 400 3.2rem / 1 var(--f-pixel); font-size: round(down, 3.4rem, 10px); }
-.tr-celda:hover:not(:disabled) { background: var(--noche-2); }
-.tr-celda:focus-visible { outline: 3px solid var(--limon); outline-offset: 2px; position: relative; z-index: 1; }
-.tr-celda:disabled { cursor: default; }
-.tr-X { color: var(--sandia); }
-.tr-O { color: var(--limon); }
-.tr-gana { background: var(--pizarra-media); }
-.tr-celda.tr-gana:disabled { color: var(--tiza); }
+.tr-tablero{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;width:min(100%,20rem);margin:4px auto;padding:8px;background:var(--noche-linea)}.tr-celda{aspect-ratio:1;display:grid;place-items:center;min-width:0;padding:0;border:0;border-radius:0;cursor:pointer;background:var(--tinta);color:var(--tiza);font:400 3.2rem / 1 var(--f-pixel);font-size:round(down,3.4rem,10px)}.tr-celda:hover:not(:disabled){background:var(--noche-2)}.tr-celda:focus-visible{outline:3px solid var(--limon);outline-offset:2px;position:relative;z-index:1}.tr-celda:disabled{cursor:default}.tr-X{color:var(--sandia)}.tr-O{color:var(--limon)}.tr-gana{background:var(--pizarra-media)}.tr-celda.tr-gana:disabled{color:var(--tiza)}

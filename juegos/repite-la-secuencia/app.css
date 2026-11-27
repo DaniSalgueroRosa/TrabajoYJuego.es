@@ -1,11 +1,1 @@
-/* REPITE LA SECUENCIA: cuadrícula 2×2 de botones grandes; el color se pone desde el script (apagado y encendido), el símbolo y el nombre dan la misma información sin color. */
-.sq-tablero { display: grid; grid-template-columns: 1fr 1fr; gap: var(--e2); width: min(100%, 22rem); margin: var(--e2) auto; }
-.sq-boton { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 8rem; padding: var(--e2); border: 4px solid var(--noche-linea); border-radius: 12px; color: var(--tiza); font-family: var(--f-pixel); cursor: pointer; touch-action: manipulation; transition: transform 0.06s; }
-.sq-boton:disabled { cursor: default; opacity: 1; }
-.sq-boton:not(:disabled):active { transform: scale(0.97); }
-.sq-boton:focus-visible { outline: 3px solid var(--limon); outline-offset: 3px; }
-.sq-simbolo { font-size: 2.2rem; line-height: 1; }
-.sq-nombre { font-size: var(--t-1); }
-.sq-on { border-color: var(--tiza); color: var(--tinta); }
-.sq-error { border-color: var(--sandia); }
-@media (prefers-reduced-motion: reduce) { .sq-boton { transition: none; } }
+.sq-tablero{display:grid;grid-template-columns:1fr 1fr;gap:var(--e2);width:min(100%,22rem);margin:var(--e2) auto}.sq-boton{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:8rem;padding:var(--e2);border:4px solid var(--noche-linea);border-radius:12px;color:var(--tiza);font-family:var(--f-pixel);cursor:pointer;touch-action:manipulation;transition:transform 0.06s}.sq-boton:disabled{cursor:default;opacity:1}.sq-boton:not(:disabled):active{transform:scale(0.97)}.sq-boton:focus-visible{outline:3px solid var(--limon);outline-offset:3px}.sq-simbolo{font-size:2.2rem;line-height:1}.sq-nombre{font-size:var(--t-1)}.sq-on{border-color:var(--tiza);color:var(--tinta)}.sq-error{border-color:var(--sandia)}@media (prefers-reduced-motion:reduce){.sq-boton{transition:none}}

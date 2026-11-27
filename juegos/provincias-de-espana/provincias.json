@@ -4,252 +4,302 @@
 {
 "n": "Almería",
 "ca": "Andalucía",
-"cap": "Almería"
+"cap": "Almería",
+"nv": 2
 },
 {
 "n": "Cádiz",
 "ca": "Andalucía",
-"cap": "Cádiz"
+"cap": "Cádiz",
+"nv": 1
 },
 {
 "n": "Córdoba",
 "ca": "Andalucía",
-"cap": "Córdoba"
+"cap": "Córdoba",
+"nv": 1
 },
 {
 "n": "Granada",
 "ca": "Andalucía",
-"cap": "Granada"
+"cap": "Granada",
+"nv": 1
 },
 {
 "n": "Huelva",
 "ca": "Andalucía",
-"cap": "Huelva"
+"cap": "Huelva",
+"nv": 2
 },
 {
 "n": "Jaén",
 "ca": "Andalucía",
-"cap": "Jaén"
+"cap": "Jaén",
+"nv": 2
 },
 {
 "n": "Málaga",
 "ca": "Andalucía",
-"cap": "Málaga"
+"cap": "Málaga",
+"nv": 1
 },
 {
 "n": "Sevilla",
 "ca": "Andalucía",
-"cap": "Sevilla"
+"cap": "Sevilla",
+"nv": 1
 },
 {
 "n": "Huesca",
 "ca": "Aragón",
-"cap": "Huesca"
+"cap": "Huesca",
+"nv": 2
 },
 {
 "n": "Teruel",
 "ca": "Aragón",
-"cap": "Teruel"
+"cap": "Teruel",
+"nv": 2
 },
 {
 "n": "Zaragoza",
 "ca": "Aragón",
-"cap": "Zaragoza"
+"cap": "Zaragoza",
+"nv": 1
 },
 {
 "n": "Asturias",
 "ca": "Asturias",
-"cap": "Oviedo"
+"cap": "Oviedo",
+"nv": 1
 },
 {
 "n": "Islas Baleares",
 "ca": "Islas Baleares",
-"cap": "Palma"
+"cap": "Palma",
+"nv": 1
 },
 {
 "n": "Las Palmas",
 "ca": "Canarias",
-"cap": "Las Palmas de Gran Canaria"
+"cap": "Las Palmas de Gran Canaria",
+"nv": 1
 },
 {
 "n": "Santa Cruz de Tenerife",
 "ca": "Canarias",
-"cap": "Santa Cruz de Tenerife"
+"cap": "Santa Cruz de Tenerife",
+"nv": 1
 },
 {
 "n": "Cantabria",
 "ca": "Cantabria",
-"cap": "Santander"
+"cap": "Santander",
+"nv": 1
 },
 {
 "n": "Ávila",
 "ca": "Castilla y León",
-"cap": "Ávila"
+"cap": "Ávila",
+"nv": 1
 },
 {
 "n": "Burgos",
 "ca": "Castilla y León",
-"cap": "Burgos"
+"cap": "Burgos",
+"nv": 2
 },
 {
 "n": "León",
 "ca": "Castilla y León",
-"cap": "León"
+"cap": "León",
+"nv": 1
 },
 {
 "n": "Palencia",
 "ca": "Castilla y León",
-"cap": "Palencia"
+"cap": "Palencia",
+"nv": 1
 },
 {
 "n": "Salamanca",
 "ca": "Castilla y León",
-"cap": "Salamanca"
+"cap": "Salamanca",
+"nv": 1
 },
 {
 "n": "Segovia",
 "ca": "Castilla y León",
-"cap": "Segovia"
+"cap": "Segovia",
+"nv": 3
 },
 {
 "n": "Soria",
 "ca": "Castilla y León",
-"cap": "Soria"
+"cap": "Soria",
+"nv": 3
 },
 {
 "n": "Valladolid",
 "ca": "Castilla y León",
-"cap": "Valladolid"
+"cap": "Valladolid",
+"nv": 1
 },
 {
 "n": "Zamora",
 "ca": "Castilla y León",
-"cap": "Zamora"
+"cap": "Zamora",
+"nv": 1
 },
 {
 "n": "Albacete",
 "ca": "Castilla-La Mancha",
-"cap": "Albacete"
+"cap": "Albacete",
+"nv": 3
 },
 {
 "n": "Ciudad Real",
 "ca": "Castilla-La Mancha",
-"cap": "Ciudad Real"
+"cap": "Ciudad Real",
+"nv": 2
 },
 {
 "n": "Cuenca",
 "ca": "Castilla-La Mancha",
-"cap": "Cuenca"
+"cap": "Cuenca",
+"nv": 2
 },
 {
 "n": "Guadalajara",
 "ca": "Castilla-La Mancha",
-"cap": "Guadalajara"
+"cap": "Guadalajara",
+"nv": 2
 },
 {
 "n": "Toledo",
 "ca": "Castilla-La Mancha",
-"cap": "Toledo"
+"cap": "Toledo",
+"nv": 2
 },
 {
 "n": "Barcelona",
 "ca": "Cataluña",
-"cap": "Barcelona"
+"cap": "Barcelona",
+"nv": 2
 },
 {
 "n": "Girona",
 "ca": "Cataluña",
-"cap": "Girona"
+"cap": "Girona",
+"nv": 1
 },
 {
 "n": "Lleida",
 "ca": "Cataluña",
-"cap": "Lleida"
+"cap": "Lleida",
+"nv": 1
 },
 {
 "n": "Tarragona",
 "ca": "Cataluña",
-"cap": "Tarragona"
+"cap": "Tarragona",
+"nv": 1
 },
 {
 "n": "Alicante",
 "ca": "Comunidad Valenciana",
-"cap": "Alicante"
+"cap": "Alicante",
+"nv": 2
 },
 {
 "n": "Castellón",
 "ca": "Comunidad Valenciana",
-"cap": "Castellón de la Plana"
+"cap": "Castellón de la Plana",
+"nv": 1
 },
 {
 "n": "Valencia",
 "ca": "Comunidad Valenciana",
-"cap": "Valencia"
+"cap": "Valencia",
+"nv": 1
 },
 {
 "n": "Badajoz",
 "ca": "Extremadura",
-"cap": "Badajoz"
+"cap": "Badajoz",
+"nv": 3
 },
 {
 "n": "Cáceres",
 "ca": "Extremadura",
-"cap": "Cáceres"
+"cap": "Cáceres",
+"nv": 3
 },
 {
 "n": "A Coruña",
 "ca": "Galicia",
-"cap": "A Coruña"
+"cap": "A Coruña",
+"nv": 1
 },
 {
 "n": "Lugo",
 "ca": "Galicia",
-"cap": "Lugo"
+"cap": "Lugo",
+"nv": 2
 },
 {
 "n": "Ourense",
 "ca": "Galicia",
-"cap": "Ourense"
+"cap": "Ourense",
+"nv": 1
 },
 {
 "n": "Pontevedra",
 "ca": "Galicia",
-"cap": "Pontevedra"
+"cap": "Pontevedra",
+"nv": 1
 },
 {
 "n": "Madrid",
 "ca": "Comunidad de Madrid",
-"cap": "Madrid"
+"cap": "Madrid",
+"nv": 2
 },
 {
 "n": "Murcia",
 "ca": "Región de Murcia",
-"cap": "Murcia"
+"cap": "Murcia",
+"nv": 1
 },
 {
 "n": "Navarra",
 "ca": "Navarra",
-"cap": "Pamplona"
+"cap": "Pamplona",
+"nv": 3
 },
 {
 "n": "Álava",
 "ca": "País Vasco",
-"cap": "Vitoria-Gasteiz"
+"cap": "Vitoria-Gasteiz",
+"nv": 2
 },
 {
 "n": "Guipúzcoa",
 "ca": "País Vasco",
-"cap": "San Sebastián"
+"cap": "San Sebastián",
+"nv": 2
 },
 {
 "n": "Vizcaya",
 "ca": "País Vasco",
-"cap": "Bilbao"
+"cap": "Bilbao",
+"nv": 2
 },
 {
 "n": "La Rioja",
 "ca": "La Rioja",
-"cap": "Logroño"
+"cap": "Logroño",
+"nv": 1
 }
 ]
 }

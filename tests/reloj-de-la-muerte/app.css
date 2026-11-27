@@ -1,5 +1,1 @@
-body[data-item="reloj-de-la-muerte"] .rm { display: grid; gap: var(--e5); }
-body[data-item="reloj-de-la-muerte"] .rm[hidden] { display: none; }
-body[data-item="reloj-de-la-muerte"] .rm-bloque { display: grid; gap: var(--e2); }
-body[data-item="reloj-de-la-muerte"] .rm-etiqueta { font: 700 var(--t1) / 1.2 var(--tt-fuente-tit); }
-body[data-item="reloj-de-la-muerte"] .rm-edad { width: 7rem; text-align: center; }
+body[data-item="reloj-de-la-muerte"] .rm{display:grid;gap:var(--e5)}body[data-item="reloj-de-la-muerte"] .rm[hidden]{display:none}body[data-item="reloj-de-la-muerte"] .rm-bloque{display:grid;gap:var(--e2)}body[data-item="reloj-de-la-muerte"] .rm-etiqueta{font:700 var(--t1) / 1.2 var(--tt-fuente-tit)}body[data-item="reloj-de-la-muerte"] .rm-edad{width:7rem;text-align:center}

@@ -1,7 +1,1 @@
-body[data-item="calculadora-de-amor"] .ca { display: grid; gap: var(--e5); }
-body[data-item="calculadora-de-amor"] .ca[hidden] { display: none; }
-body[data-item="calculadora-de-amor"] .ca-fila { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: var(--e3); }
-body[data-item="calculadora-de-amor"] .ca-campo { display: grid; gap: var(--e2); font: 700 var(--t1) / 1.2 var(--tt-fuente-tit); }
-body[data-item="calculadora-de-amor"] .ca-nombre { width: 100%; min-width: 0; font-size: 1.15rem; }
-body[data-item="calculadora-de-amor"] .ca-y { align-self: center; padding-top: 1.6rem; font: 800 1.8rem / 1 var(--tt-fuente-tit); color: var(--t-acento); }
-@media (max-width: 34rem) { body[data-item="calculadora-de-amor"] .ca-fila { grid-template-columns: 1fr; } body[data-item="calculadora-de-amor"] .ca-y { padding-top: 0; justify-self: center; } }
+body[data-item="calculadora-de-amor"] .ca{display:grid;gap:var(--e5)}body[data-item="calculadora-de-amor"] .ca[hidden]{display:none}body[data-item="calculadora-de-amor"] .ca-fila{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:var(--e3)}body[data-item="calculadora-de-amor"] .ca-campo{display:grid;gap:var(--e2);font:700 var(--t1) / 1.2 var(--tt-fuente-tit)}body[data-item="calculadora-de-amor"] .ca-nombre{width:100%;min-width:0;font-size:1.15rem}body[data-item="calculadora-de-amor"] .ca-y{align-self:center;padding-top:1.6rem;font:800 1.8rem / 1 var(--tt-fuente-tit);color:var(--t-acento)}@media (max-width:34rem){body[data-item="calculadora-de-amor"] .ca-fila{grid-template-columns:1fr}body[data-item="calculadora-de-amor"] .ca-y{padding-top:0;justify-self:center}}

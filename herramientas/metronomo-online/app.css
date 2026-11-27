@@ -1,8 +1,1 @@
-.metro-bpm { display: flex; gap: var(--e2); align-items: stretch; }
-.metro-bpm input { flex: 1; min-width: 0; text-align: center; font: 800 var(--t2) / 1 var(--f-trabajo); font-variant-numeric: tabular-nums; }
-.metro-bpm .boton { min-width: 3rem; padding-inline: 0; font-size: var(--t1); }
-.metro-pulsos { display: flex; flex-wrap: wrap; gap: var(--e3); }
-.metro-punto { width: 2.6rem; height: 2.6rem; border: 3px solid var(--pizarra); border-radius: 50%; background: var(--papel); }
-.metro-punto--acento { border-radius: 0.5rem; }
-.metro-punto.es-activo { background: var(--limon); box-shadow: 3px 3px 0 var(--pizarra); }
-@media (prefers-reduced-motion: no-preference) { .metro-punto { transition: background 0.06s linear; } }
+.metro-bpm{display:flex;gap:var(--e2);align-items:stretch}.metro-bpm input{flex:1;min-width:0;text-align:center;font:800 var(--t2) / 1 var(--f-trabajo);font-variant-numeric:tabular-nums}.metro-bpm .boton{min-width:3rem;padding-inline:0;font-size:var(--t1)}.metro-pulsos{display:flex;flex-wrap:wrap;gap:var(--e3)}.metro-punto{width:2.6rem;height:2.6rem;border:3px solid var(--pizarra);border-radius:50%;background:var(--papel)}.metro-punto--acento{border-radius:0.5rem}.metro-punto.es-activo{background:var(--limon);box-shadow:3px 3px 0 var(--pizarra)}@media (prefers-reduced-motion:no-preference){.metro-punto{transition:background 0.06s linear}}
